@@ -5,7 +5,7 @@
 }
 
 .home-subtitle {
-  color: #7b1a2c;
+  color: #c9a84c;
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
@@ -23,8 +23,8 @@
   align-items: center;
   gap: 0.5rem;
   padding: 1.5rem 1rem;
-  background: #fff;
-  border: 2px solid #e0d5c7;
+  background: #1a1a1a;
+  border: 2px solid #3a3a3a;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -32,29 +32,29 @@
 }
 
 .text-card:hover:not(:disabled) {
-  border-color: #7b1a2c;
-  box-shadow: 0 2px 12px rgba(123, 26, 44, 0.1);
+  border-color: #c9a84c;
+  box-shadow: 0 2px 12px rgba(201, 168, 76, 0.15);
   transform: translateY(-2px);
 }
 
 .text-card:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
 }
 
 .text-card-tibetan {
   font-size: 1.3rem;
-  color: #7b1a2c;
+  color: #c9a84c;
 }
 
 .text-card-title {
   font-size: 0.95rem;
-  color: #555;
+  color: #a89060;
 }
 
 .text-card-badge {
   font-size: 0.7rem;
-  color: #999;
+  color: #666;
   font-style: italic;
   margin-top: 0.3rem;
 }

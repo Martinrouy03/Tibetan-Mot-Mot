@@ -11,7 +11,7 @@
 .back-button {
   background: none;
   border: none;
-  color: #7b1a2c;
+  color: #c9a84c;
   cursor: pointer;
   font-size: 0.9rem;
   padding: 0;
@@ -23,7 +23,7 @@
 }
 
 .text-page-title {
-  color: #333;
+  color: #a89060;
   font-size: 1.3rem;
   margin-bottom: 2rem;
   font-weight: 500;
@@ -31,7 +31,7 @@
 
 .text-page-title-tibetan {
   display: block;
-  color: #7b1a2c;
+  color: #c9a84c;
   font-size: 1.5rem;
   margin-bottom: 0.3rem;
 }
@@ -41,12 +41,12 @@
 }
 
 .section-title {
-  color: #7b1a2c;
+  color: #c9a84c;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1rem;
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid #e0d5c7;
+  border-bottom: 1px solid #333;
 }
 
 .phrases {
@@ -67,12 +67,12 @@
 }
 
 .phrase:hover {
-  background-color: #f5e6ea;
+  background-color: rgba(201, 168, 76, 0.1);
 }
 
 .phrase-text {
   font-size: 1.5rem;
-  color: #333;
+  color: #c9a84c;
   line-height: 2;
 }
 
