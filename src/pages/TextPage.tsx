@@ -68,7 +68,7 @@ export default function TextPage() {
   };
 
   return (
-    <div className="text-page">
+    <div className={`text-page ${interactionMode === 'scroll' ? 'text-page-scroll' : ''}`}>
       <button className="back-button" onClick={() => navigate('/')}>
         ← Retour aux textes
       </button>
@@ -81,19 +81,21 @@ export default function TextPage() {
           <h3 className="section-title">{section.title}</h3>
           <div className="phrases">
             {section.phrases.map((phrase) => (
-              <div key={phrase.id} className="phrase-container">
-                <div
-                  ref={(el) => setPhraseRef(phrase.id, el)}
-                  data-phrase-id={phrase.id}
-                  className={`phrase ${selectedPhraseId === phrase.id ? 'phrase-active' : ''}`}
-                  onClick={() => handlePhraseClick(phrase.id)}
-                >
-                  <span className={`phrase-text ${displayMode === 'phonetics' ? 'phrase-text-phonetics' : ''}`}>
-                    {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                  </span>
-                </div>
-                {selectedPhraseId === phrase.id && (
+              <div
+                key={phrase.id}
+                ref={(el) => setPhraseRef(phrase.id, el)}
+                data-phrase-id={phrase.id}
+                className="phrase-container"
+                onClick={() => handlePhraseClick(phrase.id)}
+              >
+                {selectedPhraseId === phrase.id ? (
                   <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
+                ) : (
+                  <div className="phrase">
+                    <span className={`phrase-text ${displayMode === 'phonetics' ? 'phrase-text-phonetics' : ''}`}>
+                      {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                    </span>
+                  </div>
                 )}
               </div>
             ))}

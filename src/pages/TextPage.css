@@ -4,6 +4,10 @@
   padding: 2rem;
 }
 
+.text-page-scroll {
+  padding-bottom: 70vh;
+}
+
 .back-button {
   background: none;
   border: none;
@@ -52,23 +56,18 @@
 }
 
 .phrase-container {
-  /* wrapper for phrase + breakdown */
+  cursor: pointer;
+  border-radius: 6px;
 }
 
 .phrase {
   padding: 0.6rem 1rem;
   border-radius: 6px;
-  cursor: pointer;
   transition: all 0.15s ease;
 }
 
 .phrase:hover {
   background-color: #f5e6ea;
-}
-
-.phrase-active {
-  background-color: #f5e6ea;
-  border-left: 3px solid #7b1a2c;
 }
 
 .phrase-text {
