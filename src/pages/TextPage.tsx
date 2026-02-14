@@ -1,0 +1,105 @@
+import { useEffect, useRef, useCallback } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { practiceTexts } from '../data/texts';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { setSelectedPhrase } from '../store/uiSlice';
+import PhraseBreakdown from '../components/PhraseBreakdown';
+import './TextPage.css';
+
+const SCROLL_THRESHOLD = 0.4;
+
+export default function TextPage() {
+  const { textId } = useParams<{ textId: string }>();
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+  const displayMode = useAppSelector((state) => state.ui.displayMode);
+  const interactionMode = useAppSelector((state) => state.ui.interactionMode);
+  const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
+  const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+
+  const text = practiceTexts.find((t) => t.id === textId);
+
+  const setPhraseRef = useCallback((phraseId: string, el: HTMLDivElement | null) => {
+    if (el) {
+      phraseRefs.current.set(phraseId, el);
+    } else {
+      phraseRefs.current.delete(phraseId);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (interactionMode !== 'scroll') return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const phraseId = entry.target.getAttribute('data-phrase-id');
+            if (phraseId) {
+              dispatch(setSelectedPhrase(phraseId));
+            }
+          }
+        }
+      },
+      {
+        rootMargin: `-${SCROLL_THRESHOLD * 100}% 0px -${(1 - SCROLL_THRESHOLD) * 100}% 0px`,
+        threshold: 0,
+      }
+    );
+
+    phraseRefs.current.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, [interactionMode, dispatch, text]);
+
+  if (!text) {
+    return (
+      <div className="text-page">
+        <p>Texte introuvable.</p>
+        <button onClick={() => navigate('/')}>Retour</button>
+      </div>
+    );
+  }
+
+  const handlePhraseClick = (phraseId: string) => {
+    if (interactionMode !== 'click') return;
+    dispatch(setSelectedPhrase(selectedPhraseId === phraseId ? null : phraseId));
+  };
+
+  return (
+    <div className="text-page">
+      <button className="back-button" onClick={() => navigate('/')}>
+        ← Retour aux textes
+      </button>
+      <h2 className="text-page-title">
+        <span className="text-page-title-tibetan">{text.tibetanTitle}</span>
+        {text.title}
+      </h2>
+      {text.sections.map((section) => (
+        <div key={section.id} className="section">
+          <h3 className="section-title">{section.title}</h3>
+          <div className="phrases">
+            {section.phrases.map((phrase) => (
+              <div key={phrase.id} className="phrase-container">
+                <div
+                  ref={(el) => setPhraseRef(phrase.id, el)}
+                  data-phrase-id={phrase.id}
+                  className={`phrase ${selectedPhraseId === phrase.id ? 'phrase-active' : ''}`}
+                  onClick={() => handlePhraseClick(phrase.id)}
+                >
+                  <span className={`phrase-text ${displayMode === 'phonetics' ? 'phrase-text-phonetics' : ''}`}>
+                    {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                  </span>
+                </div>
+                {selectedPhraseId === phrase.id && (
+                  <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}

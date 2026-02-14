@@ -1,0 +1,83 @@
+.text-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #7b1a2c;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.text-page-title {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.text-page-title-tibetan {
+  display: block;
+  color: #7b1a2c;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #7b1a2c;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e0d5c7;
+}
+
+.phrases {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.phrase-container {
+  /* wrapper for phrase + breakdown */
+}
+
+.phrase {
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.phrase:hover {
+  background-color: #f5e6ea;
+}
+
+.phrase-active {
+  background-color: #f5e6ea;
+  border-left: 3px solid #7b1a2c;
+}
+
+.phrase-text {
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 2;
+}
+
+.phrase-text-phonetics {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
