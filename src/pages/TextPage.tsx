@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
@@ -6,7 +6,7 @@ import { setSelectedPhrase } from '../store/uiSlice';
 import PhraseBreakdown from '../components/PhraseBreakdown';
 import './TextPage.css';
 
-const SCROLL_THRESHOLD = 0.4;
+const WHEEL_TICKS_PER_PHRASE = 3;
 
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
@@ -17,8 +17,14 @@ export default function TextPage() {
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const wheelAccum = useRef(0);
 
   const text = practiceTexts.find((t) => t.id === textId);
+
+  const allPhraseIds = useMemo(() => {
+    if (!text) return [];
+    return text.sections.flatMap((s) => s.phrases.map((p) => p.id));
+  }, [text]);
 
   const setPhraseRef = useCallback((phraseId: string, el: HTMLDivElement | null) => {
     if (el) {
@@ -31,27 +37,35 @@ export default function TextPage() {
   useEffect(() => {
     if (interactionMode !== 'scroll') return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            const phraseId = entry.target.getAttribute('data-phrase-id');
-            if (phraseId) {
-              dispatch(setSelectedPhrase(phraseId));
-            }
-          }
+    // Select first phrase if none selected
+    if (!selectedPhraseId && allPhraseIds.length > 0) {
+      dispatch(setSelectedPhrase(allPhraseIds[0]));
+    }
+
+    const handleWheel = (e: WheelEvent) => {
+      e.preventDefault();
+
+      const direction = e.deltaY > 0 ? 1 : -1;
+      wheelAccum.current += direction;
+
+      if (Math.abs(wheelAccum.current) >= WHEEL_TICKS_PER_PHRASE) {
+        const step = wheelAccum.current > 0 ? 1 : -1;
+        wheelAccum.current = 0;
+
+        const currentIndex = allPhraseIds.indexOf(selectedPhraseId ?? '');
+        const nextIndex = Math.max(0, Math.min(allPhraseIds.length - 1, currentIndex + step));
+        const nextId = allPhraseIds[nextIndex];
+
+        if (nextId && nextId !== selectedPhraseId) {
+          dispatch(setSelectedPhrase(nextId));
+          phraseRefs.current.get(nextId)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-      },
-      {
-        rootMargin: `-${SCROLL_THRESHOLD * 100}% 0px -${(1 - SCROLL_THRESHOLD) * 100}% 0px`,
-        threshold: 0,
       }
-    );
+    };
 
-    phraseRefs.current.forEach((el) => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, [interactionMode, dispatch, text]);
+    window.addEventListener('wheel', handleWheel, { passive: false });
+    return () => window.removeEventListener('wheel', handleWheel);
+  }, [interactionMode, selectedPhraseId, allPhraseIds, dispatch]);
 
   if (!text) {
     return (
