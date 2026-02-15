@@ -25,3 +25,8 @@ button {
 .app {
   min-height: 100vh;
 }
+
+.tibetan {
+  font-family: 'Jomolhari', serif;
+  font-size: 20px;
+}

@@ -16,7 +16,7 @@ export default function HomePage() {
             onClick={() => navigate(`/text/${text.id}`)}
             disabled={text.sections.length === 0}
           >
-            <span className="text-card-tibetan">{text.tibetanTitle}</span>
+            <span className="text-card-tibetan tibetan">{text.tibetanTitle}</span>
             <span className="text-card-title">{text.title}</span>
             {text.sections.length === 0 && (
               <span className="text-card-badge">Bientôt disponible</span>

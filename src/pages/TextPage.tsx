@@ -73,7 +73,7 @@ export default function TextPage() {
         ← Retour aux textes
       </button>
       <h2 className="text-page-title">
-        <span className="text-page-title-tibetan">{text.tibetanTitle}</span>
+        <span className="text-page-title-tibetan tibetan">{text.tibetanTitle}</span>
         {text.title}
       </h2>
       {text.sections.map((section) => (
@@ -92,7 +92,7 @@ export default function TextPage() {
                   <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                 ) : (
                   <div className="phrase">
-                    <span className={`phrase-text ${displayMode === 'phonetics' ? 'phrase-text-phonetics' : ''}`}>
+                    <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                       {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                     </span>
                   </div>
