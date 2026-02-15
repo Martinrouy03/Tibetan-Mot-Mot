@@ -4,8 +4,11 @@ export interface Word {
   translation: string;
 }
 
+export type PhraseType = 'normal' | 'mantra' | 'instructions' | 'colophon';
+
 export interface Phrase {
   id: string;
+  type: PhraseType;
   tibetan: string;
   phonetics: string;
   translation: string;

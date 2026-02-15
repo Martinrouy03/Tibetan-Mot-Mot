@@ -56,7 +56,7 @@
   position: absolute;
   bottom: 100%;
   left: 50%;
-  transform: rotate(-45deg);
+  transform: rotate(-30deg);
   transform-origin: bottom left;
   font-size: 0.75rem;
   color: #888;

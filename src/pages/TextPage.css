@@ -41,7 +41,7 @@
 }
 
 .section-title {
-  color: #c9a84c;
+  color: #bbb;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -80,4 +80,43 @@
 .phrase-text-phonetics {
   font-size: 1.05rem;
   line-height: 1.6;
+}
+
+.phrase-no-interact {
+  cursor: default;
+}
+
+.phrase-no-interact .phrase:hover {
+  background-color: transparent;
+}
+
+.phrase-mantra {
+  opacity: 0.85;
+  text-align: center;
+}
+
+.phrase-mantra .phrase-text {
+  font-size: 1.8rem;
+}
+
+.phrase-mantra .phrase-text-phonetics {
+  font-size: 1.2rem;
+}
+
+.phrase-special {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.phrase-special .phrase-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #888;
+}
+
+.phrase-special-translation {
+  font-style: italic;
+  color: #777;
+  font-size: 0.85rem;
 }

@@ -18,6 +18,7 @@ export default function TextPage() {
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
+  const lastClickedId = useRef<string | null>(null);
 
   const text = practiceTexts.find((t) => t.id === textId);
 
@@ -37,9 +38,15 @@ export default function TextPage() {
   useEffect(() => {
     if (interactionMode !== 'scroll') return;
 
-    // Select first phrase if none selected
+    // Start from last clicked phrase, or first phrase if none
     if (!selectedPhraseId && allPhraseIds.length > 0) {
-      dispatch(setSelectedPhrase(allPhraseIds[0]));
+      const startId = lastClickedId.current && allPhraseIds.includes(lastClickedId.current)
+        ? lastClickedId.current
+        : allPhraseIds[0];
+      dispatch(setSelectedPhrase(startId));
+      setTimeout(() => {
+        phraseRefs.current.get(startId)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 50);
     }
 
     const handleWheel = (e: WheelEvent) => {
@@ -78,6 +85,7 @@ export default function TextPage() {
 
   const handlePhraseClick = (phraseId: string) => {
     if (interactionMode !== 'click') return;
+    lastClickedId.current = phraseId;
     dispatch(setSelectedPhrase(selectedPhraseId === phraseId ? null : phraseId));
   };
 
@@ -94,25 +102,44 @@ export default function TextPage() {
         <div key={section.id} className="section">
           <h3 className="section-title">{section.title}</h3>
           <div className="phrases">
-            {section.phrases.map((phrase) => (
-              <div
-                key={phrase.id}
-                ref={(el) => setPhraseRef(phrase.id, el)}
-                data-phrase-id={phrase.id}
-                className="phrase-container"
-                onClick={() => handlePhraseClick(phrase.id)}
-              >
-                {selectedPhraseId === phrase.id ? (
-                  <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
-                ) : (
-                  <div className="phrase">
-                    <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                      {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                    </span>
-                  </div>
-                )}
-              </div>
-            ))}
+            {section.phrases.map((phrase) => {
+              const isNormal = phrase.type === 'normal';
+              const isMantra = phrase.type === 'mantra';
+              const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
+
+              return (
+                <div
+                  key={phrase.id}
+                  ref={(el) => setPhraseRef(phrase.id, el)}
+                  data-phrase-id={phrase.id}
+                  className={`phrase-container ${!isNormal ? 'phrase-no-interact' : ''}`}
+                  onClick={() => isNormal && handlePhraseClick(phrase.id)}
+                >
+                  {isNormal && selectedPhraseId === phrase.id ? (
+                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
+                  ) : isMantra ? (
+                    <div className="phrase phrase-mantra">
+                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                      </span>
+                    </div>
+                  ) : isSpecial ? (
+                    <div className="phrase phrase-special">
+                      <span className="phrase-text tibetan">{phrase.tibetan}</span>
+                      {showTranslation && phrase.translation && (
+                        <span className="phrase-special-translation">{phrase.translation}</span>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="phrase">
+                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       ))}
