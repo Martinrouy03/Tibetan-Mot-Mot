@@ -80,6 +80,8 @@
   font-size: 1.5rem;
   color: #c9a84c;
   line-height: 2;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 .phrase-text-phonetics {
