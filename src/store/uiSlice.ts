@@ -6,13 +6,15 @@ interface UiState {
   interactionMode: InteractionMode;
   showTranslation: boolean;
   selectedPhraseId: string | null;
+  tibetanFontSize: number;
 }
 
 const initialState: UiState = {
   displayMode: 'tibetan',
-  interactionMode: 'click',
-  showTranslation: true,
+  interactionMode: 'scroll',
+  showTranslation: false,
   selectedPhraseId: null,
+  tibetanFontSize: 20,
 };
 
 const uiSlice = createSlice({
@@ -32,8 +34,11 @@ const uiSlice = createSlice({
     setSelectedPhrase(state, action: PayloadAction<string | null>) {
       state.selectedPhraseId = action.payload;
     },
+    changeFontSize(state, action: PayloadAction<number>) {
+      state.tibetanFontSize = Math.max(12, Math.min(32, state.tibetanFontSize + action.payload));
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize } = uiSlice.actions;
 export default uiSlice.reducer;

@@ -170,6 +170,9 @@ export default function TextPage() {
           </div>
         </div>
       ))}
+      <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
+        ← Retour aux textes
+      </button>
     </div>
   );
 }

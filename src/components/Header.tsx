@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setDisplayMode, setInteractionMode, toggleTranslation } from '../store/uiSlice';
+import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { DisplayMode, InteractionMode } from '../types';
 import './Header.css';
@@ -41,6 +41,11 @@ export default function Header() {
       )}
       {isTextPage && !collapsed && (
         <div className="header-controls">
+          <div className="font-size-control">
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-1))}>−</button>
+            <span className="font-size-icon">🔍</span>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(1))}>+</button>
+          </div>
           <div className="radio-group">
             <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
               <input

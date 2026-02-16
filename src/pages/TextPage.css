@@ -22,6 +22,11 @@
   text-decoration: underline;
 }
 
+.back-button-bottom {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 .text-page-title {
   color: #a89060;
   font-size: 1.3rem;

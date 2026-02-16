@@ -28,11 +28,5 @@ button {
 
 .tibetan {
   font-family: 'Jomolhari', serif;
-  font-size: 20px;
-}
-
-@media (max-width: 600px) {
-  .tibetan {
-    font-size: 17px;
-  }
+  font-size: var(--tibetan-font-size, 20px);
 }
