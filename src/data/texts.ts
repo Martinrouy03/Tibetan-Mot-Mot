@@ -138,7 +138,7 @@ export const practiceTexts: PracticeText[] = [
           {
             id: 'gy-3-0',
             type: 'mantra',
-            tibetan: '།ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱུསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།',
+            tibetan: '།ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།',
             phonetics: 'om sobhaoua shouddha saroua dharma sobhaoua shouddho hang',
             translation: '',
             words: [],

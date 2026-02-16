@@ -19,6 +19,7 @@ export default function TextPage() {
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
+  const isProgrammaticScroll = useRef(false);
 
   const text = practiceTexts.find((t) => t.id === textId);
 
@@ -35,6 +36,12 @@ export default function TextPage() {
     }
   }, []);
 
+  const scrollToPhrase = useCallback((id: string) => {
+    isProgrammaticScroll.current = true;
+    phraseRefs.current.get(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(() => { isProgrammaticScroll.current = false; }, 600);
+  }, []);
+
   useEffect(() => {
     if (interactionMode !== 'scroll') return;
 
@@ -44,9 +51,7 @@ export default function TextPage() {
         ? lastClickedId.current
         : allPhraseIds[0];
       dispatch(setSelectedPhrase(startId));
-      setTimeout(() => {
-        phraseRefs.current.get(startId)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 50);
+      setTimeout(() => scrollToPhrase(startId), 50);
     }
 
     const handleWheel = (e: WheelEvent) => {
@@ -65,14 +70,36 @@ export default function TextPage() {
 
         if (nextId && nextId !== selectedPhraseId) {
           dispatch(setSelectedPhrase(nextId));
-          phraseRefs.current.get(nextId)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          scrollToPhrase(nextId);
         }
       }
     };
 
+    const handleScroll = () => {
+      if (isProgrammaticScroll.current) return;
+      const viewportCenter = window.innerHeight / 2;
+      let closestId: string | null = null;
+      let closestDistance = Infinity;
+      for (const [id, el] of phraseRefs.current) {
+        const rect = el.getBoundingClientRect();
+        const distance = Math.abs(rect.top + rect.height / 2 - viewportCenter);
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestId = id;
+        }
+      }
+      if (closestId && closestId !== selectedPhraseId) {
+        dispatch(setSelectedPhrase(closestId));
+      }
+    };
+
     window.addEventListener('wheel', handleWheel, { passive: false });
-    return () => window.removeEventListener('wheel', handleWheel);
-  }, [interactionMode, selectedPhraseId, allPhraseIds, dispatch]);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('wheel', handleWheel);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [interactionMode, selectedPhraseId, allPhraseIds, dispatch, scrollToPhrase]);
 
   if (!text) {
     return (
@@ -126,7 +153,7 @@ export default function TextPage() {
                   ) : isSpecial ? (
                     <div className="phrase phrase-special">
                       <span className="phrase-text tibetan">{phrase.tibetan}</span>
-                      {showTranslation && phrase.translation && (
+                      {phrase.translation && (
                         <span className="phrase-special-translation">{phrase.translation}</span>
                       )}
                     </div>
