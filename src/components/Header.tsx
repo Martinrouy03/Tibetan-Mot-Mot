@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setDisplayMode, setInteractionMode, toggleTranslation } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -11,6 +12,7 @@ export default function Header() {
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const navigate = useNavigate();
   const location = useLocation();
+  const [collapsed, setCollapsed] = useState(false);
 
   const handleModeChange = (mode: DisplayMode) => {
     dispatch(setDisplayMode(mode));
@@ -20,12 +22,22 @@ export default function Header() {
     dispatch(setInteractionMode(mode));
   };
 
+  const isTextPage = location.pathname !== '/';
+
   return (
-    <header className="header">
+    <header className={`header ${collapsed && isTextPage ? 'header-collapsed' : ''}`}>
       <h1 className="header-title" onClick={() => navigate('/')}>
         མོཊ་ཨ་མོཊ — Mot à Mot
       </h1>
-      {location.pathname !== '/' && (
+      {isTextPage && (
+        <button
+          className="header-collapse-btn"
+          onClick={() => setCollapsed(!collapsed)}
+        >
+          {collapsed ? '···' : '▲'}
+        </button>
+      )}
+      {isTextPage && !collapsed && (
         <div className="header-controls">
           <div className="radio-group">
             <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
