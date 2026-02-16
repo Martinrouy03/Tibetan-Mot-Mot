@@ -81,3 +81,30 @@
 .toggle-button:not(.active):hover {
   background-color: rgba(201, 168, 76, 0.15);
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0.7rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .header-title {
+    font-size: 1.1rem;
+  }
+
+  .header-controls {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .radio-label {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.78rem;
+  }
+
+  .toggle-button {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.78rem;
+  }
+}

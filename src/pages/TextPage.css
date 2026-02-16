@@ -120,3 +120,25 @@
   color: #777;
   font-size: 0.85rem;
 }
+
+@media (max-width: 600px) {
+  .text-page {
+    padding: 1rem;
+  }
+
+  .text-page-title {
+    font-size: 1.1rem;
+  }
+
+  .text-page-title-tibetan {
+    font-size: 1.2rem;
+  }
+
+  .phrase-text {
+    font-size: 1.2rem;
+  }
+
+  .phrase-text-phonetics {
+    font-size: 0.95rem;
+  }
+}

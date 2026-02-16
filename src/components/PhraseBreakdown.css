@@ -63,3 +63,26 @@
   white-space: nowrap;
   margin-bottom: 0.3rem;
 }
+
+@media (max-width: 600px) {
+  .breakdown {
+    padding: 0.8rem;
+  }
+
+  .breakdown-words {
+    margin-top: 2.2rem;
+    overflow-x: auto;
+  }
+
+  .word-card {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .word-original {
+    font-size: 0.95rem;
+  }
+
+  .word-translation {
+    font-size: 0.65rem;
+  }
+}
