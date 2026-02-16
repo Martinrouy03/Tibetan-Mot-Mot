@@ -26,9 +26,11 @@ export default function Header() {
 
   return (
     <header className={`header ${collapsed && isTextPage ? 'header-collapsed' : ''}`}>
-      <h1 className="header-title" onClick={() => navigate('/')}>
-        མོཊ་ཨ་མོཊ — Mot à Mot
-      </h1>
+      {!(collapsed && isTextPage) && (
+        <h1 className="header-title" onClick={() => navigate('/')}>
+          མོཊ་ཨ་མོཊ — Mot à Mot
+        </h1>
+      )}
       {isTextPage && (
         <button
           className="header-collapse-btn"

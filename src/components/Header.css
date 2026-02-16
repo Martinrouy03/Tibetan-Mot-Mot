@@ -88,7 +88,7 @@
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px), (max-height: 500px) {
   .header-collapse-btn {
     display: block;
     background: none;
@@ -98,10 +98,12 @@
     cursor: pointer;
     padding: 0.2rem 0.4rem;
     line-height: 1;
+    flex-shrink: 0;
   }
 
-  .header-collapsed .header-title {
-    font-size: 0.9rem;
+  .header-collapsed {
+    padding: 0.2rem 0.8rem;
+    justify-content: center;
   }
 
   .header {
@@ -113,12 +115,15 @@
   .header-title {
     font-size: 1rem;
     margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .header-controls {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.4rem;
+    width: 100%;
   }
 
   .radio-label {
