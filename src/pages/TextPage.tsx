@@ -129,10 +129,11 @@ export default function TextPage() {
         <div key={section.id} className="section">
           <h3 className="section-title">{section.title}</h3>
           <div className="phrases">
-            {section.phrases.map((phrase) => {
+            {section.phrases.map((phrase, phraseIndex) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
+              const isLastPhrase = phraseIndex === section.phrases.length - 1;
 
               return (
                 <div
@@ -163,6 +164,20 @@ export default function TextPage() {
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
                     </div>
+                  )}
+                  {isLastPhrase && (section.id === 'refuge' || section.id === 'quatre-illimitees' || section.id === 'supplique') && (
+                    <button
+                      className="scroll-top-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const firstNormal = section.phrases.find((p) => p.type === 'normal');
+                        if (!firstNormal) return;
+                        dispatch(setSelectedPhrase(firstNormal.id));
+                        scrollToPhrase(firstNormal.id);
+                      }}
+                    >
+                      ↑
+                    </button>
                   )}
                 </div>
               );

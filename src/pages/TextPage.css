@@ -77,11 +77,17 @@
 }
 
 .phrase-text {
+  display: block;
   font-size: 1.5rem;
   color: #c9a84c;
   line-height: 2;
   white-space: nowrap;
   overflow-x: auto;
+}
+
+.phrase-special .phrase-text {
+  white-space: normal;
+  overflow-x: visible;
 }
 
 .phrase-text-phonetics {
@@ -126,6 +132,23 @@
   font-style: italic;
   color: #777;
   font-size: 0.85rem;
+}
+
+.scroll-top-btn {
+  display: block;
+  margin: 0.5rem auto 0;
+  background: #0a0a0a;
+  border: none;
+  color: #c9a84c;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 0.2rem 0.8rem;
+  transition: background-color 0.2s ease;
+}
+
+.scroll-top-btn:hover {
+  background-color: rgba(201, 168, 76, 0.15);
 }
 
 @media (max-width: 600px) {

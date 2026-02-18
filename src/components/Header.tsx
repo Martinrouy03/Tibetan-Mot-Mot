@@ -28,7 +28,8 @@ export default function Header() {
     <header className={`header ${collapsed && isTextPage ? 'header-collapsed' : ''}`}>
       {!(collapsed && isTextPage) && (
         <h1 className="header-title" onClick={() => navigate('/')}>
-          མོཊ་ཨ་མོཊ — Mot à Mot
+          <span className="label-full">མོཊ་ཨ་མོཊ — Mot à Mot</span>
+          <span className="label-short tibetan">མོཊ་ཨ་མོཊ</span>
         </h1>
       )}
       {isTextPage && (
@@ -55,7 +56,8 @@ export default function Header() {
                 checked={displayMode === 'tibetan'}
                 onChange={() => handleModeChange('tibetan')}
               />
-              <span>Tibétain</span>
+              <span className="label-full">Tibétain</span>
+              <span className="label-short tibetan">ཀ</span>
             </label>
             <label className={`radio-label ${displayMode === 'phonetics' ? 'active' : ''}`}>
               <input
@@ -65,7 +67,8 @@ export default function Header() {
                 checked={displayMode === 'phonetics'}
                 onChange={() => handleModeChange('phonetics')}
               />
-              <span>Phonétique</span>
+              <span className="label-full">Phonétique</span>
+              <span className="label-short">ka</span>
             </label>
           </div>
           <div className="radio-group">
@@ -77,7 +80,8 @@ export default function Header() {
                 checked={interactionMode === 'click'}
                 onChange={() => handleInteractionChange('click')}
               />
-              <span>Clic</span>
+              <span className="label-full">Clic</span>
+              <span className="label-short">🖱</span>
             </label>
             <label className={`radio-label ${interactionMode === 'scroll' ? 'active' : ''}`}>
               <input
@@ -87,14 +91,16 @@ export default function Header() {
                 checked={interactionMode === 'scroll'}
                 onChange={() => handleInteractionChange('scroll')}
               />
-              <span>Défilement</span>
+              <span className="label-full">Défilement</span>
+              <span className="label-short">↕</span>
             </label>
           </div>
           <button
             className={`toggle-button ${showTranslation ? 'active' : ''}`}
             onClick={() => dispatch(toggleTranslation())}
           >
-            Traduction
+            <span className="label-full">Traduction</span>
+            <span className="label-short">Trad</span>
           </button>
         </div>
       )}
