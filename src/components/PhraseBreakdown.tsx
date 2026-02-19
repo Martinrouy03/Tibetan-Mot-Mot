@@ -13,10 +13,10 @@ export default function PhraseBreakdown({ phrase, displayMode, showTranslation }
       <div className="breakdown-words">
         {phrase.words.map((word, index) => (
           <div key={index} className="word-card">
+            <span className="word-translation">{word.translation}</span>
             <span className={`word-original ${displayMode === 'tibetan' ? 'tibetan' : ''}`}>
               {displayMode === 'tibetan' ? word.tibetan : word.phonetics}
             </span>
-            <span className="word-translation">{word.translation}</span>
           </div>
         ))}
       </div>
