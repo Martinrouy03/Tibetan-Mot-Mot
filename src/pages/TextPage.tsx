@@ -82,7 +82,7 @@ export default function TextPage() {
       let closestDistance = Infinity;
       for (const [id, el] of phraseRefs.current) {
         const rect = el.getBoundingClientRect();
-        const distance = Math.abs(rect.top + rect.height / 2 - viewportCenter);
+        const distance = Math.abs(rect.top + Math.min(rect.height / 2, 40) - viewportCenter);
         if (distance < closestDistance) {
           closestDistance = distance;
           closestId = id;
