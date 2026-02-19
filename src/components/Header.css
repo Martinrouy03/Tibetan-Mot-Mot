@@ -170,23 +170,38 @@
     gap: 0.4rem;
   }
 
+  .header-controls {
+    gap: 0.3rem;
+  }
+
+  .radio-group {
+    padding: 2px;
+    gap: 0;
+  }
+
   .radio-label {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.72rem;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.8rem;
   }
 
   .toggle-button {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.72rem;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .font-size-control {
+    padding: 2px 3px;
+    gap: 0;
   }
 
   .font-size-btn {
-    font-size: 0.9rem;
-    padding: 0.15rem 0.35rem;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.4rem;
   }
 
   .font-size-icon {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+    padding: 0 0.1rem;
   }
 
   .label-full {

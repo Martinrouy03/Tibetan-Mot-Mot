@@ -129,11 +129,10 @@ export default function TextPage() {
         <div key={section.id} className="section">
           <h3 className="section-title">{section.title}</h3>
           <div className="phrases">
-            {section.phrases.map((phrase, phraseIndex) => {
+            {section.phrases.map((phrase) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
-              const isLastPhrase = phraseIndex === section.phrases.length - 1;
 
               return (
                 <div
@@ -165,24 +164,23 @@ export default function TextPage() {
                       </span>
                     </div>
                   )}
-                  {isLastPhrase && (section.id === 'refuge' || section.id === 'quatre-illimitees' || section.id === 'supplique') && (
-                    <button
-                      className="scroll-top-btn"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        const firstNormal = section.phrases.find((p) => p.type === 'normal');
-                        if (!firstNormal) return;
-                        dispatch(setSelectedPhrase(firstNormal.id));
-                        scrollToPhrase(firstNormal.id);
-                      }}
-                    >
-                      ↑
-                    </button>
-                  )}
                 </div>
               );
             })}
           </div>
+          {(section.id === 'refuge' || section.id === 'quatre-illimitees' || section.id === 'supplique') && (
+            <button
+              className="scroll-top-btn"
+              onClick={() => {
+                const firstNormal = section.phrases.find((p) => p.type === 'normal');
+                if (!firstNormal) return;
+                dispatch(setSelectedPhrase(firstNormal.id));
+                scrollToPhrase(firstNormal.id);
+              }}
+            >
+              ↑
+            </button>
+          )}
         </div>
       ))}
       <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
