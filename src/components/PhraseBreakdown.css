@@ -66,12 +66,7 @@
     padding: 0.8rem;
   }
 
-  .breakdown-words {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-  }
-
-  .word-card {
+.word-card {
     padding: 0.4rem 0.5rem;
   }
 

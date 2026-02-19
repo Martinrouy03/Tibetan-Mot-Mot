@@ -264,6 +264,63 @@ export const practiceTexts: PracticeText[] = [
         ],
       },
       {
+        id: "court-guru-yoga",
+        title: "Court guru yoga",
+        phrases: [
+          {
+            id: "gy-2b-1",
+            type: "normal",
+            tibetan: "།དཔལ་ལྡན་རྩ་བའི་བླ་མ་རིན་པོ་ཆེ།",
+            phonetics: "pel den tsa oué la ma rin po tché",
+            translation: "Glorieux maître-racine vénéré,",
+            words: [
+              { tibetan: "དཔལ་ལྡན", phonetics: "pel den", translation: "glorieux" },
+              { tibetan: "རྩ་བའི", phonetics: "tsa oué", translation: "racine" },
+              { tibetan: "བླ་མ", phonetics: "la ma", translation: "maître" },
+              { tibetan: "རིན་པོ་ཆེ", phonetics: "rin po tché", translation: "vénéré" },
+            ],
+          },
+          {
+            id: "gy-2b-2",
+            type: "normal",
+            tibetan: "།བདག་གི་སྤྱི་བོར་པད་ཟླའི་གདན་བཞུགས་ལ།",
+            phonetics: "da ki tchi ouor pe dé den chou la",
+            translation: "vous qui êtes assis au sommet de ma tête sur un lotus et un disque de lune,",
+            words: [
+              { tibetan: "བདག་གི", phonetics: "da ki", translation: "de ma" },
+              { tibetan: "སྤྱི་བོར", phonetics: "tchi ouor", translation: "au sommet de la tête" },
+              { tibetan: "པད་ཟླའི", phonetics: "pe dé", translation: "du lotus et de la lune" },
+              { tibetan: "གདན", phonetics: "den", translation: "siège" },
+              { tibetan: "བཞུགས་ལ", phonetics: "chou la", translation: "assis" },
+            ],
+          },
+          {
+            id: "gy-2b-3",
+            type: "normal",
+            tibetan: "།བཀའ་དྲིན་ཆེན་པོའི་སྒོ་ནས་རྗེས་བཟུང་སྟེ།",
+            phonetics: "ka trin tchen peu go né djé zoung té",
+            translation: "guidez-moi par votre immense bonté et",
+            words: [
+              { tibetan: "བཀའ་དྲིན་ཆེན་པོའི", phonetics: "ka trin tchen peu", translation: "par votre immense bonté" },
+              { tibetan: "སྒོ་ནས", phonetics: "go né", translation: "par la voie de" },
+              { tibetan: "རྗེས་བཟུང་སྟེ", phonetics: "djé zoung té", translation: "guidez-moi et" },
+            ],
+          },
+          {
+            id: "gy-2b-4",
+            type: "normal",
+            tibetan: "།སྐུ་གསུང་ཐུགས་ཀྱི་དངོས་གྲུབ་སྩལ་དུ་གསོལ།",
+            phonetics: "kou soung tou kyi ngeu troup tsel tou seul",
+            translation: "accordez-moi les accomplissements du corps, de la parole et de l'esprit.",
+            words: [
+              { tibetan: "སྐུ་གསུང་ཐུགས", phonetics: "kou soung tou", translation: "corps, parole et esprit" },
+              { tibetan: "ཀྱི་དངོས་གྲུབ", phonetics: "kyi ngeu troup", translation: "les accomplissements de" },
+              { tibetan: "སྩལ་དུ་གསོལ", phonetics: "tsel tou seul", translation: "accordez-moi" },
+            ],
+          },
+        ],
+      },
+      {
         id: "ondee-nectar",
         title:
           "La continuelle ondée de nectar qui fait se développer la pousse des quatre corps du Bouddha",
@@ -1358,9 +1415,21 @@ export const practiceTexts: PracticeText[] = [
               "Au sommet de ma tête, assis sur un lotus et un disque de lune,",
             words: [
               { tibetan: "རང་གི", phonetics: "Rang ki", translation: "de moi" },
-              { tibetan: "སྤྱི་བོར", phonetics: "tchi ouor", translation: "au sommet de la tête" },
-              { tibetan: "པད་ཟླའི", phonetics: "pé dé", translation: "du lotus et de la lune" },
-              { tibetan: "གདན་གྱི", phonetics: "den kyi", translation: "du siège" },
+              {
+                tibetan: "སྤྱི་བོར",
+                phonetics: "tchi ouor",
+                translation: "au sommet de la tête",
+              },
+              {
+                tibetan: "པད་ཟླའི",
+                phonetics: "pé dé",
+                translation: "du lotus et de la lune",
+              },
+              {
+                tibetan: "གདན་གྱི",
+                phonetics: "den kyi",
+                translation: "du siège",
+              },
               { tibetan: "སྟེང", phonetics: "teng", translation: "sur" },
             ],
           },
@@ -1373,8 +1442,16 @@ export const practiceTexts: PracticeText[] = [
               "est le lama Vajrasattva. Il est de couleur blanche, paré d'ornements,",
             words: [
               { tibetan: "བླ་མ", phonetics: "la ma", translation: "lama" },
-              { tibetan: "རྡོ་རྗེ་སེམས་དཔའ", phonetics: "dor djé sem pa", translation: "Vajrasattva" },
-              { tibetan: "རྒྱན་ལྡན", phonetics: "gyen den", translation: "paré d'ornements" },
+              {
+                tibetan: "རྡོ་རྗེ་སེམས་དཔའ",
+                phonetics: "dor djé sem pa",
+                translation: "Vajrasattva",
+              },
+              {
+                tibetan: "རྒྱན་ལྡན",
+                phonetics: "gyen den",
+                translation: "paré d'ornements",
+              },
               { tibetan: "དཀར", phonetics: "kar", translation: "blanc" },
             ],
           },
@@ -1386,10 +1463,26 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "il a un visage et deux bras, tenant un vajra dans la main droite",
             words: [
-              { tibetan: "ཞལ་གཅིག", phonetics: "chel tchik", translation: "un visage" },
-              { tibetan: "ཕྱག་གཉིས", phonetics: "tchak nyi", translation: "deux mains" },
-              { tibetan: "གཡས་པས", phonetics: "yé pé", translation: "de la droite" },
-              { tibetan: "རྡོ་རྗེ་དང", phonetics: "dor djé tang", translation: "vajra et" },
+              {
+                tibetan: "ཞལ་གཅིག",
+                phonetics: "chel tchik",
+                translation: "un visage",
+              },
+              {
+                tibetan: "ཕྱག་གཉིས",
+                phonetics: "tchak nyi",
+                translation: "deux mains",
+              },
+              {
+                tibetan: "གཡས་པས",
+                phonetics: "yé pé",
+                translation: "de la droite",
+              },
+              {
+                tibetan: "རྡོ་རྗེ་དང",
+                phonetics: "dor djé tang",
+                translation: "vajra et",
+              },
             ],
           },
           {
@@ -1400,10 +1493,26 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "et une cloche dans la main gauche. Il est assis dans la posture du bodhisattva.",
             words: [
-              { tibetan: "གཡོན་པས", phonetics: "yeun pé", translation: "de la gauche" },
-              { tibetan: "དྲིལ་བུ", phonetics: "tril pou", translation: "cloche" },
-              { tibetan: "འཛིན་ཅིང", phonetics: "dzin tching", translation: "tenant et" },
-              { tibetan: "སྐྱིལ་ཀྲུང", phonetics: "kyil troung", translation: "en posture du bodhisattva" },
+              {
+                tibetan: "གཡོན་པས",
+                phonetics: "yeun pé",
+                translation: "de la gauche",
+              },
+              {
+                tibetan: "དྲིལ་བུ",
+                phonetics: "tril pou",
+                translation: "cloche",
+              },
+              {
+                tibetan: "འཛིན་ཅིང",
+                phonetics: "dzin tching",
+                translation: "tenant et",
+              },
+              {
+                tibetan: "སྐྱིལ་ཀྲུང",
+                phonetics: "kyil troung",
+                translation: "en posture du bodhisattva",
+              },
               { tibetan: "བཞུགས", phonetics: "chou", translation: "est assis" },
             ],
           },
@@ -1420,7 +1529,7 @@ export const practiceTexts: PracticeText[] = [
         ],
       },
       {
-        id: "supplique",
+        id: "vs-supplique",
         title: "Supplique",
         phrases: [
           {
@@ -1433,15 +1542,51 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "Lama Vajrasattva, moi-même et tous les êtres dont l'étendue touche aux confins de l'espace, nous vous prions de nous purifier de toutes les accumulations de karma négatif, de voiles, de fautes et de manquements.",
             words: [
-              { tibetan: "བླ་མ་རྡོ་རྗེ་སེམས་དཔའ", phonetics: "la ma dor djé sem pa", translation: "Lama Vajrasattva" },
-              { tibetan: "རང་བཞན", phonetics: "rang chen", translation: "moi-même" },
-              { tibetan: "ནམ་མཁའི་མཐའ་དང་མཉམ་པའི", phonetics: "nam ké ta tang nyam pé", translation: "dont l'étendue égale les confins de l'espace" },
-              { tibetan: "སེམས་ཅན་ཐམས་ཅད་ཀྱི", phonetics: "sem tchen tam tché kyi", translation: "de tous les êtres" },
-              { tibetan: "སྡིག་སྒྲིབ", phonetics: "dik drip", translation: "karma négatif et voiles" },
-              { tibetan: "ཉེས་ལྟུང་གི", phonetics: "nyé toung ki", translation: "fautes et manquements" },
-              { tibetan: "ཚོགས་ཐམས་ཅད", phonetics: "tso tam tché", translation: "en totalité" },
-              { tibetan: "བྱང་ཞིང་དག་པར", phonetics: "tchang ching tak par", translation: "purifiant totalement" },
-              { tibetan: "མཛད་དུ་གསོལ", phonetics: "dzé tou seul", translation: "nous vous prions de faire" },
+              {
+                tibetan: "བླ་མ་རྡོ་རྗེ་སེམས་དཔའ",
+                phonetics: "la ma dor djé sem pa",
+                translation: "Lama Vajrasattva",
+              },
+              {
+                tibetan: "རང་བཞན",
+                phonetics: "rang chen",
+                translation: "moi-même",
+              },
+              {
+                tibetan: "ནམ་མཁའི་མཐའ་དང་མཉམ་པའི",
+                phonetics: "nam ké ta tang nyam pé",
+                translation: "dont l'étendue égale les confins de l'espace",
+              },
+              {
+                tibetan: "སེམས་ཅན་ཐམས་ཅད་ཀྱི",
+                phonetics: "sem tchen tam tché kyi",
+                translation: "de tous les êtres",
+              },
+              {
+                tibetan: "སྡིག་སྒྲིབ",
+                phonetics: "dik drip",
+                translation: "karma négatif et voiles",
+              },
+              {
+                tibetan: "ཉེས་ལྟུང་གི",
+                phonetics: "nyé toung ki",
+                translation: "fautes et manquements",
+              },
+              {
+                tibetan: "ཚོགས་ཐམས་ཅད",
+                phonetics: "tso tam tché",
+                translation: "en totalité",
+              },
+              {
+                tibetan: "བྱང་ཞིང་དག་པར",
+                phonetics: "tchang ching tak par",
+                translation: "purifiant totalement",
+              },
+              {
+                tibetan: "མཛད་དུ་གསོལ",
+                phonetics: "dzé tou seul",
+                translation: "nous vous prions de faire",
+              },
             ],
           },
         ],
@@ -1460,14 +1605,46 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "Par cette prière, un flot de nectar s'écoule du mantra de cent syllabes qui entoure la syllabe Houng située sur un disque de lune au cœur de Vajrasattva, et le nectar s'écoule de son corps.",
             words: [
-              { tibetan: "གསོལ་བ་བཏབ་པས", phonetics: "seul oua tap pé", translation: "par cette prière" },
-              { tibetan: "རྡོར་སེམས་ཀྱི་ཐུགས་ཀར", phonetics: "dor sem kyi tou kar", translation: "au cœur de Vajrasattva" },
-              { tibetan: "ཟླ་བའི་སྟེང་དུ", phonetics: "da oué teng tou", translation: "sur un disque de lune" },
-              { tibetan: "ཧཱུྃ་གི་མཐར", phonetics: "Houng ki tar", translation: "entourant la syllabe Houng" },
-              { tibetan: "ཡི་གེ་བརྒྱ་པས་བསྐོར་བ་ལས", phonetics: "yi ké gya pé kor oua lé", translation: "du mantra de cent syllabes" },
-              { tibetan: "བདུད་རྩིའི་རྒྱུན", phonetics: "du tsi gyun", translation: "flot de nectar" },
-              { tibetan: "བྱུང་བ་དང", phonetics: "tchoung oua tang", translation: "s'écoule et" },
-              { tibetan: "སྐུ་ལས་བདུད་རྩི་བབས", phonetics: "kou lé du tsi pap", translation: "le nectar s'écoule du corps" },
+              {
+                tibetan: "གསོལ་བ་བཏབ་པས",
+                phonetics: "seul oua tap pé",
+                translation: "par cette prière",
+              },
+              {
+                tibetan: "རྡོར་སེམས་ཀྱི་ཐུགས་ཀར",
+                phonetics: "dor sem kyi tou kar",
+                translation: "au cœur de Vajrasattva",
+              },
+              {
+                tibetan: "ཟླ་བའི་སྟེང་དུ",
+                phonetics: "da oué teng tou",
+                translation: "sur un disque de lune",
+              },
+              {
+                tibetan: "ཧཱུྃ་གི་མཐར",
+                phonetics: "Houng ki tar",
+                translation: "entourant la syllabe Houng",
+              },
+              {
+                tibetan: "ཡི་གེ་བརྒྱ་པས་བསྐོར་བ་ལས",
+                phonetics: "yi ké gya pé kor oua lé",
+                translation: "du mantra de cent syllabes",
+              },
+              {
+                tibetan: "བདུད་རྩིའི་རྒྱུན",
+                phonetics: "du tsi gyun",
+                translation: "flot de nectar",
+              },
+              {
+                tibetan: "བྱུང་བ་དང",
+                phonetics: "tchoung oua tang",
+                translation: "s'écoule et",
+              },
+              {
+                tibetan: "སྐུ་ལས་བདུད་རྩི་བབས",
+                phonetics: "kou lé du tsi pap",
+                translation: "le nectar s'écoule du corps",
+              },
             ],
           },
           {
@@ -1481,13 +1658,41 @@ export const practiceTexts: PracticeText[] = [
               "Il vient me pénétrer par l'orifice de Brahma et remplit mon corps, purifiant ainsi tout mon karma négatif, mes voiles, mes fautes et mes manquements.",
             words: [
               { tibetan: "བདག་གི", phonetics: "da ki", translation: "de moi" },
-              { tibetan: "ཚངས་བུག་ནས", phonetics: "tsang ouk né", translation: "par l'orifice de Brahma" },
+              {
+                tibetan: "ཚངས་བུག་ནས",
+                phonetics: "tsang ouk né",
+                translation: "par l'orifice de Brahma",
+              },
               { tibetan: "ཞུགས", phonetics: "chou", translation: "pénètre" },
-              { tibetan: "ལུས་གང་བས", phonetics: "lu kang oué", translation: "remplit le corps" },
-              { tibetan: "སྡིག་སྒྲིབ", phonetics: "dik drip", translation: "karma négatif et voiles" },
-              { tibetan: "ཉེས་ལྟུང་ཐམས་ཅད", phonetics: "nyé toung tam tché", translation: "fautes et manquements en totalité" },
-              { tibetan: "དག་པར་གྱུར", phonetics: "tak par kyour", translation: "sont purifiés" },
+              {
+                tibetan: "ལུས་གང་བས",
+                phonetics: "lu kang oué",
+                translation: "remplit le corps",
+              },
+              {
+                tibetan: "སྡིག་སྒྲིབ",
+                phonetics: "dik drip",
+                translation: "karma négatif et voiles",
+              },
+              {
+                tibetan: "ཉེས་ལྟུང་ཐམས་ཅད",
+                phonetics: "nyé toung tam tché",
+                translation: "fautes et manquements en totalité",
+              },
+              {
+                tibetan: "དག་པར་གྱུར",
+                phonetics: "tak par kyour",
+                translation: "sont purifiés",
+              },
             ],
+          },
+          {
+            id: "vs-3-4",
+            type: "instructions",
+            tibetan: "ཞེས་ཡི་གེ་བརྒྱ་པ་དང༌།",
+            phonetics: "",
+            translation: "Ce sont les 100 Syllabes:",
+            words: [],
           },
           {
             id: "vs-3-3",
@@ -1499,14 +1704,7 @@ export const practiceTexts: PracticeText[] = [
             translation: "",
             words: [],
           },
-          {
-            id: "vs-3-4",
-            type: "instructions",
-            tibetan: "ཞེས་ཡི་གེ་བརྒྱ་པ་དང༌།",
-            phonetics: "",
-            translation: "Ce sont les 100 Syllabes.",
-            words: [],
-          },
+
           {
             id: "vs-3-5",
             type: "mantra",
@@ -1520,7 +1718,7 @@ export const practiceTexts: PracticeText[] = [
             type: "instructions",
             tibetan: "ཞེས་ཅི་ནུས་བཟླས།",
             phonetics: "",
-            translation: "Récitez autant que possible.",
+            translation: "Récitez autant que possible:",
             words: [],
           },
         ],
@@ -1534,7 +1732,8 @@ export const practiceTexts: PracticeText[] = [
             type: "instructions",
             tibetan: "མཐར་ཐལ་མོ་སྙིང་ཁར་སྦྱར་ཏེ།",
             phonetics: "",
-            translation: "Enfin, les mains jointes au niveau du cœur, réciter :",
+            translation:
+              "Enfin, les mains jointes au niveau du cœur, réciter :",
             words: [],
           },
           {
@@ -1544,10 +1743,22 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "geun po da ni mi ché mong pa yi",
             translation: "Protecteur, par ignorance et aveuglement,",
             words: [
-              { tibetan: "མགོན་པོ", phonetics: "geun po", translation: "Protecteur" },
+              {
+                tibetan: "མགོན་པོ",
+                phonetics: "geun po",
+                translation: "Protecteur",
+              },
               { tibetan: "བདག་ནི", phonetics: "da ni", translation: "moi" },
-              { tibetan: "མི་ཤེས", phonetics: "mi ché", translation: "ignorance" },
-              { tibetan: "རྨོངས་པ་ཡིས", phonetics: "mong pa yi", translation: "par aveuglement" },
+              {
+                tibetan: "མི་ཤེས",
+                phonetics: "mi ché",
+                translation: "ignorance",
+              },
+              {
+                tibetan: "རྨོངས་པ་ཡིས",
+                phonetics: "mong pa yi",
+                translation: "par aveuglement",
+              },
             ],
           },
           {
@@ -1557,9 +1768,21 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tam tsik lé ni guel ching nyam",
             translation: "j'ai failli à mes vœux initiatiques.",
             words: [
-              { tibetan: "དམ་ཚིག", phonetics: "tam tsik", translation: "vœux initiatiques" },
-              { tibetan: "ལས་ནི", phonetics: "lé ni", translation: "en ce qui concerne" },
-              { tibetan: "འགལ་ཞིང", phonetics: "guel ching", translation: "transgresse et" },
+              {
+                tibetan: "དམ་ཚིག",
+                phonetics: "tam tsik",
+                translation: "vœux initiatiques",
+              },
+              {
+                tibetan: "ལས་ནི",
+                phonetics: "lé ni",
+                translation: "en ce qui concerne",
+              },
+              {
+                tibetan: "འགལ་ཞིང",
+                phonetics: "guel ching",
+                translation: "transgresse et",
+              },
               { tibetan: "ཉམས", phonetics: "nyam", translation: "a décliné" },
             ],
           },
@@ -1570,8 +1793,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "la ma geun peu kyap dzeu tchik",
             translation: "Lama et protecteur, protégez-moi !",
             words: [
-              { tibetan: "བླ་མ་མགོན་པོས", phonetics: "la ma geun peu", translation: "Lama et protecteur" },
-              { tibetan: "སྐྱབས་མཛོད་ཅིག", phonetics: "kyap dzeu tchik", translation: "protégez-moi !" },
+              {
+                tibetan: "བླ་མ་མགོན་པོས",
+                phonetics: "la ma geun peu",
+                translation: "Lama et protecteur",
+              },
+              {
+                tibetan: "སྐྱབས་མཛོད་ཅིག",
+                phonetics: "kyap dzeu tchik",
+                translation: "protégez-moi !",
+              },
             ],
           },
           {
@@ -1581,8 +1812,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tso ouo dor djé dzin pa kyé",
             translation: "Seigneur, Détenteur du vajra,",
             words: [
-              { tibetan: "གཙོ་བོ", phonetics: "tso ouo", translation: "Seigneur" },
-              { tibetan: "རྡོ་རྗེ་འཛིན་པ", phonetics: "dor djé dzin pa", translation: "Détenteur du vajra" },
+              {
+                tibetan: "གཙོ་བོ",
+                phonetics: "tso ouo",
+                translation: "Seigneur",
+              },
+              {
+                tibetan: "རྡོ་རྗེ་འཛིན་པ",
+                phonetics: "dor djé dzin pa",
+                translation: "Détenteur du vajra",
+              },
               { tibetan: "ཀྱཻ", phonetics: "kyé", translation: "ô !" },
             ],
           },
@@ -1593,8 +1832,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "touk djé tchen peu da nyi tchen",
             translation: "personnification de la grande compassion,",
             words: [
-              { tibetan: "ཐུགས་རྗེ་ཆེན་པོའི", phonetics: "touk djé tchen peu", translation: "de la grande compassion" },
-              { tibetan: "བདག་ཉིད་ཅན", phonetics: "da nyi tchen", translation: "personnification" },
+              {
+                tibetan: "ཐུགས་རྗེ་ཆེན་པོའི",
+                phonetics: "touk djé tchen peu",
+                translation: "de la grande compassion",
+              },
+              {
+                tibetan: "བདག་ཉིད་ཅན",
+                phonetics: "da nyi tchen",
+                translation: "personnification",
+              },
             ],
           },
           {
@@ -1604,10 +1851,18 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "dro oué tso la da kyap tchi",
             translation: "souverain des êtres, je prends refuge en vous.",
             words: [
-              { tibetan: "འགྲོ་བའི་གཙོ", phonetics: "dro oué tso", translation: "souverain des êtres" },
+              {
+                tibetan: "འགྲོ་བའི་གཙོ",
+                phonetics: "dro oué tso",
+                translation: "souverain des êtres",
+              },
               { tibetan: "ལ", phonetics: "la", translation: "en / auprès de" },
               { tibetan: "བདག", phonetics: "da", translation: "je" },
-              { tibetan: "སྐྱབས་མཆི", phonetics: "kyap tchi", translation: "prends refuge" },
+              {
+                tibetan: "སྐྱབས་མཆི",
+                phonetics: "kyap tchi",
+                translation: "prends refuge",
+              },
             ],
           },
           {
@@ -1620,11 +1875,31 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "Je vous confesse la totalité des vœux initiatiques du Corps, de la Parole et de l'Esprit, fondamentaux et annexes, que j'ai pu endommager ou briser.",
             words: [
-              { tibetan: "སྐུ་གསུང་ཐུགས", phonetics: "kou soung tou", translation: "Corps, Parole et Esprit" },
-              { tibetan: "རྩ་བ་དང་ཡན་ལག་གི", phonetics: "tsa oua tang yen lak ki", translation: "fondamentaux et annexes" },
-              { tibetan: "དམ་ཚིག", phonetics: "tam tsik", translation: "vœux initiatiques" },
-              { tibetan: "ཉམས་ཆགས་ཐམས་ཅད", phonetics: "nyam tcha tam tché", translation: "tous les manquements" },
-              { tibetan: "མཐོལ་ལོ་བཤགས་སོ", phonetics: "teul lo chak so", translation: "je confesse" },
+              {
+                tibetan: "སྐུ་གསུང་ཐུགས",
+                phonetics: "kou soung tou",
+                translation: "Corps, Parole et Esprit",
+              },
+              {
+                tibetan: "རྩ་བ་དང་ཡན་ལག་གི",
+                phonetics: "tsa oua tang yen lak ki",
+                translation: "fondamentaux et annexes",
+              },
+              {
+                tibetan: "དམ་ཚིག",
+                phonetics: "tam tsik",
+                translation: "vœux initiatiques",
+              },
+              {
+                tibetan: "ཉམས་ཆགས་ཐམས་ཅད",
+                phonetics: "nyam tcha tam tché",
+                translation: "tous les manquements",
+              },
+              {
+                tibetan: "མཐོལ་ལོ་བཤགས་སོ",
+                phonetics: "teul lo chak so",
+                translation: "je confesse",
+              },
             ],
           },
           {
@@ -1637,11 +1912,31 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "Accordez-moi vos bénédictions pour que soient totalement purifiés mon karma négatif, mes voiles, mes fautes et mes manquements.",
             words: [
-              { tibetan: "སྡིག་སྒྲིབ", phonetics: "dik drip", translation: "karma négatif et voiles" },
-              { tibetan: "ཉེས་ལྟུང་གི", phonetics: "nyé toung ki", translation: "fautes et manquements" },
-              { tibetan: "ཚོགས་ཐམས་ཅད", phonetics: "tso tam tché", translation: "en totalité" },
-              { tibetan: "བྱང་ཞིང་དག་པར", phonetics: "tchang ching tak par", translation: "purifiant totalement" },
-              { tibetan: "བྱིན་གྱིས་བརླབ་ཏུ་གསོལ", phonetics: "tchin kyi lap tou seul", translation: "accordez vos bénédictions" },
+              {
+                tibetan: "སྡིག་སྒྲིབ",
+                phonetics: "dik drip",
+                translation: "karma négatif et voiles",
+              },
+              {
+                tibetan: "ཉེས་ལྟུང་གི",
+                phonetics: "nyé toung ki",
+                translation: "fautes et manquements",
+              },
+              {
+                tibetan: "ཚོགས་ཐམས་ཅད",
+                phonetics: "tso tam tché",
+                translation: "en totalité",
+              },
+              {
+                tibetan: "བྱང་ཞིང་དག་པར",
+                phonetics: "tchang ching tak par",
+                translation: "purifiant totalement",
+              },
+              {
+                tibetan: "བྱིན་གྱིས་བརླབ་ཏུ་གསོལ",
+                phonetics: "tchin kyi lap tou seul",
+                translation: "accordez vos bénédictions",
+              },
             ],
           },
           {
@@ -1649,11 +1944,20 @@ export const practiceTexts: PracticeText[] = [
             type: "normal",
             tibetan: "རྡོ་རྗེ་སེམས་དཔས་བདག་ལ་དབུགས་དབྱུང་ཞིང༌།",
             phonetics: "dor djé sem pé da la ouk young ching",
-            translation: "Vajrasattva m'assure de mon absolution, fond en lumière",
+            translation:
+              "Vajrasattva m'assure de mon absolution, fond en lumière",
             words: [
-              { tibetan: "རྡོ་རྗེ་སེམས་དཔས", phonetics: "dor djé sem pé", translation: "Vajrasattva" },
+              {
+                tibetan: "རྡོ་རྗེ་སེམས་དཔས",
+                phonetics: "dor djé sem pé",
+                translation: "Vajrasattva",
+              },
               { tibetan: "བདག་ལ", phonetics: "da la", translation: "en moi" },
-              { tibetan: "དབུགས་དབྱུང་ཞིང", phonetics: "ouk young ching", translation: "assure l'absolution et" },
+              {
+                tibetan: "དབུགས་དབྱུང་ཞིང",
+                phonetics: "ouk young ching",
+                translation: "assure l'absolution et",
+              },
             ],
           },
           {
@@ -1663,9 +1967,21 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "eu chou da la tim pé nyi mé kyour",
             translation: "et se mêle en moi, indifférencié.",
             words: [
-              { tibetan: "འོད་ཞུ", phonetics: "eu chou", translation: "fond en lumière" },
-              { tibetan: "བདག་ལ་ཐིམ་པས", phonetics: "da la tim pé", translation: "se mêle en moi" },
-              { tibetan: "གཉིས་མེད་གྱུར", phonetics: "nyi mé kyour", translation: "devient indifférencié" },
+              {
+                tibetan: "འོད་ཞུ",
+                phonetics: "eu chou",
+                translation: "fond en lumière",
+              },
+              {
+                tibetan: "བདག་ལ་ཐིམ་པས",
+                phonetics: "da la tim pé",
+                translation: "se mêle en moi",
+              },
+              {
+                tibetan: "གཉིས་མེད་གྱུར",
+                phonetics: "nyi mé kyour",
+                translation: "devient indifférencié",
+              },
             ],
           },
         ],
