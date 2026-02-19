@@ -110,6 +110,8 @@
 
 .phrase-mantra .phrase-text {
   font-size: 1.8rem;
+  white-space: normal;
+  overflow-x: visible;
 }
 
 .phrase-mantra .phrase-text-phonetics {
