@@ -77,7 +77,7 @@ export default function TextPage() {
 
     const handleScroll = () => {
       if (isProgrammaticScroll.current) return;
-      const viewportCenter = window.innerHeight / 2;
+      const viewportCenter = window.innerHeight * 0.65;
       let closestId: string | null = null;
       let closestDistance = Infinity;
       for (const [id, el] of phraseRefs.current) {
