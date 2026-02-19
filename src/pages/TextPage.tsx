@@ -168,7 +168,7 @@ export default function TextPage() {
               );
             })}
           </div>
-          {(section.id === 'refuge' || section.id === 'quatre-illimitees' || section.id === 'supplique') && (
+          {(section.id === 'refuge' || section.id === 'supplique') && (
             <button
               className="scroll-top-btn"
               onClick={() => {
