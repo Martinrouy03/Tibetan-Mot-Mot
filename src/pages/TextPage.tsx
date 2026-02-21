@@ -133,6 +133,7 @@ export default function TextPage() {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
+              const isImage = phrase.type === 'image';
 
               return (
                 <div
@@ -142,7 +143,9 @@ export default function TextPage() {
                   className={`phrase-container ${!isNormal || interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
                   onClick={() => isNormal && interactionMode !== 'fixed' && handlePhraseClick(phrase.id)}
                 >
-                  {isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
+                  {isImage ? (
+                    <img src={phrase.src} alt="" className="phrase-image" />
+                  ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
                     <div className="phrase phrase-mantra">

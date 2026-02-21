@@ -280,11 +280,10 @@ export const practiceTexts: PracticeText[] = [
                 translation: "glorieux",
               },
               {
-                tibetan: "རྩ་བའི",
-                phonetics: "tsa oué",
-                translation: "racine",
+                tibetan: "རྩ་བའི་བླ་མ",
+                phonetics: "tsa oué lama",
+                translation: "maître racine",
               },
-              { tibetan: "བླ་མ", phonetics: "la ma", translation: "maître" },
               {
                 tibetan: "རིན་པོ་ཆེ",
                 phonetics: "rin po tché",
@@ -300,16 +299,15 @@ export const practiceTexts: PracticeText[] = [
             translation:
               "vous qui êtes assis au sommet de ma tête sur un lotus et un disque de lune,",
             words: [
-              { tibetan: "བདག་གི", phonetics: "da ki", translation: "de ma" },
               {
-                tibetan: "སྤྱི་བོར",
-                phonetics: "tchi ouor",
-                translation: "au sommet de la tête",
+                tibetan: "བདག་གི་སྤྱི་བོར",
+                phonetics: "da ki tchi ouor",
+                translation: "au sommet de ma tête",
               },
               {
                 tibetan: "པད་ཟླའི",
                 phonetics: "pe dé",
-                translation: "du lotus et de la lune",
+                translation: "lotus et lune",
               },
               { tibetan: "གདན", phonetics: "den", translation: "siège" },
               {
@@ -339,7 +337,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "རྗེས་བཟུང་སྟེ",
                 phonetics: "djé zoung té",
-                translation: "guidez-moi et",
+                translation: "guidez-moi",
               },
             ],
           },
@@ -352,14 +350,14 @@ export const practiceTexts: PracticeText[] = [
               "accordez-moi les accomplissements du corps, de la parole et de l'esprit.",
             words: [
               {
-                tibetan: "སྐུ་གསུང་ཐུགས",
+                tibetan: "སྐུ་གསུང་ཐུགས་ཀྱི་",
                 phonetics: "kou soung tou",
                 translation: "corps, parole et esprit",
               },
               {
-                tibetan: "ཀྱི་དངོས་གྲུབ",
-                phonetics: "kyi ngeu troup",
-                translation: "les accomplissements de",
+                tibetan: "དངོས་གྲུབ",
+                phonetics: "ngeu troup",
+                translation: "les accomplissements",
               },
               {
                 tibetan: "སྩལ་དུ་གསོལ",
@@ -461,12 +459,12 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "མཆོད་སྤྲིན",
                 phonetics: "tcheu trin",
-                translation: "nuées d'offrandes",
+                translation: "de nuées d'offrandes",
               },
               {
                 tibetan: "རྒྱ་མཚོའི་དབུས",
                 phonetics: "gyam tseu u",
-                translation: "au milieu de l'océan",
+                translation: "au milieu d'un océan",
               },
             ],
           },
@@ -1035,6 +1033,15 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "karmapa tchenno",
             translation: "",
             words: [],
+          },
+          {
+            id: "gy-5-img",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/karmapa16.jpg",
           },
           {
             id: "gy-5-2",
