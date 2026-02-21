@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback, useMemo } from 'react';
+import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
@@ -16,6 +16,7 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const [imageSizePct, setImageSizePct] = useState(60);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -144,7 +145,13 @@ export default function TextPage() {
                   onClick={() => isNormal && interactionMode !== 'fixed' && handlePhraseClick(phrase.id)}
                 >
                   {isImage ? (
-                    <img src={phrase.src} alt="" className="phrase-image" />
+                    <div className="phrase-image-wrapper">
+                      <img src={phrase.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
+                      <div className="image-size-pill">
+                        <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
+                        <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
+                      </div>
+                    </div>
                   ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
