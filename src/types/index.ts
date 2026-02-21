@@ -29,4 +29,4 @@ export interface PracticeText {
 }
 
 export type DisplayMode = 'tibetan' | 'phonetics';
-export type InteractionMode = 'click' | 'scroll';
+export type InteractionMode = 'click' | 'fixed' | 'scroll';

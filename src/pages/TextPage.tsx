@@ -77,7 +77,7 @@ export default function TextPage() {
 
     const handleScroll = () => {
       if (isProgrammaticScroll.current) return;
-      const viewportCenter = window.innerHeight * 0.65;
+      const viewportCenter = window.innerHeight * 0.4;
       let closestId: string | null = null;
       let closestDistance = Infinity;
       for (const [id, el] of phraseRefs.current) {
@@ -127,7 +127,7 @@ export default function TextPage() {
       </h2>
       {text.sections.map((section) => (
         <div key={section.id} className="section">
-          <h3 className="section-title">{section.title}</h3>
+          {section.title && <h3 className="section-title">{section.title}</h3>}
           <div className="phrases">
             {section.phrases.map((phrase) => {
               const isNormal = phrase.type === 'normal';
@@ -139,10 +139,10 @@ export default function TextPage() {
                   key={phrase.id}
                   ref={(el) => setPhraseRef(phrase.id, el)}
                   data-phrase-id={phrase.id}
-                  className={`phrase-container ${!isNormal ? 'phrase-no-interact' : ''}`}
-                  onClick={() => isNormal && handlePhraseClick(phrase.id)}
+                  className={`phrase-container ${!isNormal || interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
+                  onClick={() => isNormal && interactionMode !== 'fixed' && handlePhraseClick(phrase.id)}
                 >
-                  {isNormal && selectedPhraseId === phrase.id ? (
+                  {isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
                     <div className="phrase phrase-mantra">

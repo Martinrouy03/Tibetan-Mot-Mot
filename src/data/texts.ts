@@ -274,10 +274,22 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "pel den tsa oué la ma rin po tché",
             translation: "Glorieux maître-racine vénéré,",
             words: [
-              { tibetan: "དཔལ་ལྡན", phonetics: "pel den", translation: "glorieux" },
-              { tibetan: "རྩ་བའི", phonetics: "tsa oué", translation: "racine" },
+              {
+                tibetan: "དཔལ་ལྡན",
+                phonetics: "pel den",
+                translation: "glorieux",
+              },
+              {
+                tibetan: "རྩ་བའི",
+                phonetics: "tsa oué",
+                translation: "racine",
+              },
               { tibetan: "བླ་མ", phonetics: "la ma", translation: "maître" },
-              { tibetan: "རིན་པོ་ཆེ", phonetics: "rin po tché", translation: "vénéré" },
+              {
+                tibetan: "རིན་པོ་ཆེ",
+                phonetics: "rin po tché",
+                translation: "vénéré",
+              },
             ],
           },
           {
@@ -285,13 +297,26 @@ export const practiceTexts: PracticeText[] = [
             type: "normal",
             tibetan: "།བདག་གི་སྤྱི་བོར་པད་ཟླའི་གདན་བཞུགས་ལ།",
             phonetics: "da ki tchi ouor pe dé den chou la",
-            translation: "vous qui êtes assis au sommet de ma tête sur un lotus et un disque de lune,",
+            translation:
+              "vous qui êtes assis au sommet de ma tête sur un lotus et un disque de lune,",
             words: [
               { tibetan: "བདག་གི", phonetics: "da ki", translation: "de ma" },
-              { tibetan: "སྤྱི་བོར", phonetics: "tchi ouor", translation: "au sommet de la tête" },
-              { tibetan: "པད་ཟླའི", phonetics: "pe dé", translation: "du lotus et de la lune" },
+              {
+                tibetan: "སྤྱི་བོར",
+                phonetics: "tchi ouor",
+                translation: "au sommet de la tête",
+              },
+              {
+                tibetan: "པད་ཟླའི",
+                phonetics: "pe dé",
+                translation: "du lotus et de la lune",
+              },
               { tibetan: "གདན", phonetics: "den", translation: "siège" },
-              { tibetan: "བཞུགས་ལ", phonetics: "chou la", translation: "assis" },
+              {
+                tibetan: "བཞུགས་ལ",
+                phonetics: "chou la",
+                translation: "assis",
+              },
             ],
           },
           {
@@ -301,9 +326,21 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "ka trin tchen peu go né djé zoung té",
             translation: "guidez-moi par votre immense bonté et",
             words: [
-              { tibetan: "བཀའ་དྲིན་ཆེན་པོའི", phonetics: "ka trin tchen peu", translation: "par votre immense bonté" },
-              { tibetan: "སྒོ་ནས", phonetics: "go né", translation: "par la voie de" },
-              { tibetan: "རྗེས་བཟུང་སྟེ", phonetics: "djé zoung té", translation: "guidez-moi et" },
+              {
+                tibetan: "བཀའ་དྲིན་ཆེན་པོའི",
+                phonetics: "ka trin tchen peu",
+                translation: "votre immense bonté",
+              },
+              {
+                tibetan: "སྒོ་ནས",
+                phonetics: "go né",
+                translation: "par la voie de",
+              },
+              {
+                tibetan: "རྗེས་བཟུང་སྟེ",
+                phonetics: "djé zoung té",
+                translation: "guidez-moi et",
+              },
             ],
           },
           {
@@ -311,11 +348,24 @@ export const practiceTexts: PracticeText[] = [
             type: "normal",
             tibetan: "།སྐུ་གསུང་ཐུགས་ཀྱི་དངོས་གྲུབ་སྩལ་དུ་གསོལ།",
             phonetics: "kou soung tou kyi ngeu troup tsel tou seul",
-            translation: "accordez-moi les accomplissements du corps, de la parole et de l'esprit.",
+            translation:
+              "accordez-moi les accomplissements du corps, de la parole et de l'esprit.",
             words: [
-              { tibetan: "སྐུ་གསུང་ཐུགས", phonetics: "kou soung tou", translation: "corps, parole et esprit" },
-              { tibetan: "ཀྱི་དངོས་གྲུབ", phonetics: "kyi ngeu troup", translation: "les accomplissements de" },
-              { tibetan: "སྩལ་དུ་གསོལ", phonetics: "tsel tou seul", translation: "accordez-moi" },
+              {
+                tibetan: "སྐུ་གསུང་ཐུགས",
+                phonetics: "kou soung tou",
+                translation: "corps, parole et esprit",
+              },
+              {
+                tibetan: "ཀྱི་དངོས་གྲུབ",
+                phonetics: "kyi ngeu troup",
+                translation: "les accomplissements de",
+              },
+              {
+                tibetan: "སྩལ་དུ་གསོལ",
+                phonetics: "tsel tou seul",
+                translation: "accordez-moi",
+              },
             ],
           },
         ],
@@ -757,7 +807,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "བྱིན་གྱིས་རློབས",
                 phonetics: "djin gyi lob",
-                translation: "bénédiction",
+                translation: "accordez votre bénédiction",
               },
             ],
           },
@@ -1060,9 +1110,14 @@ export const practiceTexts: PracticeText[] = [
                 translation: "accumulés depuis",
               },
               {
-                tibetan: "སྡིག་ལྟུང",
-                phonetics: "dik toung",
-                translation: "actes nuisibles et déchéances",
+                tibetan: "སྡིག་",
+                phonetics: "dik",
+                translation: "actes nuisibles,",
+              },
+              {
+                tibetan: "ལྟུང་",
+                phonetics: "toung",
+                translation: "déchéances",
               },
               {
                 tibetan: "བག་ཆགས་དང",
@@ -1393,8 +1448,8 @@ export const practiceTexts: PracticeText[] = [
     tibetanTitle: "རྡོ་རྗེ་སེམས་དཔའི་བསྒོམ་བཟླས",
     sections: [
       {
-        id: "visualisation",
-        title: "Visualisation",
+        id: "vs-intro",
+        title: "",
         phrases: [
           {
             id: "vs-1-1",
@@ -1406,6 +1461,12 @@ export const practiceTexts: PracticeText[] = [
               "La méditation de Vajrasattva a pour but de purifier le karma négatif et les voiles.",
             words: [],
           },
+        ],
+      },
+      {
+        id: "visualisation",
+        title: "Visualisation",
+        phrases: [
           {
             id: "vs-1-2",
             type: "normal",

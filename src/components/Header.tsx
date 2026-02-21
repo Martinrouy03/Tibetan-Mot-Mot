@@ -83,6 +83,17 @@ export default function Header() {
               <span className="label-full">Clic</span>
               <span className="label-short">🖱</span>
             </label>
+            <label className={`radio-label ${interactionMode === 'fixed' ? 'active' : ''}`}>
+              <input
+                type="radio"
+                name="interactionMode"
+                value="fixed"
+                checked={interactionMode === 'fixed'}
+                onChange={() => handleInteractionChange('fixed')}
+              />
+              <span className="label-full">Fixe</span>
+              <span className="label-short">≡</span>
+            </label>
             <label className={`radio-label ${interactionMode === 'scroll' ? 'active' : ''}`}>
               <input
                 type="radio"
