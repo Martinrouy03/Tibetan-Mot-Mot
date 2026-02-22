@@ -24,7 +24,7 @@ export default function PhraseBreakdown({ phrase, displayMode, showTranslation, 
       </div>
       {showTranslation && (
         <div className="breakdown-translation">
-          {phrase.translation}
+          {phrase.translation.replace(/ \([^)]*\)/g, '')}
         </div>
       )}
     </div>

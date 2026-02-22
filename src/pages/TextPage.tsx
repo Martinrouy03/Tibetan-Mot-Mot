@@ -8,6 +8,8 @@ import './TextPage.css';
 
 const WHEEL_TICKS_PER_PHRASE = 3;
 
+const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, '');
+
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
   const navigate = useNavigate();
@@ -175,7 +177,7 @@ export default function TextPage() {
                           {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
                         </span>
                         {showTranslation && normal.translation && (
-                          <span className="phrase-inline-translation">{normal.translation}</span>
+                          <span className="phrase-inline-translation">{stripParens(normal.translation)}</span>
                         )}
                       </div>
                     )}
@@ -236,7 +238,7 @@ export default function TextPage() {
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
                       {showTranslation && phrase.translation && (
-                        <span className="phrase-inline-translation">{phrase.translation}</span>
+                        <span className="phrase-inline-translation">{stripParens(phrase.translation)}</span>
                       )}
                     </div>
                   )}
