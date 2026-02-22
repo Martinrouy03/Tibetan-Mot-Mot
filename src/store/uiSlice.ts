@@ -11,8 +11,8 @@ interface UiState {
 
 const initialState: UiState = {
   displayMode: 'tibetan',
-  interactionMode: 'fixed',
-  showTranslation: false,
+  interactionMode: 'click',
+  showTranslation: true,
   selectedPhraseId: null,
   tibetanFontSize: 20,
 };
