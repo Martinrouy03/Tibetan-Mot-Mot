@@ -2179,7 +2179,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img1", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha1.jpeg" },
+          { id: "ta-2-img1", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha1.jpg" },
           {
             id: "ta-2-2",
             type: "normal",
@@ -2192,7 +2192,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img2", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha2.jpeg" },
+          { id: "ta-2-img2", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha2.jpg" },
           {
             id: "ta-2-3",
             type: "normal",
@@ -2205,7 +2205,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img3", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha3.jpeg" },
+          { id: "ta-2-img3", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha3.jpg" },
           {
             id: "ta-2-4",
             type: "normal",
@@ -2218,7 +2218,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img4", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha4.jpeg" },
+          { id: "ta-2-img4", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha4.jpg" },
           {
             id: "ta-2-5",
             type: "normal",
@@ -2231,7 +2231,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img5", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha5.jpeg" },
+          { id: "ta-2-img5", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha5.jpg" },
           {
             id: "ta-2-6",
             type: "normal",
@@ -2243,7 +2243,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img6", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha6.jpeg" },
+          { id: "ta-2-img6", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha6.jpg" },
           {
             id: "ta-2-7",
             type: "normal",
@@ -2256,7 +2256,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img7", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha7.jpeg" },
+          { id: "ta-2-img7", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha7.jpg" },
           {
             id: "ta-2-8",
             type: "normal",
@@ -2269,7 +2269,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img8", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha8.jpeg" },
+          { id: "ta-2-img8", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha8.jpg" },
           {
             id: "ta-2-9",
             type: "normal",
@@ -2282,7 +2282,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img9", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha9.jpeg" },
+          { id: "ta-2-img9", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha9.jpg" },
           {
             id: "ta-2-10",
             type: "normal",
@@ -2295,7 +2295,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img10", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha10.jpeg" },
+          { id: "ta-2-img10", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha10.jpg" },
           {
             id: "ta-2-11",
             type: "normal",
@@ -2307,7 +2307,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img11", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha11.jpeg" },
+          { id: "ta-2-img11", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha11.jpg" },
           {
             id: "ta-2-12",
             type: "normal",
@@ -2319,7 +2319,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img12", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha12.jpeg" },
+          { id: "ta-2-img12", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha12.jpg" },
           {
             id: "ta-2-13",
             type: "normal",
@@ -2331,7 +2331,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img13", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha13.jpeg" },
+          { id: "ta-2-img13", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha13.jpg" },
           {
             id: "ta-2-14",
             type: "normal",
@@ -2344,7 +2344,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img14", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha14.jpeg" },
+          { id: "ta-2-img14", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha14.jpg" },
           {
             id: "ta-2-15",
             type: "normal",
@@ -2356,7 +2356,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img15", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha15.jpeg" },
+          { id: "ta-2-img15", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha15.jpg" },
           {
             id: "ta-2-16",
             type: "normal",
@@ -2369,7 +2369,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img16", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha16.jpeg" },
+          { id: "ta-2-img16", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha16.jpg" },
           {
             id: "ta-2-17",
             type: "normal",
@@ -2381,7 +2381,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img17", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha17.jpeg" },
+          { id: "ta-2-img17", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha17.jpg" },
           {
             id: "ta-2-18",
             type: "normal",
@@ -2394,7 +2394,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img18", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha18.jpeg" },
+          { id: "ta-2-img18", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha18.jpg" },
           {
             id: "ta-2-19",
             type: "normal",
@@ -2407,7 +2407,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img19", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha19.jpeg" },
+          { id: "ta-2-img19", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha19.jpg" },
           {
             id: "ta-2-20",
             type: "normal",
@@ -2419,7 +2419,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img20", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha20.jpeg" },
+          { id: "ta-2-img20", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha20.jpg" },
           {
             id: "ta-2-21",
             type: "normal",
@@ -2432,7 +2432,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img21", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha21.jpeg" },
+          { id: "ta-2-img21", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha21.jpg" },
           {
             id: "ta-2-22",
             type: "normal",
@@ -2445,7 +2445,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img22", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha22.jpeg" },
+          { id: "ta-2-img22", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha22.jpg" },
           {
             id: "ta-2-23",
             type: "normal",
@@ -2458,7 +2458,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img23", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha23.jpeg" },
+          { id: "ta-2-img23", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha23.jpg" },
           {
             id: "ta-2-24",
             type: "normal",
@@ -2473,7 +2473,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img24", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha24.jpeg" },
+          { id: "ta-2-img24", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha24.jpg" },
           {
             id: "ta-2-25",
             type: "normal",
@@ -2488,7 +2488,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img25", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha25.jpeg" },
+          { id: "ta-2-img25", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha25.jpg" },
           {
             id: "ta-2-26",
             type: "normal",
@@ -2500,7 +2500,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img26", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha26.jpeg" },
+          { id: "ta-2-img26", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha26.jpg" },
           {
             id: "ta-2-27",
             type: "normal",
@@ -2513,7 +2513,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img27", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha27.jpeg" },
+          { id: "ta-2-img27", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha27.jpg" },
           {
             id: "ta-2-28",
             type: "normal",
@@ -2526,7 +2526,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img28", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha28.jpeg" },
+          { id: "ta-2-img28", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha28.jpg" },
           {
             id: "ta-2-29",
             type: "normal",
@@ -2540,7 +2540,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img29", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha29.jpeg" },
+          { id: "ta-2-img29", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha29.jpg" },
           {
             id: "ta-2-30",
             type: "normal",
@@ -2554,7 +2554,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img30", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha30.jpeg" },
+          { id: "ta-2-img30", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha30.jpg" },
           {
             id: "ta-2-31",
             type: "normal",
@@ -2568,7 +2568,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img31", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha31.jpeg" },
+          { id: "ta-2-img31", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha31.jpg" },
           {
             id: "ta-2-32",
             type: "normal",
@@ -2581,7 +2581,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img32", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha32.jpeg" },
+          { id: "ta-2-img32", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha32.jpg" },
           {
             id: "ta-2-33",
             type: "normal",
@@ -2595,7 +2595,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchak tsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img33", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha33.jpeg" },
+          { id: "ta-2-img33", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha33.jpg" },
           {
             id: "ta-2-34",
             type: "normal",
@@ -2608,7 +2608,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img34", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha34.jpeg" },
+          { id: "ta-2-img34", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha34.jpg" },
           {
             id: "ta-2-35",
             type: "normal",
@@ -2625,7 +2625,7 @@ export const practiceTexts: PracticeText[] = [
               { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
             ],
           },
-          { id: "ta-2-img35", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha35.jpeg" },
+          { id: "ta-2-img35", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha35.jpg" },
           {
             id: "ta-2-36",
             type: "normal",
