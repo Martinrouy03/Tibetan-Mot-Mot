@@ -5,11 +5,13 @@ interface Props {
   phrase: Phrase;
   displayMode: DisplayMode;
   showTranslation: boolean;
+  prefix?: string;
 }
 
-export default function PhraseBreakdown({ phrase, displayMode, showTranslation }: Props) {
+export default function PhraseBreakdown({ phrase, displayMode, showTranslation, prefix }: Props) {
   return (
     <div className="breakdown">
+      {prefix && <span className="breakdown-prefix">{prefix}</span>}
       <div className="breakdown-words">
         {phrase.words.map((word, index) => (
           <div key={index} className="word-card">

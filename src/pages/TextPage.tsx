@@ -16,7 +16,7 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
-  const [imageSizePct, setImageSizePct] = useState(60);
+  const [imageSizePct, setImageSizePct] = useState(30);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -126,8 +126,10 @@ export default function TextPage() {
         <span className="text-page-title-tibetan tibetan">{text.tibetanTitle}</span>
         {text.title}
       </h2>
-      {text.sections.map((section) => (
-        <div key={section.id} className="section">
+      {text.sections.map((section) => {
+        let normalCount = 0;
+        return (
+        <div key={section.id} className={`section section-${section.id}`}>
           {section.title && <h3 className="section-title">{section.title}</h3>}
           <div className="phrases">
             {section.phrases.map((phrase) => {
@@ -135,6 +137,8 @@ export default function TextPage() {
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
               const isImage = phrase.type === 'image';
+              if (section.id === 'ta-hommage' && isNormal) normalCount++;
+              const prefix = section.id === 'ta-hommage' && isNormal ? `[${normalCount}.] ` : undefined;
 
               return (
                 <div
@@ -153,7 +157,7 @@ export default function TextPage() {
                       </div>
                     </div>
                   ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
-                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
+                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
                   ) : isMantra ? (
                     <div className="phrase phrase-mantra">
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
@@ -169,6 +173,7 @@ export default function TextPage() {
                     </div>
                   ) : (
                     <div className="phrase">
+                      {prefix && <span className="breakdown-prefix">{prefix}</span>}
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
@@ -192,7 +197,8 @@ export default function TextPage() {
             </button>
           )}
         </div>
-      ))}
+        );
+      })}
       <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
         ← Retour aux textes
       </button>

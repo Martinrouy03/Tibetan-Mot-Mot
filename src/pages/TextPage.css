@@ -194,6 +194,12 @@
   opacity: 0.8;
 }
 
+.section-ta-hommage .phrase-text,
+.section-ta-hommage .breakdown-words {
+  text-align: center;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   .text-page {
     padding: 1rem;

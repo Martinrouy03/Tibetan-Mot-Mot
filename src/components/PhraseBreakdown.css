@@ -18,6 +18,13 @@
   }
 }
 
+.breakdown-prefix {
+  display: block;
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+
 .breakdown-translation {
   font-style: italic;
   color: #a89060;
