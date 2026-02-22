@@ -1041,7 +1041,7 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "",
             translation: "",
             words: [],
-            src: "/karmapa16.jpg",
+            src: "/guruyoga_gk16.jpg",
           },
           {
             id: "gy-5-2",
@@ -1809,6 +1809,15 @@ export const practiceTexts: PracticeText[] = [
             words: [],
           },
 
+          {
+            id: "vs-3-img",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/vajrasattva.jpg",
+          },
           {
             id: "vs-3-6",
             type: "instructions",
