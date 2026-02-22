@@ -134,6 +134,14 @@
   font-size: 0.85rem;
 }
 
+.phrase-inline-translation {
+  display: block;
+  font-style: italic;
+  color: #777;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
 .phrase-image-wrapper {
   position: relative;
   display: flex;

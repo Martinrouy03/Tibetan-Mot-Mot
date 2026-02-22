@@ -74,6 +74,8 @@
   color: #c9a84c;
   transition: all 0.25s ease;
   user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .toggle-button.active {

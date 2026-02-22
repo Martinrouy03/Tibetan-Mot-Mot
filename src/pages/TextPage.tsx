@@ -152,7 +152,10 @@ export default function TextPage() {
           <div className="phrases">
             {section.id === 'ta-hommage' ? pairs.map(({ normal, image }) => {
               normalCount++;
-              const prefix = normal.type === 'normal' ? `[${normalCount}.] ` : undefined;
+              const buddhaName = image
+                ? (normalCount === 1 ? 'Bouddha Shakyamuni' : (normal.translation.match(/\(([^)]+)\)/)?.[1] ?? ''))
+                : null;
+              const prefix = image ? `[${normalCount}. ${buddhaName}] ` : undefined;
               const isSelected = interactionMode === 'fixed' || selectedPhraseId === normal.id;
               const isLastPrayer = !image;
               return (
@@ -171,6 +174,9 @@ export default function TextPage() {
                         <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                           {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
                         </span>
+                        {showTranslation && normal.translation && (
+                          <span className="phrase-inline-translation">{normal.translation}</span>
+                        )}
                       </div>
                     )}
                   </div>
@@ -229,6 +235,9 @@ export default function TextPage() {
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
+                      {showTranslation && phrase.translation && (
+                        <span className="phrase-inline-translation">{phrase.translation}</span>
+                      )}
                     </div>
                   )}
                 </div>
