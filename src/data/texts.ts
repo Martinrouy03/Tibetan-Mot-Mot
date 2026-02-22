@@ -1074,7 +1074,7 @@ export const practiceTexts: PracticeText[] = [
             tibetan: "དགེ་བས་འགྲོ་ཚོགས་མཁའ་མཉམ་ཡིད་ཅན་གྱིས།",
             phonetics: "gué ouai dro tso ka nyam yi tchen gyi",
             translation:
-              "Par cette vertu, puissent être complètement et définitivement éliminés, pour tout ce qui est animé, la foule des êtres semblable à l'espace,",
+              "Par cette vertu, pour tout ce qui est animé, la foule des êtres semblable à l'espace,",
             words: [
               {
                 tibetan: "དགེ་བས",
@@ -1094,7 +1094,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "ཡིད་ཅན་གྱིས",
                 phonetics: "yi tchen gyi",
-                translation: "ce qui est animé",
+                translation: "tout ce qui est animé",
               },
             ],
           },
@@ -1104,7 +1104,7 @@ export const practiceTexts: PracticeText[] = [
             tibetan: "ཐོག་མེད་ནས་བསགས་སྡིག་ལྟུང་བག་ཆགས་དང༌།",
             phonetics: "to mé né sak dik toung pak tchak tang",
             translation:
-              "les actes nuisibles, les déchéances, les conditionnements, accumulés depuis des temps sans commencement,",
+              "Puissent les actes nuisibles, les déchéances, les conditionnements, accumulés depuis des temps sans commencement,",
             words: [
               {
                 tibetan: "ཐོག་མེད",
@@ -1124,12 +1124,12 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "ལྟུང་",
                 phonetics: "toung",
-                translation: "déchéances",
+                translation: "déchéances,",
               },
               {
                 tibetan: "བག་ཆགས་དང",
                 phonetics: "pak tchak tang",
-                translation: "et conditionnements",
+                translation: "empreintes latentes,",
               },
             ],
           },
@@ -1138,7 +1138,8 @@ export const practiceTexts: PracticeText[] = [
             type: "normal",
             tibetan: "ཀུན་བརྟག་འཁྲུལ་པ་ལྷག་མེད་རབ་བསལ་ཏེ།",
             phonetics: "kun ta trul pa lha mé rab sel té",
-            translation: "et les croyances et illusions,",
+            translation:
+              "croyances et illusions être complètement et définitivement éliminés,",
             words: [
               {
                 tibetan: "ཀུན་བརྟག",
@@ -1148,7 +1149,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "འཁྲུལ་པ",
                 phonetics: "trul pa",
-                translation: "illusions",
+                translation: "et illusions",
               },
               {
                 tibetan: "ལྷག་མེད",
@@ -1158,7 +1159,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "རབ་བསལ་ཏེ",
                 phonetics: "rab sel té",
-                translation: "éliminés",
+                translation: "et définitivement éliminés",
               },
             ],
           },
@@ -1213,12 +1214,12 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "རྒྱ་མཚོའི",
                 phonetics: "gyam tseu",
-                translation: "de l'océan",
+                translation: "l'océan",
               },
               {
                 tibetan: "གོ་བཙན་ཅིང",
                 phonetics: "go tsen tching",
-                translation: "avec la protection",
+                translation: "avec la protection de",
               },
             ],
           },
@@ -1273,12 +1274,12 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "རྒྱ་མཚོའི",
                 phonetics: "gyam tseu",
-                translation: "de l'océan",
+                translation: "l'océan",
               },
               {
                 tibetan: "མཐའ་བྲལ་ཀྱང",
                 phonetics: "ta drel kyang",
-                translation: "libre",
+                translation: "libre de",
               },
             ],
           },
@@ -1293,12 +1294,12 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "འཁོར་བའི",
                 phonetics: "kor ouai",
-                translation: "du samsara",
+                translation: "samsara",
               },
               {
                 tibetan: "རྒྱ་མཚོ",
                 phonetics: "gyam tso",
-                translation: "océan",
+                translation: "océan de",
               },
               {
                 tibetan: "དོང་ནས",
@@ -1358,7 +1359,7 @@ export const practiceTexts: PracticeText[] = [
               {
                 tibetan: "མངོན་གྱུར",
                 phonetics: "ngeun gyour",
-                translation: "manifeste",
+                translation: "qui rend manifeste",
               },
               { tibetan: "ཇི་ལྟར", phonetics: "dji tar", translation: "comme" },
               {
@@ -1386,13 +1387,13 @@ export const practiceTexts: PracticeText[] = [
                 translation: "fruit",
               },
               {
-                tibetan: "མངོན་སངས",
-                phonetics: "ngeun sang",
+                tibetan: "མངོན་སངས་རྒྱས་",
+                phonetics: "ngeun sangyé",
                 translation: "bouddhéité",
               },
               {
-                tibetan: "རྒྱས་གྱུར་ཅིག",
-                phonetics: "gyé gyour tchik",
+                tibetan: "གྱུར་ཅིག",
+                phonetics: "gyour tchik",
                 translation: "puisse être réalisé",
               },
             ],
@@ -2125,13 +2126,30 @@ export const practiceTexts: PracticeText[] = [
             type: "normal",
             tibetan: "སེམས་ཅན་ཐམས་ཅད་རྟག་པར་བླ་མ་ལ་སྐྱབས་སུ་མཆིའོ།",
             phonetics: "sem tchen tam tché tak par la ma la kyap sou tchi'o",
-            translation: "Tous les êtres prennent refuge pour toujours dans le Lama,",
+            translation:
+              "Tous les êtres prennent refuge pour toujours dans le Lama,",
             words: [
-              { tibetan: "སེམས་ཅན", phonetics: "sem tchen", translation: "êtres sensibles" },
+              {
+                tibetan: "སེམས་ཅན",
+                phonetics: "sem tchen",
+                translation: "êtres sensibles",
+              },
               { tibetan: "ཐམས་ཅད", phonetics: "tam tché", translation: "tous" },
-              { tibetan: "རྟག་པར", phonetics: "tak par", translation: "pour toujours" },
-              { tibetan: "བླ་མ་ལ", phonetics: "la ma la", translation: "dans le Lama" },
-              { tibetan: "སྐྱབས་སུ་མཆིའོ", phonetics: "kyap sou tchi'o", translation: "prennent refuge" },
+              {
+                tibetan: "རྟག་པར",
+                phonetics: "tak par",
+                translation: "pour toujours",
+              },
+              {
+                tibetan: "བླ་མ་ལ",
+                phonetics: "la ma la",
+                translation: "dans le Lama",
+              },
+              {
+                tibetan: "སྐྱབས་སུ་མཆིའོ",
+                phonetics: "kyap sou tchi'o",
+                translation: "prennent refuge",
+              },
             ],
           },
           {
@@ -2141,8 +2159,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "sangyé la kyap sou tchi'o",
             translation: "prennent refuge dans le Bouddha,",
             words: [
-              { tibetan: "སངས་རྒྱས་ལ", phonetics: "sangyé la", translation: "dans le Bouddha" },
-              { tibetan: "སྐྱབས་སུ་མཆིའོ", phonetics: "kyap sou tchi'o", translation: "prennent refuge" },
+              {
+                tibetan: "སངས་རྒྱས་ལ",
+                phonetics: "sangyé la",
+                translation: "dans le Bouddha",
+              },
+              {
+                tibetan: "སྐྱབས་སུ་མཆིའོ",
+                phonetics: "kyap sou tchi'o",
+                translation: "prennent refuge",
+              },
             ],
           },
           {
@@ -2152,8 +2178,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tcheu la kyap sou tchi'o",
             translation: "prennent refuge dans le Dharma,",
             words: [
-              { tibetan: "ཆོས་ལ", phonetics: "tcheu la", translation: "dans le Dharma" },
-              { tibetan: "སྐྱབས་སུ་མཆིའོ", phonetics: "kyap sou tchi'o", translation: "prennent refuge" },
+              {
+                tibetan: "ཆོས་ལ",
+                phonetics: "tcheu la",
+                translation: "dans le Dharma",
+              },
+              {
+                tibetan: "སྐྱབས་སུ་མཆིའོ",
+                phonetics: "kyap sou tchi'o",
+                translation: "prennent refuge",
+              },
             ],
           },
           {
@@ -2163,8 +2197,16 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "guen dun la kyap sou chi'o",
             translation: "et prennent refuge dans la Sangha.",
             words: [
-              { tibetan: "དགེ་འདུན་ལ", phonetics: "guen dun la", translation: "dans la Sangha" },
-              { tibetan: "སྐྱབས་སུ་མཆིའོ", phonetics: "kyap sou chi'o", translation: "prennent refuge" },
+              {
+                tibetan: "དགེ་འདུན་ལ",
+                phonetics: "guen dun la",
+                translation: "dans la Sangha",
+              },
+              {
+                tibetan: "སྐྱབས་སུ་མཆིའོ",
+                phonetics: "kyap sou chi'o",
+                translation: "prennent refuge",
+              },
             ],
           },
         ],
@@ -2176,32 +2218,98 @@ export const practiceTexts: PracticeText[] = [
           {
             id: "ta-2-1",
             type: "normal",
-            tibetan: "།བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ཤཱཀྱ་ཐུབ་པ་ལ་ཕྱག་འཚལ་ལོ།",
-            phonetics: "tchomdendé déshin shekpa dra tchompa yangdak par dzokpai sangyé shakya toupa la tchaktsel lo",
-            translation: "Hommage au bhagavan-tathagata-arhat-authentique-bouddha-parfait Shakyamuni.",
+            tibetan:
+              "།བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ཤཱཀྱ་ཐུབ་པ་ལ་ཕྱག་འཚལ་ལོ།",
+            phonetics:
+              "tchomdendé déshin shekpa dra tchompa yangdak par dzokpai sangyé shakya toupa la tchaktsel lo",
+            translation:
+              "Hommage au bhagavan-tathagata-arhat-authentique-bouddha-parfait Shakyamuni.",
             words: [
-              { tibetan: "བཅོམ་ལྡན་འདས", phonetics: "tchomdendé", translation: "bhagavan" },
-              { tibetan: "དེ་བཞིན་གཤེགས་པ", phonetics: "déshin shekpa", translation: "tathagata" },
-              { tibetan: "དགྲ་བཅོམ་པ", phonetics: "dra tchompa", translation: "arhat" },
-              { tibetan: "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས", phonetics: "yangdak par dzokpai sangyé", translation: "authentique-bouddha-parfait" },
-              { tibetan: "ཤཱཀྱ་ཐུབ་པ་ལ", phonetics: "shakya toupa la", translation: "à Shakyamuni" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "བཅོམ་ལྡན་འདས་",
+                phonetics: "tchomdendé",
+                translation: "bhagavan",
+              },
+              {
+                tibetan: "དེ་བཞིན་གཤེགས་པ་",
+                phonetics: "déshin shekpa",
+                translation: "tathagata",
+              },
+              {
+                tibetan: "དགྲ་བཅོམ་པ་",
+                phonetics: "dra tchompa",
+                translation: "arhat",
+              },
+              {
+                tibetan: "ཡང་དག་པར་",
+                phonetics: "yangdak par",
+                translation: "authentique",
+              },
+              {
+                tibetan: "རྫོགས་པའི་",
+                phonetics: "dzokpai",
+                translation: "parfait",
+              },
+              {
+                tibetan: "སངས་རྒྱས་",
+                phonetics: "sangyé",
+                translation: "bouddha",
+              },
+              {
+                tibetan: "ཤཱཀྱ་ཐུབ་པ་ལ",
+                phonetics: "shakya toupa la",
+                translation: "Shakyamuni",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img1", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha1.jpg" },
+          {
+            id: "ta-2-img1",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha1.jpg",
+          },
           {
             id: "ta-2-2",
             type: "normal",
             tibetan: "།རྡོ་རྗེ་སྙིང་པོས་རབ་ཏུ་འཇོམས་པ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "dorjé nyingpeu raptou djompa la tchaktsel lo",
-            translation: "Hommage à Complètement Conquérant par le Cœur-Vajra (Vajrasārapramardi).",
+            translation:
+              "Hommage à Complètement Conquérant par le Cœur-Vajra (Vajrasārapramardi).",
             words: [
-              { tibetan: "རྡོ་རྗེ་སྙིང་པོས", phonetics: "dorjé nyingpeu", translation: "par le Cœur-Vajra" },
-              { tibetan: "རབ་ཏུ་འཇོམས་པ་ལ", phonetics: "raptou djompa la", translation: "à Complètement Conquérant" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རྡོ་རྗེ་སྙིང་པོས",
+                phonetics: "dorjé nyingpeu",
+                translation: "par le Cœur-Vajra",
+              },
+              {
+                tibetan: "རབ་ཏུ་འཇོམས་པ་ལ",
+                phonetics: "raptou djompa la",
+                translation: "Complètement Conquérant",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img2", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha2.jpg" },
+          {
+            id: "ta-2-img2",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha2.jpg",
+          },
           {
             id: "ta-2-3",
             type: "normal",
@@ -2209,12 +2317,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "rintchen eutro la tchaktsel lo",
             translation: "Hommage à Joyau Irradiant de Lumière (Ratnārcis).",
             words: [
-              { tibetan: "རིན་ཆེན", phonetics: "rintchen", translation: "joyau" },
-              { tibetan: "འོད་འཕྲོ་ལ", phonetics: "eutro la", translation: "à Irradiant de Lumière" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རིན་ཆེན",
+                phonetics: "rinchen",
+                translation: "joyau",
+              },
+              {
+                tibetan: "འོད་འཕྲོ་ལ",
+                phonetics: "eutro la",
+                translation: "Irradiant de Lumière",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img3", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha3.jpg" },
+          {
+            id: "ta-2-img3",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha3.jpg",
+          },
           {
             id: "ta-2-4",
             type: "normal",
@@ -2222,12 +2350,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "louwang gui gyalpo la tchaktsel lo",
             translation: "Hommage à Roi des Puissants Nagas (Nāgeśvararāja).",
             words: [
-              { tibetan: "ཀླུ་དབང་གི", phonetics: "louwang gui", translation: "des Puissants Nagas" },
-              { tibetan: "རྒྱལ་པོ་ལ", phonetics: "gyalpo la", translation: "au Roi" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཀླུ་དབང་གི",
+                phonetics: "louwang gui",
+                translation: "Puissants Nagas",
+              },
+              {
+                tibetan: "རྒྱལ་པོ་ལ",
+                phonetics: "gyalpo la",
+                translation: "Roi",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img4", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha4.jpg" },
+          {
+            id: "ta-2-img4",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha4.jpg",
+          },
           {
             id: "ta-2-5",
             type: "normal",
@@ -2235,12 +2383,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "paweu dé la tchaktsel lo",
             translation: "Hommage à Classe Héroïque (Virasena).",
             words: [
-              { tibetan: "དཔའ་བོའི", phonetics: "paweu", translation: "héroïque" },
-              { tibetan: "སྡེ་ལ", phonetics: "dé la", translation: "à la Classe" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དཔའ་བོའི",
+                phonetics: "paweu",
+                translation: "héroïque",
+              },
+              {
+                tibetan: "སྡེ་ལ",
+                phonetics: "dé la",
+                translation: "Classe",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img5", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha5.jpg" },
+          {
+            id: "ta-2-img5",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha5.jpg",
+          },
           {
             id: "ta-2-6",
             type: "normal",
@@ -2248,11 +2416,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "pelgyé la tchaktsel lo",
             translation: "Hommage à Glorieux Heureux (Vīranandi).",
             words: [
-              { tibetan: "དཔལ་དགྱེས་ལ", phonetics: "pelgyé la", translation: "à Glorieux Heureux" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དཔལ་དགྱེས་ལ",
+                phonetics: "pelgyé la",
+                translation: "Glorieux Heureux",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img6", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha6.jpg" },
+          {
+            id: "ta-2-img6",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha6.jpg",
+          },
           {
             id: "ta-2-7",
             type: "normal",
@@ -2260,12 +2444,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "rinchen mé la tchaktsel lo",
             translation: "Hommage à Joyau Flamboyant (Ratnāgni).",
             words: [
-              { tibetan: "རིན་ཆེན", phonetics: "rinchen", translation: "joyau" },
-              { tibetan: "མེ་ལ", phonetics: "mé la", translation: "à Flamboyant" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རིན་ཆེན",
+                phonetics: "rinchen",
+                translation: "joyau",
+              },
+              {
+                tibetan: "མེ་ལ",
+                phonetics: "mé la",
+                translation: "Flamboyant",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img7", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha7.jpg" },
+          {
+            id: "ta-2-img7",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha7.jpg",
+          },
           {
             id: "ta-2-8",
             type: "normal",
@@ -2273,12 +2477,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "rinchen da eu la tchaktsel lo",
             translation: "Hommage à Joyau Clair de Lune (Ratnacandraprabha).",
             words: [
-              { tibetan: "རིན་ཆེན", phonetics: "rinchen", translation: "joyau" },
-              { tibetan: "ཟླ་འོད་ལ", phonetics: "da eu la", translation: "à Clair de Lune" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རིན་ཆེན",
+                phonetics: "rinchen",
+                translation: "joyau",
+              },
+              {
+                tibetan: "ཟླ་འོད་ལ",
+                phonetics: "da eu la",
+                translation: "Clair de Lune",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img8", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha8.jpg" },
+          {
+            id: "ta-2-img8",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha8.jpg",
+          },
           {
             id: "ta-2-9",
             type: "normal",
@@ -2287,11 +2511,27 @@ export const practiceTexts: PracticeText[] = [
             translation: "Hommage à Vision Bienfaisante (Amoghadarśī).",
             words: [
               { tibetan: "མཐོང་བ", phonetics: "tongwa", translation: "vision" },
-              { tibetan: "དོན་ཡོད་ལ", phonetics: "deun yeu la", translation: "à Bienfaisante" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དོན་ཡོད་ལ",
+                phonetics: "deun yeu la",
+                translation: "Bienfaisante",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img9", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha9.jpg" },
+          {
+            id: "ta-2-img9",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha9.jpg",
+          },
           {
             id: "ta-2-10",
             type: "normal",
@@ -2299,12 +2539,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "rinchen dawa la tchaktsel lo",
             translation: "Hommage à Joyau de Lune (Ratnacandra).",
             words: [
-              { tibetan: "རིན་ཆེན", phonetics: "rinchen", translation: "joyau" },
-              { tibetan: "ཟླ་བ་ལ", phonetics: "dawa la", translation: "à Lune" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རིན་ཆེན",
+                phonetics: "rinchen",
+                translation: "joyau",
+              },
+              {
+                tibetan: "ཟླ་བ་ལ",
+                phonetics: "dawa la",
+                translation: "de Lune",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img10", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha10.jpg" },
+          {
+            id: "ta-2-img10",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha10.jpg",
+          },
           {
             id: "ta-2-11",
             type: "normal",
@@ -2312,11 +2572,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "drima mépa la tchaktsel lo",
             translation: "Hommage à Immaculé (Nirmala).",
             words: [
-              { tibetan: "དྲི་མ་མེད་པ་ལ", phonetics: "drima mépa la", translation: "à Immaculé" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དྲི་མ་མེད་པ་ལ",
+                phonetics: "drima mépa la",
+                translation: "Immaculé",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img11", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha11.jpg" },
+          {
+            id: "ta-2-img11",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha11.jpg",
+          },
           {
             id: "ta-2-12",
             type: "normal",
@@ -2324,11 +2600,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "pédjin la tchaktsel lo",
             translation: "Hommage à Glorieuse Générosité (Śūradatta).",
             words: [
-              { tibetan: "དཔས་བྱིན་ལ", phonetics: "pédjin la", translation: "à Glorieuse Générosité" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དཔས་བྱིན་ལ",
+                phonetics: "pédjin la",
+                translation: "Glorieuse Générosité",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img12", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha12.jpg" },
+          {
+            id: "ta-2-img12",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha12.jpg",
+          },
           {
             id: "ta-2-13",
             type: "normal",
@@ -2336,11 +2628,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tsangpa la tchaktsel lo",
             translation: "Hommage à Pureté (Brahma).",
             words: [
-              { tibetan: "ཚངས་པ་ལ", phonetics: "tsangpa la", translation: "à Pureté" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཚངས་པ་ལ",
+                phonetics: "tsangpa la",
+                translation: "Pureté",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img13", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha13.jpg" },
+          {
+            id: "ta-2-img13",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha13.jpg",
+          },
           {
             id: "ta-2-14",
             type: "normal",
@@ -2348,12 +2656,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tsangpai djin la tchaktsel lo",
             translation: "Hommage à Bénédiction de Pureté (Brahmadatta).",
             words: [
-              { tibetan: "ཚངས་པའི", phonetics: "tsangpai", translation: "de Pureté" },
-              { tibetan: "བྱིན་ལ", phonetics: "djin la", translation: "à Bénédiction" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཚངས་པའི",
+                phonetics: "tsangpai",
+                translation: "de Pureté",
+              },
+              {
+                tibetan: "བྱིན་ལ",
+                phonetics: "djin la",
+                translation: "Bénédiction",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img14", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha14.jpg" },
+          {
+            id: "ta-2-img14",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha14.jpg",
+          },
           {
             id: "ta-2-15",
             type: "normal",
@@ -2361,24 +2689,61 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "tchou lh'a la tchaktsel lo",
             translation: "Hommage à Divinité Aquatile (Varuna).",
             words: [
-              { tibetan: "ཆུ་ལྷ་ལ", phonetics: "tchou lh'a la", translation: "à Divinité Aquatile" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཆུ་ལྷ་ལ",
+                phonetics: "tchou lh'a la",
+                translation: "Divinité Aquatile",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "à hommage",
+              },
             ],
           },
-          { id: "ta-2-img15", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha15.jpg" },
+          {
+            id: "ta-2-img15",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha15.jpg",
+          },
           {
             id: "ta-2-16",
             type: "normal",
             tibetan: "།ཆུ་ལྷའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "tchou lh'ai lh'a la tchaktsel lo",
-            translation: "Hommage à Divinité des Divinités Aquatiles (Varunadeva).",
+            translation:
+              "Hommage à Divinité des Divinités Aquatiles (Varunadeva).",
             words: [
-              { tibetan: "ཆུ་ལྷའི", phonetics: "tchou lh'ai", translation: "des Divinités Aquatiles" },
-              { tibetan: "ལྷ་ལ", phonetics: "lh'a la", translation: "à Divinité" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཆུ་ལྷའི",
+                phonetics: "tchou lh'ai",
+                translation: "des Divinités Aquatiles",
+              },
+              {
+                tibetan: "ལྷ་ལ",
+                phonetics: "lh'a la",
+                translation: "Divinité",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img16", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha16.jpg" },
+          {
+            id: "ta-2-img16",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha16.jpg",
+          },
           {
             id: "ta-2-17",
             type: "normal",
@@ -2386,11 +2751,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "pelzang la tchaktsel lo",
             translation: "Hommage à Gloire Excellente (Bhadraśrī).",
             words: [
-              { tibetan: "དཔལ་བཟང་ལ", phonetics: "pelzang la", translation: "à Gloire Excellente" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དཔལ་བཟང་ལ",
+                phonetics: "pelzang la",
+                translation: "Gloire Excellente",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img17", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha17.jpg" },
+          {
+            id: "ta-2-img17",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha17.jpg",
+          },
           {
             id: "ta-2-18",
             type: "normal",
@@ -2399,11 +2780,27 @@ export const practiceTexts: PracticeText[] = [
             translation: "Hommage à Glorieux Santal (Candanaśrī).",
             words: [
               { tibetan: "ཙན་དན", phonetics: "tsenden", translation: "santal" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Glorieux" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Glorieux",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img18", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha18.jpg" },
+          {
+            id: "ta-2-img18",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha18.jpg",
+          },
           {
             id: "ta-2-19",
             type: "normal",
@@ -2411,12 +2808,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "zidji t'ayé la tchaktsel lo",
             translation: "Hommage à Splendeur Infinie (Anantaujas).",
             words: [
-              { tibetan: "གཟི་བརྗིད", phonetics: "zidji", translation: "splendeur" },
-              { tibetan: "མཐའ་ཡས་ལ", phonetics: "t'ayé la", translation: "à Infinie" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "གཟི་བརྗིད",
+                phonetics: "zidji",
+                translation: "splendeur",
+              },
+              {
+                tibetan: "མཐའ་ཡས་ལ",
+                phonetics: "t'ayé la",
+                translation: "infinie",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img19", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha19.jpg" },
+          {
+            id: "ta-2-img19",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha19.jpg",
+          },
           {
             id: "ta-2-20",
             type: "normal",
@@ -2424,11 +2841,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "eupel la tchaktsel lo",
             translation: "Hommage à Glorieuse Lumière (Prabhāsaśrī).",
             words: [
-              { tibetan: "འོད་དཔལ་ལ", phonetics: "eupel la", translation: "à Glorieuse Lumière" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "འོད་དཔལ་ལ",
+                phonetics: "eupel la",
+                translation: "Glorieuse Lumière",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img20", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha20.jpg" },
+          {
+            id: "ta-2-img20",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha20.jpg",
+          },
           {
             id: "ta-2-21",
             type: "normal",
@@ -2436,12 +2869,32 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "nya ngen mépai pel la tchaktsel lo",
             translation: "Hommage à Glorieuse Absence de Tourments (Aśokaśrī).",
             words: [
-              { tibetan: "མྱ་ངན་མེད་པའི", phonetics: "nya ngen mépai", translation: "d'Absence de Tourments" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Glorieuse" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "མྱ་ངན་མེད་པའི",
+                phonetics: "nya ngen mépai",
+                translation: "Absence de Tourments",
+              },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Glorieuse",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img21", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha21.jpg" },
+          {
+            id: "ta-2-img21",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha21.jpg",
+          },
           {
             id: "ta-2-22",
             type: "normal",
@@ -2449,12 +2902,28 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "sémé ki bou la tchaktsel lo",
             translation: "Hommage à Fils Dénué de Soif (Nārāyaņā).",
             words: [
-              { tibetan: "སྲེད་མེད་ཀྱི", phonetics: "sémé ki", translation: "Dénué de Soif" },
-              { tibetan: "བུ་ལ", phonetics: "bou la", translation: "au Fils" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "སྲེད་མེད་ཀྱི",
+                phonetics: "sémé ki",
+                translation: "Dénué de Soif",
+              },
+              { tibetan: "བུ་ལ", phonetics: "bou la", translation: "Fils" },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img22", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha22.jpg" },
+          {
+            id: "ta-2-img22",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha22.jpg",
+          },
           {
             id: "ta-2-23",
             type: "normal",
@@ -2462,42 +2931,124 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "métok pel la tchaktsel lo",
             translation: "Hommage à Glorieux Fleurissement (Kusumaśrī).",
             words: [
-              { tibetan: "མེ་ཏོག", phonetics: "métok", translation: "fleur" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Glorieux" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "མེ་ཏོག",
+                phonetics: "métok",
+                translation: "Fleurissement",
+              },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Glorieux",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img23", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha23.jpg" },
+          {
+            id: "ta-2-img23",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha23.jpg",
+          },
           {
             id: "ta-2-24",
             type: "normal",
-            tibetan: "དེ་བཞིན་གཤེགས་པ་ཚངས་པའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།",
-            phonetics: "déshin shekpa tsangpai euser nampar reulpa ngeunpar k'yenpa la tchaktsel lo",
-            translation: "Hommage au tathagata Plein Déploiement de Lumière de Pureté à la Sapience Authentique (Brahmajyotirvikrīdiābhijña).",
+            tibetan:
+              "དེ་བཞིན་གཤེགས་པ་ཚངས་པའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།",
+            phonetics:
+              "déshin shekpa tsangpai euser nampar reulpa ngeunpar k'yenpa la tchaktsel lo",
+            translation:
+              "Hommage au tathagata Plein Déploiement de Lumière de Pureté à la Sapience Authentique (Brahmajyotirvikrīdiābhijña).",
             words: [
-              { tibetan: "དེ་བཞིན་གཤེགས་པ", phonetics: "déshin shekpa", translation: "tathagata" },
-              { tibetan: "ཚངས་པའི་འོད་ཟེར", phonetics: "tsangpai euser", translation: "Lumière de Pureté" },
-              { tibetan: "རྣམ་པར་རོལ་པ", phonetics: "nampar reulpa", translation: "Plein Déploiement" },
-              { tibetan: "མངོན་པར་མཁྱེན་པ་ལ", phonetics: "ngeunpar k'yenpa la", translation: "à la Sapience Authentique" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དེ་བཞིན་གཤེགས་པ",
+                phonetics: "déshin shekpa",
+                translation: "tathagata",
+              },
+              {
+                tibetan: "ཚངས་པའི་འོད་ཟེར",
+                phonetics: "tsangpai euser",
+                translation: "Lumière de Pureté",
+              },
+              {
+                tibetan: "རྣམ་པར་རོལ་པ",
+                phonetics: "nampar reulpa",
+                translation: "Plein Déploiement",
+              },
+              {
+                tibetan: "མངོན་པར་མཁྱེན་པ་ལ",
+                phonetics: "ngeunpar k'yenpa la",
+                translation: "à la Sapience Authentique",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img24", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha24.jpg" },
+          {
+            id: "ta-2-img24",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha24.jpg",
+          },
           {
             id: "ta-2-25",
             type: "normal",
-            tibetan: "།དེ་བཞིན་གཤེགས་པ་པདྨའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།",
-            phonetics: "déshin shekpa pémai euser nampar reulpa ngeunpar k'yenpa la tchaktsel lo",
-            translation: "Hommage au tathagata Plein Déploiement de Lumière de Lotus à la Sapience Authentique (Padmajyotirvikrīditābhijña).",
+            tibetan:
+              "།དེ་བཞིན་གཤེགས་པ་པདྨའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།",
+            phonetics:
+              "déshin shekpa pémai euser nampar reulpa ngeunpar k'yenpa la tchaktsel lo",
+            translation:
+              "Hommage au tathagata Plein Déploiement de Lumière de Lotus à la Sapience Authentique (Padmajyotirvikrīditābhijña).",
             words: [
-              { tibetan: "དེ་བཞིན་གཤེགས་པ", phonetics: "déshin shekpa", translation: "tathagata" },
-              { tibetan: "པདྨའི་འོད་ཟེར", phonetics: "pémai euser", translation: "Lumière de Lotus" },
-              { tibetan: "རྣམ་པར་རོལ་པ", phonetics: "nampar reulpa", translation: "Plein Déploiement" },
-              { tibetan: "མངོན་པར་མཁྱེན་པ་ལ", phonetics: "ngeunpar k'yenpa la", translation: "à la Sapience Authentique" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དེ་བཞིན་གཤེགས་པ",
+                phonetics: "déshin shekpa",
+                translation: "tathagata",
+              },
+              {
+                tibetan: "པདྨའི་འོད་ཟེར",
+                phonetics: "pémai euser",
+                translation: "Lumière de Lotus",
+              },
+              {
+                tibetan: "རྣམ་པར་རོལ་པ",
+                phonetics: "nampar reulpa",
+                translation: "Plein Déploiement",
+              },
+              {
+                tibetan: "མངོན་པར་མཁྱེན་པ་ལ",
+                phonetics: "ngeunpar k'yenpa la",
+                translation: "à la Sapience Authentique",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img25", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha25.jpg" },
+          {
+            id: "ta-2-img25",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha25.jpg",
+          },
           {
             id: "ta-2-26",
             type: "normal",
@@ -2505,11 +3056,27 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "norpel la tchaktsel lo",
             translation: "Hommage à Glorieuse Prospérité (Ghanaśrī).",
             words: [
-              { tibetan: "ནོར་དཔལ་ལ", phonetics: "norpel la", translation: "à Glorieuse Prospérité" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ནོར་དཔལ་ལ",
+                phonetics: "norpel la",
+                translation: "Glorieuse Prospérité",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img26", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha26.jpg" },
+          {
+            id: "ta-2-img26",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha26.jpg",
+          },
           {
             id: "ta-2-27",
             type: "normal",
@@ -2517,67 +3084,183 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "drenpai pel la tchaktsel lo",
             translation: "Hommage à Gloire de la Souvenance (Smrtiśrī).",
             words: [
-              { tibetan: "དྲན་པའི", phonetics: "drenpai", translation: "de la Souvenance" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Gloire" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དྲན་པའི",
+                phonetics: "drenpai",
+                translation: "de la Souvenance",
+              },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Gloire",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img27", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha27.jpg" },
+          {
+            id: "ta-2-img27",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha27.jpg",
+          },
           {
             id: "ta-2-28",
             type: "normal",
             tibetan: "།མཚན་དཔལ་ཤིན་ཏུ་ཡོངས་གྲགས་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "tsenpel chintou yongdrak la tchaktsel lo",
-            translation: "Hommage à glorieux Nom Complètement Renommé (Suparikīrtitanāmadheyaśrī).",
+            translation:
+              "Hommage à glorieux Nom Complètement Renommé (Suparikīrtitanāmadheyaśrī).",
             words: [
-              { tibetan: "མཚན་དཔལ", phonetics: "tsenpel", translation: "Glorieux Nom" },
-              { tibetan: "ཤིན་ཏུ་ཡོངས་གྲགས་ལ", phonetics: "chintou yongdrak la", translation: "à Complètement Renommé" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "མཚན་དཔལ",
+                phonetics: "tsenpel",
+                translation: "Glorieux Nom",
+              },
+              {
+                tibetan: "ཤིན་ཏུ་ཡོངས་གྲགས་ལ",
+                phonetics: "chintou yongdrak la",
+                translation: "Complètement Renommé",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img28", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha28.jpg" },
+          {
+            id: "ta-2-img28",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha28.jpg",
+          },
           {
             id: "ta-2-29",
             type: "normal",
             tibetan: "།དབང་པོའི་ཏོག་གི་རྒྱལ་མཚན་གྱི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "wangpeu tok gui gyaltsen gyi gyalpo la tchaktsel lo",
-            translation: "Hommage à Bannière Royale de Victoire au Sommet de la Tête d'Indra (Indraketudhvajarāja).",
+            translation:
+              "Hommage à Bannière Royale de Victoire au Sommet de la Tête d'Indra (Indraketudhvajarāja).",
             words: [
-              { tibetan: "དབང་པོའི་ཏོག་གི", phonetics: "wangpeu tok gui", translation: "au Sommet de la Tête d'Indra" },
-              { tibetan: "རྒྱལ་མཚན་གྱི", phonetics: "gyaltsen gyi", translation: "de Victoire" },
-              { tibetan: "རྒྱལ་པོ་ལ", phonetics: "gyalpo la", translation: "au Roi" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དབང་པོའི་ཏོག་གི",
+                phonetics: "wangpeu tok gui",
+                translation: "au Sommet de la Tête d'Indra",
+              },
+              {
+                tibetan: "རྒྱལ་མཚན་གྱི",
+                phonetics: "gyaltsen gyi",
+                translation: "Bannière de Victoire",
+              },
+              {
+                tibetan: "རྒྱལ་པོ་ལ",
+                phonetics: "gyalpo la",
+                translation: "Royale",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img29", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha29.jpg" },
+          {
+            id: "ta-2-img29",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha29.jpg",
+          },
           {
             id: "ta-2-30",
             type: "normal",
             tibetan: "།ཤིན་ཏུ་རྣམ་པར་གནོན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "chintou nampar neunpai pel la tchaktsel lo",
-            translation: "Hommage à Glorieux Totalement Subjuguant (Suvikrāntaśrī).",
+            translation:
+              "Hommage à Glorieux Totalement Subjuguant (Suvikrāntaśrī).",
             words: [
-              { tibetan: "ཤིན་ཏུ་རྣམ་པར", phonetics: "chintou nampar", translation: "totalement" },
-              { tibetan: "གནོན་པའི", phonetics: "neunpai", translation: "subjuguant" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Glorieux" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "ཤིན་ཏུ་རྣམ་པར",
+                phonetics: "chintou nampar",
+                translation: "Totalement",
+              },
+              {
+                tibetan: "གནོན་པའི",
+                phonetics: "neunpai",
+                translation: "Subjuguant",
+              },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Glorieux",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img30", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha30.jpg" },
+          {
+            id: "ta-2-img30",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha30.jpg",
+          },
           {
             id: "ta-2-31",
             type: "normal",
             tibetan: "།གཡུལ་ལས་ཤིན་ཏུ་རྣམ་པར་རྒྱལ་བ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "yul lé chintou nampar gyalwa la tchaktsel lo",
-            translation: "Hommage à Triomphant dans les Batailles (Suvijitasamgrāma).",
+            translation:
+              "Hommage à Triomphant dans les Batailles (Suvijitasamgrāma).",
             words: [
-              { tibetan: "གཡུལ་ལས", phonetics: "yul lé", translation: "dans les Batailles" },
-              { tibetan: "ཤིན་ཏུ་རྣམ་པར", phonetics: "chintou nampar", translation: "totalement" },
-              { tibetan: "རྒྱལ་བ་ལ", phonetics: "gyalwa la", translation: "à Triomphant" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "གཡུལ་ལས",
+                phonetics: "yul lé",
+                translation: "dans les Batailles",
+              },
+              {
+                tibetan: "ཤིན་ཏུ་རྣམ་པར",
+                phonetics: "chintou nampar",
+                translation: "totalement",
+              },
+              {
+                tibetan: "རྒྱལ་བ་ལ",
+                phonetics: "gyalwa la",
+                translation: "Triomphant",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img31", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha31.jpg" },
+          {
+            id: "ta-2-img31",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha31.jpg",
+          },
           {
             id: "ta-2-32",
             type: "normal",
@@ -2585,68 +3268,209 @@ export const practiceTexts: PracticeText[] = [
             phonetics: "nampar neunpé shekpa la tchaktsel lo",
             translation: "Hommage à Celui qui va Victorieux (Vikrāntagāmin).",
             words: [
-              { tibetan: "རྣམ་པར་གནོན་པས", phonetics: "nampar neunpé", translation: "Victorieux" },
-              { tibetan: "གཤེགས་པ་ལ", phonetics: "shekpa la", translation: "à Celui qui va" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རྣམ་པར་གནོན་པས",
+                phonetics: "nampar neunpé",
+                translation: "Victorieux",
+              },
+              {
+                tibetan: "གཤེགས་པ་ལ",
+                phonetics: "shekpa la",
+                translation: "Celui qui va",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img32", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha32.jpg" },
+          {
+            id: "ta-2-img32",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha32.jpg",
+          },
           {
             id: "ta-2-33",
             type: "normal",
             tibetan: "།ཀུན་ནས་སྣང་བ་བཀོད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "kun né nang wa keu pai pel la tchak tsel lo",
-            translation: "Hommage à Glorieux Agencement de Manifestations Partout Présentes (Samantāvabhāsavyūhaśrī).",
+            translation:
+              "Hommage à Glorieux Agencement de Manifestations Partout Présentes (Samantāvabhāsavyūhaśrī).",
             words: [
-              { tibetan: "ཀུན་ནས་སྣང་བ", phonetics: "kun né nang wa", translation: "Manifestations Partout Présentes" },
-              { tibetan: "བཀོད་པའི", phonetics: "keu pai", translation: "Agencement de" },
-              { tibetan: "དཔལ་ལ", phonetics: "pel la", translation: "à Glorieux" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchak tsel lo", translation: "hommage" },
+              {
+                tibetan: "ཀུན་ནས་སྣང་བ",
+                phonetics: "kun né nang wa",
+                translation: "Manifestations Partout Présentes",
+              },
+              {
+                tibetan: "བཀོད་པའི",
+                phonetics: "keu pai",
+                translation: "Agencement",
+              },
+              {
+                tibetan: "དཔལ་ལ",
+                phonetics: "pel la",
+                translation: "Glorieux",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchak tsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img33", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha33.jpg" },
+          {
+            id: "ta-2-img33",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha33.jpg",
+          },
           {
             id: "ta-2-34",
             type: "normal",
             tibetan: "།རིན་ཆེན་པདྨ་རྣམ་པར་གནོན་པ་ལ་ཕྱག་འཚལ་ལོ།",
             phonetics: "rinchen péma nampar neunpa la tchaktsel lo",
-            translation: "Hommage à Celui qui Subjugue les Joyaux en Lotus (Ratnapadmavikrāmin).",
+            translation:
+              "Hommage à Celui qui Subjugue les Joyaux en Lotus (Ratnapadmavikrāmin).",
             words: [
-              { tibetan: "རིན་ཆེན་པདྨ", phonetics: "rinchen péma", translation: "Joyaux en Lotus" },
-              { tibetan: "རྣམ་པར་གནོན་པ་ལ", phonetics: "nampar neunpa la", translation: "à Celui qui Subjugue" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "རིན་ཆེན་པདྨ",
+                phonetics: "rinchen péma",
+                translation: "Joyaux en Lotus",
+              },
+              {
+                tibetan: "རྣམ་པར་གནོན་པ་ལ",
+                phonetics: "nampar neunpa la",
+                translation: "Celui qui Subjugue",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img34", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha34.jpg" },
+          {
+            id: "ta-2-img34",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha34.jpg",
+          },
           {
             id: "ta-2-35",
             type: "normal",
-            tibetan: "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་རིན་པོ་ཆེའི་པདྨ་ལ་རབ་ཏུ་བཞུགས་པ་རི་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
-            phonetics: "déshin shekpa dra tchompa yangdak par dzokpai sangyé rinpoché péma la raptou shouk pa riwang gui gyalpo la tchaktsel lo",
-            translation: "Hommage au tathagata-arhat-authentique-bouddha-parfait Roi de la Montagne Souveraine, Parfaitement Établi dans le Joyau de Lotus (Ratnapadmasupratirsthitaśailendraraja).",
+            tibetan:
+              "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་རིན་པོ་ཆེའི་པདྨ་ལ་རབ་ཏུ་བཞུགས་པ་རི་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
+            phonetics:
+              "déshin shekpa dra tchompa yangdak par dzokpai sangyé rinpoché péma la raptou shouk pa riwang gui gyalpo la tchaktsel lo",
+            translation:
+              "Hommage au tathagata-arhat-authentique-bouddha-parfait Roi de la Montagne Souveraine, Parfaitement Établi dans le Joyau de Lotus (Ratnapadmasupratirsthitaśailendraraja).",
             words: [
-              { tibetan: "དེ་བཞིན་གཤེགས་པ", phonetics: "déshin shekpa", translation: "tathagata" },
-              { tibetan: "དགྲ་བཅོམ་པ", phonetics: "dra tchompa", translation: "arhat" },
-              { tibetan: "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས", phonetics: "yangdak par dzokpai sangyé", translation: "authentique-bouddha-parfait" },
-              { tibetan: "རིན་པོ་ཆེའི་པདྨ་ལ", phonetics: "rinpoché péma la", translation: "dans le Joyau de Lotus" },
-              { tibetan: "རབ་ཏུ་བཞུགས་པ", phonetics: "raptou shouk pa", translation: "Parfaitement Établi" },
-              { tibetan: "རི་དབང་གི་རྒྱལ་པོ་ལ", phonetics: "riwang gui gyalpo la", translation: "au Roi de la Montagne Souveraine" },
-              { tibetan: "ཕྱག་འཚལ་ལོ", phonetics: "tchaktsel lo", translation: "hommage" },
+              {
+                tibetan: "དེ་བཞིན་གཤེགས་པ",
+                phonetics: "déshin shekpa",
+                translation: "tathagata",
+              },
+              {
+                tibetan: "དགྲ་བཅོམ་པ",
+                phonetics: "dra tchompa",
+                translation: "arhat",
+              },
+              {
+                tibetan: "ཡང་དག་པར་",
+                phonetics: "yangdak par",
+                translation: "authentique",
+              },
+              {
+                tibetan: "རྫོགས་པའི་",
+                phonetics: "dzokpai",
+                translation: "parfait",
+              },
+              {
+                tibetan: "སངས་རྒྱས་",
+                phonetics: "sangyé",
+                translation: "bouddha",
+              },
+              {
+                tibetan: "རིན་པོ་ཆེའི་པདྨ་ལ",
+                phonetics: "rinpoché péma la",
+                translation: "dans le Joyau de Lotus",
+              },
+              {
+                tibetan: "རབ་ཏུ་བཞུགས་པ",
+                phonetics: "raptou shouk pa",
+                translation: "Parfaitement Établi",
+              },
+              {
+                tibetan: "རི་དབང་གི་རྒྱལ་པོ་ལ",
+                phonetics: "riwang gui gyalpo la",
+                translation: "Roi de la Montagne Souveraine",
+              },
+              {
+                tibetan: "ཕྱག་འཚལ་ལོ",
+                phonetics: "tchaktsel lo",
+                translation: "hommage à",
+              },
             ],
           },
-          { id: "ta-2-img35", type: "image", tibetan: "", phonetics: "", translation: "", words: [], src: "/35buddhas/Bouddha35.jpg" },
+          {
+            id: "ta-2-img35",
+            type: "image",
+            tibetan: "",
+            phonetics: "",
+            translation: "",
+            words: [],
+            src: "/35buddhas/Bouddha35.jpg",
+          },
           {
             id: "ta-2-36",
             type: "normal",
-            tibetan: "།དེ་དག་ལ་སོགས་པ་ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
-            phonetics: "dédak la sok pa tchok tchu djikten gui k'am t'amtché na déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé gang djinyé tchik shoukté tso shing shépai sangyé tchomden dé dé da t'amtché dak la gong sou seul",
-            translation: "Je prie ces [trente-cinq bouddhas] ainsi que tous les bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits quels qu'ils soient, vivant et demeurant actuellement dans les univers des dix directions, de bien vouloir m'accorder leur attention.",
+            tibetan:
+              "།དེ་དག་ལ་སོགས་པ་ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+            phonetics:
+              "dédak la sok pa tchok tchu djikten gui k'am t'amtché na déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé gang djinyé tchik shoukté tso shing shépai sangyé tchomden dé dé da t'amtché dak la gong sou seul",
+            translation:
+              "Je prie ces [trente-cinq bouddhas] ainsi que tous les bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits quels qu'ils soient, vivant et demeurant actuellement dans les univers des dix directions, de bien vouloir m'accorder leur attention.",
             words: [
-              { tibetan: "དེ་དག་ལ་སོགས་པ", phonetics: "dédak la sok pa", translation: "ces bouddhas et autres" },
-              { tibetan: "ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན", phonetics: "tchok tchu djikten gui k'am t'amtché na", translation: "dans tous les univers des dix directions" },
-              { tibetan: "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས", phonetics: "déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé", translation: "bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits" },
-              { tibetan: "གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི", phonetics: "gang djinyé tchik shoukté tso shing shépai", translation: "quels qu'ils soient, vivant et demeurant" },
-              { tibetan: "བདག་ལ་དགོངས་སུ་གསོལ", phonetics: "dak la gong sou seul", translation: "je prie de m'accorder leur attention" },
+              {
+                tibetan: "དེ་དག་ལ་སོགས་པ",
+                phonetics: "dédak la sok pa",
+                translation: "ces bouddhas et autres",
+              },
+              {
+                tibetan: "ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན",
+                phonetics: "tchok tchu djikten gui k'am t'amtché na",
+                translation: "dans tous les univers des dix directions",
+              },
+              {
+                tibetan:
+                  "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས",
+                phonetics:
+                  "déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé",
+                translation:
+                  "bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits",
+              },
+              {
+                tibetan: "གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི",
+                phonetics: "gang djinyé tchik shoukté tso shing shépai",
+                translation: "quels qu'ils soient, vivant et demeurant",
+              },
+              {
+                tibetan: "བདག་ལ་དགོངས་སུ་གསོལ",
+                phonetics: "dak la gong sou seul",
+                translation: "je prie de m'accorder leur attention",
+              },
             ],
           },
         ],
