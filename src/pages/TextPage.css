@@ -194,10 +194,28 @@
   opacity: 0.8;
 }
 
-.section-ta-hommage .phrase-text,
-.section-ta-hommage .breakdown-words {
-  text-align: center;
-  justify-content: center;
+.ta-hommage-pair {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.ta-hommage-pair .phrase-container {
+  flex: 1;
+}
+
+.ta-hommage-image {
+  flex: 1;
+}
+
+.ta-hommage-image .phrase-image-wrapper {
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.ta-hommage-pair-solo {
+  display: block;
 }
 
 @media (max-width: 600px) {

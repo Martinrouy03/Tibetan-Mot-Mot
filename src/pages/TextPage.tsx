@@ -128,17 +128,70 @@ export default function TextPage() {
       </h2>
       {text.sections.map((section) => {
         let normalCount = 0;
+
+        // Build pairs [normal, image?] for ta-hommage
+        type PhrasePair = { normal: typeof section.phrases[0]; image?: typeof section.phrases[0] };
+        const pairs: PhrasePair[] = [];
+        if (section.id === 'ta-hommage') {
+          let i = 0;
+          while (i < section.phrases.length) {
+            const p = section.phrases[i];
+            if (p.type === 'normal' && section.phrases[i + 1]?.type === 'image') {
+              pairs.push({ normal: p, image: section.phrases[i + 1] });
+              i += 2;
+            } else {
+              pairs.push({ normal: p });
+              i++;
+            }
+          }
+        }
+
         return (
         <div key={section.id} className={`section section-${section.id}`}>
           {section.title && <h3 className="section-title">{section.title}</h3>}
           <div className="phrases">
-            {section.phrases.map((phrase) => {
+            {section.id === 'ta-hommage' ? pairs.map(({ normal, image }) => {
+              normalCount++;
+              const prefix = normal.type === 'normal' ? `[${normalCount}.] ` : undefined;
+              const isSelected = interactionMode === 'fixed' || selectedPhraseId === normal.id;
+              const isLastPrayer = !image;
+              return (
+                <div key={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
+                  <div
+                    ref={(el) => setPhraseRef(normal.id, el)}
+                    data-phrase-id={normal.id}
+                    className={`phrase-container ${interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
+                    onClick={() => interactionMode !== 'fixed' && handlePhraseClick(normal.id)}
+                  >
+                    {isSelected ? (
+                      <PhraseBreakdown phrase={normal} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
+                    ) : (
+                      <div className="phrase">
+                        {prefix && <span className="breakdown-prefix">{prefix}</span>}
+                        <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                          {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                  {image && (
+                    <div className="ta-hommage-image">
+                      <div className="phrase-image-wrapper">
+                        <img src={image.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
+                        <div className="image-size-pill">
+                          <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
+                          <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            }) : section.phrases.map((phrase) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
               const isImage = phrase.type === 'image';
-              if (section.id === 'ta-hommage' && isNormal) normalCount++;
-              const prefix = section.id === 'ta-hommage' && isNormal ? `[${normalCount}.] ` : undefined;
 
               return (
                 <div
@@ -157,7 +210,7 @@ export default function TextPage() {
                       </div>
                     </div>
                   ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
-                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
+                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
                     <div className="phrase phrase-mantra">
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
@@ -173,7 +226,6 @@ export default function TextPage() {
                     </div>
                   ) : (
                     <div className="phrase">
-                      {prefix && <span className="breakdown-prefix">{prefix}</span>}
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
