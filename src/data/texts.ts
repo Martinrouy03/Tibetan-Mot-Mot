@@ -3437,39 +3437,133 @@ export const practiceTexts: PracticeText[] = [
             id: "ta-2-36",
             type: "normal",
             tibetan:
-              "།དེ་དག་ལ་སོགས་པ་ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+              "།དེ་དག་ལ་སོགས་པ་ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་",
             phonetics:
-              "dédak la sok pa tchok tchu djikten gui k'am t'amtché na déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé gang djinyé tchik shoukté tso shing shépai sangyé tchomden dé dé da t'amtché dak la gong sou seul",
+              "dédak la sok pa tchok tchu djikten gui k'am t'amtché na déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé",
             translation:
-              "Je prie ces [trente-cinq bouddhas] ainsi que tous les bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits quels qu'ils soient, vivant et demeurant actuellement dans les univers des dix directions, de bien vouloir m'accorder leur attention.",
+              "Je prie ces [trente-cinq bouddhas] ainsi que tous les bouddhas bhagavans tathagatas arhats authentiques bouddhas parfaits des univers des dix directions",
             words: [
               {
-                tibetan: "དེ་དག་ལ་སོགས་པ",
-                phonetics: "dédak la sok pa",
-                translation: "ces bouddhas et autres",
+                tibetan: "དེ་དག",
+                phonetics: "dédak",
+                translation: "ces [bouddhas]",
               },
               {
-                tibetan: "ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན",
-                phonetics: "tchok tchu djikten gui k'am t'amtché na",
-                translation: "dans tous les univers des dix directions",
+                tibetan: "ལ་སོགས་པ",
+                phonetics: "la sok pa",
+                translation: "ainsi que",
               },
               {
-                tibetan:
-                  "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས",
-                phonetics:
-                  "déshin shekpa dra tchompa yangdak par dzokpai sangyé tchomdendé",
-                translation:
-                  "bouddhas-bhagavans-tathagatas-arhats-authentiques-bouddhas-parfaits",
+                tibetan: "ཕྱོགས་བཅུའི",
+                phonetics: "tchok tchu",
+                translation: "des dix directions",
               },
               {
-                tibetan: "གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི",
-                phonetics: "gang djinyé tchik shoukté tso shing shépai",
-                translation: "quels qu'ils soient, vivant et demeurant",
+                tibetan: "འཇིག་རྟེན",
+                phonetics: "djikten",
+                translation: "monde",
               },
               {
-                tibetan: "བདག་ལ་དགོངས་སུ་གསོལ",
-                phonetics: "dak la gong sou seul",
-                translation: "je prie de m'accorder leur attention",
+                tibetan: "གྱི་ཁམས",
+                phonetics: "gui k'am",
+                translation: "univers",
+              },
+              {
+                tibetan: "ཐམས་ཅད་ན",
+                phonetics: "t'amtché na",
+                translation: "dans tous",
+              },
+              {
+                tibetan: "དེ་བཞིན་གཤེགས་པ",
+                phonetics: "déshin shekpa",
+                translation: "tathagata",
+              },
+              {
+                tibetan: "དགྲ་བཅོམ་པ",
+                phonetics: "dra tchompa",
+                translation: "arhat",
+              },
+              {
+                tibetan: "ཡང་དག་པར",
+                phonetics: "yangdak par",
+                translation: "authentiquement",
+              },
+              {
+                tibetan: "རྫོགས་པའི",
+                phonetics: "dzokpai",
+                translation: "parfait",
+              },
+              {
+                tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས",
+                phonetics: "sangyé tchomdendé",
+                translation: "bouddha bhagavan",
+              },
+            ],
+          },
+          {
+            id: "ta-2-37",
+            type: "normal",
+            tibetan:
+              "གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+            phonetics:
+              "gang djinyé tchik shoukté tso shing shépai sangyé tchomden dé dédak t'amtché dak la gong sou seul",
+            translation:
+              "Que tous ces bouddhas bhagavans, en quelque nombre qu'ils soient, demeurant, vivant et résidant [dans les dix directions], daignent tous me prêter attention.",
+            words: [
+              {
+                tibetan: "གང",
+                phonetics: "gang",
+                translation: "en quelque",
+              },
+              {
+                tibetan: "ཇི་སྙེད་ཅིག",
+                phonetics: "djinyé tchik",
+                translation: "nombre qu'ils soient",
+              },
+              {
+                tibetan: "བཞུགས་ཏེ",
+                phonetics: "shoukté",
+                translation: "demeurant",
+              },
+              {
+                tibetan: "འཚོ་ཞིང",
+                phonetics: "tso shing",
+                translation: "vivant",
+              },
+              {
+                tibetan: "གཞེས་པའི",
+                phonetics: "shépai",
+                translation: "résidant",
+              },
+              {
+                tibetan: "སངས་རྒྱས",
+                phonetics: "sangyé",
+                translation: "bouddha",
+              },
+              {
+                tibetan: "བཅོམ་ལྡན་འདས",
+                phonetics: "tchomden dé",
+                translation: "bhagavan",
+              },
+              {
+                tibetan: "དེ་དག",
+                phonetics: "dédak",
+                translation: "tous ces",
+              },
+              {
+                tibetan: "ཐམས་ཅད",
+                phonetics: "t'amtché",
+                translation: "tous",
+              },
+              {
+                tibetan: "བདག་ལ",
+                phonetics: "dak la",
+                translation: "à moi",
+              },
+              {
+                tibetan: "དགོངས་སུ་གསོལ",
+                phonetics: "gong sou seul",
+                translation: "daignent prêter attention",
               },
             ],
           },
