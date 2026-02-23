@@ -63,6 +63,14 @@
   border-bottom: 1px solid #333;
 }
 
+.section-subtitle {
+  color: #bbb;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
 .phrases {
   display: flex;
   flex-direction: column;

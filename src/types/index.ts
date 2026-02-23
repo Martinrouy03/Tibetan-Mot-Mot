@@ -19,6 +19,7 @@ export interface Phrase {
 export interface Section {
   id: string;
   title: string;
+  subtitle?: boolean;
   phrases: Phrase[];
 }
 

@@ -150,7 +150,7 @@ export default function TextPage() {
 
         return (
         <div key={section.id} className={`section section-${section.id}`}>
-          {section.title && <h3 className="section-title">{section.title}</h3>}
+          {section.title && <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>}
           <div className="phrases">
             {section.id === 'ta-hommage' ? pairs.map(({ normal, image }) => {
               normalCount++;

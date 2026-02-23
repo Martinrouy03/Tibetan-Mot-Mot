@@ -55,6 +55,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-hommage-b",
       title: "Branche de l'hommage",
+      subtitle: true,
       phrases: [
         {
           id: "ss-hom-1",
@@ -269,6 +270,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-offrande",
       title: "Branche de l'offrande",
+      subtitle: true,
       phrases: [
         {
           id: "ss-off-1",
@@ -431,6 +433,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-confession",
       title: "Branche de la confession",
+      subtitle: true,
       phrases: [
         {
           id: "ss-conf-1",
@@ -489,6 +492,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-rejouissance",
       title: "Branche de la réjouissance",
+      subtitle: true,
       phrases: [
         {
           id: "ss-rej-1",
@@ -547,6 +551,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-exhortation",
       title: "Branche de l'exhortation",
+      subtitle: true,
       phrases: [
         {
           id: "ss-exh-1",
@@ -605,6 +610,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-requete",
       title: "Branche de la requête",
+      subtitle: true,
       phrases: [
         {
           id: "ss-req-1",
@@ -663,6 +669,7 @@ export const souhaitsSamantabhadra: PracticeText = {
     {
       id: "ss-dedicace",
       title: "Branche de la dédicace",
+      subtitle: true,
       phrases: [
         {
           id: "ss-ded-1",
