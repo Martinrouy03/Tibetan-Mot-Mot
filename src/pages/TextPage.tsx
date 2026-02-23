@@ -18,7 +18,7 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
-  const [imageSizePct, setImageSizePct] = useState(30);
+  const [imageSizePct, setImageSizePct] = useState(() => window.innerWidth <= 900 ? 60 : 30);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
