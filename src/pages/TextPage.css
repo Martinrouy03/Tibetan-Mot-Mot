@@ -27,6 +27,15 @@
   margin-bottom: 1rem;
 }
 
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-text-button {
+  text-align: right;
+}
+
 .text-page-title {
   color: #a89060;
   font-size: 1.3rem;

@@ -262,9 +262,20 @@ export default function TextPage() {
         </div>
         );
       })}
-      <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
-        ← Retour aux textes
-      </button>
+      <div className="bottom-nav">
+        <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
+          ← Retour aux textes
+        </button>
+        {textId === 'trois-amoncellements' && (
+          <button className="back-button back-button-bottom next-text-button" onClick={() => {
+            dispatch(setSelectedPhrase(null));
+            window.scrollTo(0, 0);
+            navigate('/text/vajrasattva');
+          }}>
+            Vajrasattva →
+          </button>
+        )}
+      </div>
     </div>
   );
 }
