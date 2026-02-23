@@ -188,6 +188,13 @@
   line-height: 1;
 }
 
+.image-size-label {
+  color: #c9a84c;
+  font-size: 0.8rem;
+  min-width: 2ch;
+  text-align: center;
+}
+
 .image-size-btn:hover {
   background: rgba(201, 168, 76, 0.2);
 }

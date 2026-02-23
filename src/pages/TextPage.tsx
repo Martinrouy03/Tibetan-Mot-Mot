@@ -188,6 +188,7 @@ export default function TextPage() {
                         <img src={image.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
                         <div className="image-size-pill">
                           <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
+                          <span className="image-size-label">{imageSizePct}</span>
                           <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
                         </div>
                       </div>
@@ -214,6 +215,7 @@ export default function TextPage() {
                       <img src={phrase.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
                       <div className="image-size-pill">
                         <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
+                        <span className="image-size-label">{imageSizePct}</span>
                         <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
                       </div>
                     </div>
