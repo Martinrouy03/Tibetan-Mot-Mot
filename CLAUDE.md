@@ -37,6 +37,8 @@ Les phonétiques sont divisées en groupes par `/`. Chaque groupe correspond à 
 ### Règle OBLIGATOIRE : découpage mot à mot
 **Toujours** créer le tableau `words` à partir des groupes phonétiques (`/`) et de la traduction fournie. Ne jamais laisser `words: []` pour les phrases `normal` sauf si explicitement demandé.
 
+**La traduction de chaque mot doit être tirée uniquement des mots de la traduction française fournie.** Ne pas proposer plusieurs alternatives (ex: pas de `"victorieux/bouddhas"`), choisir un seul terme.
+
 Exemple :
 ```
 །ཇི་སྙེད་སུ་དག་ཕྱོགས་བཅུའི་འཇིག་རྟེན་ན།
