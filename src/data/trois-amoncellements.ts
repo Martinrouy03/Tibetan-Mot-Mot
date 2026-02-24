@@ -1,4 +1,4 @@
-import type { PracticeText } from '../types';
+import type { PracticeText } from "../types";
 
 export const troisAmoncellements: PracticeText = {
   id: "trois-amoncellements",
@@ -1470,7 +1470,11 @@ export const troisAmoncellements: PracticeText = {
           words: [
             { tibetan: "བདག་གིས", phonetics: "dak gui", translation: "moi" },
             { tibetan: "སྐྱེ་བ", phonetics: "kyéwa", translation: "vie" },
-            { tibetan: "འདི་དང་།", phonetics: "di dang", translation: "cette et" },
+            {
+              tibetan: "འདི་དང་།",
+              phonetics: "di dang",
+              translation: "cette et",
+            },
           ],
         },
         {
@@ -1478,12 +1482,21 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "སྐྱེ་བ་ཐོག་མ་དང་མཐའ་མ་མ་མཆིས་པ་ནས།",
           phonetics: "kyéwa tokma dang t'a ma ma chi pa né",
-          translation: "dans les autres vies depuis [un temps] sans commencement ni fin,",
+          translation:
+            "dans les autres vies depuis [un temps] sans commencement ni fin,",
           words: [
             { tibetan: "སྐྱེ་བ", phonetics: "kyéwa", translation: "vies" },
-            { tibetan: "ཐོག་མ་དང་", phonetics: "tokma dang", translation: "sans commencement" },
+            {
+              tibetan: "ཐོག་མ་དང་",
+              phonetics: "tokma dang",
+              translation: "sans commencement",
+            },
             { tibetan: "མཐའ་མ", phonetics: "t'a ma", translation: "ni fin" },
-            { tibetan: "མ་མཆིས་པ་ནས་།", phonetics: "ma chi pa né", translation: "depuis [un temps]" },
+            {
+              tibetan: "མ་མཆིས་པ་ནས་།",
+              phonetics: "ma chi pa né",
+              translation: "depuis [un temps]",
+            },
           ],
         },
         {
@@ -1493,10 +1506,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "k'orwa na k'orwai kyéné t'amtché dou",
           translation: "errant dans toutes les destinées du samsara",
           words: [
-            { tibetan: "འཁོར་བ་ན་", phonetics: "k'orwa na", translation: "dans le samsara" },
-            { tibetan: "འཁོར་བའི་", phonetics: "k'orwai", translation: "du samsara" },
-            { tibetan: "སྐྱེ་གནས་", phonetics: "kyéné", translation: "destinées" },
-            { tibetan: "ཐམས་ཅད་དུ་", phonetics: "t'amtché dou", translation: "dans toutes" },
+            {
+              tibetan: "འཁོར་བ་ན་",
+              phonetics: "k'orwa na",
+              translation: "dans le samsara",
+            },
+            {
+              tibetan: "འཁོར་བའི་",
+              phonetics: "k'orwai",
+              translation: "du samsara",
+            },
+            {
+              tibetan: "སྐྱེ་གནས་",
+              phonetics: "kyéné",
+              translation: "destinées",
+            },
+            {
+              tibetan: "ཐམས་ཅད་དུ་",
+              phonetics: "t'amtché dou",
+              translation: "dans toutes",
+            },
           ],
         },
         {
@@ -1506,8 +1535,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "dikpai lé gui pa dang",
           translation: "j'ai accompli des actes néfastes,",
           words: [
-            { tibetan: "སྡིག་པའི་ལས་", phonetics: "dikpai lé", translation: "actes néfastes" },
-            { tibetan: "བགྱིས་པ་དང་།", phonetics: "gui pa dang", translation: "j'ai accompli et" },
+            {
+              tibetan: "སྡིག་པའི་ལས་",
+              phonetics: "dikpai lé",
+              translation: "actes néfastes",
+            },
+            {
+              tibetan: "བགྱིས་པ་དང་།",
+              phonetics: "gui pa dang",
+              translation: "j'ai accompli et",
+            },
           ],
         },
         {
@@ -1517,8 +1554,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gui dou tsel wa dang",
           translation: "je les ai fait accomplir",
           words: [
-            { tibetan: "བགྱིད་དུ་", phonetics: "gui dou", translation: "fait accomplir" },
-            { tibetan: "སྩལ་བ་དང་།", phonetics: "tsel wa dang", translation: "et" },
+            {
+              tibetan: "བགྱིད་དུ་",
+              phonetics: "gui dou",
+              translation: "fait accomplir",
+            },
+            {
+              tibetan: "སྩལ་བ་དང་།",
+              phonetics: "tsel wa dang",
+              translation: "et",
+            },
           ],
         },
         {
@@ -1528,31 +1573,59 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gui pa la djé sou yi rang wa'am",
           translation: "et me suis réjoui qu'ils soient accomplis.",
           words: [
-            { tibetan: "བགྱིས་པ་ལ་", phonetics: "gui pa la", translation: "de leur accomplissement" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite" },
-            { tibetan: "ཡི་རང་བའམ།", phonetics: "yi rang wa'am", translation: "me suis réjoui" },
+            {
+              tibetan: "བགྱིས་པ་ལ་",
+              phonetics: "gui pa la",
+              translation: "de leur accomplissement",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite",
+            },
+            {
+              tibetan: "ཡི་རང་བའམ།",
+              phonetics: "yi rang wa'am",
+              translation: "me suis réjoui",
+            },
           ],
         },
         {
           id: "ta-3-7",
           type: "normal",
-          tibetan: "དགེ་འདུན་གྱི་དཀོར་རམ།",
+          tibetan: "མཆོད་རྟེན་གྱི་དཀོར་རམ།",
           phonetics: "tcheuten gui kor ram",
           translation: "J'ai volé les biens des supports d'offrandes,",
           words: [
-            { tibetan: "དགེ་འདུན་གྱི་", phonetics: "tcheuten gui", translation: "des supports d'offrandes" },
-            { tibetan: "དཀོར་རམ།", phonetics: "kor ram", translation: "les biens ou" },
+            {
+              tibetan: "དགེ་འདུན་གྱི་",
+              phonetics: "tcheuten gui",
+              translation: "des supports d'offrandes",
+            },
+            {
+              tibetan: "དཀོར་རམ།",
+              phonetics: "kor ram",
+              translation: "les biens ou",
+            },
           ],
         },
         {
           id: "ta-3-8",
           type: "normal",
-          tibetan: "མཆོད་རྟེན་གྱི་དཀོར་རམ།",
+          tibetan: "དགེ་འདུན་གྱི་དཀོར་རམ།",
           phonetics: "guendun gui kor ram",
-          translation: "les biens de la Sangha,",
+          translation: "J'ai volé les biens de la Sangha,",
           words: [
-            { tibetan: "མཆོད་རྟེན་གྱི་", phonetics: "guendun gui", translation: "de la Sangha" },
-            { tibetan: "དཀོར་རམ།", phonetics: "kor ram", translation: "les biens ou" },
+            {
+              tibetan: "མཆོད་རྟེན་གྱི་",
+              phonetics: "guendun gui",
+              translation: "de la Sangha",
+            },
+            {
+              tibetan: "དཀོར་རམ།",
+              phonetics: "kor ram",
+              translation: "les biens ou",
+            },
           ],
         },
         {
@@ -1560,11 +1633,23 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "ཕྱོགས་བཅུའི་དགེ་འདུན་གྱི་དཀོར་ཕྲོགས་པ་དང་།",
           phonetics: "tchok tchu guendun gui kor trok pa dang",
-          translation: "les biens des Sanghas des dix directions,",
+          translation: "J'ai volé les biens des Sanghas des dix directions,",
           words: [
-            { tibetan: "ཕྱོགས་བཅུའི་", phonetics: "tchok tchu", translation: "des dix directions" },
-            { tibetan: "དགེ་འདུན་གྱི་", phonetics: "guendun gui", translation: "des Sanghas" },
-            { tibetan: "དཀོར་ཕྲོགས་", phonetics: "kor trok", translation: "j'ai volé les biens" },
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "tchok tchu",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "དགེ་འདུན་གྱི་",
+              phonetics: "guendun gui",
+              translation: "des Sanghas",
+            },
+            {
+              tibetan: "དཀོར་ཕྲོགས་",
+              phonetics: "kor trok",
+              translation: "j'ai volé les biens",
+            },
             { tibetan: "པ་དང་།", phonetics: "pa dang", translation: "et" },
           ],
         },
@@ -1575,8 +1660,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "trok tou tsel wa dang",
           translation: "je les ai fait voler",
           words: [
-            { tibetan: "འཕྲོག་ཏུ་", phonetics: "trok tou", translation: "fait voler" },
-            { tibetan: "སྩལ་བ་དང་།", phonetics: "tsel wa dang", translation: "et" },
+            {
+              tibetan: "འཕྲོག་ཏུ་",
+              phonetics: "trok tou",
+              translation: "fait voler",
+            },
+            {
+              tibetan: "སྩལ་བ་དང་།",
+              phonetics: "tsel wa dang",
+              translation: "et",
+            },
           ],
         },
         {
@@ -1586,9 +1679,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "trok pa la djé sou yi rang wa'am",
           translation: "et me suis réjoui qu'ils soient volés.",
           words: [
-            { tibetan: "འཕྲོག་པ་ལ་", phonetics: "trok pa la", translation: "de leur vol" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite" },
-            { tibetan: "ཡི་རང་བའམ།", phonetics: "yi rang wa'am", translation: "me suis réjoui" },
+            {
+              tibetan: "འཕྲོག་པ་ལ་",
+              phonetics: "trok pa la",
+              translation: "de leur vol",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite",
+            },
+            {
+              tibetan: "ཡི་རང་བའམ།",
+              phonetics: "yi rang wa'am",
+              translation: "me suis réjoui",
+            },
           ],
         },
         {
@@ -1598,9 +1703,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "tsam ma tchi pa ngai lé gyi pa dang",
           translation: "J'ai accompli les cinq actes à rétribution immédiate,",
           words: [
-            { tibetan: "མཚམས་མ་མཆིས་པ་", phonetics: "tsam ma tchi pa", translation: "sans intervalle" },
-            { tibetan: "ལྔའི་ལས་", phonetics: "ngai lé", translation: "cinq actes" },
-            { tibetan: "བགྱིས་པ་དང་།", phonetics: "gyi pa dang", translation: "j'ai accompli et" },
+            {
+              tibetan: "མཚམས་མ་མཆིས་པ་",
+              phonetics: "tsam ma tchi pa",
+              translation: "sans intervalle",
+            },
+            {
+              tibetan: "ལྔའི་ལས་",
+              phonetics: "ngai lé",
+              translation: "cinq actes",
+            },
+            {
+              tibetan: "བགྱིས་པ་དང་།",
+              phonetics: "gyi pa dang",
+              translation: "j'ai accompli et",
+            },
           ],
         },
         {
@@ -1610,8 +1727,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gyi dou tsel wa dang",
           translation: "je les ai fait accomplir",
           words: [
-            { tibetan: "བགྱིད་དུ་", phonetics: "gyi dou", translation: "fait accomplir" },
-            { tibetan: "སྩལ་བ་དང་།", phonetics: "tsel wa dang", translation: "et" },
+            {
+              tibetan: "བགྱིད་དུ་",
+              phonetics: "gyi dou",
+              translation: "fait accomplir",
+            },
+            {
+              tibetan: "སྩལ་བ་དང་།",
+              phonetics: "tsel wa dang",
+              translation: "et",
+            },
           ],
         },
         {
@@ -1621,23 +1746,57 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gyi pa la djé sou yi rang wa'am",
           translation: "et me suis réjoui qu'ils soient accomplis.",
           words: [
-            { tibetan: "བགྱིས་པ་ལ་", phonetics: "gyi pa la", translation: "de leur accomplissement" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite" },
-            { tibetan: "ཡི་རང་བའམ།", phonetics: "yi rang wa'am", translation: "me suis réjoui" },
+            {
+              tibetan: "བགྱིས་པ་ལ་",
+              phonetics: "gyi pa la",
+              translation: "de leur accomplissement",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite",
+            },
+            {
+              tibetan: "ཡི་རང་བའམ།",
+              phonetics: "yi rang wa'am",
+              translation: "me suis réjoui",
+            },
           ],
         },
         {
           id: "ta-3-15",
           type: "normal",
           tibetan: "མི་དགེ་བ་བཅུའི་ལས་ཀྱི་ལམ་ཡང་དག་པར་བླངས་པ་ལ་ཞུགས་པ་དང་།",
-          phonetics: "mi gué wa tchu lé kyi lam yang dak par lang pa la shouk pa dang",
-          translation: "Je me suis complètement engagé dans le chemin des dix actes non vertueux,",
+          phonetics:
+            "mi gué wa tchu lé kyi lam yang dak par lang pa la shouk pa dang",
+          translation:
+            "Je me suis complètement engagé dans le chemin des dix actes non vertueux,",
           words: [
-            { tibetan: "མི་དགེ་བ་བཅུའི་", phonetics: "mi gué wa tchu", translation: "dix actes non vertueux" },
-            { tibetan: "ལས་ཀྱི་ལམ་", phonetics: "lé kyi lam", translation: "chemin des actes" },
-            { tibetan: "ཡང་དག་པར་", phonetics: "yang dak par", translation: "complètement" },
-            { tibetan: "བླངས་པ་ལ་", phonetics: "lang pa la", translation: "m'étant engagé dans" },
-            { tibetan: "ཞུགས་པ་དང་།", phonetics: "shouk pa dang", translation: "et" },
+            {
+              tibetan: "མི་དགེ་བ་བཅུའི་",
+              phonetics: "mi gué wa tchu",
+              translation: "dix actes non vertueux",
+            },
+            {
+              tibetan: "ལས་ཀྱི་ལམ་",
+              phonetics: "lé kyi lam",
+              translation: "chemin des actes",
+            },
+            {
+              tibetan: "ཡང་དག་པར་",
+              phonetics: "yang dak par",
+              translation: "complètement",
+            },
+            {
+              tibetan: "བླངས་པ་ལ་",
+              phonetics: "lang pa la",
+              translation: "m'étant engagé dans",
+            },
+            {
+              tibetan: "ཞུགས་པ་དང་།",
+              phonetics: "shouk pa dang",
+              translation: "et",
+            },
           ],
         },
         {
@@ -1647,8 +1806,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "djouk tou tsel wa dang",
           translation: "j'ai conduit d'autres à s'y engager",
           words: [
-            { tibetan: "འཇུག་ཏུ་", phonetics: "djouk tou", translation: "conduit à s'engager" },
-            { tibetan: "སྩལ་བ་དང་།", phonetics: "tsel wa dang", translation: "et" },
+            {
+              tibetan: "འཇུག་ཏུ་",
+              phonetics: "djouk tou",
+              translation: "conduit à s'engager",
+            },
+            {
+              tibetan: "སྩལ་བ་དང་།",
+              phonetics: "tsel wa dang",
+              translation: "et",
+            },
           ],
         },
         {
@@ -1658,9 +1825,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "djouk pa la djé sou yi rang wa'am",
           translation: "et me suis réjoui qu'ils s'y soient engagés.",
           words: [
-            { tibetan: "འཇུག་པ་ལ་", phonetics: "djouk pa la", translation: "de leur engagement" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite" },
-            { tibetan: "ཡི་རང་བའམ།", phonetics: "yi rang wa'am", translation: "me suis réjoui" },
+            {
+              tibetan: "འཇུག་པ་ལ་",
+              phonetics: "djouk pa la",
+              translation: "de leur engagement",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite",
+            },
+            {
+              tibetan: "ཡི་རང་བའམ།",
+              phonetics: "yi rang wa'am",
+              translation: "me suis réjoui",
+            },
           ],
         },
         {
@@ -1670,10 +1849,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "lé ki drip pa gang gui drip né",
           translation: "Voilé par tous les obscurcissements de tels actes,",
           words: [
-            { tibetan: "ལས་ཀྱི་", phonetics: "lé ki", translation: "des actes" },
-            { tibetan: "སྒྲིབ་པ་", phonetics: "drip pa", translation: "obscurcissements" },
-            { tibetan: "གང་གིས་", phonetics: "gang gui", translation: "par lesquels" },
-            { tibetan: "བསྒྲིབས་ནས།", phonetics: "drip né", translation: "étant voilé" },
+            {
+              tibetan: "ལས་ཀྱི་",
+              phonetics: "lé ki",
+              translation: "des actes",
+            },
+            {
+              tibetan: "སྒྲིབ་པ་",
+              phonetics: "drip pa",
+              translation: "obscurcissements",
+            },
+            {
+              tibetan: "གང་གིས་",
+              phonetics: "gang gui",
+              translation: "par lesquels",
+            },
+            {
+              tibetan: "བསྒྲིབས་ནས།",
+              phonetics: "drip né",
+              translation: "étant voilé",
+            },
           ],
         },
         {
@@ -1683,9 +1878,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "dak sem tchen nyel war tchi wa'am",
           translation: "je renaîtrai comme être des enfers,",
           words: [
-            { tibetan: "བདག་སེམས་ཅན་", phonetics: "dak sem tchen", translation: "moi [comme] être" },
-            { tibetan: "དམྱལ་བར་", phonetics: "nyel war", translation: "dans les enfers" },
-            { tibetan: "མཆི་བའམ།", phonetics: "tchi wa'am", translation: "renaîtrai ou" },
+            {
+              tibetan: "བདག་སེམས་ཅན་",
+              phonetics: "dak sem tchen",
+              translation: "moi [comme] être",
+            },
+            {
+              tibetan: "དམྱལ་བར་",
+              phonetics: "nyel war",
+              translation: "dans les enfers",
+            },
+            {
+              tibetan: "མཆི་བའམ།",
+              phonetics: "tchi wa'am",
+              translation: "renaîtrai ou",
+            },
           ],
         },
         {
@@ -1695,9 +1902,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "du dreu kyé né sou tchi wa'am",
           translation: "dans une existence animale,",
           words: [
-            { tibetan: "དུད་འགྲོའི་", phonetics: "du dreu", translation: "animal" },
-            { tibetan: "སྐྱེ་གནས་སུ་", phonetics: "kyé né sou", translation: "dans une existence" },
-            { tibetan: "མཆི་བའམ།", phonetics: "tchi wa'am", translation: "renaîtrai ou" },
+            {
+              tibetan: "དུད་འགྲོའི་",
+              phonetics: "du dreu",
+              translation: "animal",
+            },
+            {
+              tibetan: "སྐྱེ་གནས་སུ་",
+              phonetics: "kyé né sou",
+              translation: "dans une existence",
+            },
+            {
+              tibetan: "མཆི་བའམ།",
+              phonetics: "tchi wa'am",
+              translation: "renaîtrai ou",
+            },
           ],
         },
         {
@@ -1707,9 +1926,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "yi dak ki yul dou tchi wa'am",
           translation: "chez les esprits avides,",
           words: [
-            { tibetan: "ཡི་དྭགས་ཀྱི་", phonetics: "yi dak ki", translation: "des esprits avides" },
-            { tibetan: "ཡུལ་དུ་", phonetics: "yul dou", translation: "dans le monde" },
-            { tibetan: "མཆི་བའམ།", phonetics: "tchi wa'am", translation: "renaîtrai ou" },
+            {
+              tibetan: "ཡི་དྭགས་ཀྱི་",
+              phonetics: "yi dak ki",
+              translation: "des esprits avides",
+            },
+            {
+              tibetan: "ཡུལ་དུ་",
+              phonetics: "yul dou",
+              translation: "dans le monde",
+            },
+            {
+              tibetan: "མཆི་བའམ།",
+              phonetics: "tchi wa'am",
+              translation: "renaîtrai ou",
+            },
           ],
         },
         {
@@ -1719,8 +1950,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "yul t'a k'op tou kyé wa'am",
           translation: "dans une région périphérique,",
           words: [
-            { tibetan: "ཡུལ་མཐའ་འཁོབ་ཏུ་", phonetics: "yul t'a k'op tou", translation: "dans une région périphérique" },
-            { tibetan: "སྐྱེ་བའམ།", phonetics: "kyé wa'am", translation: "naîtrai ou" },
+            {
+              tibetan: "ཡུལ་མཐའ་འཁོབ་ཏུ་",
+              phonetics: "yul t'a k'op tou",
+              translation: "dans une région périphérique",
+            },
+            {
+              tibetan: "སྐྱེ་བའམ།",
+              phonetics: "kyé wa'am",
+              translation: "naîtrai ou",
+            },
           ],
         },
         {
@@ -1730,8 +1969,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "la lor kyé wa'am",
           translation: "comme étranger [au Dharma],",
           words: [
-            { tibetan: "ཀླ་ཀློར་", phonetics: "la lor", translation: "étranger [au Dharma]" },
-            { tibetan: "སྐྱེ་བའམ།", phonetics: "kyé wa'am", translation: "naîtrai ou" },
+            {
+              tibetan: "ཀླ་ཀློར་",
+              phonetics: "la lor",
+              translation: "étranger [au Dharma]",
+            },
+            {
+              tibetan: "སྐྱེ་བའམ།",
+              phonetics: "kyé wa'am",
+              translation: "naîtrai ou",
+            },
           ],
         },
         {
@@ -1742,9 +1989,17 @@ export const troisAmoncellements: PracticeText = {
           translation: "parmi les dieux de longue vie.",
           words: [
             { tibetan: "ལྷ་", phonetics: "lh'a", translation: "dieux" },
-            { tibetan: "ཚེ་རིང་པོ་", phonetics: "tsé ringpo", translation: "de longue vie" },
+            {
+              tibetan: "ཚེ་རིང་པོ་",
+              phonetics: "tsé ringpo",
+              translation: "de longue vie",
+            },
             { tibetan: "རྣམས་སུ་", phonetics: "nam sou", translation: "parmi" },
-            { tibetan: "སྐྱེ་བའམ།", phonetics: "kyé wa'am", translation: "naîtrai ou" },
+            {
+              tibetan: "སྐྱེ་བའམ།",
+              phonetics: "kyé wa'am",
+              translation: "naîtrai ou",
+            },
           ],
         },
         {
@@ -1752,11 +2007,24 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "དབང་པོ་མ་ཚང་བར་འགྱུར་བའམ།",
           phonetics: "wangpo ma tsang war gyour wa'am",
-          translation: "Je ne serai également pas pourvu de toutes mes facultés;",
+          translation:
+            "Je ne serai également pas pourvu de toutes mes facultés;",
           words: [
-            { tibetan: "དབང་པོ་", phonetics: "wangpo", translation: "facultés" },
-            { tibetan: "མ་ཚང་བར་", phonetics: "ma tsang war", translation: "non pourvu" },
-            { tibetan: "འགྱུར་བའམ།", phonetics: "gyour wa'am", translation: "deviendrai ou" },
+            {
+              tibetan: "དབང་པོ་",
+              phonetics: "wangpo",
+              translation: "facultés",
+            },
+            {
+              tibetan: "མ་ཚང་བར་",
+              phonetics: "ma tsang war",
+              translation: "non pourvu",
+            },
+            {
+              tibetan: "འགྱུར་བའམ།",
+              phonetics: "gyour wa'am",
+              translation: "deviendrai ou",
+            },
           ],
         },
         {
@@ -1768,8 +2036,16 @@ export const troisAmoncellements: PracticeText = {
           words: [
             { tibetan: "ལྟ་བ་", phonetics: "tawa", translation: "vue" },
             { tibetan: "ལོག་པར་", phonetics: "lokpar", translation: "fausse" },
-            { tibetan: "འཛིན་པར་", phonetics: "dzinpar", translation: "adhérerai à" },
-            { tibetan: "འགྱུར་བའམ།", phonetics: "gyour wa'am", translation: "deviendrai ou" },
+            {
+              tibetan: "འཛིན་པར་",
+              phonetics: "dzinpar",
+              translation: "adhérerai à",
+            },
+            {
+              tibetan: "འགྱུར་བའམ།",
+              phonetics: "gyour wa'am",
+              translation: "deviendrai ou",
+            },
           ],
         },
         {
@@ -1779,11 +2055,31 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "sangyé djoungwa la nyé par mi gyi par gyour wai",
           translation: "je n'apprécierai pas la venue d'un bouddha.",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "bouddha" },
-            { tibetan: "འབྱུང་བ་ལ་", phonetics: "djoungwa la", translation: "de la venue" },
-            { tibetan: "མཉེས་པར་", phonetics: "nyé par", translation: "apprécierai" },
-            { tibetan: "མི་བགྱིད་པར་", phonetics: "mi gyi par", translation: "ne [ferai] pas" },
-            { tibetan: "འགྱུར་བའི་", phonetics: "gyour wai", translation: "deviendrai" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddha",
+            },
+            {
+              tibetan: "འབྱུང་བ་ལ་",
+              phonetics: "djoungwa la",
+              translation: "de la venue",
+            },
+            {
+              tibetan: "མཉེས་པར་",
+              phonetics: "nyé par",
+              translation: "apprécierai",
+            },
+            {
+              tibetan: "མི་བགྱིད་པར་",
+              phonetics: "mi gyi par",
+              translation: "ne [ferai] pas",
+            },
+            {
+              tibetan: "འགྱུར་བའི་",
+              phonetics: "gyour wai",
+              translation: "deviendrai",
+            },
           ],
         },
         {
@@ -1793,9 +2089,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "lé kyi drip pa gang lak pa dé dak t'amché",
           translation: "Tous ces actes qui constituent une entrave,",
           words: [
-            { tibetan: "ལས་ཀྱི་", phonetics: "lé kyi", translation: "des actes" },
-            { tibetan: "སྒྲིབ་པ་", phonetics: "drip pa", translation: "entraves" },
-            { tibetan: "གང་ལགས་པ་", phonetics: "gang lak pa", translation: "qui sont" },
+            {
+              tibetan: "ལས་ཀྱི་",
+              phonetics: "lé kyi",
+              translation: "des actes",
+            },
+            {
+              tibetan: "སྒྲིབ་པ་",
+              phonetics: "drip pa",
+              translation: "entraves",
+            },
+            {
+              tibetan: "གང་ལགས་པ་",
+              phonetics: "gang lak pa",
+              translation: "qui sont",
+            },
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'amché", translation: "tous" },
           ],
@@ -1807,10 +2115,22 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "sang gyé tchom den dé yé ché sou gyour pa",
           translation: "devant tous ces bouddhas-bhagavans qui sont sagesse,",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sang gyé", translation: "bouddha" },
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "tchom den dé", translation: "bhagavan" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyé",
+              translation: "bouddha",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
+              translation: "bhagavan",
+            },
             { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse" },
-            { tibetan: "སུ་གྱུར་པ།", phonetics: "sou gyour pa", translation: "qui sont devenus" },
+            {
+              tibetan: "སུ་གྱུར་པ།",
+              phonetics: "sou gyour pa",
+              translation: "qui sont devenus",
+            },
           ],
         },
         {
@@ -1820,10 +2140,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "tchen tou gyourpa pang dou gyour pa",
           translation: "clairvoyance, témoins,",
           words: [
-            { tibetan: "སྤྱན་དུ་", phonetics: "tchen tou", translation: "clairvoyance" },
-            { tibetan: "གྱུར་པ།", phonetics: "gyourpa", translation: "qui sont devenus" },
-            { tibetan: "དཔང་དུ་", phonetics: "pang dou", translation: "témoins" },
-            { tibetan: "གྱུར་པ།", phonetics: "gyour pa", translation: "qui sont devenus" },
+            {
+              tibetan: "སྤྱན་དུ་",
+              phonetics: "tchen tou",
+              translation: "clairvoyance",
+            },
+            {
+              tibetan: "གྱུར་པ།",
+              phonetics: "gyourpa",
+              translation: "qui sont devenus",
+            },
+            {
+              tibetan: "དཔང་དུ་",
+              phonetics: "pang dou",
+              translation: "témoins",
+            },
+            {
+              tibetan: "གྱུར་པ།",
+              phonetics: "gyour pa",
+              translation: "qui sont devenus",
+            },
           ],
         },
         {
@@ -1833,9 +2169,21 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "tsé mar gyour pa k'yen pa zik pa",
           translation: "justesse, connaisseurs et observateurs.",
           words: [
-            { tibetan: "ཚད་མར་གྱུར་པ།", phonetics: "tsé mar gyour pa", translation: "justesse" },
-            { tibetan: "མཁྱེན་པ།", phonetics: "k'yen pa", translation: "connaisseurs" },
-            { tibetan: "གཟིགས་པ།", phonetics: "zik pa", translation: "observateurs" },
+            {
+              tibetan: "ཚད་མར་གྱུར་པ།",
+              phonetics: "tsé mar gyour pa",
+              translation: "justesse",
+            },
+            {
+              tibetan: "མཁྱེན་པ།",
+              phonetics: "k'yen pa",
+              translation: "connaisseurs",
+            },
+            {
+              tibetan: "གཟིགས་པ།",
+              phonetics: "zik pa",
+              translation: "observateurs",
+            },
           ],
         },
         {
@@ -1845,10 +2193,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "dé dak gui tchen ngar teul lo tchak so",
           translation: "je les dévoile et les confesse",
           words: [
-            { tibetan: "དེ་དག་གི་", phonetics: "dé dak gui", translation: "de ceux-là" },
-            { tibetan: "སྤྱན་སྔར་", phonetics: "tchen ngar", translation: "devant" },
-            { tibetan: "མཐོལ་ལོ་", phonetics: "teul lo", translation: "je dévoile" },
-            { tibetan: "འཆགས་སོ།", phonetics: "tchak so", translation: "je confesse" },
+            {
+              tibetan: "དེ་དག་གི་",
+              phonetics: "dé dak gui",
+              translation: "de ceux-là",
+            },
+            {
+              tibetan: "སྤྱན་སྔར་",
+              phonetics: "tchen ngar",
+              translation: "devant",
+            },
+            {
+              tibetan: "མཐོལ་ལོ་",
+              phonetics: "teul lo",
+              translation: "je dévoile",
+            },
+            {
+              tibetan: "འཆགས་སོ།",
+              phonetics: "tchak so",
+              translation: "je confesse",
+            },
           ],
         },
         {
@@ -1858,8 +2222,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "mi tchap po mi bé do",
           translation: "Je ne cache rien et ne dissimule rien.",
           words: [
-            { tibetan: "མི་འཆབ་བོ།", phonetics: "mi tchap po", translation: "je ne cache pas" },
-            { tibetan: "མི་སྦེད་དོ།", phonetics: "mi bé do", translation: "je ne dissimule pas" },
+            {
+              tibetan: "མི་འཆབ་བོ།",
+              phonetics: "mi tchap po",
+              translation: "je ne cache pas",
+            },
+            {
+              tibetan: "མི་སྦེད་དོ།",
+              phonetics: "mi bé do",
+              translation: "je ne dissimule pas",
+            },
           ],
         },
         {
@@ -1867,12 +2239,29 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "སླན་ཆད་ཀྱང་གཅོད་ཅིང་སྡོམ་པར་བགྱིད་ལགས་སོ།",
           phonetics: "len tché kyang tcheutching dompar gui lak so",
-          translation: "À partir de maintenant, je mets un terme [à ces actes néfastes] et prends l'engagement de ne plus en commettre de nouveaux.",
+          translation:
+            "À partir de maintenant, je mets un terme [à ces actes néfastes] et prends l'engagement de ne plus en commettre de nouveaux.",
           words: [
-            { tibetan: "སླན་ཆད་ཀྱང་", phonetics: "len tché kyang", translation: "à partir de maintenant" },
-            { tibetan: "གཅོད་ཅིང་", phonetics: "tcheutching", translation: "mettant un terme [à]" },
-            { tibetan: "སྡོམ་པར་", phonetics: "dompar", translation: "l'engagement" },
-            { tibetan: "བགྱིད་ལགས་སོ།", phonetics: "gui lak so", translation: "je prends" },
+            {
+              tibetan: "སླན་ཆད་ཀྱང་",
+              phonetics: "len tché kyang",
+              translation: "à partir de maintenant",
+            },
+            {
+              tibetan: "གཅོད་ཅིང་",
+              phonetics: "tcheutching",
+              translation: "mettant un terme [à]",
+            },
+            {
+              tibetan: "སྡོམ་པར་",
+              phonetics: "dompar",
+              translation: "l'engagement",
+            },
+            {
+              tibetan: "བགྱིད་ལགས་སོ།",
+              phonetics: "gui lak so",
+              translation: "je prends",
+            },
           ],
         },
         {
@@ -1882,8 +2271,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "sangyé tchom den dé dé dak t'amché dak la",
           translation: "Que tous ces bouddhas-bhagavans",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "bouddha" },
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "tchom den dé", translation: "bhagavan" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddha",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
+              translation: "bhagavan",
+            },
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ces" },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'amché", translation: "tous" },
             { tibetan: "བདག་ལ་", phonetics: "dak la", translation: "à moi" },
@@ -1896,7 +2293,11 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gong sou seul",
           translation: "veuillent bien m'accorder leur attention.",
           words: [
-            { tibetan: "དགོངས་སུ་གསོལ།", phonetics: "gong sou seul", translation: "veuillent m'accorder leur attention" },
+            {
+              tibetan: "དགོངས་སུ་གསོལ།",
+              phonetics: "gong sou seul",
+              translation: "veuillent m'accorder leur attention",
+            },
           ],
         },
       ],
@@ -1914,7 +2315,11 @@ export const troisAmoncellements: PracticeText = {
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
             { tibetan: "སྐྱེ་བ་", phonetics: "kyéwa", translation: "vie" },
-            { tibetan: "འདི་དང་", phonetics: "di dang", translation: "cette et" },
+            {
+              tibetan: "འདི་དང་",
+              phonetics: "di dang",
+              translation: "cette et",
+            },
           ],
         },
         {
@@ -1922,11 +2327,20 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "སྐྱེ་བ་ཐོག་མ་དང་མཐའ་མ་མ་མཆིས་པ་ནས།",
           phonetics: "kyéwa tok ma dang t'a ma ma tchi pa né",
-          translation: "dans les autres vies depuis [un temps] sans commencement ni fin,",
+          translation:
+            "dans les autres vies depuis [un temps] sans commencement ni fin,",
           words: [
             { tibetan: "སྐྱེ་བ་", phonetics: "kyéwa", translation: "vies" },
-            { tibetan: "ཐོག་མ་དང་", phonetics: "tok ma dang", translation: "sans commencement" },
-            { tibetan: "མཐའ་མ་མ་མཆིས་པ་ནས།", phonetics: "t'a ma ma tchi pa né", translation: "sans fin depuis" },
+            {
+              tibetan: "ཐོག་མ་དང་",
+              phonetics: "tok ma dang",
+              translation: "sans commencement",
+            },
+            {
+              tibetan: "མཐའ་མ་མ་མཆིས་པ་ནས།",
+              phonetics: "t'a ma ma tchi pa né",
+              translation: "sans fin depuis",
+            },
           ],
         },
         {
@@ -1936,24 +2350,63 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "k'or wa na k'or wai kyé wa shen dak tou",
           translation: "errant dans le samsara, dans d'autres existences",
           words: [
-            { tibetan: "འཁོར་བ་ན་", phonetics: "k'or wa na", translation: "dans le samsara" },
-            { tibetan: "འཁོར་བའི་", phonetics: "k'or wai", translation: "du samsara" },
-            { tibetan: "སྐྱེ་བ་", phonetics: "kyé wa", translation: "existences" },
-            { tibetan: "གཞན་དག་ཏུ་", phonetics: "shen dak tou", translation: "dans d'autres" },
+            {
+              tibetan: "འཁོར་བ་ན་",
+              phonetics: "k'or wa na",
+              translation: "dans le samsara",
+            },
+            {
+              tibetan: "འཁོར་བའི་",
+              phonetics: "k'or wai",
+              translation: "du samsara",
+            },
+            {
+              tibetan: "སྐྱེ་བ་",
+              phonetics: "kyé wa",
+              translation: "existences",
+            },
+            {
+              tibetan: "གཞན་དག་ཏུ་",
+              phonetics: "shen dak tou",
+              translation: "dans d'autres",
+            },
           ],
         },
         {
           id: "ta-4-4",
           type: "normal",
-          tibetan: "སྦྱིན་པ་ཐ་ན་དུད་འགྲོའི་སྐྱེ་གནས་སུ་སྐྱེས་པ་ལ་ཟས་ཁམ་གཅིག་ཙམ་བསྩལ་བའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
-          phonetics: "djinpa t'a na dudreu kyéné sou kyépa la zé k'am tchik tsam tselwai guéwai tsawa gang lak pa dang",
-          translation: "toutes les racines de vertu consistant à avoir offert, même dans une naissance en tant qu'animal, ne serait-ce qu'une seule bouchée de nourriture en guise de générosité,",
+          tibetan:
+            "སྦྱིན་པ་ཐ་ན་དུད་འགྲོའི་སྐྱེ་གནས་སུ་སྐྱེས་པ་ལ་ཟས་ཁམ་གཅིག་ཙམ་བསྩལ་བའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
+          phonetics:
+            "djinpa t'a na dudreu kyéné sou kyépa la zé k'am tchik tsam tselwai guéwai tsawa gang lak pa dang",
+          translation:
+            "toutes les racines de vertu consistant à avoir offert, même dans une naissance en tant qu'animal, ne serait-ce qu'une seule bouchée de nourriture en guise de générosité,",
           words: [
-            { tibetan: "སྦྱིན་པ་", phonetics: "djinpa", translation: "générosité" },
-            { tibetan: "ཐ་ན་དུད་འགྲོའི་སྐྱེ་གནས་སུ་སྐྱེས་པ་ལ་", phonetics: "t'a na dudreu kyéné sou kyépa la", translation: "même dans une naissance en tant qu'animal" },
-            { tibetan: "ཟས་ཁམ་གཅིག་ཙམ་བསྩལ་བའི་", phonetics: "zé k'am tchik tsam tselwai", translation: "d'une seule bouchée de nourriture offerte" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "guéwai tsawa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་དང་།", phonetics: "gang lak pa dang", translation: "toutes et" },
+            {
+              tibetan: "སྦྱིན་པ་",
+              phonetics: "djinpa",
+              translation: "générosité",
+            },
+            {
+              tibetan: "ཐ་ན་དུད་འགྲོའི་སྐྱེ་གནས་སུ་སྐྱེས་པ་ལ་",
+              phonetics: "t'a na dudreu kyéné sou kyépa la",
+              translation: "même dans une naissance en tant qu'animal",
+            },
+            {
+              tibetan: "ཟས་ཁམ་གཅིག་ཙམ་བསྩལ་བའི་",
+              phonetics: "zé k'am tchik tsam tselwai",
+              translation: "d'une seule bouchée de nourriture offerte",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "guéwai tsawa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་དང་།",
+              phonetics: "gang lak pa dang",
+              translation: "toutes et",
+            },
           ],
         },
         {
@@ -1961,69 +2414,157 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "བདག་གིས་ཚུལ་ཁྲིམས་བསྲུངས་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
           phonetics: "dak gui tsul trim soungpai guéwai tsawa gang lak pa dang",
-          translation: "toutes les racines de vertu que j'ai produites en observant une conduite éthique,",
+          translation:
+            "toutes les racines de vertu que j'ai produites en observant une conduite éthique,",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite éthique" },
-            { tibetan: "བསྲུངས་པའི་", phonetics: "soungpai", translation: "en observant" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "guéwai tsawa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་དང་།", phonetics: "gang lak pa dang", translation: "toutes et" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite éthique",
+            },
+            {
+              tibetan: "བསྲུངས་པའི་",
+              phonetics: "soungpai",
+              translation: "en observant",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "guéwai tsawa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་དང་།",
+              phonetics: "gang lak pa dang",
+              translation: "toutes et",
+            },
           ],
         },
         {
           id: "ta-4-6",
           type: "normal",
-          tibetan: "བདག་གིས་ཚངས་པར་སྤྱོད་པ་ལ་གནས་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
-          phonetics: "dak gui tsangpar tcheupa la né pai guéwai tsawa gang lak pa dang",
-          translation: "toutes les racines de vertu que j'ai produites en maintenant une conduite pure,",
+          tibetan:
+            "བདག་གིས་ཚངས་པར་སྤྱོད་པ་ལ་གནས་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
+          phonetics:
+            "dak gui tsangpar tcheupa la né pai guéwai tsawa gang lak pa dang",
+          translation:
+            "toutes les racines de vertu que j'ai produites en maintenant une conduite pure,",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
-            { tibetan: "ཚངས་པར་སྤྱོད་པ་ལ་", phonetics: "tsangpar tcheupa la", translation: "conduite pure" },
-            { tibetan: "གནས་པའི་", phonetics: "né pai", translation: "en maintenant" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "guéwai tsawa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་དང་།", phonetics: "gang lak pa dang", translation: "toutes et" },
+            {
+              tibetan: "ཚངས་པར་སྤྱོད་པ་ལ་",
+              phonetics: "tsangpar tcheupa la",
+              translation: "conduite pure",
+            },
+            {
+              tibetan: "གནས་པའི་",
+              phonetics: "né pai",
+              translation: "en maintenant",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "guéwai tsawa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་དང་།",
+              phonetics: "gang lak pa dang",
+              translation: "toutes et",
+            },
           ],
         },
         {
           id: "ta-4-7",
           type: "normal",
-          tibetan: "བདག་གིས་སེམས་ཅན་ཡོངས་སུ་སྨིན་པར་བགྱིས་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
-          phonetics: "dak gui semchen yong sou minpar gyi pai guéwai tsawa gang lak pa dang",
-          translation: "toutes les racines de vertu que j'ai produites en menant les êtres à parfaite maturité,",
+          tibetan:
+            "བདག་གིས་སེམས་ཅན་ཡོངས་སུ་སྨིན་པར་བགྱིས་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
+          phonetics:
+            "dak gui semchen yong sou minpar gyi pai guéwai tsawa gang lak pa dang",
+          translation:
+            "toutes les racines de vertu que j'ai produites en menant les êtres à parfaite maturité,",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
             { tibetan: "སེམས་ཅན་", phonetics: "semchen", translation: "êtres" },
-            { tibetan: "ཡོངས་སུ་སྨིན་པར་བགྱིས་པའི་", phonetics: "yong sou minpar gyi pai", translation: "en menant à parfaite maturité" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "guéwai tsawa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་དང་།", phonetics: "gang lak pa dang", translation: "toutes et" },
+            {
+              tibetan: "ཡོངས་སུ་སྨིན་པར་བགྱིས་པའི་",
+              phonetics: "yong sou minpar gyi pai",
+              translation: "en menant à parfaite maturité",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "guéwai tsawa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་དང་།",
+              phonetics: "gang lak pa dang",
+              translation: "toutes et",
+            },
           ],
         },
         {
           id: "ta-4-8",
           type: "normal",
-          tibetan: "བདག་གིས་བྱང་ཆུབ་མཆོག་ཏུ་སེམས་བསྐྱེད་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
-          phonetics: "dak gui djangchoup tou sem kyépai guéwai tsawa gang lak pa dang",
-          translation: "toutes les racines de vertu que j'ai produites en développant l'intention d'atteindre le suprême éveil,",
+          tibetan:
+            "བདག་གིས་བྱང་ཆུབ་མཆོག་ཏུ་སེམས་བསྐྱེད་པའི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་དང་།",
+          phonetics:
+            "dak gui djangchoup tou sem kyépai guéwai tsawa gang lak pa dang",
+          translation:
+            "toutes les racines de vertu que j'ai produites en développant l'intention d'atteindre le suprême éveil,",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
-            { tibetan: "བྱང་ཆུབ་མཆོག་ཏུ་", phonetics: "djangchoup tou", translation: "au suprême éveil" },
-            { tibetan: "སེམས་བསྐྱེད་པའི་", phonetics: "sem kyépai", translation: "en développant l'intention" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "guéwai tsawa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་དང་།", phonetics: "gang lak pa dang", translation: "toutes et" },
+            {
+              tibetan: "བྱང་ཆུབ་མཆོག་ཏུ་",
+              phonetics: "djangchoup tou",
+              translation: "au suprême éveil",
+            },
+            {
+              tibetan: "སེམས་བསྐྱེད་པའི་",
+              phonetics: "sem kyépai",
+              translation: "en développant l'intention",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "guéwai tsawa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་དང་།",
+              phonetics: "gang lak pa dang",
+              translation: "toutes et",
+            },
           ],
         },
         {
           id: "ta-4-9",
           type: "normal",
           tibetan: "བདག་གིས་བླ་ན་མེད་པའི་ཡེ་ཤེས་ཀྱི་དགེ་བའི་རྩ་བ་གང་ལགས་པ་",
-          phonetics: "dak gui la na mé pai yé ché ki gué wai tsa wa gang lak pa",
-          translation: "et toutes les racines de vertu que j'ai produites en [cultivant] la sagesse primordiale insurpassable,",
+          phonetics:
+            "dak gui la na mé pai yé ché ki gué wai tsa wa gang lak pa",
+          translation:
+            "et toutes les racines de vertu que j'ai produites en [cultivant] la sagesse primordiale insurpassable,",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
-            { tibetan: "བླ་ན་མེད་པའི་", phonetics: "la na mé pai", translation: "insurpassable" },
-            { tibetan: "ཡེ་ཤེས་ཀྱི་", phonetics: "yé ché ki", translation: "sagesse primordiale" },
-            { tibetan: "དགེ་བའི་རྩ་བ་", phonetics: "gué wai tsa wa", translation: "racines de vertu" },
-            { tibetan: "གང་ལགས་པ་", phonetics: "gang lak pa", translation: "toutes" },
+            {
+              tibetan: "བླ་ན་མེད་པའི་",
+              phonetics: "la na mé pai",
+              translation: "insurpassable",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་ཀྱི་",
+              phonetics: "yé ché ki",
+              translation: "sagesse primordiale",
+            },
+            {
+              tibetan: "དགེ་བའི་རྩ་བ་",
+              phonetics: "gué wai tsa wa",
+              translation: "racines de vertu",
+            },
+            {
+              tibetan: "གང་ལགས་པ་",
+              phonetics: "gang lak pa",
+              translation: "toutes",
+            },
           ],
         },
         {
@@ -2031,14 +2572,35 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "དེ་དག་ཐམས་ཅད་གཅིག་ཏུ་བསྡུས་ཤིང་བཟླུམས་ཏེ། བསྡོམས་ནས་",
           phonetics: "dé dak t'amché tchik tou du ching doum té dom né",
-          translation: "je les réunis toutes, les additionne, et les dédie complètement",
+          translation:
+            "je les réunis toutes, les additionne, et les dédie complètement",
           words: [
-            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "celles-là" },
+            {
+              tibetan: "དེ་དག་",
+              phonetics: "dé dak",
+              translation: "celles-là",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'amché", translation: "toutes" },
-            { tibetan: "གཅིག་ཏུ་", phonetics: "tchik tou", translation: "en une" },
-            { tibetan: "བསྡུས་ཤིང་", phonetics: "du ching", translation: "je réunis" },
-            { tibetan: "བཟླུམས་ཏེ།", phonetics: "doum té", translation: "j'additionne" },
-            { tibetan: "བསྡོམས་ནས་", phonetics: "dom né", translation: "et dédie" },
+            {
+              tibetan: "གཅིག་ཏུ་",
+              phonetics: "tchik tou",
+              translation: "en une",
+            },
+            {
+              tibetan: "བསྡུས་ཤིང་",
+              phonetics: "du ching",
+              translation: "je réunis",
+            },
+            {
+              tibetan: "བཟླུམས་ཏེ།",
+              phonetics: "doum té",
+              translation: "j'additionne",
+            },
+            {
+              tibetan: "བསྡོམས་ནས་",
+              phonetics: "dom né",
+              translation: "et dédie",
+            },
           ],
         },
         {
@@ -2049,9 +2611,17 @@ export const troisAmoncellements: PracticeText = {
           translation: "à l'insurpassable, à l'indépassable,",
           words: [
             { tibetan: "བླ་ན་", phonetics: "la na", translation: "au-dessus" },
-            { tibetan: "མ་མཆིས་པ་དང་།", phonetics: "ma tchi pa dang", translation: "sans [rien] et" },
+            {
+              tibetan: "མ་མཆིས་པ་དང་།",
+              phonetics: "ma tchi pa dang",
+              translation: "sans [rien] et",
+            },
             { tibetan: "གོང་ན་", phonetics: "gong na", translation: "au-delà" },
-            { tibetan: "མ་མཆིས་པ་དང་།", phonetics: "ma chi pa dang", translation: "sans [rien] et" },
+            {
+              tibetan: "མ་མཆིས་པ་དང་།",
+              phonetics: "ma chi pa dang",
+              translation: "sans [rien] et",
+            },
           ],
         },
         {
@@ -2059,65 +2629,162 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "གོང་མའི་ཡང་གོང་མ་བླ་མའི་ཡང་བླ་མར་ཡོངས་སུ་སྔོ་བས།",
           phonetics: "gong mai yang gong ma lamai yang lamar yong sou ngo wé",
-          translation: "je dédie à ce qui surpasse même l'état supérieur [des arhats], à ce qui dépasse même l'état indépassable [des bodhisattvas].",
+          translation:
+            "je dédie à ce qui surpasse même l'état supérieur [des arhats], à ce qui dépasse même l'état indépassable [des bodhisattvas].",
           words: [
-            { tibetan: "གོང་མའི་ཡང་གོང་མ་", phonetics: "gong mai yang gong ma", translation: "surpassant même l'état supérieur" },
-            { tibetan: "བླ་མའི་ཡང་བླ་མར་", phonetics: "lamai yang lamar", translation: "dépassant même l'état indépassable" },
-            { tibetan: "ཡོངས་སུ་སྔོ་བས།", phonetics: "yong sou ngo wé", translation: "je dédie complètement" },
+            {
+              tibetan: "གོང་མའི་ཡང་གོང་མ་",
+              phonetics: "gong mai yang gong ma",
+              translation: "surpassant même l'état supérieur",
+            },
+            {
+              tibetan: "བླ་མའི་ཡང་བླ་མར་",
+              phonetics: "lamai yang lamar",
+              translation: "dépassant même l'état indépassable",
+            },
+            {
+              tibetan: "ཡོངས་སུ་སྔོ་བས།",
+              phonetics: "yong sou ngo wé",
+              translation: "je dédie complètement",
+            },
           ],
         },
         {
           id: "ta-4-13",
           type: "normal",
-          tibetan: "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།",
-          phonetics: "la na mé pa yang dak par dzok pai djang tchoup tou yong sou ngo war gui'o",
-          translation: "Je les dédie complètement à l'authentique et parfait éveil.",
+          tibetan:
+            "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།",
+          phonetics:
+            "la na mé pa yang dak par dzok pai djang tchoup tou yong sou ngo war gui'o",
+          translation:
+            "Je les dédie complètement à l'authentique et parfait éveil.",
           words: [
-            { tibetan: "བླ་ན་མེད་པ་", phonetics: "la na mé pa", translation: "insurpassable" },
-            { tibetan: "ཡང་དག་པར་", phonetics: "yang dak par", translation: "authentiquement" },
-            { tibetan: "རྫོགས་པའི་", phonetics: "dzok pai", translation: "parfait" },
-            { tibetan: "བྱང་ཆུབ་ཏུ་", phonetics: "djang tchoup tou", translation: "à l'éveil" },
-            { tibetan: "ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།", phonetics: "yong sou ngo war gui'o", translation: "je dédie complètement" },
+            {
+              tibetan: "བླ་ན་མེད་པ་",
+              phonetics: "la na mé pa",
+              translation: "insurpassable",
+            },
+            {
+              tibetan: "ཡང་དག་པར་",
+              phonetics: "yang dak par",
+              translation: "authentiquement",
+            },
+            {
+              tibetan: "རྫོགས་པའི་",
+              phonetics: "dzok pai",
+              translation: "parfait",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་ཏུ་",
+              phonetics: "djang tchoup tou",
+              translation: "à l'éveil",
+            },
+            {
+              tibetan: "ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།",
+              phonetics: "yong sou ngo war gui'o",
+              translation: "je dédie complètement",
+            },
           ],
         },
         {
           id: "ta-4-14",
           type: "normal",
-          tibetan: "།ཇི་ལྟར་འདས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་བསྔོས་པ་དང་།",
-          phonetics: "dji tar dé pai sang gyé tchomdendé nam ki yong sou ngeupa dang",
-          translation: "De la même manière que les bouddhas-bhagavans du passé ont accompli une dédicace parfaite,",
+          tibetan:
+            "།ཇི་ལྟར་འདས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་བསྔོས་པ་དང་།",
+          phonetics:
+            "dji tar dé pai sang gyé tchomdendé nam ki yong sou ngeupa dang",
+          translation:
+            "De la même manière que les bouddhas-bhagavans du passé ont accompli une dédicace parfaite,",
           words: [
-            { tibetan: "ཇི་ལྟར་", phonetics: "dji tar", translation: "de la même manière que" },
-            { tibetan: "འདས་པའི་", phonetics: "dé pai", translation: "du passé" },
-            { tibetan: "སངས་རྒྱས་", phonetics: "sang gyé", translation: "bouddhas" },
-            { tibetan: "བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་", phonetics: "tchomdendé nam ki", translation: "bhagavans" },
-            { tibetan: "ཡོངས་སུ་བསྔོས་པ་དང་།", phonetics: "yong sou ngeupa dang", translation: "ont dédié parfaitement et" },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "de la même manière que",
+            },
+            {
+              tibetan: "འདས་པའི་",
+              phonetics: "dé pai",
+              translation: "du passé",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyé",
+              translation: "bouddhas",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
+              phonetics: "tchomdendé nam ki",
+              translation: "bhagavans",
+            },
+            {
+              tibetan: "ཡོངས་སུ་བསྔོས་པ་དང་།",
+              phonetics: "yong sou ngeupa dang",
+              translation: "ont dédié parfaitement et",
+            },
           ],
         },
         {
           id: "ta-4-15",
           type: "normal",
-          tibetan: "ཇི་ལྟར་མ་བྱོན་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་སྔོ་བར་འགྱུར་བ་དང་།",
-          phonetics: "dji tar ma djeun pai sang gyé tchom den dé nam ki yong sou ngo war gyour wa dang",
-          translation: "que les bouddhas-bhagavans du futur accompliront une dédicace parfaite,",
+          tibetan:
+            "ཇི་ལྟར་མ་བྱོན་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་སྔོ་བར་འགྱུར་བ་དང་།",
+          phonetics:
+            "dji tar ma djeun pai sang gyé tchom den dé nam ki yong sou ngo war gyour wa dang",
+          translation:
+            "que les bouddhas-bhagavans du futur accompliront une dédicace parfaite,",
           words: [
-            { tibetan: "ཇི་ལྟར་", phonetics: "dji tar", translation: "de la même manière que" },
-            { tibetan: "མ་བྱོན་པའི་", phonetics: "ma djeun pai", translation: "du futur" },
-            { tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་", phonetics: "sang gyé tchom den dé nam ki", translation: "bouddhas-bhagavans" },
-            { tibetan: "ཡོངས་སུ་སྔོ་བར་འགྱུར་བ་དང་།", phonetics: "yong sou ngo war gyour wa dang", translation: "accompliront une dédicace et" },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "de la même manière que",
+            },
+            {
+              tibetan: "མ་བྱོན་པའི་",
+              phonetics: "ma djeun pai",
+              translation: "du futur",
+            },
+            {
+              tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
+              phonetics: "sang gyé tchom den dé nam ki",
+              translation: "bouddhas-bhagavans",
+            },
+            {
+              tibetan: "ཡོངས་སུ་སྔོ་བར་འགྱུར་བ་དང་།",
+              phonetics: "yong sou ngo war gyour wa dang",
+              translation: "accompliront une dédicace et",
+            },
           ],
         },
         {
           id: "ta-4-16",
           type: "normal",
-          tibetan: "ཇི་ལྟར་ད་ལྟར་བྱུང་བའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་སྔོ་བར་མཛད་པ་",
-          phonetics: "dji tar da tar djoung wai sangyé tchomdendé nam ki yong sou ngowar dzé pa",
-          translation: "que les bouddhas-bhagavans actuels accomplissent une dédicace parfaite,",
+          tibetan:
+            "ཇི་ལྟར་ད་ལྟར་བྱུང་བའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་ཡོངས་སུ་སྔོ་བར་མཛད་པ་",
+          phonetics:
+            "dji tar da tar djoung wai sangyé tchomdendé nam ki yong sou ngowar dzé pa",
+          translation:
+            "que les bouddhas-bhagavans actuels accomplissent une dédicace parfaite,",
           words: [
-            { tibetan: "ཇི་ལྟར་", phonetics: "dji tar", translation: "de la même manière que" },
-            { tibetan: "ད་ལྟར་བྱུང་བའི་", phonetics: "da tar djoung wai", translation: "actuels" },
-            { tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་", phonetics: "sangyé tchomdendé nam ki", translation: "bouddhas-bhagavans" },
-            { tibetan: "ཡོངས་སུ་སྔོ་བར་མཛད་པ་", phonetics: "yong sou ngowar dzé pa", translation: "accomplissent une dédicace" },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "de la même manière que",
+            },
+            {
+              tibetan: "ད་ལྟར་བྱུང་བའི་",
+              phonetics: "da tar djoung wai",
+              translation: "actuels",
+            },
+            {
+              tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
+              phonetics: "sangyé tchomdendé nam ki",
+              translation: "bouddhas-bhagavans",
+            },
+            {
+              tibetan: "ཡོངས་སུ་སྔོ་བར་མཛད་པ་",
+              phonetics: "yong sou ngowar dzé pa",
+              translation: "accomplissent une dédicace",
+            },
           ],
         },
         {
@@ -2125,11 +2792,24 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "དེ་བཞིན་དུ་བདག་གིས་ཀྱང་ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།",
           phonetics: "dé shin dou dak gui kyang yong sou ngo war gui'o",
-          translation: "j'accomplis pareillement à mon tour une dédicace parfaite.",
+          translation:
+            "j'accomplis pareillement à mon tour une dédicace parfaite.",
           words: [
-            { tibetan: "དེ་བཞིན་དུ་", phonetics: "dé shin dou", translation: "pareillement" },
-            { tibetan: "བདག་གིས་ཀྱང་", phonetics: "dak gui kyang", translation: "moi aussi" },
-            { tibetan: "ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།", phonetics: "yong sou ngo war gui'o", translation: "j'accomplis une dédicace parfaite" },
+            {
+              tibetan: "དེ་བཞིན་དུ་",
+              phonetics: "dé shin dou",
+              translation: "pareillement",
+            },
+            {
+              tibetan: "བདག་གིས་ཀྱང་",
+              phonetics: "dak gui kyang",
+              translation: "moi aussi",
+            },
+            {
+              tibetan: "ཡོངས་སུ་བསྔོ་བར་བགྱིའོ།",
+              phonetics: "yong sou ngo war gui'o",
+              translation: "j'accomplis une dédicace parfaite",
+            },
           ],
         },
         {
@@ -2139,10 +2819,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "dik pa t'amché ni so sor chak so",
           translation: "Je confesse chacun des actes néfastes",
           words: [
-            { tibetan: "སྡིག་པ་", phonetics: "dik pa", translation: "actes néfastes" },
-            { tibetan: "ཐམས་ཅད་ནི་", phonetics: "t'amché ni", translation: "chacun" },
-            { tibetan: "སོ་སོར་", phonetics: "so sor", translation: "individuellement" },
-            { tibetan: "བཤགས་སོ།", phonetics: "chak so", translation: "je confesse" },
+            {
+              tibetan: "སྡིག་པ་",
+              phonetics: "dik pa",
+              translation: "actes néfastes",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ནི་",
+              phonetics: "t'amché ni",
+              translation: "chacun",
+            },
+            {
+              tibetan: "སོ་སོར་",
+              phonetics: "so sor",
+              translation: "individuellement",
+            },
+            {
+              tibetan: "བཤགས་སོ།",
+              phonetics: "chak so",
+              translation: "je confesse",
+            },
           ],
         },
         {
@@ -2152,10 +2848,22 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "seu nam t'am tché la djé sou yi rang ngo",
           translation: "et me réjouis de tous les mérites.",
           words: [
-            { tibetan: "བསོད་ནམས་", phonetics: "seu nam", translation: "mérites" },
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seu nam",
+              translation: "mérites",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "ལ་རྗེས་སུ་", phonetics: "la djé sou", translation: "à la suite de" },
-            { tibetan: "ཡི་རང་ངོ་།", phonetics: "yi rang ngo", translation: "me réjouis" },
+            {
+              tibetan: "ལ་རྗེས་སུ་",
+              phonetics: "la djé sou",
+              translation: "à la suite de",
+            },
+            {
+              tibetan: "ཡི་རང་ངོ་།",
+              phonetics: "yi rang ngo",
+              translation: "me réjouis",
+            },
           ],
         },
         {
@@ -2163,26 +2871,61 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "།སངས་རྒྱས་ཐམས་ཅད་ལ་བསྐུལ་ཞིང་གསོལ་བ་འདེབས་སོ།",
           phonetics: "sangyé t'amché la kul shing seulwa dep so",
-          translation: "J'exhorte tous les bouddhas [à ne pas passer en nirvana] et leur fais la requête [de tourner la roue du Dharma].",
+          translation:
+            "J'exhorte tous les bouddhas [à ne pas passer en nirvana] et leur fais la requête [de tourner la roue du Dharma].",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "bouddhas" },
-            { tibetan: "ཐམས་ཅད་ལ་", phonetics: "t'amché la", translation: "à tous" },
-            { tibetan: "བསྐུལ་ཞིང་", phonetics: "kul shing", translation: "j'exhorte et" },
-            { tibetan: "གསོལ་བ་འདེབས་སོ།", phonetics: "seulwa dep so", translation: "fais la requête" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddhas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'amché la",
+              translation: "à tous",
+            },
+            {
+              tibetan: "བསྐུལ་ཞིང་",
+              phonetics: "kul shing",
+              translation: "j'exhorte et",
+            },
+            {
+              tibetan: "གསོལ་བ་འདེབས་སོ།",
+              phonetics: "seulwa dep so",
+              translation: "fais la requête",
+            },
           ],
         },
         {
           id: "ta-4-21",
           type: "normal",
           tibetan: "།བདག་གིས་བླ་ན་མེད་པ་ཡེ་ཤེས་ཀྱི་མཆོག་དམ་པ་ཐོབ་པར་གྱུར་ཅིག",
-          phonetics: "dak gui lana mépa yéché ki tchok dampa top par gyour tchik",
-          translation: "Puissé-je actualiser la sublime et éminente sagesse primordiale insurpassable.",
+          phonetics:
+            "dak gui lana mépa yéché ki tchok dampa top par gyour tchik",
+          translation:
+            "Puissé-je actualiser la sublime et éminente sagesse primordiale insurpassable.",
           words: [
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
-            { tibetan: "བླ་ན་མེད་པ་", phonetics: "lana mépa", translation: "insurpassable" },
-            { tibetan: "ཡེ་ཤེས་ཀྱི་", phonetics: "yéché ki", translation: "sagesse primordiale" },
-            { tibetan: "མཆོག་དམ་པ་", phonetics: "ki tchok dampa", translation: "sublime et éminente" },
-            { tibetan: "ཐོབ་པར་གྱུར་ཅིག", phonetics: "top par gyour tchik", translation: "puissé-je actualiser" },
+            {
+              tibetan: "བླ་ན་མེད་པ་",
+              phonetics: "lana mépa",
+              translation: "insurpassable",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་ཀྱི་",
+              phonetics: "yéché ki",
+              translation: "sagesse primordiale",
+            },
+            {
+              tibetan: "མཆོག་དམ་པ་",
+              phonetics: "ki tchok dampa",
+              translation: "sublime et éminente",
+            },
+            {
+              tibetan: "ཐོབ་པར་གྱུར་ཅིག",
+              phonetics: "top par gyour tchik",
+              translation: "puissé-je actualiser",
+            },
           ],
         },
         {
@@ -2192,10 +2935,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "mi tchok gyal wa gang dak da tar shouk pa dang",
           translation: "Êtres suprêmes victorieux du présent,",
           words: [
-            { tibetan: "མི་མཆོག་", phonetics: "mi tchok", translation: "êtres suprêmes" },
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
-            { tibetan: "གང་དག་", phonetics: "gang dak", translation: "tous ceux qui" },
-            { tibetan: "ད་ལྟར་བཞུགས་པ་དང་།", phonetics: "da tar shouk pa dang", translation: "demeurent actuellement et" },
+            {
+              tibetan: "མི་མཆོག་",
+              phonetics: "mi tchok",
+              translation: "êtres suprêmes",
+            },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            {
+              tibetan: "གང་དག་",
+              phonetics: "gang dak",
+              translation: "tous ceux qui",
+            },
+            {
+              tibetan: "ད་ལྟར་བཞུགས་པ་དང་།",
+              phonetics: "da tar shouk pa dang",
+              translation: "demeurent actuellement et",
+            },
           ],
         },
         {
@@ -2205,10 +2964,26 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gang dak dé pa dak dang dé shin gang ma djeun",
           translation: "Ceux du passé et ceux qui ne sont pas encore venus,",
           words: [
-            { tibetan: "གང་དག་", phonetics: "gang dak", translation: "tous ceux qui" },
-            { tibetan: "འདས་པ་དག་དང་", phonetics: "dé pa dak dang", translation: "du passé et" },
-            { tibetan: "དེ་བཞིན་", phonetics: "dé shin", translation: "de même" },
-            { tibetan: "གང་མ་བྱོན།", phonetics: "gang ma djeun", translation: "ceux qui ne sont pas encore venus" },
+            {
+              tibetan: "གང་དག་",
+              phonetics: "gang dak",
+              translation: "tous ceux qui",
+            },
+            {
+              tibetan: "འདས་པ་དག་དང་",
+              phonetics: "dé pa dak dang",
+              translation: "du passé et",
+            },
+            {
+              tibetan: "དེ་བཞིན་",
+              phonetics: "dé shin",
+              translation: "de même",
+            },
+            {
+              tibetan: "གང་མ་བྱོན།",
+              phonetics: "gang ma djeun",
+              translation: "ceux qui ne sont pas encore venus",
+            },
           ],
         },
         {
@@ -2216,13 +2991,30 @@ export const troisAmoncellements: PracticeText = {
           type: "normal",
           tibetan: "།ཡོན་ཏན་བསྔགས་པ་མཐའ་ཡས་རྒྱ་མཚོ་འདྲ་ཀུན་ལ།",
           phonetics: "yeun ten ngak pa t'ayé gyamtso dra kun la",
-          translation: "en vous tous qui êtes comme des océans de qualités louées et infinies",
+          translation:
+            "en vous tous qui êtes comme des océans de qualités louées et infinies",
           words: [
-            { tibetan: "ཡོན་ཏན་", phonetics: "yeun ten", translation: "qualités" },
-            { tibetan: "བསྔགས་པ་", phonetics: "ngak pa", translation: "louées" },
+            {
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "yeun ten",
+              translation: "qualités",
+            },
+            {
+              tibetan: "བསྔགས་པ་",
+              phonetics: "ngak pa",
+              translation: "louées",
+            },
             { tibetan: "མཐའ་ཡས་", phonetics: "t'ayé", translation: "infinies" },
-            { tibetan: "རྒྱ་མཚོ་འདྲ་", phonetics: "gyamtso dra", translation: "comme des océans" },
-            { tibetan: "ཀུན་ལ།", phonetics: "kun la", translation: "en vous tous" },
+            {
+              tibetan: "རྒྱ་མཚོ་འདྲ་",
+              phonetics: "gyamtso dra",
+              translation: "comme des océans",
+            },
+            {
+              tibetan: "ཀུན་ལ།",
+              phonetics: "kun la",
+              translation: "en vous tous",
+            },
           ],
         },
         {
@@ -2233,9 +3025,21 @@ export const troisAmoncellements: PracticeText = {
           translation: "je prends complètement refuge les mains jointes.",
           words: [
             { tibetan: "ཐལ་མོ་", phonetics: "tal mo", translation: "mains" },
-            { tibetan: "སྦྱར་བར་བགྱིས་ཏེ་", phonetics: "djar war gyi té", translation: "jointes" },
-            { tibetan: "སྐྱབས་སུ་", phonetics: "kyap sou", translation: "refuge" },
-            { tibetan: "ཉེ་བར་མཆིའོ།", phonetics: "nyé war tchi'o", translation: "je prends complètement" },
+            {
+              tibetan: "སྦྱར་བར་བགྱིས་ཏེ་",
+              phonetics: "djar war gyi té",
+              translation: "jointes",
+            },
+            {
+              tibetan: "སྐྱབས་སུ་",
+              phonetics: "kyap sou",
+              translation: "refuge",
+            },
+            {
+              tibetan: "ཉེ་བར་མཆིའོ།",
+              phonetics: "nyé war tchi'o",
+              translation: "je prends complètement",
+            },
           ],
         },
       ],
