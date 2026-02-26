@@ -190,13 +190,22 @@
 }
 
 .phrase-special-translation {
-  font-style: normal;
-  color: #bbb;
+  font-style: italic;
+  color: #888;
   font-size: 0.85rem;
 }
 
 .phrase-special-translation b {
   font-style: normal;
+  color: #888;
+}
+
+.ta-hommage-label .phrase-special-translation {
+  font-style: normal;
+  color: #bbb;
+}
+
+.ta-hommage-label .phrase-special-translation b {
   color: #bbb;
 }
 

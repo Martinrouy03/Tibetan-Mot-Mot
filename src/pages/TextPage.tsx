@@ -188,6 +188,14 @@ export default function TextPage() {
                         <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
                       </div>
                     )}
+                    {normal.type === 'instructions' ? (
+                      <div className="phrase phrase-special">
+                        <span className="phrase-text tibetan">{normal.tibetan}</span>
+                        {normal.translation && (
+                          <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: normal.translation }} />
+                        )}
+                      </div>
+                    ) : (
                     <div
                       ref={(el) => setPhraseRef(normal.id, el)}
                       data-phrase-id={normal.id}
@@ -208,6 +216,7 @@ export default function TextPage() {
                         </div>
                       )}
                     </div>
+                    )}
                   </div>
                   {image && (
                     <div className="ta-hommage-image">
