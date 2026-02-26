@@ -9,6 +9,7 @@ import './TextPage.css';
 const WHEEL_TICKS_PER_PHRASE = 3;
 
 const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, '');
+const renderTranslation = (s: string) => ({ __html: stripParens(s) });
 
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
@@ -18,7 +19,8 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
-  const [imageSizePct, setImageSizePct] = useState(() => window.innerWidth <= 900 ? 60 : 30);
+  const [imageSizePct, setImageSizePct] = useState(60);
+  const [ligneeVariant, setLigneeVariant] = useState<'mahamoudra' | 'dorje-chang'>('mahamoudra');
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -131,15 +133,23 @@ export default function TextPage() {
       {text.sections.map((section) => {
         let normalCount = 0;
 
-        // Build pairs [normal, image?] for ta-hommage
-        type PhrasePair = { normal: typeof section.phrases[0]; image?: typeof section.phrases[0] };
+        // Build pairs [label?, normal, image?] for ta-hommage and ch-priere-lignee
+        type PhrasePair = { label?: typeof section.phrases[0]; normal: typeof section.phrases[0]; image?: typeof section.phrases[0] };
         const pairs: PhrasePair[] = [];
-        if (section.id === 'ta-hommage') {
+        const isHommageSection = section.id === 'ta-hommage' || section.id === 'ch-priere-lignee';
+        const activePhrases = section.id === 'ch-priere-lignee' && ligneeVariant === 'dorje-chang' ? [] : section.phrases;
+        if (isHommageSection) {
           let i = 0;
-          while (i < section.phrases.length) {
-            const p = section.phrases[i];
-            if (p.type === 'normal' && section.phrases[i + 1]?.type === 'image') {
-              pairs.push({ normal: p, image: section.phrases[i + 1] });
+          while (i < activePhrases.length) {
+            const p = activePhrases[i];
+            if (p.type === 'instructions' && !p.tibetan && activePhrases[i + 1]?.type === 'normal') {
+              const label = p;
+              const normal = activePhrases[i + 1];
+              const image = activePhrases[i + 2]?.type === 'image' ? activePhrases[i + 2] : undefined;
+              pairs.push({ label, normal, image });
+              i += image ? 3 : 2;
+            } else if (p.type === 'normal' && activePhrases[i + 1]?.type === 'image') {
+              pairs.push({ normal: p, image: activePhrases[i + 1] });
               i += 2;
             } else {
               pairs.push({ normal: p });
@@ -150,18 +160,33 @@ export default function TextPage() {
 
         return (
         <div key={section.id} className={`section section-${section.id}`}>
-          {section.title && <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>}
+          {section.title && (
+            <div className="section-title-row">
+              <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>
+              {section.id === 'ch-priere-lignee' && (
+                <div className="variant-pill">
+                  <button className={`variant-btn ${ligneeVariant === 'mahamoudra' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('mahamoudra')}>Lignée du Mahamoudra</button>
+                  <button className={`variant-btn ${ligneeVariant === 'dorje-chang' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('dorje-chang')}>Dorje Chang Thoungma</button>
+                </div>
+              )}
+            </div>
+          )}
           <div className="phrases">
-            {section.id === 'ta-hommage' ? pairs.map(({ normal, image }) => {
+            {isHommageSection ? pairs.map(({ label, normal, image }) => {
               normalCount++;
-              const buddhaName = image
+              const buddhaName = image && section.id === 'ta-hommage'
                 ? (normalCount === 1 ? 'Bouddha Shakyamuni' : (normal.translation.match(/\(([^)]+)\)/)?.[1] ?? ''))
                 : null;
-              const prefix = image ? `[${normalCount}. ${buddhaName}] ` : undefined;
+              const prefix = buddhaName ? `[${normalCount}. ${buddhaName}] ` : undefined;
               const isSelected = interactionMode === 'fixed' || selectedPhraseId === normal.id;
               const isLastPrayer = !image;
               return (
                 <div key={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
+                  {label && (
+                    <div className="phrase phrase-special ta-hommage-label">
+                      <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
+                    </div>
+                  )}
                   <div
                     ref={(el) => setPhraseRef(normal.id, el)}
                     data-phrase-id={normal.id}
@@ -177,7 +202,7 @@ export default function TextPage() {
                           {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
                         </span>
                         {showTranslation && normal.translation && (
-                          <span className="phrase-inline-translation">{stripParens(normal.translation)}</span>
+                          <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(normal.translation)} />
                         )}
                       </div>
                     )}
@@ -231,7 +256,7 @@ export default function TextPage() {
                     <div className="phrase phrase-special">
                       <span className="phrase-text tibetan">{phrase.tibetan}</span>
                       {phrase.translation && (
-                        <span className="phrase-special-translation">{phrase.translation}</span>
+                        <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: phrase.translation }} />
                       )}
                     </div>
                   ) : (
@@ -240,7 +265,7 @@ export default function TextPage() {
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
                       {showTranslation && phrase.translation && (
-                        <span className="phrase-inline-translation">{stripParens(phrase.translation)}</span>
+                        <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(phrase.translation)} />
                       )}
                     </div>
                   )}

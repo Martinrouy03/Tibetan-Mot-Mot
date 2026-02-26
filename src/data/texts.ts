@@ -4,6 +4,7 @@ import { coeurPrajnaparamita } from './coeur-prajnaparamita';
 import { vajrasattva } from './vajrasattva';
 import { troisAmoncellements } from './trois-amoncellements';
 import { souhaitsSamantabhadra } from './souhaits-samantabhadra';
+import { pratiqueChenrezik } from './pratique-chenrezik';
 
 export const practiceTexts: PracticeText[] = [
   guruYoga,
@@ -11,4 +12,5 @@ export const practiceTexts: PracticeText[] = [
   vajrasattva,
   troisAmoncellements,
   souhaitsSamantabhadra,
+  pratiqueChenrezik,
 ];

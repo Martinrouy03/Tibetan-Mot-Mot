@@ -23,9 +23,7 @@ export default function PhraseBreakdown({ phrase, displayMode, showTranslation, 
         ))}
       </div>
       {showTranslation && (
-        <div className="breakdown-translation">
-          {phrase.translation.replace(/ \([^)]*\)/g, '')}
-        </div>
+        <div className="breakdown-translation" dangerouslySetInnerHTML={{ __html: phrase.translation.replace(/ \([^)]*\)/g, '') }} />
       )}
     </div>
   );

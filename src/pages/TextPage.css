@@ -54,6 +54,50 @@
   margin-bottom: 2rem;
 }
 
+.section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #333;
+}
+
+.section-title-row .section-title,
+.section-title-row .section-subtitle {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.variant-pill {
+  display: flex;
+  border: 1px solid #444;
+  border-radius: 999px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.variant-btn {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.variant-btn:hover {
+  color: #bbb;
+}
+
+.variant-btn-active {
+  background: #333;
+  color: #bbb;
+}
+
 .section-title {
   color: #bbb;
   font-size: 1rem;
@@ -151,6 +195,11 @@
   font-size: 0.85rem;
 }
 
+.phrase-special-translation b {
+  font-style: normal;
+  color: #bbb;
+}
+
 .phrase-inline-translation {
   display: block;
   font-style: italic;
@@ -228,9 +277,15 @@
 
 .ta-hommage-pair {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 0.3rem;
+}
+
+.ta-hommage-label {
+  flex: 0 0 100%;
+  margin-bottom: 0;
 }
 
 .ta-hommage-pair .phrase-container {

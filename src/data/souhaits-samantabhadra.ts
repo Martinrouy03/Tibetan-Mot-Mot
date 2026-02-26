@@ -1,4 +1,4 @@
-import type { PracticeText } from '../types';
+import type { PracticeText } from "../types";
 
 export const souhaitsSamantabhadra: PracticeText = {
   id: "souhaits-samantabhadra",
@@ -22,7 +22,8 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "instructions",
           tibetan: "བོད་སྐད་དུ། འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།",
           phonetics: "",
-          translation: "En tibétain : 'phags pa bzang po spyod pa'i smon lam gyi rgyal po",
+          translation:
+            "En tibétain : 'phags pa bzang po spyod pa'i smon lam gyi rgyal po",
           words: [],
         },
       ],
@@ -35,14 +36,31 @@ export const souhaitsSamantabhadra: PracticeText = {
           id: "ss-mj-1",
           type: "normal",
           tibetan: "འཕགས་པ་འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཕྱག་འཚལ་ལོ།",
-          phonetics: "p'ak pa / djampel / sheun nour / gyourpa la / tchak tsel lo",
+          phonetics:
+            "p'ak pa / djampel / sheun nour / gyourpa la / tchak tsel lo",
           translation: "Je me prosterne devant le juvénile Manjushri.",
           words: [
             { tibetan: "འཕགས་པ་", phonetics: "p'ak pa", translation: "noble" },
-            { tibetan: "འཇམ་དཔལ་", phonetics: "djampel", translation: "Manjushri" },
-            { tibetan: "གཞོན་ནུར་", phonetics: "sheun nour", translation: "juvénile" },
-            { tibetan: "གྱུར་པ་ལ་", phonetics: "gyourpa la", translation: "qui est devenu, devant" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "tchak tsel lo", translation: "je me prosterne" },
+            {
+              tibetan: "འཇམ་དཔལ་",
+              phonetics: "djampel",
+              translation: "Manjushri",
+            },
+            {
+              tibetan: "གཞོན་ནུར་",
+              phonetics: "sheun nour",
+              translation: "juvénile",
+            },
+            {
+              tibetan: "གྱུར་པ་ལ་",
+              phonetics: "gyourpa la",
+              translation: "devant",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tchak tsel lo",
+              translation: "je me prosterne",
+            },
           ],
         },
       ],
@@ -64,10 +82,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "dji nyé / sou dak / tcho tchu / djik ten na",
           translation: "Dans tous les mondes et dans les dix directions,",
           words: [
-            { tibetan: "ཇི་སྙེད་", phonetics: "dji nyé", translation: "autant que" },
+            {
+              tibetan: "ཇི་སྙེད་",
+              phonetics: "dji nyé",
+              translation: "autant qu'il y en a",
+            },
             { tibetan: "སུ་དག་", phonetics: "sou dak", translation: "tous" },
-            { tibetan: "ཕྱོགས་བཅུའི་", phonetics: "tcho tchu", translation: "des dix directions" },
-            { tibetan: "འཇིག་རྟེན་ན་", phonetics: "djik ten na", translation: "dans le monde" },
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "tcho tchu",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "འཇིག་རྟེན་ན་",
+              phonetics: "djik ten na",
+              translation: "les mondes",
+            },
           ],
         },
         {
@@ -75,12 +105,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་ཀུན།",
           phonetics: "du soum / chek pa / mi yi / seng gué kun",
-          translation: "résident les tathagatas du passé, du présent et du futur.",
+          translation:
+            "[Résident] les tathagatas des trois temps, lions parmi les hommes,",
           words: [
-            { tibetan: "དུས་གསུམ་", phonetics: "du soum", translation: "trois temps" },
-            { tibetan: "གཤེགས་པ་", phonetics: "chek pa", translation: "allés [tathagatas]" },
-            { tibetan: "མི་ཡི་", phonetics: "mi yi", translation: "des hommes" },
-            { tibetan: "སེང་གེ་ཀུན་", phonetics: "seng gué kun", translation: "tous les lions" },
+            {
+              tibetan: "དུས་གསུམ་",
+              phonetics: "du soum",
+              translation: "trois temps",
+            },
+            {
+              tibetan: "གཤེགས་པ་",
+              phonetics: "chek pa",
+              translation: "allés [tathagatas]",
+            },
+            {
+              tibetan: "མི་ཡི་",
+              phonetics: "mi yi",
+              translation: "[parmi les] hommes",
+            },
+            {
+              tibetan: "སེང་གེ་ཀུན་",
+              phonetics: "seng gué kun",
+              translation: "tous les lions",
+            },
           ],
         },
         {
@@ -88,12 +135,24 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།བདག་གིས་མ་ལུས་དེ་དག་ཐམས་ཅད་ལ།",
           phonetics: "dak gui / ma lu / dé dak / t'am tché la",
-          translation: "Devant chacun de ces lions parmi les hommes,",
+          translation: "Moi, devant tous, sans exception,",
           words: [
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi/je" },
-            { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "sans exception" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "Moi",
+            },
+            {
+              tibetan: "མ་ལུས་",
+              phonetics: "ma lu",
+              translation: "sans exception",
+            },
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
-            { tibetan: "ཐམས་ཅད་ལ་", phonetics: "t'am tché la", translation: "devant tous" },
+            {
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'am tché la",
+              translation: "devant tous",
+            },
           ],
         },
         {
@@ -101,12 +160,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།ལུས་དང་ངག་ཡིད་དང་བས་ཕྱག་བགྱིའོ།",
           phonetics: "lu dang / ngak yi / dang wé / tchak gyi'o",
-          translation: "je m'incline joyeusement avec le corps, la parole et l'esprit.",
+          translation:
+            "je m'incline joyeusement avec le corps, la parole et l'esprit.",
           words: [
-            { tibetan: "ལུས་དང་", phonetics: "lu dang", translation: "le corps et" },
-            { tibetan: "ངག་ཡིད་", phonetics: "ngak yi", translation: "la parole et l'esprit" },
-            { tibetan: "དང་བས་", phonetics: "dang wé", translation: "joyeusement" },
-            { tibetan: "ཕྱག་བགྱིའོ་", phonetics: "tchak gyi'o", translation: "je m'incline" },
+            {
+              tibetan: "ལུས་དང་",
+              phonetics: "lu dang",
+              translation: "[avec] le corps,",
+            },
+            {
+              tibetan: "ངག་ཡིད་",
+              phonetics: "ngak yi",
+              translation: "la parole et l'esprit,",
+            },
+            {
+              tibetan: "དང་བས་",
+              phonetics: "dang wé",
+              translation: "joyeusement",
+            },
+            {
+              tibetan: "ཕྱག་བགྱིའོ་",
+              phonetics: "tchak gyi'o",
+              translation: "je m'incline",
+            },
           ],
         },
         {
@@ -114,12 +190,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་སྟོབས་དག་གིས།",
           phonetics: "zang po / tcheu pai / meun lam / top dak gui",
-          translation: "Par la force des aspirations de la conduite excellente,",
+          translation:
+            "Par la force des aspirations de la conduite excellente,",
           words: [
-            { tibetan: "བཟང་པོ་", phonetics: "zang po", translation: "excellente" },
-            { tibetan: "སྤྱོད་པའི་", phonetics: "tcheu pai", translation: "de la conduite" },
-            { tibetan: "སྨོན་ལམ་", phonetics: "meun lam", translation: "aspirations" },
-            { tibetan: "སྟོབས་དག་གིས་", phonetics: "top dak gui", translation: "par la force pure de" },
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་པའི་",
+              phonetics: "tcheu pai",
+              translation: "conduite",
+            },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "meun lam",
+              translation: "aspirations",
+            },
+            {
+              tibetan: "སྟོབས་དག་གིས་",
+              phonetics: "top dak gui",
+              translation: "par la force pure des",
+            },
           ],
         },
         {
@@ -129,10 +222,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gyalwa / t'am tché / yi kyi / ngeun soum dou",
           translation: "chaque bouddha invoqué devient manifeste.",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyalwa", translation: "victorieux/bouddha" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyalwa",
+              translation: "bouddha",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "ཡིད་ཀྱིས་", phonetics: "yi kyi", translation: "par l'esprit" },
-            { tibetan: "མངོན་སུམ་དུ་", phonetics: "ngeun soum dou", translation: "clairement manifeste" },
+            {
+              tibetan: "ཡིད་ཀྱིས་",
+              phonetics: "yi kyi",
+              translation: "par l'esprit",
+            },
+            {
+              tibetan: "མངོན་སུམ་དུ་",
+              phonetics: "ngeun soum dou",
+              translation: "clairement manifeste",
+            },
           ],
         },
         {
@@ -140,12 +245,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།ཞིང་གི་རྡུལ་སྙེད་ལུས་རབ་བཏུད་པ་ཡིས།",
           phonetics: "shing gui / dul nyé / lu rap / tu pa yi",
-          translation: "Avec autant de corps que d'atomes dans l'univers,",
+          translation:
+            "Avec autant de corps inclinés que d'atomes dans l'univers,",
           words: [
-            { tibetan: "ཞིང་གི་", phonetics: "shing gui", translation: "de l'univers" },
-            { tibetan: "རྡུལ་སྙེད་", phonetics: "dul nyé", translation: "autant que d'atomes" },
-            { tibetan: "ལུས་རབ་", phonetics: "lu rap", translation: "corps excellents" },
-            { tibetan: "བཏུད་པ་ཡིས་", phonetics: "tu pa yi", translation: "en s'inclinant" },
+            {
+              tibetan: "ཞིང་གི་",
+              phonetics: "shing gui",
+              translation: "de l'univers",
+            },
+            {
+              tibetan: "རྡུལ་སྙེད་",
+              phonetics: "dul nyé",
+              translation: "autant que d'atomes",
+            },
+            {
+              tibetan: "ལུས་རབ་",
+              phonetics: "lu rap",
+              translation: "corps",
+            },
+            {
+              tibetan: "བཏུད་པ་ཡིས་",
+              phonetics: "tu pa yi",
+              translation: "inclinés",
+            },
           ],
         },
         {
@@ -153,12 +275,28 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།རྒྱལ་བ་ཀུན་ལ་རབ་ཏུ་ཕྱག་འཚལ་ལོ།",
           phonetics: "gyal wa / kun la / rap tou / tchak tsel lo",
-          translation: "je m'incline profondément devant les victorieux.",
+          translation: "je rends hommage profondément aux victorieux.",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
-            { tibetan: "ཀུན་ལ་", phonetics: "kun la", translation: "devant tous" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rap tou", translation: "profondément" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "tchak tsel lo", translation: "je me prosterne" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            {
+              tibetan: "ཀུན་ལ་",
+              phonetics: "kun la",
+              translation: "à tous",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "profondément",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tchak tsel lo",
+              translation: "je rends hommage",
+            },
           ],
         },
         {
@@ -166,12 +304,25 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་སངས་རྒྱས་རྣམས།",
           phonetics: "dul tchik / teng na / dul nyé / sangyé nam",
-          translation: "Sur chaque particule, autant de bouddhas que de particules",
+          translation:
+            "Sur chaque particule, autant de bouddhas que de particules",
           words: [
-            { tibetan: "རྡུལ་གཅིག་", phonetics: "dul tchik", translation: "une particule" },
+            {
+              tibetan: "རྡུལ་གཅིག་",
+              phonetics: "dul tchik",
+              translation: "une particule",
+            },
             { tibetan: "སྟེང་ན་", phonetics: "teng na", translation: "sur" },
-            { tibetan: "རྡུལ་སྙེད་", phonetics: "dul nyé", translation: "autant que d'atomes" },
-            { tibetan: "སངས་རྒྱས་རྣམས་", phonetics: "sangyé nam", translation: "les bouddhas" },
+            {
+              tibetan: "རྡུལ་སྙེད་",
+              phonetics: "dul nyé",
+              translation: "autant que d'atomes",
+            },
+            {
+              tibetan: "སངས་རྒྱས་རྣམས་",
+              phonetics: "sangyé nam",
+              translation: "des bouddhas",
+            },
           ],
         },
         {
@@ -179,12 +330,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་དག",
           phonetics: "sangyé / sé kyi / u na / shouk pa da",
-          translation: "demeurent parmi les bodhisattvas, leurs fils spirituels.",
+          translation:
+            "demeurent parmi les bodhisattvas, leurs fils spirituels.",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "bouddhas" },
-            { tibetan: "སྲས་ཀྱི་", phonetics: "sé kyi", translation: "des fils [bodhisattvas]" },
-            { tibetan: "དབུས་ན་", phonetics: "u na", translation: "au milieu de" },
-            { tibetan: "བཞུགས་པ་དག་", phonetics: "shouk pa da", translation: "ceux qui demeurent" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddhas",
+            },
+            {
+              tibetan: "སྲས་ཀྱི་",
+              phonetics: "sé kyi",
+              translation: "fils",
+            },
+            {
+              tibetan: "དབུས་ན་",
+              phonetics: "u na",
+              translation: "parmi",
+            },
+            {
+              tibetan: "བཞུགས་པ་དག་",
+              phonetics: "shouk pa da",
+              translation: "demeurent",
+            },
           ],
         },
         {
@@ -195,9 +363,16 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Ainsi, le dharmadhatu, l'entière sphère d'existence,",
           words: [
             { tibetan: "དེ་ལྟར་", phonetics: "dé tar", translation: "ainsi" },
-            { tibetan: "ཆོས་ཀྱི་", phonetics: "tcheu kyi", translation: "du dharma" },
-            { tibetan: "དབྱིངས་རྣམས་", phonetics: "ying nam", translation: "les sphères/espaces" },
-            { tibetan: "མ་ལུས་པ་", phonetics: "ma lu pa", translation: "sans exception" },
+            {
+              tibetan: "ཆོས་ཀྱི་དབྱིངས་རྣམས་",
+              phonetics: "tcheu kyi ying nam",
+              translation: "le dharmadhatu",
+            },
+            {
+              tibetan: "མ་ལུས་པ་",
+              phonetics: "ma lu pa",
+              translation: "entier",
+            },
           ],
         },
         {
@@ -208,9 +383,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "est empli des bouddhas que j'invoque.",
           words: [
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tout" },
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux/bouddhas" },
-            { tibetan: "དག་གིས་", phonetics: "dak gui", translation: "purs" },
-            { tibetan: "གང་བར་མོས་", phonetics: "gang war meu", translation: "je contemple rempli de" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            {
+              tibetan: "དག་གིས་",
+              phonetics: "dak gui",
+              translation: "[pluriel]",
+            },
+            {
+              tibetan: "གང་བར་",
+              phonetics: "gang war",
+              translation: "rempli",
+            },
+            {
+              tibetan: "མོས་",
+              phonetics: "meu",
+              translation: "j'invoque'",
+            },
           ],
         },
         {
@@ -218,12 +410,24 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།དེ་དག་བསྔགས་པ་མི་ཟད་རྒྱ་མཚོ་རྣམས།",
           phonetics: "dé dak / ngak pa / mi zé / gyam tso nam",
-          translation: "Avec tous les tons d'une multitude de mélodies,",
+          translation: "Par des océans inépuisables de louanges,",
           words: [
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
-            { tibetan: "བསྔགས་པ་", phonetics: "ngak pa", translation: "louanges/mélodies" },
-            { tibetan: "མི་ཟད་", phonetics: "mi zé", translation: "inépuisables" },
-            { tibetan: "རྒྱ་མཚོ་རྣམས་", phonetics: "gyam tso nam", translation: "les océans" },
+            {
+              tibetan: "བསྔགས་པ་",
+              phonetics: "ngak pa",
+              translation: "louanges",
+            },
+            {
+              tibetan: "མི་ཟད་",
+              phonetics: "mi zé",
+              translation: "inépuisables",
+            },
+            {
+              tibetan: "རྒྱ་མཚོ་རྣམས་",
+              phonetics: "gyam tso nam",
+              translation: "des océans",
+            },
           ],
         },
         {
@@ -231,12 +435,28 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།དབྱངས་ཀྱི་ཡན་ལག་རྒྱ་མཚོའི་སྒྲ་ཀུན་གྱིས།",
           phonetics: "yang kyi / yen lak / gyam tseu / dra kun gyi",
-          translation: "je les célèbre par des océans inépuisables de louanges.",
+          translation: "avec tous les tons d'une multitude de mélodies.",
           words: [
-            { tibetan: "དབྱངས་ཀྱི་", phonetics: "yang kyi", translation: "de la mélodie" },
-            { tibetan: "ཡན་ལག་", phonetics: "yen lak", translation: "membres/aspects" },
-            { tibetan: "རྒྱ་མཚོའི་", phonetics: "gyam tseu", translation: "de l'océan" },
-            { tibetan: "སྒྲ་ཀུན་གྱིས་", phonetics: "dra kun gyi", translation: "par tous les sons" },
+            {
+              tibetan: "དབྱངས་ཀྱི་",
+              phonetics: "yang kyi",
+              translation: "mélodies",
+            },
+            {
+              tibetan: "ཡན་ལག་",
+              phonetics: "yen lak",
+              translation: "aspects",
+            },
+            {
+              tibetan: "རྒྱ་མཚོའི་",
+              phonetics: "gyam tseu",
+              translation: "de l'océan",
+            },
+            {
+              tibetan: "སྒྲ་ཀུན་གྱིས་",
+              phonetics: "dra kun gyi",
+              translation: "tous les sons",
+            },
           ],
         },
         {
@@ -246,10 +466,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gyal wa / kun gyi / yeun ten / rap djeu tching",
           translation: "Louant les qualités de tous les victorieux,",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
-            { tibetan: "ཀུན་གྱི་", phonetics: "kun gyi", translation: "de tous" },
-            { tibetan: "ཡོན་ཏན་", phonetics: "yeun ten", translation: "qualités/vertus" },
-            { tibetan: "རབ་བརྗོད་ཅིང་", phonetics: "rap djeu tching", translation: "en louant parfaitement" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            {
+              tibetan: "ཀུན་གྱི་",
+              phonetics: "kun gyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "yeun ten",
+              translation: "qualités",
+            },
+            {
+              tibetan: "རབ་བརྗོད་ཅིང་",
+              phonetics: "rap djeu tching",
+              translation: "louant parfaitement",
+            },
           ],
         },
         {
@@ -259,10 +495,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "dé war / chek pa / t'am tché / dak gui teu",
           translation: "j'honore tous les allés en la félicité.",
           words: [
-            { tibetan: "བདེ་བར་", phonetics: "dé war", translation: "en félicité" },
-            { tibetan: "གཤེགས་པ་", phonetics: "chek pa", translation: "allés [sugatas]" },
+            {
+              tibetan: "བདེ་བར་",
+              phonetics: "dé war",
+              translation: "en félicité",
+            },
+            {
+              tibetan: "གཤེགས་པ་",
+              phonetics: "chek pa",
+              translation: "allés [sugatas]",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "བདག་གིས་བསྟོད་", phonetics: "dak gui teu", translation: "je rends hommage" },
+            {
+              tibetan: "བདག་གིས་བསྟོད་",
+              phonetics: "dak gui teu",
+              translation: "je rends hommage",
+            },
           ],
         },
       ],
@@ -280,9 +528,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Des fleurs somptueuses, de magnifiques guirlandes,",
           words: [
             { tibetan: "མེ་ཏོག་", phonetics: "mé tok", translation: "fleurs" },
-            { tibetan: "དམ་པ་", phonetics: "dam pa", translation: "somptueuses" },
-            { tibetan: "ཕྲེང་བ་", phonetics: "treng wa", translation: "guirlandes" },
-            { tibetan: "དམ་པ་དང་", phonetics: "dam pa dang", translation: "somptueuses et" },
+            {
+              tibetan: "དམ་པ་",
+              phonetics: "dam pa",
+              translation: "somptueuses",
+            },
+            {
+              tibetan: "ཕྲེང་བ་",
+              phonetics: "treng wa",
+              translation: "guirlandes",
+            },
+            {
+              tibetan: "དམ་པ་དང་",
+              phonetics: "dam pa dang",
+              translation: "magnifiques,",
+            },
           ],
         },
         {
@@ -290,12 +550,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།སིལ་སྙན་རྣམས་དང་བྱུག་པ་གདུགས་མཆོག་དང༌།",
           phonetics: "sil nyen / nam dang / djouk pa / douk tchok dang",
-          translation: "des cymbales cristallines, des onguents et des ombrelles sublimes,",
+          translation:
+            "des cymbales cristallines, des onguents et des ombrelles sublimes,",
           words: [
-            { tibetan: "སིལ་སྙན་", phonetics: "sil nyen", translation: "cymbales" },
-            { tibetan: "རྣམས་དང་", phonetics: "nam dang", translation: "et aussi" },
-            { tibetan: "བྱུག་པ་", phonetics: "djouk pa", translation: "onguents" },
-            { tibetan: "གདུགས་མཆོག་དང་", phonetics: "douk tchok dang", translation: "et les ombrelles sublimes" },
+            {
+              tibetan: "སིལ་སྙན་",
+              phonetics: "sil nyen",
+              translation: "cymbales",
+            },
+            {
+              tibetan: "རྣམས་དང་",
+              phonetics: "nam dang",
+              translation: "et aussi",
+            },
+            {
+              tibetan: "བྱུག་པ་",
+              phonetics: "djouk pa",
+              translation: "onguents",
+            },
+            {
+              tibetan: "གདུགས་མཆོག་དང་",
+              phonetics: "douk tchok dang",
+              translation: "et les ombrelles sublimes",
+            },
           ],
         },
         {
@@ -306,9 +583,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "des lampes étincelantes et de l'encens parfumé,",
           words: [
             { tibetan: "མར་མེ་", phonetics: "mar mé", translation: "lampes" },
-            { tibetan: "མཆོག་དང་", phonetics: "tchok dang", translation: "sublimes et" },
-            { tibetan: "བདུག་སྤོས་", phonetics: "douk peu", translation: "encens" },
-            { tibetan: "དམ་པ་ཡིས་", phonetics: "dam pa yi", translation: "sacré/parfumé" },
+            {
+              tibetan: "མཆོག་དང་",
+              phonetics: "tchok dang",
+              translation: "sublimes et",
+            },
+            {
+              tibetan: "བདུག་སྤོས་",
+              phonetics: "douk peu",
+              translation: "encens",
+            },
+            {
+              tibetan: "དམ་པ་ཡིས་",
+              phonetics: "dam pa yi",
+              translation: "parfumé",
+            },
           ],
         },
         {
@@ -318,10 +607,18 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gyal wa / dé dak / la ni / tcheu par gyi",
           translation: "Ô victorieux, je vous offre tout cela.",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
-            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
-            { tibetan: "ལ་ནི་", phonetics: "la ni", translation: "à/envers" },
-            { tibetan: "མཆོད་པར་བགྱི་", phonetics: "tcheu par gyi", translation: "j'offre" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "cela" },
+            { tibetan: "ལ་ནི་", phonetics: "la ni", translation: "à" },
+            {
+              tibetan: "མཆོད་པར་བགྱི་",
+              phonetics: "tcheu par gyi",
+              translation: "j'offre",
+            },
           ],
         },
         {
@@ -331,10 +628,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "nap za / dam pa / nam tang / dri tchok dang",
           translation: "De vêtements fins, d'exquises effluves,",
           words: [
-            { tibetan: "ན་བཟའ་", phonetics: "nap za", translation: "vêtements" },
-            { tibetan: "དམ་པ་", phonetics: "dam pa", translation: "fins/sacrés" },
-            { tibetan: "རྣམས་དང་", phonetics: "nam tang", translation: "et aussi" },
-            { tibetan: "དྲི་མཆོག་དང་", phonetics: "dri tchok dang", translation: "et les effluves sublimes" },
+            {
+              tibetan: "ན་བཟའ་",
+              phonetics: "nap za",
+              translation: "vêtements",
+            },
+            {
+              tibetan: "དམ་པ་",
+              phonetics: "dam pa",
+              translation: "fins",
+            },
+            {
+              tibetan: "རྣམས་དང་",
+              phonetics: "nam tang",
+              translation: "et aussi",
+            },
+            {
+              tibetan: "དྲི་མཆོག་དང་",
+              phonetics: "dri tchok dang",
+              translation: "les effluves sublimes",
+            },
           ],
         },
         {
@@ -342,12 +655,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།ཕྱེ་མའི་ཕུར་མ་རི་རབ་མཉམ་པ་དང་།",
           phonetics: "tché mai / p'our ma / ri rap / nyam pa dang",
-          translation: "des jarres emplies de poudres parfumées, [hautes] comme une montagne.",
+          translation:
+            "des jarres emplies de poudres parfumées, [hautes] comme une montagne.",
           words: [
-            { tibetan: "ཕྱེ་མའི་", phonetics: "tché mai", translation: "des poudres" },
-            { tibetan: "ཕུར་མ་", phonetics: "p'our ma", translation: "cônes rituels" },
-            { tibetan: "རི་རབ་", phonetics: "ri rap", translation: "mont Sumeru" },
-            { tibetan: "མཉམ་པ་དང་", phonetics: "nyam pa dang", translation: "égale à et" },
+            {
+              tibetan: "ཕྱེ་མའི་",
+              phonetics: "tché mai",
+              translation: "poudres",
+            },
+            {
+              tibetan: "ཕུར་མ་",
+              phonetics: "p'our ma",
+              translation: "amas",
+            },
+            {
+              tibetan: "རི་རབ་",
+              phonetics: "ri rap",
+              translation: "mont Meru",
+            },
+            {
+              tibetan: "མཉམ་པ་དང་",
+              phonetics: "nyam pa dang",
+              translation: "égale à",
+            },
           ],
         },
         {
@@ -357,10 +687,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "keu pa / kyé par / p'ak pai / tchok kun gyi",
           translation: "un déploiement merveilleux, présenté avec raffinement,",
           words: [
-            { tibetan: "བཀོད་པ་", phonetics: "keu pa", translation: "disposé/arrangé" },
-            { tibetan: "ཁྱད་པར་", phonetics: "kyé par", translation: "particulièrement" },
-            { tibetan: "འཕགས་པའི་", phonetics: "p'ak pai", translation: "nobles/sublimes" },
-            { tibetan: "མཆོག་ཀུན་གྱིས་", phonetics: "tchok kun gyi", translation: "par tous les meilleurs" },
+            {
+              tibetan: "བཀོད་པ་",
+              phonetics: "keu pa",
+              translation: "déploiement",
+            },
+            {
+              tibetan: "ཁྱད་པར་",
+              phonetics: "kyé par",
+              translation: "merveilleux",
+            },
+            {
+              tibetan: "འཕགས་པའི་",
+              phonetics: "p'ak pai",
+              translation: "sublimes",
+            },
+            {
+              tibetan: "མཆོག་ཀུན་གྱིས་",
+              phonetics: "tchok kun gyi",
+              translation: "par tous les suprêmes",
+            },
           ],
         },
         {
@@ -370,10 +716,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gyal wa / dé dak / la yang / tcheu par gyi",
           translation: "Ô victorieux, je vous offre tout cela.",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
-            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
-            { tibetan: "ལ་ཡང་", phonetics: "la yang", translation: "à/envers aussi" },
-            { tibetan: "མཆོད་པར་བགྱི་", phonetics: "tcheu par gyi", translation: "j'offre" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "cela" },
+            {
+              tibetan: "ལ་ཡང་",
+              phonetics: "la yang",
+              translation: "à",
+            },
+            {
+              tibetan: "མཆོད་པར་བགྱི་",
+              phonetics: "tcheu par gyi",
+              translation: "j'offre",
+            },
           ],
         },
         {
@@ -383,10 +741,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "tcheu pa / gang nam / la mé / gya tché wa",
           translation: "Toutes ces offrandes vastes et sans pareilles",
           words: [
-            { tibetan: "མཆོད་པ་", phonetics: "tcheu pa", translation: "offrandes" },
-            { tibetan: "གང་རྣམས་", phonetics: "gang nam", translation: "toutes" },
-            { tibetan: "བླ་མེད་", phonetics: "la mé", translation: "sans pareilles" },
-            { tibetan: "རྒྱ་ཆེ་བ་", phonetics: "gya tché wa", translation: "vastes/immenses" },
+            {
+              tibetan: "མཆོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "offrandes",
+            },
+            {
+              tibetan: "གང་རྣམས་",
+              phonetics: "gang nam",
+              translation: "toutes",
+            },
+            {
+              tibetan: "བླ་མེད་",
+              phonetics: "la mé",
+              translation: "sans pareilles",
+            },
+            {
+              tibetan: "རྒྱ་ཆེ་བ་",
+              phonetics: "gya tché wa",
+              translation: "vastes",
+            },
           ],
         },
         {
@@ -396,10 +770,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "dé dak / gyal wa / t'am tché / la yang meu",
           translation: "témoignent de ma confiance en tous les bouddhas.",
           words: [
-            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "celles-là" },
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux/bouddhas" },
+            {
+              tibetan: "དེ་དག་",
+              phonetics: "dé dak",
+              translation: "ceci",
+            },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "ལ་ཡང་མོས་", phonetics: "la yang meu", translation: "j'aspire envers" },
+            {
+              tibetan: "ལ་ཡང་མོས་",
+              phonetics: "la yang meu",
+              translation: "aspirer",
+            },
           ],
         },
         {
@@ -407,12 +793,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།བཟང་པོ་སྤྱོད་ལ་དད་པའི་སྟོབས་དག་གིས།",
           phonetics: "zang po / tcheu la / dé pai / top dak gui",
-          translation: "Avec toute la force de ma foi en la conduite excellente,",
+          translation:
+            "Avec toute la force de ma foi en la conduite excellente,",
           words: [
-            { tibetan: "བཟང་པོ་", phonetics: "zang po", translation: "excellente" },
-            { tibetan: "སྤྱོད་ལ་", phonetics: "tcheu la", translation: "conduite (envers)" },
-            { tibetan: "དད་པའི་", phonetics: "dé pai", translation: "de la foi" },
-            { tibetan: "སྟོབས་དག་གིས་", phonetics: "top dak gui", translation: "par la force pure de" },
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་ལ་",
+              phonetics: "tcheu la",
+              translation: "conduite",
+            },
+            {
+              tibetan: "དད་པའི་",
+              phonetics: "dé pai",
+              translation: "ma foi",
+            },
+            {
+              tibetan: "སྟོབས་དག་གིས་",
+              phonetics: "top dak gui",
+              translation: "par la force pure de",
+            },
           ],
         },
         {
@@ -422,10 +825,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gyal wa / kun la / tchak tsel / tcheu par gyi",
           translation: "je m'incline et les présente à tous les victorieux.",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
             { tibetan: "ཀུན་ལ་", phonetics: "kun la", translation: "à tous" },
-            { tibetan: "ཕྱག་འཚལ་", phonetics: "tchak tsel", translation: "prosternation" },
-            { tibetan: "མཆོད་པར་བགྱི་", phonetics: "tcheu par gyi", translation: "j'offre" },
+            {
+              tibetan: "ཕྱག་འཚལ་",
+              phonetics: "tchak tsel",
+              translation: "je m'incline",
+            },
+            {
+              tibetan: "མཆོད་པར་བགྱི་",
+              phonetics: "tcheu par gyi",
+              translation: "j'offre",
+            },
           ],
         },
       ],
@@ -440,12 +855,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་དབང་གིས་ནི།",
           phonetics: "deu tchak / shé dang / ti mouk / wang gui ni",
-          translation: "Sous l'emprise de la passion, de la colère et de l'ignorance,",
+          translation:
+            "Sous l'emprise de la passion, de l'aversion et de l'ignorance,",
           words: [
-            { tibetan: "འདོད་ཆགས་", phonetics: "deu tchak", translation: "désir/attachement" },
-            { tibetan: "ཞེ་སྡང་", phonetics: "shé dang", translation: "haine/colère" },
-            { tibetan: "གཏི་མུག་", phonetics: "ti mouk", translation: "ignorance" },
-            { tibetan: "དབང་གིས་ནི་", phonetics: "wang gui ni", translation: "sous l'emprise de" },
+            {
+              tibetan: "འདོད་ཆགས་",
+              phonetics: "deu tchak",
+              translation: "désir-attachement",
+            },
+            {
+              tibetan: "ཞེ་སྡང་",
+              phonetics: "shé dang",
+              translation: "aversion",
+            },
+            {
+              tibetan: "གཏི་མུག་",
+              phonetics: "ti mouk",
+              translation: "ignorance",
+            },
+            {
+              tibetan: "དབང་གིས་ནི་",
+              phonetics: "wang gui ni",
+              translation: "sous l'emprise de",
+            },
           ],
         },
         {
@@ -455,10 +887,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "lu dang / ngak dang / dé shin / yi kyi kyang",
           translation: "avec le corps, la parole et aussi l'esprit,",
           words: [
-            { tibetan: "ལུས་དང་", phonetics: "lu dang", translation: "le corps et" },
-            { tibetan: "ངག་དང་", phonetics: "ngak dang", translation: "la parole et" },
-            { tibetan: "དེ་བཞིན་", phonetics: "dé shin", translation: "de même/aussi" },
-            { tibetan: "ཡིད་ཀྱིས་ཀྱང་", phonetics: "yi kyi kyang", translation: "et aussi par l'esprit" },
+            {
+              tibetan: "ལུས་དང་",
+              phonetics: "lu dang",
+              translation: "le corps,",
+            },
+            {
+              tibetan: "ངག་དང་",
+              phonetics: "ngak dang",
+              translation: "la parole et",
+            },
+            {
+              tibetan: "དེ་བཞིན་",
+              phonetics: "dé shin",
+              translation: "aussi",
+            },
+            {
+              tibetan: "ཡིད་ཀྱིས་ཀྱང་",
+              phonetics: "yi kyi kyang",
+              translation: "l'esprit",
+            },
           ],
         },
         {
@@ -469,9 +917,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Quels que soient les méfaits que j'ai commis",
           words: [
             { tibetan: "སྡིག་པ་", phonetics: "dik pa", translation: "méfaits" },
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "par moi/j'ai" },
-            { tibetan: "བགྱིས་པ་", phonetics: "gyi pa", translation: "commis/fait" },
-            { tibetan: "ཅི་མཆིས་པ་", phonetics: "tchi tchi pa", translation: "quels qu'ils soient" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "moi",
+            },
+            {
+              tibetan: "བགྱིས་པ་",
+              phonetics: "gyi pa",
+              translation: "commis",
+            },
+            {
+              tibetan: "ཅི་མཆིས་པ་",
+              phonetics: "tchi tchi pa",
+              translation: "quels que soient",
+            },
           ],
         },
         {
@@ -483,8 +943,16 @@ export const souhaitsSamantabhadra: PracticeText = {
           words: [
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "je/moi" },
-            { tibetan: "སོ་སོར་བཤགས་", phonetics: "so sor chak", translation: "je confesse un par un" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "je",
+            },
+            {
+              tibetan: "སོ་སོར་བཤགས་",
+              phonetics: "so sor chak",
+              translation: "je confesse un par un",
+            },
           ],
         },
       ],
@@ -501,10 +969,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "tcho tchu / gyal wa / kun dang / sangyé sé",
           translation: "Des bouddhas et des bodhisattvas des dix directions,",
           words: [
-            { tibetan: "ཕྱོགས་བཅུའི་", phonetics: "tcho tchu", translation: "des dix directions" },
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux/bouddhas" },
-            { tibetan: "ཀུན་དང་", phonetics: "kun dang", translation: "tous et" },
-            { tibetan: "སངས་རྒྱས་སྲས་", phonetics: "sangyé sé", translation: "fils des bouddhas [bodhisattvas]" },
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "tcho tchu",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux/bouddhas",
+            },
+            {
+              tibetan: "ཀུན་དང་",
+              phonetics: "kun dang",
+              translation: "tous et",
+            },
+            {
+              tibetan: "སངས་རྒྱས་སྲས་",
+              phonetics: "sangyé sé",
+              translation: "fils des bouddhas [bodhisattvas]",
+            },
           ],
         },
         {
@@ -512,12 +996,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།རང་རྒྱལ་རྣམས་དང་སློབ་དང་མི་སློབ་དང་།",
           phonetics: "rang gyal / nam dang / lop dang / mi lop dang",
-          translation: "des pratyekabuddhas, de ceux qui s'entraînent sur le chemin, de ceux au-delà de l'entraînement [arhats]",
+          translation:
+            "des pratyekabuddhas, de ceux qui s'entraînent sur le chemin, de ceux au-delà de l'entraînement [arhats]",
           words: [
-            { tibetan: "རང་རྒྱལ་", phonetics: "rang gyal", translation: "pratyekabuddhas" },
-            { tibetan: "རྣམས་དང་", phonetics: "nam dang", translation: "et aussi" },
-            { tibetan: "སློབ་དང་", phonetics: "lop dang", translation: "ceux qui s'entraînent et" },
-            { tibetan: "མི་སློབ་དང་", phonetics: "mi lop dang", translation: "ceux au-delà de l'entraînement" },
+            {
+              tibetan: "རང་རྒྱལ་",
+              phonetics: "rang gyal",
+              translation: "pratyekabuddhas",
+            },
+            {
+              tibetan: "རྣམས་དང་",
+              phonetics: "nam dang",
+              translation: "et aussi",
+            },
+            {
+              tibetan: "སློབ་དང་",
+              phonetics: "lop dang",
+              translation: "ceux en cours d'apprentissage",
+            },
+            {
+              tibetan: "མི་སློབ་དང་",
+              phonetics: "mi lop dang",
+              translation: "et ceux au-delà",
+            },
           ],
         },
         {
@@ -528,9 +1029,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "De tous les êtres, des mérites qu'ils produisent",
           words: [
             { tibetan: "འགྲོ་བ་", phonetics: "dro wa", translation: "êtres" },
-            { tibetan: "ཀུན་གྱི་", phonetics: "kun gyi", translation: "de tous" },
-            { tibetan: "བསོད་ནམས་", phonetics: "seu nam", translation: "mérites" },
-            { tibetan: "གང་ལ་ཡང་", phonetics: "gang la yang", translation: "quoi que ce soit" },
+            {
+              tibetan: "ཀུན་གྱི་",
+              phonetics: "kun gyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seu nam",
+              translation: "mérites",
+            },
+            {
+              tibetan: "གང་ལ་ཡང་",
+              phonetics: "gang la yang",
+              translation: "quel qu'il soit",
+            },
           ],
         },
         {
@@ -540,10 +1053,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "dé dak / kun gyi / djé sou / dak yi rang",
           translation: "Je me réjouis de tous !",
           words: [
-            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "de ceux-là" },
-            { tibetan: "ཀུན་གྱི་", phonetics: "kun gyi", translation: "de tous" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite/pour" },
-            { tibetan: "བདག་ཡི་རང་", phonetics: "dak yi rang", translation: "je me réjouis" },
+            {
+              tibetan: "དེ་དག་",
+              phonetics: "dé dak",
+              translation: "de ceux-là",
+            },
+            {
+              tibetan: "ཀུན་གྱི་",
+              phonetics: "kun gyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "pour",
+            },
+            {
+              tibetan: "བདག་ཡི་རང་",
+              phonetics: "dak yi rang",
+              translation: "je me réjouis",
+            },
           ],
         },
       ],
@@ -558,12 +1087,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།གང་རྣམས་ཕྱོགས་བཅུའི་འཇིག་རྟེན་སྒྲོན་མ་དག",
           phonetics: "gang nam / tcho tchu / djik ten / dreun ma dak",
-          translation: "Ô flambeaux qui illuminez les mondes dans les dix directions,",
+          translation:
+            "Ô flambeaux qui illuminez les mondes dans les dix directions,",
           words: [
-            { tibetan: "གང་རྣམས་", phonetics: "gang nam", translation: "tous ceux qui" },
-            { tibetan: "ཕྱོགས་བཅུའི་", phonetics: "tcho tchu", translation: "des dix directions" },
-            { tibetan: "འཇིག་རྟེན་", phonetics: "djik ten", translation: "du monde" },
-            { tibetan: "སྒྲོན་མ་དག་", phonetics: "dreun ma dak", translation: "flambeaux purs" },
+            {
+              tibetan: "གང་རྣམས་",
+              phonetics: "gang nam",
+              translation: "tous ceux qui",
+            },
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "tcho tchu",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "འཇིག་རྟེན་",
+              phonetics: "djik ten",
+              translation: "du monde",
+            },
+            {
+              tibetan: "སྒྲོན་མ་དག་",
+              phonetics: "dreun ma dak",
+              translation: "flambeaux purs",
+            },
           ],
         },
         {
@@ -571,12 +1117,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་མ་ཆགས་བརྙེས།",
           phonetics: "djang tchoup / rim par / sang gyé / ma tchak nyé",
-          translation: "vous êtes devenus des bouddhas libres d'attachement en progressant pas à pas vers l'éveil.",
+          translation:
+            "vous êtes devenus des bouddhas libres d'attachement en progressant pas à pas vers l'éveil.",
           words: [
-            { tibetan: "བྱང་ཆུབ་", phonetics: "djang tchoup", translation: "éveil" },
-            { tibetan: "རིམ་པར་", phonetics: "rim par", translation: "graduellement" },
-            { tibetan: "སངས་རྒྱས་", phonetics: "sang gyé", translation: "éveillé/bouddha" },
-            { tibetan: "མ་ཆགས་བརྙེས་", phonetics: "ma tchak nyé", translation: "sans attachement atteint" },
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "djang tchoup",
+              translation: "éveil",
+            },
+            {
+              tibetan: "རིམ་པར་",
+              phonetics: "rim par",
+              translation: "graduellement",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyé",
+              translation: "bouddha",
+            },
+            {
+              tibetan: "མ་ཆགས་བརྙེས་",
+              phonetics: "ma tchak nyé",
+              translation: "sans attachement atteint",
+            },
           ],
         },
         {
@@ -586,10 +1149,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gueun po / dé dak / dak gui / t'am tché la",
           translation: "Protecteurs, je vous supplie tous :",
           words: [
-            { tibetan: "མགོན་པོ་", phonetics: "gueun po", translation: "protecteurs" },
+            {
+              tibetan: "མགོན་པོ་",
+              phonetics: "gueun po",
+              translation: "protecteurs",
+            },
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "je/moi" },
-            { tibetan: "ཐམས་ཅད་ལ་", phonetics: "t'am tché la", translation: "à tous" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "je/moi",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'am tché la",
+              translation: "à tous",
+            },
           ],
         },
         {
@@ -599,10 +1174,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "k'or lo / la na / mé par / kor war kul",
           translation: "tournez la roue suprême [du Dharma] !",
           words: [
-            { tibetan: "འཁོར་ལོ་", phonetics: "k'or lo", translation: "roue [du Dharma]" },
+            {
+              tibetan: "འཁོར་ལོ་",
+              phonetics: "k'or lo",
+              translation: "roue [du Dharma]",
+            },
             { tibetan: "བླ་ན་", phonetics: "la na", translation: "au-dessus" },
-            { tibetan: "མེད་པར་", phonetics: "mé par", translation: "sans (suprême)" },
-            { tibetan: "བསྐོར་བར་བསྐུལ་", phonetics: "kor war kul", translation: "je vous exhorte à tourner" },
+            {
+              tibetan: "མེད་པར་",
+              phonetics: "mé par",
+              translation: "sans (suprême)",
+            },
+            {
+              tibetan: "བསྐོར་བར་བསྐུལ་",
+              phonetics: "kor war kul",
+              translation: "je vous exhorte à tourner",
+            },
           ],
         },
       ],
@@ -617,12 +1204,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།མྱ་ངན་འདའ་སྟོན་གང་བཞེད་དེ་དག་ལ།",
           phonetics: "nya ngen / da teun / gang shé / dé dak la",
-          translation: "Ceux qui parmi vous souhaitent manifester l'état au-delà de la souffrance :",
+          translation:
+            "Ceux qui parmi vous souhaitent manifester l'état au-delà de la souffrance :",
           words: [
-            { tibetan: "མྱ་ངན་", phonetics: "nya ngen", translation: "souffrance/nirvana" },
-            { tibetan: "འདའ་སྟོན་", phonetics: "da teun", translation: "montrer le passage au-delà" },
-            { tibetan: "གང་བཞེད་", phonetics: "gang shé", translation: "ceux qui souhaitent" },
-            { tibetan: "དེ་དག་ལ་", phonetics: "dé dak la", translation: "à ceux-là" },
+            {
+              tibetan: "མྱ་ངན་",
+              phonetics: "nya ngen",
+              translation: "souffrance/nirvana",
+            },
+            {
+              tibetan: "འདའ་སྟོན་",
+              phonetics: "da teun",
+              translation: "montrer le passage au-delà",
+            },
+            {
+              tibetan: "གང་བཞེད་",
+              phonetics: "gang shé",
+              translation: "ceux qui souhaitent",
+            },
+            {
+              tibetan: "དེ་དག་ལ་",
+              phonetics: "dé dak la",
+              translation: "à ceux-là",
+            },
           ],
         },
         {
@@ -633,9 +1237,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Pour le bien et le bonheur de tous les êtres",
           words: [
             { tibetan: "འགྲོ་བ་", phonetics: "dro wa", translation: "êtres" },
-            { tibetan: "ཀུན་ལ་", phonetics: "kun la", translation: "pour tous" },
-            { tibetan: "ཕན་ཞིང་", phonetics: "p'en shing", translation: "être utile et" },
-            { tibetan: "བདེ་བའི་ཕྱིར་", phonetics: "dé wai tchir", translation: "pour le bonheur de" },
+            {
+              tibetan: "ཀུན་ལ་",
+              phonetics: "kun la",
+              translation: "pour tous",
+            },
+            {
+              tibetan: "ཕན་ཞིང་",
+              phonetics: "p'en shing",
+              translation: "être utile et",
+            },
+            {
+              tibetan: "བདེ་བའི་ཕྱིར་",
+              phonetics: "dé wai tchir",
+              translation: "pour le bonheur de",
+            },
           ],
         },
         {
@@ -643,12 +1259,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal",
           tibetan: "།བསྐལ་པ་ཞིང་གི་རྡུལ་སྙེད་བཞུགས་པར་ཡང་།",
           phonetics: "kal pa / shing gui / dul nyé / shouk par yang",
-          translation: "Demeurez autant de kalpas qu'il y a d'atomes dans l'univers !",
+          translation:
+            "Demeurez autant de kalpas qu'il y a d'atomes dans l'univers !",
           words: [
-            { tibetan: "བསྐལ་པ་", phonetics: "kal pa", translation: "kalpas/éons" },
-            { tibetan: "ཞིང་གི་", phonetics: "shing gui", translation: "des univers" },
-            { tibetan: "རྡུལ་སྙེད་", phonetics: "dul nyé", translation: "autant que d'atomes" },
-            { tibetan: "བཞུགས་པར་ཡང་", phonetics: "shouk par yang", translation: "demeurez aussi" },
+            {
+              tibetan: "བསྐལ་པ་",
+              phonetics: "kal pa",
+              translation: "kalpas/éons",
+            },
+            {
+              tibetan: "ཞིང་གི་",
+              phonetics: "shing gui",
+              translation: "des univers",
+            },
+            {
+              tibetan: "རྡུལ་སྙེད་",
+              phonetics: "dul nyé",
+              translation: "autant que d'atomes",
+            },
+            {
+              tibetan: "བཞུགས་པར་ཡང་",
+              phonetics: "shouk par yang",
+              translation: "demeurez aussi",
+            },
           ],
         },
         {
@@ -658,10 +1291,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "dak gui / tal mo / rap djar / seul war gyi",
           translation: "Je vous en supplie, les mains jointes.",
           words: [
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "je/moi" },
-            { tibetan: "ཐལ་མོ་", phonetics: "tal mo", translation: "paumes/mains" },
-            { tibetan: "རབ་སྦྱར་", phonetics: "rap djar", translation: "jointes" },
-            { tibetan: "གསོལ་བར་བགྱི་", phonetics: "seul war gyi", translation: "je supplie" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "je/moi",
+            },
+            {
+              tibetan: "ཐལ་མོ་",
+              phonetics: "tal mo",
+              translation: "paumes/mains",
+            },
+            {
+              tibetan: "རབ་སྦྱར་",
+              phonetics: "rap djar",
+              translation: "jointes",
+            },
+            {
+              tibetan: "གསོལ་བར་བགྱི་",
+              phonetics: "seul war gyi",
+              translation: "je supplie",
+            },
           ],
         },
       ],
@@ -678,10 +1327,22 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "tchak tsel / wa dang / tcheu tching / chak pa dang",
           translation: "Par l'hommage, l'offrande, la repentance,",
           words: [
-            { tibetan: "ཕྱག་འཚལ་", phonetics: "tchak tsel", translation: "prosternation" },
+            {
+              tibetan: "ཕྱག་འཚལ་",
+              phonetics: "tchak tsel",
+              translation: "prosternation",
+            },
             { tibetan: "བ་དང་", phonetics: "wa dang", translation: "et" },
-            { tibetan: "མཆོད་ཅིང་", phonetics: "tcheu tching", translation: "offrir et" },
-            { tibetan: "བཤགས་པ་དང་", phonetics: "chak pa dang", translation: "confession et" },
+            {
+              tibetan: "མཆོད་ཅིང་",
+              phonetics: "tcheu tching",
+              translation: "offrir et",
+            },
+            {
+              tibetan: "བཤགས་པ་དང་",
+              phonetics: "chak pa dang",
+              translation: "confession et",
+            },
           ],
         },
         {
@@ -691,10 +1352,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "djé sou / yi rang / kul shing / seul wa yi",
           translation: "la réjouissance, la requête et la supplique,",
           words: [
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite/pour" },
-            { tibetan: "ཡི་རང་", phonetics: "yi rang", translation: "se réjouir" },
-            { tibetan: "བསྐུལ་ཞིང་", phonetics: "kul shing", translation: "exhorter et" },
-            { tibetan: "གསོལ་བ་ཡི་", phonetics: "seul wa yi", translation: "de la supplique" },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite/pour",
+            },
+            {
+              tibetan: "ཡི་རང་",
+              phonetics: "yi rang",
+              translation: "se réjouir",
+            },
+            {
+              tibetan: "བསྐུལ་ཞིང་",
+              phonetics: "kul shing",
+              translation: "exhorter et",
+            },
+            {
+              tibetan: "གསོལ་བ་ཡི་",
+              phonetics: "seul wa yi",
+              translation: "de la supplique",
+            },
           ],
         },
         {
@@ -704,10 +1381,26 @@ export const souhaitsSamantabhadra: PracticeText = {
           phonetics: "gué wa / tchoung zé / dak gui / tchi sak pa",
           translation: "Quel que soit le mérite accumulé, même le plus infime,",
           words: [
-            { tibetan: "དགེ་བ་", phonetics: "gué wa", translation: "mérite/vertu" },
-            { tibetan: "ཅུང་ཟད་", phonetics: "tchoung zé", translation: "un peu/infime" },
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "par moi/j'ai" },
-            { tibetan: "ཅི་བསགས་པ་", phonetics: "tchi sak pa", translation: "quel qu'il soit accumulé" },
+            {
+              tibetan: "དགེ་བ་",
+              phonetics: "gué wa",
+              translation: "mérite/vertu",
+            },
+            {
+              tibetan: "ཅུང་ཟད་",
+              phonetics: "tchoung zé",
+              translation: "un peu/infime",
+            },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "par moi/j'ai",
+            },
+            {
+              tibetan: "ཅི་བསགས་པ་",
+              phonetics: "tchi sak pa",
+              translation: "quel qu'il soit accumulé",
+            },
           ],
         },
         {
@@ -718,9 +1411,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "je le reverse entièrement à l'éveil parfait.",
           words: [
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tout" },
-            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "par moi/je" },
-            { tibetan: "བྱང་ཆུབ་", phonetics: "djang tchoup", translation: "éveil" },
-            { tibetan: "ཕྱིར་བསྔོའོ་", phonetics: "tchir ngo'o", translation: "je dédie pour" },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "par moi/je",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "djang tchoup",
+              translation: "éveil",
+            },
+            {
+              tibetan: "ཕྱིར་བསྔོའོ་",
+              phonetics: "tchir ngo'o",
+              translation: "je dédie pour",
+            },
           ],
         },
       ],

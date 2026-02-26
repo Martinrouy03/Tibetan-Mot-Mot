@@ -4,7 +4,8 @@
       "Bash(npm create:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(/c/Users/marti/AppData/Local/Microsoft/WindowsApps/python:*)"
+      "Bash(/c/Users/marti/AppData/Local/Microsoft/WindowsApps/python:*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }
