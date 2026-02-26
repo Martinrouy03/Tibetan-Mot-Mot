@@ -269,7 +269,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "1er Karmapa : <b>Tusoum Khyenpa</b>",
+          translation: "1<sup>er</sup> Karmapa : <b>Tusoum Khyenpa</b>",
           words: [],
         },
         {
@@ -401,13 +401,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/9pom.jpeg",
         },
-        // 2ème Karmapa : Karmapakchi
+        // 2<sup>ème</sup> Karmapa : Karmapakchi
         {
           id: "ch-lg-10-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "2ème Karmapa : <b>Karmapakchi</b>",
+          translation: "2<sup>ème</sup> Karmapa : <b>Karmapakchi</b>",
           words: [],
         },
         {
@@ -474,13 +474,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/11org.jpeg",
         },
-        // 3ème Karmapa : Rangjoung Dordjé
+        // 3<sup>ème</sup> Karmapa : Rangjoung Dordjé
         {
           id: "ch-lg-12-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "3ème Karmapa : <b>Rangjoung Dordjé</b>",
+          translation: "3<sup>ème</sup> Karmapa : <b>Rangjoung Dordjé</b>",
           words: [],
         },
         {
@@ -550,13 +550,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/13you.jpeg",
         },
-        // 4ème Karmapa : Tcheukyi Drakpa
+        // 4<sup>ème</sup> Karmapa : Tcheukyi Drakpa
         {
           id: "ch-lg-14-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "4ème Karmapa : <b>Tcheukyi Drakpa</b>",
+          translation: "4<sup>ème</sup> Karmapa : <b>Tcheukyi Drakpa</b>",
           words: [],
         },
         {
@@ -593,13 +593,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/14k4.jpeg",
         },
-        // 2ème Shamarpa : Katcheu Ouangpo
+        // 2<sup>ème</sup> Shamarpa : Katcheu Ouangpo
         {
           id: "ch-lg-15-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "2ème Shamarpa : <b>Katcheu Ouangpo</b>",
+          translation: "2<sup>ème</sup> Shamarpa : <b>Katcheu Ouangpo</b>",
           words: [],
         },
         {
@@ -636,13 +636,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/15s2.jpeg",
         },
-        // 5ème Karmapa : Déchin Shekpa
+        // 5<sup>ème</sup> Karmapa : Déshin Shekpa
         {
           id: "ch-lg-16-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "5ème Karmapa : <b>Déchin Shekpa</b>",
+          translation: "5<sup>ème</sup> Karmapa : <b>Déshin Shekpa</b>",
           words: [],
         },
         {
@@ -713,13 +713,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/17rat.jpeg",
         },
-        // 6ème Karmapa : Tongoua Teunden
+        // 6<sup>ème</sup> Karmapa : Tongoua Teunden
         {
           id: "ch-lg-18-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "6ème Karmapa : <b>Tongoua Teunden</b>",
+          translation: "6<sup>ème</sup> Karmapa : <b>Tongoua Teunden</b>",
           words: [],
         },
         {
@@ -840,13 +840,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/20g1.jpeg",
         },
-        // 7ème Karmapa : Tcheudrak Gyamtso
+        // 7<sup>ème</sup> Karmapa : Tcheudrak Gyamtso
         {
           id: "ch-lg-21-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "7ème Karmapa : <b>Tcheudrak Gyamtso</b>",
+          translation: "7<sup>ème</sup> Karmapa : <b>Tcheudrak Gyamtso</b>",
           words: [],
         },
         {
@@ -923,13 +923,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/22sn1.jpeg",
         },
-        // 8ème Karmapa : Mikyeu Dordjé
+        // 8<sup>ème</sup> Karmapa : Mikyeu Dordjé
         {
           id: "ch-lg-23-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8ème Karmapa : <b>Mikyeu Dordjé</b>",
+          translation: "8<sup>ème</sup> Karmapa : <b>Mikyeu Dordjé</b>",
           words: [],
         },
         {
@@ -962,13 +962,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/23k8.jpeg",
         },
-        // 5ème Shamarpa : Keuntchok Yenlak
+        // 5<sup>ème</sup> Shamarpa : Keuntchok Yenlak
         {
           id: "ch-lg-24-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "5ème Shamarpa : <b>Keuntchok Yenlak</b>",
+          translation: "5<sup>ème</sup> Shamarpa : <b>Keuntchok Yenlak</b>",
           words: [],
         },
         {
@@ -1001,13 +1001,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/24s5.jpeg",
         },
-        // 9ème Karmapa : Wangtchouk Dordjé
+        // 9<sup>ème</sup> Karmapa : Wangtchouk Dordjé
         {
           id: "ch-lg-25-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "9ème Karmapa : <b>Wangtchouk Dordjé</b>",
+          translation: "9<sup>ème</sup> Karmapa : <b>Wangtchouk Dordjé</b>",
           words: [],
         },
         {
@@ -1040,13 +1040,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/25k9.jpeg",
         },
-        // 6ème Shamarpa : Tcheukyi Wangtchouk
+        // 6<sup>ème</sup> Shamarpa : Tcheukyi Wangtchouk
         {
           id: "ch-lg-26-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "6ème Shamarpa : <b>Tcheukyi Wangtchouk</b>",
+          translation: "6<sup>ème</sup> Shamarpa : <b>Tcheukyi Wangtchouk</b>",
           words: [],
         },
         {
@@ -1084,13 +1084,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/26s6.jpeg",
         },
-        // 10ème Karmapa : Tcheuying Dordjé
+        // 10<sup>ème</sup> Karmapa : Tcheuying Dordjé
         {
           id: "ch-lg-27-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "10ème Karmapa : Tcheuying Dordjé",
+          translation: "10<sup>ème</sup> Karmapa : <b>Tcheuying Dordjé</b>",
           words: [],
         },
         {
@@ -1128,13 +1128,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/27k10.jpeg",
         },
-        // 7ème Shamarpa : Yéshé Nyingpo
+        // 7<sup>ème</sup> Shamarpa : Yéshé Nyingpo
         {
           id: "ch-lg-28-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "7ème Shamarpa : <b>Yéshé Nyingpo</b>",
+          translation: "7<sup>ème</sup> Shamarpa : <b>Yéshé Nyingpo</b>",
           words: [],
         },
         {
@@ -1167,13 +1167,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/28s7.jpeg",
         },
-        // 11ème Karmapa : Yéshé Dordjé
+        // 11<sup>ème</sup> Karmapa : Yéshé Dordjé
         {
           id: "ch-lg-29-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "11ème Karmapa : <b>Yéshé Dordjé</b>",
+          translation: "11<sup>ème</sup> Karmapa : <b>Yéshé Dordjé</b>",
           words: [],
         },
         {
@@ -1206,13 +1206,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/29k11.jpeg",
         },
-        // 8ème Shamarpa : Tcheukyi Teundroup
+        // 8<sup>ème</sup> Shamarpa : Tcheukyi Teundroup
         {
           id: "ch-lg-30-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8ème Shamarpa : <b>Tcheukyi Teundroup</b>",
+          translation: "8<sup>ème</sup> Shamarpa : <b>Tcheukyi Teundroup</b>",
           words: [],
         },
         {
@@ -1250,13 +1250,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/30s8.jpeg",
         },
-        // 12ème Karmapa : Djangtchoup Dordjé
+        // 12<sup>ème</sup> Karmapa : Djangtchoup Dordjé
         {
           id: "ch-lg-31-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "12ème Karmapa : <b>Djangtchoup Dordjé</b>",
+          translation: "12<sup>ème</sup> Karmapa : <b>Djangtchoup Dordjé</b>",
           words: [],
         },
         {
@@ -1293,13 +1293,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/31k12.jpeg",
         },
-        // 8ème Sitoupa : Tcheukyi Djoungné
+        // 8<sup>ème</sup> Sitoupa : Tcheukyi Djoungné
         {
           id: "ch-lg-32-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8ème Sitoupa : <b>Tcheukyi Djoungné</b>",
+          translation: "8<sup>ème</sup> Sitoupa : <b>Tcheukyi Djoungné</b>",
           words: [],
         },
         {
@@ -1332,13 +1332,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/32sitou8.jpeg",
         },
-        // 13ème Karmapa : Dudul Dordjé
+        // 13<sup>ème</sup> Karmapa : Dudul Dordjé
         {
           id: "ch-lg-33-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "13ème Karmapa : <b>Dudul Dordjé</b>",
+          translation: "13<sup>ème</sup> Karmapa : <b>Dudul Dordjé</b>",
           words: [],
         },
         {
@@ -1371,13 +1371,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/33k13.jpeg",
         },
-        // 10ème Shamarpa : Tcheudroup Gyamtso
+        // 10<sup>ème</sup> Shamarpa : Tcheudroup Gyamtso
         {
           id: "ch-lg-34-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "10ème Shamarpa : <b>Tcheudroup Gyamtso</b>",
+          translation: "10<sup>ème</sup> Shamarpa : <b>Tcheudroup Gyamtso</b>",
           words: [],
         },
         {
@@ -1411,13 +1411,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/34s10.jpeg",
         },
-        // 9ème Sitoupa : Péma Nyindjé
+        // 9<sup>ème</sup> Sitoupa : Péma Nyindjé
         {
           id: "ch-lg-35-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "9ème Sitoupa : <b>Péma Nyindjé</b>",
+          translation: "9<sup>ème</sup> Sitoupa : <b>Péma Nyindjé</b>",
           words: [],
         },
         {
@@ -1450,13 +1450,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/35sitou9.jpeg",
         },
-        // 14ème Karmapa : Tekpa Tchoki Dordjé
+        // 14<sup>ème</sup> Karmapa : Tekpa Tchoki Dordjé
         {
           id: "ch-lg-36-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "14ème Karmapa : <b>Tekpa Tchoki Dordjé</b>",
+          translation: "14<sup>ème</sup> Karmapa : <b>Tekpa Tchoki Dordjé</b>",
           words: [],
         },
         {
@@ -1524,13 +1524,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/37dk1.jpeg",
         },
-        // 15ème Karmapa : Khakyab Dordjé
+        // 15<sup>ème</sup> Karmapa : Khakyab Dordjé
         {
           id: "ch-lg-38-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "15ème Karmapa : <b>Khakyab Dordjé</b>",
+          translation: "15<sup>ème</sup> Karmapa : <b>Khakyab Dordjé</b>",
           words: [],
         },
         {
@@ -1563,13 +1563,13 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/38k15.jpeg",
         },
-        // 11ème Sitoupa : Péma Ouangtchok
+        // 11<sup>ème</sup> Sitoupa : Péma Ouangtchok
         {
           id: "ch-lg-39-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "11ème Sitoupa : <b>Péma Ouangtchok</b>",
+          translation: "11<sup>ème</sup> Sitoupa : <b>Péma Ouangtchok</b>",
           words: [],
         },
         {
@@ -1598,13 +1598,14 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/39sitou11.jpeg",
         },
-        // 2ème Djamgœun Kongtrul : Khyentsé Euzer
+        // 2<sup>ème</sup> Djamgœun Kongtrul : Khyentsé Euzer
         {
           id: "ch-lg-40-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "2ème Djamgœun Kongtrul : <b>Khyentsé Euzer</b>",
+          translation:
+            "2<sup>ème</sup> Djamgœun Kongtrul : <b>Khyentsé Euzer</b>",
           words: [],
         },
         {
@@ -1642,13 +1643,14 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/40dk2.jpeg",
         },
-        // 16ème Karmapa : Rangdjoung Rigpé Dordjé
+        // 16<sup>ème</sup> Karmapa : Rangdjoung Rigpé Dordjé
         {
           id: "ch-lg-41-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "16ème Karmapa : <b>Rangdjoung Rigpé Dordjé</b>",
+          translation:
+            "16<sup>ème</sup> Karmapa : <b>Rangdjoung Rigpé Dordjé</b>",
           words: [],
         },
         {
@@ -1685,13 +1687,14 @@ export const pratiqueChenrezik: PracticeText = {
           words: [],
           src: "/goldenRosary/41k16.jpeg",
         },
-        // 14ème Shamarpa : Mipham Chökyi Lodreu
+        // 14<sup>ème</sup> Shamarpa : Mipham Chökyi Lodreu
         {
           id: "ch-lg-42-label",
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "14ème Shamarpa : <b>Mipham Chökyi Lodreu</b>",
+          translation:
+            "14<sup>ème</sup> Shamarpa : <b>Mipham Chökyi Lodreu</b>",
           words: [],
         },
         {
@@ -1717,6 +1720,474 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "intelligence",
             },
             { tibetan: "མཁྱེན་ནོ་", phonetics: "…", translation: "..." },
+          ],
+        },
+        // Conclusion
+        {
+          id: "ch-lg-c1",
+          type: "normal",
+          tibetan: "།དྲིན་ཅན་རྩ་བའི་བླ་མ་མཁྱེན་ནོ།",
+          phonetics: "drin tchen / tsa oué / lama / ...",
+          translation: "Lama-racine plein de bonté...",
+          words: [
+            {
+              tibetan: "དྲིན་ཅན་",
+              phonetics: "drin tchen",
+              translation: "plein de bonté",
+            },
+            { tibetan: "རྩ་བའི་", phonetics: "tsa oué", translation: "racine" },
+            { tibetan: "བླ་མ་", phonetics: "lama", translation: "Lama" },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+          ],
+        },
+        {
+          id: "ch-lg-c2",
+          type: "normal",
+          tibetan: "།ཡི་དམ་དཀྱིལ་འཁོར་ལྷ་ཚོགས་མཁྱེན་ནོ།",
+          phonetics: "yitam / kyil k'or / lha tsok / ...",
+          translation:
+            "Assemblée des divinités du mandala auxquelles se voue l'esprit...",
+          words: [
+            {
+              tibetan: "ཡི་དམ་",
+              phonetics: "yitam",
+              translation: "auxquelles se voue l'esprit",
+            },
+            {
+              tibetan: "དཀྱིལ་འཁོར་",
+              phonetics: "kyil k'or",
+              translation: "du mandala",
+            },
+            {
+              tibetan: "ལྷ་ཚོགས་",
+              phonetics: "lha tsok",
+              translation: "Assemblée des divinités",
+            },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+          ],
+        },
+        {
+          id: "ch-lg-c3",
+          type: "normal",
+          tibetan: "།ཆོས་སྐྱོང་མ་མགོན་ལྕམ་དྲལ་མཁྱེན་ནོ།",
+          phonetics: "tcheu kyong / ma gueun / tcham drel / ...",
+          translation:
+            "Protecteur du Dharma, et protectrice en couple, accordez votre attention.",
+          words: [
+            {
+              tibetan: "ཆོས་སྐྱོང་",
+              phonetics: "tcheu kyong",
+              translation: "Protecteur du Dharma",
+            },
+            {
+              tibetan: "མ་མགོན་",
+              phonetics: "ma gueun",
+              translation: "et protectrice",
+            },
+            {
+              tibetan: "ལྕམ་དྲལ་",
+              phonetics: "tcham drel",
+              translation: "en couple",
+            },
+            {
+              tibetan: "མཁྱེན་ནོ་",
+              phonetics: "...",
+              translation: "accordez votre attention",
+            },
+          ],
+        },
+        {
+          id: "ch-lg-c4",
+          type: "normal",
+          tibetan: "།བདག་སོགས་འགྲོ་དྲུག་སེམས་ཅན་ཀུན་ལ།",
+          phonetics: "dak so / dro drouk / sem tchen / kun la",
+          translation: "Moi-même et tous les êtres des six mondes,",
+          words: [
+            {
+              tibetan: "བདག་སོགས་",
+              phonetics: "dak so",
+              translation: "Moi-même",
+            },
+            {
+              tibetan: "འགྲོ་དྲུག་",
+              phonetics: "dro drouk",
+              translation: "des six mondes",
+            },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
+            { tibetan: "ཀུན་ལ་", phonetics: "kun la", translation: "tous" },
+          ],
+        },
+        {
+          id: "ch-lg-c5",
+          type: "normal",
+          tibetan: "།ཐུགས་བརྩེ་ཡེ་ཤེས་ཆེན་པོས་གཟིགས་ནས།",
+          phonetics: "touk tsé / yéché / tchen peu / zik né",
+          translation:
+            "Gardez-nous dans votre amour et votre sagesse immenses.",
+          words: [
+            {
+              tibetan: "ཐུགས་བརྩེ་",
+              phonetics: "touk tsé",
+              translation: "votre amour",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yéché",
+              translation: "votre sagesse",
+            },
+            {
+              tibetan: "ཆེན་པོས་",
+              phonetics: "tchen peu",
+              translation: "immenses",
+            },
+            {
+              tibetan: "གཟིགས་ནས་",
+              phonetics: "zik né",
+              translation: "Gardez-nous",
+            },
+          ],
+        },
+        {
+          id: "ch-lg-c6",
+          type: "normal",
+          tibetan: "།ཕྱག་ཆེན་གནས་ལུགས་རྟོགས་པར་མཛོད་ཅིག །།",
+          phonetics: "tchak tchen / né louk / tok par / dzeu tchik",
+          translation:
+            "Faites que nous réalisions l'état originel: le mahamoudra",
+          words: [
+            {
+              tibetan: "ཕྱག་ཆེན་",
+              phonetics: "tchak tchen",
+              translation: "le mahamoudra",
+            },
+            {
+              tibetan: "གནས་ལུགས་",
+              phonetics: "né louk",
+              translation: "l'état originel",
+            },
+            {
+              tibetan: "རྟོགས་པར་",
+              phonetics: "tok par",
+              translation: "réalisions",
+            },
+            {
+              tibetan: "མཛོད་ཅིག་",
+              phonetics: "dzeu tchik",
+              translation: "Faites que",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "ch-corps",
+      title: "",
+      phrases: [
+        {
+          id: "ch-corps-titre",
+          type: "instructions",
+          tibetan:
+            "།ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ།།",
+          phonetics: "",
+          translation:
+            "<b>Embrasser tout l'espace pour le bien des êtres</b>,<br/>la méditation-récitation du Grand Compatissant",
+          words: [],
+        },
+      ],
+    },
+    {
+      id: "ch-corps-intro",
+      title: "",
+      phrases: [
+        {
+          id: "ch-corps-instr",
+          type: "instructions",
+          tibetan: "༄༅། །སྤྱན་རས་གཟིགས་བསྒོམ་བཟླས་ནི།",
+          phonetics: "",
+          translation: "La récitation et la méditation de Tchenrézi;",
+          words: [],
+        },
+      ],
+    },
+    {
+      id: "ch-refuge",
+      title: "Refuge et Esprit d'éveil",
+      phrases: [
+        {
+          id: "ch-ref-1",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་ཆོས་དང་ཚོགས་ཀྱི་མཆོག་རྣམས་ལ།",
+          phonetics: "sang gyé tcheu tang tso kyi tcho nam la",
+          translation:
+            "Dans le Bouddha, le Dharma et l'assemblée des suprêmes (Sangha),",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས",
+              phonetics: "sang gyé",
+              translation: "Bouddha",
+            },
+            {
+              tibetan: "ཆོས་དང",
+              phonetics: "tcheu tang",
+              translation: "Dharma et",
+            },
+            {
+              tibetan: "ཚོགས་ཀྱི",
+              phonetics: "tso kyi",
+              translation: "de l'assemblée",
+            },
+            {
+              tibetan: "མཆོག་རྣམས་ལ",
+              phonetics: "tcho nam la",
+              translation: "des suprêmes",
+            },
+          ],
+        },
+        {
+          id: "ch-ref-2",
+          type: "normal",
+          tibetan: "བྱང་ཆུབ་བར་དུ་བདག་ནི་སྐྱབས་སུ་མཆི།",
+          phonetics: "djang tchoub par tou da ni kyap sou tchi",
+          translation: "Je prends refuge jusqu'à l'éveil.",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ",
+              phonetics: "djang tchoub",
+              translation: "éveil",
+            },
+            { tibetan: "བར་དུ", phonetics: "par tou", translation: "jusqu'à" },
+            { tibetan: "བདག་ནི", phonetics: "da ni", translation: "je" },
+            {
+              tibetan: "སྐྱབས་སུ་མཆི",
+              phonetics: "kyap sou tchi",
+              translation: "prends refuge",
+            },
+          ],
+        },
+        {
+          id: "ch-ref-3",
+          type: "normal",
+          tibetan: "བདག་གིས་བསྒོམ་བཟླས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
+          phonetics: "da gui gomdé gyipeï seunam kyi",
+          translation:
+            "Par le mérite qui résulte de ma pratique de la méditation-récitation,",
+          words: [
+            { tibetan: "བདག་གིས", phonetics: "da gui", translation: "par moi" },
+            {
+              tibetan: "བསྒོམ་བཟླས་",
+              phonetics: "gomdé",
+              translation: "méditation-récitation",
+            },
+            {
+              tibetan: "བགྱིས་པའི",
+              phonetics: "gyi peï",
+              translation: "résultant de la pratique",
+            },
+            {
+              tibetan: "བསོད་ནམས་ཀྱིས",
+              phonetics: "seu nam kyi",
+              translation: "par le mérite",
+            },
+          ],
+        },
+        {
+          id: "ch-ref-4",
+          type: "normal",
+          tibetan: "འགྲོ་ལ་ཕན་ཕྱིར་སངས་རྒྱས་འགྲུབ་པར་ཤོག",
+          phonetics: "dro la pèn tchir sangyé droup par sho",
+          translation:
+            "Puisse l'éveil être réalisé pour le bien de tous les êtres.",
+          words: [
+            {
+              tibetan: "འགྲོ་ལ",
+              phonetics: "dro la",
+              translation: "pour les êtres",
+            },
+            {
+              tibetan: "ཕན་ཕྱིར",
+              phonetics: "pèn tchir",
+              translation: "afin de bénéficier",
+            },
+            { tibetan: "སངས་རྒྱས", phonetics: "sangyé", translation: "éveil" },
+            {
+              tibetan: "འགྲུབ་པར་ཤོག",
+              phonetics: "droup par sho",
+              translation: "puisse être réalisé",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "ch-visualisation",
+      title: "Visualisation",
+      phrases: [
+        {
+          id: "ch-vis-instr",
+          type: "instructions",
+          tibetan: "༄༅། །ལྷ་བསྐྱེད་ནི།",
+          phonetics: "",
+          translation: "Création de la divinité:",
+          words: [],
+        },
+        {
+          id: "ch-vis-1",
+          type: "normal",
+          tibetan: "བདག་སོགས་མཁའ་ཁྱབ་སེམས་ཅན་གྱི།",
+          phonetics: "dak so / ka kyap / sem tchen gyi",
+          translation: "De moi et de tous les êtres de l'univers,",
+          words: [
+            { tibetan: "བདག་སོགས་", phonetics: "dak so", translation: "De moi" },
+            { tibetan: "མཁའ་ཁྱབ་", phonetics: "ka kyap", translation: "de l'univers" },
+            { tibetan: "སེམས་ཅན་གྱི།", phonetics: "sem tchen gyi", translation: "de tous les êtres" },
+          ],
+        },
+        {
+          id: "ch-vis-2",
+          type: "normal",
+          tibetan: "།སྤྱི་གཙུག་པད་དཀར་ཟླ་བའི་སྟེང་།",
+          phonetics: "tchi tsouk / pé kar / da oué teng",
+          translation: "Au-dessus de nos têtes, sur un lotus blanc et une lune,",
+          words: [
+            { tibetan: "སྤྱི་གཙུག་", phonetics: "tchi tsouk", translation: "Au-dessus de nos têtes" },
+            { tibetan: "པད་དཀར་", phonetics: "pé kar", translation: "lotus blanc" },
+            { tibetan: "ཟླ་བའི་སྟེང་།", phonetics: "da oué teng", translation: "sur une lune" },
+          ],
+        },
+        {
+          id: "ch-vis-3",
+          type: "normal",
+          tibetan: "།ཧྲཱིཿལས་འཕགས་མཆོག་སྤྱན་རས་གཟིགས།",
+          phonetics: "hri lé / p'ak tchok / tchenrézik",
+          translation: "apparaissant de la syllabe HRI, se tient le noble et sublime Tchenrézi.",
+          words: [
+            { tibetan: "ཧྲཱིཿལས་", phonetics: "hri lé", translation: "de la syllabe HRI" },
+            { tibetan: "འཕགས་མཆོག་", phonetics: "p'ak tchok", translation: "noble et sublime" },
+            { tibetan: "སྤྱན་རས་གཟིགས།", phonetics: "tchenrézik", translation: "Tchenrézi" },
+          ],
+        },
+        {
+          id: "ch-vis-4",
+          type: "normal",
+          tibetan: "།དཀར་གསལ་འོད་ཟེར་ལྔ་ལྡན་འཕྲོ།",
+          phonetics: "kar sel / eu zer / gna den tro",
+          translation: "Blanc et lumineux, il irradie des rayonnements de lumière des cinq couleurs.",
+          words: [
+            { tibetan: "དཀར་གསལ་", phonetics: "kar sel", translation: "Blanc et lumineux" },
+            { tibetan: "འོད་ཟེར་", phonetics: "eu zer", translation: "rayonnements de lumière" },
+            { tibetan: "ལྔ་ལྡན་འཕྲོ།", phonetics: "gna den tro", translation: "des cinq couleurs" },
+          ],
+        },
+        {
+          id: "ch-vis-5",
+          type: "normal",
+          tibetan: "།འཛུམ་ལྡན་ཐུགས་རྗེའི་སྤྱན་གྱིས་གཟིགས།",
+          phonetics: "dzoum den / toukdjé / tchen gyi zik",
+          translation: "Souriant, il veille sur les êtres avec les yeux de la compassion.",
+          words: [
+            { tibetan: "འཛུམ་ལྡན་", phonetics: "dzoum den", translation: "Souriant" },
+            { tibetan: "ཐུགས་རྗེའི་", phonetics: "toukdjé", translation: "de la compassion" },
+            { tibetan: "སྤྱན་གྱིས་གཟིགས།", phonetics: "tchen gyi zik", translation: "il veille avec les yeux" },
+          ],
+        },
+        {
+          id: "ch-vis-6",
+          type: "normal",
+          tibetan: "།ཕྱག་བཞིའི་དང་པོ་ཐལ་སྦྱར་མཛད།",
+          phonetics: "tcha chi / tang po / t'el djar dzé",
+          translation: "Il a quatre bras; les deux premières mains sont jointes,",
+          words: [
+            { tibetan: "ཕྱག་བཞིའི་", phonetics: "tcha chi", translation: "quatre bras" },
+            { tibetan: "དང་པོ་", phonetics: "tang po", translation: "les premières" },
+            { tibetan: "ཐལ་སྦྱར་མཛད།", phonetics: "t'el djar dzé", translation: "mains jointes" },
+          ],
+        },
+        {
+          id: "ch-vis-7",
+          type: "normal",
+          tibetan: "།འོག་གཉིས་ཤེལ་ཕྲེང་པད་དཀར་བསྣམས།",
+          phonetics: "ok nyi / chel treng / pé kar nam",
+          translation: "les suivantes tiennent un mala de cristal et un lotus blanc.",
+          words: [
+            { tibetan: "འོག་གཉིས་", phonetics: "ok nyi", translation: "les suivantes" },
+            { tibetan: "ཤེལ་ཕྲེང་", phonetics: "chel treng", translation: "mala de cristal" },
+            { tibetan: "པད་དཀར་བསྣམས།", phonetics: "pé kar nam", translation: "lotus blanc" },
+          ],
+        },
+        {
+          id: "ch-vis-8",
+          type: "normal",
+          tibetan: "དར་དང་རིན་ཆེན་རྒྱན་གྱིས་སྤྲས།",
+          phonetics: "tar tang / rinchen / gyen gyi tré",
+          translation: "Il est paré de soieries et d'ornements précieux.",
+          words: [
+            { tibetan: "དར་དང་", phonetics: "tar tang", translation: "soieries" },
+            { tibetan: "རིན་ཆེན་", phonetics: "rinchen", translation: "précieux" },
+            { tibetan: "རྒྱན་གྱིས་སྤྲས།", phonetics: "gyen gyi tré", translation: "paré d'ornements" },
+          ],
+        },
+        {
+          id: "ch-vis-9",
+          type: "normal",
+          tibetan: "།རི་དྭགས་ལྤགས་པའི་སྟོད་གཡོགས་གསོལ།",
+          phonetics: "ritak / pak pé / teu yok seul",
+          translation: "Sur le haut de son corps, il porte une peau de biche.",
+          words: [
+            { tibetan: "རི་དྭགས་", phonetics: "ritak", translation: "biche" },
+            { tibetan: "ལྤགས་པའི་", phonetics: "pak pé", translation: "peau de" },
+            { tibetan: "སྟོད་གཡོགས་གསོལ།", phonetics: "teu yok seul", translation: "il porte sur le haut du corps" },
+          ],
+        },
+        {
+          id: "ch-vis-10",
+          type: "normal",
+          tibetan: "།འོད་དཔག་མེད་པའི་དབུ་རྒྱན་ཅན།",
+          phonetics: "eu pak / mé pé / ou gyen tchen",
+          translation: "Il est couronné d'Amitabha.",
+          words: [
+            { tibetan: "འོད་དཔག་", phonetics: "eu pak", translation: "lumière" },
+            { tibetan: "མེད་པའི་", phonetics: "mé pé", translation: "infinie" },
+            { tibetan: "དབུ་རྒྱན་ཅན།", phonetics: "ou gyen tchen", translation: "couronné" },
+          ],
+        },
+        {
+          id: "ch-vis-11",
+          type: "normal",
+          tibetan: "ཞབས་གཉིས་རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་བཞུགས།",
+          phonetics: "chap nyi / dordjé / kyil troung chouk",
+          translation: "Il est assis, les jambes dans la posture du vajra,",
+          words: [
+            { tibetan: "ཞབས་གཉིས་", phonetics: "chap nyi", translation: "les jambes" },
+            { tibetan: "རྡོ་རྗེའི་", phonetics: "dordjé", translation: "du vajra" },
+            { tibetan: "སྐྱིལ་ཀྲུང་བཞུགས།", phonetics: "kyil troung chouk", translation: "assis en posture" },
+          ],
+        },
+        {
+          id: "ch-vis-12",
+          type: "normal",
+          tibetan: "།དྲི་མེད་ཟླ་བར་རྒྱབ་བརྟེན་པ།",
+          phonetics: "dri mé / da ouar / gyap ten pa",
+          translation: "avec derrière lui une lune immaculée.",
+          words: [
+            { tibetan: "དྲི་མེད་", phonetics: "dri mé", translation: "immaculée" },
+            { tibetan: "ཟླ་བར་", phonetics: "da ouar", translation: "lune" },
+            { tibetan: "རྒྱབ་བརྟེན་པ།", phonetics: "gyap ten pa", translation: "derrière lui" },
+          ],
+        },
+        {
+          id: "ch-vis-13",
+          type: "normal",
+          tibetan: "སྐྱབས་གནས་ཀུན་འདུས་ངོ་བོར་གྱུར།",
+          phonetics: "kyap né / kun du / gno ouor gyour",
+          translation: "Il est l'essence de tous les lieux de refuge.",
+          words: [
+            { tibetan: "སྐྱབས་གནས་", phonetics: "kyap né", translation: "lieux de refuge" },
+            { tibetan: "ཀུན་འདུས་", phonetics: "kun du", translation: "de tous" },
+            { tibetan: "ངོ་བོར་གྱུར།", phonetics: "gno ouor gyour", translation: "Il est l'essence" },
           ],
         },
       ],

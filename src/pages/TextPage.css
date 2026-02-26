@@ -177,6 +177,10 @@
   font-size: 1.2rem;
 }
 
+.section-purification .phrase-mantra .phrase-text {
+  color: #fff;
+}
+
 .phrase-special {
   display: flex;
   flex-direction: column;
@@ -333,4 +337,25 @@
   .phrase-text-phonetics {
     font-size: 0.95rem;
   }
+}
+
+.section-ch-corps .phrase-special {
+  text-align: center;
+  align-items: center;
+}
+
+.section-ch-corps .phrase-special .phrase-text {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section-ch-corps .phrase-special-translation {
+  font-style: normal;
+  color: #aaa;
+}
+
+.section-ch-corps .phrase-special-translation b {
+  font-size: 1rem;
+  color: #aaa;
 }
