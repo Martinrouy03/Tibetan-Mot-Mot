@@ -304,6 +304,15 @@ export default function TextPage() {
             Vajrasattva →
           </button>
         )}
+        {textId === 'vajrasattva' && (
+          <button className="back-button back-button-bottom next-text-button" onClick={() => {
+            dispatch(setSelectedPhrase(null));
+            window.scrollTo(0, 0);
+            navigate('/text/louange-manjushri');
+          }}>
+            Louange à Manjushri →
+          </button>
+        )}
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import type { PracticeText } from '../types';
 export const louangeManjushri: PracticeText = {
   id: "louange-manjushri",
   title: "Louange à Manjushri",
-  tibetanTitle: "",
+  tibetanTitle: "གང་གློ་མ།",
   sections: [
     {
       id: "mj-main",
