@@ -20,6 +20,7 @@ export default function TextPage() {
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const [imageSizePct, setImageSizePct] = useState(60);
+  const [chenrezikSizePct, setChenrezikSizePct] = useState(80);
   const [ligneeVariant, setLigneeVariant] = useState<'mahamoudra' | 'dorje-chang'>('mahamoudra');
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
@@ -232,7 +233,65 @@ export default function TextPage() {
                   )}
                 </div>
               );
-            }) : section.phrases.map((phrase) => {
+            }) : section.id === 'ch-supplique' ? (() => {
+              const renderInstr = (p: typeof section.phrases[0]) => (
+                <div key={p.id} className="phrase-container phrase-no-interact">
+                  <div className="phrase phrase-special">
+                    <span className="phrase-text tibetan">{p.tibetan}</span>
+                    {p.translation && <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: p.translation }} />}
+                  </div>
+                </div>
+              );
+              const renderVerse = (p: typeof section.phrases[0]) => {
+                const isSelected = interactionMode === 'fixed' || selectedPhraseId === p.id;
+                return (
+                  <div key={p.id} ref={(el) => setPhraseRef(p.id, el)} data-phrase-id={p.id}
+                    className={`phrase-container ${interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
+                    onClick={() => interactionMode !== 'fixed' && handlePhraseClick(p.id)}
+                  >
+                    {isSelected ? (
+                      <PhraseBreakdown phrase={p} displayMode={displayMode} showTranslation={showTranslation} />
+                    ) : (
+                      <div className="phrase">
+                        <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                          {displayMode === 'tibetan' ? p.tibetan : p.phonetics}
+                        </span>
+                        {showTranslation && p.translation && (
+                          <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(p.translation)} />
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              };
+              const instr1 = section.phrases.find(p => p.id === 'ch-sup-instr-1');
+              const verses = section.phrases.filter(p => ['ch-sup-1','ch-sup-2','ch-sup-3','ch-sup-4'].includes(p.id));
+              const img = section.phrases.find(p => p.id === 'ch-sup-img');
+              const instr2 = section.phrases.find(p => p.id === 'ch-sup-instr-2');
+              return (
+                <>
+                  {instr1 && renderInstr(instr1)}
+                  <div className="ch-supplique-layout">
+                    <div className="ch-supplique-verses">
+                      {verses.map(renderVerse)}
+                    </div>
+                    {img && (
+                      <div className="ch-supplique-image">
+                        <div className="phrase-image-wrapper">
+                          <img src={img.src} alt="" className="phrase-image" style={{ width: `${chenrezikSizePct}%` }} />
+                          <div className="image-size-pill">
+                            <button className="image-size-btn" onClick={() => setChenrezikSizePct(p => Math.min(100, p + 10))}>+</button>
+                            <span className="image-size-label">{chenrezikSizePct}</span>
+                            <button className="image-size-btn" onClick={() => setChenrezikSizePct(p => Math.max(20, p - 10))}>−</button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                  {instr2 && renderInstr(instr2)}
+                </>
+              );
+            })() : section.phrases.map((phrase) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';

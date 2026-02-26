@@ -359,3 +359,45 @@
   font-size: 1rem;
   color: #aaa;
 }
+
+.ch-supplique-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.ch-supplique-verses {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ch-supplique-image {
+  flex-shrink: 0;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ch-supplique-image .phrase-image-wrapper {
+  flex: 1;
+  position: static;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ch-supplique-image .phrase-image {
+  width: 100%;
+}
+
+.ch-supplique-image .image-size-pill {
+  position: static;
+  transform: none;
+  flex-shrink: 0;
+  align-self: center;
+  margin-left: auto;
+}
