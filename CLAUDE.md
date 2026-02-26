@@ -99,6 +99,10 @@ Dans tous les mondes et dans les dix directions,
 - `#` = section principale → nouvelle `Section` dans le tableau
 - `##` = sous-section → aussi une `Section`, mais visuellement subordonnée à la précédente
 
+## Règles de communication
+
+- **En cas de doute ou d'incohérence dans les données fournies** (décalage entre nombre de groupes phonétiques et mots de la traduction, ambiguïté sur un nom propre, données manquantes, etc.), toujours signaler le problème et demander validation avant de faire un choix.
+
 ## Règles de développement
 
 - **Ne jamais utiliser un sous-agent Bash pour écrire des fichiers de données** — utiliser directement le tool `Write`
