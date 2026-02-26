@@ -203,7 +203,7 @@
 .phrase-inline-translation {
   display: block;
   color: #777;
-  font-size: 0.85rem;
+  font-size: calc(var(--tibetan-font-size, 20px) * 0.7);
   margin-top: 0.2rem;
 }
 
