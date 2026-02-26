@@ -1,4 +1,4 @@
-import type { PracticeText } from '../types';
+import type { PracticeText } from "../types";
 
 export const guruYoga: PracticeText = {
   id: "guru-yoga",
@@ -128,7 +128,7 @@ export const guruYoga: PracticeText = {
     },
     {
       id: "quatre-illimitees",
-      title: "Les quatre illimitées (x3)",
+      title: "Les quatre illimitées",
       phrases: [
         {
           id: "gy-2-1",
@@ -472,8 +472,7 @@ export const guruYoga: PracticeText = {
           type: "normal",
           tibetan: "ཡིད་འཕྲོག་སེང་ཁྲི་པདྨ་ཟླ་བའི་སྟེང༌།",
           phonetics: "yi tro seng tri pé ma da ouai teng",
-          translation:
-            "sur un trône de lion magnifique, un lotus et une lune",
+          translation: "sur un trône de lion magnifique, un lotus et une lune",
           words: [
             {
               tibetan: "ཡིད་འཕྲོག",
@@ -1227,8 +1226,7 @@ export const guruYoga: PracticeText = {
           type: "normal",
           tibetan: "ཡེ་ནས་བྱང་ཆུབ་རྒྱ་མཚོར་ཡོངས་བསྔོས་པས།",
           phonetics: "yé né djang tchoub gyam tsor yong ngeu pé",
-          translation:
-            "dédiés parfaitement dans un océan d'éveil primordial,",
+          translation: "dédiés parfaitement dans un océan d'éveil primordial,",
           words: [
             {
               tibetan: "ཡེ་ནས",
@@ -1402,8 +1400,7 @@ export const guruYoga: PracticeText = {
           type: "normal",
           tibetan: "སྐུ་བཞི་བླ་མའི་གོ་འཕང་ཉིད་ཐོབ་ཤོག",
           phonetics: "kou chi la mai go pang nyi tob sho",
-          translation:
-            "puissé-je obtenir les quatre corps, l'état du maître.",
+          translation: "puissé-je obtenir les quatre corps, l'état du maître.",
           words: [
             {
               tibetan: "སྐུ་བཞི",

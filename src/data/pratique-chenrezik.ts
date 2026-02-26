@@ -1697,14 +1697,26 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-lg-42",
           type: "normal",
-          tibetan: "",
+          tibetan: "།མི་ཕམ་ཆོས་ཀྱི་བློ་གྲོས་མཁྱེན་ནོ།",
           phonetics: "mipham / chokyi / lodreu / …",
           translation: "<i>Invincible intelligence du Dharma</i>…",
           words: [
-            { tibetan: "", phonetics: "mipham", translation: "Invincible" },
-            { tibetan: "", phonetics: "chokyi", translation: "du Dharma" },
-            { tibetan: "", phonetics: "lodreu", translation: "intelligence" },
-            { tibetan: "", phonetics: "…", translation: "..." },
+            {
+              tibetan: "མི་ཕམ",
+              phonetics: "mipham",
+              translation: "Invincible",
+            },
+            {
+              tibetan: "ཆོས་ཀྱི་",
+              phonetics: "chokyi",
+              translation: "du Dharma",
+            },
+            {
+              tibetan: "བློ་གྲོས་",
+              phonetics: "lodreu",
+              translation: "intelligence",
+            },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "…", translation: "..." },
           ],
         },
       ],
