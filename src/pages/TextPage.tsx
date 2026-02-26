@@ -182,30 +182,32 @@ export default function TextPage() {
               const isLastPrayer = !image;
               return (
                 <div key={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
-                  {label && (
-                    <div className="phrase phrase-special ta-hommage-label">
-                      <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
-                    </div>
-                  )}
-                  <div
-                    ref={(el) => setPhraseRef(normal.id, el)}
-                    data-phrase-id={normal.id}
-                    className={`phrase-container ${interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
-                    onClick={() => interactionMode !== 'fixed' && handlePhraseClick(normal.id)}
-                  >
-                    {isSelected ? (
-                      <PhraseBreakdown phrase={normal} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
-                    ) : (
-                      <div className="phrase">
-                        {prefix && <span className="breakdown-prefix">{prefix}</span>}
-                        <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                          {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
-                        </span>
-                        {showTranslation && normal.translation && (
-                          <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(normal.translation)} />
-                        )}
+                  <div className="ta-hommage-left">
+                    {label && (
+                      <div className="phrase phrase-special ta-hommage-label">
+                        <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
                       </div>
                     )}
+                    <div
+                      ref={(el) => setPhraseRef(normal.id, el)}
+                      data-phrase-id={normal.id}
+                      className={`phrase-container ${interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
+                      onClick={() => interactionMode !== 'fixed' && handlePhraseClick(normal.id)}
+                    >
+                      {isSelected ? (
+                        <PhraseBreakdown phrase={normal} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
+                      ) : (
+                        <div className="phrase">
+                          {prefix && <span className="breakdown-prefix">{prefix}</span>}
+                          <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                            {displayMode === 'tibetan' ? normal.tibetan : normal.phonetics}
+                          </span>
+                          {showTranslation && normal.translation && (
+                            <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(normal.translation)} />
+                          )}
+                        </div>
+                      )}
+                    </div>
                   </div>
                   {image && (
                     <div className="ta-hommage-image">

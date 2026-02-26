@@ -190,8 +190,8 @@
 }
 
 .phrase-special-translation {
-  font-style: italic;
-  color: #777;
+  font-style: normal;
+  color: #bbb;
   font-size: 0.85rem;
 }
 
@@ -277,19 +277,19 @@
 
 .ta-hommage-pair {
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 0.3rem;
 }
 
-.ta-hommage-label {
-  flex: 0 0 100%;
-  margin-bottom: 0;
+.ta-hommage-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.ta-hommage-pair .phrase-container {
-  flex: 1;
+.ta-hommage-label {
+  margin-bottom: 0;
 }
 
 .ta-hommage-image {
