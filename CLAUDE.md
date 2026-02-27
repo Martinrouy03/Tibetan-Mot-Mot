@@ -39,6 +39,8 @@ Les phonétiques sont divisées en groupes par `/`. Chaque groupe correspond à 
 
 **La traduction de chaque mot doit être tirée uniquement des mots de la traduction française fournie.** Ne pas proposer plusieurs alternatives (ex: pas de `"victorieux/bouddhas"`), choisir un seul terme.
 
+**Les mots entre crochets `[...]` dans la traduction sont des ajouts contextuels** (non présents en tibétain) : ne pas les inclure dans les `words`.
+
 Exemple :
 ```
 །ཇི་སྙེད་སུ་དག་ཕྱོགས་བཅུའི་འཇིག་རྟེན་ན།

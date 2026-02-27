@@ -2041,9 +2041,21 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "dak so / ka kyap / sem tchen gyi",
           translation: "De moi et de tous les êtres de l'univers,",
           words: [
-            { tibetan: "བདག་སོགས་", phonetics: "dak so", translation: "De moi" },
-            { tibetan: "མཁའ་ཁྱབ་", phonetics: "ka kyap", translation: "de l'univers" },
-            { tibetan: "སེམས་ཅན་གྱི།", phonetics: "sem tchen gyi", translation: "de tous les êtres" },
+            {
+              tibetan: "བདག་སོགས་",
+              phonetics: "dak so",
+              translation: "De moi",
+            },
+            {
+              tibetan: "མཁའ་ཁྱབ་",
+              phonetics: "ka kyap",
+              translation: "de l'univers",
+            },
+            {
+              tibetan: "སེམས་ཅན་གྱི།",
+              phonetics: "sem tchen gyi",
+              translation: "de tous les êtres",
+            },
           ],
         },
         {
@@ -2051,11 +2063,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།སྤྱི་གཙུག་པད་དཀར་ཟླ་བའི་སྟེང་།",
           phonetics: "tchi tsouk / pé kar / da oué teng",
-          translation: "Au-dessus de nos têtes, sur un lotus blanc et une lune,",
+          translation:
+            "Au-dessus de nos têtes, sur un lotus blanc et une lune,",
           words: [
-            { tibetan: "སྤྱི་གཙུག་", phonetics: "tchi tsouk", translation: "Au-dessus de nos têtes" },
-            { tibetan: "པད་དཀར་", phonetics: "pé kar", translation: "lotus blanc" },
-            { tibetan: "ཟླ་བའི་སྟེང་།", phonetics: "da oué teng", translation: "sur une lune" },
+            {
+              tibetan: "སྤྱི་གཙུག་",
+              phonetics: "tchi tsouk",
+              translation: "Au-dessus de nos têtes",
+            },
+            {
+              tibetan: "པད་དཀར་",
+              phonetics: "pé kar",
+              translation: "lotus blanc",
+            },
+            {
+              tibetan: "ཟླ་བའི་སྟེང་།",
+              phonetics: "da oué teng",
+              translation: "sur une lune",
+            },
           ],
         },
         {
@@ -2063,11 +2088,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།ཧྲཱིཿལས་འཕགས་མཆོག་སྤྱན་རས་གཟིགས།",
           phonetics: "hri lé / p'ak tchok / tchenrézik",
-          translation: "apparaissant de la syllabe HRI, se tient le noble et sublime Tchenrézi.",
+          translation:
+            "apparaissant de la syllabe HRI, se tient le noble et sublime Tchenrézi.",
           words: [
-            { tibetan: "ཧྲཱིཿལས་", phonetics: "hri lé", translation: "de la syllabe HRI" },
-            { tibetan: "འཕགས་མཆོག་", phonetics: "p'ak tchok", translation: "noble et sublime" },
-            { tibetan: "སྤྱན་རས་གཟིགས།", phonetics: "tchenrézik", translation: "Tchenrézi" },
+            {
+              tibetan: "ཧྲཱིཿལས་",
+              phonetics: "hri lé",
+              translation: "de la syllabe HRI",
+            },
+            {
+              tibetan: "འཕགས་མཆོག་",
+              phonetics: "p'ak tchok",
+              translation: "noble et sublime",
+            },
+            {
+              tibetan: "སྤྱན་རས་གཟིགས།",
+              phonetics: "tchenrézik",
+              translation: "Tchenrézi",
+            },
           ],
         },
         {
@@ -2075,11 +2113,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།དཀར་གསལ་འོད་ཟེར་ལྔ་ལྡན་འཕྲོ།",
           phonetics: "kar sel / eu zer / gna den tro",
-          translation: "Blanc et lumineux, il irradie des rayonnements de lumière des cinq couleurs.",
+          translation:
+            "Blanc et lumineux, il irradie des rayonnements de lumière des cinq couleurs.",
           words: [
-            { tibetan: "དཀར་གསལ་", phonetics: "kar sel", translation: "Blanc et lumineux" },
-            { tibetan: "འོད་ཟེར་", phonetics: "eu zer", translation: "rayonnements de lumière" },
-            { tibetan: "ལྔ་ལྡན་འཕྲོ།", phonetics: "gna den tro", translation: "des cinq couleurs" },
+            {
+              tibetan: "དཀར་གསལ་",
+              phonetics: "kar sel",
+              translation: "Blanc et lumineux",
+            },
+            {
+              tibetan: "འོད་ཟེར་",
+              phonetics: "eu zer",
+              translation: "rayonnements de lumière",
+            },
+            {
+              tibetan: "ལྔ་ལྡན་འཕྲོ།",
+              phonetics: "gna den tro",
+              translation: "des cinq couleurs",
+            },
           ],
         },
         {
@@ -2087,11 +2138,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།འཛུམ་ལྡན་ཐུགས་རྗེའི་སྤྱན་གྱིས་གཟིགས།",
           phonetics: "dzoum den / toukdjé / tchen gyi zik",
-          translation: "Souriant, il veille sur les êtres avec les yeux de la compassion.",
+          translation:
+            "Souriant, il veille sur les êtres avec les yeux de la compassion.",
           words: [
-            { tibetan: "འཛུམ་ལྡན་", phonetics: "dzoum den", translation: "Souriant" },
-            { tibetan: "ཐུགས་རྗེའི་", phonetics: "toukdjé", translation: "de la compassion" },
-            { tibetan: "སྤྱན་གྱིས་གཟིགས།", phonetics: "tchen gyi zik", translation: "il veille avec les yeux" },
+            {
+              tibetan: "འཛུམ་ལྡན་",
+              phonetics: "dzoum den",
+              translation: "Souriant",
+            },
+            {
+              tibetan: "ཐུགས་རྗེའི་",
+              phonetics: "toukdjé",
+              translation: "de la compassion",
+            },
+            {
+              tibetan: "སྤྱན་གྱིས་གཟིགས།",
+              phonetics: "tchen gyi zik",
+              translation: "il veille avec les yeux",
+            },
           ],
         },
         {
@@ -2099,11 +2163,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།ཕྱག་བཞིའི་དང་པོ་ཐལ་སྦྱར་མཛད།",
           phonetics: "tcha chi / tang po / t'el djar dzé",
-          translation: "Il a quatre bras; les deux premières mains sont jointes,",
+          translation:
+            "Il a quatre bras; les deux premières mains sont jointes,",
           words: [
-            { tibetan: "ཕྱག་བཞིའི་", phonetics: "tcha chi", translation: "quatre bras" },
-            { tibetan: "དང་པོ་", phonetics: "tang po", translation: "les premières" },
-            { tibetan: "ཐལ་སྦྱར་མཛད།", phonetics: "t'el djar dzé", translation: "mains jointes" },
+            {
+              tibetan: "ཕྱག་བཞིའི་",
+              phonetics: "tcha chi",
+              translation: "quatre bras",
+            },
+            {
+              tibetan: "དང་པོ་",
+              phonetics: "tang po",
+              translation: "les premières",
+            },
+            {
+              tibetan: "ཐལ་སྦྱར་མཛད།",
+              phonetics: "t'el djar dzé",
+              translation: "mains jointes",
+            },
           ],
         },
         {
@@ -2111,11 +2188,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།འོག་གཉིས་ཤེལ་ཕྲེང་པད་དཀར་བསྣམས།",
           phonetics: "ok nyi / chel treng / pé kar nam",
-          translation: "les suivantes tiennent un mala de cristal et un lotus blanc.",
+          translation:
+            "les suivantes tiennent un mala de cristal et un lotus blanc.",
           words: [
-            { tibetan: "འོག་གཉིས་", phonetics: "ok nyi", translation: "les suivantes" },
-            { tibetan: "ཤེལ་ཕྲེང་", phonetics: "chel treng", translation: "mala de cristal" },
-            { tibetan: "པད་དཀར་བསྣམས།", phonetics: "pé kar nam", translation: "lotus blanc" },
+            {
+              tibetan: "འོག་གཉིས་",
+              phonetics: "ok nyi",
+              translation: "les suivantes",
+            },
+            {
+              tibetan: "ཤེལ་ཕྲེང་",
+              phonetics: "chel treng",
+              translation: "mala de cristal",
+            },
+            {
+              tibetan: "པད་དཀར་བསྣམས།",
+              phonetics: "pé kar nam",
+              translation: "lotus blanc",
+            },
           ],
         },
         {
@@ -2125,9 +2215,21 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "tar tang / rinchen / gyen gyi tré",
           translation: "Il est paré de soieries et d'ornements précieux.",
           words: [
-            { tibetan: "དར་དང་", phonetics: "tar tang", translation: "soieries" },
-            { tibetan: "རིན་ཆེན་", phonetics: "rinchen", translation: "précieux" },
-            { tibetan: "རྒྱན་གྱིས་སྤྲས།", phonetics: "gyen gyi tré", translation: "paré d'ornements" },
+            {
+              tibetan: "དར་དང་",
+              phonetics: "tar tang",
+              translation: "soieries",
+            },
+            {
+              tibetan: "རིན་ཆེན་",
+              phonetics: "rinchen",
+              translation: "précieux",
+            },
+            {
+              tibetan: "རྒྱན་གྱིས་སྤྲས།",
+              phonetics: "gyen gyi tré",
+              translation: "paré d'ornements",
+            },
           ],
         },
         {
@@ -2138,8 +2240,21 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "Sur le haut de son corps, il porte une peau de biche.",
           words: [
             { tibetan: "རི་དྭགས་", phonetics: "ritak", translation: "biche" },
-            { tibetan: "ལྤགས་པའི་", phonetics: "pak pé", translation: "peau de" },
-            { tibetan: "སྟོད་གཡོགས་གསོལ།", phonetics: "teu yok seul", translation: "il porte sur le haut du corps" },
+            {
+              tibetan: "ལྤགས་པའི་",
+              phonetics: "pak pé",
+              translation: "peau de",
+            },
+            {
+              tibetan: "སྟོད་",
+              phonetics: "teu",
+              translation: "haut du corps",
+            },
+            {
+              tibetan: "གཡོགས་གསོལ།",
+              phonetics: "yok seul",
+              translation: "revêtu",
+            },
           ],
         },
         {
@@ -2149,9 +2264,17 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "eu pak / mé pé / ou gyen tchen",
           translation: "Il est couronné d'Amitabha.",
           words: [
-            { tibetan: "འོད་དཔག་", phonetics: "eu pak", translation: "lumière" },
+            {
+              tibetan: "འོད་དཔག་",
+              phonetics: "eu pak",
+              translation: "lumière",
+            },
             { tibetan: "མེད་པའི་", phonetics: "mé pé", translation: "infinie" },
-            { tibetan: "དབུ་རྒྱན་ཅན།", phonetics: "ou gyen tchen", translation: "couronné" },
+            {
+              tibetan: "དབུ་རྒྱན་ཅན།",
+              phonetics: "ou gyen tchen",
+              translation: "couronné",
+            },
           ],
         },
         {
@@ -2161,9 +2284,26 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "chap nyi / dordjé / kyil troung chouk",
           translation: "Il est assis, les jambes dans la posture du vajra,",
           words: [
-            { tibetan: "ཞབས་གཉིས་", phonetics: "chap nyi", translation: "les jambes" },
-            { tibetan: "རྡོ་རྗེའི་", phonetics: "dordjé", translation: "du vajra" },
-            { tibetan: "སྐྱིལ་ཀྲུང་བཞུགས།", phonetics: "kyil troung chouk", translation: "assis en posture" },
+            {
+              tibetan: "ཞབས་གཉིས་",
+              phonetics: "chap nyi",
+              translation: "deux jambes",
+            },
+            {
+              tibetan: "རྡོ་རྗེའི་",
+              phonetics: "dordjé",
+              translation: "vajra",
+            },
+            {
+              tibetan: "སྐྱིལ་ཀྲུང་",
+              phonetics: "kyil troung",
+              translation: "posture jambes croisées",
+            },
+            {
+              tibetan: "་བཞུགས།",
+              phonetics: "chouk",
+              translation: "assis",
+            },
           ],
         },
         {
@@ -2173,9 +2313,17 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "dri mé / da ouar / gyap ten pa",
           translation: "avec derrière lui une lune immaculée.",
           words: [
-            { tibetan: "དྲི་མེད་", phonetics: "dri mé", translation: "immaculée" },
+            {
+              tibetan: "དྲི་མེད་",
+              phonetics: "dri mé",
+              translation: "immaculée",
+            },
             { tibetan: "ཟླ་བར་", phonetics: "da ouar", translation: "lune" },
-            { tibetan: "རྒྱབ་བརྟེན་པ།", phonetics: "gyap ten pa", translation: "derrière lui" },
+            {
+              tibetan: "རྒྱབ་བརྟེན་པ།",
+              phonetics: "gyap ten pa",
+              translation: "derrière lui",
+            },
           ],
         },
         {
@@ -2185,9 +2333,21 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "kyap né / kun du / gno ouor gyour",
           translation: "Il est l'essence de tous les lieux de refuge.",
           words: [
-            { tibetan: "སྐྱབས་གནས་", phonetics: "kyap né", translation: "lieux de refuge" },
-            { tibetan: "ཀུན་འདུས་", phonetics: "kun du", translation: "de tous" },
-            { tibetan: "ངོ་བོར་གྱུར།", phonetics: "gno ouor gyour", translation: "Il est l'essence" },
+            {
+              tibetan: "སྐྱབས་གནས་",
+              phonetics: "kyap né",
+              translation: "lieux de refuge",
+            },
+            {
+              tibetan: "ཀུན་འདུས་",
+              phonetics: "kun du",
+              translation: "de tous",
+            },
+            {
+              tibetan: "ངོ་བོར་གྱུར།",
+              phonetics: "gno ouor gyour",
+              translation: "Il est l'essence",
+            },
           ],
         },
       ],
@@ -2199,9 +2359,11 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-sup-instr-1",
           type: "instructions",
-          tibetan: "༄༅། །བདག་དང་སེམས་ཅན་ཐམས་ཅད་ཀྱིས་མགྲིན་གཅིག་ཏུ་གསོལ་བ་འདེབས་པར་བསམས་ལ།",
+          tibetan:
+            "༄༅། །བདག་དང་སེམས་ཅན་ཐམས་ཅད་ཀྱིས་མགྲིན་གཅིག་ཏུ་གསོལ་བ་འདེབས་པར་བསམས་ལ།",
           phonetics: "",
-          translation: "En imaginant que vous-même et tous les êtres priez d'une seule voix:",
+          translation:
+            "En imaginant que vous-même et tous les êtres priez d'une seule voix:",
           words: [],
         },
         {
@@ -2209,12 +2371,29 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "ཇོ་བོ་སྐྱོན་གྱིས་མ་གོས་སྐུ་མདོག་དཀར།",
           phonetics: "djo ouo / kyeun gyi / ma keu / kou dok kar",
-          translation: "Seigneur, votre corps blanc n'est souillé par aucun défaut.",
+          translation:
+            "Seigneur, votre corps blanc n'est souillé par aucun défaut.",
           words: [
-            { tibetan: "ཇོ་བོ་", phonetics: "djo ouo", translation: "Seigneur" },
-            { tibetan: "སྐྱོན་གྱིས་", phonetics: "kyeun gyi", translation: "par aucun défaut" },
-            { tibetan: "མ་གོས་", phonetics: "ma keu", translation: "n'est souillé" },
-            { tibetan: "སྐུ་མདོག་དཀར།", phonetics: "kou dok kar", translation: "votre corps blanc" },
+            {
+              tibetan: "ཇོ་བོ་",
+              phonetics: "djo ouo",
+              translation: "Seigneur",
+            },
+            {
+              tibetan: "སྐྱོན་གྱིས་",
+              phonetics: "kyeun gyi",
+              translation: "par aucun défaut",
+            },
+            {
+              tibetan: "མ་གོས་",
+              phonetics: "ma keu",
+              translation: "n'est souillé",
+            },
+            {
+              tibetan: "སྐུ་མདོག་དཀར།",
+              phonetics: "kou dok kar",
+              translation: "votre corps blanc",
+            },
           ],
         },
         {
@@ -2224,8 +2403,16 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "dzok sangyé kyi / ou la gyen",
           translation: "Le Parfait Bouddha est votre diadème.",
           words: [
-            { tibetan: "རྫོགས་སངས་རྒྱས་ཀྱིས་", phonetics: "dzok sangyé kyi", translation: "Le Parfait Bouddha" },
-            { tibetan: "དབུ་ལ་བརྒྱན།", phonetics: "ou la gyen", translation: "est votre diadème" },
+            {
+              tibetan: "རྫོགས་སངས་རྒྱས་ཀྱིས་",
+              phonetics: "dzok sangyé kyi",
+              translation: "Le Parfait Bouddha",
+            },
+            {
+              tibetan: "དབུ་ལ་བརྒྱན།",
+              phonetics: "ou la gyen",
+              translation: "est votre diadème",
+            },
           ],
         },
         {
@@ -2233,11 +2420,24 @@ export const pratiqueChenrezik: PracticeText = {
           type: "normal",
           tibetan: "།ཐུགས་རྗེའི་སྤྱན་གྱིས་འགྲོ་ལ་གཟིགས།",
           phonetics: "t'oukdjé / tchen gyi / dro la zik",
-          translation: "Vous veillez sur les êtres avec les yeux de la compassion.",
+          translation:
+            "Vous veillez sur les êtres avec les yeux de la compassion.",
           words: [
-            { tibetan: "ཐུགས་རྗེའི་", phonetics: "t'oukdjé", translation: "de la compassion" },
-            { tibetan: "སྤྱན་གྱིས་", phonetics: "tchen gyi", translation: "avec les yeux" },
-            { tibetan: "འགྲོ་ལ་གཟིགས།", phonetics: "dro la zik", translation: "Vous veillez sur les êtres" },
+            {
+              tibetan: "ཐུགས་རྗེའི་",
+              phonetics: "t'oukdjé",
+              translation: "de la compassion",
+            },
+            {
+              tibetan: "སྤྱན་གྱིས་",
+              phonetics: "tchen gyi",
+              translation: "avec les yeux",
+            },
+            {
+              tibetan: "འགྲོ་ལ་གཟིགས།",
+              phonetics: "dro la zik",
+              translation: "Vous veillez sur les êtres",
+            },
           ],
         },
         {
@@ -2247,8 +2447,16 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "tchenrézik la / tchak tsel lo",
           translation: "Nous nous prosternons devant vous, Tchenrézi,",
           words: [
-            { tibetan: "སྤྱན་རས་གཟིགས་ལ་", phonetics: "tchenrézik la", translation: "devant vous, Tchenrézi" },
-            { tibetan: "ཕྱག་འཚལ་ལོ།", phonetics: "tchak tsel lo", translation: "Nous nous prosternons" },
+            {
+              tibetan: "སྤྱན་རས་གཟིགས་ལ་",
+              phonetics: "tchenrézik la",
+              translation: "devant vous, Tchenrézi",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ།",
+              phonetics: "tchak tsel lo",
+              translation: "Nous nous prosternons",
+            },
           ],
         },
         {
@@ -2265,7 +2473,365 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "ཞེས་ཅི་ནུས་བསགས། ཡན་ལག་བདུན་གྱི་གསོལ་འདེབས་ནི།",
           phonetics: "",
-          translation: "Accumulez autant que vous le pouvez cette récitation, puis passez à la prière à sept branches:",
+          translation:
+            "Accumulez autant que vous le pouvez cette récitation, puis passez à la prière à sept branches:",
+          words: [],
+        },
+      ],
+    },
+    {
+      id: "ch-7-branches",
+      title: "Prière à 7 branches",
+      phrases: [
+        {
+          id: "ch-7b-1",
+          type: "normal",
+          tibetan: "འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་དང་།།",
+          phonetics: "pakpa / chenrézik / wang / tang",
+          translation: "[Devant] le puissant Arya Tchenrézi et,",
+          words: [
+            { tibetan: "འཕགས་པ་", phonetics: "pakpa", translation: "Arya" },
+            { tibetan: "སྤྱན་རས་གཟིགས་", phonetics: "chenrézik", translation: "Tchenrézi" },
+            { tibetan: "དབང་", phonetics: "wang", translation: "puissant" },
+            { tibetan: "དང་།།", phonetics: "tang", translation: "et" },
+          ],
+        },
+        {
+          id: "ch-7b-2",
+          type: "normal",
+          tibetan: "ཕྱོགས་བཅུ་དུས་གསུམ་བཞུགས་པ་ཡི།།",
+          phonetics: "chok / chou / dusoum / zhoukpa yi",
+          translation: "Demeurant dans les trois temps et dans les dix directions",
+          words: [
+            { tibetan: "ཕྱོགས་", phonetics: "chok", translation: "directions" },
+            { tibetan: "བཅུ་", phonetics: "chou", translation: "dix" },
+            { tibetan: "དུས་གསུམ་", phonetics: "dusoum", translation: "trois temps" },
+            { tibetan: "བཞུགས་པ་ཡི།།", phonetics: "zhoukpa yi", translation: "Demeurant" },
+          ],
+        },
+        {
+          id: "ch-7b-3",
+          type: "normal",
+          tibetan: "རྒྱལ་བ་སྲས་བཅས་ཐམས་ཅད་ལ།།",
+          phonetics: "gyalwa / séché / tamché la",
+          translation: "Tous les Vainqueurs et leurs fils,",
+          words: [
+            { tibetan: "རྒྱལ་བ་", phonetics: "gyalwa", translation: "Vainqueurs" },
+            { tibetan: "སྲས་བཅས་", phonetics: "séché", translation: "et leurs fils" },
+            { tibetan: "ཐམས་ཅད་ལ།།", phonetics: "tamché la", translation: "Tous" },
+          ],
+        },
+        {
+          id: "ch-7b-4",
+          type: "normal",
+          tibetan: "ཀུན་ནས་དང་བས་ཕྱག་འཚལ་ལོ།།",
+          phonetics: "kun né / dangwé / tchak tsello",
+          translation: "Devant tous, avec confiance inspirée, je me prosterne,",
+          words: [
+            { tibetan: "ཀུན་ནས་", phonetics: "kun né", translation: "Devant tous" },
+            { tibetan: "དང་བས་", phonetics: "dangwé", translation: "avec confiance inspirée" },
+            { tibetan: "ཕྱག་འཚལ་ལོ།།", phonetics: "tchak tsello", translation: "je me prosterne" },
+          ],
+        },
+        {
+          id: "ch-7b-5",
+          type: "normal",
+          tibetan: "མེ་ཏོག་བདུག་སྤོས་མར་མེ་དྲི།།",
+          phonetics: "métok / doupeu / marmé / dri",
+          translation: "Fleurs, encens, lumières, parfums,",
+          words: [
+            { tibetan: "མེ་ཏོག་", phonetics: "métok", translation: "Fleurs" },
+            { tibetan: "བདུག་སྤོས་", phonetics: "doupeu", translation: "encens" },
+            { tibetan: "མར་མེ་", phonetics: "marmé", translation: "lumières" },
+            { tibetan: "དྲི།།", phonetics: "dri", translation: "parfums" },
+          ],
+        },
+        {
+          id: "ch-7b-6",
+          type: "normal",
+          tibetan: "ཞལ་ཟས་རོལ་མོ་ལ་སོགས་པ།།",
+          phonetics: "shalzé / reulmo / la sok pa",
+          translation: "Nourritures, musiques et autres,",
+          words: [
+            { tibetan: "ཞལ་ཟས་", phonetics: "shalzé", translation: "Nourritures" },
+            { tibetan: "རོལ་མོ་", phonetics: "reulmo", translation: "musiques" },
+            { tibetan: "ལ་སོགས་པ།།", phonetics: "la sok pa", translation: "et autres" },
+          ],
+        },
+        {
+          id: "ch-7b-7",
+          type: "normal",
+          tibetan: "དངོས་འབྱོར་ཡིད་ཀྱིས་སྤྲུལ་ནས་འབུལ།།",
+          phonetics: "ngeu djor / yikyi / trul né / bul",
+          translation: "Ces offrandes matérielles, émanées de l'esprit, vous sont offertes.",
+          words: [
+            { tibetan: "དངོས་འབྱོར་", phonetics: "ngeu djor", translation: "offrandes matérielles" },
+            { tibetan: "ཡིད་ཀྱིས་", phonetics: "yikyi", translation: "de l'esprit" },
+            { tibetan: "སྤྲུལ་ནས་", phonetics: "trul né", translation: "émanées" },
+            { tibetan: "འབུལ།།", phonetics: "bul", translation: "offertes" },
+          ],
+        },
+        {
+          id: "ch-7b-8",
+          type: "normal",
+          tibetan: "འཕགས་པའི་ཚོགས་ཀྱིས་བཞེས་སུ་གསོལ།།",
+          phonetics: "pakpé / tsok kyi / shé sou seul",
+          translation: "Noble assemblée, veuillez les accepter.",
+          words: [
+            { tibetan: "འཕགས་པའི་", phonetics: "pakpé", translation: "Noble" },
+            { tibetan: "ཚོགས་ཀྱིས་", phonetics: "tsok kyi", translation: "assemblée" },
+            { tibetan: "བཞེས་སུ་གསོལ།།", phonetics: "shé sou seul", translation: "veuillez les accepter" },
+          ],
+        },
+        {
+          id: "ch-7b-9",
+          type: "normal",
+          tibetan: "ཐོག་མ་མེད་ནས་ད་ལྟའི་བར།།",
+          phonetics: "tokma / méné / taté par",
+          translation: "Depuis des temps sans commencement jusqu'à aujourd'hui,",
+          words: [
+            { tibetan: "ཐོག་མ་", phonetics: "tokma", translation: "commencement" },
+            { tibetan: "མེད་ནས་", phonetics: "méné", translation: "sans" },
+            { tibetan: "ད་ལྟའི་བར།།", phonetics: "taté par", translation: "jusqu'à aujourd'hui" },
+          ],
+        },
+        {
+          id: "ch-7b-10",
+          type: "normal",
+          tibetan: "མི་དགེ་བཅུ་དང་མཚམས་མེད་ལྔ་།།",
+          phonetics: "migué / chou / tang / tsammé / nga",
+          translation: "Les dix actes non-vertueux et les cinq actes incommensurables,",
+          words: [
+            { tibetan: "མི་དགེ་", phonetics: "migué", translation: "non-vertueux" },
+            { tibetan: "བཅུ་", phonetics: "chou", translation: "dix" },
+            { tibetan: "དང་", phonetics: "tang", translation: "et" },
+            { tibetan: "མཚམས་མེད་", phonetics: "tsammé", translation: "incommensurables" },
+            { tibetan: "ལྔ་།།", phonetics: "nga", translation: "cinq" },
+          ],
+        },
+        {
+          id: "ch-7b-11",
+          type: "normal",
+          tibetan: "སེམས་ནི་ཉོན་མོངས་དབང་གྱུར་པའ།།",
+          phonetics: "semni / nyönmong / wang gyour pé",
+          translation: "L'esprit dominé par les afflictions,",
+          words: [
+            { tibetan: "སེམས་ནི་", phonetics: "semni", translation: "L'esprit" },
+            { tibetan: "ཉོན་མོངས་", phonetics: "nyönmong", translation: "afflictions" },
+            { tibetan: "དབང་གྱུར་པའ།།", phonetics: "wang gyour pé", translation: "dominé par" },
+          ],
+        },
+        {
+          id: "ch-7b-12",
+          type: "normal",
+          tibetan: "སྡིག་པ་ཐམས་ཅད་བཤགས་པར་བགྱི།།",
+          phonetics: "dikpa / tamché / shakpar gyi",
+          translation: "Je reconnais toutes les fautes commises.",
+          words: [
+            { tibetan: "སྡིག་པ་", phonetics: "dikpa", translation: "fautes" },
+            { tibetan: "ཐམས་ཅད་", phonetics: "tamché", translation: "toutes" },
+            { tibetan: "བཤགས་པར་བགྱི།།", phonetics: "shakpar gyi", translation: "Je reconnais" },
+          ],
+        },
+        {
+          id: "ch-7b-13",
+          type: "normal",
+          tibetan: "ཉན་ཐོས་རང་རྒྱལ་བྱང་ཆུབ་སེམས།།",
+          phonetics: "nyenteu / rang gyal / djangchoub sem",
+          translation: "Les shravakas, les pratyékabouddhas, les bodhisattvas",
+          words: [
+            { tibetan: "ཉན་ཐོས་", phonetics: "nyenteu", translation: "shravakas" },
+            { tibetan: "རང་རྒྱལ་", phonetics: "rang gyal", translation: "pratyékabouddhas" },
+            { tibetan: "བྱང་ཆུབ་སེམས།།", phonetics: "djangchoub sem", translation: "bodhisattvas" },
+          ],
+        },
+        {
+          id: "ch-7b-14",
+          type: "normal",
+          tibetan: "སོ་སོ་སྐྱེ་བོ་ལ་སོགས་པས།།",
+          phonetics: "soso kyéwo la / sok pé",
+          translation: "les êtres ordinaires, et autres,",
+          words: [
+            { tibetan: "སོ་སོ་སྐྱེ་བོ་ལ་", phonetics: "soso kyéwo la", translation: "les êtres ordinaires" },
+            { tibetan: "སོགས་པས།།", phonetics: "sok pé", translation: "et autres" },
+          ],
+        },
+        {
+          id: "ch-7b-15",
+          type: "normal",
+          tibetan: "དུས་གསུམ་དགེ་བ་ཅི་བསགས་པའི།།",
+          phonetics: "dusoum / géwa / chi sak pé",
+          translation: "Toutes leurs vertus accumulées dans trois temps,",
+          words: [
+            { tibetan: "དུས་གསུམ་", phonetics: "dusoum", translation: "trois temps" },
+            { tibetan: "དགེ་བ་", phonetics: "géwa", translation: "vertus" },
+            { tibetan: "ཅི་བསགས་པའི།།", phonetics: "chi sak pé", translation: "accumulées" },
+          ],
+        },
+        {
+          id: "ch-7b-16",
+          type: "normal",
+          tibetan: "བསོད་ནམས་ལ་ནི་བདག་ཡི་རང་།།",
+          phonetics: "seunam / la ni / da yi rang",
+          translation: "Je me réjouis de leurs mérites.",
+          words: [
+            { tibetan: "བསོད་ནམས་", phonetics: "seunam", translation: "mérites" },
+            { tibetan: "ལ་ནི་", phonetics: "la ni", translation: "de leurs" },
+            { tibetan: "བདག་ཡི་རང་།།", phonetics: "da yi rang", translation: "Je me réjouis" },
+          ],
+        },
+        {
+          id: "ch-7b-17",
+          type: "normal",
+          tibetan: "སེམས་ཅན་རྣམས་ཀྱི་བསམ་པ་དང་།།",
+          phonetics: "semchen / namkyi / sampa / tang",
+          translation: "[En accord] avec les intentions des êtres et",
+          words: [
+            { tibetan: "སེམས་ཅན་", phonetics: "semchen", translation: "êtres" },
+            { tibetan: "རྣམས་ཀྱི་", phonetics: "namkyi", translation: "des" },
+            { tibetan: "བསམ་པ་", phonetics: "sampa", translation: "intentions" },
+            { tibetan: "དང་།།", phonetics: "tang", translation: "et" },
+          ],
+        },
+        {
+          id: "ch-7b-18",
+          type: "normal",
+          tibetan: "བློ་ཡི་བྱེ་བྲག་ཇི་ལྟ་བར།།",
+          phonetics: "lo yi / djé drak / dji ta war",
+          translation: "En accord avec les particularités de l'esprit des êtres,",
+          words: [
+            { tibetan: "བློ་ཡི་", phonetics: "lo yi", translation: "l'esprit" },
+            { tibetan: "བྱེ་བྲག་", phonetics: "djé drak", translation: "particularités" },
+            { tibetan: "ཇི་ལྟ་བར།།", phonetics: "dji ta war", translation: "en accord avec" },
+          ],
+        },
+        {
+          id: "ch-7b-19",
+          type: "normal",
+          tibetan: "ཆེ་ཆུང་ཐུན་མོང་ཐེག་པ་ཡི།།",
+          phonetics: "tché / choung / tunmong / tékpa yi",
+          translation: "Des véhicules, grand, petit et commun,",
+          words: [
+            { tibetan: "ཆེ་", phonetics: "tché", translation: "grand" },
+            { tibetan: "ཆུང་", phonetics: "choung", translation: "petit" },
+            { tibetan: "ཐུན་མོང་", phonetics: "tunmong", translation: "commun" },
+            { tibetan: "ཐེག་པ་ཡི།།", phonetics: "tékpa yi", translation: "véhicules" },
+          ],
+        },
+        {
+          id: "ch-7b-20",
+          type: "normal",
+          tibetan: "ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་དུ་གསོལ།།",
+          phonetics: "tcheukyi / khorlo / kor tou sõl",
+          translation: "Je vous prie de tourner la roue du Dharma.",
+          words: [
+            { tibetan: "ཆོས་ཀྱི་", phonetics: "tcheukyi", translation: "du Dharma" },
+            { tibetan: "འཁོར་ལོ་", phonetics: "khorlo", translation: "roue" },
+            { tibetan: "བསྐོར་དུ་གསོལ།།", phonetics: "kor tou sõl", translation: "Je vous prie de tourner" },
+          ],
+        },
+        {
+          id: "ch-7b-21",
+          type: "normal",
+          tibetan: "འཁོར་བ་ཇི་སྲིད་མ་སྟོངས་བར།།",
+          phonetics: "korwa / dji si / ma tong war",
+          translation: "Tant que le samsara n'est pas vidé,",
+          words: [
+            { tibetan: "འཁོར་བ་", phonetics: "korwa", translation: "samsara" },
+            { tibetan: "ཇི་སྲིད་", phonetics: "dji si", translation: "Tant que" },
+            { tibetan: "མ་སྟོངས་བར།།", phonetics: "ma tong war", translation: "n'est pas vidé" },
+          ],
+        },
+        {
+          id: "ch-7b-22",
+          type: "normal",
+          tibetan: "མྱ་ངན་མི་འདའ་ཐུགས་རྗེ་ཡིས།།",
+          phonetics: "nya ngen / mi da / touk jé yi",
+          translation: "Par compassion, ne passez pas dans l'au-delà de la souffrance",
+          words: [
+            { tibetan: "མྱ་ངན་", phonetics: "nya ngen", translation: "souffrance" },
+            { tibetan: "མི་འདའ་", phonetics: "mi da", translation: "ne passez pas" },
+            { tibetan: "ཐུགས་རྗེ་ཡིས།།", phonetics: "touk jé yi", translation: "Par compassion" },
+          ],
+        },
+        {
+          id: "ch-7b-23",
+          type: "normal",
+          tibetan: "སྡུག་བསྔལ་རྒྱ་མཚོར་བྱིང་བ་ཡི།།",
+          phonetics: "douk ngal / gyamtsor / jing wa yi",
+          translation: "Plongés dans l'océan de souffrance",
+          words: [
+            { tibetan: "སྡུག་བསྔལ་", phonetics: "douk ngal", translation: "souffrance" },
+            { tibetan: "རྒྱ་མཚོར་", phonetics: "gyamtsor", translation: "océan" },
+            { tibetan: "བྱིང་བ་ཡི།།", phonetics: "jing wa yi", translation: "Plongés" },
+          ],
+        },
+        {
+          id: "ch-7b-24",
+          type: "normal",
+          tibetan: "སེམས་ཅན་རྣམས་ལ་གཟིགས་སུ་གསོལ།།",
+          phonetics: "semchen / nam la / zik sou seul",
+          translation: "Veillez sur tous ces êtres",
+          words: [
+            { tibetan: "སེམས་ཅན་", phonetics: "semchen", translation: "êtres" },
+            { tibetan: "རྣམས་ལ་", phonetics: "nam la", translation: "ces" },
+            { tibetan: "གཟིགས་སུ་གསོལ།།", phonetics: "zik sou seul", translation: "Veillez sur" },
+          ],
+        },
+        {
+          id: "ch-7b-25",
+          type: "normal",
+          tibetan: "བདག་གིས་བསོད་ནམས་ཅི་བསགས་པ།།",
+          phonetics: "dagui / seunam / tchi sak pa",
+          translation: "Que les mérites ainsi accumulés",
+          words: [
+            { tibetan: "བདག་གིས་", phonetics: "dagui", translation: "ainsi" },
+            { tibetan: "བསོད་ནམས་", phonetics: "seunam", translation: "mérites" },
+            { tibetan: "ཅི་བསགས་པ།།", phonetics: "tchi sak pa", translation: "accumulés" },
+          ],
+        },
+        {
+          id: "ch-7b-26",
+          type: "normal",
+          tibetan: "ཐམས་ཅད་བྱང་ཆུབ་རྒྱུར་གྱུར་ནས།།",
+          phonetics: "tamtché / djangtchoub / gyour gyour né",
+          translation: "[Que] tous deviennent la cause de l'éveil",
+          words: [
+            { tibetan: "ཐམས་ཅད་", phonetics: "tamtché", translation: "tous" },
+            { tibetan: "བྱང་ཆུབ་", phonetics: "djangtchoub", translation: "éveil" },
+            { tibetan: "རྒྱུར་གྱུར་ནས།།", phonetics: "gyour gyour né", translation: "deviennent la cause" },
+          ],
+        },
+        {
+          id: "ch-7b-27",
+          type: "normal",
+          tibetan: "རིང་པོར་མི་ཐོགས་འགྲོ་བ་ཡི།།",
+          phonetics: "ring por / mitok / drowa yi",
+          translation: "Sans tarder longtemps, pour tous les êtres,",
+          words: [
+            { tibetan: "རིང་པོར་", phonetics: "ring por", translation: "longtemps" },
+            { tibetan: "མི་ཐོགས་", phonetics: "mitok", translation: "Sans tarder" },
+            { tibetan: "འགྲོ་བ་ཡི།།", phonetics: "drowa yi", translation: "pour tous les êtres" },
+          ],
+        },
+        {
+          id: "ch-7b-28",
+          type: "normal",
+          tibetan: "འདྲེན་པའི་དཔལ་དུ་བདག་གྱུར་ཅིག།",
+          phonetics: "drenpé / pal dou / dagyour chik",
+          translation: "Puissé-je devenir un excellent guide!",
+          words: [
+            { tibetan: "འདྲེན་པའི་", phonetics: "drenpé", translation: "guide" },
+            { tibetan: "དཔལ་དུ་", phonetics: "pal dou", translation: "excellent" },
+            { tibetan: "བདག་གྱུར་ཅིག།", phonetics: "dagyour chik", translation: "Puissé-je devenir" },
+          ],
+        },
+        {
+          id: "ch-7b-end",
+          type: "instructions",
+          tibetan: "འདྲེན་པའི་དཔལ་དུ་བདག་གྱུར་ཅིག།",
+          phonetics: "",
+          translation: "fin prière à 7 branches",
           words: [],
         },
       ],
