@@ -103,7 +103,7 @@ Dans tous les mondes et dans les dix directions,
 
 ## Règles de communication
 
-- **En cas de doute ou d'incohérence dans les données fournies** (décalage entre nombre de groupes phonétiques et mots de la traduction, ambiguïté sur un nom propre, données manquantes, etc.), toujours signaler le problème et demander validation avant de faire un choix.
+- **En cas de doute ou d'incohérence dans les données fournies** (décalage entre nombre de groupes phonétiques et mots de la traduction, ambiguïté sur un nom propre, données manquantes, etc.), toujours signaler le problème et demander validation **avant** de faire un choix. **Il n'existe pas de cas "trop mineur" pour cette règle.** Même si l'assignation semble évidente, s'arrêter et demander reste obligatoire. Ne jamais insérer de données partielles en signalant le problème après coup.
 
 ## Règles de développement
 

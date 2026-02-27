@@ -4536,5 +4536,355 @@ export const pratiqueChenrezik: PracticeText = {
         },
       ],
     },
+    {
+      id: "ch-conclusion",
+      title: "Conclusion",
+      phrases: [
+        {
+          id: "ch-con-1",
+          type: "normal",
+          tibetan: "བདག་གཞན་ལུས་སྣང་འཕགས་པའི་སྐུ།",
+          phonetics: "dak / chen / lu / nang / p'ak pé / kou",
+          translation:
+            "L'apparence physique, la mienne et celle des autres êtres, est le noble corps [de Chenrézik],",
+          words: [
+            { tibetan: "བདག་", phonetics: "dak", translation: "la mienne" },
+            { tibetan: "གཞན་", phonetics: "chen", translation: "des autres" },
+            { tibetan: "ལུས་", phonetics: "lu", translation: "physique" },
+            { tibetan: "སྣང་", phonetics: "nang", translation: "l'apparence" },
+            {
+              tibetan: "འཕགས་པའི་",
+              phonetics: "p'ak pé",
+              translation: "noble",
+            },
+            { tibetan: "སྐུ།", phonetics: "kou", translation: "le corps" },
+          ],
+        },
+        {
+          id: "ch-con-2",
+          type: "normal",
+          tibetan: "།སྒྲ་གྲགས་ཡི་གེ་དྲུག་པའི་དབྱངས།",
+          phonetics: "dra / drak / yi ké / drouk pé / yang",
+          translation: "les sons sont la mélodie des six syllabes,",
+          words: [
+            { tibetan: "སྒྲ་", phonetics: "dra", translation: "les sons" },
+            { tibetan: "གྲགས་", phonetics: "drak", translation: "résonnants" },
+            {
+              tibetan: "ཡི་གེ་",
+              phonetics: "yi ké",
+              translation: "des syllabes",
+            },
+            {
+              tibetan: "དྲུག་པའི་",
+              phonetics: "drouk pé",
+              translation: "des six",
+            },
+            { tibetan: "དབྱངས།", phonetics: "yang", translation: "la mélodie" },
+          ],
+        },
+        {
+          id: "ch-con-3",
+          type: "normal",
+          tibetan: "།དྲན་རྟོག་ཡེ་ཤེས་ཆེན་པོའི་ཀློང༌།",
+          phonetics: "dren / tok / yéché / tchen peu / long",
+          translation:
+            "les phénomènes mentaux sont l'expression de la grande conscience primordiale.",
+          words: [
+            {
+              tibetan: "དྲན་",
+              phonetics: "dren",
+              translation: "les phénomènes",
+            },
+            { tibetan: "རྟོག་", phonetics: "tok", translation: "mentaux" },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yéché",
+              translation: "conscience primordiale",
+            },
+            {
+              tibetan: "ཆེན་པོའི་",
+              phonetics: "tchen peu",
+              translation: "grande",
+            },
+            {
+              tibetan: "ཀློང༌།",
+              phonetics: "long",
+              translation: "l'expression",
+            },
+          ],
+        },
+        {
+          id: "ch-con-4",
+          type: "normal",
+          tibetan: "།དགེ་བ་འདི་ཡིས་མྱུར་དུ་བདག",
+          phonetics: "gué oua / di yi / nyour tou / dak",
+          translation: "Par cette vertu, puissé-je rapidement,",
+          words: [
+            { tibetan: "དགེ་བ་", phonetics: "gué oua", translation: "vertu" },
+            {
+              tibetan: "འདི་ཡིས་",
+              phonetics: "di yi",
+              translation: "par cette",
+            },
+            {
+              tibetan: "མྱུར་དུ་",
+              phonetics: "nyour tou",
+              translation: "rapidement",
+            },
+            { tibetan: "བདག", phonetics: "dak", translation: "puissé-je" },
+          ],
+        },
+        {
+          id: "ch-con-5",
+          type: "normal",
+          tibetan: "།སྤྱན་རས་གཟིགས་དབང་འགྲུབ་གྱུར་ནས།",
+          phonetics: "tchenrézik / ouang / droup / gyour né",
+          translation: "réaliser le puissant Chenrézik.",
+          words: [
+            {
+              tibetan: "སྤྱན་རས་གཟིགས་",
+              phonetics: "tchenrézik",
+              translation: "Chenrézik",
+            },
+            { tibetan: "དབང་", phonetics: "ouang", translation: "puissant" },
+            { tibetan: "འགྲུབ་", phonetics: "droup", translation: "réaliser" },
+            {
+              tibetan: "གྱུར་ནས།",
+              phonetics: "gyour né",
+              translation: "devenu",
+            },
+          ],
+        },
+        {
+          id: "ch-con-6",
+          type: "normal",
+          tibetan: "།འགྲོ་བ་གཅིག་ཀྱང་མ་ལུས་པ།",
+          phonetics: "dro oua / tchik kyang / ma lu pa",
+          translation: "Tous les êtres jusqu'au dernier,",
+          words: [
+            {
+              tibetan: "འགྲོ་བ་",
+              phonetics: "dro oua",
+              translation: "les êtres",
+            },
+            {
+              tibetan: "གཅིག་ཀྱང་",
+              phonetics: "tchik kyang",
+              translation: "jusqu'au dernier",
+            },
+            { tibetan: "མ་ལུས་པ།", phonetics: "ma lu pa", translation: "tous" },
+          ],
+        },
+        {
+          id: "ch-con-7",
+          type: "normal",
+          tibetan: "།དེ་ཡི་ས་ལ་འགོད་པར་ཤོག",
+          phonetics: "té yi / sa la / gueu par chok",
+          translation: "Puissé-je les établir dans cet état.",
+          words: [
+            {
+              tibetan: "དེ་ཡི་",
+              phonetics: "té yi",
+              translation: "dans cet état",
+            },
+            { tibetan: "ས་ལ་", phonetics: "sa la", translation: "établir" },
+            {
+              tibetan: "འགོད་པར་ཤོག",
+              phonetics: "gueu par chok",
+              translation: "puissé-je les",
+            },
+          ],
+        },
+        {
+          id: "ch-con-8",
+          type: "normal",
+          tibetan: "།འདི་ལྟར་བསྒོམ་བཟླས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
+          phonetics: "di tar / gom dé / gyi pé / seunam kyi",
+          translation: "Par le mérite d'avoir ainsi récité et médité,",
+          words: [
+            { tibetan: "འདི་ལྟར་", phonetics: "di tar", translation: "ainsi" },
+            {
+              tibetan: "བསྒོམ་བཟླས་",
+              phonetics: "gom dé",
+              translation: "récité et médité",
+            },
+            {
+              tibetan: "བགྱིས་པའི་",
+              phonetics: "gyi pé",
+              translation: "d'avoir",
+            },
+            {
+              tibetan: "བསོད་ནམས་ཀྱིས།",
+              phonetics: "seunam kyi",
+              translation: "par le mérite",
+            },
+          ],
+        },
+        {
+          id: "ch-con-9",
+          type: "normal",
+          tibetan: "།བདག་དང་བདག་ལ་འབྲེལ་ཐོགས་འགྲོ་བ་ཀུན།",
+          phonetics: "dak tang / dak la / drel t'ok / dro oua / kun",
+          translation: "moi et tous les êtres qui me sont liés,",
+          words: [
+            {
+              tibetan: "བདག་དང་",
+              phonetics: "dak tang",
+              translation: "moi et",
+            },
+            { tibetan: "བདག་ལ་", phonetics: "dak la", translation: "à moi" },
+            {
+              tibetan: "འབྲེལ་ཐོགས་",
+              phonetics: "drel t'ok",
+              translation: "liés",
+            },
+            {
+              tibetan: "འགྲོ་བ་",
+              phonetics: "dro oua",
+              translation: "les êtres",
+            },
+            { tibetan: "ཀུན།", phonetics: "kun", translation: "tous" },
+          ],
+        },
+        {
+          id: "ch-con-10",
+          type: "normal",
+          tibetan: "།མི་གཙང་ལུས་འདི་བོར་བ་གྱུར་མོ་ཐག",
+          phonetics: "mi tsang / lu di / por oua / gyour ma t'ak",
+          translation: "dès que nous aurons quitté ce corps impur.",
+          words: [
+            { tibetan: "མི་གཙང་", phonetics: "mi tsang", translation: "impur" },
+            {
+              tibetan: "ལུས་འདི་",
+              phonetics: "lu di",
+              translation: "ce corps",
+            },
+            { tibetan: "བོར་བ་", phonetics: "por oua", translation: "quitté" },
+            {
+              tibetan: "གྱུར་མོ་ཐག",
+              phonetics: "gyour ma t'ak",
+              translation: "dès que nous aurons",
+            },
+          ],
+        },
+        {
+          id: "ch-con-11",
+          type: "normal",
+          tibetan: "བདེ་བ་ཅན་དུ་བརྫུས་ཏེ་སྐྱེ་བར་ཤོག",
+          phonetics: "déwa / tchen tou / dzu té / kyé ouar / chok",
+          translation: "Puissions-nous renaître par apparition en Déwachen.",
+          words: [
+            {
+              tibetan: "བདེ་བ་ཅན་",
+              phonetics: "déwa",
+              translation: "Déwachen",
+            },
+            { tibetan: "དུ་", phonetics: "tchen tou", translation: "en" },
+            {
+              tibetan: "བརྫུས་ཏེ་",
+              phonetics: "dzu té",
+              translation: "par apparition",
+            },
+            {
+              tibetan: "སྐྱེ་བར་",
+              phonetics: "kyé ouar",
+              translation: "renaître",
+            },
+            {
+              tibetan: "ཤོག",
+              phonetics: "chok",
+              translation: "puissions-nous",
+            },
+          ],
+        },
+        {
+          id: "ch-con-12",
+          type: "normal",
+          tibetan: "།སྐྱེས་མ་ཐག་ཏུ་ས་བཅུ་རབ་བསྒྲོད་ནས།",
+          phonetics: "kyéma / tak tou / sa tchou / rap / dreu né",
+          translation: "Aussitôt nés, ayant parcouru les dix terres,",
+          words: [
+            {
+              tibetan: "སྐྱེས་མ་ཐག་ཏུ་",
+              phonetics: "kyéma",
+              translation: "aussitôt nés",
+            },
+            {
+              tibetan: "ས་བཅུ་",
+              phonetics: "tak tou",
+              translation: "les dix terres",
+            },
+            {
+              tibetan: "རབ་",
+              phonetics: "sa tchou",
+              translation: "pleinement",
+            },
+            { tibetan: "བསྒྲོད་", phonetics: "rap", translation: "parcouru" },
+            { tibetan: "ནས།", phonetics: "dreu né", translation: "ayant" },
+          ],
+        },
+        {
+          id: "ch-con-13",
+          type: "normal",
+          tibetan: "།སྤྲུལ་པས་ཕྱོགས་བཅུར་གཞན་དོན་བྱེད་པར་ཤོག",
+          phonetics: "trulpé / tchok / tchour / chen / teun / djé par / chok",
+          translation:
+            "Par émanations, puissions-nous accomplir le bien des êtres dans les dix directions.",
+          words: [
+            {
+              tibetan: "སྤྲུལ་པས",
+              phonetics: "trulpé",
+              translation: "Par émanations",
+            },
+            {
+              tibetan: "ཕྱོགས་",
+              phonetics: "tchok",
+              translation: "directions",
+            },
+            {
+              tibetan: "བཅུར་",
+              phonetics: "tchour",
+              translation: "dans les dix",
+            },
+            { tibetan: "གཞན་", phonetics: "chen", translation: "des êtres" },
+            { tibetan: "དོན་", phonetics: "teun", translation: "le bien" },
+            {
+              tibetan: "བྱེད་པར་",
+              phonetics: "djé par",
+              translation: "accomplir",
+            },
+            {
+              tibetan: "ཤོག",
+              phonetics: "chok",
+              translation: "puissions-nous",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "ch-colophon",
+      title: "Colophon",
+      phrases: [
+        {
+          id: "ch-col-1",
+          type: "colophon",
+          tibetan:
+            "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་ཅེས་གྲུབ་ཆེན་ཐང་སྟོང་རྒྱལ་པོའི་གསུང་བྱིན་བརླབ་ཅན་ནོ།།",
+          phonetics: "",
+          translation:
+            'Cette méditation-récitation du Grand Compatissant, intitulée "Embrasser tout l\'espace pour le bien des êtres", étant la parole du grand accompli Thangtong Gyalpo, est porteuse de bénédiction.',
+          words: [],
+        },
+        {
+          id: "ch-col-2",
+          type: "colophon",
+          tibetan: "།སརྦ་མངྒ་ལཾ།། །།",
+          phonetics: "",
+          translation: "Que vertu et excellence s'accroissent!",
+          words: [],
+        },
+      ],
+    },
   ],
 };
