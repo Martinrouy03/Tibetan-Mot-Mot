@@ -294,6 +294,7 @@ export default function TextPage() {
             })() : section.phrases.map((phrase) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
+              const isMantraMain = phrase.type === 'mantra-main';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
               const isImage = phrase.type === 'image';
 
@@ -318,6 +319,12 @@ export default function TextPage() {
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
                     <div className="phrase phrase-mantra">
+                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                      </span>
+                    </div>
+                  ) : isMantraMain ? (
+                    <div className="phrase phrase-mantra phrase-mantra-main">
                       <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
