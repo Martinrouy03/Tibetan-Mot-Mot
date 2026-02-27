@@ -71,6 +71,20 @@
   border-bottom: none;
 }
 
+.collapse-btn {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  flex-shrink: 0;
+}
+
+.collapse-btn:hover {
+  color: #ccc;
+}
+
 .variant-pill {
   display: flex;
   border: 1px solid #444;
