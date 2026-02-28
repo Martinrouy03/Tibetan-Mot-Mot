@@ -47,7 +47,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -81,7 +81,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -124,7 +124,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -168,7 +168,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -207,7 +207,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -250,7 +250,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -297,7 +297,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -336,7 +336,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -382,13 +382,8 @@ export const pratiqueChenrezik: PracticeText = {
             },
             {
               tibetan: "མཁྱེན་ནོ་",
-              phonetics: "",
-              translation: "...",
-            },
-            {
-              tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
-              translation: "accordez votre attention",
+              translation: "vous savez",
             },
           ],
         },
@@ -427,7 +422,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "karmapakchi",
               translation: "Karmapakchi",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -462,7 +457,7 @@ export const pratiqueChenrezik: PracticeText = {
             },
             { tibetan: "ཨོ་རྒྱན་", phonetics: "orgyen", translation: "Orgyen" },
             { tibetan: "ཆེན་པོ་", phonetics: "tchenpo", translation: "grand" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -499,7 +494,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Spontané",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -538,7 +533,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Instructeur",
             },
             { tibetan: "ཆེན་པོ་", phonetics: "tchenpo", translation: "Grand" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -581,7 +576,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "drakpa",
               translation: "Renommée",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -624,7 +619,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ouang po",
               translation: "Prince",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -663,7 +658,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "chek pa",
               translation: "Qui-S'en-Est-Allé",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -701,7 +696,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ratnabhadra",
               translation: "Pur Joyau",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -745,7 +740,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "teun den",
               translation: "Détenteur",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -784,7 +779,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Amour",
             },
             { tibetan: "བཟང་པོ་", phonetics: "zangpo", translation: "Pur" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -828,7 +823,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "teun droup",
               translation: "Qui Accomplit Le Bienfait",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -868,7 +863,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Renommée du Dharma",
             },
             { tibetan: "རྒྱ་མཚོ་", phonetics: "gyatso", translation: "Océan" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -911,7 +906,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "pal djor",
               translation: "Fortuné",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -950,7 +945,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Immuable",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -989,7 +984,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Rare et Sublime",
             },
             { tibetan: "ཡན་ལག་", phonetics: "yen lak", translation: "Rameau" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1028,7 +1023,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Puissant",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1072,7 +1067,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ouang tchouk",
               translation: "Puissance",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1116,7 +1111,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dordjé",
               translation: "Indestructible",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1155,7 +1150,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Sagesse",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "nyingpo", translation: "Cœur" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1194,7 +1189,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dordjé",
               translation: "Indestructible",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1238,7 +1233,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "teun droup",
               translation: "Qui Accomplit le Sens",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1281,7 +1276,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dordjé",
               translation: "Indestructible",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1320,7 +1315,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "djoung né",
               translation: "Source",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "…", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1359,7 +1354,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Dompte les Maras",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1399,7 +1394,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Accomplissement du Dharma",
             },
             { tibetan: "རྒྱ་མཚོ་", phonetics: "gyatso", translation: "Océan" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1438,7 +1433,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ouang po",
               translation: "Puissant",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1473,7 +1468,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Suprême",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1512,7 +1507,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Intelligence",
             },
             { tibetan: "མཐའ་ཡས་", phonetics: "t'ayé", translation: "Infinie" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1551,7 +1546,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Qui Tout Embrasse",
             },
             { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Vajra" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1586,7 +1581,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "au Pouvoir Suprême",
             },
             { tibetan: "རྒྱལ་པོ་", phonetics: "gyalpo", translation: "Roi" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1631,7 +1626,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "euzer",
               translation: "Rayonnement",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1675,7 +1670,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dordjé",
               translation: "Indestructible",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1719,7 +1714,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "lodreu",
               translation: "intelligence",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "…", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         // Conclusion
@@ -1737,7 +1732,7 @@ export const pratiqueChenrezik: PracticeText = {
             },
             { tibetan: "རྩ་བའི་", phonetics: "tsa oué", translation: "racine" },
             { tibetan: "བླ་མ་", phonetics: "lama", translation: "Lama" },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1763,7 +1758,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "lha tsok",
               translation: "Assemblée des divinités",
             },
-            { tibetan: "མཁྱེན་ནོ་", phonetics: "...", translation: "..." },
+            { tibetan: "མཁྱེན་ནོ་", phonetics: "tchen no", translation: "vous savez" },
           ],
         },
         {
@@ -1791,8 +1786,8 @@ export const pratiqueChenrezik: PracticeText = {
             },
             {
               tibetan: "མཁྱེན་ནོ་",
-              phonetics: "...",
-              translation: "accordez votre attention",
+              phonetics: "tchen no",
+              translation: "vous savez",
             },
           ],
         },
@@ -3156,35 +3151,6 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
-          id: "ch-pk-3",
-          type: "normal",
-          tibetan: "།གསོལ་བ་འདེབས་སོ་སྐྱབས་མགོན་སྤྱན་རས་གཟིགས།",
-          phonetics: "seul oua / dep so / kyap gueun / tchenrézik",
-          translation: "je prie vers vous, Protecteur des êtres Chenrézik,",
-          words: [
-            {
-              tibetan: "གསོལ་བ་",
-              phonetics: "seul oua",
-              translation: "je prie",
-            },
-            {
-              tibetan: "འདེབས་སོ་",
-              phonetics: "dep so",
-              translation: "vers vous",
-            },
-            {
-              tibetan: "སྐྱབས་མགོན་",
-              phonetics: "kyap gueun",
-              translation: "Protecteur des êtres",
-            },
-            {
-              tibetan: "སྤྱན་རས་གཟིགས།",
-              phonetics: "tchenrézik",
-              translation: "Chenrézik",
-            },
-          ],
-        },
-        {
           id: "ch-pk-4",
           type: "normal",
           tibetan: "།གསོལ་བ་འདེབས་སོ་འཕགས་མཆོག་སྤྱན་རས་གཟིགས།",
@@ -3213,6 +3179,36 @@ export const pratiqueChenrezik: PracticeText = {
             },
           ],
         },
+        {
+          id: "ch-pk-3",
+          type: "normal",
+          tibetan: "།གསོལ་བ་འདེབས་སོ་སྐྱབས་མགོན་སྤྱན་རས་གཟིགས།",
+          phonetics: "seul oua / dep so / kyap gueun / tchenrézik",
+          translation: "je prie vers vous, Protecteur des êtres Chenrézik,",
+          words: [
+            {
+              tibetan: "གསོལ་བ་",
+              phonetics: "seul oua",
+              translation: "je prie",
+            },
+            {
+              tibetan: "འདེབས་སོ་",
+              phonetics: "dep so",
+              translation: "vers vous",
+            },
+            {
+              tibetan: "སྐྱབས་མགོན་",
+              phonetics: "kyap gueun",
+              translation: "Protecteur des êtres",
+            },
+            {
+              tibetan: "སྤྱན་རས་གཟིགས།",
+              phonetics: "tchenrézik",
+              translation: "Chenrézik",
+            },
+          ],
+        },
+
         {
           id: "ch-pk-5",
           type: "normal",
