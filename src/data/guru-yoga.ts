@@ -910,21 +910,26 @@ export const guruYoga: PracticeText = {
           translation:
             "ils fondent dans mes trois portes, j'obtiens les quatre initiations.",
           words: [
-            { tibetan: "རང་གི", phonetics: "rang gui", translation: "mes" },
+            { tibetan: "རང་གི", phonetics: "rang gui", translation: "en mes" },
             {
-              tibetan: "སྒོ་གསུམ",
+              tibetan: "སྒོ་གསུམ་ལ་",
               phonetics: "go soum",
               translation: "trois portes",
             },
             {
-              tibetan: "ལ་ཐིམ",
+              tibetan: "ཐིམ",
               phonetics: "la tim",
-              translation: "fondent dans",
+              translation: "fondent",
             },
             {
-              tibetan: "དབང་བཞི་ཐོབ",
-              phonetics: "ouang chi tob",
-              translation: "obtiens quatre initiations",
+              tibetan: "དབང་བཞི་",
+              phonetics: "ouang chi",
+              translation: "quatre initiations",
+            },
+            {
+              tibetan: "ཐོབ",
+              phonetics: "tob",
+              translation: "j'obtiens",
             },
           ],
         },
@@ -972,13 +977,13 @@ export const guruYoga: PracticeText = {
               translation: "parfaitement libre",
             },
             {
-              tibetan: "ངོ་བོ",
-              phonetics: "ngo ouo",
+              tibetan: "ངོ་བོ་ཉིད་",
+              phonetics: "ngo ouo nyi",
               translation: "essentiel",
             },
             {
-              tibetan: "ཉིད་སྐུ",
-              phonetics: "nyi kou",
+              tibetan: "སྐུ",
+              phonetics: "kou",
               translation: "corps",
             },
             {

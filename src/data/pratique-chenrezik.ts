@@ -2887,7 +2887,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-7b-20",
           type: "normal",
           tibetan: "ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་དུ་གསོལ།།",
-          phonetics: "tcheukyi / khorlo / kor tou sõl",
+          phonetics: "tcheukyi / khorlo / kor tou seul",
           translation: "Je vous prie de tourner la roue du Dharma.",
           words: [
             {
@@ -2897,9 +2897,14 @@ export const pratiqueChenrezik: PracticeText = {
             },
             { tibetan: "འཁོར་ལོ་", phonetics: "khorlo", translation: "roue" },
             {
-              tibetan: "བསྐོར་དུ་གསོལ།།",
-              phonetics: "kor tou sõl",
-              translation: "Je vous prie de tourner",
+              tibetan: "བསྐོར་དུ་",
+              phonetics: "kor tou",
+              translation: "tourner",
+            },
+            {
+              tibetan: "གསོལ།།",
+              phonetics: "seul",
+              translation: "Je vous prie",
             },
           ],
         },
