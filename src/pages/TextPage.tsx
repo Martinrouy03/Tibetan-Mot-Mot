@@ -133,13 +133,17 @@ export default function TextPage() {
         {text.title}
       </h2>
       {text.sections.map((section) => {
+        if (section.id === 'ch-thoungma') return null;
         let normalCount = 0;
 
         // Build pairs [label?, normal, image?] for ta-hommage and ch-priere-lignee
         type PhrasePair = { label?: typeof section.phrases[0]; normal: typeof section.phrases[0]; image?: typeof section.phrases[0] };
         const pairs: PhrasePair[] = [];
         const isHommageSection = section.id === 'ta-hommage' || section.id === 'ch-priere-lignee';
-        const activePhrases = section.id === 'ch-priere-lignee' && ligneeVariant === 'dorje-chang' ? [] : section.phrases;
+        const thoungmaSection = text.sections.find(s => s.id === 'ch-thoungma');
+        const activePhrases = section.id === 'ch-priere-lignee' && ligneeVariant === 'dorje-chang'
+          ? (thoungmaSection?.phrases ?? [])
+          : section.phrases;
         if (isHommageSection) {
           let i = 0;
           while (i < activePhrases.length) {
