@@ -331,13 +331,37 @@ export default function TextPage() {
                         {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                       </span>
                     </div>
-                  ) : isMantraMain ? (
-                    <div className="phrase phrase-mantra phrase-mantra-main">
-                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                      </span>
-                    </div>
-                  ) : isSpecial ? (
+                  ) : isMantraMain ? (() => {
+                    const syllablesTib = [
+                      { text: 'ཨོཾ་', color: '#ffffff' },
+                      { text: 'མ་', color: '#2da44e' },
+                      { text: 'ཎི་', color: '#f0c000' },
+                      { text: 'པད་', color: '#1a56c4' },
+                      { text: 'མེ་', color: '#d73a3a' },
+                      { text: 'ཧཱུྃ།', color: '#111111' },
+                    ];
+                    const syllablesPho = [
+                      { text: 'om', color: '#ffffff' },
+                      { text: ' ma', color: '#2da44e' },
+                      { text: 'ni', color: '#f0c000' },
+                      { text: ' pé', color: '#1a56c4' },
+                      { text: 'mé', color: '#d73a3a' },
+                      { text: ' houng', color: '#111111' },
+                    ];
+                    const syllables = displayMode === 'tibetan' ? syllablesTib : syllablesPho;
+                    return (
+                      <div className="phrase phrase-mantra phrase-mantra-main">
+                        <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                          {syllables.map((s, i) => (
+                            <span key={i} style={s.color === '#111111'
+                              ? { display: 'inline-block', verticalAlign: 'baseline', color: s.color, textShadow: '-0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white' }
+                              : { display: 'inline-block', verticalAlign: 'baseline', color: s.color }
+                            }>{s.text}</span>
+                          ))}
+                        </span>
+                      </div>
+                    );
+                  })() : isSpecial ? (
                     <div className="phrase phrase-special">
                       <span className="phrase-text tibetan">{phrase.tibetan}</span>
                       {phrase.translation && (
