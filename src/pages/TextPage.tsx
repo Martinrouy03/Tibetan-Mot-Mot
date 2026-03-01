@@ -23,6 +23,7 @@ export default function TextPage() {
   const [chenrezikSizePct, setChenrezikSizePct] = useState(80);
   const [ligneeVariant, setLigneeVariant] = useState<'mahamoudra' | 'dorje-chang'>('mahamoudra');
   const [ligneeCollapsed, setLigneeCollapsed] = useState(false);
+  const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -167,25 +168,30 @@ export default function TextPage() {
         return (
         <div key={section.id} className={`section section-${section.id}`}>
           {section.title && (
-            <div className="section-title-row">
-              <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>
-              {section.id === 'ch-priere-lignee' && (
-                <>
+            <>
+              <div className="section-title-row">
+                <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>
+                {section.id === 'ch-priere-lignee' && (
                   <button className="collapse-btn" onClick={() => setLigneeCollapsed(c => !c)}>
                     {ligneeCollapsed ? '▶' : '▼'}
                   </button>
-                  {!ligneeCollapsed && (
-                    <div className="variant-pill">
-                      <button className={`variant-btn ${ligneeVariant === 'mahamoudra' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('mahamoudra')}>Lignée du Mahamoudra</button>
-                      <button className={`variant-btn ${ligneeVariant === 'dorje-chang' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('dorje-chang')}>Dorje Chang Thoungma</button>
-                    </div>
-                  )}
-                </>
+                )}
+                {section.id === 'ch-pema-karpo' && (
+                  <button className="collapse-btn" onClick={() => setPemaKarpoCollapsed(c => !c)}>
+                    {pemaKarpoCollapsed ? '▶' : '▼'}
+                  </button>
+                )}
+              </div>
+              {section.id === 'ch-priere-lignee' && !ligneeCollapsed && (
+                <div className="variant-pill">
+                  <button className={`variant-btn ${ligneeVariant === 'mahamoudra' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('mahamoudra')}>Lignée du Mahamoudra</button>
+                  <button className={`variant-btn ${ligneeVariant === 'dorje-chang' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('dorje-chang')}>Dorje Chang Thoungma</button>
+                </div>
               )}
-            </div>
+            </>
           )}
           <div className="phrases">
-            {(section.id === 'ch-priere-lignee' && ligneeCollapsed) ? null : isHommageSection ? pairs.map(({ label, normal, image }) => {
+            {(section.id === 'ch-priere-lignee' && ligneeCollapsed) || (section.id === 'ch-pema-karpo' && pemaKarpoCollapsed) ? null : isHommageSection ? pairs.map(({ label, normal, image }) => {
               normalCount++;
               const buddhaName = image && section.id === 'ta-hommage'
                 ? (normalCount === 1 ? 'Bouddha Shakyamuni' : (normal.translation.match(/\(([^)]+)\)/)?.[1] ?? ''))
