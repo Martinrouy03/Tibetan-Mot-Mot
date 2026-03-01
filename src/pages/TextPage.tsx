@@ -133,7 +133,27 @@ export default function TextPage() {
         <span className="text-page-title-tibetan tibetan">{text.tibetanTitle}</span>
         {text.title}
       </h2>
-      {text.sections.map((section) => {
+      {text.tibetanOnly && text.sections.map((section) => {
+        const phrases = section.phrases;
+        const rows: { left: typeof phrases[0]; right?: typeof phrases[0] }[] = [];
+        for (let i = 0; i < phrases.length; i += 2) {
+          rows.push({ left: phrases[i], right: phrases[i + 1] });
+        }
+        return (
+          <div key={section.id} className="section">
+            {section.title && <h3 className="section-title">{section.title}</h3>}
+            <div className="tibetan-pairs">
+              {rows.map(({ left, right }) => (
+                <div key={left.id} className="tibetan-pair-row">
+                  <span className="tibetan">{left.tibetan}</span>
+                  {right ? <span className="tibetan">{right.tibetan}</span> : <span />}
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+      {!text.tibetanOnly && text.sections.map((section) => {
         if (section.id === 'ch-thoungma') return null;
         let normalCount = 0;
 

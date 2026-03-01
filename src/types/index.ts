@@ -29,6 +29,7 @@ export interface PracticeText {
   title: string;
   tibetanTitle: string;
   sections: Section[];
+  tibetanOnly?: boolean;
 }
 
 export type DisplayMode = 'tibetan' | 'phonetics';

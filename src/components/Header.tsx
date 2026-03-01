@@ -3,6 +3,7 @@ import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { DisplayMode, InteractionMode } from '../types';
+import { practiceTexts } from '../data/texts';
 import './Header.css';
 
 export default function Header() {
@@ -23,6 +24,8 @@ export default function Header() {
   };
 
   const isTextPage = location.pathname !== '/';
+  const textId = location.pathname.startsWith('/text/') ? location.pathname.slice(6) : null;
+  const isTibetanOnly = textId ? (practiceTexts.find(t => t.id === textId)?.tibetanOnly ?? false) : false;
 
   return (
     <header className={`header ${collapsed && isTextPage ? 'header-collapsed' : ''}`}>
@@ -40,7 +43,7 @@ export default function Header() {
           {collapsed ? '···' : '▲'}
         </button>
       )}
-      {isTextPage && !collapsed && (
+      {isTextPage && !collapsed && !isTibetanOnly && (
         <div className="header-controls">
           <div className="font-size-control">
             <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-1))}>−</button>

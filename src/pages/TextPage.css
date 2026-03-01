@@ -8,6 +8,21 @@
   padding-bottom: 70vh;
 }
 
+.tibetan-pairs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.tibetan-pair-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.tibetan-pair-row .tibetan {
+  font-size: var(--tibetan-font-size, 20px);
+}
+
 .back-button {
   background: none;
   border: none;
