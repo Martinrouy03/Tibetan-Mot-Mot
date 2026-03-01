@@ -394,6 +394,10 @@
   .phrase-text-phonetics {
     font-size: 0.95rem;
   }
+
+  .phrase-mantra-main .phrase-text {
+    font-size: 80vw;
+  }
 }
 
 .section-ch-corps .phrase-special {
