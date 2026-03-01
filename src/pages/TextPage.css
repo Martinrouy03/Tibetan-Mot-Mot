@@ -244,6 +244,21 @@
   margin-top: 0.2rem;
 }
 
+.phrase-image-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: 0.5rem 10% 1rem;
+}
+
+.phrase-image-row-item {
+  flex: 1;
+  min-width: 0;
+  width: 0;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
 .phrase-image-wrapper {
   position: relative;
   display: flex;
@@ -330,6 +345,9 @@
 
 .ta-hommage-image {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ta-hommage-image .phrase-image-wrapper {

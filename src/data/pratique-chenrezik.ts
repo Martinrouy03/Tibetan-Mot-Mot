@@ -2076,6 +2076,19 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
+          id: "ch-th-1-images",
+          type: "image-row" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          srcs: [
+            "/goldenRosary/1dc.jpeg",
+            "/goldenRosary/2tilo.jpeg",
+            "/goldenRosary/3naro.jpeg",
+          ],
+        },
+        {
           id: "ch-th-2",
           type: "normal",
           tibetan: "།མར་པ་མི་ལ་ཆོས་རྗེ་སྒམ་པོ་པ།",
@@ -2097,6 +2110,19 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
+          id: "ch-th-2-images",
+          type: "image-row" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          srcs: [
+            "/goldenRosary/4mar.jpeg",
+            "/goldenRosary/5mil.jpeg",
+            "/goldenRosary/6gom.jpeg",
+          ],
+        },
+        {
           id: "ch-th-3",
           type: "normal",
           tibetan: "།དུས་གསུམ་ཤེས་བྱ་ཀུན་མཁྱེན་ཀརྨ་པ།",
@@ -2111,7 +2137,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "ཤེས་བྱ་",
               phonetics: "ché tcha",
-              translation: "du connaissable",
+              translation: "connaissable",
             },
             {
               tibetan: "ཀུན་མཁྱེན་",
@@ -2126,19 +2152,37 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
+          id: "ch-th-3-image",
+          type: "image" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/goldenRosary/7k1.jpeg",
+        },
+        {
           id: "ch-th-4",
           type: "normal",
           tibetan: "།ཆེ་བཞི་ཆུང་བརྒྱད་བརྒྱུད་པ་འཛིན་རྣམས་དང༌།",
-          phonetics: "tché chi tchoung gyé gyu pa dzin nam tang",
+          phonetics: "tché / chi / tchoung / gyé / gyu pa / dzin nam / tang",
           translation:
             "détenteurs des quatre grandes et des huit petites lignées,",
           words: [
+            { tibetan: "ཆེ་", phonetics: "tché", translation: "grandes" },
+            { tibetan: "བཞི་", phonetics: "chi", translation: "quatre" },
+            { tibetan: "ཆུང་", phonetics: "tchoung", translation: "petites" },
+            { tibetan: "བརྒྱད་", phonetics: "gyé", translation: "huit" },
             {
-              tibetan: "།ཆེ་བཞི་ཆུང་བརྒྱད་བརྒྱུད་པ་འཛིན་རྣམས་དང༌།",
-              phonetics: "tché chi tchoung gyé gyu pa dzin nam tang",
-              translation:
-                "détenteurs des quatre grandes et des huit petites lignées",
+              tibetan: "བརྒྱུད་པ་",
+              phonetics: "gyu pa",
+              translation: "lignées",
             },
+            {
+              tibetan: "འཛིན་རྣམས་",
+              phonetics: "dzin nam",
+              translation: "détenteurs",
+            },
+            { tibetan: "དང༌", phonetics: "tang", translation: "et" },
           ],
         },
         {
@@ -2158,8 +2202,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "pel den",
               translation: "glorieux",
             },
-            { tibetan: "འབྲུག་", phonetics: "drouk", translation: "Droukpa" },
-            { tibetan: "པ་", phonetics: "pa", translation: "" },
+            { tibetan: "འབྲུག་", phonetics: "droukpa", translation: "Droukpa" },
             { tibetan: "སོགས།", phonetics: "so", translation: "etc." },
           ],
         },
@@ -2192,7 +2235,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།མཉམ་མེད་འགྲོ་མགོན་དྭགས་པོ་བཀའ་བརྒྱུད་ལ།",
           phonetics: "nyam mé / dro geun / dak po / ka gyu la",
           translation:
-            "[A vous tous, maîtres] de la lignée Dakpo Kagyupa, incomparables protecteurs des êtres,",
+            "[A vous tous, maîtres de la lignée] Dhagpo Kagyupa, incomparables protecteurs des êtres,",
           words: [
             {
               tibetan: "མཉམ་མེད་",
@@ -2204,11 +2247,11 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dro geun",
               translation: "protecteurs des êtres",
             },
-            { tibetan: "དྭགས་པོ་", phonetics: "dak po", translation: "Dakpo" },
+            { tibetan: "དྭགས་པོ་", phonetics: "dak po", translation: "Dhagpo" },
             {
               tibetan: "བཀའ་བརྒྱུད་ལ།",
               phonetics: "ka gyu la",
-              translation: "de la lignée Kagyupa",
+              translation: "Kagyupa",
             },
           ],
         },
@@ -2216,8 +2259,9 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-th-8",
           type: "normal",
           tibetan: "།གསོལ་བ་འདེབས་སོ་བཀའ་བརྒྱུད་བླ་མ་རྣམས།",
-          phonetics: "seul oua / dep so / ka gyu / la ma / nam",
-          translation: "je vous adresse ma prière, lamas de la lignée Kagyupa,",
+          phonetics: "seul oua / dep so / ka gyu / la ma nam",
+          translation:
+            "je vous adresse ma prière, lamas [de la lignée] Kagyupa,",
           words: [
             {
               tibetan: "གསོལ་བ་",
@@ -2234,8 +2278,11 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ka gyu",
               translation: "Kagyupa",
             },
-            { tibetan: "བླ་མ་", phonetics: "la ma", translation: "lamas" },
-            { tibetan: "རྣམས།", phonetics: "nam", translation: "de la lignée" },
+            {
+              tibetan: "བླ་མ་རྣམས།",
+              phonetics: "la ma nam",
+              translation: "lamas",
+            },
           ],
         },
         {
@@ -2259,7 +2306,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "རྣམ་ཐར་",
               phonetics: "nam tar",
-              translation: "par votre libération parfaite",
+              translation: "libération parfaite",
             },
             {
               tibetan: "བྱིན་གྱིས་རློབས།",
@@ -2274,12 +2321,17 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།ཞེན་ལོག་སྒོམ་གྱི་རྐང་པར་གསུངས་པ་བཞིན།",
           phonetics: "chen lok / gom kyi / kang par / soung pa / chin",
           translation:
-            "Il est dit que le détachement constitue les jambes de la méditation;",
+            "Comme il est dit: le renversement de l'attachement constitue les jambes de la méditation;",
           words: [
             {
-              tibetan: "ཞེན་ལོག་",
-              phonetics: "chen lok",
-              translation: "le détachement",
+              tibetan: "ཞེན་",
+              phonetics: "chen",
+              translation: "attachement",
+            },
+            {
+              tibetan: "ལོག་",
+              phonetics: "lok",
+              translation: "renversement",
             },
             {
               tibetan: "སྒོམ་གྱི་",
@@ -2292,11 +2344,10 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "les jambes",
             },
             {
-              tibetan: "གསུངས་པ་",
-              phonetics: "soung pa",
-              translation: "il est dit",
+              tibetan: "གསུངས་པ་བཞིན།",
+              phonetics: "soung pa chin",
+              translation: "comme il est dit",
             },
-            { tibetan: "བཞིན།", phonetics: "chin", translation: "que" },
           ],
         },
         {
@@ -2378,7 +2429,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།མོས་གུས་སྒོམ་གྱི་མགོ་བོར་གསུངས་པ་བཞིན།",
           phonetics: "meu gu / gom kyi / go ouor / soung pa / chin",
           translation:
-            "Il est dit que la dévotion constitue la tête de la méditation;",
+            "Comme il est dit: la dévotion constitue la tête de la méditation;",
           words: [
             {
               tibetan: "མོས་གུས་",
@@ -2396,11 +2447,10 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "la tête",
             },
             {
-              tibetan: "གསུངས་པ་",
-              phonetics: "soung pa",
-              translation: "il est dit",
+              tibetan: "གསུངས་པ་བཞིན།",
+              phonetics: "soung pa chin",
+              translation: "comme il est dit",
             },
-            { tibetan: "བཞིན།", phonetics: "chin", translation: "que" },
           ],
         },
         {
@@ -2496,7 +2546,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "ཡེངས་མེད་སྒོམ་གྱི་དངོས་གཞིར་གསུངས་པ་བཞིན།",
           phonetics: "yeng mé / gom kyi / ngeu chir / soung pa / chin",
           translation:
-            "Il est dit que la non-distraction constitue le corps de la méditation;",
+            "Comme il est dit: la non-distraction constitue le corps de la méditation;",
           words: [
             {
               tibetan: "ཡེངས་མེད་",
@@ -2514,11 +2564,10 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "le corps",
             },
             {
-              tibetan: "གསུངས་པ་",
-              phonetics: "soung pa",
-              translation: "il est dit",
+              tibetan: "གསུངས་པ་བཞིན།",
+              phonetics: "soung pa chin",
+              translation: "comme il est dit",
             },
-            { tibetan: "བཞིན།", phonetics: "chin", translation: "que" },
           ],
         },
         {
@@ -2527,7 +2576,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།གང་ཤར་རྟོགས་པའི་ངོ་བོ་སོ་མ་དེ།",
           phonetics: "kang char / tok pé / ngo ouo / so ma / té",
           translation:
-            "Tout ce qui surgit — cette nature même de la réalisation, telle quelle —",
+            "Cela même — l'essence brute de la reconnaissance de tout ce qui surgit,",
           words: [
             {
               tibetan: "གང་ཤར་",
@@ -2537,19 +2586,19 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "རྟོགས་པའི་",
               phonetics: "tok pé",
-              translation: "de la réalisation",
+              translation: "de la reconnaissance",
             },
             {
               tibetan: "ངོ་བོ་",
               phonetics: "ngo ouo",
-              translation: "la nature",
+              translation: "l'essence'",
             },
             {
               tibetan: "སོ་མ་",
               phonetics: "so ma",
-              translation: "telle quelle",
+              translation: "brute",
             },
-            { tibetan: "དེ།", phonetics: "té", translation: "cette" },
+            { tibetan: "དེ།", phonetics: "té", translation: "Cela même" },
           ],
         },
         {
@@ -2564,7 +2613,11 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "ma tcheu",
               translation: "sans rien modifier",
             },
-            { tibetan: "དེ་ཀར་", phonetics: "té kar", translation: "y" },
+            {
+              tibetan: "དེ་ཀར་",
+              phonetics: "té kar",
+              translation: "en cela-même",
+            },
             {
               tibetan: "འཇོག་པའི་",
               phonetics: "djok pé",
@@ -2590,8 +2643,11 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "gom tcha",
               translation: "la méditation",
             },
-            { tibetan: "བློ་", phonetics: "lo", translation: "d'élaborations" },
-            { tibetan: "དང་", phonetics: "tang", translation: "soit" },
+            {
+              tibetan: "བློ་དང་",
+              phonetics: "lo tang",
+              translation: "d'élaborations",
+            },
             {
               tibetan: "བྲལ་བར་",
               phonetics: "trel ouar",
@@ -2610,7 +2666,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།རྣམ་རྟོག་ངོ་བོ་ཆོས་སྐུར་གསུངས་པ་བཞིན།",
           phonetics: "nam tok / ngo ouo / tcheu kour / soung pa chin",
           translation:
-            "Il est dit que l'essence des pensées est le Dharmakaya;",
+            "Comme il est dit: l'essence des pensées est le Dharmakaya",
           words: [
             {
               tibetan: "རྣམ་རྟོག་",
@@ -2630,7 +2686,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "གསུངས་པ་བཞིན།",
               phonetics: "soung pa chin",
-              translation: "il est dit que",
+              translation: "comme il est dit",
             },
           ],
         },
@@ -2702,12 +2758,12 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "དབྱེར་མེད་",
               phonetics: "yer mé",
-              translation: "de l'inséparabilité",
+              translation: "inséparabilité",
             },
             {
               tibetan: "རྟོགས་པར་",
               phonetics: "tok par",
-              translation: "de la réalisation",
+              translation: "la réalisation",
             },
             {
               tibetan: "བྱིན་གྱིས་རློབས།།",

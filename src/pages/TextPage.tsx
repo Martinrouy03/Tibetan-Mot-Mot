@@ -158,6 +158,9 @@ export default function TextPage() {
             } else if (p.type === 'normal' && activePhrases[i + 1]?.type === 'image') {
               pairs.push({ normal: p, image: activePhrases[i + 1] });
               i += 2;
+            } else if (p.type === 'image-row') {
+              pairs.push({ normal: p });
+              i++;
             } else {
               pairs.push({ normal: p });
               i++;
@@ -207,7 +210,17 @@ export default function TextPage() {
                         <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
                       </div>
                     )}
-                    {normal.type === 'instructions' ? (
+                    {normal.type === 'image-row' ? (() => {
+                      const srcs = normal.srcs ?? [];
+                      const single = srcs.length === 1;
+                      return (
+                        <div className="phrase-image-row" style={single ? { justifyContent: 'center' } : undefined}>
+                          {srcs.map((src, idx) => (
+                            <img key={idx} src={src} alt="" className="phrase-image-row-item" style={single ? { flex: 'none', width: '30%' } : undefined} />
+                          ))}
+                        </div>
+                      );
+                    })() : normal.type === 'instructions' ? (
                       <div className="phrase phrase-special">
                         <span className="phrase-text tibetan">{normal.tibetan}</span>
                         {normal.translation && (
@@ -239,14 +252,7 @@ export default function TextPage() {
                   </div>
                   {image && (
                     <div className="ta-hommage-image">
-                      <div className="phrase-image-wrapper">
-                        <img src={image.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
-                        <div className="image-size-pill">
-                          <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
-                          <span className="image-size-label">{imageSizePct}</span>
-                          <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
-                        </div>
-                      </div>
+                      <img src={image.src} alt="" className="phrase-image" style={{ width: '60%' }} />
                     </div>
                   )}
                 </div>
@@ -315,6 +321,19 @@ export default function TextPage() {
               const isMantraMain = phrase.type === 'mantra-main';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
               const isImage = phrase.type === 'image';
+              const isImageRow = phrase.type === 'image-row';
+
+              if (isImageRow) {
+                const srcs = phrase.srcs ?? [];
+                const single = srcs.length === 1;
+                return (
+                  <div key={phrase.id} className="phrase-image-row" style={single ? { justifyContent: 'center' } : undefined}>
+                    {srcs.map((src, i) => (
+                      <img key={i} src={src} alt="" className="phrase-image-row-item" style={single ? { flex: 'none', width: '30%' } : undefined} />
+                    ))}
+                  </div>
+                );
+              }
 
               return (
                 <div
