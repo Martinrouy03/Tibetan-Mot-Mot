@@ -370,7 +370,7 @@ export const guruYoga: PracticeText = {
     {
       id: "ondee-nectar",
       title:
-        "La continuelle ondée de nectar qui fait se développer la pousse des quatre corps du Bouddha",
+        "La continuelle ondée de nectar\nqui fait se développer la pousse des quatre corps du Bouddha",
       phrases: [
         {
           id: "gy-3-0",

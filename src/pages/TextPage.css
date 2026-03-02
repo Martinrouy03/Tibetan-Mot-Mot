@@ -81,6 +81,7 @@
 
 .section-title-row .section-title,
 .section-title-row .section-subtitle {
+  flex: 1;
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
@@ -135,6 +136,8 @@
   margin-bottom: 1rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid #333;
+  text-align: center;
+  white-space: pre-line;
 }
 
 .section-subtitle {
@@ -207,9 +210,12 @@
   font-size: 1.2rem;
 }
 
-.section-purification .phrase-mantra .phrase-text,
-.section-ch-pema-karpo .phrase-mantra .phrase-text {
+.phrase-mantra:not(.phrase-mantra-main) .phrase-text {
   color: #fff;
+}
+
+.section-meditation .phrase-mantra .phrase-text {
+  font-size: 3.6rem;
 }
 
 .phrase-mantra-main .phrase-text {
@@ -409,7 +415,6 @@
 }
 
 .section-ch-corps .phrase-special .phrase-text {
-  font-weight: bold;
   font-size: 2rem;
   color: #fff;
 }

@@ -1,4 +1,4 @@
-import type { PracticeText } from '../types';
+import type { PracticeText } from "../types";
 
 export const vajrasattva: PracticeText = {
   id: "vajrasattva",
@@ -396,8 +396,7 @@ export const vajrasattva: PracticeText = {
           type: "instructions",
           tibetan: "མཐར་ཐལ་མོ་སྙིང་ཁར་སྦྱར་ཏེ།",
           phonetics: "",
-          translation:
-            "Enfin, les mains jointes au niveau du cœur, réciter :",
+          translation: "Enfin, les mains jointes au niveau du cœur, réciter :",
           words: [],
         },
         {
@@ -618,8 +617,7 @@ export const vajrasattva: PracticeText = {
           type: "normal",
           tibetan: "རྡོ་རྗེ་སེམས་དཔས་བདག་ལ་དབུགས་དབྱུང་ཞིང༌།",
           phonetics: "dor djé sem pé da la ouk young ching",
-          translation:
-            "Vajrasattva m'assure de mon absolution, fond en lumière",
+          translation: "Vajrasattva m'assure de mon absolution, ",
           words: [
             {
               tibetan: "རྡོ་རྗེ་སེམས་དཔས",
@@ -630,7 +628,7 @@ export const vajrasattva: PracticeText = {
             {
               tibetan: "དབུགས་དབྱུང་ཞིང",
               phonetics: "ouk young ching",
-              translation: "assure l'absolution et",
+              translation: "assure l'absolution",
             },
           ],
         },
@@ -639,7 +637,7 @@ export const vajrasattva: PracticeText = {
           type: "normal",
           tibetan: "འོད་ཞུ་བདག་ལ་ཐིམ་པས་གཉིས་མེད་གྱུར།",
           phonetics: "eu chou da la tim pé nyi mé kyour",
-          translation: "et se mêle en moi, indifférencié.",
+          translation: "fond en lumière, et se mêle en moi, indifférencié.",
           words: [
             {
               tibetan: "འོད་ཞུ",
