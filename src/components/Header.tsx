@@ -43,6 +43,27 @@ export default function Header() {
           {collapsed ? '···' : '▲'}
         </button>
       )}
+      {isTextPage && !collapsed && isTibetanOnly && (
+        <div className="header-controls">
+          <div className="font-size-control">
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-1))}>−</button>
+            <span className="font-size-icon">🔍</span>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(1))}>+</button>
+          </div>
+          <div className="radio-group">
+            <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
+              <input type="radio" name="displayMode" value="tibetan" checked={displayMode === 'tibetan'} onChange={() => handleModeChange('tibetan')} />
+              <span className="label-full">Tibétain</span>
+              <span className="label-short tibetan">ཀ</span>
+            </label>
+            <label className={`radio-label ${displayMode === 'phonetics' ? 'active' : ''}`}>
+              <input type="radio" name="displayMode" value="phonetics" checked={displayMode === 'phonetics'} onChange={() => handleModeChange('phonetics')} />
+              <span className="label-full">Phonétique</span>
+              <span className="label-short">ka</span>
+            </label>
+          </div>
+        </div>
+      )}
       {isTextPage && !collapsed && !isTibetanOnly && (
         <div className="header-controls">
           <div className="font-size-control">

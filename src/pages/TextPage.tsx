@@ -145,8 +145,14 @@ export default function TextPage() {
             <div className="tibetan-pairs">
               {rows.map(({ left, right }) => (
                 <div key={left.id} className="tibetan-pair-row">
-                  <span className="tibetan">{left.tibetan}</span>
-                  {right ? <span className="tibetan">{right.tibetan}</span> : <span />}
+                  <span className={displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}>
+                    {displayMode === 'tibetan' ? left.tibetan : left.phonetics}
+                  </span>
+                  {right
+                    ? <span className={displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}>
+                        {displayMode === 'tibetan' ? right.tibetan : right.phonetics}
+                      </span>
+                    : <span />}
                 </div>
               ))}
             </div>
