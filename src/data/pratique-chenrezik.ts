@@ -4,6 +4,7 @@ export const pratiqueChenrezik: PracticeText = {
   id: "pratique-chenrezik",
   title: "Pratique de Chenrezik",
   tibetanTitle: "སྤྱན་རས་གཟིགས།",
+  audioSrc: "/audio/Chenrézik_Karmapa.mp3",
   sections: [
     {
       id: "ch-priere-lignee",
