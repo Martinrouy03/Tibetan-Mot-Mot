@@ -268,8 +268,8 @@
 .phrase-image-row {
   display: flex;
   gap: 20px;
-  width: 100%;
-  margin: 0.5rem 10% 1rem;
+  width: 80%;
+  margin: 0.5rem auto 1rem;
 }
 
 .phrase-image-row-item {

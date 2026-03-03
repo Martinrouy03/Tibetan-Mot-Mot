@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { flushSync } from 'react-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -20,7 +21,18 @@ export default function Header() {
   };
 
   const handleInteractionChange = (mode: InteractionMode) => {
-    dispatch(setInteractionMode(mode));
+    const phrases = document.querySelectorAll('.phrase-container');
+    let anchor: Element | null = null;
+    let minDist = Infinity;
+    phrases.forEach(el => {
+      const dist = Math.abs(el.getBoundingClientRect().top);
+      if (dist < minDist) { minDist = dist; anchor = el; }
+    });
+    const topBefore = anchor?.getBoundingClientRect().top ?? 0;
+    flushSync(() => { dispatch(setInteractionMode(mode)); });
+    if (anchor) {
+      window.scrollBy(0, (anchor as Element).getBoundingClientRect().top - topBefore);
+    }
   };
 
   const isTextPage = location.pathname !== '/';
