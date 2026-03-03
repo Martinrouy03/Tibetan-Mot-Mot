@@ -4,6 +4,7 @@ export const dewachen: PracticeText = {
   id: 'dewachen',
   title: 'Souhaits de Dewachen',
   tibetanTitle: 'བདེ་བ་ཅན་',
+  audioSrc: "/audio/AmitabhaKSR.mp3",
   sections: [
     {
       id: 'dw-defunts',

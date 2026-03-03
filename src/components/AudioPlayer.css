@@ -56,6 +56,26 @@
   vertical-align: middle;
 }
 
+.audio-loop-btn {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 0.4rem;
+  line-height: 1;
+  margin-left: 0.5rem;
+  transition: color 0.15s ease;
+}
+
+.audio-loop-btn:hover {
+  color: #888;
+}
+
+.audio-loop-active {
+  color: #c9a84c !important;
+}
+
 .audio-play-btn {
   background: none;
   border: none;

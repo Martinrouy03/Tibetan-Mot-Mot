@@ -17,6 +17,7 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [loop, setLoop] = useState(false);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -44,6 +45,14 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
     if (!audio) return;
     audio.currentTime = Math.max(0, Math.min(audio.duration || 0, audio.currentTime + delta));
   }, []);
+
+  const toggleLoop = useCallback(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const next = !loop;
+    audio.loop = next;
+    setLoop(next);
+  }, [loop]);
 
   const togglePlay = useCallback(() => {
     const audio = audioRef.current;
@@ -84,6 +93,11 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
             {playing ? '⏸' : '▶'}
           </button>
           <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s <span className="audio-seek-icon">↻</span></button>
+          <button
+            className={`audio-loop-btn${loop ? ' audio-loop-active' : ''}`}
+            onClick={toggleLoop}
+            aria-label="Lecture en boucle"
+          >⟳</button>
         </div>
         <span className="audio-time">−{formatTime(remaining)}</span>
       </div>

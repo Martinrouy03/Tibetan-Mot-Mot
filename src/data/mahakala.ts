@@ -5,6 +5,7 @@ export const mahakala: PracticeText = {
   title: 'Courte pratique de Mahakala',
   tibetanTitle: 'མ་དག་',
   tibetanOnly: true,
+  audioSrc: "/audio/Madak.mp3",
   sections: [
     {
       id: 'mk-main',
