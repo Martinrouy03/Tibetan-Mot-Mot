@@ -4,6 +4,7 @@ import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setSelectedPhrase } from '../store/uiSlice';
 import PhraseBreakdown from '../components/PhraseBreakdown';
+import AudioPlayer from '../components/AudioPlayer';
 import './TextPage.css';
 
 const WHEEL_TICKS_PER_PHRASE = 3;
@@ -368,7 +369,7 @@ export default function TextPage() {
                       className="repeat-btn"
                       onClick={() => document.querySelector(`[data-phrase-id="${phrase.targetId}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                     >
-                      ↩ {phrase.translation}
+                      ↑ {phrase.translation}
                     </button>
                   </div>
                 );
@@ -501,6 +502,7 @@ export default function TextPage() {
           </button>
         )}
       </div>
+      {text.audioSrc && <AudioPlayer src={text.audioSrc} />}
     </div>
   );
 }

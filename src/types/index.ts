@@ -31,6 +31,7 @@ export interface PracticeText {
   tibetanTitle: string;
   sections: Section[];
   tibetanOnly?: boolean;
+  audioSrc?: string;
 }
 
 export type DisplayMode = 'tibetan' | 'phonetics';
