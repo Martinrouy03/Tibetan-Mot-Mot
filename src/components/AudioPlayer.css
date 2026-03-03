@@ -29,6 +29,33 @@
   padding: 0.5rem 1.5rem;
 }
 
+.audio-center-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.audio-seek-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+.audio-seek-btn:hover {
+  color: #c9a84c;
+}
+
+.audio-seek-icon {
+  display: inline-block;
+  transform: rotate(180deg);
+  font-size: 1.7rem;
+  vertical-align: middle;
+}
+
 .audio-play-btn {
   background: none;
   border: none;

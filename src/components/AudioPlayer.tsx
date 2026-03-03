@@ -39,6 +39,12 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
     };
   }, []);
 
+  const seek = useCallback((delta: number) => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = Math.max(0, Math.min(audio.duration || 0, audio.currentTime + delta));
+  }, []);
+
   const togglePlay = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -72,9 +78,13 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
       </div>
       <div className="audio-controls">
         <span className="audio-time">{formatTime(currentTime)}</span>
-        <button className="audio-play-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Lecture'}>
-          {playing ? '⏸' : '▶'}
-        </button>
+        <div className="audio-center-controls">
+          <button className="audio-seek-btn" onClick={() => seek(-10)} aria-label="-10 secondes"><span className="audio-seek-icon">↺</span> −10s</button>
+          <button className="audio-play-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Lecture'}>
+            {playing ? '⏸' : '▶'}
+          </button>
+          <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s <span className="audio-seek-icon">↻</span></button>
+        </div>
         <span className="audio-time">−{formatTime(remaining)}</span>
       </div>
       <audio ref={audioRef} src={src} preload="metadata" />
