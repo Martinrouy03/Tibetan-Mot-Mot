@@ -347,6 +347,24 @@
   opacity: 0.8;
 }
 
+.repeat-btn {
+  display: block;
+  margin: 1rem auto;
+  background: none;
+  border: 1px solid #c9a84c88;
+  color: #c9a84c;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.repeat-btn:hover {
+  background: rgba(201, 168, 76, 0.15);
+}
+
 .ta-hommage-pair {
   display: flex;
   align-items: flex-start;

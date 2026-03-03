@@ -4,7 +4,7 @@ export interface Word {
   translation: string;
 }
 
-export type PhraseType = 'normal' | 'mantra' | 'mantra-main' | 'instructions' | 'colophon' | 'image' | 'image-row';
+export type PhraseType = 'normal' | 'mantra' | 'mantra-main' | 'instructions' | 'colophon' | 'image' | 'image-row' | 'repeat-btn';
 
 export interface Phrase {
   id: string;
@@ -15,6 +15,7 @@ export interface Phrase {
   words: Word[];
   src?: string;
   srcs?: string[];
+  targetId?: string;
 }
 
 export interface Section {

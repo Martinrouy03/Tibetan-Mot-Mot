@@ -359,6 +359,20 @@ export default function TextPage() {
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
               const isImage = phrase.type === 'image';
               const isImageRow = phrase.type === 'image-row';
+              const isRepeatBtn = phrase.type === 'repeat-btn';
+
+              if (isRepeatBtn) {
+                return (
+                  <div key={phrase.id} className="phrase-container phrase-no-interact">
+                    <button
+                      className="repeat-btn"
+                      onClick={() => document.querySelector(`[data-phrase-id="${phrase.targetId}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                    >
+                      ↩ {phrase.translation}
+                    </button>
+                  </div>
+                );
+              }
 
               if (isImageRow) {
                 const srcs = phrase.srcs ?? [];

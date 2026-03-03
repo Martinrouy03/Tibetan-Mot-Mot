@@ -7,6 +7,7 @@ import { souhaitsSamantabhadra } from './souhaits-samantabhadra';
 import { pratiqueChenrezik } from './pratique-chenrezik';
 import { louangeManjushri } from './louange-manjushri';
 import { mahakala } from './mahakala';
+import { dewachen } from './dewachen';
 
 export const practiceTexts: PracticeText[] = [
   guruYoga,
@@ -17,4 +18,5 @@ export const practiceTexts: PracticeText[] = [
   pratiqueChenrezik,
   louangeManjushri,
   mahakala,
+  dewachen,
 ];
