@@ -28,7 +28,7 @@ export default function Header() {
       const dist = Math.abs(el.getBoundingClientRect().top);
       if (dist < minDist) { minDist = dist; anchor = el; }
     });
-    const topBefore = anchor?.getBoundingClientRect().top ?? 0;
+    const topBefore = (anchor as Element | null)?.getBoundingClientRect().top ?? 0;
     flushSync(() => { dispatch(setInteractionMode(mode)); });
     if (anchor) {
       window.scrollBy(0, (anchor as Element).getBoundingClientRect().top - topBefore);
