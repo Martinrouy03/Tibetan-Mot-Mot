@@ -2773,6 +2773,109 @@ export const pratiqueChenrezik: PracticeText = {
             },
           ],
         },
+        {
+          id: "ch-th-26",
+          type: "normal",
+          tibetan: "།སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང་།།",
+          phonetics: "kye wa / kun tu / yang dag / la ma dang",
+          translation: "A travers toutes mes naissances, avec un lama parfait,",
+          words: [
+            {
+              tibetan: "སྐྱེ་བ་",
+              phonetics: "kye wa",
+              translation: "naissances",
+            },
+            { tibetan: "ཀུན་ཏུ་", phonetics: "kun tu", translation: "toutes" },
+            {
+              tibetan: "ཡང་དག་",
+              phonetics: "yang dag",
+              translation: "parfait",
+            },
+            {
+              tibetan: "བླ་མ་དང་",
+              phonetics: "la ma dang",
+              translation: "le lama",
+            },
+          ],
+        },
+        {
+          id: "ch-th-27",
+          type: "normal",
+          tibetan: "།འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང་།།",
+          phonetics: "drel mé / tcheu kyi / pal la / long tcheu / ching",
+          translation:
+            "Puissions-nous être inséparables, et jouir de la gloire du Dharma.",
+          words: [
+            {
+              tibetan: "འབྲལ་མེད་",
+              phonetics: "drel mé",
+              translation: "inséparables",
+            },
+            {
+              tibetan: "ཆོས་ཀྱི་",
+              phonetics: "tcheu kyi",
+              translation: "du Dharma",
+            },
+            { tibetan: "དཔལ་ལ་", phonetics: "pal la", translation: "gloire" },
+            {
+              tibetan: "ལོངས་སྤྱོད་",
+              phonetics: "long tcheu",
+              translation: "jouir",
+            },
+            { tibetan: "ཅིང་", phonetics: "ching", translation: "et" },
+          ],
+        },
+        {
+          id: "ch-th-28",
+          type: "normal",
+          tibetan: "།ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།།",
+          phonetics: "sa dang / lam gyi / teun ten / rab / dzog / né",
+          translation:
+            "Ayant parachevé pleinement les qualités des terres et des chemins,",
+          words: [
+            {
+              tibetan: "ས་དང་",
+              phonetics: "sa dang",
+              translation: "terres et",
+            },
+            {
+              tibetan: "ལམ་གྱི་",
+              phonetics: "lam gyi",
+              translation: "des chemins",
+            },
+            {
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "teun ten",
+              translation: "qualités",
+            },
+            { tibetan: "རབ་", phonetics: "rab", translation: "pleinement" },
+            { tibetan: "རྫོགས་", phonetics: "dzog", translation: "parachevé" },
+            { tibetan: "ནས་", phonetics: "né", translation: "Ayant" },
+          ],
+        },
+        {
+          id: "ch-th-29",
+          type: "normal",
+          tibetan: "།རྡོ་རྗེ་འཆང་གི་གོ་འཕང་མྱུར་ཐོབ་ཤོག།",
+          phonetics: "dordjé chang gi / go pang / nyour / thob / sho",
+          translation:
+            "et atteindre rapidement l'état de Dordjé Chang, puissions-nous !",
+          words: [
+            {
+              tibetan: "རྡོ་རྗེ་འཆང་གི་",
+              phonetics: "dordjé chang gi",
+              translation: "Dordjé Chang",
+            },
+            { tibetan: "གོ་འཕང་", phonetics: "go pang", translation: "l'état" },
+            { tibetan: "མྱུར་", phonetics: "nyour", translation: "rapidement" },
+            { tibetan: "ཐོབ་", phonetics: "thob", translation: "atteindre" },
+            {
+              tibetan: "ཤོག།",
+              phonetics: "sho",
+              translation: "puissions-nous",
+            },
+          ],
+        },
       ],
     },
     {
@@ -5748,6 +5851,15 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "puissions-nous",
             },
           ],
+        },
+        {
+          id: "ch-nav-dewachen",
+          type: "nav-btn" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "Souhaits de Dewachen",
+          targetId: "/text/dewachen",
+          words: [],
         },
       ],
     },

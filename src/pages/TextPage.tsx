@@ -196,7 +196,7 @@ export default function TextPage() {
         }
 
         return (
-        <div key={section.id} className={`section section-${section.id}`}>
+        <div key={section.id} id={section.id} className={`section section-${section.id}`}>
           {section.title && (
             <>
               <div className="section-title-row">
@@ -370,6 +370,30 @@ export default function TextPage() {
                       onClick={() => document.querySelector(`[data-phrase-id="${phrase.targetId}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                     >
                       ↑ {phrase.translation}
+                    </button>
+                  </div>
+                );
+              }
+
+              if (phrase.type === 'nav-btn') {
+                return (
+                  <div key={phrase.id} className={`phrase-container phrase-no-interact nav-btn-container${phrase.navBack ? ' nav-btn-container-left' : ''}`}>
+                    <button
+                      className="nav-btn"
+                      onClick={() => {
+                        dispatch(setSelectedPhrase(null));
+                        const target = phrase.targetId ?? '/';
+                        const [path, hash] = target.split('#');
+                        if (hash) {
+                          navigate(path);
+                          setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+                        } else {
+                          window.scrollTo(0, 0);
+                          navigate(target);
+                        }
+                      }}
+                    >
+                      {phrase.navBack ? `← ${phrase.translation}` : `${phrase.translation} →`}
                     </button>
                   </div>
                 );

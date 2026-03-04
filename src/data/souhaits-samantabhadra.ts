@@ -11,6 +11,15 @@ export const souhaitsSamantabhadra: PracticeText = {
       title: "",
       phrases: [
         {
+          id: "ss-image",
+          type: "image" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          src: "/Samantabhadra.jpg",
+          words: [],
+        },
+        {
           id: "ss-intro-1",
           type: "instructions",
           tibetan: "རྒྱ་གར་སྐད་དུ། ཨཱརྱ་བྷ་དྲ་ཅརྱ་པྲ་ཎི་དྷཱ་ན་རཱ་ཇ།",

@@ -10,6 +10,15 @@ export const louangeManjushri: PracticeText = {
       title: "",
       phrases: [
         {
+          id: "mj-image",
+          type: "image" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          src: "/Manjushri.jpg",
+          words: [],
+        },
+        {
           id: "mj-1",
           type: "normal",
           tibetan:
