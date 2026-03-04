@@ -66,13 +66,22 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
     }
   }, [playing]);
 
-  const handleProgressClick = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+  const seekToX = useCallback((clientX: number, rect: DOMRect) => {
     const audio = audioRef.current;
     if (!audio || !duration) return;
-    const rect = e.currentTarget.getBoundingClientRect();
-    const ratio = (e.clientX - rect.left) / rect.width;
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
     audio.currentTime = ratio * duration;
   }, [duration]);
+
+  const handleProgressClick = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    seekToX(e.clientX, e.currentTarget.getBoundingClientRect());
+  }, [seekToX]);
+
+  const handleProgressTouch = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    const touch = e.touches[0] ?? e.changedTouches[0];
+    seekToX(touch.clientX, e.currentTarget.getBoundingClientRect());
+  }, [seekToX]);
 
   const progress = duration > 0 ? currentTime / duration : 0;
   const remaining = duration > 0 ? duration - currentTime : 0;
@@ -82,17 +91,19 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
       <div
         className="audio-progress-bar"
         onClick={handleProgressClick}
+        onTouchStart={handleProgressTouch}
+        onTouchMove={handleProgressTouch}
       >
         <div className="audio-progress-fill" style={{ width: `${progress * 100}%` }} />
       </div>
       <div className="audio-controls">
         <span className="audio-time">{formatTime(currentTime)}</span>
         <div className="audio-center-controls">
-          <button className="audio-seek-btn" onClick={() => seek(-10)} aria-label="-10 secondes"><span className="audio-seek-icon">↺</span> −10s</button>
+          <button className="audio-seek-btn" onClick={() => seek(-10)} aria-label="-10 secondes">−10s</button>
           <button className="audio-play-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Lecture'}>
             {playing ? '⏸' : '▶'}
           </button>
-          <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s <span className="audio-seek-icon">↻</span></button>
+          <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s</button>
           <button
             className={`audio-loop-btn${loop ? ' audio-loop-active' : ''}`}
             onClick={toggleLoop}

@@ -13,6 +13,7 @@
   background: #333;
   cursor: pointer;
   position: relative;
+  touch-action: none;
 }
 
 .audio-progress-fill {
@@ -47,13 +48,6 @@
 
 .audio-seek-btn:hover {
   color: #c9a84c;
-}
-
-.audio-seek-icon {
-  display: inline-block;
-  transform: rotate(180deg);
-  font-size: 1.7rem;
-  vertical-align: middle;
 }
 
 .audio-loop-btn {
