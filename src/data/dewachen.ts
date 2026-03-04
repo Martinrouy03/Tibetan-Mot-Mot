@@ -331,22 +331,27 @@ export const dewachen: PracticeText = {
           tibetan: "བདེ་སྐྱིད་ངོ་མཚར་དཔག་ཏུ་མེད་པ་ཡི༔",
           phonetics: "dé kyi / ngo tsar / pak tou / mé pa yi",
           translation:
-            "Là où la félicité y est merveilleuse sont incommensurables,",
+            "Là où bonheur et joie sont d'une merveille incommensurable",
           words: [
             {
-              tibetan: "བདེ་སྐྱིད་",
-              phonetics: "dé kyi",
-              translation: "la félicité",
+              tibetan: "བདེ་་",
+              phonetics: "dé",
+              translation: "bonheur",
+            },
+            {
+              tibetan: "སྐྱིད་",
+              phonetics: "kyi",
+              translation: "et joie",
             },
             {
               tibetan: "ངོ་མཚར་",
               phonetics: "ngo tsar",
-              translation: "merveilleuse",
+              translation: "merveille",
             },
             {
               tibetan: "དཔག་ཏུ་མེད་པ་ཡི་",
               phonetics: "pak tou mé pa yi",
-              translation: "incommensurables",
+              translation: "incommensurable",
             },
           ],
         },
@@ -354,16 +359,19 @@ export const dewachen: PracticeText = {
           id: "dw-13",
           type: "normal",
           tibetan: "བདེ་བ་ཅན་ཞེས་བྱ་བའི་ཞིང་ཁམས་དེར༔",
-          phonetics: "déwa / tchen ché / dja wé / ching k'am ter",
+          phonetics: "déwatchen / ché dja wé / ching k'am ter",
           translation: "Dans cette terre pure du nom de Sukhāvatī ;",
           words: [
-            { tibetan: "བདེ་བ་", phonetics: "déwa", translation: "Sukhāvatī" },
             {
-              tibetan: "ཅན་ཞེས་",
-              phonetics: "tchen ché",
-              translation: "du nom",
+              tibetan: "བདེ་བ་ཅན་",
+              phonetics: "déwatchen",
+              translation: "Sukhāvatī",
             },
-            { tibetan: "བྱ་བའི་", phonetics: "dja wé", translation: "de" },
+            {
+              tibetan: "ཞེས་བྱ་བའི་",
+              phonetics: " ché dja wé",
+              translation: "du nom de",
+            },
             {
               tibetan: "ཞིང་ཁམས་",
               phonetics: "ching k'am",

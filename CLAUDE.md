@@ -105,6 +105,10 @@ Dans tous les mondes et dans les dix directions,
 
 - **En cas de doute ou d'incohérence dans les données fournies** (décalage entre nombre de groupes phonétiques et mots de la traduction, ambiguïté sur un nom propre, données manquantes, etc.), toujours signaler le problème et demander validation **avant** de faire un choix. **Il n'existe pas de cas "trop mineur" pour cette règle.** Même si l'assignation semble évidente, s'arrêter et demander reste obligatoire. Ne jamais insérer de données partielles en signalant le problème après coup.
 
+## Convention de syntaxe pour les fichiers de données
+
+- **Toujours utiliser des double quotes `"..."` pour toutes les chaînes** dans les fichiers `src/data/*.ts` — les single quotes `'...'` cassent le parser esbuild si la valeur contient une apostrophe française (ex: `l'état`, `d'un`). S'applique à tous les champs : `translation`, `tibetan`, `phonetics`, `id`, `title`, etc.
+
 ## Règles de développement
 
 - **Ne jamais utiliser un sous-agent Bash pour écrire des fichiers de données** — utiliser directement le tool `Write`
