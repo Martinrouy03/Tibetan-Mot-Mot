@@ -410,7 +410,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-10",
           type: "normal",
           tibetan: "གྲུབ་ཆེན་ཀརྨ་པཀྴི་མཁྱེན་ནོ།",
-          phonetics: "droup tchen / karmapakchi / , vous savez",
+          phonetics: "droup tchen / karmapakchi / khyenno",
           translation: "Grand Accompli <i>Karmapakchi</i>, vous savez",
           words: [
             {
@@ -452,7 +452,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-11",
           type: "normal",
           tibetan: "།མཁས་གྲུབ་ཨོ་རྒྱན་ཆེན་པོ་མཁྱེན་ནོ།",
-          phonetics: "ké droup / orgyen / tchenpo / , vous savez",
+          phonetics: "ké droup / orgyen / tchenpo / khyenno",
           translation: "Érudit et Accompli, le grand <i>Orgyen</i>…",
           words: [
             {
@@ -491,7 +491,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-12",
           type: "normal",
           tibetan: "སེམས་དཔའ་རང་བྱུང་རྡོ་རྗེ་མཁྱེན་ནོ།",
-          phonetics: "sem / pa / rang djoung / dordjé / , vous savez",
+          phonetics: "sem / pa / rang djoung / dordjé / khyenno",
           translation:
             "Courageux du coeur <i>Vajra Spontané Indestructible</i>, vous savez",
           words: [
@@ -532,7 +532,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-13",
           type: "normal",
           tibetan: "།རྒྱལ་བ་གཡུང་སྟོན་ཆེན་པོ་མཁྱེན་ནོ།",
-          phonetics: "gyal oua / young teun / tchenpo / , vous savez",
+          phonetics: "gyal oua / young teun / tchenpo / khyenno",
           translation: "Grand <i>Instructeur</i> Victorieux, vous savez",
           words: [
             {
@@ -575,7 +575,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-14",
           type: "normal",
           tibetan: "འཛམ་གླིང་ཆོས་ཀྱི་གྲགས་པ་མཁྱེན་ནོ།",
-          phonetics: "dzamling / tcheu kyi / drakpa / , vous savez",
+          phonetics: "dzamling / tcheu kyi / drakpa / khyenno",
           translation: "<i>Renommée du Dharma</i> dans ce monde, vous savez",
           words: [
             {
@@ -622,7 +622,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-15",
           type: "normal",
           tibetan: "།རྟོགས་ལྡན་མཁའ་སྤྱོད་དབང་པོ་།མཁྱེན་ནོ།",
-          phonetics: "tokden / k'a tcheu / ouang po / , vous savez",
+          phonetics: "tokden / k'a tcheu / ouang po / khyenno",
           translation:
             "Réalisé <i>Prince de l'Activité Céleste</i>, vous savez",
           words: [
@@ -670,7 +670,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-16",
           type: "normal",
           tibetan: "།ཆོས་རྗེ་དེ་བཞིན་གཤེགས་པ་མཁྱེན་ནོ།",
-          phonetics: "tcheu djé / té chin / chek pa / , vous savez",
+          phonetics: "tcheu djé / té chin / chek pa / khyenno",
           translation:
             "Seigneur du Dharma, <i>Qui-S'en-Est-Allé-Ainsi</i>, vous savez",
           words: [
@@ -714,7 +714,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-17",
           type: "normal",
           tibetan: "།རྗེ་བཙུན་རཏྣ་བྷ་དྲ་མཁྱེན་ནོ།",
-          phonetics: "djétsun / ratnabhadra / , vous savez",
+          phonetics: "djétsun / ratnabhadra / khyenno",
           translation: "Seigneur Vénéré <i>Pur Joyau</i>, vous savez",
           words: [
             {
@@ -756,7 +756,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-18",
           type: "normal",
           tibetan: "།སྤྲུལ་སྐུ་མཐོང་བ་དོན་ལྡན་མཁྱེན་ནོ།",
-          phonetics: "t'ulkou / t'ong oua / teun den / , vous savez",
+          phonetics: "t'ulkou / t'ong oua / teun den / khyenno",
           translation:
             "Corps d'émanation <i>Détenteur de la Vision Ultime</i>…",
           words: [
@@ -804,7 +804,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-19",
           type: "normal",
           tibetan: "།ཀུན་མཁྱེན་འཇམ་དཔལ་བཟང་པོ་མཁྱེན་ནོ།",
-          phonetics: "kun k'yen / djam pel / zangpo / , vous savez",
+          phonetics: "kun k'yen / djam pel / zangpo / khyenno",
           translation: "<i>Pur Amour</i> Omniscient…",
           words: [
             {
@@ -847,7 +847,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-20",
           type: "normal",
           tibetan: "།བྱང་སེམས་དཔལ་འབྱོར་དོན་འགྲུབ་མཁྱེན་ནོ།",
-          phonetics: "djang sem / pal djor / teun droup / , vous savez",
+          phonetics: "djang sem / pal djor / teun droup / khyenno",
           translation:
             "Bodhisattva <i>Glorieux et Fortuné Qui Accomplit Le Bienfait</i>, vous savez",
           words: [
@@ -895,7 +895,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-21",
           type: "normal",
           tibetan: "རྒྱལ་དབང་ཆོས་གྲགས་རྒྱ་མཚོ་མཁྱེན་ནོ།",
-          phonetics: "gyal ouang / tcheu drak / gyatso / , vous savez",
+          phonetics: "gyal ouang / tcheu drak / gyatso / khyenno",
           translation:
             "Puissant Vainqueur <i>Océan de Renommée du Dharma</i>, vous savez",
           words: [
@@ -939,7 +939,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-22",
           type: "normal",
           tibetan: "།གྲུབ་ཆེན་བཀྲ་ཤིས་དཔལ་འབྱོར་མཁྱེན་ནོ།",
-          phonetics: "droup tchen / t'achi / pal djor / , vous savez",
+          phonetics: "droup tchen / t'achi / pal djor / khyenno",
           translation:
             "Grand Accompli <i>Fortuné de Bon Augure</i>, vous savez",
           words: [
@@ -987,7 +987,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-23",
           type: "normal",
           tibetan: "།མཚུངས་མེད་མི་བསྐྱོད་རྡོ་རྗེ་མཁྱེན་ནོ།",
-          phonetics: "tsoung mé / mikyeu / dordjé / , vous savez",
+          phonetics: "tsoung mé / mikyeu / dordjé / khyenno",
           translation: "Incomparable <i>Vajra Immuable</i>, vous savez",
           words: [
             {
@@ -1030,7 +1030,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-24",
           type: "normal",
           tibetan: "རྒྱལ་བ་དཀོན་མཆོག་ཡན་ལག་མཁྱེན་ནོ།",
-          phonetics: "gyal oua / keun tchok / yen lak / , vous savez",
+          phonetics: "gyal oua / keun tchok / yen lak / khyenno",
           translation: "Victorieux <i>Rameau Rare et Sublime</i>, vous savez",
           words: [
             {
@@ -1073,7 +1073,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-25",
           type: "normal",
           tibetan: "།རྗེ་བཙུན་དབང་ཕྱུག་རྡོ་རྗེ་མཁྱེན་ནོ།",
-          phonetics: "djétsun / ouang tchouk / dordjé / , vous savez",
+          phonetics: "djétsun / ouang tchouk / dordjé / khyenno",
           translation: "Vénéré <i>Puissant Vajra</i>, vous savez",
           words: [
             {
@@ -1116,7 +1116,7 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-lg-26",
           type: "normal",
           tibetan: "།གར་དབང་ཆོས་ཀྱི་དབང་ཕྱུག་མཁྱེན་ནོ།",
-          phonetics: "kar ouang / tcheu kyi / ouang tchouk / , vous savez",
+          phonetics: "kar ouang / tcheu kyi / ouang tchouk / khyenno",
           translation:
             "Prince du Jeu de la Manifestation <i>Puissance du Dharma</i>, vous savez",
           words: [
@@ -1163,8 +1163,8 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-lg-27",
           type: "normal",
-          tibetan: "།མཚུངས་མེད་ཡེ་ཤེས་རྡོ་རྗེ་མཁྱེན་ནོ།",
-          phonetics: "gyal tchok / tcheuying / dordjé / , vous savez",
+          tibetan: "རྒྱལ་མཆོག་ཆོས་དབྱིངས་རྡོ་རྗེ་མཁྱེན་ནོ།",
+          phonetics: "gyal tchok / tcheuying / dordjé / khyenno",
           translation:
             "Suprême Vainqueur <i>Dharmadhatou Indestructible</i>, vous savez",
           words: [
@@ -1211,8 +1211,8 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-lg-28",
           type: "normal",
-          tibetan: "རྒྱལ་མཆོག་ཆོས་དབྱིངས་རྡོ་རྗེ་མཁྱེན་ནོ།",
-          phonetics: "palden / yéché / nyingpo / , vous savez",
+          tibetan: "།དཔལ་ལྡན་ཡེ་ཤེས་སྙིང་པོ་མཁྱེན་ནོ།",
+          phonetics: "palden / yéché / nyingpo / vous savez",
           translation: "Glorieux <i>Cœur de la Sagesse</i>…",
           words: [
             {
@@ -1254,7 +1254,7 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-lg-29",
           type: "normal",
-          tibetan: "།དཔལ་ལྡན་ཡེ་ཤེས་སྙིང་པོ་མཁྱེན་ནོ།",
+          tibetan: "།མཚུངས་མེད་ཡེ་ཤེས་རྡོ་རྗེ་མཁྱེན་ནོ།",
           phonetics: "tsoung mé / yéché / dordjé / , vous savez",
           translation: "Incomparable <i>Sagesse Indestructible</i>, vous savez",
           words: [
@@ -6081,12 +6081,25 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "སྒྲིབ་གཉིས་དག་ནས་ཚོགས་རྫོགས་ཏེ༔",
           phonetics: "Drip nyi / dag né / tsog / djog té",
-          translation: "[Que] les deux voiles [soient] purifiés, [que] les accumulations [soient] parachevées,",
+          translation:
+            "[Que] les deux voiles [soient] purifiés, [que] les accumulations [soient] parachevées,",
           words: [
-            { tibetan: "སྒྲིབ་གཉིས་", phonetics: "Drip nyi", translation: "les deux voiles" },
+            {
+              tibetan: "སྒྲིབ་གཉིས་",
+              phonetics: "Drip nyi",
+              translation: "les deux voiles",
+            },
             { tibetan: "དག་ནས་", phonetics: "dag né", translation: "purifiés" },
-            { tibetan: "ཚོགས་", phonetics: "tsog", translation: "les accumulations" },
-            { tibetan: "རྫོགས་ཏེ་", phonetics: "djog té", translation: "parachevées" },
+            {
+              tibetan: "ཚོགས་",
+              phonetics: "tsog",
+              translation: "les accumulations",
+            },
+            {
+              tibetan: "རྫོགས་ཏེ་",
+              phonetics: "djog té",
+              translation: "parachevées",
+            },
           ],
         },
         {
@@ -6095,13 +6108,30 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "ཚེ་རིང་ནད་མེད་ཉམས་རྟོགས་འཕེལ༔",
           phonetics: "Tséring / né mé / nyam / tog / pel",
-          translation: "Que longue vie, bonne santé, expérience, réalisations s'accroissent!",
+          translation:
+            "Que longue vie, bonne santé, expérience, réalisations s'accroissent!",
           words: [
-            { tibetan: "ཚེ་རིང་", phonetics: "Tséring", translation: "longue vie" },
-            { tibetan: "ནད་མེད་", phonetics: "né mé", translation: "bonne santé" },
+            {
+              tibetan: "ཚེ་རིང་",
+              phonetics: "Tséring",
+              translation: "longue vie",
+            },
+            {
+              tibetan: "ནད་མེད་",
+              phonetics: "né mé",
+              translation: "bonne santé",
+            },
             { tibetan: "ཉམས་", phonetics: "nyam", translation: "expérience" },
-            { tibetan: "རྟོགས་", phonetics: "tog", translation: "réalisations" },
-            { tibetan: "འཕེལ་", phonetics: "pel", translation: "s'accroissent" },
+            {
+              tibetan: "རྟོགས་",
+              phonetics: "tog",
+              translation: "réalisations",
+            },
+            {
+              tibetan: "འཕེལ་",
+              phonetics: "pel",
+              translation: "s'accroissent",
+            },
           ],
         },
         {
@@ -6112,9 +6142,21 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "Tsé dir / sa tchou / neun gyour tchik",
           translation: "En cette vie, que la 10ème terre soit atteinte!",
           words: [
-            { tibetan: "ཚེ་འདིར་", phonetics: "Tsé dir", translation: "en cette vie" },
-            { tibetan: "ས་བཅུ་", phonetics: "sa tchou", translation: "la 10ème terre" },
-            { tibetan: "ནོན་གྱུར་ཅིག་", phonetics: "neun gyour tchik", translation: "que [elle] soit atteinte" },
+            {
+              tibetan: "ཚེ་འདིར་",
+              phonetics: "Tsé dir",
+              translation: "en cette vie",
+            },
+            {
+              tibetan: "ས་བཅུ་",
+              phonetics: "sa tchou",
+              translation: "la 10ème terre",
+            },
+            {
+              tibetan: "ནོན་གྱུར་ཅིག་",
+              phonetics: "neun gyour tchik",
+              translation: "qu'elle soit atteinte",
+            },
           ],
         },
         {
@@ -6123,12 +6165,20 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "ནམ་ཞིག་ཚེ་འཕོས་གྱུར་མ་ཐག༔",
           phonetics: "Nam chig / tsé / peu / gyour ma thag",
-          translation: "Dès que nous aurons quitté ce corps, instantanément,",
+          translation: "Dès que nous aurons quitté cette vie, instantanément,",
           words: [
-            { tibetan: "ནམ་ཞིག་", phonetics: "Nam chig", translation: "instantanément" },
-            { tibetan: "ཚེ་", phonetics: "tsé", translation: "ce corps" },
+            {
+              tibetan: "ནམ་ཞིག་",
+              phonetics: "Nam chig",
+              translation: "instantanément",
+            },
+            { tibetan: "ཚེ་", phonetics: "tsé", translation: "vie" },
             { tibetan: "འཕོས་", phonetics: "peu", translation: "quitté" },
-            { tibetan: "གྱུར་མ་ཐག་", phonetics: "gyour ma thag", translation: "dès que" },
+            {
+              tibetan: "གྱུར་མ་ཐག་",
+              phonetics: "gyour ma thag",
+              translation: "dès que",
+            },
           ],
         },
         {
@@ -6139,10 +6189,18 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "Déwachen / du / kyé / gyour tchik",
           translation: "Que nous prenions renaissance en Sukhavati!",
           words: [
-            { tibetan: "བདེ་བ་ཅན་", phonetics: "Déwachen", translation: "Sukhavati" },
+            {
+              tibetan: "བདེ་བ་ཅན་",
+              phonetics: "Déwachen",
+              translation: "Sukhavati",
+            },
             { tibetan: "དུ་", phonetics: "du", translation: "en" },
             { tibetan: "སྐྱེ་", phonetics: "kyé", translation: "renaissance" },
-            { tibetan: "གྱུར་ཅིག་", phonetics: "gyour tchik", translation: "que nous prenions" },
+            {
+              tibetan: "གྱུར་ཅིག་",
+              phonetics: "gyour tchik",
+              translation: "que nous prenions",
+            },
           ],
         },
         {
@@ -6151,12 +6209,21 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "སྐྱེས་ནས་པདྨ་ཁ་བྱེ་སྟེ༔",
           phonetics: "Kyé né / péma / ka / djé té",
-          translation: "Une fois né là-bas, que le lotus s'ouvre et s'épanouisse!",
+          translation:
+            "Une fois né là-bas, que le lotus s'ouvre et s'épanouisse!",
           words: [
-            { tibetan: "སྐྱེས་ནས་", phonetics: "Kyé né", translation: "une fois né" },
+            {
+              tibetan: "སྐྱེས་ནས་",
+              phonetics: "Kyé né",
+              translation: "une fois né",
+            },
             { tibetan: "པདྨ་", phonetics: "péma", translation: "le lotus" },
             { tibetan: "ཁ་", phonetics: "ka", translation: "s'ouvre" },
-            { tibetan: "བྱེ་སྟེ་", phonetics: "djé té", translation: "s'épanouisse" },
+            {
+              tibetan: "བྱེ་སྟེ་",
+              phonetics: "djé té",
+              translation: "s'épanouisse",
+            },
           ],
         },
         {
@@ -6165,12 +6232,25 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "ལུས་རྟེན་དེ་ལ་སངས་རྒྱས་ཤོག༔",
           phonetics: "Lu ten / dé la / sangyé / sho",
-          translation: "Puissions-nous atteindre l'éveil avec le support de ce corps!",
+          translation:
+            "Puissions-nous atteindre l'éveil avec le support de ce corps!",
           words: [
-            { tibetan: "ལུས་རྟེན་", phonetics: "Lu ten", translation: "le support de ce corps" },
+            {
+              tibetan: "ལུས་རྟེན་",
+              phonetics: "Lu ten",
+              translation: "le support de ce corps",
+            },
             { tibetan: "དེ་ལ་", phonetics: "dé la", translation: "avec" },
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "l'éveil" },
-            { tibetan: "ཤོག", phonetics: "sho", translation: "puissions-nous atteindre" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "l'éveil",
+            },
+            {
+              tibetan: "ཤོག",
+              phonetics: "sho",
+              translation: "puissions-nous atteindre",
+            },
           ],
         },
         {
@@ -6179,11 +6259,24 @@ export const pratiqueChenrezik: PracticeText = {
           showWithThoungma: true,
           tibetan: "བྱང་ཆུབ་ཐོབ་ནས་ཇི་སྲིད་དུ༔",
           phonetics: "Djang tchoub / thob né / dji si tou",
-          translation: "Ayant atteint l'éveil, jusqu'à [ce que le samsara soit vidé],",
+          translation:
+            "Ayant atteint l'éveil, jusqu'à [ce que le samsara soit vidé],",
           words: [
-            { tibetan: "བྱང་ཆུབ་", phonetics: "Djang tchoub", translation: "l'éveil" },
-            { tibetan: "ཐོབ་ནས་", phonetics: "thob né", translation: "ayant atteint" },
-            { tibetan: "ཇི་སྲིད་དུ་", phonetics: "dji si tou", translation: "jusqu'à" },
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "Djang tchoub",
+              translation: "l'éveil",
+            },
+            {
+              tibetan: "ཐོབ་ནས་",
+              phonetics: "thob né",
+              translation: "ayant atteint",
+            },
+            {
+              tibetan: "ཇི་སྲིད་དུ་",
+              phonetics: "dji si tou",
+              translation: "jusqu'à",
+            },
           ],
         },
         {
@@ -6194,9 +6287,21 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "Trulpé / drowa / dren par / sho",
           translation: "Puissent nos manifestations guider les êtres!",
           words: [
-            { tibetan: "སྤྲུལ་པས་", phonetics: "Trulpé", translation: "nos manifestations" },
-            { tibetan: "འགྲོ་བ་", phonetics: "drowa", translation: "les êtres" },
-            { tibetan: "འདྲེན་པར་", phonetics: "dren par", translation: "guider" },
+            {
+              tibetan: "སྤྲུལ་པས་",
+              phonetics: "Trulpé",
+              translation: "nos manifestations",
+            },
+            {
+              tibetan: "འགྲོ་བ་",
+              phonetics: "drowa",
+              translation: "les êtres",
+            },
+            {
+              tibetan: "འདྲེན་པར་",
+              phonetics: "dren par",
+              translation: "guider",
+            },
             { tibetan: "ཤོག", phonetics: "sho", translation: "puissent" },
           ],
         },
@@ -6204,9 +6309,11 @@ export const pratiqueChenrezik: PracticeText = {
           id: "ch-th-conc-19",
           type: "instructions" as const,
           showWithThoungma: true,
-          tibetan: "ཅེས་སྤྲུལ་སྐུ་མི་འགྱུར་རྡོ་རྗེ་དགུང་ལོ་བཅུ་གཉིས་པ་ཁྲུམ་སྟོད་ཟླ་བའི་ཡར་ཚེས་ལ་ཆོས་སྐུ་སྣང་བ་མཐའ་ཡས་ཀྱིས་བཀའ་སྩལ་བའོ།།",
+          tibetan:
+            "ཅེས་སྤྲུལ་སྐུ་མི་འགྱུར་རྡོ་རྗེ་དགུང་ལོ་བཅུ་གཉིས་པ་ཁྲུམ་སྟོད་ཟླ་བའི་ཡར་ཚེས་ལ་ཆོས་སྐུ་སྣང་བ་མཐའ་ཡས་ཀྱིས་བཀའ་སྩལ་བའོ།།",
           phonetics: "",
-          translation: "Ce texte fut transmis par le Dharmakaya Amitabha durant la première moitié du 8ème mois du calendrier Tibétain à Tulku Mingyour Dordjé quand il avait douze ans.",
+          translation:
+            "Ce texte fut transmis par le Dharmakaya Amitabha durant la première moitié du 8ème mois du calendrier Tibétain à Tulku Mingyour Dordjé quand il avait douze ans.",
           words: [],
         },
         {
