@@ -353,7 +353,7 @@ export default function TextPage() {
                   {instr2 && renderInstr(instr2)}
                 </>
               );
-            })() : section.phrases.map((phrase) => {
+            })() : section.phrases.filter(phrase => !phrase.showWithThoungma || ligneeVariant === 'dorje-chang').map((phrase) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isMantraMain = phrase.type === 'mantra-main';

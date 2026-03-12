@@ -17,6 +17,7 @@ export interface Phrase {
   srcs?: string[];
   targetId?: string;
   navBack?: boolean;
+  showWithThoungma?: boolean;
 }
 
 export interface Section {
