@@ -12,6 +12,7 @@ export default function Header() {
   const displayMode = useAppSelector((state) => state.ui.displayMode);
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
   const navigate = useNavigate();
   const location = useLocation();
   const [collapsed, setCollapsed] = useState(false);
@@ -58,9 +59,9 @@ export default function Header() {
       {isTextPage && !collapsed && isTibetanOnly && (
         <div className="header-controls">
           <div className="font-size-control">
-            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-1))}>−</button>
-            <span className="font-size-icon">🔍</span>
-            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(1))}>+</button>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-3))}>−</button>
+            <span className="font-size-icon">{tibetanFontSize}px</span>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(3))}>+</button>
           </div>
           <div className="radio-group">
             <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
@@ -79,9 +80,9 @@ export default function Header() {
       {isTextPage && !collapsed && !isTibetanOnly && (
         <div className="header-controls">
           <div className="font-size-control">
-            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-1))}>−</button>
-            <span className="font-size-icon">🔍</span>
-            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(1))}>+</button>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-3))}>−</button>
+            <span className="font-size-icon">{tibetanFontSize}px</span>
+            <button className="font-size-btn" onClick={() => dispatch(changeFontSize(3))}>+</button>
           </div>
           <div className="radio-group">
             <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>

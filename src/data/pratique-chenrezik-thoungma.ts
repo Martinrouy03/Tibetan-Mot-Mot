@@ -2218,7 +2218,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           id: "ch-pk-m-main",
           type: "mantra-main",
           tibetan: "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
-          phonetics: "om mani pémé houng",
+          phonetics: "om mani padmé houng",
           translation: "",
           words: [],
         },

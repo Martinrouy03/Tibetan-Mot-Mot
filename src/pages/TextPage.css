@@ -109,7 +109,7 @@
 
 .text-page-title {
   color: #a89060;
-  font-size: 1.3rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 1.3);
   margin-bottom: 2rem;
   font-weight: 500;
 }
@@ -117,7 +117,7 @@
 .text-page-title-tibetan {
   display: block;
   color: #c9a84c;
-  font-size: 1.5rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 1.5);
   margin-bottom: 0.3rem;
 }
 
@@ -187,7 +187,7 @@
 
 .section-title {
   color: #bbb;
-  font-size: 1rem;
+  font-size: var(--ui-font-size, 1rem);
   font-weight: 500;
   margin-bottom: 1rem;
   padding-bottom: 0.4rem;
@@ -198,7 +198,7 @@
 
 .section-subtitle {
   color: #bbb;
-  font-size: 0.85rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 0.85);
   font-weight: 600;
   font-style: normal;
   margin-bottom: 1rem;
@@ -239,7 +239,7 @@
 }
 
 .phrase-text-phonetics {
-  font-size: 1.05rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 1.05);
   line-height: 1.6;
 }
 
@@ -263,7 +263,7 @@
 }
 
 .phrase-mantra .phrase-text-phonetics {
-  font-size: 1.2rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 1.2);
 }
 
 .phrase-mantra:not(.phrase-mantra-main) .phrase-text {
@@ -279,7 +279,7 @@
 }
 
 .phrase-mantra-main .phrase-text-phonetics {
-  font-size: 2rem;
+  font-size: calc(var(--ui-font-size, 1rem) * 2);
 }
 
 .phrase-special {
@@ -348,6 +348,19 @@
   display: block;
   border-radius: 20px;
   max-width: 100%;
+}
+
+.phrase-image-mantra .phrase-image {
+  height: 80vh;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 900px), (max-height: 500px) {
+  .phrase-image-mantra .phrase-image {
+    width: min(100vw, 100vh);
+    height: auto;
+  }
 }
 
 .image-size-pill {

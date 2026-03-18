@@ -8,7 +8,7 @@ function App() {
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
 
   return (
-    <div className="app" style={{ '--tibetan-font-size': `${tibetanFontSize}px` } as React.CSSProperties}>
+    <div className="app" style={{ '--tibetan-font-size': `${tibetanFontSize}px`, '--ui-font-size': `${tibetanFontSize / 20}rem` } as React.CSSProperties}>
       <Header />
       <main>
         <Routes>
