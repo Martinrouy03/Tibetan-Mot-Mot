@@ -122,6 +122,15 @@
   display: none;
 }
 
+.header .label-short {
+  font-size: 0.85rem;
+}
+
+.header .label-short.tibetan {
+  font-size: 16px;
+}
+
+
 .header-collapse-btn {
   display: none;
 }

@@ -474,7 +474,7 @@
 }
 
 .ta-hommage-left {
-  flex: 1;
+  flex: 3;
   display: flex;
   flex-direction: column;
 }
@@ -484,7 +484,7 @@
 }
 
 .ta-hommage-image {
-  flex: 1;
+  flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,12 +499,21 @@
   display: block;
 }
 
-.section-ch-priere-lignee .ta-hommage-pair {
+.section-ch-priere-lignee .ta-hommage-pair,
+.section-ta-hommage .ta-hommage-pair {
   flex-direction: row-reverse;
 }
 
-.section-ch-priere-lignee .ta-hommage-image .phrase-image-wrapper {
+.section-ch-priere-lignee .ta-hommage-image .phrase-image-wrapper,
+.section-ta-hommage .ta-hommage-image .phrase-image-wrapper {
   justify-content: flex-end;
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  .section-ch-priere-lignee .phrase-image,
+  .section-ta-hommage .phrase-image {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 600px), (max-height: 500px) and (orientation: landscape) {
