@@ -5859,6 +5859,17 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "",
           translation: "Souhaits de Dewachen",
           targetId: "/text/dewachen",
+          hideWithThoungma: true,
+          words: [],
+        },
+        {
+          id: "ch-nav-mahakala",
+          type: "nav-btn" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "Madak",
+          targetId: "/text/mahakala",
+          showWithThoungma: true,
           words: [],
         },
         {

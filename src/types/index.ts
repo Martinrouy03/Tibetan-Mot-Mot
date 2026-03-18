@@ -18,6 +18,9 @@ export interface Phrase {
   targetId?: string;
   navBack?: boolean;
   showWithThoungma?: boolean;
+  hideWithThoungma?: boolean;
+  altTargetId?: string;
+  altTargetFrom?: string;
 }
 
 export interface Section {

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setSelectedPhrase } from '../store/uiSlice';
@@ -15,6 +15,7 @@ const renderTranslation = (s: string) => ({ __html: stripParens(s) });
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
   const dispatch = useAppDispatch();
   const displayMode = useAppSelector((state) => state.ui.displayMode);
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
@@ -135,11 +136,25 @@ export default function TextPage() {
         {text.title}
       </h2>
       {text.tibetanOnly && text.sections.map((section) => {
-        const phrases = section.phrases;
-        const rows: { left: typeof phrases[0]; right?: typeof phrases[0] }[] = [];
-        for (let i = 0; i < phrases.length; i += 2) {
-          rows.push({ left: phrases[i], right: phrases[i + 1] });
+        const regularPhrases = section.phrases.filter(p => p.type !== 'nav-btn');
+        const navPhrases = section.phrases.filter(p => p.type === 'nav-btn');
+        const rows: { left: typeof regularPhrases[0]; right?: typeof regularPhrases[0] }[] = [];
+        for (let i = 0; i < regularPhrases.length; i += 2) {
+          rows.push({ left: regularPhrases[i], right: regularPhrases[i + 1] });
         }
+        const makeNavClick = (p: typeof navPhrases[0]) => () => {
+          dispatch(setSelectedPhrase(null));
+          const from = (location.state as { from?: string } | null)?.from;
+          const target = (p.altTargetFrom && from === p.altTargetFrom && p.altTargetId) ? p.altTargetId : (p.targetId ?? '/');
+          const [path, hash] = target.split('#');
+          if (hash) {
+            navigate(path, { state: { from: text.id } });
+            setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+          } else {
+            window.scrollTo(0, 0);
+            navigate(target, { state: { from: text.id } });
+          }
+        };
         return (
           <div key={section.id} className="section">
             {section.title && <h3 className="section-title">{section.title}</h3>}
@@ -157,6 +172,17 @@ export default function TextPage() {
                 </div>
               ))}
             </div>
+            {navPhrases.length === 2 && (
+              <div className="nav-btn-row">
+                <button className="nav-btn" onClick={makeNavClick(navPhrases[0])}>{navPhrases[0].navBack ? `← ${navPhrases[0].translation}` : `${navPhrases[0].translation} →`}</button>
+                <button className="nav-btn" onClick={makeNavClick(navPhrases[1])}>{navPhrases[1].navBack ? `← ${navPhrases[1].translation}` : `${navPhrases[1].translation} →`}</button>
+              </div>
+            )}
+            {navPhrases.length === 1 && (
+              <div className={`nav-btn-container${navPhrases[0].navBack ? ' nav-btn-container-left' : ''}`}>
+                <button className="nav-btn" onClick={makeNavClick(navPhrases[0])}>{navPhrases[0].navBack ? `← ${navPhrases[0].translation}` : `${navPhrases[0].translation} →`}</button>
+              </div>
+            )}
           </div>
         );
       })}
@@ -353,7 +379,7 @@ export default function TextPage() {
                   {instr2 && renderInstr(instr2)}
                 </>
               );
-            })() : section.phrases.filter(phrase => !phrase.showWithThoungma || ligneeVariant === 'dorje-chang').map((phrase) => {
+            })() : section.phrases.filter(phrase => (!phrase.showWithThoungma || ligneeVariant === 'dorje-chang') && (!phrase.hideWithThoungma || ligneeVariant !== 'dorje-chang')).map((phrase, idx, filteredPhrases) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isMantraMain = phrase.type === 'mantra-main';
@@ -376,23 +402,33 @@ export default function TextPage() {
               }
 
               if (phrase.type === 'nav-btn') {
+                const prevPhrase = filteredPhrases[idx - 1];
+                if (prevPhrase?.type === 'nav-btn') return null;
+                const nextPhrase = filteredPhrases[idx + 1];
+                const makeNavClick = (p: typeof phrase) => () => {
+                  dispatch(setSelectedPhrase(null));
+                  const from = (location.state as { from?: string } | null)?.from;
+                  const target = (p.altTargetFrom && from === p.altTargetFrom && p.altTargetId) ? p.altTargetId : (p.targetId ?? '/');
+                  const [path, hash] = target.split('#');
+                  if (hash) {
+                    navigate(path, { state: { from: text.id } });
+                    setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  } else {
+                    window.scrollTo(0, 0);
+                    navigate(target, { state: { from: text.id } });
+                  }
+                };
+                if (nextPhrase?.type === 'nav-btn') {
+                  return (
+                    <div key={phrase.id} className="phrase-container phrase-no-interact nav-btn-row">
+                      <button className="nav-btn" onClick={makeNavClick(phrase)}>{phrase.navBack ? `← ${phrase.translation}` : `${phrase.translation} →`}</button>
+                      <button className="nav-btn" onClick={makeNavClick(nextPhrase)}>{nextPhrase.navBack ? `← ${nextPhrase.translation}` : `${nextPhrase.translation} →`}</button>
+                    </div>
+                  );
+                }
                 return (
                   <div key={phrase.id} className={`phrase-container phrase-no-interact nav-btn-container${phrase.navBack ? ' nav-btn-container-left' : ''}`}>
-                    <button
-                      className="nav-btn"
-                      onClick={() => {
-                        dispatch(setSelectedPhrase(null));
-                        const target = phrase.targetId ?? '/';
-                        const [path, hash] = target.split('#');
-                        if (hash) {
-                          navigate(path);
-                          setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
-                        } else {
-                          window.scrollTo(0, 0);
-                          navigate(target);
-                        }
-                      }}
-                    >
+                    <button className="nav-btn" onClick={makeNavClick(phrase)}>
                       {phrase.navBack ? `← ${phrase.translation}` : `${phrase.translation} →`}
                     </button>
                   </div>
@@ -504,9 +540,11 @@ export default function TextPage() {
         );
       })}
       <div className="bottom-nav">
-        <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
-          ← Retour aux textes
-        </button>
+        {textId !== 'mahakala' && (
+          <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
+            ← Retour aux textes
+          </button>
+        )}
         {textId === 'trois-amoncellements' && (
           <button className="back-button back-button-bottom next-text-button" onClick={() => {
             dispatch(setSelectedPhrase(null));

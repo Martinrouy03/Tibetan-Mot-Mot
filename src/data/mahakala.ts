@@ -54,6 +54,8 @@ export const mahakala: PracticeText = {
         { id: 'mk-21L', type: 'normal', tibetan: '།དེ་ལྟར་མཆོད་བསྟོད་དད་པའི་དགེ་བ་དེས།', phonetics: 'dé tar tchö tö dé pé géwa dé', translation: '', words: [] },
         { id: 'mk-21R', type: 'normal', tibetan: '།མ་གྱུར་འགྲོ་བ་སེམས་ཅན་ཐམས་ཅད་ཀུན།', phonetics: 'ma gyour drowa semchen tamché kün', translation: '', words: [] },
         { id: 'mk-22L', type: 'normal', tibetan: '།རྫོགས་པའི་སངས་རྒྱས་གོ་འཕང་འཐོབ་ཕྱིར་བསྔོ།།', phonetics: 'dzokpé sangyé go p\'ang t\'ob tchir ngö', translation: '', words: [] },
+        { id: "mk-nav-back", type: "nav-btn" as const, tibetan: "", phonetics: "", translation: "Retour aux textes", targetId: "/", navBack: true, words: [] },
+        { id: "mk-nav-dewachen", type: "nav-btn" as const, tibetan: "", phonetics: "", translation: "Souhaits de Dewachen", targetId: "/text/dewachen", words: [] },
       ],
     },
   ],
