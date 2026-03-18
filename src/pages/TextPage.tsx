@@ -489,7 +489,7 @@ export default function TextPage() {
                       { text: 'om', color: '#ffffff' },
                       { text: ' ma', color: '#2da44e' },
                       { text: 'ni', color: '#f0c000' },
-                      { text: ' pé', color: '#1a56c4' },
+                      { text: ' pad', color: '#1a56c4' },
                       { text: 'mé', color: '#d73a3a' },
                       { text: ' houng', color: '#111111' },
                     ];
