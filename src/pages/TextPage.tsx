@@ -23,8 +23,6 @@ export default function TextPage() {
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const [imageSizePct, setImageSizePct] = useState(60);
   const [chenrezikSizePct, setChenrezikSizePct] = useState(80);
-  const [ligneeVariant, setLigneeVariant] = useState<'mahamoudra' | 'dorje-chang'>('mahamoudra');
-  const [ligneeCollapsed, setLigneeCollapsed] = useState(false);
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
@@ -187,29 +185,24 @@ export default function TextPage() {
         );
       })}
       {!text.tibetanOnly && text.sections.map((section) => {
-        if (section.id === 'ch-thoungma') return null;
         let normalCount = 0;
 
-        // Build pairs [label?, normal, image?] for ta-hommage and ch-priere-lignee
+        // Build pairs [label?, normal, image?] for ta-hommage
         type PhrasePair = { label?: typeof section.phrases[0]; normal: typeof section.phrases[0]; image?: typeof section.phrases[0] };
         const pairs: PhrasePair[] = [];
         const isHommageSection = section.id === 'ta-hommage' || section.id === 'ch-priere-lignee';
-        const thoungmaSection = text.sections.find(s => s.id === 'ch-thoungma');
-        const activePhrases = section.id === 'ch-priere-lignee' && ligneeVariant === 'dorje-chang'
-          ? (thoungmaSection?.phrases ?? [])
-          : section.phrases;
         if (isHommageSection) {
           let i = 0;
-          while (i < activePhrases.length) {
-            const p = activePhrases[i];
-            if (p.type === 'instructions' && !p.tibetan && activePhrases[i + 1]?.type === 'normal') {
+          while (i < section.phrases.length) {
+            const p = section.phrases[i];
+            if (p.type === 'instructions' && !p.tibetan && section.phrases[i + 1]?.type === 'normal') {
               const label = p;
-              const normal = activePhrases[i + 1];
-              const image = activePhrases[i + 2]?.type === 'image' ? activePhrases[i + 2] : undefined;
+              const normal = section.phrases[i + 1];
+              const image = section.phrases[i + 2]?.type === 'image' ? section.phrases[i + 2] : undefined;
               pairs.push({ label, normal, image });
               i += image ? 3 : 2;
-            } else if (p.type === 'normal' && activePhrases[i + 1]?.type === 'image') {
-              pairs.push({ normal: p, image: activePhrases[i + 1] });
+            } else if (p.type === 'normal' && section.phrases[i + 1]?.type === 'image') {
+              pairs.push({ normal: p, image: section.phrases[i + 1] });
               i += 2;
             } else if (p.type === 'image-row') {
               pairs.push({ normal: p });
@@ -227,27 +220,16 @@ export default function TextPage() {
             <>
               <div className="section-title-row">
                 <h3 className={section.subtitle ? 'section-subtitle' : 'section-title'}>{section.title}</h3>
-                {section.id === 'ch-priere-lignee' && (
-                  <button className="collapse-btn" onClick={() => setLigneeCollapsed(c => !c)}>
-                    {ligneeCollapsed ? '▶' : '▼'}
-                  </button>
-                )}
                 {section.id === 'ch-pema-karpo' && (
                   <button className="collapse-btn" onClick={() => setPemaKarpoCollapsed(c => !c)}>
                     {pemaKarpoCollapsed ? '▶' : '▼'}
                   </button>
                 )}
               </div>
-              {section.id === 'ch-priere-lignee' && !ligneeCollapsed && (
-                <div className="variant-pill">
-                  <button className={`variant-btn ${ligneeVariant === 'mahamoudra' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('mahamoudra')}>Lignée du Mahamoudra</button>
-                  <button className={`variant-btn ${ligneeVariant === 'dorje-chang' ? 'variant-btn-active' : ''}`} onClick={() => setLigneeVariant('dorje-chang')}>Dorje Chang Thoungma</button>
-                </div>
-              )}
             </>
           )}
           <div className="phrases">
-            {(section.id === 'ch-priere-lignee' && ligneeCollapsed) || (section.id === 'ch-pema-karpo' && pemaKarpoCollapsed) ? null : isHommageSection ? pairs.map(({ label, normal, image }) => {
+            {(section.id === 'ch-pema-karpo' && pemaKarpoCollapsed) ? null : isHommageSection ? pairs.map(({ label, normal, image }) => {
               normalCount++;
               const buddhaName = image && section.id === 'ta-hommage'
                 ? (normalCount === 1 ? 'Bouddha Shakyamuni' : (normal.translation.match(/\(([^)]+)\)/)?.[1] ?? ''))
@@ -379,7 +361,7 @@ export default function TextPage() {
                   {instr2 && renderInstr(instr2)}
                 </>
               );
-            })() : section.phrases.filter(phrase => (!phrase.showWithThoungma || ligneeVariant === 'dorje-chang') && (!phrase.hideWithThoungma || ligneeVariant !== 'dorje-chang')).map((phrase, idx, filteredPhrases) => {
+            })() : section.phrases.map((phrase, idx, filteredPhrases) => {
               const isNormal = phrase.type === 'normal';
               const isMantra = phrase.type === 'mantra';
               const isMantraMain = phrase.type === 'mantra-main';
