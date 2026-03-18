@@ -22,14 +22,25 @@ export default function TextPage() {
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const [imageSizePct, setImageSizePct] = useState(60);
-  const [chenrezikSizePct, setChenrezikSizePct] = useState(80);
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
   const isProgrammaticScroll = useRef(false);
 
   const text = practiceTexts.find((t) => t.id === textId);
+
+  const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma';
+  const navSections = useMemo(() => {
+    if (!text || !hasSidebar) return [];
+    return text.sections.filter((s) => s.title !== '');
+  }, [text, hasSidebar]);
+
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setSidebarOpen(false);
+  };
 
   const allPhraseIds = useMemo(() => {
     if (!text) return [];
@@ -125,6 +136,29 @@ export default function TextPage() {
   };
 
   return (
+    <div className={hasSidebar ? 'text-page-layout' : ''}>
+      {hasSidebar && (
+        <nav className={`text-sidebar ${sidebarOpen ? 'text-sidebar-open' : ''}`}>
+          <div className="text-sidebar-sticky">
+            <button
+              className="sidebar-toggle"
+              onClick={() => setSidebarOpen((o) => !o)}
+              aria-label={sidebarOpen ? 'Fermer la navigation' : 'Ouvrir la navigation'}
+            >
+              {sidebarOpen ? '✕' : '☰'}
+            </button>
+            <ul className="sidebar-nav-list">
+              {navSections.map((s) => (
+                <li key={s.id}>
+                  <button className="sidebar-nav-item" onClick={() => scrollToSection(s.id)}>
+                    {s.title}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+      )}
     <div className={`text-page ${interactionMode === 'scroll' ? 'text-page-scroll' : ''}`}>
       <button className="back-button" onClick={() => navigate('/')}>
         ← Retour aux textes
@@ -347,14 +381,7 @@ export default function TextPage() {
                     </div>
                     {img && (
                       <div className="ch-supplique-image">
-                        <div className="phrase-image-wrapper">
-                          <img src={img.src} alt="" className="phrase-image" style={{ width: `${chenrezikSizePct}%` }} />
-                          <div className="image-size-pill">
-                            <button className="image-size-btn" onClick={() => setChenrezikSizePct(p => Math.min(100, p + 10))}>+</button>
-                            <span className="image-size-label">{chenrezikSizePct}</span>
-                            <button className="image-size-btn" onClick={() => setChenrezikSizePct(p => Math.max(20, p - 10))}>−</button>
-                          </div>
-                        </div>
+                        <img src={img.src} alt="" className="phrase-image" style={{ width: '100%' }} />
                       </div>
                     )}
                   </div>
@@ -547,6 +574,7 @@ export default function TextPage() {
         )}
       </div>
       {text.audioSrc && <AudioPlayer src={text.audioSrc} />}
+    </div>
     </div>
   );
 }

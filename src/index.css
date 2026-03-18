@@ -1,3 +1,13 @@
+:root {
+  --header-height: 52px;
+}
+
+@media (max-width: 900px), (max-height: 500px) {
+  :root {
+    --header-height: 36px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

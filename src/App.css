@@ -1,1 +1,5 @@
 /* App-level styles - kept minimal, component styles in their own files */
+
+:root {
+  --header-height: 52px;
+}
