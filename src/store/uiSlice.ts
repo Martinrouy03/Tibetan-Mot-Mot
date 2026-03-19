@@ -7,6 +7,8 @@ interface UiState {
   showTranslation: boolean;
   selectedPhraseId: string | null;
   tibetanFontSize: number;
+  currentAudioSrc: string | null;
+  audioPlayerVisible: boolean;
 }
 
 const initialState: UiState = {
@@ -15,6 +17,8 @@ const initialState: UiState = {
   showTranslation: true,
   selectedPhraseId: null,
   tibetanFontSize: 20,
+  currentAudioSrc: null,
+  audioPlayerVisible: false,
 };
 
 const uiSlice = createSlice({
@@ -37,8 +41,15 @@ const uiSlice = createSlice({
     changeFontSize(state, action: PayloadAction<number>) {
       state.tibetanFontSize = Math.max(12, Math.min(32, state.tibetanFontSize + action.payload));
     },
+    setCurrentAudioSrc(state, action: PayloadAction<string | null>) {
+      state.currentAudioSrc = action.payload;
+      if (!action.payload) state.audioPlayerVisible = false;
+    },
+    toggleAudioPlayer(state) {
+      state.audioPlayerVisible = !state.audioPlayerVisible;
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer } = uiSlice.actions;
 export default uiSlice.reducer;

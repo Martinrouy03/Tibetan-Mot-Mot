@@ -2,9 +2,8 @@ import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setSelectedPhrase } from '../store/uiSlice';
+import { setSelectedPhrase, setCurrentAudioSrc } from '../store/uiSlice';
 import PhraseBreakdown from '../components/PhraseBreakdown';
-import AudioPlayer from '../components/AudioPlayer';
 import './TextPage.css';
 
 const WHEEL_TICKS_PER_PHRASE = 3;
@@ -30,6 +29,11 @@ export default function TextPage() {
   const isProgrammaticScroll = useRef(false);
 
   const text = practiceTexts.find((t) => t.id === textId);
+
+  useEffect(() => {
+    dispatch(setCurrentAudioSrc(text?.audioSrc ?? null));
+    return () => { dispatch(setCurrentAudioSrc(null)); };
+  }, [text?.audioSrc, dispatch]);
 
   const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma';
   const navSections = useMemo(() => {
@@ -568,7 +572,6 @@ export default function TextPage() {
           </button>
         )}
       </div>
-      {text.audioSrc && <AudioPlayer src={text.audioSrc} />}
     </div>
     </div>
   );

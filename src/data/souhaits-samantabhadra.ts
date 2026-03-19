@@ -5,6 +5,7 @@ export const souhaitsSamantabhadra: PracticeText = {
   title: "Souhaits de Samantabhadra",
   tibetanTitle: "ཀུན་ཏུ་བཟང་པོའི་སྨོན་ལམ",
   audioSrc: "/audio/Samantabhadra.mp3",
+  thumbnail: "/Samantabhadra.jpg",
   sections: [
     {
       id: "ss-intro",

@@ -4,6 +4,7 @@ export const pratiqueChenrezik: PracticeText = {
   id: "pratique-chenrezik",
   title: "Pratique de Chenrezik",
   tibetanTitle: "སྤྱན་རས་གཟིགས།",
+  thumbnail: "/Chenrezik.jpg",
   sections: [
     {
       id: "ch-priere-lignee",

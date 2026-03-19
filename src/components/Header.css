@@ -1,5 +1,5 @@
 .header {
-  background-color: #b22222;
+  background-color: #1a1a1a;
   padding: 0.8rem 2rem;
   display: flex;
   flex-direction: row;
@@ -133,6 +133,27 @@
 
 .header-collapse-btn {
   display: none;
+}
+
+.audio-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+  opacity: 1;
+  transition: background 0.2s;
+  margin-left: auto;
+}
+
+.audio-toggle-btn.active {
+  background: rgba(201, 168, 76, 0.2);
+}
+
+.audio-toggle-btn:disabled {
+  opacity: 0.8;
+  cursor: default;
 }
 
 @media (max-width: 900px), (max-height: 500px) {

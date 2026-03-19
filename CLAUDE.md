@@ -103,6 +103,8 @@ Dans tous les mondes et dans les dix directions,
 
 ## Règles de communication
 
+- **Si une modification CSS ou UI ne s'affiche pas malgré plusieurs tentatives**, demander à l'utilisateur s'il a bien lancé `npm run dev` — le serveur de développement n'est peut-être pas en cours d'exécution.
+
 - **En cas de doute ou d'incohérence dans les données fournies** (décalage entre nombre de groupes phonétiques et mots de la traduction, ambiguïté sur un nom propre, données manquantes, etc.), toujours signaler le problème et demander validation **avant** de faire un choix. **Il n'existe pas de cas "trop mineur" pour cette règle.** Même si l'assignation semble évidente, s'arrêter et demander reste obligatoire. Ne jamais insérer de données partielles en signalant le problème après coup.
 
 ## Convention de syntaxe pour les fichiers de données

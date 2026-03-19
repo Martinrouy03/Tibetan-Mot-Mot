@@ -4,6 +4,7 @@ export const vajrasattva: PracticeText = {
   id: "vajrasattva",
   title: "Méditation de Vajrasattva",
   tibetanTitle: "རྡོ་རྗེ་སེམས་དཔའི་བསྒོམ་བཟླས",
+  thumbnail: "/vajrasattva.jpg",
   sections: [
     {
       id: "vs-intro",

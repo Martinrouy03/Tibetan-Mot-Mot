@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { flushSync } from 'react-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize } from '../store/uiSlice';
+import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize, toggleAudioPlayer } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { DisplayMode, InteractionMode } from '../types';
 import { practiceTexts } from '../data/texts';
@@ -13,6 +13,8 @@ export default function Header() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
+  const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
+  const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
   const navigate = useNavigate();
   const location = useLocation();
   const [collapsed, setCollapsed] = useState(false);
@@ -55,6 +57,14 @@ export default function Header() {
         >
           {collapsed ? '···' : '▲'}
         </button>
+      )}
+      {isTextPage && (
+        <button
+          className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}${!currentAudioSrc ? ' disabled' : ''}`}
+          onClick={() => currentAudioSrc && dispatch(toggleAudioPlayer())}
+          disabled={!currentAudioSrc}
+          aria-label="Lecteur audio"
+        >{currentAudioSrc ? '🔊' : '🔇'}</button>
       )}
       {isTextPage && !collapsed && isTibetanOnly && (
         <div className="header-controls">

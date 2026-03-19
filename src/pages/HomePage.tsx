@@ -12,15 +12,27 @@ export default function HomePage() {
         {practiceTexts.map((text) => (
           <button
             key={text.id}
-            className="text-card"
+            className={`text-card${(text.thumbnail || text.thumbnails) ? ' text-card-with-thumbnail' : ''}`}
             onClick={() => navigate(`/text/${text.id}`)}
             disabled={text.sections.length === 0}
           >
-            <span className="text-card-tibetan tibetan">{text.tibetanTitle}</span>
-            <span className="text-card-title">{text.title}</span>
-            {text.sections.length === 0 && (
-              <span className="text-card-badge">Bientôt disponible</span>
+            {text.thumbnail && (
+              <img src={text.thumbnail} alt="" className="text-card-thumbnail" />
             )}
+            {text.thumbnails && (
+              <div className="text-card-thumbnails">
+                {text.thumbnails.map((src, i) => (
+                  <img key={i} src={src} alt="" className="text-card-thumbnail-stacked" />
+                ))}
+              </div>
+            )}
+            <div className="text-card-content">
+              <span className="text-card-tibetan tibetan">{text.tibetanTitle}</span>
+              <span className="text-card-title">{text.title}</span>
+              {text.sections.length === 0 && (
+                <span className="text-card-badge">Bientôt disponible</span>
+              )}
+            </div>
           </button>
         ))}
       </div>

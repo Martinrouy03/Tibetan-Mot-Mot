@@ -5,6 +5,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
   title: "Pratique de Chenrézik — Dordjé Chang Thoungma",
   tibetanTitle: "སྤྱན་རས་གཟིགས།",
   audioSrc: "/audio/Chenrézik_Karmapa.mp3",
+  thumbnail: "/Chenrezik.jpg",
   sections: [
     {
       id: "ch-priere-lignee",

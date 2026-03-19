@@ -4,6 +4,7 @@ export const louangeManjushri: PracticeText = {
   id: "louange-manjushri",
   title: "Louange à Manjushri",
   tibetanTitle: "གང་གློ་མ།",
+  thumbnail: "/Manjushri.jpg",
   sections: [
     {
       id: "mj-main",
