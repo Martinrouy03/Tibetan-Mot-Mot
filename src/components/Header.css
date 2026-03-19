@@ -24,6 +24,14 @@
   opacity: 0.8;
 }
 
+.header-title-collapsed {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  margin-right: auto;
+  cursor: pointer;
+}
+
 .header-controls {
   display: flex;
   align-items: stretch;
@@ -157,6 +165,10 @@
 }
 
 @media (max-width: 900px), (max-height: 500px) {
+  .radio-label-scroll {
+    display: none;
+  }
+
   .header-collapse-btn {
     display: flex;
     align-items: center;
@@ -175,7 +187,7 @@
   }
 
   .header.header-collapsed {
-    padding: 0.3rem 0.8rem;
+    padding: 0 0.8rem;
     justify-content: center;
     min-height: 0;
   }
@@ -248,5 +260,54 @@
 
   .label-short {
     display: inline;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  .header {
+    padding: 0.2rem 0.4rem;
+    gap: 0.15rem;
+  }
+
+  .header-title {
+    font-size: 0.85rem;
+    max-width: 50px;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+
+  .header-collapsed .header-title-collapsed {
+    font-size: 0.85rem;
+    max-width: none;
+    overflow: visible;
+  }
+
+  .header-controls {
+    gap: 0.15rem;
+  }
+
+  .radio-label {
+    padding: 0 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  .toggle-button {
+    padding: 0 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  .font-size-btn {
+    padding: 0.1rem 0.25rem;
+    font-size: 0.8rem;
+  }
+
+  .font-size-icon {
+    font-size: 0.65rem;
+    padding: 0;
+  }
+
+  .audio-toggle-btn {
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem;
   }
 }

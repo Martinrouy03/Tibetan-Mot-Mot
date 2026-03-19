@@ -50,6 +50,11 @@ export default function Header() {
           <span className="label-short tibetan">མོཊ་ཨ་མོཊ</span>
         </h1>
       )}
+      {collapsed && isTextPage && (
+        <button className="header-title header-title-collapsed tibetan" onClick={() => navigate('/')}>
+          མོཊ་ཨ་མོཊ
+        </button>
+      )}
       {isTextPage && (
         <button
           className="header-collapse-btn"
@@ -141,7 +146,7 @@ export default function Header() {
               <span className="label-full">Fixe</span>
               <span className="label-short">≡</span>
             </label>
-            <label className={`radio-label ${interactionMode === 'scroll' ? 'active' : ''}`}>
+            <label className={`radio-label radio-label-scroll ${interactionMode === 'scroll' ? 'active' : ''}`}>
               <input
                 type="radio"
                 name="interactionMode"
