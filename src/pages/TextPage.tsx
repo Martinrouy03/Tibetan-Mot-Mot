@@ -20,7 +20,7 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
-  const [imageSizePct, setImageSizePct] = useState(60);
+
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
@@ -325,18 +325,7 @@ export default function TextPage() {
                   </div>
                   {image && (
                     <div className="ta-hommage-image">
-                      {section.id === 'ch-priere-lignee' ? (
-                        <div className="phrase-image-wrapper">
-                          <img src={image.src} alt="" className="phrase-image" style={{ width: `${imageSizePct}%` }} />
-                          <div className="image-size-pill">
-                            <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.min(100, p + 10))}>+</button>
-                            <span className="image-size-label">{imageSizePct}</span>
-                            <button className="image-size-btn" onClick={() => setImageSizePct(p => Math.max(20, p - 10))}>−</button>
-                          </div>
-                        </div>
-                      ) : (
-                        <img src={image.src} alt="" className="phrase-image" style={{ width: '60%' }} />
-                      )}
+                      <img src={image.src} alt="" className="phrase-image" />
                     </div>
                   )}
                 </div>

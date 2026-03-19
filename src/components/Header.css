@@ -159,8 +159,7 @@
   background: rgba(201, 168, 76, 0.2);
 }
 
-.audio-toggle-btn:disabled {
-  opacity: 0.8;
+.audio-toggle-btn.no-audio {
   cursor: default;
 }
 

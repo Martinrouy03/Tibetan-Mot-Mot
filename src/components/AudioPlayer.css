@@ -84,6 +84,21 @@
   opacity: 0.8;
 }
 
+.audio-stop-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 0.4rem;
+  line-height: 1;
+  transition: color 0.15s ease;
+}
+
+.audio-stop-btn:hover {
+  color: #c9a84c;
+}
+
 .audio-time {
   color: #888;
   font-size: 0.85rem;

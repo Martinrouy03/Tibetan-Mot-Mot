@@ -19,8 +19,8 @@ function App() {
           <Route path="/text/:textId" element={<TextPage />} />
         </Routes>
       </main>
-      {audioPlayerVisible && currentAudioSrc && (
-        <footer className="audio-footer">
+      {currentAudioSrc && (
+        <footer className="audio-footer" style={{ display: audioPlayerVisible ? 'block' : 'none' }}>
           <AudioPlayer src={currentAudioSrc} />
         </footer>
       )}

@@ -54,6 +54,14 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
     setLoop(next);
   }, [loop]);
 
+  const stop = useCallback(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.pause();
+    audio.currentTime = 0;
+    setPlaying(false);
+  }, []);
+
   const togglePlay = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -103,6 +111,7 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
           <button className="audio-play-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Lecture'}>
             {playing ? '⏸' : '▶'}
           </button>
+          <button className="audio-stop-btn" onClick={stop} aria-label="Stop">⏹</button>
           <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s</button>
           <button
             className={`audio-loop-btn${loop ? ' audio-loop-active' : ''}`}

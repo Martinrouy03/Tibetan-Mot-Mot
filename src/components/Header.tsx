@@ -65,9 +65,8 @@ export default function Header() {
       )}
       {isTextPage && (
         <button
-          className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}${!currentAudioSrc ? ' disabled' : ''}`}
+          className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}${!currentAudioSrc ? ' no-audio' : ''}`}
           onClick={() => currentAudioSrc && dispatch(toggleAudioPlayer())}
-          disabled={!currentAudioSrc}
           aria-label="Lecteur audio"
         >{currentAudioSrc ? '🔊' : '🔇'}</button>
       )}
