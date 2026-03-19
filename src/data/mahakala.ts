@@ -2,7 +2,7 @@ import type { PracticeText } from "../types";
 
 export const mahakala: PracticeText = {
   id: "mahakala",
-  title: "Courte pratique de Mahakala",
+  title: "Madak",
   tibetanTitle: "མ་དག་",
   tibetanOnly: true,
   audioSrc: "/audio/Madak.mp3",
@@ -363,6 +363,15 @@ export const mahakala: PracticeText = {
           translation: "Retour aux textes",
           targetId: "/",
           navBack: true,
+          words: [],
+        },
+        {
+          id: "mk-nav-chenrezik-thoungma",
+          type: "nav-btn" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "Pratique de Chenrézik",
+          targetId: "/text/pratique-chenrezik-thoungma#ta-dewachen",
           words: [],
         },
       ],
