@@ -626,6 +626,14 @@
   }
 }
 
+.text-mahakala .tibetan-pairs {
+  text-align: center;
+}
+
+.text-mahakala .tibetan-pair-row {
+  justify-content: center;
+}
+
 .section-ch-corps .phrase-special {
   text-align: center;
   align-items: center;

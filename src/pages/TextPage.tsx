@@ -163,7 +163,7 @@ export default function TextPage() {
           </div>
         </nav>
       )}
-    <div className={`text-page ${interactionMode === 'scroll' ? 'text-page-scroll' : ''}`}>
+    <div className={`text-page text-${text.id} ${interactionMode === 'scroll' ? 'text-page-scroll' : ''}`}>
       <button className="back-button" onClick={() => navigate('/')}>
         ← Retour aux textes
       </button>

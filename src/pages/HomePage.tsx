@@ -17,7 +17,12 @@ export default function HomePage() {
             disabled={text.sections.length === 0}
           >
             {text.thumbnail && (
-              <img src={text.thumbnail} alt="" className="text-card-thumbnail" />
+              <div className="text-card-thumbnail-wrapper">
+                <img src={text.thumbnail} alt="" className="text-card-thumbnail" />
+                {text.thumbnailLogo && (
+                  <img src={text.thumbnailLogo} alt="" className="text-card-thumbnail-logo" />
+                )}
+              </div>
             )}
             {text.thumbnails && (
               <div className="text-card-thumbnails">

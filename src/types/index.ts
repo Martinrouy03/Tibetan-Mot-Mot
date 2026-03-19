@@ -38,6 +38,7 @@ export interface PracticeText {
   tibetanOnly?: boolean;
   audioSrc?: string;
   thumbnail?: string;
+  thumbnailLogo?: string;
   thumbnails?: string[];
 }
 
