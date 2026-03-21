@@ -2582,6 +2582,15 @@ export const pratiqueChenrezikThoungma: PracticeText = {
       title: "Souhaits de Dewachen",
       phrases: [
         {
+          id: "dw-image",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/Amitabha.jpg",
+        },
+        {
           id: "dw-emaho",
           type: "normal",
           tibetan: "ཨེ་མ་ཧོཿ",
@@ -2937,12 +2946,6 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           translation: "",
           words: [],
         },
-      ],
-    },
-    {
-      id: "ta-souhaits",
-      title: "Souhaits de conclusion",
-      phrases: [
         {
           id: "ch-th-conc-1",
           type: "normal" as const,
@@ -3515,6 +3518,97 @@ export const pratiqueChenrezikThoungma: PracticeText = {
               tibetan: "སྒྲོལ་བར་ཤོག",
               phonetics: "dreul ouar chok",
               translation: "puissé-jé libérer",
+            },
+          ],
+        },
+        {
+          id: "ch-ded-5",
+          type: "normal",
+          tibetan: "།བྱང་ཆུབ་སེམས་ནི་རིན་པོ་ཆེ།།",
+          phonetics: "djang tchoub sem ni / rinpoché",
+          translation: "Bodhicitta si précieuse,",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་ནི་",
+              phonetics: "djang tchoub sem ni",
+              translation: "Bodhicitta",
+            },
+            {
+              tibetan: "རིན་པོ་ཆེ་",
+              phonetics: "rinpoché",
+              translation: "si précieuse",
+            },
+          ],
+        },
+        {
+          id: "ch-ded-6",
+          type: "normal",
+          tibetan: "།མ་སྐྱེས་པ་རྣམས་སྐྱེས་གྱུར་ཅིག།",
+          phonetics: "ma kyé / pa nam kyé / gyour chik",
+          translation: "Absente, puisse-t-elle émerger!",
+          words: [
+            {
+              tibetan: "མ་སྐྱེས་པ་རྣམས་",
+              phonetics: "ma kyé pa nam",
+              translation: "Absente",
+            },
+            {
+              tibetan: "སྐྱེས་",
+              phonetics: "kyé",
+              translation: "émerger",
+            },
+            {
+              tibetan: "གྱུར་ཅིག་",
+              phonetics: "gyour chik",
+              translation: "puisse-t-elle",
+            },
+          ],
+        },
+        {
+          id: "ch-ded-7",
+          type: "normal",
+          tibetan: "།སྐྱེས་པ་ཉམས་པ་མེད་པ་དང༌།།",
+          phonetics: "kyé pa / nyam pa / mé pa tang",
+          translation: "Présente, ne jamais décliner,",
+          words: [
+            {
+              tibetan: "སྐྱེས་པ་",
+              phonetics: "kyé pa",
+              translation: "Présente",
+            },
+            {
+              tibetan: "ཉམས་པ་",
+              phonetics: "nyam pa",
+              translation: "décliner",
+            },
+            {
+              tibetan: "མེད་པ་དང་",
+              phonetics: "mé pa tang",
+              translation: "ne jamais",
+            },
+          ],
+        },
+        {
+          id: "ch-ded-8",
+          type: "normal",
+          tibetan: "།གོང་ནས་གོང་དུ་འཕེལ་བར་ཤོག།",
+          phonetics: "gong nas / gong tu / pel war shok",
+          translation: "[Mais] croître, encore et encore!",
+          words: [
+            {
+              tibetan: "གོང་ནས་",
+              phonetics: "gong nas",
+              translation: "encore",
+            },
+            {
+              tibetan: "གོང་དུ་",
+              phonetics: "gong tu",
+              translation: "et encore",
+            },
+            {
+              tibetan: "འཕེལ་བར་ཤོག་",
+              phonetics: "pel war shok",
+              translation: "croître",
             },
           ],
         },
