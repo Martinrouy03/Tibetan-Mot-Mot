@@ -16,7 +16,7 @@ const initialState: UiState = {
   interactionMode: 'click',
   showTranslation: true,
   selectedPhraseId: null,
-  tibetanFontSize: 20,
+  tibetanFontSize: 21,
   currentAudioSrc: null,
   audioPlayerVisible: false,
 };

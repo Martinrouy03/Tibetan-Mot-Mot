@@ -63,12 +63,12 @@ export default function Header() {
           {collapsed ? '···' : '▲'}
         </button>
       )}
-      {isTextPage && (
+      {isTextPage && currentAudioSrc && (
         <button
-          className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}${!currentAudioSrc ? ' no-audio' : ''}`}
-          onClick={() => currentAudioSrc && dispatch(toggleAudioPlayer())}
+          className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}`}
+          onClick={() => dispatch(toggleAudioPlayer())}
           aria-label="Lecteur audio"
-        >{currentAudioSrc ? '🔊' : '🔇'}</button>
+        >🔊</button>
       )}
       {isTextPage && !collapsed && isTibetanOnly && (
         <div className="header-controls">

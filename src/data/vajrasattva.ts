@@ -520,7 +520,7 @@ export const vajrasattva: PracticeText = {
               phonetics: "dro oué tso",
               translation: "souverain des êtres",
             },
-            { tibetan: "ལ", phonetics: "la", translation: "en / auprès de" },
+            { tibetan: "ལ", phonetics: "la", translation: "en vous" },
             { tibetan: "བདག", phonetics: "da", translation: "je" },
             {
               tibetan: "སྐྱབས་མཆི",

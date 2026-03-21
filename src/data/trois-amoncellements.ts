@@ -5,7 +5,17 @@ export const troisAmoncellements: PracticeText = {
   title: "Soutra des trois amoncellements",
   tibetanTitle: "ཕུང་པོ་གསུམ་གྱི་མདོ",
   audioSrc: "/audio/Sutra_confession.mp3",
-  thumbnails: ["/35buddhas/Bouddha1.jpg", "/35buddhas/Bouddha2.jpg", "/35buddhas/Bouddha3.jpg", "/35buddhas/Bouddha4.jpg", "/35buddhas/Bouddha5.jpg", "/35buddhas/Bouddha6.jpg", "/35buddhas/Bouddha7.jpg", "/35buddhas/Bouddha8.jpg", "/35buddhas/Bouddha9.jpg"],
+  thumbnails: [
+    "/35buddhas/Bouddha1.jpg",
+    "/35buddhas/Bouddha2.jpg",
+    "/35buddhas/Bouddha3.jpg",
+    "/35buddhas/Bouddha4.jpg",
+    "/35buddhas/Bouddha5.jpg",
+    "/35buddhas/Bouddha6.jpg",
+    "/35buddhas/Bouddha7.jpg",
+    "/35buddhas/Bouddha8.jpg",
+    "/35buddhas/Bouddha9.jpg",
+  ],
   sections: [
     {
       id: "ta-refuge",
@@ -1929,9 +1939,19 @@ export const troisAmoncellements: PracticeText = {
           translation: "dans une région périphérique,",
           words: [
             {
-              tibetan: "ཡུལ་མཐའ་འཁོབ་ཏུ་",
-              phonetics: "yul t'a k'op tou",
-              translation: "dans une région périphérique",
+              tibetan: "ཡུལ་",
+              phonetics: "yul",
+              translation: "région",
+            },
+            {
+              tibetan: "མཐའ་འཁོབ་",
+              phonetics: "t'a k'op",
+              translation: "périphérique",
+            },
+            {
+              tibetan: "ཏུ་",
+              phonetics: "tou",
+              translation: "dans",
             },
             {
               tibetan: "སྐྱེ་བའམ།",
@@ -2098,11 +2118,10 @@ export const troisAmoncellements: PracticeText = {
               phonetics: "tchom den dé",
               translation: "bhagavan",
             },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse" },
             {
-              tibetan: "སུ་གྱུར་པ།",
-              phonetics: "sou gyour pa",
-              translation: "qui sont devenus",
+              tibetan: "ཡེ་ཤེས་སུ་གྱུར་པ།",
+              phonetics: "yéshé sou gyour pa",
+              translation: "qui sont sagesse",
             },
           ],
         },
@@ -2114,24 +2133,15 @@ export const troisAmoncellements: PracticeText = {
           translation: "clairvoyance, témoins,",
           words: [
             {
-              tibetan: "སྤྱན་དུ་",
-              phonetics: "tchen tou",
+              tibetan: "སྤྱན་དུ་གྱུར་པ།",
+              phonetics: "tchen tou gyourpa",
               translation: "clairvoyance",
             },
+
             {
-              tibetan: "གྱུར་པ།",
-              phonetics: "gyourpa",
-              translation: "qui sont devenus",
-            },
-            {
-              tibetan: "དཔང་དུ་",
-              phonetics: "pang dou",
+              tibetan: "དཔང་དུ་གྱུར་པ།",
+              phonetics: "pang dou gyour pa",
               translation: "témoins",
-            },
-            {
-              tibetan: "གྱུར་པ།",
-              phonetics: "gyour pa",
-              translation: "qui sont devenus",
             },
           ],
         },
@@ -2692,7 +2702,7 @@ export const troisAmoncellements: PracticeText = {
             {
               tibetan: "ཇི་ལྟར་",
               phonetics: "dji tar",
-              translation: "de la même manière que",
+              translation: "de même que",
             },
             {
               tibetan: "འདས་པའི་",
@@ -2710,9 +2720,14 @@ export const troisAmoncellements: PracticeText = {
               translation: "bhagavans",
             },
             {
-              tibetan: "ཡོངས་སུ་བསྔོས་པ་དང་།",
-              phonetics: "yong sou ngeupa dang",
-              translation: "ont dédié parfaitement et",
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "parfaitement",
+            },
+            {
+              tibetan: "བསྔོས་པ་དང་།",
+              phonetics: "ngeupa dang",
+              translation: "ont dédié et",
             },
           ],
         },
@@ -2729,22 +2744,37 @@ export const troisAmoncellements: PracticeText = {
             {
               tibetan: "ཇི་ལྟར་",
               phonetics: "dji tar",
-              translation: "de la même manière que",
+              translation: "de même que",
             },
             {
               tibetan: "མ་བྱོན་པའི་",
               phonetics: "ma djeun pai",
-              translation: "du futur",
+              translation: "non advenus",
             },
             {
-              tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
-              phonetics: "sang gyé tchom den dé nam ki",
-              translation: "bouddhas-bhagavans",
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddhas",
             },
             {
-              tibetan: "ཡོངས་སུ་སྔོ་བར་འགྱུར་བ་དང་།",
-              phonetics: "yong sou ngo war gyour wa dang",
-              translation: "accompliront une dédicace et",
+              tibetan: "བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
+              phonetics: "tchomdendé nam ki",
+              translation: "bhagavans",
+            },
+            {
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "parfaite",
+            },
+            {
+              tibetan: "སྔོ་བར་",
+              phonetics: "ngo war",
+              translation: "dédicace",
+            },
+            {
+              tibetan: "འགྱུར་བ་དང་།",
+              phonetics: "gyour wa dang",
+              translation: "accompliront et",
             },
           ],
         },
@@ -2761,7 +2791,7 @@ export const troisAmoncellements: PracticeText = {
             {
               tibetan: "ཇི་ལྟར་",
               phonetics: "dji tar",
-              translation: "de la même manière que",
+              translation: "de même que",
             },
             {
               tibetan: "ད་ལྟར་བྱུང་བའི་",
@@ -2769,14 +2799,29 @@ export const troisAmoncellements: PracticeText = {
               translation: "actuels",
             },
             {
-              tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
-              phonetics: "sangyé tchomdendé nam ki",
-              translation: "bouddhas-bhagavans",
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddhas",
             },
             {
-              tibetan: "ཡོངས་སུ་སྔོ་བར་མཛད་པ་",
-              phonetics: "yong sou ngowar dzé pa",
-              translation: "accomplissent une dédicace",
+              tibetan: "བཅོམ་ལྡན་འདས་རྣམས་ཀྱིས་",
+              phonetics: "tchomdendé nam ki",
+              translation: "bhagavans",
+            },
+            {
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "parfaite",
+            },
+            {
+              tibetan: "སྔོ་བར་",
+              phonetics: "ngo war",
+              translation: "dédicace",
+            },
+            {
+              tibetan: "མཛད་པ་",
+              phonetics: "dzé pa",
+              translation: "accomplissent",
             },
           ],
         },
@@ -2944,9 +2989,14 @@ export const troisAmoncellements: PracticeText = {
               translation: "tous ceux qui",
             },
             {
-              tibetan: "ད་ལྟར་བཞུགས་པ་དང་།",
-              phonetics: "da tar shouk pa dang",
-              translation: "demeurent actuellement et",
+              tibetan: "ད་ལྟར་",
+              phonetics: "da tar",
+              translation: "actuellement",
+            },
+            {
+              tibetan: "བཞུགས་པ་དང་།",
+              phonetics: "shouk pa dang",
+              translation: "demeurent et",
             },
           ],
         },

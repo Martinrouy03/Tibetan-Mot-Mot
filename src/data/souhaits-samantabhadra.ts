@@ -1339,11 +1339,11 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Par l'hommage, l'offrande, la repentance,",
           words: [
             {
-              tibetan: "ཕྱག་འཚལ་",
-              phonetics: "tchak tsel",
+              tibetan: "ཕྱག་འཚལ་བ་",
+              phonetics: "tchak tsel wa",
               translation: "prosternation",
             },
-            { tibetan: "བ་དང་", phonetics: "wa dang", translation: "et" },
+            { tibetan: "དང་", phonetics: "dang", translation: "et" },
             {
               tibetan: "མཆོད་ཅིང་",
               phonetics: "tcheu tching",
