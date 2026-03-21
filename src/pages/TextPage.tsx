@@ -23,6 +23,7 @@ export default function TextPage() {
 
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [scrollingMantraId, setScrollingMantraId] = useState<string | null>(null);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -464,10 +465,32 @@ export default function TextPage() {
                   ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
-                    <div className="phrase phrase-mantra">
-                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                      </span>
+                    <div className={`phrase phrase-mantra${scrollingMantraId === phrase.id ? ' phrase-mantra-scrolling-active' : ''}`}>
+                      {phrase.id === 'vs-3-3' && (
+                        <button
+                          className="mantra-scroll-btn"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setScrollingMantraId(scrollingMantraId === phrase.id ? null : phrase.id);
+                          }}
+                        >
+                          {scrollingMantraId === phrase.id ? '⏹' : '▶'}
+                        </button>
+                      )}
+                      {scrollingMantraId === phrase.id ? (
+                        <div className="phrase-mantra-scroll-wrapper">
+                          <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                            {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                          </span>
+                          <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`} aria-hidden="true">
+                            {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                          </span>
+                        </div>
+                      ) : (
+                        <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                          {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                        </span>
+                      )}
                     </div>
                   ) : isMantraMain ? (() => {
                     const syllablesTib = [

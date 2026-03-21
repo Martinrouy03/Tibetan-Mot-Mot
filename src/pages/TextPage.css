@@ -282,6 +282,43 @@
   font-size: calc(var(--ui-font-size, 1rem) * 2);
 }
 
+.mantra-scroll-btn {
+  display: block;
+  margin: 0 auto 0.8rem;
+  background: #2a2a2a;
+  border: 1px solid #555;
+  color: #c9a84c;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mantra-scroll-btn:hover {
+  background: #3a3a3a;
+}
+
+.phrase-mantra-scrolling-active {
+  overflow: hidden;
+}
+
+.phrase-mantra-scroll-wrapper {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+  animation: scroll-mantra 25s linear infinite;
+}
+
+.phrase-mantra-scroll-wrapper .phrase-text {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-mantra {
+  from { transform: translateX(min(50vw, 400px)); }
+  to   { transform: translateX(calc(min(50vw, 400px) - 50% - 15px)); }
+}
+
 .phrase-special {
   display: flex;
   flex-direction: column;
