@@ -221,6 +221,11 @@
   padding-left: 2.5rem;
 }
 
+.text-souhaits-samantabhadra .phrase-image-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .stance-number {
   position: absolute;
   left: 0;
@@ -315,8 +320,9 @@
   background: #3a3a3a;
 }
 
-.phrase-mantra-scrolling-active {
+.phrase-mantra-scroll-clip {
   overflow: hidden;
+  width: 100%;
 }
 
 .phrase-mantra-scroll-wrapper {

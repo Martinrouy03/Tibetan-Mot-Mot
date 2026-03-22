@@ -24,6 +24,7 @@ export default function TextPage() {
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [scrollingMantraId, setScrollingMantraId] = useState<string | null>(null);
+  const mantraWrapperRef = useRef<HTMLDivElement>(null);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
@@ -35,6 +36,22 @@ export default function TextPage() {
     dispatch(setCurrentAudioSrc(text?.audioSrc ?? null));
     return () => { dispatch(setCurrentAudioSrc(null)); };
   }, [text?.audioSrc, dispatch]);
+
+  useEffect(() => {
+    const wrapper = mantraWrapperRef.current;
+    if (!scrollingMantraId || !wrapper) return;
+    const rafId = requestAnimationFrame(() => {
+      const spans = wrapper.querySelectorAll<HTMLSpanElement>('.phrase-text');
+      if (!spans[0]) return;
+      const spanWidth = spans[0].getBoundingClientRect().width || wrapper.scrollWidth / 2;
+      if (!spanWidth) return;
+      wrapper.style.width = `${2 * spanWidth + 30}px`;
+    });
+    return () => {
+      cancelAnimationFrame(rafId);
+      if (wrapper) wrapper.style.width = '';
+    };
+  }, [scrollingMantraId]);
 
   const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma' || textId === 'souhaits-samantabhadra';
   const navSections = useMemo(() => {
@@ -469,25 +486,16 @@ export default function TextPage() {
                     <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
                   ) : isMantra ? (
                     <div className={`phrase phrase-mantra${scrollingMantraId === phrase.id ? ' phrase-mantra-scrolling-active' : ''}`}>
-                      {phrase.id === 'vs-3-3' && (
-                        <button
-                          className="mantra-scroll-btn"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setScrollingMantraId(scrollingMantraId === phrase.id ? null : phrase.id);
-                          }}
-                        >
-                          {scrollingMantraId === phrase.id ? '⏹' : '▶'}
-                        </button>
-                      )}
                       {scrollingMantraId === phrase.id ? (
-                        <div className="phrase-mantra-scroll-wrapper">
-                          <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                            {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                          </span>
-                          <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`} aria-hidden="true">
-                            {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
-                          </span>
+                        <div className="phrase-mantra-scroll-clip">
+                          <div className="phrase-mantra-scroll-wrapper" ref={mantraWrapperRef}>
+                            <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                              {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                            </span>
+                            <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`} aria-hidden="true">
+                              {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                            </span>
+                          </div>
                         </div>
                       ) : (
                         <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
@@ -529,7 +537,20 @@ export default function TextPage() {
                     <div className="phrase phrase-special">
                       <span className="phrase-text tibetan">{phrase.tibetan}</span>
                       {phrase.translation && (
-                        <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: phrase.translation }} />
+                        <span className="phrase-special-translation">
+                          <span dangerouslySetInnerHTML={{ __html: phrase.translation }} />
+                          {phrase.id === 'vs-3-4' && (
+                            <button
+                              className="mantra-scroll-btn"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setScrollingMantraId(scrollingMantraId === 'vs-3-3' ? null : 'vs-3-3');
+                              }}
+                            >
+                              {scrollingMantraId === 'vs-3-3' ? '⏹' : '▶'}
+                            </button>
+                          )}
+                        </span>
                       )}
                     </div>
                   ) : (
