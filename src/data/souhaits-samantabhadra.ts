@@ -1467,6 +1467,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-asp-1",
+          stanceNumber: 13,
           type: "normal" as const,
           tibetan: "།འདས་པའི་སངས་རྒྱས་རྣམས་དང་ཕྱོགས་བཅུ་ཡི།",
           phonetics: "dé pai / sangyé / nam dang / tchok tchou yi",
@@ -1574,6 +1575,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-5",
+          stanceNumber: 14,
           type: "normal" as const,
           tibetan: "།ཕྱོགས་བཅུ་ག་ལའི་ཞིང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "tchok tchou / ga lai / shing nam / dji nyé pa",
@@ -1630,6 +1632,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-7",
+          stanceNumber: 15,
           type: "normal" as const,
           tibetan: "།བྱང་ཆུབ་ཤིང་དབང་དྲུང་གཤེགས་རྒྱལ་བ་དང༌།",
           phonetics: "djang tchoup / ching wang / droung chek / gyal wa dang",
@@ -1689,6 +1692,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-9",
+          stanceNumber: 16,
           type: "normal" as const,
           tibetan: "།ཕྱོགས་བཅུའི་སེམས་ཅན་གང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "tchok tchu / sem tchen / gang nam / dji nyé pa",
@@ -1804,6 +1808,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-13",
+          stanceNumber: 17,
           type: "normal" as const,
           tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་དག་ནི་བདག་སྤྱོད་ཅིང༌།",
           phonetics: "djang tchoup / tcheu pa / dak ni / dak tcheu tching",
@@ -1859,6 +1864,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-15",
+          stanceNumber: 18,
           type: "normal" as const,
           tibetan: "།ཚེ་རབས་ཀུན་ཏུ་འཆི་འཕོ་སྐྱེ་བ་ན།",
           phonetics: "tsé rap / kun tou / tchi p'o / kyé wa na",
@@ -1925,6 +1931,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-17",
+          stanceNumber: 19,
           type: "normal" as const,
           tibetan: "།རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
           phonetics: "gyal wa / kun gyi / djé sou / lop gyour té",
@@ -2044,6 +2051,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-21",
+          stanceNumber: 20,
           type: "normal" as const,
           tibetan: "།ལྷ་ཡི་སྐད་དང་ཀླུ་དང་གནོད་སྦྱིན་སྐད།",
           phonetics: "lh'a yi / ké dang / lou dang / neu djin / ké",
@@ -2156,6 +2164,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-25",
+          stanceNumber: 21,
           type: "normal" as const,
           tibetan: "།དེས་ཤིང་ཕ་རོལ་ཕྱིན་ལ་རབ་བརྩོན་ཏེ།",
           phonetics: "dé ching / p'a reul tchin la / rap tseun té",
@@ -2205,6 +2214,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-27",
+          stanceNumber: 22,
           type: "normal" as const,
           tibetan: "།སྡིག་པ་གང་རྣམས་སྒྲིབ་པར་གྱུར་པ་དག",
           phonetics: "dik pa / gang nam / drip par / gyour wa dak",
@@ -2261,6 +2271,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-29",
+          stanceNumber: 23,
           type: "normal" as const,
           tibetan: "།ལས་དང་ཉོན་མོངས་བདུད་ཀྱི་ལས་རྣམས་ལས།",
           phonetics: "lé dang / nyeun mong / du kyi / lé nam lé",
@@ -2372,6 +2383,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-asp-33",
+          stanceNumber: 24,
           type: "normal" as const,
           tibetan: "།ཞིང་གི་ཁྱོན་དང་ཕྱོགས་རྣམས་ཇི་ཙམ་པར།",
           phonetics: "shing gui / kyeun dang / tchok nam / dji tsam par",
@@ -2473,6 +2485,726 @@ export const souhaitsSamantabhadra: PracticeText = {
               phonetics: "p'en par tché",
               translation: "agir pour le bien",
             },
+          ],
+        },
+        {
+          id: "ss-asp-37",
+          stanceNumber: 25,
+          type: "normal" as const,
+          tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང་།",
+          phonetics: "djang tchoup / tcheu pa / yong sou / dzok djé / tching",
+          translation: "[Puissé-je] parfaire la conduite de l'éveil,",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "djang tchoup",
+              translation: "l'éveil",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "la conduite",
+            },
+            {
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "totalement",
+            },
+            {
+              tibetan: "རྫོགས་བྱེད་",
+              phonetics: "dzok djé",
+              translation: "parfaire",
+            },
+            { tibetan: "ཅིང་", phonetics: "tching", translation: "et" },
+          ],
+        },
+        {
+          id: "ss-asp-38",
+          type: "normal" as const,
+          tibetan: "།སེམས་ཅན་དག་གི་སྤྱོད་དང་མཐུན་པར་འཇུག",
+          phonetics: "sem tchen / dak gui / tché dang / t'un par / djouk",
+          translation: "en me conformant aux styles de vie des êtres!",
+          words: [
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
+            { tibetan: "དག་གི་", phonetics: "dak gui", translation: "moi" },
+            {
+              tibetan: "སྤྱོད་དང་",
+              phonetics: "tché dang",
+              translation: "les styles de vie",
+            },
+            {
+              tibetan: "མཐུན་པར་",
+              phonetics: "t'un par",
+              translation: "en conformité",
+            },
+            { tibetan: "འཇུག", phonetics: "djouk", translation: "entrer" },
+          ],
+        },
+        {
+          id: "ss-asp-39",
+          type: "normal" as const,
+          tibetan: "།བཟང་པོ་སྤྱོད་པ་དག་ནི་རབ་སྟོན་ཅིང་།",
+          phonetics: "zang po / tcheu pa / dak ni / rap / teun tching",
+          translation:
+            "[Puissé-je] donner le parfait exemple de la conduite excellente",
+          words: [
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            { tibetan: "དག་ནི་", phonetics: "dak ni", translation: "parfaite" },
+            { tibetan: "རབ་", phonetics: "rap", translation: "clairement" },
+            {
+              tibetan: "སྟོན་ཅིང་",
+              phonetics: "teun tching",
+              translation: "enseigner",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-40",
+          type: "normal" as const,
+          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱོད་པར་འགྱུར།",
+          phonetics: "ma ong / kal pa / kun tou / tcheu par gyour",
+          translation: "et toujours la mettre en œuvre dans les kalpas futurs!",
+          words: [
+            { tibetan: "མ་འོངས་", phonetics: "ma ong", translation: "futurs" },
+            { tibetan: "བསྐལ་པ་", phonetics: "kal pa", translation: "kalpas" },
+            {
+              tibetan: "ཀུན་ཏུ་",
+              phonetics: "kun tou",
+              translation: "toujours",
+            },
+            {
+              tibetan: "སྤྱོད་པར་འགྱུར་",
+              phonetics: "tcheu par gyour",
+              translation: "mettre en œuvre",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-41",
+          stanceNumber: 26,
+          type: "normal" as const,
+          tibetan: "།བདག་གི་སྤྱོད་དང་མཚུངས་པར་གང་སྤྱོད་པ།",
+          phonetics: "dak gui / tcheu dang / tsoung par / gang / tcheu pa",
+          translation: "Quiconque se conduit pareillement à ma conduite,",
+          words: [
+            { tibetan: "བདག་གི་", phonetics: "dak gui", translation: "ma" },
+            {
+              tibetan: "སྤྱོད་དང་",
+              phonetics: "tcheu dang",
+              translation: "conduite",
+            },
+            {
+              tibetan: "མཚུངས་པར་",
+              phonetics: "tsoung par",
+              translation: "pareillement",
+            },
+            { tibetan: "གང་", phonetics: "gang", translation: "quiconque" },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "se conduit",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-42",
+          type: "normal" as const,
+          tibetan: "།དེ་དག་དང་ནི་རྟག་ཏུ་འགྲོགས་པར་ཤོག",
+          phonetics: "dé dak / dang ni / tak tou / drok par / chok",
+          translation: "Puissé-je toujours les fréquenter!",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "ceux-là" },
+            { tibetan: "དང་ནི་", phonetics: "dang ni", translation: "avec" },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "toujours",
+            },
+            {
+              tibetan: "འགྲོགས་པར་",
+              phonetics: "drok par",
+              translation: "fréquenter",
+            },
+            { tibetan: "ཤོག", phonetics: "chok", translation: "puissé-je" },
+          ],
+        },
+        {
+          id: "ss-asp-43",
+          type: "normal" as const,
+          tibetan: "།ལུས་དང་ངག་རྣམས་དང་ནི་སེམས་ཀྱིས་ཀྱང༌།",
+          phonetics: "lu dang / ngak nam / dang ni / sem kyi kyang",
+          translation: "[Notre conduite] physique, verbale et aussi mentale",
+          words: [
+            {
+              tibetan: "ལུས་དང་",
+              phonetics: "lu dang",
+              translation: "physique et",
+            },
+            {
+              tibetan: "ངག་རྣམས་",
+              phonetics: "ngak nam",
+              translation: "verbale",
+            },
+            { tibetan: "དང་ནི་", phonetics: "dang ni", translation: "et" },
+            {
+              tibetan: "སེམས་ཀྱིས་ཀྱང་",
+              phonetics: "sem kyi kyang",
+              translation: "mentale aussi",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-44",
+          type: "normal" as const,
+          tibetan: "།སྤྱོད་པ་དག་དང་སྨོན་ལམ་གཅིག་ཏུ་སྤྱད།",
+          phonetics: "tcheu pa / dak dang / meun lam / tchik tou tché",
+          translation: "ainsi que nos souhaits, puissent-ils être à l'unisson!",
+          words: [
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            { tibetan: "དག་དང་", phonetics: "dak dang", translation: "et" },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "meun lam",
+              translation: "souhaits",
+            },
+            {
+              tibetan: "གཅིག་ཏུ་སྤྱད་",
+              phonetics: "tchik tou tché",
+              translation: "à l'unisson",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-45",
+          stanceNumber: 27,
+          type: "normal" as const,
+          tibetan: "།བདག་ལ་ཕན་པར་འདོད་པའི་གྲོགས་པོ་དག",
+          phonetics: "dak la / p'en par / deu pai / drok po dak",
+          translation: "Les amis qui souhaitent mon bien,",
+          words: [
+            { tibetan: "བདག་ལ་", phonetics: "dak la", translation: "mon" },
+            {
+              tibetan: "ཕན་པར་",
+              phonetics: "p'en par",
+              translation: "bienfait",
+            },
+            {
+              tibetan: "འདོད་པའི་",
+              phonetics: "deu pai",
+              translation: "qui souhaitent",
+            },
+            {
+              tibetan: "གྲོགས་པོ་དག",
+              phonetics: "drok po dak",
+              translation: "les amis",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-46",
+          type: "normal" as const,
+          tibetan: "།བཟང་པོ་སྤྱོད་པ་རབ་ཏུ་སྟོན་པ་རྣམས།",
+          phonetics: "zang po / tcheu pa / rap tou / teun pa nam",
+          translation: "qui montrent parfaitement l'excellente conduite",
+          words: [
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "parfaitement",
+            },
+            {
+              tibetan: "སྟོན་པ་རྣམས་",
+              phonetics: "teun pa nam",
+              translation: "qui montrent",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-47",
+          type: "normal" as const,
+          tibetan: "།དེ་དག་དང་ཡང་རྟག་ཏུ་འཕྲད་པར་ཤོག",
+          phonetics: "dé dak / dang yang / tak tou / tré par / chok",
+          translation: "Ceux-là, puissé-je toujours les rencontrer,",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "Ceux-là" },
+            {
+              tibetan: "དང་ཡང་",
+              phonetics: "dang yang",
+              translation: "et aussi",
+            },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "toujours",
+            },
+            {
+              tibetan: "འཕྲད་པར་",
+              phonetics: "tré par",
+              translation: "les rencontrer",
+            },
+            { tibetan: "ཤོག", phonetics: "chok", translation: "puissé-je" },
+          ],
+        },
+        {
+          id: "ss-asp-48",
+          type: "normal" as const,
+          tibetan: "།དེ་དག་བདག་གིས་ནམ་ཡང་ཡིད་མི་དབྱུང༌།",
+          phonetics: "dé dak / dak gui / nam yang / yi / mi djoung",
+          translation: "Puissé-je ne jamais détourner mon esprit d'eux",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "d'eux" },
+            { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "moi" },
+            { tibetan: "ནམ་ཡང་", phonetics: "nam yang", translation: "jamais" },
+            { tibetan: "ཡིད་", phonetics: "yi", translation: "esprit" },
+            {
+              tibetan: "མི་དབྱུང་",
+              phonetics: "mi djoung",
+              translation: "ne pas détourner",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-49",
+          stanceNumber: 28,
+          type: "normal" as const,
+          tibetan: "།སངས་རྒྱས་སྲས་ཀྱིས་བསྐོར་བའི་མགོན་པོ་རྣམས།",
+          phonetics: "sangyé / sé kyi / kor wai / gueun po nam",
+          translation: "Les protecteurs, l'entourage de bodhisattvas,",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་སྲས་ཀྱིས་",
+              phonetics: "sangyé",
+              translation: "les bodhisattvas",
+            },
+            {
+              tibetan: "བསྐོར་བའི་",
+              phonetics: "kor wai",
+              translation: "entourage",
+            },
+            {
+              tibetan: "མགོན་པོ་རྣམས་",
+              phonetics: "gueun po nam",
+              translation: "les protecteurs",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-50",
+          type: "normal" as const,
+          tibetan: "།མངོན་སུམ་རྟག་ཏུ་བདག་གིས་རྒྱལ་བ་བལྟ།",
+          phonetics: "ngeun soum / tak tou / dak gui / gyal wa ta",
+          translation:
+            "les Victorieux, puissé-je toujours les percevoir directement!",
+          words: [
+            {
+              tibetan: "མངོན་སུམ་",
+              phonetics: "ngeun soum",
+              translation: "directement",
+            },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "toujours",
+            },
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "dak gui",
+              translation: "moi",
+            },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "les Victorieux",
+            },
+            {
+              tibetan: "བལྟ་",
+              phonetics: "ta",
+              translation: "[puissé-je] percevoir",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-51",
+          type: "normal" as const,
+          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་མི་སྐྱོ་བར།",
+          phonetics: "ma ong / kal pa / kun tou / mi kyo war",
+          translation: "Au cours de tous les kalpas à venir, inlassablement",
+          words: [
+            { tibetan: "མ་འོངས་", phonetics: "ma ong", translation: "à venir" },
+            { tibetan: "བསྐལ་པ་", phonetics: "kal pa", translation: "kalpas" },
+            { tibetan: "ཀུན་ཏུ་", phonetics: "kun tou", translation: "tous" },
+            {
+              tibetan: "མི་སྐྱོ་བར་",
+              phonetics: "mi kyo war",
+              translation: "inlassablement",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-52",
+          type: "normal" as const,
+          tibetan: "།དེ་དག་ལ་ཡང་མཆོད་པ་རྒྱ་ཆེར་བགྱི།",
+          phonetics: "dé dak / la yang / tcheu pa / gya tcher gyi",
+          translation: "je leur ferai de vastes offrandes!",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "à eux" },
+            {
+              tibetan: "ལ་ཡང་",
+              phonetics: "la yang",
+              translation: "également",
+            },
+            {
+              tibetan: "མཆོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "offrandes",
+            },
+            {
+              tibetan: "རྒྱ་ཆེར་",
+              phonetics: "gya tcher",
+              translation: "vastes",
+            },
+            {
+              tibetan: "བགྱི་",
+              phonetics: "gyi",
+              translation: "je leur ferai",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-53",
+          stanceNumber: 29,
+          type: "normal" as const,
+          tibetan: "།རྒྱལ་བ་རྣམས་ཀྱི་དམ་པའི་ཆོས་འཛིན་ཅིང༌།",
+          phonetics: "gyal wa / nam kyi / dam pai / tcheu / dzin tching",
+          translation:
+            "[Puissé-je] observer le Dharma authentique des Victorieux",
+          words: [
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "Victorieux",
+            },
+            { tibetan: "རྣམས་ཀྱི་", phonetics: "nam kyi", translation: "des" },
+            {
+              tibetan: "དམ་པའི་",
+              phonetics: "dam pai",
+              translation: "authentique",
+            },
+            { tibetan: "ཆོས་", phonetics: "tcheu", translation: "Dharma" },
+            {
+              tibetan: "འཛིན་ཅིང་",
+              phonetics: "dzin tching",
+              translation: "observer",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-54",
+          type: "normal" as const,
+          tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་ཀུན་ཏུ་སྣང་བར་བྱེད།",
+          phonetics: "djang tchoup / tcheu pa / kun tou / nang war djé",
+          translation: "et rendre pleinement manifeste la conduite de l'éveil!",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "djang tchoup",
+              translation: "l'éveil",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            {
+              tibetan: "ཀུན་ཏུ་",
+              phonetics: "kun tou",
+              translation: "pleinement",
+            },
+            {
+              tibetan: "སྣང་བར་བྱེད་",
+              phonetics: "nang war djé",
+              translation: "rendre manifeste",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-55",
+          type: "normal" as const,
+          tibetan: "།བཟང་པོ་སྤྱོད་པ་རྣམ་པར་སྦྱང་བ་ཡང༌།",
+          phonetics: "zang po / tcheu pa / nam par / djang wa yang",
+          translation: "[Puissé-je] être rompu à la conduite excellente",
+          words: [
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            {
+              tibetan: "རྣམ་པར་",
+              phonetics: "nam par",
+              translation: "parfaitement",
+            },
+            {
+              tibetan: "སྦྱང་བ་ཡང་",
+              phonetics: "djang wa yang",
+              translation: "être rompu à",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-56",
+          type: "normal" as const,
+          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱད་པར་བགྱི།",
+          phonetics: "ma ong / kal pa / kun tou / tché par gyi",
+          translation: "et la pratiquer pendant tous les kalpas à venir!",
+          words: [
+            { tibetan: "མ་འོངས་", phonetics: "ma ong", translation: "à venir" },
+            { tibetan: "བསྐལ་པ་", phonetics: "kal pa", translation: "kalpas" },
+            { tibetan: "ཀུན་ཏུ་", phonetics: "kun tou", translation: "tous" },
+            {
+              tibetan: "སྤྱད་པར་བགྱི་",
+              phonetics: "tché par gyi",
+              translation: "[puissé-je] la pratiquer",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-57",
+          stanceNumber: 30,
+          type: "normal" as const,
+          tibetan: "།སྲིད་པ་ཐམས་ཅད་དུ་ཡང་འཁོར་བ་ན།",
+          phonetics: "si pa / t'am tché / dou yang / k'or wa na",
+          translation:
+            "Dans toutes mes existences, soient-elles dans le samsara,",
+          words: [
+            {
+              tibetan: "སྲིད་པ་",
+              phonetics: "si pa",
+              translation: "existences",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes",
+            },
+            {
+              tibetan: "དུ་ཡང་",
+              phonetics: "dou yang",
+              translation: "soient-elles",
+            },
+            {
+              tibetan: "འཁོར་བ་ན་",
+              phonetics: "k'or wa na",
+              translation: "dans le samsara",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-58",
+          type: "normal" as const,
+          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་དག་ནི་མི་ཟད་རྙེད།",
+          phonetics: "seu nam / yé ché / dak ni / mi zé / nyé",
+          translation:
+            "[Puissé-je] acquérir d'inépuisables mérites et sagesse!",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seu nam",
+              translation: "mérites",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse" },
+            { tibetan: "དག་ནི་", phonetics: "dak ni", translation: "et" },
+            {
+              tibetan: "མི་ཟད་",
+              phonetics: "mi zé",
+              translation: "inépuisables",
+            },
+            { tibetan: "རྙེད་", phonetics: "nyé", translation: "acquérir" },
+          ],
+        },
+        {
+          id: "ss-asp-59",
+          type: "normal" as const,
+          tibetan: "།ཐབས་དང་ཤེས་རབ་ཏིང་འཛིན་རྣམ་ཐར་དང༌།",
+          phonetics: "t'ap dang / ché rap / ting dzin / nam t'ar dang",
+          translation:
+            "En les méthodes, le discernement, le samadhi et la libération:",
+          words: [
+            {
+              tibetan: "ཐབས་དང་",
+              phonetics: "t'ap dang",
+              translation: "méthodes et",
+            },
+            {
+              tibetan: "ཤེས་རབ་",
+              phonetics: "ché rap",
+              translation: "discernement",
+            },
+            {
+              tibetan: "ཏིང་འཛིན་",
+              phonetics: "ting dzin",
+              translation: "samadhi",
+            },
+            {
+              tibetan: "རྣམ་ཐར་དང་",
+              phonetics: "nam t'ar dang",
+              translation: "libération et",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-60",
+          type: "normal" as const,
+          tibetan: "།ཡོན་ཏན་ཀུན་གྱི་མི་ཟད་མཛོད་དུ་གྱུར།",
+          phonetics: "yeun ten / kun gyi / mi zé / dzeu dou / gyour",
+          translation:
+            "Puissent-ils devenir un trésor intarissable de qualités!",
+          words: [
+            {
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "yeun ten",
+              translation: "qualités",
+            },
+            { tibetan: "ཀུན་གྱི་", phonetics: "kun gyi", translation: "de" },
+            {
+              tibetan: "མི་ཟད་",
+              phonetics: "mi zé",
+              translation: "intarissable",
+            },
+            {
+              tibetan: "མཛོད་དུ་",
+              phonetics: "dzeu dou",
+              translation: "trésor",
+            },
+            { tibetan: "གྱུར་", phonetics: "gyour", translation: "devenir" },
+          ],
+        },
+        {
+          id: "ss-asp-61",
+          stanceNumber: 31,
+          type: "normal" as const,
+          tibetan: "།རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་ཞིང་རྣམས་ཏེ།",
+          phonetics: "dul tchik / teng na / dul nyé / shing nam té",
+          translation:
+            "Sur un atome se trouvent autant de champs purs que de particules;",
+          words: [
+            {
+              tibetan: "རྡུལ་གཅིག་",
+              phonetics: "dul tchik",
+              translation: "un atome",
+            },
+            { tibetan: "སྟེང་ན་", phonetics: "teng na", translation: "sur" },
+            {
+              tibetan: "རྡུལ་སྙེད་",
+              phonetics: "dul nyé",
+              translation: "autant que de particules",
+            },
+            {
+              tibetan: "ཞིང་རྣམས་ཏེ་",
+              phonetics: "shing nam té",
+              translation: "des champs purs",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-62",
+          type: "normal" as const,
+          tibetan: "།ཞིང་དེར་བསམ་གྱིས་མི་ཁྱབ་སངས་རྒྱས་རྣམས།",
+          phonetics: "shing / der / sam gyi mi kyap / sangyé nam",
+          translation:
+            "dans chaque champ pur, [un nombre] inconcevable de bouddhas,",
+          words: [
+            { tibetan: "ཞིང་", phonetics: "shing", translation: "champ pur" },
+            { tibetan: "དེར་", phonetics: "der", translation: "dans chaque" },
+            {
+              tibetan: "བསམ་གྱིས་མི་ཁྱབ་",
+              phonetics: "sam gyi mi kyap",
+              translation: "inconcevable",
+            },
+            {
+              tibetan: "སངས་རྒྱས་རྣམས་",
+              phonetics: "sangyé nam",
+              translation: "bouddhas",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-63",
+          type: "normal" as const,
+          tibetan: "།སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་ལ།",
+          phonetics: "sangyé / sé kyi / u na / shouk pa la",
+          translation: "demeurent entourés de bodhisattvas;",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་སྲས་ཀྱི་",
+              phonetics: "sangyé sé kyi",
+              translation: "bodhisattvas",
+            },
+            { tibetan: "དབུས་ན་", phonetics: "u na", translation: "entourés" },
+            {
+              tibetan: "བཞུགས་པ་ལ་",
+              phonetics: "shouk pa la",
+              translation: "demeurent",
+            },
+          ],
+        },
+        {
+          id: "ss-asp-64",
+          type: "normal" as const,
+          tibetan: "།བྱང་ཆུབ་སྤྱད་པ་སྤྱོད་ཅིང་བལྟ་བར་བགྱི།",
+          phonetics: "djang tchoup / tché pa / tcheu tching / ta war / gyi",
+          translation:
+            "puissé-je les voir et mettre en œuvre leur activité éveillée!",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ་",
+              phonetics: "djang tchoup",
+              translation: "éveillée",
+            },
+            {
+              tibetan: "སྤྱད་པ་",
+              phonetics: "tché pa",
+              translation: "activité",
+            },
+            {
+              tibetan: "སྤྱོད་ཅིང་",
+              phonetics: "tcheu tching",
+              translation: "mettre en œuvre",
+            },
+            { tibetan: "བལྟ་བར་", phonetics: "ta war", translation: "voir" },
+            { tibetan: "བགྱི་", phonetics: "gyi", translation: "puissé-je" },
           ],
         },
       ],
