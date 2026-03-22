@@ -354,7 +354,7 @@ export const vajrasattva: PracticeText = {
           id: "vs-3-3",
           type: "mantra",
           tibetan:
-            "།ཨོཾ་བཛྲ་སཏྭ་ས་མ་ཡ། མ་ནུ་པཱ་ལ་ཡ། བཛྲ་སཏྭ་ཏྭེ་ནོ་པ། ཏིཥྛ་དྲྀ་ཌྷ་མེ་བྷ་ཝ། སུ་ཏོཥྱོ་མེ་བྷ་ཝ། སུ་པོཥྱོ་མེ་བྷ་ཝ། ཨ་ནུ་རཀྟོ་མེ་བྷ་ཝ། སརྦ་སིདྡྷི་མྨེ་པྲ་ཡཙྪ། སརྦ་ཀརྨ་སུ་ཙ་མེ་ཙིཏྟཾ་ཤྲི་ཡཿ ཀུ་རུ་ཧཱུྃ་ཧ་ཧ་ཧ་ཧ་ཧོཿ བྷ་ག་ཝན། སརྦ་ཏ་ཐཱ་ག་ཏ་ བཛྲ་མཱ་མེ་མུཉྩ་བཛཱི་བྷ་ཝ་མ་ཧཱ་ས་མ་ཡ་སཏྭ་ཨཱཿ",
+            "།ཨོཾ་བཛྲ་སཏྭ་ས་མ་ཡ། མ་ནུ་པཱ་ལ་ཡ། བཛྲ་སཏྭ་ཏྭེ་ནོ་པ། ཏིཥྛ་དྲྀ་ཌྷོ་མེ་བྷ་ཝ། སུ་ཏོཥྱོ་མེ་བྷ་ཝ། སུ་པོཥྱོ་མེ་བྷ་ཝ། ཨ་ནུ་རཀྟོ་མེ་བྷ་ཝ། སརྦ་སིདྡྷི་མྨེ་པྲ་ཡཙྪ། སརྦ་ཀརྨ་སུ་ཙ་མེ་ཙིཏྟཾ་ཤྲི་ཡཿ ཀུ་རུ་ཧཱུྃ་ཧ་ཧ་ཧ་ཧ་ཧོཿ བྷ་ག་ཝན། སརྦ་ཏ་ཐཱ་ག་ཏ་ བཛྲ་མཱ་མེ་མུཉྩ་བཛཱི་བྷ་ཝ་མ་ཧཱ་ས་མ་ཡ་སཏྭ་ཨཱཿ",
           phonetics:
             "om vajra sato samaya / manou palaya / vajra sato ténopa titra drido mébaoua / souto kayo mébaoua / soupo kayo mébaoua / anourakto mébaoua / saroua siddi memtra yatsa / saroua karma soutsamé tsittam chriya kourou houng ha ha ha ha ho bagaouan / saroua tatagata vajra mamé muntsa vajri baoua maha samaya sato ah",
           translation: "",
