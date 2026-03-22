@@ -89,6 +89,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         {
           id: "ss-hom-1",
           type: "normal",
+          stanceNumber: 1,
           tibetan: "།ཇི་སྙེད་སུ་དག་ཕྱོགས་བཅུའི་འཇིག་རྟེན་ན།",
           phonetics: "dji nyé / sou dak / tcho tchu / djik ten na",
           translation: "Dans tous les mondes et dans les dix directions,",
@@ -199,6 +200,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         {
           id: "ss-hom-5",
           type: "normal",
+          stanceNumber: 2,
           tibetan: "།བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་སྟོབས་དག་གིས།",
           phonetics: "zang po / tcheu pai / meun lam / top dak gui",
           translation:
@@ -313,6 +315,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         {
           id: "ss-hom-9",
           type: "normal",
+          stanceNumber: 3,
           tibetan: "།རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་སངས་རྒྱས་རྣམས།",
           phonetics: "dul tchik / teng na / dul nyé / sangyé nam",
           translation:
@@ -418,6 +421,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-hom-13",
+          stanceNumber: 4,
           type: "normal",
           tibetan: "།དེ་དག་བསྔགས་པ་མི་ཟད་རྒྱ་མཚོ་རྣམས།",
           phonetics: "dé dak / ngak pa / mi zé / gyam tso nam",
@@ -533,6 +537,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-off-1",
+          stanceNumber: 5,
           type: "normal",
           tibetan: "།མེ་ཏོག་དམ་པ་ཕྲེང་བ་དམ་པ་དང་།",
           phonetics: "mé tok / dam pa / treng wa / dam pa dang",
@@ -634,6 +639,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-off-5",
+          stanceNumber: 6,
           type: "normal",
           tibetan: "།ན་བཟའ་དམ་པ་རྣམས་དང་དྲི་མཆོག་དང༌།",
           phonetics: "nap za / dam pa / nam tang / dri tchok dang",
@@ -747,6 +753,7 @@ export const souhaitsSamantabhadra: PracticeText = {
         },
         {
           id: "ss-off-9",
+          stanceNumber: 7,
           type: "normal",
           tibetan: "།མཆོད་པ་གང་རྣམས་བླ་མེད་རྒྱ་ཆེ་བ།",
           phonetics: "tcheu pa / gang nam / la mé / gya tché wa",
@@ -863,6 +870,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-conf-1",
+          stanceNumber: 8,
           type: "normal",
           tibetan: "།འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་དབང་གིས་ནི།",
           phonetics: "deu tchak / shé dang / ti mouk / wang gui ni",
@@ -975,6 +983,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-rej-1",
+          stanceNumber: 9,
           type: "normal",
           tibetan: "།ཕྱོགས་བཅུའི་རྒྱལ་བ་ཀུན་དང་སངས་རྒྱས་སྲས།",
           phonetics: "tcho tchu / gyal wa / kun dang / sangyé sé",
@@ -1095,6 +1104,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-exh-1",
+          stanceNumber: 10,
           type: "normal",
           tibetan: "།གང་རྣམས་ཕྱོགས་བཅུའི་འཇིག་རྟེན་སྒྲོན་མ་དག",
           phonetics: "gang nam / tcho tchu / djik ten / dreun ma dak",
@@ -1212,6 +1222,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-req-1",
+          stanceNumber: 11,
           type: "normal",
           tibetan: "།མྱ་ངན་འདའ་སྟོན་གང་བཞེད་དེ་དག་ལ།",
           phonetics: "nya ngen / da teun / gang shé / dé dak la",
@@ -1333,6 +1344,7 @@ export const souhaitsSamantabhadra: PracticeText = {
       phrases: [
         {
           id: "ss-ded-1",
+          stanceNumber: 12,
           type: "normal",
           tibetan: "།ཕྱག་འཚལ་བ་དང་མཆོད་ཅིང་བཤགས་པ་དང༌།",
           phonetics: "tchak tsel / wa dang / tcheu tching / chak pa dang",
@@ -1447,8 +1459,14 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "fin prière à 7 branches",
           words: [],
         },
+      ],
+    },
+    {
+      id: "ss-aspirations",
+      title: "Les Aspirations de Samantabhadra",
+      phrases: [
         {
-          id: "ss-ded-5",
+          id: "ss-asp-1",
           type: "normal" as const,
           tibetan: "།འདས་པའི་སངས་རྒྱས་རྣམས་དང་ཕྱོགས་བཅུ་ཡི།",
           phonetics: "dé pai / sangyé / nam dang / tchok tchou yi",
@@ -1473,7 +1491,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-6",
+          id: "ss-asp-2",
           type: "normal" as const,
           tibetan: "།འཇིག་རྟེན་དག་ན་གང་བཞུགས་མཆོད་པར་གྱུར།",
           phonetics: "djik ten / da na / gang shouk / tcheu par gyour",
@@ -1499,7 +1517,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-7",
+          id: "ss-asp-3",
           type: "normal" as const,
           tibetan: "།གང་ཡང་མ་བྱོན་དེ་དག་རབ་མྱུར་བར།",
           phonetics: "gang yang / ma djeun / dé dak / rap nyour war",
@@ -1525,7 +1543,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-8",
+          id: "ss-asp-4",
           type: "normal" as const,
           tibetan: "།བསམ་རྫོགས་བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་སྤྱོན།",
           phonetics: "sam dzok / djang tchoup / rim par / sangyé djeun",
@@ -1555,7 +1573,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-9",
+          id: "ss-asp-5",
           type: "normal" as const,
           tibetan: "།ཕྱོགས་བཅུ་ག་ལའི་ཞིང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "tchok tchou / ga lai / shing nam / dji nyé pa",
@@ -1585,7 +1603,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-10",
+          id: "ss-asp-6",
           type: "normal" as const,
           tibetan: "།དེ་དག་རྒྱ་ཆེར་ཡོངས་སུ་དག་པར་གྱུར།",
           phonetics: "dé dak / gya tcher / yong sou / dak par gyour",
@@ -1611,7 +1629,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-11",
+          id: "ss-asp-7",
           type: "normal" as const,
           tibetan: "།བྱང་ཆུབ་ཤིང་དབང་དྲུང་གཤེགས་རྒྱལ་བ་དང༌།",
           phonetics: "djang tchoup / ching wang / droung chek / gyal wa dang",
@@ -1640,7 +1658,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-12",
+          id: "ss-asp-8",
           type: "normal" as const,
           tibetan: "།སངས་རྒྱས་སྲས་ཀྱིས་རབ་ཏུ་གང་བར་ཤོག",
           phonetics: "sangyé / sé kyi / rap tou / gang war chok",
@@ -1670,7 +1688,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-13",
+          id: "ss-asp-9",
           type: "normal" as const,
           tibetan: "།ཕྱོགས་བཅུའི་སེམས་ཅན་གང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "tchok tchu / sem tchen / gang nam / dji nyé pa",
@@ -1700,7 +1718,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-14",
+          id: "ss-asp-10",
           type: "normal" as const,
           tibetan: "།དེ་དག་རྟག་ཏུ་ནད་མེད་བདེ་བར་གྱུར།",
           phonetics: "dé dak / tak tou / né mé / dé war gyour",
@@ -1726,7 +1744,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-15",
+          id: "ss-asp-11",
           type: "normal" as const,
           tibetan: "།འགྲོ་བ་ཀུན་གྱི་ཆོས་ཀྱི་དོན་རྣམས་ནི།",
           phonetics: "dro wa / kun gyi / tcheu kyi / deun nam ni",
@@ -1755,7 +1773,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-16",
+          id: "ss-asp-12",
           type: "normal" as const,
           tibetan: "།མཐུན་པར་གྱུར་ཅིང་རེ་བའང་འགྲུབ་པར་ཤོག",
           phonetics: "t'un par / gyour tching / ré wang / droup par chok",
@@ -1785,7 +1803,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-17",
+          id: "ss-asp-13",
           type: "normal" as const,
           tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་དག་ནི་བདག་སྤྱོད་ཅིང༌།",
           phonetics: "djang tchoup / tcheu pa / dak ni / dak tcheu tching",
@@ -1810,7 +1828,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-18",
+          id: "ss-asp-14",
           type: "normal" as const,
           tibetan: "།འགྲོ་བ་ཀུན་ཏུ་སྐྱེ་བ་དྲན་པར་གྱུར།",
           phonetics: "dro wa / kun tou / kyé wa / dren par gyour",
@@ -1840,7 +1858,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-19",
+          id: "ss-asp-15",
           type: "normal" as const,
           tibetan: "།ཚེ་རབས་ཀུན་ཏུ་འཆི་འཕོ་སྐྱེ་བ་ན།",
           phonetics: "tsé rap / kun tou / tchi p'o / kyé wa na",
@@ -1871,7 +1889,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-20",
+          id: "ss-asp-16",
           type: "normal" as const,
           tibetan: "།རྟག་ཏུ་བདག་ནི་རབ་ཏུ་འབྱུང་བར་ཤོག",
           phonetics: "tak tou / dak ni / rap tou / djoung war chok",
@@ -1906,7 +1924,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-21",
+          id: "ss-asp-17",
           type: "normal" as const,
           tibetan: "།རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
           phonetics: "gyal wa / kun gyi / djé sou / lop gyour té",
@@ -1936,7 +1954,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-22",
+          id: "ss-asp-18",
           type: "normal" as const,
           tibetan: "།བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང༌།",
           phonetics: "zang po / tcheu pa / yong sou / dzok djé tching",
@@ -1965,7 +1983,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-23",
+          id: "ss-asp-19",
           type: "normal" as const,
           tibetan: "།ཚུལ་ཁྲིམས་སྤྱོད་པ་དྲི་མེད་ཡོངས་དག་པར།",
           phonetics: "tsul trim / tcheu pa / dri mé / yong dak par",
@@ -1995,7 +2013,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-24",
+          id: "ss-asp-20",
           type: "normal" as const,
           tibetan: "།རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
           phonetics: "tak tou / ma nyam / kyeun mé / tcheu par chok",
@@ -2025,7 +2043,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-25",
+          id: "ss-asp-21",
           type: "normal" as const,
           tibetan: "།ལྷ་ཡི་སྐད་དང་ཀླུ་དང་གནོད་སྦྱིན་སྐད།",
           phonetics: "lh'a yi / ké dang / lou dang / neu djin / ké",
@@ -2055,7 +2073,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-26",
+          id: "ss-asp-22",
           type: "normal" as const,
           tibetan: "།གྲུལ་བུམ་དག་དང་མི་ཡི་སྐད་རྣམས་དང་།",
           phonetics: "drul boum / da dang / mi yi / ké nam / dang",
@@ -2081,7 +2099,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-27",
+          id: "ss-asp-23",
           type: "normal" as const,
           tibetan: "།འགྲོ་བ་ཀུན་གྱི་སྒྲ་སྐད་ཇི་ཙམ་པར།",
           phonetics: "dro wa / kun gyi / dra ké / dji tsam par",
@@ -2110,7 +2128,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-28",
+          id: "ss-asp-24",
           type: "normal" as const,
           tibetan: "།ཐམས་ཅད་སྐད་དུ་བདག་གིས་ཆོས་བསྟན་ཏོ།",
           phonetics: "t'am tché / ké dou / dak gui / tcheu / ten to",
@@ -2137,7 +2155,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-29",
+          id: "ss-asp-25",
           type: "normal" as const,
           tibetan: "།དེས་ཤིང་ཕ་རོལ་ཕྱིན་ལ་རབ་བརྩོན་ཏེ།",
           phonetics: "dé ching / p'a reul tchin la / rap tseun té",
@@ -2161,7 +2179,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-30",
+          id: "ss-asp-26",
           type: "normal" as const,
           tibetan: "།བྱང་ཆུབ་སེམས་ནི་ནམ་ཡང་བརྗེད་མ་གྱུར།",
           phonetics: "djang tchoup / sem ni / nam yang / djé ma gyour",
@@ -2186,7 +2204,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-31",
+          id: "ss-asp-27",
           type: "normal" as const,
           tibetan: "།སྡིག་པ་གང་རྣམས་སྒྲིབ་པར་གྱུར་པ་དག",
           phonetics: "dik pa / gang nam / drip par / gyour wa dak",
@@ -2215,7 +2233,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-32",
+          id: "ss-asp-28",
           type: "normal" as const,
           tibetan: "།དེ་དག་མ་ལུས་ཡོངས་སུ་བྱང་བར་ཤོག",
           phonetics: "dé dak / ma lu / yong sou / djang war / chok",
@@ -2242,7 +2260,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-33",
+          id: "ss-asp-29",
           type: "normal" as const,
           tibetan: "།ལས་དང་ཉོན་མོངས་བདུད་ཀྱི་ལས་རྣམས་ལས།",
           phonetics: "lé dang / nyeun mong / du kyi / lé nam lé",
@@ -2271,7 +2289,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-34",
+          id: "ss-asp-30",
           type: "normal" as const,
           tibetan: "།གྲོལ་ཞིང་འཇིག་རྟེན་འགྲོ་བ་རྣམས་སུ་ཡང་།",
           phonetics: "dreul shing / djik ten / dro wa / nam sou yang",
@@ -2301,7 +2319,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-35",
+          id: "ss-asp-31",
           type: "normal" as const,
           tibetan: "།ཇི་ལྟར་པདྨོ་ཆུ་མི་ཆགས་པ་བཞིན།",
           phonetics: "dji tar / pé mo / tchou mi / tchak pa shin",
@@ -2323,7 +2341,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-36",
+          id: "ss-asp-32",
           type: "normal" as const,
           tibetan: "།ཉི་ཟླ་ནམ་མཁར་ཐོགས་པ་མེད་ལྟར་སྤྱད།",
           phonetics: "nyi da / nam k'ar / t'ok pa / mé tar tché",
@@ -2353,7 +2371,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-37",
+          id: "ss-asp-33",
           type: "normal" as const,
           tibetan: "།ཞིང་གི་ཁྱོན་དང་ཕྱོགས་རྣམས་ཇི་ཙམ་པར།",
           phonetics: "shing gui / kyeun dang / tchok nam / dji tsam par",
@@ -2382,7 +2400,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-38",
+          id: "ss-asp-34",
           type: "normal" as const,
           tibetan: "།ངན་སོང་སྡུག་བསྔལ་རབ་ཏུ་ཞི་བར་བྱེད།",
           phonetics: "ngen song / douk ngel / rap tou / shi war djé",
@@ -2412,7 +2430,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-39",
+          id: "ss-asp-35",
           type: "normal" as const,
           tibetan: "།བདེ་བ་དག་ལ་འགྲོ་བ་ཀུན་འགོད་ཅིང་།",
           phonetics: "dé wa / dak la / dro wa kun / gueu tching",
@@ -2437,7 +2455,7 @@ export const souhaitsSamantabhadra: PracticeText = {
           ],
         },
         {
-          id: "ss-ded-40",
+          id: "ss-asp-36",
           type: "normal" as const,
           tibetan: "།འགྲོ་བ་ཐམས་ཅད་ལ་ནི་ཕན་པར་སྤྱད།",
           phonetics: "dro wa / t'am tché / la ni / p'en par tché",

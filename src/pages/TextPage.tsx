@@ -36,7 +36,7 @@ export default function TextPage() {
     return () => { dispatch(setCurrentAudioSrc(null)); };
   }, [text?.audioSrc, dispatch]);
 
-  const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma';
+  const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma' || textId === 'souhaits-samantabhadra';
   const navSections = useMemo(() => {
     if (!text || !hasSidebar) return [];
     return text.sections.filter((s) => s.title !== '');
@@ -455,9 +455,12 @@ export default function TextPage() {
                   key={phrase.id}
                   ref={(el) => setPhraseRef(phrase.id, el)}
                   data-phrase-id={phrase.id}
-                  className={`phrase-container ${!isNormal || interactionMode === 'fixed' ? 'phrase-no-interact' : ''}`}
+                  className={`phrase-container ${!isNormal || interactionMode === 'fixed' ? 'phrase-no-interact' : ''}${phrase.stanceNumber !== undefined ? ' has-stance-number' : ''}`}
                   onClick={() => isNormal && interactionMode !== 'fixed' && handlePhraseClick(phrase.id)}
                 >
+                  {phrase.stanceNumber !== undefined && (
+                    <span className="stance-number">[S.{phrase.stanceNumber}]</span>
+                  )}
                   {isImage ? (
                     <div className="phrase-image-wrapper phrase-image-mantra">
                       <img src={phrase.src} alt="" className="phrase-image" />

@@ -15,6 +15,7 @@ export interface Phrase {
   words: Word[];
   src?: string;
   srcs?: string[];
+  stanceNumber?: number;
   targetId?: string;
   navBack?: boolean;
   showWithThoungma?: boolean;

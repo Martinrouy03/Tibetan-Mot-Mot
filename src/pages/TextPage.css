@@ -123,6 +123,7 @@
 
 .section {
   margin-bottom: 2rem;
+  scroll-margin-top: calc(var(--header-height) + 0.5rem);
 }
 
 .section-title-row {
@@ -213,6 +214,22 @@
 .phrase-container {
   cursor: pointer;
   border-radius: 6px;
+}
+
+.text-souhaits-samantabhadra .phrase-container {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.stance-number {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 0.7rem;
+  color: #888;
+  font-family: sans-serif;
+  user-select: none;
+  white-space: nowrap;
 }
 
 
