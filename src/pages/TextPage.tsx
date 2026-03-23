@@ -29,6 +29,8 @@ export default function TextPage() {
   const wheelAccum = useRef(0);
   const lastClickedId = useRef<string | null>(null);
   const isProgrammaticScroll = useRef(false);
+  const centerPhraseRef = useRef<Element | null>(null);
+  const prevInteractionMode = useRef<string | null>(null);
 
   const text = practiceTexts.find((t) => t.id === textId);
 
@@ -126,6 +128,37 @@ export default function TextPage() {
     phraseRefs.current.get(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     setTimeout(() => { isProgrammaticScroll.current = false; }, 600);
   }, []);
+
+  const updateCenterPhrase = useCallback(() => {
+    const phrases = document.querySelectorAll('[data-phrase-id]');
+    const viewportCenter = window.innerHeight / 2;
+    let best: Element | null = null;
+    let minDist = Infinity;
+    phrases.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      const dist = Math.abs(rect.top + rect.height / 2 - viewportCenter);
+      if (dist < minDist) { minDist = dist; best = el; }
+    });
+    centerPhraseRef.current = best;
+  }, []);
+
+  useEffect(() => {
+    updateCenterPhrase();
+    window.addEventListener('scroll', updateCenterPhrase, { passive: true });
+    return () => window.removeEventListener('scroll', updateCenterPhrase);
+  }, [updateCenterPhrase]);
+
+  useEffect(() => {
+    if (prevInteractionMode.current === null) {
+      prevInteractionMode.current = interactionMode;
+      return;
+    }
+    if (prevInteractionMode.current === interactionMode) return;
+    prevInteractionMode.current = interactionMode;
+    const anchor = centerPhraseRef.current;
+    if (!anchor) return;
+    requestAnimationFrame(() => { anchor.scrollIntoView({ block: 'center' }); });
+  }, [interactionMode]);
 
   useEffect(() => {
     if (interactionMode !== 'scroll') return;
