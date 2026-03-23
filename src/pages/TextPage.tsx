@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
+import React, { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
@@ -468,8 +468,8 @@ export default function TextPage() {
               }
 
               return (
+                <React.Fragment key={phrase.id}>
                 <div
-                  key={phrase.id}
                   ref={(el) => setPhraseRef(phrase.id, el)}
                   data-phrase-id={phrase.id}
                   className={`phrase-container ${!isNormal || interactionMode === 'fixed' ? 'phrase-no-interact' : ''}${phrase.stanceNumber !== undefined ? ' has-stance-number' : ''}`}
@@ -564,6 +564,20 @@ export default function TextPage() {
                     </div>
                   )}
                 </div>
+              {phrase.id === 'dw-mantra' && (
+                <button
+                  className="scroll-top-btn"
+                  onClick={() => {
+                    const firstNormal = section.phrases.find((p) => p.type === 'normal');
+                    if (!firstNormal) return;
+                    dispatch(setSelectedPhrase(firstNormal.id));
+                    scrollToPhrase(firstNormal.id);
+                  }}
+                >
+                  ↑
+                </button>
+              )}
+              </React.Fragment>
               );
             })}
           </div>
