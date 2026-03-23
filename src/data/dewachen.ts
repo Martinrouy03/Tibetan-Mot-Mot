@@ -388,17 +388,16 @@ export const dewachen: PracticeText = {
         {
           id: "dw-14",
           type: "normal",
-          tibetan: "དམིགས་ཡུལ་འདི་ནས་ཚེ་འཕོས་གྱུར་མ་ཐག༔",
-          phonetics: "mik yul / di né / tsé p'eu / gyour ma t'ak",
-          translation:
-            "Puissent [les êtres] objets de votre attention, après avoir quitté cette vie,",
+          tibetan: "བདག་གཞན་འདི་ནས་ཚེ་འཕོས་གྱུར་མ་ཐག༔",
+          phonetics: "da shen / di né / tsé p'eu / gyour ma t'ak",
+          translation: "Moi et les autres, après avoir quitté cette vie,",
           words: [
             {
-              tibetan: "དམིགས་ཡུལ་",
-              phonetics: "mik yul",
-              translation: "objets de votre attention",
+              tibetan: "བདག་གཞན་",
+              phonetics: "da shen",
+              translation: "Moi et autres",
             },
-            { tibetan: "འདི་ནས་", phonetics: "di né", translation: "après" },
+            { tibetan: "འདི་ནས་", phonetics: "di né", translation: "d'ici" },
             {
               tibetan: "ཚེ་འཕོས་",
               phonetics: "tsé p'eu",
