@@ -17,6 +17,7 @@ export interface Phrase {
   srcs?: string[];
   stanceNumber?: number;
   targetId?: string;
+  audioTimestamp?: number;
   navBack?: boolean;
   showWithThoungma?: boolean;
   hideWithThoungma?: boolean;
@@ -29,6 +30,7 @@ export interface Section {
   title: string;
   subtitle?: boolean;
   phrases: Phrase[];
+  audioTimestamp?: number;
 }
 
 export interface PracticeText {

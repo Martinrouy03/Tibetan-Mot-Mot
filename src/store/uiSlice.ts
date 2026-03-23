@@ -9,6 +9,7 @@ interface UiState {
   tibetanFontSize: number;
   currentAudioSrc: string | null;
   audioPlayerVisible: boolean;
+  seekToTimestamp: number | null;
 }
 
 const initialState: UiState = {
@@ -19,6 +20,7 @@ const initialState: UiState = {
   tibetanFontSize: 21,
   currentAudioSrc: null,
   audioPlayerVisible: false,
+  seekToTimestamp: null,
 };
 
 const uiSlice = createSlice({
@@ -48,8 +50,11 @@ const uiSlice = createSlice({
     toggleAudioPlayer(state) {
       state.audioPlayerVisible = !state.audioPlayerVisible;
     },
+    setSeekToTimestamp(state, action: PayloadAction<number | null>) {
+      state.seekToTimestamp = action.payload;
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp } = uiSlice.actions;
 export default uiSlice.reducer;

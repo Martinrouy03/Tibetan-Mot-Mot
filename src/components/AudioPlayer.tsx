@@ -1,4 +1,6 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { setSeekToTimestamp } from '../store/uiSlice';
 import './AudioPlayer.css';
 
 interface AudioPlayerProps {
@@ -14,6 +16,9 @@ function formatTime(seconds: number): string {
 
 export default function AudioPlayer({ src }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
+  const pendingSeekRef = useRef<number | null>(null);
+  const dispatch = useAppDispatch();
+  const seekToTimestamp = useAppSelector((s) => s.ui.seekToTimestamp);
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -26,19 +31,38 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
     const onTimeUpdate = () => setCurrentTime(audio.currentTime);
     const onDurationChange = () => setDuration(audio.duration);
     const onEnded = () => setPlaying(false);
+    const onLoadedMetadata = () => {
+      setDuration(audio.duration);
+      if (pendingSeekRef.current !== null) {
+        audio.currentTime = pendingSeekRef.current;
+        pendingSeekRef.current = null;
+      }
+    };
 
     audio.addEventListener('timeupdate', onTimeUpdate);
     audio.addEventListener('durationchange', onDurationChange);
-    audio.addEventListener('loadedmetadata', onDurationChange);
+    audio.addEventListener('loadedmetadata', onLoadedMetadata);
     audio.addEventListener('ended', onEnded);
 
     return () => {
       audio.removeEventListener('timeupdate', onTimeUpdate);
       audio.removeEventListener('durationchange', onDurationChange);
-      audio.removeEventListener('loadedmetadata', onDurationChange);
+      audio.removeEventListener('loadedmetadata', onLoadedMetadata);
       audio.removeEventListener('ended', onEnded);
     };
   }, []);
+
+  useEffect(() => {
+    if (seekToTimestamp === null) return;
+    const audio = audioRef.current;
+    dispatch(setSeekToTimestamp(null));
+    if (!audio) return;
+    if (audio.readyState >= 1) {
+      audio.currentTime = seekToTimestamp;
+    } else {
+      pendingSeekRef.current = seekToTimestamp;
+    }
+  }, [seekToTimestamp, dispatch]);
 
   const seek = useCallback((delta: number) => {
     const audio = audioRef.current;

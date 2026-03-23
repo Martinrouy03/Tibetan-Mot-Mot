@@ -865,6 +865,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     {
       id: "ch-refuge",
       title: "Refuge et Esprit d'éveil (x3)",
+      audioTimestamp: 268,
       phrases: [
         {
           id: "ch-ref-1",
@@ -1085,14 +1086,19 @@ export const pratiqueChenrezikThoungma: PracticeText = {
         {
           id: "ch-vis-5",
           type: "normal",
-          tibetan: "།འཛུམ་ལྡན་ཐུགས་རྗེའི་སྤྱན་གྱིས་གཟིགས།",
-          phonetics: "dzoum den / toukdjé / tchen gyi zik",
+          tibetan: "།མཛེས་འཛུམ་ཐུགས་རྗེའི་སྤྱན་གྱིས་གཟིགས།",
+          phonetics: "dzé / dzoum / toukdjé / tchen gyi zik",
           translation:
-            "Souriant, il veille sur les êtres avec les yeux de la compassion.",
+            "Beau et souriant, il veille [sur les êtres] avec les yeux de la compassion.",
           words: [
             {
-              tibetan: "འཛུམ་ལྡན་",
-              phonetics: "dzoum den",
+              tibetan: "མཛེས་",
+              phonetics: "dzé",
+              translation: "Beau",
+            },
+            {
+              tibetan: "འཛུམ་",
+              phonetics: "dzoum",
               translation: "Souriant",
             },
             {
@@ -2043,6 +2049,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     {
       id: "ch-meditation",
       title: "Méditation",
+      audioTimestamp: 674,
       phrases: [
         {
           id: "ch-pk-43",
@@ -2247,6 +2254,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     {
       id: "ch-conclusion",
       title: "Conclusion",
+      audioTimestamp: 1030,
       phrases: [
         {
           id: "ch-con-1",
@@ -2663,6 +2671,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     {
       id: "ta-dewachen",
       title: "Souhaits de Dewachen",
+      audioTimestamp: 1217,
       phrases: [
         {
           id: "dw-image",

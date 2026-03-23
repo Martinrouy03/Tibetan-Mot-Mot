@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useCallback, useMemo, useState } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setSelectedPhrase, setCurrentAudioSrc } from '../store/uiSlice';
+import { setSelectedPhrase, setCurrentAudioSrc, setSeekToTimestamp } from '../store/uiSlice';
 import PhraseBreakdown from '../components/PhraseBreakdown';
 import './TextPage.css';
 
@@ -38,6 +38,13 @@ export default function TextPage() {
   }, [text?.audioSrc, dispatch]);
 
   useEffect(() => {
+    const seekTo = (location.state as { seekTo?: number } | null)?.seekTo;
+    if (seekTo !== undefined) {
+      dispatch(setSeekToTimestamp(seekTo));
+    }
+  }, [location.state, dispatch]);
+
+  useEffect(() => {
     const wrapper = mantraWrapperRef.current;
     if (!scrollingMantraId || !wrapper) return;
     const rafId = requestAnimationFrame(() => {
@@ -59,8 +66,11 @@ export default function TextPage() {
     return text.sections.filter((s) => s.title !== '');
   }, [text, hasSidebar]);
 
-  const scrollToSection = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const scrollToSection = (section: { id: string; audioTimestamp?: number }) => {
+    document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (section.audioTimestamp !== undefined) {
+      dispatch(setSeekToTimestamp(section.audioTimestamp));
+    }
     setSidebarOpen(false);
   };
 
@@ -172,8 +182,8 @@ export default function TextPage() {
             <ul className="sidebar-nav-list">
               {navSections.map((s) => (
                 <li key={s.id}>
-                  <button className="sidebar-nav-item" onClick={() => scrollToSection(s.id)}>
-                    {s.title}
+                  <button className="sidebar-nav-item" onClick={() => scrollToSection(s)}>
+                    {s.title}{s.audioTimestamp !== undefined && <span className="sidebar-audio-icon">♪</span>}
                   </button>
                 </li>
               ))}
@@ -201,12 +211,14 @@ export default function TextPage() {
           const from = (location.state as { from?: string } | null)?.from;
           const target = (p.altTargetFrom && from === p.altTargetFrom && p.altTargetId) ? p.altTargetId : (p.targetId ?? '/');
           const [path, hash] = target.split('#');
+          const navState: { from: string; seekTo?: number } = { from: text.id };
+          if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
           if (hash) {
-            navigate(path, { state: { from: text.id } });
+            navigate(path, { state: navState });
             setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
           } else {
             window.scrollTo(0, 0);
-            navigate(target, { state: { from: text.id } });
+            navigate(target, { state: navState });
           }
         };
         return (
@@ -430,12 +442,14 @@ export default function TextPage() {
                   const from = (location.state as { from?: string } | null)?.from;
                   const target = (p.altTargetFrom && from === p.altTargetFrom && p.altTargetId) ? p.altTargetId : (p.targetId ?? '/');
                   const [path, hash] = target.split('#');
+                  const navState: { from: string; seekTo?: number } = { from: text.id };
+                  if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
                   if (hash) {
-                    navigate(path, { state: { from: text.id } });
+                    navigate(path, { state: navState });
                     setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
                   } else {
                     window.scrollTo(0, 0);
-                    navigate(target, { state: { from: text.id } });
+                    navigate(target, { state: navState });
                   }
                 };
                 if (nextPhrase?.type === 'nav-btn') {

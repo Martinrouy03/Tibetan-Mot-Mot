@@ -372,6 +372,7 @@ export const mahakala: PracticeText = {
           phonetics: "",
           translation: "Pratique de Chenrézik",
           targetId: "/text/pratique-chenrezik-thoungma#ta-dewachen",
+          audioTimestamp: 1217,
           words: [],
         },
       ],
