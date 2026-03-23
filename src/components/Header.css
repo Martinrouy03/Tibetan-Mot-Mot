@@ -221,6 +221,23 @@
   }
 }
 
+@media (max-width: 900px) and (orientation: landscape) {
+  .header {
+    padding: 0.1rem 1rem;
+  }
+
+  .audio-toggle-btn,
+  .settings-btn {
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 0.85rem;
+  }
+
+  .header-title {
+    font-size: 0.85rem;
+  }
+}
+
 @media (max-width: 480px) and (orientation: portrait) {
   .header {
     padding: 0.25rem 0.6rem;
