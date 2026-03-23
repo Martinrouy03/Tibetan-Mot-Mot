@@ -103,7 +103,7 @@ export default function TextPage() {
   }, [text, hasSidebar]);
 
   const scrollToSection = (section: { id: string; audioTimestamp?: number }) => {
-    document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById(section.id)?.scrollIntoView({ behavior: 'instant', block: 'start' });
     if (section.audioTimestamp !== undefined) {
       dispatch(setSeekToTimestamp(section.audioTimestamp));
     }
