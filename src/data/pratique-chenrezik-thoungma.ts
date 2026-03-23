@@ -11,6 +11,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     {
       id: "ch-priere-lignee",
       title: "Prière à la lignée",
+      audioTimestamp: 0,
       phrases: [
         {
           id: "ch-th-1",
@@ -157,7 +158,11 @@ export const pratiqueChenrezikThoungma: PracticeText = {
               phonetics: "pel den",
               translation: "glorieux",
             },
-            { tibetan: "འབྲུག་", phonetics: "droukpa", translation: "Droukpa" },
+            {
+              tibetan: "འབྲུག་པ་",
+              phonetics: "droukpa",
+              translation: "Droukpa",
+            },
             { tibetan: "སོགས།", phonetics: "so", translation: "etc." },
           ],
         },
