@@ -2567,6 +2567,89 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           ],
         },
         {
+          id: "ch-th-conc-21",
+          type: "normal" as const,
+          tibetan: "དགེ་བ་འདི་ཡིས་སྐྱེ་བོ་ཀུན།།",
+          phonetics: "guéwa / di yi / kyéwo kun",
+          translation: "Par cette vertu, [puissent] tous les êtres",
+          words: [
+            { tibetan: "དགེ་བ་", phonetics: "guéwa", translation: "vertu" },
+            {
+              tibetan: "འདི་ཡིས་",
+              phonetics: "di yi",
+              translation: "Par cette",
+            },
+            {
+              tibetan: "སྐྱེ་བོ་ཀུན་",
+              phonetics: "kyéwo kun",
+              translation: "tous les êtres",
+            },
+          ],
+        },
+        {
+          id: "ch-th-conc-22",
+          type: "normal" as const,
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་ཚོགས་རྫོགས་ཏེ།།",
+          phonetics: "seunam / yéshé / tsok / dzok té",
+          translation: "Parfaire les accumulations de mérite et sagesse.",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seunam",
+              translation: "mérite",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yéshé", translation: "sagesse" },
+            {
+              tibetan: "ཚོགས་",
+              phonetics: "tsok",
+              translation: "accumulations",
+            },
+            {
+              tibetan: "རྫོགས་ཏེ་",
+              phonetics: "dzok té",
+              translation: "parfaire",
+            },
+          ],
+        },
+        {
+          id: "ch-th-conc-23",
+          type: "normal" as const,
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་ལས་བྱུང་བའི༎",
+          phonetics: "seunam / yéshé / lé djoung wé",
+          translation: "Que ces mérites et sagesse résultent en",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seunam",
+              translation: "mérites",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yéshé", translation: "sagesse" },
+            {
+              tibetan: "ལས་བྱུང་བའི་",
+              phonetics: "lé djoung wé",
+              translation: "résultent en",
+            },
+          ],
+        },
+        {
+          id: "ch-th-conc-24",
+          type: "normal" as const,
+          tibetan: "དམ་པ་སྐུ་གཉིས་ཐོབ་པར་ཤོག།",
+          phonetics: "dampa / kou / nyi / thob par / sho",
+          translation: "l'obtention des deux corps.",
+          words: [
+            { tibetan: "དམ་པ་", phonetics: "dampa", translation: "suprêmes" },
+            { tibetan: "སྐུ་", phonetics: "kou", translation: "corps" },
+            { tibetan: "གཉིས་", phonetics: "nyi", translation: "deux" },
+            {
+              tibetan: "ཐོབ་པར་",
+              phonetics: "thob par",
+              translation: "l'obtention de",
+            },
+            { tibetan: "ཤོག་", phonetics: "sho", translation: "[puissent]" },
+          ],
+        },
+        {
           id: "ch-nav-mahakala",
           type: "nav-btn" as const,
           tibetan: "",
