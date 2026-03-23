@@ -11,14 +11,14 @@ import { mahakala } from './mahakala';
 import { dewachen } from './dewachen';
 
 export const practiceTexts: PracticeText[] = [
-  guruYoga,
-  coeurPrajnaparamita,
-  vajrasattva,
-  troisAmoncellements,
-  souhaitsSamantabhadra,
   pratiqueChenrezik,
   pratiqueChenrezikThoungma,
+  troisAmoncellements,
+  vajrasattva,
   louangeManjushri,
-  mahakala,
+  guruYoga,
+  souhaitsSamantabhadra,
+  coeurPrajnaparamita,
   dewachen,
+  mahakala,
 ];
