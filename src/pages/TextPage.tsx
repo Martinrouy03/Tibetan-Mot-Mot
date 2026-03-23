@@ -45,6 +45,40 @@ export default function TextPage() {
   }, [location.state, dispatch]);
 
   useEffect(() => {
+    let anchor: Element | null = null;
+
+    const captureAnchor = () => {
+      const phrases = document.querySelectorAll('[data-phrase-id]');
+      let best: Element | null = null;
+      let minDist = Infinity;
+      phrases.forEach(el => {
+        const dist = Math.abs(el.getBoundingClientRect().top);
+        if (dist < minDist) { minDist = dist; best = el; }
+      });
+      anchor = best;
+    };
+
+    const restoreAnchor = () => {
+      if (!anchor) return;
+      anchor.scrollIntoView({ block: 'start' });
+      anchor = null;
+    };
+
+    const onOrientationChange = () => {
+      captureAnchor();
+      const onResize = () => {
+        restoreAnchor();
+        window.removeEventListener('resize', onResize);
+      };
+      window.addEventListener('resize', onResize);
+      setTimeout(() => { window.removeEventListener('resize', onResize); restoreAnchor(); }, 500);
+    };
+
+    window.addEventListener('orientationchange', onOrientationChange);
+    return () => window.removeEventListener('orientationchange', onOrientationChange);
+  }, []);
+
+  useEffect(() => {
     const wrapper = mantraWrapperRef.current;
     if (!scrollingMantraId || !wrapper) return;
     const rafId = requestAnimationFrame(() => {
