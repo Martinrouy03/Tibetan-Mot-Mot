@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useCallback, useMemo, useState } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setSelectedPhrase, setCurrentAudioSrc, setSeekToTimestamp } from '../store/uiSlice';
+import { setSelectedPhrase, setCurrentAudioSrc, setSeekToTimestamp, toggleAudioPlayer, changeFontSize, toggleTranslation, setDisplayMode, setInteractionMode } from '../store/uiSlice';
+import type { DisplayMode, InteractionMode } from '../types';
 import PhraseBreakdown from '../components/PhraseBreakdown';
 import './TextPage.css';
 
@@ -20,9 +21,13 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
+  const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
+  const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
 
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mobileSettingsOpen, setMobileSettingsOpen] = useState(false);
   const [scrollingMantraId, setScrollingMantraId] = useState<string | null>(null);
   const mantraWrapperRef = useRef<HTMLDivElement>(null);
   const phraseRefs = useRef<Map<string, HTMLDivElement>>(new Map());
@@ -97,6 +102,7 @@ export default function TextPage() {
   }, [scrollingMantraId]);
 
   const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma' || textId === 'souhaits-samantabhadra';
+  const isTibetanOnly = text?.tibetanOnly ?? false;
   const navSections = useMemo(() => {
     if (!text || !hasSidebar) return [];
     return text.sections.filter((s) => s.title !== '');
@@ -236,6 +242,91 @@ export default function TextPage() {
 
   return (
     <div className={hasSidebar ? 'text-page-layout' : ''}>
+      <nav className="mobile-strip">
+        <button className="mobile-strip-btn" onClick={() => navigate('/')}>
+          <svg viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+        </button>
+        {hasSidebar && (
+          <button className={`mobile-strip-btn${sidebarOpen ? ' active' : ''}`}
+            onClick={() => { setSidebarOpen(o => !o); setMobileSettingsOpen(false); }}>
+            {sidebarOpen ? '✕' : '☰'}
+          </button>
+        )}
+        {currentAudioSrc && (
+          <button className={`mobile-strip-btn${audioPlayerVisible ? ' active' : ''}`}
+            onClick={() => dispatch(toggleAudioPlayer())}>🔊</button>
+        )}
+        <button className={`mobile-strip-btn${mobileSettingsOpen ? ' active' : ''}`}
+          onClick={() => { setMobileSettingsOpen(o => !o); setSidebarOpen(false); }}>⚙️</button>
+        {sidebarOpen && hasSidebar && (
+          <>
+            <div className="mobile-strip-overlay" onClick={() => setSidebarOpen(false)} />
+            <div className="mobile-strip-panel">
+              <ul className="sidebar-nav-list">
+                {navSections.map((s) => (
+                  <li key={s.id}>
+                    <button className="sidebar-nav-item" onClick={() => scrollToSection(s)}>
+                      {s.title}{s.audioTimestamp !== undefined && <span className="sidebar-audio-icon">♪</span>}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
+        {mobileSettingsOpen && (
+          <>
+            <div className="mobile-strip-overlay" onClick={() => setMobileSettingsOpen(false)} />
+            <div className="mobile-strip-panel">
+              <div className="settings-row">
+                <span className="settings-label">Taille</span>
+                <div className="font-size-control">
+                  <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-3))}>−</button>
+                  <span className="font-size-icon">{tibetanFontSize}px</span>
+                  <button className="font-size-btn" onClick={() => dispatch(changeFontSize(3))}>+</button>
+                </div>
+              </div>
+              <div className="settings-row">
+                <span className="settings-label">Affichage</span>
+                <div className="radio-group">
+                  <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
+                    <input type="radio" name="mobileDisplayMode" value="tibetan" checked={displayMode === 'tibetan'} onChange={() => dispatch(setDisplayMode('tibetan' as DisplayMode))} />
+                    Tibétain
+                  </label>
+                  <label className={`radio-label ${displayMode === 'phonetics' ? 'active' : ''}`}>
+                    <input type="radio" name="mobileDisplayMode" value="phonetics" checked={displayMode === 'phonetics'} onChange={() => dispatch(setDisplayMode('phonetics' as DisplayMode))} />
+                    Phonétique
+                  </label>
+                </div>
+              </div>
+              {!isTibetanOnly && (
+                <>
+                  <div className="settings-row">
+                    <span className="settings-label">Mode</span>
+                    <div className="radio-group">
+                      <label className={`radio-label ${interactionMode === 'click' ? 'active' : ''}`}>
+                        <input type="radio" name="mobileInteractionMode" value="click" checked={interactionMode === 'click'} onChange={() => dispatch(setInteractionMode('click' as InteractionMode))} />
+                        Clic
+                      </label>
+                      <label className={`radio-label ${interactionMode === 'fixed' ? 'active' : ''}`}>
+                        <input type="radio" name="mobileInteractionMode" value="fixed" checked={interactionMode === 'fixed'} onChange={() => dispatch(setInteractionMode('fixed' as InteractionMode))} />
+                        Fixe
+                      </label>
+                    </div>
+                  </div>
+                  <div className="settings-row">
+                    <span className="settings-label">Traduction</span>
+                    <button className={`toggle-button ${showTranslation ? 'active' : ''}`}
+                      onClick={() => dispatch(toggleTranslation())}>
+                      {showTranslation ? 'Activée' : 'Désactivée'}
+                    </button>
+                  </div>
+                </>
+              )}
+            </div>
+          </>
+        )}
+      </nav>
       {hasSidebar && (
         <nav className={`text-sidebar ${sidebarOpen ? 'text-sidebar-open' : ''}`}>
           <div className="text-sidebar-sticky">

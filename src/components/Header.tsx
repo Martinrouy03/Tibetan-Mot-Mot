@@ -55,7 +55,7 @@ export default function Header() {
   }, [settingsOpen]);
 
   return (
-    <header className="header">
+    <header className={`header${isTextPage ? ' header-text-page' : ''}`}>
       <h1 className="header-title" onClick={() => navigate('/')}>
         <span className="label-full">མོཊ་ཨ་མོཊ — Mot à Mot</span>
         <span className="label-short tibetan">མོཊ་ཨ་མོཊ</span>

@@ -222,6 +222,10 @@
 }
 
 @media (max-width: 900px) and (orientation: landscape) {
+  .header-text-page {
+    display: none;
+  }
+
   .header {
     padding: 0.1rem 1rem;
   }
