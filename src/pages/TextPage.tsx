@@ -469,7 +469,12 @@ export default function TextPage() {
               const isLastPrayer = !image;
               return (
                 <div key={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
-                  <div className="ta-hommage-left">
+                  {image && (
+                    <div className="ta-hommage-image">
+                      <img src={image.src} alt="" className="phrase-image" />
+                    </div>
+                  )}
+                  <div className="ta-hommage-right">
                     {label && (
                       <div className="phrase phrase-special ta-hommage-label">
                         <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: label.translation }} />
@@ -515,11 +520,6 @@ export default function TextPage() {
                     </div>
                     )}
                   </div>
-                  {image && (
-                    <div className="ta-hommage-image">
-                      <img src={image.src} alt="" className="phrase-image" />
-                    </div>
-                  )}
                 </div>
               );
             }) : section.id === 'ch-supplique' ? (() => {

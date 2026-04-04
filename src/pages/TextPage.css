@@ -305,6 +305,8 @@
 
 .phrase-mantra-main .phrase-text {
   font-size: 6rem;
+  display: block;
+  width: 100%;
 }
 
 .phrase-mantra-main .phrase-text-phonetics {
@@ -551,7 +553,7 @@
   margin-bottom: 0.3rem;
 }
 
-.ta-hommage-left {
+.ta-hommage-right {
   flex: 3;
   display: flex;
   flex-direction: column;
@@ -568,33 +570,36 @@
   align-items: center;
 }
 
+@media (min-width: 901px) {
+  .ta-hommage-image {
+    flex: 0 0 25%;
+  }
+  .ta-hommage-right {
+    flex: 1;
+  }
+}
+
 .ta-hommage-image .phrase-image-wrapper {
   margin: 0;
   justify-content: flex-start;
+  width: 100%;
+}
+
+.ta-hommage-image .phrase-image {
+  width: 100%;
 }
 
 .ta-hommage-pair-solo {
   display: block;
 }
 
-.section-ch-priere-lignee .ta-hommage-pair,
-.section-ta-hommage .ta-hommage-pair {
-  flex-direction: row-reverse;
-}
 
 .section-ch-priere-lignee .ta-hommage-image .phrase-image-wrapper,
 .section-ta-hommage .ta-hommage-image .phrase-image-wrapper {
   justify-content: flex-end;
 }
 
-.section-ch-priere-lignee .ta-hommage-image .phrase-image {
-  width: 60%;
-}
-
 @media (max-width: 900px) and (orientation: landscape) {
-  .section-ch-priere-lignee .ta-hommage-image .phrase-image {
-    width: 80%;
-  }
   .section-ch-priere-lignee .ta-hommage-image {
     justify-content: flex-end;
   }
@@ -799,8 +804,8 @@
   .phrase-mantra-main .phrase-text {
     display: block;
     white-space: nowrap;
-    margin: 0 10%;
-    font-size: 9vw;
+    margin: 0;
+    font-size: 18vw;
   }
 }
 
