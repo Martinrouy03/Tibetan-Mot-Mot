@@ -591,6 +591,15 @@
   width: 60%;
 }
 
+@media (max-width: 900px) and (orientation: landscape) {
+  .section-ch-priere-lignee .ta-hommage-image .phrase-image {
+    width: 80%;
+  }
+  .section-ch-priere-lignee .ta-hommage-image {
+    justify-content: flex-end;
+  }
+}
+
 @media (max-width: 600px) and (orientation: portrait) {
   .section-ch-priere-lignee .phrase-image,
   .section-ta-hommage .phrase-image {
