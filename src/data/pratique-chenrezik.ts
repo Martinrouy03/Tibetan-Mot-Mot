@@ -270,7 +270,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "1<sup>er</sup> Karmapa : <b>Tusoum Khyenpa</b>",
+          translation: "<b>Tusoum Khyenpa</b> (1<sup>er</sup> Karmapa)",
           words: [],
         },
         {
@@ -403,7 +403,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "2<sup>ème</sup> Karmapa : <b>Karmapakchi</b>",
+          translation: "<b>Karmapakchi</b> (2<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -484,7 +484,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "3<sup>ème</sup> Karmapa : <b>Rangjoung Dordjé</b>",
+          translation: "<b>Rangjoung Dordjé</b> (3<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -568,7 +568,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "4<sup>ème</sup> Karmapa : <b>Tcheukyi Drakpa</b>",
+          translation: "<b>Tcheukyi Drakpa</b> (4<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -615,7 +615,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "2<sup>ème</sup> Shamarpa : <b>Katcheu Ouangpo</b>",
+          translation: "<b>Katcheu Ouangpo</b> (2<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -663,7 +663,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "5<sup>ème</sup> Karmapa : <b>Déshin Shekpa</b>",
+          translation: "<b>Déshin Shekpa</b> (5<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -749,7 +749,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "6<sup>ème</sup> Karmapa : <b>Tongoua Teunden</b>",
+          translation: "<b>Tongoua Teunden</b> (6<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -840,7 +840,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "1er Gyaltsab : <b>Paldjor Teundroup</b>",
+          translation: "<b>Paldjor Teundroup</b> (1<sup>er</sup> Gyaltsab)",
           words: [],
         },
         {
@@ -888,7 +888,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "7<sup>ème</sup> Karmapa : <b>Tcheudrak Gyamtso</b>",
+          translation: "<b>Tcheudrak Gyamtso</b> (7<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -932,7 +932,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "1er Sangyé Nyenpa : <b>Tachi Paldjor</b>",
+          translation: "<b>Tachi Paldjor</b> (1<sup>er</sup> Sangyé Nyenpa)",
           words: [],
         },
         {
@@ -980,7 +980,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8<sup>ème</sup> Karmapa : <b>Mikyeu Dordjé</b>",
+          translation: "<b>Mikyeu Dordjé</b> (8<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1023,7 +1023,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "5<sup>ème</sup> Shamarpa : <b>Keuntchok Yenlak</b>",
+          translation: "<b>Keuntchok Yenlak</b> (5<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -1066,7 +1066,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "9<sup>ème</sup> Karmapa : <b>Wangtchouk Dordjé</b>",
+          translation: "<b>Wangtchouk Dordjé</b> (9<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1109,7 +1109,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "6<sup>ème</sup> Shamarpa : <b>Tcheukyi Wangtchouk</b>",
+          translation: "<b>Tcheukyi Wangtchouk</b> (6<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -1157,7 +1157,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "10<sup>ème</sup> Karmapa : <b>Tcheuying Dordjé</b>",
+          translation: "<b>Tcheuying Dordjé</b> (10<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1205,7 +1205,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "7<sup>ème</sup> Shamarpa : <b>Yéshé Nyingpo</b>",
+          translation: "<b>Yéshé Nyingpo</b> (7<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -1248,7 +1248,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "11<sup>ème</sup> Karmapa : <b>Yéshé Dordjé</b>",
+          translation: "<b>Yéshé Dordjé</b> (11<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1291,7 +1291,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8<sup>ème</sup> Shamarpa : <b>Tcheukyi Teundroup</b>",
+          translation: "<b>Tcheukyi Teundroup</b> (8<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -1339,7 +1339,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "12<sup>ème</sup> Karmapa : <b>Djangtchoup Dordjé</b>",
+          translation: "<b>Djangtchoup Dordjé</b> (12<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1387,7 +1387,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "8<sup>ème</sup> Sitoupa : <b>Tcheukyi Djoungné</b>",
+          translation: "<b>Tcheukyi Djoungné</b> (8<sup>ème</sup> Sitoupa)",
           words: [],
         },
         {
@@ -1430,7 +1430,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "13<sup>ème</sup> Karmapa : <b>Dudul Dordjé</b>",
+          translation: "<b>Dudul Dordjé</b> (13<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1473,7 +1473,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "10<sup>ème</sup> Shamarpa : <b>Tcheudroup Gyamtso</b>",
+          translation: "<b>Tcheudroup Gyamtso</b> (10<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
@@ -1517,7 +1517,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "9<sup>ème</sup> Sitoupa : <b>Péma Nyindjé</b>",
+          translation: "<b>Péma Nyindjé</b> (9<sup>ème</sup> Sitoupa)",
           words: [],
         },
         {
@@ -1560,7 +1560,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "14<sup>ème</sup> Karmapa : <b>Tekpa Tchoki Dordjé</b>",
+          translation: "<b>Tekpa Tchoki Dordjé</b> (14<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1599,7 +1599,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "1er Djamgœun Kongtrul : <b>Lodreu Thayé</b>",
+          translation: "<b>Lodreu Thayé</b> (1<sup>er</sup> Djamgœun Kongtrul)",
           words: [],
         },
         {
@@ -1643,7 +1643,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "15<sup>ème</sup> Karmapa : <b>Khakyab Dordjé</b>",
+          translation: "<b>Khakyab Dordjé</b> (15<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1686,7 +1686,7 @@ export const pratiqueChenrezik: PracticeText = {
           type: "instructions",
           tibetan: "",
           phonetics: "",
-          translation: "11<sup>ème</sup> Sitoupa : <b>Péma Ouangtchok</b>",
+          translation: "<b>Péma Ouangtchok</b> (11<sup>ème</sup> Sitoupa)",
           words: [],
         },
         {
@@ -1726,7 +1726,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation:
-            "2<sup>ème</sup> Djamgœun Kongtrul : <b>Khyentsé Euzer</b>",
+            "<b>Khyentsé Euzer</b> (2<sup>ème</sup> Djamgœun Kongtrul)",
           words: [],
         },
         {
@@ -1775,7 +1775,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation:
-            "16<sup>ème</sup> Karmapa : <b>Rangdjoung Rigpé Dordjé</b>",
+            "<b>Rangdjoung Rigpé Dordjé</b> (16<sup>ème</sup> Karmapa)",
           words: [],
         },
         {
@@ -1823,7 +1823,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation:
-            "14<sup>ème</sup> Shamarpa : <b>Mipham Chökyi Lodreu</b>",
+            "<b>Mipham Chökyi Lodreu</b> (14<sup>ème</sup> Shamarpa)",
           words: [],
         },
         {
