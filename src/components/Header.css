@@ -31,6 +31,7 @@
 .audio-toggle-btn {
   background: none;
   border: none;
+  color: #888;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0;
@@ -57,7 +58,7 @@
 .settings-btn {
   background: none;
   border: none;
-  color: #c9a84c;
+  color: #888;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0;

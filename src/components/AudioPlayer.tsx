@@ -133,9 +133,13 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
         <div className="audio-center-controls">
           <button className="audio-seek-btn" onClick={() => seek(-10)} aria-label="-10 secondes">−10s</button>
           <button className="audio-play-btn" onClick={togglePlay} aria-label={playing ? 'Pause' : 'Lecture'}>
-            {playing ? '⏸' : '▶'}
+            {playing
+              ? <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><rect x="5" y="4" width="4" height="16" rx="1"/><rect x="15" y="4" width="4" height="16" rx="1"/></svg>
+              : '▶'}
           </button>
-          <button className="audio-stop-btn" onClick={stop} aria-label="Stop">⏹</button>
+          <button className="audio-stop-btn" onClick={stop} aria-label="Stop">
+            <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+          </button>
           <button className="audio-seek-btn" onClick={() => seek(10)} aria-label="+10 secondes">+10s</button>
           <button
             className={`audio-loop-btn${loop ? ' audio-loop-active' : ''}`}

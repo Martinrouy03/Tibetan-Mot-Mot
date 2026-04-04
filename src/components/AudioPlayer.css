@@ -54,7 +54,7 @@
   background: none;
   border: none;
   color: #555;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   padding: 0 0.4rem;
   line-height: 1;
@@ -112,6 +112,6 @@
 
 @media (max-width: 600px) {
   .audio-loop-btn {
-    font-size: 2.4rem;
+    font-size: 1.2rem;
   }
 }
