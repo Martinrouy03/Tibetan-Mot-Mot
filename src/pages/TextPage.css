@@ -599,7 +599,7 @@
   justify-content: flex-end;
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .section-ch-priere-lignee .ta-hommage-image {
     justify-content: flex-end;
   }
@@ -673,10 +673,11 @@
   }
 }
 
-/* Mobile landscape navigation strip */
+/* Mobile navigation strip (landscape + portrait phone) */
 .mobile-strip {
   display: none;
 }
+
 
 .mobile-strip-btn {
   background: none;
@@ -736,7 +737,7 @@
   color: #aaa;
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape), (max-width: 1100px) and (orientation: portrait) {
   :root {
     --header-height: 0px;
   }
