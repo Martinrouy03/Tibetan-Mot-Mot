@@ -40,6 +40,7 @@ export interface PracticeText {
   sections: Section[];
   tibetanOnly?: boolean;
   audioSrc?: string;
+  videoSrc?: string;
   thumbnail?: string;
   thumbnailLogo?: string;
   thumbnails?: string[];

@@ -1,0 +1,165 @@
+.compte-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compte-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #c9a84c;
+  margin-bottom: 1rem;
+}
+
+.compte-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.compte-name {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.3rem;
+}
+
+.compte-email {
+  color: #555;
+  font-size: 0.85rem;
+  margin: 0 0 2rem;
+}
+
+.compte-section {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.compte-section-title {
+  color: #c9a84c;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.4rem;
+}
+
+.compte-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.compte-badge {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  color: #888;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+}
+
+.compte-value {
+  color: #c9a84c;
+}
+
+.compte-btn {
+  display: block;
+  width: 100%;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  color: #aaa;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+
+.compte-btn:hover {
+  background: #222;
+}
+
+.compte-btn-danger {
+  color: #c0392b;
+  margin-top: 0.5rem;
+}
+
+.compte-btn-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+
+.compte-lang-dropdown {
+  position: relative;
+}
+
+.compte-lang-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.compte-lang-trigger .fi {
+  font-size: 1.2rem;
+}
+
+.compte-lang-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 10;
+  min-width: 140px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+.compte-lang-option {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: left;
+  transition: background 0.1s;
+}
+
+.compte-lang-option .fi {
+  font-size: 1.1rem;
+}
+
+.compte-lang-option:hover {
+  background: #2a2a2a;
+}
+
+.compte-lang-option.active {
+  color: #c9a84c;
+}

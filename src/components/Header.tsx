@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { flushSync } from 'react-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize, toggleAudioPlayer } from '../store/uiSlice';
+import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize, toggleAudioPlayer, setCatalogueSearch } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { DisplayMode, InteractionMode } from '../types';
 import { practiceTexts } from '../data/texts';
@@ -60,6 +60,14 @@ export default function Header() {
         <span className="label-full">མོཊ་ཨ་མོཊ — Mot à Mot</span>
         <span className="label-short tibetan">མོཊ་ཨ་མོཊ</span>
       </h1>
+      {!isTextPage && (
+        <input
+          className="catalogue-search"
+          type="search"
+          placeholder="Rechercher..."
+          onChange={e => dispatch(setCatalogueSearch(e.target.value))}
+        />
+      )}
       {isTextPage && currentAudioSrc && (
         <button
           className={`audio-toggle-btn${audioPlayerVisible ? ' active' : ''}`}

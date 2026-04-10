@@ -5,6 +5,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
   title: "Pratique de Chenrézik — KIBI",
   tibetanTitle: "སྤྱན་རས་གཟིགས།",
   audioSrc: "/audio/Chenrézik_Karmapa.mp3",
+  videoSrc: "/demo",
   thumbnail: "/Chenrezik.jpg",
   thumbnailLogo: "/logo_kibi.jpg",
   sections: [

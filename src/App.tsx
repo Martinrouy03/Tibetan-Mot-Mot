@@ -1,7 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import TabBar from './components/TabBar';
 import HomePage from './pages/HomePage';
 import TextPage from './pages/TextPage';
+import BibliothequePage from './pages/BibliothequePage';
+import ComptePage from './pages/ComptePage';
 import AudioPlayer from './components/AudioPlayer';
 import { useAppSelector } from './store/hooks';
 
@@ -17,6 +20,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/text/:textId" element={<TextPage />} />
+          <Route path="/bibliotheque" element={<BibliothequePage />} />
+          <Route path="/compte" element={<ComptePage />} />
         </Routes>
       </main>
       {currentAudioSrc && (
@@ -24,6 +29,7 @@ function App() {
           <AudioPlayer src={currentAudioSrc} />
         </footer>
       )}
+      <TabBar />
     </div>
   );
 }

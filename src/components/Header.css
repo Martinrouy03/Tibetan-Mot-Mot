@@ -15,9 +15,29 @@
   color: #c9a84c;
   cursor: pointer;
   margin: 0;
-  margin-right: auto;
   font-weight: 600;
   white-space: nowrap;
+}
+
+.catalogue-search {
+  flex: 1;
+  max-width: 320px;
+  background: #111;
+  border: 1px solid #c9a84c;
+  border-radius: 20px;
+  color: #ccc;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.9rem;
+  outline: none;
+  margin: 0 auto;
+}
+
+.catalogue-search::placeholder {
+  color: #555;
+}
+
+.catalogue-search:focus {
+  border-color: #e0bc5a;
 }
 
 .header-title:hover {
