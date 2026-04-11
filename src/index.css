@@ -109,6 +109,9 @@ body.light-mode .sidebar-link { color: #444; }
 body.light-mode .sidebar-link:hover,
 body.light-mode .sidebar-link.active { color: #c9a84c; }
 
+/* Mantra 100 syllabes — ཧཱུྃ fond */
+body.light-mode .mantra-hung-bg { color: #111; }
+
 /* Mantra principal — OM blanc : contour sombre en mode clair */
 body.light-mode .mantra-syllable-om {
   text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333 !important;
