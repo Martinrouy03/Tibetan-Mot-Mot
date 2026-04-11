@@ -6,7 +6,7 @@ import { useAppSelector } from '../store/hooks';
 import TextPreviewModal from '../components/TextPreviewModal';
 import './HomePage.css';
 
-const PURCHASED_IDS = ['pratique-chenrezik', 'pratique-chenrezik-thoungma', 'vajrasattva'];
+const PURCHASED_IDS = ['trois-amoncellements', 'pratique-chenrezik-thoungma', 'vajrasattva'];
 
 function LockBadge() {
   return (
@@ -96,7 +96,15 @@ export default function HomePage() {
                   </div>
                 )}
               </div>
-              {!purchased && <LockBadge />}
+              {purchased ? (
+                <span className="lock-badge purchased-badge">
+                  <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                  </svg>
+                </span>
+              ) : (
+                <LockBadge />
+              )}
             </button>
           );
         })}

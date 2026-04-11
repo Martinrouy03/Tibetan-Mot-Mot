@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import './BibliothequePage.css';
 
-const PURCHASED_IDS = ['pratique-chenrezik', 'pratique-chenrezik-thoungma', 'vajrasattva'];
+const PURCHASED_IDS = ['trois-amoncellements', 'pratique-chenrezik-thoungma', 'vajrasattva'];
 
 export default function BibliothequePage() {
   const navigate = useNavigate();

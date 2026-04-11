@@ -56,7 +56,7 @@ export default function Header() {
 
   return (
     <header className={`header${isTextPage ? ' header-text-page' : ''}`}>
-      <h1 className="header-title" onClick={() => navigate('/')}>
+      <h1 className="header-title" onClick={() => navigate('/bibliotheque')}>
         <span className="label-full">མོཊ་ཨ་མོཊ — Mot à Mot</span>
         <span className="label-short tibetan">མོཊ་ཨ་མོཊ</span>
       </h1>

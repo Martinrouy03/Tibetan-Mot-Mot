@@ -25,30 +25,34 @@ export default function ComptePage() {
   }, [langOpen]);
   return (
     <div className="compte-page">
-      <div className="compte-avatar">
-        <img src="/id_martin.jpg" alt="Martin Rouy" className="compte-avatar-img" />
-      </div>
-      <h2 className="compte-name">Martin Rouy</h2>
-      <p className="compte-email">martin.rouy@email.com</p>
+      <div className="compte-col-left">
+        <div className="compte-avatar">
+          <img src="/id_martin.jpg" alt="Martin Rouy" className="compte-avatar-img" />
+        </div>
+        <h2 className="compte-name">Martin Rouy</h2>
+        <p className="compte-email">martin.rouy@email.com</p>
 
-      <div className="compte-section">
-        <h3 className="compte-section-title">Mon abonnement</h3>
-        <div className="compte-info-row">
-          <span>Statut</span>
-          <span className="compte-badge">Sans abonnement</span>
+        <div className="compte-section">
+          <h3 className="compte-section-title">Mon abonnement</h3>
+          <div className="compte-info-row">
+            <span>Statut</span>
+            <span className="compte-badge">Sans abonnement</span>
+          </div>
+        </div>
+
+        <div className="compte-section">
+          <h3 className="compte-section-title">Mes achats</h3>
+          <div className="compte-info-row">
+            <span>Textes achetés</span>
+            <span className="compte-value">3</span>
+          </div>
         </div>
       </div>
 
-      <div className="compte-section">
-        <h3 className="compte-section-title">Mes achats</h3>
-        <div className="compte-info-row">
-          <span>Textes achetés</span>
-          <span className="compte-value">3</span>
-        </div>
-      </div>
+      <div className="compte-col-right">
 
-      <div className="compte-section">
-        <h3 className="compte-section-title">Paramètres</h3>
+        <div className="compte-section">
+          <h3 className="compte-section-title">Paramètres</h3>
         <button className="compte-btn">Changer de mot de passe</button>
         <div className="compte-btn compte-btn-lang">
           <span>Langue de l'interface</span>
@@ -75,8 +79,8 @@ export default function ComptePage() {
             )}
           </div>
         </div>
-        <button className="compte-btn compte-btn-danger">Se déconnecter</button>
-
+          <button className="compte-btn compte-btn-danger">Se déconnecter</button>
+        </div>
       </div>
     </div>
   );

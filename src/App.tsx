@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import TabBar from './components/TabBar';
 import HomePage from './pages/HomePage';
@@ -9,6 +9,8 @@ import AudioPlayer from './components/AudioPlayer';
 import { useAppSelector } from './store/hooks';
 
 function App() {
+  const location = useLocation();
+  const isTextPage = location.pathname.startsWith('/text/');
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
   const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
   const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
@@ -29,7 +31,7 @@ function App() {
           <AudioPlayer src={currentAudioSrc} />
         </footer>
       )}
-      <TabBar />
+      {!isTextPage && <TabBar />}
     </div>
   );
 }

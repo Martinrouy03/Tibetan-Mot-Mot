@@ -62,7 +62,6 @@
 .modal-features {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   margin-bottom: 1.5rem;
   border: 1px solid #2a2a2a;
   border-radius: 10px;
@@ -71,6 +70,7 @@
 
 .modal-feature {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.75rem;
   padding: 0.6rem 1rem;
@@ -79,6 +79,37 @@
 }
 
 .modal-feature:last-child {
+  border-bottom: none;
+}
+
+.modal-feature-group {
+  border-bottom: 1px solid #222;
+}
+
+.modal-feature-group:last-child {
+  border-bottom: none;
+}
+
+.modal-feature-group-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 1rem 0.2rem;
+}
+
+.modal-feature-group-cells {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-feature-group-cells .modal-feature {
+  border-bottom: 1px solid #222;
+  padding-left: 1.5rem;
+}
+
+.modal-feature-group-cells .modal-feature:last-child {
   border-bottom: none;
 }
 
@@ -147,4 +178,70 @@
 
 .modal-btn-buy:hover {
   background: #e0bc5a;
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .modal {
+    padding: 0.75rem 1.5rem;
+  }
+
+  .modal-header {
+    margin-bottom: 0.75rem;
+  }
+
+  .modal-features {
+    flex-direction: row;
+    margin-bottom: 0.75rem;
+  }
+
+  .modal-feature-group {
+    flex: 1;
+    border-bottom: none;
+    border-right: 1px solid #222;
+  }
+
+  .modal-feature-group:last-child {
+    border-right: none;
+  }
+
+  .modal-feature-group-label {
+    text-align: center;
+    border-bottom: 1px solid #222;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .modal-feature-group-cells {
+    flex-direction: row;
+  }
+
+  .modal-feature-group-cells .modal-feature {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.4rem 0.25rem;
+    border-bottom: none;
+    border-right: 1px solid #222;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+  .modal-feature-group-cells .modal-feature:last-child {
+    border-right: none;
+  }
+
+  .modal-feature-group-cells .feature-value {
+    margin-left: 0;
+  }
+
+  .modal-price {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .modal-btn-preview,
+  .modal-btn-buy {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
 }
