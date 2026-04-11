@@ -664,7 +664,9 @@ export default function TextPage() {
                   ) : isMantra ? (
                     <div className={`phrase phrase-mantra${scrollingMantraId === phrase.id ? ' phrase-mantra-scrolling-active' : ''}`}>
                       {scrollingMantraId === phrase.id ? (
-                        <div className="phrase-mantra-scroll-clip">
+                        <div className="phrase-mantra-scroll-outer">
+                          <span className="mantra-hung-bg tibetan">ཧཱུྃ</span>
+                          <div className="phrase-mantra-scroll-clip">
                           <div className="phrase-mantra-scroll-wrapper" ref={mantraWrapperRef}>
                             <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                               {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
@@ -672,6 +674,7 @@ export default function TextPage() {
                             <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`} aria-hidden="true">
                               {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
                             </span>
+                          </div>
                           </div>
                         </div>
                       ) : (
