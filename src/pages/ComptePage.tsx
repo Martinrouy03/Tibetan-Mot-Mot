@@ -130,6 +130,26 @@ export default function ComptePage() {
           </div>
           <button className="compte-btn compte-btn-danger">Se déconnecter</button>
         </div>
+
+        <div className="compte-section">
+          <h3 className="compte-section-title">Crédits</h3>
+          <p className="compte-credit">
+            Projet porté par{' '}
+            <a href="https://dhagpo-library.org/index.php/fr/" target="_blank" rel="noreferrer" className="compte-credit-link">
+              Bibliothèque de DKL
+            </a>
+          </p>
+          <p className="compte-credit">
+            Commercialisé par{' '}
+            <a href="https://www.dzambala.com/" target="_blank" rel="noreferrer" className="compte-credit-link">
+              Dzambala
+            </a>
+            {' '}au profit des{' '}
+            <a href="https://dhagpo.org/project/nouvelles-residences/" target="_blank" rel="noreferrer" className="compte-credit-link">
+              résidences de l'institut
+            </a>
+          </p>
+        </div>
       </div>
 
       {modalOpen && (
