@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { flushSync } from 'react-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize, toggleAudioPlayer } from '../store/uiSlice';
+import { setDisplayMode, setInteractionMode, toggleTranslation, changeFontSize, toggleAudioPlayer, toggleBreakdownPosition } from '../store/uiSlice';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { DisplayMode, InteractionMode } from '../types';
 import { practiceTexts } from '../data/texts';
@@ -12,6 +12,7 @@ export default function Header() {
   const displayMode = useAppSelector((state) => state.ui.displayMode);
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const breakdownTranslationAbove = useAppSelector((state) => state.ui.breakdownTranslationAbove);
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
   const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
   const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
@@ -124,6 +125,19 @@ export default function Header() {
                     >
                       {showTranslation ? 'Activée' : 'Désactivée'}
                     </button>
+                  </div>
+                  <div className="settings-row">
+                    <span className="settings-label">Mot à mot</span>
+                    <div className="radio-group">
+                      <label className={`radio-label ${breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="breakdownPos" checked={breakdownTranslationAbove} onChange={() => !breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        Dessus
+                      </label>
+                      <label className={`radio-label ${!breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="breakdownPos" checked={!breakdownTranslationAbove} onChange={() => breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        Dessous
+                      </label>
+                    </div>
                   </div>
                 </>
               )}

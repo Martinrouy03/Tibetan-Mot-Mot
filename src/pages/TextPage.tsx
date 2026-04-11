@@ -21,6 +21,7 @@ export default function TextPage() {
   const interactionMode = useAppSelector((state) => state.ui.interactionMode);
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
+  const breakdownTranslationAbove = useAppSelector((state) => state.ui.breakdownTranslationAbove);
   const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
   const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
@@ -505,7 +506,7 @@ export default function TextPage() {
                       onClick={() => interactionMode !== 'fixed' && handlePhraseClick(normal.id)}
                     >
                       {isSelected ? (
-                        <PhraseBreakdown phrase={normal} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} />
+                        <PhraseBreakdown phrase={normal} displayMode={displayMode} showTranslation={showTranslation} prefix={prefix} translationAbove={breakdownTranslationAbove} />
                       ) : (
                         <div className="phrase">
                           {prefix && <span className="breakdown-prefix">{prefix}</span>}
@@ -539,7 +540,7 @@ export default function TextPage() {
                     onClick={() => interactionMode !== 'fixed' && handlePhraseClick(p.id)}
                   >
                     {isSelected ? (
-                      <PhraseBreakdown phrase={p} displayMode={displayMode} showTranslation={showTranslation} />
+                      <PhraseBreakdown phrase={p} displayMode={displayMode} showTranslation={showTranslation} translationAbove={breakdownTranslationAbove} />
                     ) : (
                       <div className="phrase">
                         <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
@@ -659,7 +660,7 @@ export default function TextPage() {
                       <img src={phrase.src} alt="" className="phrase-image" />
                     </div>
                   ) : isNormal && (interactionMode === 'fixed' || selectedPhraseId === phrase.id) ? (
-                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} />
+                    <PhraseBreakdown phrase={phrase} displayMode={displayMode} showTranslation={showTranslation} translationAbove={breakdownTranslationAbove} />
                   ) : isMantra ? (
                     <div className={`phrase phrase-mantra${scrollingMantraId === phrase.id ? ' phrase-mantra-scrolling-active' : ''}`}>
                       {scrollingMantraId === phrase.id ? (

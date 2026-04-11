@@ -45,6 +45,10 @@
   padding: 0.4rem 0 0 0;
 }
 
+.breakdown-words-bottom {
+  align-items: flex-start;
+}
+
 .word-card {
   display: flex;
   flex-direction: column;
@@ -66,6 +70,12 @@
   color: #888;
   white-space: nowrap;
   margin-bottom: 1.5px;
+}
+
+.word-translation-below {
+  transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 600px) {

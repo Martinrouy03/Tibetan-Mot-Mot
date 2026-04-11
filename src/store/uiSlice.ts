@@ -10,6 +10,7 @@ interface UiState {
   currentAudioSrc: string | null;
   audioPlayerVisible: boolean;
   seekToTimestamp: number | null;
+  breakdownTranslationAbove: boolean;
 }
 
 const initialState: UiState = {
@@ -21,6 +22,7 @@ const initialState: UiState = {
   currentAudioSrc: null,
   audioPlayerVisible: false,
   seekToTimestamp: null,
+  breakdownTranslationAbove: true,
 };
 
 const uiSlice = createSlice({
@@ -53,8 +55,11 @@ const uiSlice = createSlice({
     setSeekToTimestamp(state, action: PayloadAction<number | null>) {
       state.seekToTimestamp = action.payload;
     },
+    toggleBreakdownPosition(state) {
+      state.breakdownTranslationAbove = !state.breakdownTranslationAbove;
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp, toggleBreakdownPosition } = uiSlice.actions;
 export default uiSlice.reducer;
