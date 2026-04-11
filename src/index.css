@@ -46,3 +46,74 @@ button {
   font-family: 'Jomolhari', serif;
   font-size: var(--tibetan-font-size, 20px);
 }
+
+/* ── Light mode ── */
+body.light-mode {
+  background-color: #ffffff;
+  color: #111;
+}
+
+/* Header */
+body.light-mode .header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+body.light-mode .header-title { color: #c9a84c; }
+body.light-mode .settings-btn,
+body.light-mode .audio-toggle-btn { color: #555; }
+body.light-mode .settings-menu {
+  background: #f8f8f8;
+  border-color: #ddd;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+body.light-mode .font-size-btn { background: #ddd; color: #222; }
+body.light-mode .font-size-icon { color: #555; }
+body.light-mode .radio-group { background-color: #e0e0e0; }
+body.light-mode .radio-label { color: #555; }
+body.light-mode .radio-label.active { background-color: #c9a84c; color: #fff; }
+body.light-mode .toggle-button { background: #e0e0e0; color: #555; }
+body.light-mode .toggle-button.active { background-color: #c9a84c; color: #fff; }
+
+/* Phrases */
+body.light-mode .phrase-text { color: #111; }
+body.light-mode .phrase-text.tibetan { color: #111; }
+body.light-mode .phrase-inline-translation { color: #666; }
+body.light-mode .phrase-container:hover { background: #f5f5f5; }
+
+/* Breakdown */
+body.light-mode .breakdown {
+  background-color: #f8f8f8;
+  border-color: #ddd;
+}
+body.light-mode .breakdown-words {
+  background: #efefef;
+  border-color: #ddd;
+}
+body.light-mode .word-original { color: #111; }
+body.light-mode .word-translation { color: #666; }
+body.light-mode .breakdown-translation { color: #666; border-top-color: #ddd; }
+body.light-mode .breakdown-prefix { color: #666; }
+
+/* Mantras */
+body.light-mode .phrase-mantra { color: #111; }
+body.light-mode .phrase-mantra-text { color: #111; }
+
+/* Instructions / colophon */
+body.light-mode .phrase-special { color: #888; }
+body.light-mode .phrase-special-translation { color: #888; }
+
+/* Sections */
+body.light-mode .section-title { color: #c9a84c; }
+body.light-mode .sidebar { background: #f0f0f0; border-color: #ddd; }
+body.light-mode .sidebar-link { color: #444; }
+body.light-mode .sidebar-link:hover,
+body.light-mode .sidebar-link.active { color: #c9a84c; }
+
+/* Mantra principal — OM blanc : contour sombre en mode clair */
+body.light-mode .mantra-syllable-om {
+  text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333 !important;
+}
+/* Houng noir : retirer le contour blanc en mode clair */
+body.light-mode .mantra-syllable-houng {
+  text-shadow: none !important;
+}

@@ -702,7 +702,9 @@ export default function TextPage() {
                       <div className="phrase phrase-mantra phrase-mantra-main">
                         <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
                           {syllables.map((s, i) => (
-                            <span key={i} style={s.color === '#111111'
+                            <span key={i}
+                              className={s.color === '#ffffff' ? 'mantra-syllable-om' : s.color === '#111111' ? 'mantra-syllable-houng' : ''}
+                              style={s.color === '#111111'
                               ? { display: 'inline-block', verticalAlign: 'baseline', color: s.color, textShadow: '-0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white' }
                               : { display: 'inline-block', verticalAlign: 'baseline', color: s.color }
                             }>{s.text}</span>

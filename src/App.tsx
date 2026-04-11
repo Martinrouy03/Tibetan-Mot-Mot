@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
@@ -9,6 +10,11 @@ function App() {
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
   const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
   const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
+  const lightMode = useAppSelector((state) => state.ui.lightMode);
+
+  useEffect(() => {
+    document.body.classList.toggle('light-mode', lightMode);
+  }, [lightMode]);
 
   return (
     <div className="app">

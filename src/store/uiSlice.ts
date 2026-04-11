@@ -11,6 +11,7 @@ interface UiState {
   audioPlayerVisible: boolean;
   seekToTimestamp: number | null;
   breakdownTranslationAbove: boolean;
+  lightMode: boolean;
 }
 
 const initialState: UiState = {
@@ -23,6 +24,7 @@ const initialState: UiState = {
   audioPlayerVisible: false,
   seekToTimestamp: null,
   breakdownTranslationAbove: true,
+  lightMode: false,
 };
 
 const uiSlice = createSlice({
@@ -58,8 +60,11 @@ const uiSlice = createSlice({
     toggleBreakdownPosition(state) {
       state.breakdownTranslationAbove = !state.breakdownTranslationAbove;
     },
+    toggleLightMode(state) {
+      state.lightMode = !state.lightMode;
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp, toggleBreakdownPosition } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp, toggleBreakdownPosition, toggleLightMode } = uiSlice.actions;
 export default uiSlice.reducer;
