@@ -4,6 +4,37 @@
   padding: 2rem;
 }
 
+/* FAB scroll-next button — mobile only */
+.phrase-scroll-btn {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .phrase-scroll-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #c9a84c;
+    border: none;
+    color: #0a0a0a;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 90;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    transition: opacity 0.15s;
+  }
+
+  .phrase-scroll-btn:active {
+    opacity: 0.7;
+  }
+}
+
 /* Sidebar layout */
 .text-page-layout .text-page {
   margin: 0 auto 0 max(210px, calc(50vw - 400px));

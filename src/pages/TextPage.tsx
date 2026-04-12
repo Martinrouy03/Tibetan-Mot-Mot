@@ -241,6 +241,32 @@ export default function TextPage() {
     dispatch(setSelectedPhrase(selectedPhraseId === phraseId ? null : phraseId));
   };
 
+  const handleScrollNext = useCallback(() => {
+    const viewportHeight = window.innerHeight;
+    const hommageEls = Array.from(document.querySelectorAll<HTMLElement>('.ta-hommage-pair'));
+    const inHommage = hommageEls.some(el => {
+      const r = el.getBoundingClientRect();
+      return r.top < viewportHeight && r.bottom > 0;
+    });
+
+    if (inHommage) {
+      // Section hommage : avancer d'un maître
+      hommageEls.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+      const currentIdx = hommageEls.findIndex(el => el.getBoundingClientRect().top >= -4);
+      const next = hommageEls[(currentIdx < 0 ? hommageEls.length - 1 : currentIdx) + 1]
+        ?? hommageEls[hommageEls.length - 1];
+      window.scrollBy({ top: next.getBoundingClientRect().top, behavior: 'smooth' });
+    } else {
+      // Texte normal : dernière phrase visible → top
+      const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container'));
+      let target: HTMLElement | null = null;
+      for (const el of phrases) {
+        if (el.getBoundingClientRect().top < viewportHeight) target = el;
+      }
+      if (target) window.scrollBy({ top: target.getBoundingClientRect().top, behavior: 'smooth' });
+    }
+  }, []);
+
   return (
     <div className={hasSidebar ? 'text-page-layout' : ''}>
       <nav className="mobile-strip">
@@ -805,6 +831,17 @@ export default function TextPage() {
         )}
       </div>
     </div>
+    {interactionMode !== 'scroll' && (
+      <button
+        className="phrase-scroll-btn"
+        onClick={handleScrollNext}
+        aria-label="Phrase suivante"
+      >
+        <svg viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="currentColor">
+          <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+        </svg>
+      </button>
+    )}
     </div>
   );
 }
