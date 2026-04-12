@@ -244,28 +244,26 @@ export default function TextPage() {
 
   const handleScrollNext = useCallback(() => {
     const viewportHeight = window.innerHeight;
+    // hommageEls en ordre document (index = position dans la section)
     const hommageEls = Array.from(document.querySelectorAll<HTMLElement>('.ta-hommage-pair'));
-    const inHommage = hommageEls.some(el => {
-      const r = el.getBoundingClientRect();
-      return r.top < viewportHeight && r.bottom > 0;
-    });
+    const currentHommageIdx = hommageEls.findIndex(el => el.getBoundingClientRect().top >= -4);
+    const inHommage = currentHommageIdx >= 0
+      && hommageEls[currentHommageIdx].getBoundingClientRect().bottom > 0;
 
-    if (inHommage) {
-      // Section hommage : avancer d'un maître
-      hommageEls.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
-      const currentIdx = hommageEls.findIndex(el => el.getBoundingClientRect().top >= -4);
-      const next = hommageEls[(currentIdx < 0 ? hommageEls.length - 1 : currentIdx) + 1]
-        ?? hommageEls[hommageEls.length - 1];
+    // Avancement pair par pair uniquement pour les 3 premiers maîtres (DC, Tilopa, Naropa)
+    if (inHommage && currentHommageIdx < 3) {
+      const next = hommageEls[currentHommageIdx + 1] ?? hommageEls[hommageEls.length - 1];
       window.scrollBy({ top: next.getBoundingClientRect().top, behavior: 'smooth' });
-    } else {
-      // Texte normal : dernière phrase visible → top
-      const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container'));
-      let target: HTMLElement | null = null;
-      for (const el of phrases) {
-        if (el.getBoundingClientRect().top < viewportHeight) target = el;
-      }
-      if (target) window.scrollBy({ top: target.getBoundingClientRect().top, behavior: 'smooth' });
+      return;
     }
+
+    // Comportement par défaut : dernière phrase visible → top
+    const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container'));
+    let target: HTMLElement | null = null;
+    for (const el of phrases) {
+      if (el.getBoundingClientRect().top < viewportHeight) target = el;
+    }
+    if (target) window.scrollBy({ top: target.getBoundingClientRect().top, behavior: 'smooth' });
   }, []);
 
   return (
