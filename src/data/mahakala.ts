@@ -5,6 +5,7 @@ export const mahakala: PracticeText = {
   title: "Madak",
   tibetanTitle: "མ་དག་",
   tibetanOnly: true,
+  thumbnail: "/Mahakala.jpg",
   audioSrc: "/audio/Madak.mp3",
   sections: [
     {

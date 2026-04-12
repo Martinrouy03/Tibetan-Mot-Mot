@@ -14,17 +14,24 @@ interface UiState {
   lightMode: boolean;
 }
 
+function loadFromStorage<T>(key: string, fallback: T): T {
+  try {
+    const v = localStorage.getItem(key);
+    return v !== null ? JSON.parse(v) : fallback;
+  } catch { return fallback; }
+}
+
 const initialState: UiState = {
-  displayMode: 'tibetan',
-  interactionMode: 'click',
-  showTranslation: true,
+  displayMode: loadFromStorage<DisplayMode>('ui.displayMode', 'tibetan'),
+  interactionMode: loadFromStorage<InteractionMode>('ui.interactionMode', 'click'),
+  showTranslation: loadFromStorage('ui.showTranslation', true),
   selectedPhraseId: null,
-  tibetanFontSize: 21,
+  tibetanFontSize: loadFromStorage('ui.tibetanFontSize', 21),
   currentAudioSrc: null,
   audioPlayerVisible: false,
   seekToTimestamp: null,
-  breakdownTranslationAbove: true,
-  lightMode: false,
+  breakdownTranslationAbove: loadFromStorage('ui.breakdownTranslationAbove', true),
+  lightMode: loadFromStorage('ui.lightMode', false),
 };
 
 const uiSlice = createSlice({

@@ -10,6 +10,22 @@ import { louangeManjushri } from './louange-manjushri';
 import { mahakala } from './mahakala';
 import { dewachen } from './dewachen';
 
+const lojong7Points: PracticeText = {
+  id: "lojong-7-points",
+  title: "Lojong en 7 points",
+  tibetanTitle: "བློ་སྦྱོང་དོན་བདུན་མ།",
+  thumbnail: "/GuesheChekawa.jpg",
+  sections: [],
+};
+
+const soutraLongevite: PracticeText = {
+  id: "soutra-longevite",
+  title: "Soutra de longévité",
+  tibetanTitle: "ཚེ་མདོ།",
+  thumbnail: "/Amitayus.jpg",
+  sections: [],
+};
+
 export const practiceTexts: PracticeText[] = [
   pratiqueChenrezik,
   pratiqueChenrezikThoungma,
@@ -21,4 +37,62 @@ export const practiceTexts: PracticeText[] = [
   coeurPrajnaparamita,
   dewachen,
   mahakala,
+  lojong7Points,
+  soutraLongevite,
+  {
+    id: "sauver-des-vies",
+    title: "Sauver des vies",
+    tibetanTitle: "ཚེ་ཐར།",
+    thumbnail: "/Amitayus.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "rituel-tara",
+    title: "Rituel de Tara",
+    tibetanTitle: "སྒྲོལ་མའི་ཆོ་ག",
+    thumbnail: "/TaraVerte.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "amitabha",
+    title: "Amitabha",
+    tibetanTitle: "འོད་དཔག་མེད།",
+    thumbnail: "/Amitabha.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "milarepa",
+    title: "Guru Yoga de Milarépa",
+    tibetanTitle: "མི་ལའི་བླ་མའི་རྣལ་འབྱོར།",
+    thumbnail: "/Milarepa.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "aspirations-mahamoudra",
+    title: "Aspirations du Mahamoudra",
+    tibetanTitle: "ཕྱག་རྒྱ་ཆེན་པོའི་སྨོན་ལམ།",
+    thumbnail: "/goldenRosary/12k3.jpeg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "sojong",
+    title: "Sojong",
+    tibetanTitle: "གསོ་སྦྱོང་།",
+    thumbnail: "/Shakyamuni.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "louange-12-actes",
+    title: "Louange aux 12 actes",
+    tibetanTitle: "མཛད་པ་བཅུ་གཉིས་ཀྱི་བསྟོད་པ།",
+    thumbnail: "/Shakyamuni.jpg",
+    sections: [],
+  } as PracticeText,
+  {
+    id: "37-pratiques",
+    title: "Les 37 Pratiques",
+    tibetanTitle: "རྒྱལ་བའི་སྲས་ཀྱི་ལག་ལེན་སོ་བདུན་མ།",
+    thumbnail: "/GyalseThogme.jpg",
+    sections: [],
+  } as PracticeText,
 ];

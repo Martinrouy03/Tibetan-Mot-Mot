@@ -39,11 +39,15 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "kyap dak",
               translation: "Omniprésent",
             },
-            { tibetan: "རྡོ་རྗེ་", phonetics: "dordjé", translation: "Dordjé" },
             {
-              tibetan: "འཆང་ཆེན་",
-              phonetics: "tchang tchen",
-              translation: "Grand Tchang",
+              tibetan: "རྡོ་རྗེ་འཆང་",
+              phonetics: "dordjé tchang ",
+              translation: "Dordjé Tchang",
+            },
+            {
+              tibetan: "ཆེན་",
+              phonetics: "tchen",
+              translation: "grand",
             },
             {
               tibetan: "མཁྱེན་ནོ་",
