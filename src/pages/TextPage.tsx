@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useCallback, useMemo, useState } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { practiceTexts } from '../data/texts';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setSelectedPhrase, setCurrentAudioSrc, setSeekToTimestamp, toggleAudioPlayer, changeFontSize, toggleTranslation, setDisplayMode, setInteractionMode } from '../store/uiSlice';
+import { setSelectedPhrase, setCurrentAudioSrc, setSeekToTimestamp, toggleAudioPlayer, changeFontSize, toggleTranslation, setDisplayMode, setInteractionMode, toggleLightMode, toggleBreakdownPosition } from '../store/uiSlice';
 import type { DisplayMode, InteractionMode } from '../types';
 import PhraseBreakdown from '../components/PhraseBreakdown';
 import './TextPage.css';
@@ -22,6 +22,7 @@ export default function TextPage() {
   const selectedPhraseId = useAppSelector((state) => state.ui.selectedPhraseId);
   const showTranslation = useAppSelector((state) => state.ui.showTranslation);
   const breakdownTranslationAbove = useAppSelector((state) => state.ui.breakdownTranslationAbove);
+  const lightMode = useAppSelector((state) => state.ui.lightMode);
   const currentAudioSrc = useAppSelector((state) => state.ui.currentAudioSrc);
   const audioPlayerVisible = useAppSelector((state) => state.ui.audioPlayerVisible);
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
@@ -310,6 +311,19 @@ export default function TextPage() {
             <div className="mobile-strip-overlay" onClick={() => setMobileSettingsOpen(false)} />
             <div className="mobile-strip-panel">
               <div className="settings-row">
+                <span className="settings-label">Thème</span>
+                <div className="radio-group">
+                  <label className={`radio-label ${!lightMode ? 'active' : ''}`}>
+                    <input type="radio" name="mobileColorMode" checked={!lightMode} onChange={() => lightMode && dispatch(toggleLightMode())} />
+                    Sombre
+                  </label>
+                  <label className={`radio-label ${lightMode ? 'active' : ''}`}>
+                    <input type="radio" name="mobileColorMode" checked={lightMode} onChange={() => !lightMode && dispatch(toggleLightMode())} />
+                    Clair
+                  </label>
+                </div>
+              </div>
+              <div className="settings-row">
                 <span className="settings-label">Taille</span>
                 <div className="font-size-control">
                   <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-3))}>−</button>
@@ -351,6 +365,19 @@ export default function TextPage() {
                       onClick={() => dispatch(toggleTranslation())}>
                       {showTranslation ? 'Activée' : 'Désactivée'}
                     </button>
+                  </div>
+                  <div className="settings-row">
+                    <span className="settings-label">Mot à mot</span>
+                    <div className="radio-group">
+                      <label className={`radio-label ${breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="mobileBreakdownPos" checked={breakdownTranslationAbove} onChange={() => !breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        Dessus
+                      </label>
+                      <label className={`radio-label ${!breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="mobileBreakdownPos" checked={!breakdownTranslationAbove} onChange={() => breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        Dessous
+                      </label>
+                    </div>
                   </div>
                 </>
               )}
