@@ -427,7 +427,7 @@ export default function TextPage() {
           if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
           if (hash) {
             navigate(path, { state: navState });
-            setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+            setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'auto' }), 100);
           } else {
             window.scrollTo(0, 0);
             navigate(target, { state: navState });
@@ -667,7 +667,7 @@ export default function TextPage() {
                   if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
                   if (hash) {
                     navigate(path, { state: navState });
-                    setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+                    setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'auto' }), 100);
                   } else {
                     window.scrollTo(0, 0);
                     navigate(target, { state: navState });
