@@ -266,7 +266,8 @@ export default function TextPage() {
       while (cur) { if (cur.classList.contains('section')) return cur; cur = cur.parentElement; }
       return null;
     };
-    const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container'));
+    const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container, .tibetan-pair-row'));
+    phrases.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
     let topPhrase: HTMLElement | null = null;
     let bottomPhrase: HTMLElement | null = null;
     for (const el of phrases) {
@@ -829,12 +830,12 @@ export default function TextPage() {
       })}
       <div className="bottom-nav">
         {textId !== 'mahakala' && (
-          <button className="back-button back-button-bottom" onClick={() => navigate('/')}>
+          <button className="nav-btn" onClick={() => navigate('/')}>
             ← Retour aux textes
           </button>
         )}
         {textId === 'trois-amoncellements' && (
-          <button className="back-button back-button-bottom next-text-button" onClick={() => {
+          <button className="nav-btn" onClick={() => {
             dispatch(setSelectedPhrase(null));
             window.scrollTo(0, 0);
             navigate('/text/vajrasattva');
@@ -843,7 +844,7 @@ export default function TextPage() {
           </button>
         )}
         {textId === 'vajrasattva' && (
-          <button className="back-button back-button-bottom next-text-button" onClick={() => {
+          <button className="nav-btn" onClick={() => {
             dispatch(setSelectedPhrase(null));
             window.scrollTo(0, 0);
             navigate('/text/louange-manjushri');
