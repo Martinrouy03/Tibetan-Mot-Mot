@@ -250,20 +250,38 @@ export default function TextPage() {
     const inHommage = currentHommageIdx >= 0
       && hommageEls[currentHommageIdx].getBoundingClientRect().bottom > 0;
 
-    // Avancement pair par pair uniquement pour les 3 premiers maîtres (DC, Tilopa, Naropa)
-    if (inHommage && currentHommageIdx < 3) {
+    // Avancement pair par pair jusqu'à Mipham Chökyi Lodreu (ch-lg-42) inclus
+    const miphamEl = document.querySelector<HTMLElement>('[data-phrase-id="ch-lg-42"]');
+    const miphamIdx = miphamEl ? hommageEls.indexOf(miphamEl) : -1;
+    if (inHommage && miphamIdx >= 0 && currentHommageIdx <= miphamIdx) {
       const next = hommageEls[currentHommageIdx + 1] ?? hommageEls[hommageEls.length - 1];
       window.scrollBy({ top: next.getBoundingClientRect().top, behavior: 'smooth' });
       return;
     }
 
     // Comportement par défaut : dernière phrase visible → top
+    // Si elle est dans une nouvelle section, scroller au début de cette section
+    const getSectionEl = (el: HTMLElement): HTMLElement | null => {
+      let cur: HTMLElement | null = el;
+      while (cur) { if (cur.classList.contains('section')) return cur; cur = cur.parentElement; }
+      return null;
+    };
     const phrases = Array.from(document.querySelectorAll<HTMLElement>('.phrase-container'));
-    let target: HTMLElement | null = null;
+    let topPhrase: HTMLElement | null = null;
+    let bottomPhrase: HTMLElement | null = null;
     for (const el of phrases) {
-      if (el.getBoundingClientRect().top < viewportHeight) target = el;
+      const top = el.getBoundingClientRect().top;
+      if (top >= 0 && topPhrase === null) topPhrase = el;
+      if (top < viewportHeight) bottomPhrase = el;
     }
-    if (target) window.scrollBy({ top: target.getBoundingClientRect().top, behavior: 'smooth' });
+    if (!bottomPhrase) return;
+    const topSection = topPhrase ? getSectionEl(topPhrase) : null;
+    const bottomSection = getSectionEl(bottomPhrase);
+    if (bottomSection && bottomSection !== topSection) {
+      window.scrollBy({ top: bottomSection.getBoundingClientRect().top, behavior: 'smooth' });
+    } else {
+      window.scrollBy({ top: bottomPhrase.getBoundingClientRect().top, behavior: 'smooth' });
+    }
   }, []);
 
   return (
@@ -520,7 +538,7 @@ export default function TextPage() {
               const isSelected = interactionMode === 'fixed' || selectedPhraseId === normal.id;
               const isLastPrayer = !image;
               return (
-                <div key={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
+                <div key={normal.id} data-phrase-id={normal.id} className={`ta-hommage-pair ${isLastPrayer ? 'ta-hommage-pair-solo' : ''}`}>
                   {image && (
                     <div className="ta-hommage-image">
                       <img src={image.src} alt="" className="phrase-image" />
@@ -858,7 +876,7 @@ export default function TextPage() {
     </div>
     {interactionMode !== 'scroll' && (
       <button
-        className="phrase-scroll-btn"
+        className={`phrase-scroll-btn${audioPlayerVisible ? ' phrase-scroll-btn--audio' : ''}`}
         onClick={handleScrollNext}
         aria-label="Phrase suivante"
       >
