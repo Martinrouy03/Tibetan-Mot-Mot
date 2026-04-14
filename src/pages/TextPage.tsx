@@ -451,10 +451,19 @@ export default function TextPage() {
               ))}
             </div>
             {navPhrases.length === 2 && (
-              <div className="nav-btn-row">
-                <button className="nav-btn" onClick={makeNavClick(navPhrases[0])}>{navPhrases[0].navBack ? `← ${navPhrases[0].translation}` : `${navPhrases[0].translation} →`}</button>
-                <button className="nav-btn" onClick={makeNavClick(navPhrases[1])}>{navPhrases[1].navBack ? `← ${navPhrases[1].translation}` : `${navPhrases[1].translation} →`}</button>
-              </div>
+              navPhrases.every(p => p.navBack)
+                ? <>
+                    <div className="phrase-container phrase-no-interact nav-btn-container nav-btn-container-left">
+                      <button className="nav-btn" onClick={makeNavClick(navPhrases[0])}>{`← ${navPhrases[0].translation}`}</button>
+                    </div>
+                    <div className="phrase-container phrase-no-interact nav-btn-container nav-btn-container-left">
+                      <button className="nav-btn" onClick={makeNavClick(navPhrases[1])}>{`← ${navPhrases[1].translation}`}</button>
+                    </div>
+                  </>
+                : <div className="nav-btn-row">
+                    <button className="nav-btn" onClick={makeNavClick(navPhrases[0])}>{navPhrases[0].navBack ? `← ${navPhrases[0].translation}` : `${navPhrases[0].translation} →`}</button>
+                    <button className="nav-btn" onClick={makeNavClick(navPhrases[1])}>{navPhrases[1].navBack ? `← ${navPhrases[1].translation}` : `${navPhrases[1].translation} →`}</button>
+                  </div>
             )}
             {navPhrases.length === 1 && (
               <div className={`nav-btn-container${navPhrases[0].navBack ? ' nav-btn-container-left' : ''}`}>

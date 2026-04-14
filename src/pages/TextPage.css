@@ -585,6 +585,11 @@
   margin-top: 2rem;
 }
 
+.nav-btn-stack {
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
 .nav-btn {
   background: none;
   border: 1px solid #c9a84c88;
