@@ -69,6 +69,7 @@ body.light-mode .settings-menu {
 body.light-mode .font-size-control { background-color: #e0e0e0; }
 body.light-mode .font-size-btn { background: transparent; color: #555; }
 body.light-mode .font-size-btn:hover { background-color: rgba(201, 168, 76, 0.15); }
+body.light-mode .toggle-switch { background: #aaa; }
 body.light-mode .font-size-icon { color: #555; }
 body.light-mode .radio-group { background-color: #e0e0e0; }
 body.light-mode .radio-label { color: #555; }

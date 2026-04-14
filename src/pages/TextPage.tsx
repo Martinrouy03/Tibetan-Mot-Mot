@@ -326,43 +326,42 @@ export default function TextPage() {
           <>
             <div className="mobile-strip-overlay" onClick={() => setMobileSettingsOpen(false)} />
             <div className="mobile-strip-panel">
-              <div className="settings-row">
-                <span className="settings-label">Thème</span>
-                <div className="radio-group">
-                  <label className={`radio-label ${!lightMode ? 'active' : ''}`}>
-                    <input type="radio" name="mobileColorMode" checked={!lightMode} onChange={() => lightMode && dispatch(toggleLightMode())} />
-                    Sombre
-                  </label>
-                  <label className={`radio-label ${lightMode ? 'active' : ''}`}>
-                    <input type="radio" name="mobileColorMode" checked={lightMode} onChange={() => !lightMode && dispatch(toggleLightMode())} />
-                    Clair
-                  </label>
-                </div>
-              </div>
-              <div className="settings-row">
+              <div className="settings-row settings-row-inline">
                 <span className="settings-label">Taille</span>
                 <div className="font-size-control">
                   <button className="font-size-btn" onClick={() => dispatch(changeFontSize(-3))}>−</button>
-                  <span className="font-size-icon">{tibetanFontSize}px</span>
+                  <span className="font-size-icon">{tibetanFontSize}</span>
                   <button className="font-size-btn" onClick={() => dispatch(changeFontSize(3))}>+</button>
                 </div>
               </div>
-              <div className="settings-row">
-                <span className="settings-label">Affichage</span>
-                <div className="radio-group">
-                  <label className={`radio-label ${displayMode === 'tibetan' ? 'active' : ''}`}>
-                    <input type="radio" name="mobileDisplayMode" value="tibetan" checked={displayMode === 'tibetan'} onChange={() => dispatch(setDisplayMode('tibetan' as DisplayMode))} />
-                    Tibétain
-                  </label>
-                  <label className={`radio-label ${displayMode === 'phonetics' ? 'active' : ''}`}>
-                    <input type="radio" name="mobileDisplayMode" value="phonetics" checked={displayMode === 'phonetics'} onChange={() => dispatch(setDisplayMode('phonetics' as DisplayMode))} />
-                    Phonétique
-                  </label>
-                </div>
+              <div className="settings-row settings-row-inline">
+                <span className="settings-label">Sombre</span>
+                <button className={`toggle-switch${!lightMode ? ' on' : ''}`} onClick={() => dispatch(toggleLightMode())} aria-label="Mode sombre" />
+              </div>
+              <div className="settings-row settings-row-inline">
+                <span className="settings-label">Phonétique</span>
+                <button className={`toggle-switch${displayMode === 'phonetics' ? ' on' : ''}`} onClick={() => dispatch(setDisplayMode(displayMode === 'phonetics' ? 'tibetan' as DisplayMode : 'phonetics' as DisplayMode))} aria-label="Phonétique" />
               </div>
               {!isTibetanOnly && (
                 <>
-                  <div className="settings-row">
+                  <div className="settings-row settings-row-inline">
+                    <span className="settings-label">Traduction</span>
+                    <button className={`toggle-switch${showTranslation ? ' on' : ''}`} onClick={() => dispatch(toggleTranslation())} aria-label="Traduction" />
+                  </div>
+                  <div className="settings-row settings-row-inline">
+                    <span className="settings-label">Mot à mot</span>
+                    <div className="radio-group">
+                      <label className={`radio-label ${!breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="mobileBreakdownPos" checked={!breakdownTranslationAbove} onChange={() => breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        ↓
+                      </label>
+                      <label className={`radio-label ${breakdownTranslationAbove ? 'active' : ''}`}>
+                        <input type="radio" name="mobileBreakdownPos" checked={breakdownTranslationAbove} onChange={() => !breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
+                        ↑
+                      </label>
+                    </div>
+                  </div>
+                  <div className="settings-row settings-row-inline">
                     <span className="settings-label">Mode</span>
                     <div className="radio-group">
                       <label className={`radio-label ${interactionMode === 'click' ? 'active' : ''}`}>
@@ -372,26 +371,6 @@ export default function TextPage() {
                       <label className={`radio-label ${interactionMode === 'fixed' ? 'active' : ''}`}>
                         <input type="radio" name="mobileInteractionMode" value="fixed" checked={interactionMode === 'fixed'} onChange={() => dispatch(setInteractionMode('fixed' as InteractionMode))} />
                         Fixe
-                      </label>
-                    </div>
-                  </div>
-                  <div className="settings-row">
-                    <span className="settings-label">Traduction</span>
-                    <button className={`toggle-button ${showTranslation ? 'active' : ''}`}
-                      onClick={() => dispatch(toggleTranslation())}>
-                      {showTranslation ? 'Activée' : 'Désactivée'}
-                    </button>
-                  </div>
-                  <div className="settings-row">
-                    <span className="settings-label">Mot à mot</span>
-                    <div className="radio-group">
-                      <label className={`radio-label ${breakdownTranslationAbove ? 'active' : ''}`}>
-                        <input type="radio" name="mobileBreakdownPos" checked={breakdownTranslationAbove} onChange={() => !breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
-                        Dessus
-                      </label>
-                      <label className={`radio-label ${!breakdownTranslationAbove ? 'active' : ''}`}>
-                        <input type="radio" name="mobileBreakdownPos" checked={!breakdownTranslationAbove} onChange={() => breakdownTranslationAbove && dispatch(toggleBreakdownPosition())} />
-                        Dessous
                       </label>
                     </div>
                   </div>
