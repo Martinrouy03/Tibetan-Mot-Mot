@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  overflow: visible;
 }
 
 .header-title {
@@ -26,6 +27,20 @@
 
 .label-short {
   display: none;
+}
+
+.header-logo-dkl {
+  height: calc(var(--header-height) - 1rem);
+  width: auto;
+  flex-shrink: 0;
+  filter: brightness(3) saturate(1.5);
+}
+
+.header-logo-dkl-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .audio-toggle-btn {
