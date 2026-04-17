@@ -2445,7 +2445,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           type: "normal",
           tibetan: "།བདག་དང་བདག་ལ་འབྲེལ་ཐོགས་འགྲོ་བ་ཀུན།",
           phonetics: "dak tang / dak la / drel t'ok / dro oua / kun",
-          translation: "moi et tous les êtres qui me sont liés,",
+          translation: "Moi et tous les êtres qui me sont liés,",
           words: [
             {
               tibetan: "བདག་དང་",
@@ -2470,7 +2470,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           type: "normal",
           tibetan: "།མི་གཙང་ལུས་འདི་བོར་བ་གྱུར་མ་ཐག",
           phonetics: "mi tsang / lu di / por oua / gyour ma t'ak",
-          translation: "dès que nous aurons quitté ce corps impur.",
+          translation: "Dès que nous aurons quitté ce corps impur,",
           words: [
             { tibetan: "མི་གཙང་", phonetics: "mi tsang", translation: "impur" },
             {
@@ -2821,7 +2821,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
             "Là où bonheur et joie sont d'une merveille incommensurable",
           words: [
             {
-              tibetan: "བདེ་་",
+              tibetan: "བདེ་",
               phonetics: "dé",
               translation: "bonheur",
             },
