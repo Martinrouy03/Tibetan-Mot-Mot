@@ -557,15 +557,6 @@ export const dewachen: PracticeText = {
           words: [],
         },
         {
-          id: "dw-repeat-btn",
-          type: "repeat-btn",
-          tibetan: "",
-          phonetics: "",
-          translation: "ཨེ་མ་ཧོཿ",
-          words: [],
-          targetId: "dw-emaho",
-        },
-        {
           id: "dw-20",
           type: "normal",
           tibetan: "༈ དམིགས་ཡུལ་ངན་སོང་སྡུག་བསྔལ་མི་མྱོང་ཞིང༌།",
