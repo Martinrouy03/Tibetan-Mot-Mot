@@ -1173,12 +1173,12 @@ export const pratiqueChenrezik: PracticeText = {
             "Suprême Vainqueur <i>Dharmadhatou Indestructible</i>, vous savez",
           words: [
             {
-              tibetan: "མཚུངས་མེད་",
+              tibetan: "རྒྱལ་མཆོག་",
               phonetics: "gyal tchok",
               translation: "Suprême Vainqueur",
             },
             {
-              tibetan: "ཡེ་ཤེས་",
+              tibetan: "ཆོས་དབྱིངས་",
               phonetics: "tcheuying",
               translation: "Dharmadhatou",
             },
@@ -1220,16 +1220,16 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "Glorieux <i>Cœur de la Sagesse</i>…",
           words: [
             {
-              tibetan: "རྒྱལ་མཆོག་",
+              tibetan: "དཔལ་ལྡན་",
               phonetics: "palden",
               translation: "Glorieux",
             },
             {
-              tibetan: "ཆོས་དབྱིངས་",
+              tibetan: "ཡེ་ཤེས་",
               phonetics: "yéché",
               translation: "Sagesse",
             },
-            { tibetan: "རྡོ་རྗེ་", phonetics: "nyingpo", translation: "Cœur" },
+            { tibetan: "སྙིང་པོ་", phonetics: "nyingpo", translation: "Cœur" },
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
@@ -1263,13 +1263,13 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "Incomparable <i>Sagesse Indestructible</i>, vous savez",
           words: [
             {
-              tibetan: "དཔལ་ལྡན་",
+              tibetan: "མཚུངས་མེད་",
               phonetics: "tsoung mé",
               translation: "Incomparable",
             },
             { tibetan: "ཡེ་ཤེས་", phonetics: "yéché", translation: "Sagesse" },
             {
-              tibetan: "སྙིང་པོ་",
+              tibetan: "རྡོ་རྗེ་",
               phonetics: "dordjé",
               translation: "Indestructible",
             },
