@@ -11,6 +11,7 @@ const WHEEL_TICKS_PER_PHRASE = 3;
 
 const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, '');
 const renderTranslation = (s: string) => ({ __html: stripParens(s) });
+const renderMantraTib = (s: string, phraseId?: string) => phraseId === 'gy-5-1' ? s : s.replace(/་/g, ' ').replace(/།/g, '');
 
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
@@ -727,28 +728,28 @@ export default function TextPage() {
                           <div className="phrase-mantra-scroll-clip">
                           <div className="phrase-mantra-scroll-wrapper" ref={mantraWrapperRef}>
                             <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                              {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                              {displayMode === 'tibetan' ? renderMantraTib(phrase.tibetan, phrase.id) : phrase.phonetics}
                             </span>
                             <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`} aria-hidden="true">
-                              {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                              {displayMode === 'tibetan' ? renderMantraTib(phrase.tibetan, phrase.id) : phrase.phonetics}
                             </span>
                           </div>
                           </div>
                         </div>
                       ) : (
                         <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
-                          {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                          {displayMode === 'tibetan' ? renderMantraTib(phrase.tibetan, phrase.id) : phrase.phonetics}
                         </span>
                       )}
                     </div>
                   ) : isMantraMain ? (() => {
                     const syllablesTib = [
-                      { text: 'ཨོཾ་', color: '#ffffff' },
-                      { text: 'མ་', color: '#2da44e' },
-                      { text: 'ཎི་', color: '#f0c000' },
-                      { text: 'པད་', color: '#1a56c4' },
-                      { text: 'མེ་', color: '#d73a3a' },
-                      { text: 'ཧཱུྃ།', color: '#111111' },
+                      { text: 'ཨོཾ', color: '#ffffff' },
+                      { text: 'མ', color: '#2da44e' },
+                      { text: 'ཎི', color: '#f0c000' },
+                      { text: 'པད', color: '#1a56c4' },
+                      { text: 'མེ', color: '#d73a3a' },
+                      { text: 'ཧཱུྃ', color: '#111111' },
                     ];
                     const syllablesPho = [
                       { text: 'om', color: '#ffffff' },

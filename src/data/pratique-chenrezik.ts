@@ -4033,7 +4033,7 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
-          id: "ch-pk-m1",
+          id: "ch-pk-m1b",
           type: "mantra",
           tibetan: "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
           phonetics: "om mani padmé houng",
@@ -4659,7 +4659,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "སྣང་གྲགས་རིག་སྟོང་དབྱེར་མེད་གྱུར།",
           phonetics: "nang / drak / rik / tong / yer mé / gyour",
           translation:
-            "Apparence, son et conscience deviennent indifférenciés du vide.",
+            "Apparence, son et conscience sont indifférenciés du vide.",
           words: [
             { tibetan: "སྣང་", phonetics: "nang", translation: "apparence" },
             { tibetan: "གྲགས་", phonetics: "drak", translation: "son" },
@@ -4670,7 +4670,7 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "yer mé",
               translation: "indifférenciés",
             },
-            { tibetan: "གྱུར།", phonetics: "gyour", translation: "deviennent" },
+            { tibetan: "གྱུར།", phonetics: "gyour", translation: "sont" },
           ],
         },
         {
@@ -4685,7 +4685,7 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-pk-m-main",
           type: "mantra-main",
-          tibetan: "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
+          tibetan: "ཨོཾ མ ཎི པདྨེ ཧཱུྃ",
           phonetics: "om mani padmé houng",
           translation: "",
           words: [],

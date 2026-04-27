@@ -318,6 +318,7 @@
   font-size: 1.8rem;
   white-space: normal;
   overflow-x: visible;
+  word-spacing: 0px;
 }
 
 .phrase-mantra .phrase-text-phonetics {
@@ -334,8 +335,10 @@
 
 .phrase-mantra-main .phrase-text {
   font-size: 6rem;
-  display: block;
+  display: flex;
   width: 100%;
+  justify-content: center;
+  gap: 10px;
 }
 
 .phrase-mantra-main .phrase-text-phonetics {
