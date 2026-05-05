@@ -4,7 +4,7 @@ export interface Word {
   translation: string;
 }
 
-export type PhraseType = 'normal' | 'mantra' | 'mantra-main' | 'instructions' | 'colophon' | 'image' | 'image-row' | 'repeat-btn' | 'nav-btn';
+export type PhraseType = 'normal' | 'mantra' | 'mantra-main' | 'instructions' | 'colophon' | 'image' | 'image-row' | 'repeat-btn' | 'nav-btn' | 'no-translation';
 
 export interface Phrase {
   id: string;
@@ -36,6 +36,7 @@ export interface Section {
 export interface PracticeText {
   id: string;
   title: string;
+  longTitle?: string;
   tibetanTitle: string;
   sections: Section[];
   tibetanOnly?: boolean;

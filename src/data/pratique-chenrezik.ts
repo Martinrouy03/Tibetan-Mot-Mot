@@ -4033,7 +4033,7 @@ export const pratiqueChenrezik: PracticeText = {
           ],
         },
         {
-          id: "ch-pk-m1b",
+          id: "ch-pk-m1",
           type: "mantra",
           tibetan: "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
           phonetics: "om mani padmé houng",
@@ -4685,7 +4685,7 @@ export const pratiqueChenrezik: PracticeText = {
         {
           id: "ch-pk-m-main",
           type: "mantra-main",
-          tibetan: "ཨོཾ མ ཎི པདྨེ ཧཱུྃ",
+          tibetan: "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
           phonetics: "om mani padmé houng",
           translation: "",
           words: [],

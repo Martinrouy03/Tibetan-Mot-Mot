@@ -104,11 +104,11 @@ export default function TextPage() {
     };
   }, [scrollingMantraId]);
 
-  const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma' || textId === 'souhaits-samantabhadra';
+  const hasSidebar = textId === 'pratique-chenrezik' || textId === 'pratique-chenrezik-thoungma' || textId === 'souhaits-samantabhadra' || textId === 'sojong';
   const isTibetanOnly = text?.tibetanOnly ?? false;
   const navSections = useMemo(() => {
     if (!text || !hasSidebar) return [];
-    return text.sections.filter((s) => s.title !== '');
+    return text.sections.filter((s) => s.title !== '' && !s.subtitle);
   }, [text, hasSidebar]);
 
   const scrollToSection = (section: { id: string; audioTimestamp?: number }) => {
@@ -410,7 +410,7 @@ export default function TextPage() {
       </button>
       <h2 className="text-page-title">
         <span className="text-page-title-tibetan tibetan">{text.tibetanTitle}</span>
-        {text.title}
+        {text.longTitle ?? text.title}
       </h2>
       {text.tibetanOnly && text.sections.map((section) => {
         const regularPhrases = section.phrases.filter(p => p.type !== 'nav-btn');
@@ -638,6 +638,7 @@ export default function TextPage() {
               const isMantra = phrase.type === 'mantra';
               const isMantraMain = phrase.type === 'mantra-main';
               const isSpecial = phrase.type === 'instructions' || phrase.type === 'colophon';
+              const isNoTranslation = phrase.type === 'no-translation';
               const isImage = phrase.type === 'image';
               const isImageRow = phrase.type === 'image-row';
               const isRepeatBtn = phrase.type === 'repeat-btn';
@@ -774,7 +775,13 @@ export default function TextPage() {
                         </span>
                       </div>
                     );
-                  })() : isSpecial ? (
+                  })() : isNoTranslation ? (
+                    <div className="phrase phrase-no-translation">
+                      <span className={`phrase-text ${displayMode === 'tibetan' ? 'tibetan' : 'phrase-text-phonetics'}`}>
+                        {displayMode === 'tibetan' ? phrase.tibetan : phrase.phonetics}
+                      </span>
+                    </div>
+                  ) : isSpecial ? (
                     <div className="phrase phrase-special">
                       <span className="phrase-text tibetan">{phrase.tibetan}</span>
                       {phrase.translation && (

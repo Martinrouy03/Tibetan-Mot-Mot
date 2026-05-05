@@ -9,6 +9,8 @@ import { pratiqueChenrezikThoungma } from './pratique-chenrezik-thoungma';
 import { louangeManjushri } from './louange-manjushri';
 import { mahakala } from './mahakala';
 import { dewachen } from './dewachen';
+import { sojong } from './sojong';
+import { louange12Actes } from './louange-12-actes';
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -74,20 +76,8 @@ export const practiceTexts: PracticeText[] = [
     thumbnail: "/goldenRosary/12k3.jpeg",
     sections: [],
   } as PracticeText,
-  {
-    id: "sojong",
-    title: "Sojong",
-    tibetanTitle: "གསོ་སྦྱོང་།",
-    thumbnail: "/Shakyamuni.jpg",
-    sections: [],
-  } as PracticeText,
-  {
-    id: "louange-12-actes",
-    title: "Louange aux 12 actes",
-    tibetanTitle: "མཛད་པ་བཅུ་གཉིས་ཀྱི་བསྟོད་པ།",
-    thumbnail: "/Shakyamuni.jpg",
-    sections: [],
-  } as PracticeText,
+  sojong,
+  louange12Actes,
   {
     id: "37-pratiques",
     title: "Les 37 Pratiques",

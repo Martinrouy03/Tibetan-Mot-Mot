@@ -6,7 +6,8 @@
       "Bash(git commit:*)",
       "Bash(/c/Users/marti/AppData/Local/Microsoft/WindowsApps/python:*)",
       "Bash(npx tsc:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(node -e ' *)"
     ]
   }
 }
