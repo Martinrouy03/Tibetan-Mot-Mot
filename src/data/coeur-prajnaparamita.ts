@@ -46,12 +46,6 @@ export const coeurPrajnaparamita: PracticeText = {
           translation: "En français: Le Cœur de la prajñapāramitā",
           words: [],
         },
-      ],
-    },
-    {
-      id: "cp-1",
-      title: "Prologue",
-      phrases: [
         {
           id: "cp-1-1",
           type: "normal",
@@ -325,12 +319,6 @@ export const coeurPrajnaparamita: PracticeText = {
             { tibetan: "རྗེས་སུ་བལྟའོ་", phonetics: "djé sou ta'o", translation: "sont" },
           ],
         },
-      ],
-    },
-    {
-      id: "cp-2",
-      title: "L'enseignement",
-      phrases: [
         {
           id: "cp-2-1",
           type: "normal",
@@ -815,12 +803,6 @@ export const coeurPrajnaparamita: PracticeText = {
             { tibetan: "བསླབ་པར་བྱའོ་", phonetics: "lap par dja'o", translation: "s'entraînera" },
           ],
         },
-      ],
-    },
-    {
-      id: "cp-3",
-      title: "Épilogue",
-      phrases: [
         {
           id: "cp-3-1",
           type: "normal",

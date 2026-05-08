@@ -96,6 +96,7 @@ Dans tous les mondes et dans les dix directions,
 - `title: ""` pour les sections sans titre (ex: intro)
 - Une section peut avoir `phrases: []` (header vide, affiche juste le titre `<h3>`)
 - Préfixes d'ID : `ss-` pour Souhaits Samantabhadra, `ta-` pour Trois Amoncellements, `gy-` pour Guru Yoga, etc.
+- **Ne jamais créer plusieurs sections si l'utilisateur n'en a pas explicitement demandé.** Par défaut, tout le texte va dans une seule section. Les sections supplémentaires ne sont créées que si l'utilisateur indique des titres de section (`#`) dans les données fournies.
 
 ### Sous-titres (`##` vs `#`)
 - `#` = section principale → nouvelle `Section` dans le tableau
