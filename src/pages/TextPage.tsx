@@ -11,7 +11,7 @@ const WHEEL_TICKS_PER_PHRASE = 3;
 
 const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, '');
 const renderTranslation = (s: string) => ({ __html: stripParens(s) });
-const renderMantraTib = (s: string, phraseId?: string) => phraseId === 'gy-5-1' ? s : s.replace(/་/g, ' ').replace(/།/g, '');
+const renderMantraTib = (s: string, phraseId?: string) => (phraseId === 'gy-5-1' || phraseId === 'cp-2-34') ? s : s.replace(/་/g, ' ').replace(/།/g, '');
 
 export default function TextPage() {
   const { textId } = useParams<{ textId: string }>();
