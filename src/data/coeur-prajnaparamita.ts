@@ -714,15 +714,15 @@ export const coeurPrajnaparamita: PracticeText = {
           type: "normal",
           tibetan: "།གཟུགས་སྟོང་པའོ།",
           phonetics: "zouk tong pa'o",
-          translation: "La matière est vide,",
+          translation: "La forme est vide,",
           words: [
             {
               tibetan: "གཟུགས་",
               phonetics: "zouk",
-              translation: "matière",
+              translation: "forme",
             },
             {
-              tibetan: "གཟུགས་སྟོང་པའོ་",
+              tibetan: "སྟོང་པའོ་",
               phonetics: "tong pa'o",
               translation: "est vide",
             },
@@ -733,7 +733,7 @@ export const coeurPrajnaparamita: PracticeText = {
           type: "normal",
           tibetan: "།སྟོང་པ་ཉིད་གཟུགས་སོ། །",
           phonetics: "tong pa nyi / zouk so",
-          translation: "La vacuité est matière,",
+          translation: "La vacuité est forme,",
           words: [
             {
               tibetan: "སྟོང་པ་ཉིད་",
@@ -743,7 +743,7 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "གཟུགས་སོ་",
               phonetics: "zouk so",
-              translation: "est matière",
+              translation: "est forme",
             },
           ],
         },
@@ -752,12 +752,12 @@ export const coeurPrajnaparamita: PracticeText = {
           type: "normal",
           tibetan: "གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན།",
           phonetics: "zouk lé / tong pa nyi / shen ma yin",
-          translation: "La vacuité n'est autre que la matière",
+          translation: "La vacuité n'est autre que la forme",
           words: [
             {
               tibetan: "གཟུགས་ལས་",
               phonetics: "zouk lé",
-              translation: "la matière",
+              translation: "la forme",
             },
             {
               tibetan: "སྟོང་པ་ཉིད་",
@@ -776,7 +776,7 @@ export const coeurPrajnaparamita: PracticeText = {
           type: "normal",
           tibetan: "སྟོང་པ་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ།",
           phonetics: "tong pa lé kyang / zouk shen ma yin no",
-          translation: "et la matière n'est autre que le vide.",
+          translation: "et la forme n'est autre que le vide.",
           words: [
             {
               tibetan: "སྟོང་པ་ལས་ཀྱང་",
@@ -963,12 +963,12 @@ export const coeurPrajnaparamita: PracticeText = {
           phonetics:
             "zouk mé / tsor wa mé / dou ché mé / dou djé nam mé / nam par ché pa mé",
           translation:
-            "il n'y a ni matière, ni sensation, ni distinction, ni conditionnant, ni conscience,",
+            "il n'y a ni forme, ni sensation, ni distinction, ni conditionnant, ni conscience,",
           words: [
             {
               tibetan: "གཟུགས་མེད་",
               phonetics: "zouk mé",
-              translation: "ni matière",
+              translation: "ni forme",
             },
             {
               tibetan: "ཚོར་བ་མེད་",
@@ -1091,9 +1091,14 @@ export const coeurPrajnaparamita: PracticeText = {
             "pas plus que tous les autres dhatus jusqu'à celui de la conscience mentale;",
           words: [
             {
-              tibetan: "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་",
-              phonetics: "yi ki nam par ché pai k'am ki",
-              translation: "dhatu la conscience mentale",
+              tibetan: "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་",
+              phonetics: "yi ki nam par ché pai",
+              translation: "conscience mentale",
+            },
+            {
+              tibetan: "ཁམས་ཀྱི་",
+              phonetics: "k'am ki",
+              translation: "dhatu",
             },
             { tibetan: "བར་དུ་", phonetics: "bar dou", translation: "jusqu'à" },
             {
@@ -1343,7 +1348,7 @@ export const coeurPrajnaparamita: PracticeText = {
               translation: "ultime",
             },
             {
-              tibetan: "མཐར་ཕྱིན་ཏོ་",
+              tibetan: "ཕྱིན་ཏོ་",
               phonetics: "t'ar tchin to",
               translation: "ils sont parvenus",
             },
@@ -1688,9 +1693,9 @@ export const coeurPrajnaparamita: PracticeText = {
           id: "cp-3-2",
           type: "normal",
           tibetan:
-            "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་ལེགས་སོ་",
+            "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ཏེ།",
           phonetics:
-            "djang tchoup sem pa / sem pa / tchen po / p'ak pa tchen ré zik / wang tchouk la / lék so",
+            "djang tchoup sem pa / sem pa / tchen po / p'ak pa tchen ré zik / wang tchouk la / lék so / shé dja wa djin té /",
           translation:
             "et félicita le noble bodhisattva mahasattva Avalokiteshvara:",
           words: [
@@ -1700,44 +1705,41 @@ export const coeurPrajnaparamita: PracticeText = {
               translation: "le bodhisattva",
             },
             {
-              tibetan: "སེམས་དཔའ་",
-              phonetics: "sem pa",
+              tibetan: "སེམས་དཔའ་ཆེན་པོ་",
+              phonetics: "sem pa tchen po",
               translation: "mahasattva",
             },
             {
-              tibetan: "ཆེན་པོ་",
-              phonetics: "tchen po",
-              translation: "mahasattva",
+              tibetan: "འཕགས་པ་",
+              phonetics: "p'ak pa",
+              translation: "le noble",
             },
             {
-              tibetan: "འཕགས་པ་སྤྱན་རས་གཟིགས་",
-              phonetics: "p'ak pa tchen ré zik",
-              translation: "le noble Avalokiteshvara",
-            },
-            {
-              tibetan: "དབང་ཕྱུག་ལ་",
-              phonetics: "wang tchouk la",
-              translation: "Avalokiteshvara",
+              tibetan: "སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
+              phonetics: "tchen ré zik wang tchouk la",
+              translation: "[puissant] Avalokiteshvara",
             },
             {
               tibetan: "ལེགས་སོ་",
               phonetics: "lék so",
-              translation: "félicita",
+              translation: '"Bien!"',
+            },
+            {
+              tibetan: "ཞེས་བྱ་བ་བྱིན་ཏེ་",
+              phonetics: "shé dja wa djin té",
+              translation: "ainsi s'adressa-t-il",
             },
           ],
         },
         {
           id: "cp-3-3",
           type: "normal",
-          tibetan: "ཞེས་བྱ་བ་བྱིན་ཏེ། ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་",
-          phonetics: "shé dja wa djin té / lék so / lék so / rik ki bou",
-          translation: '"Bien! Bien! fils de noble famille,',
+          tibetan:
+            "ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་ དེ་དེ་བཞིན་ནོ། དེ་དེ་བཞིན་ཏེ།",
+          phonetics: "lék so / lék so / rik ki bou",
+          translation:
+            '"Bien! Bien! fils de noble famille,il en est ainsi, il en est bien ainsi."',
           words: [
-            {
-              tibetan: "ཞེས་བྱ་བ་བྱིན་ཏེ་",
-              phonetics: "shé dja wa djin té",
-              translation: "dit",
-            },
             { tibetan: "ལེགས་སོ་", phonetics: "lék so", translation: "Bien!" },
             { tibetan: "ལེགས་སོ་", phonetics: "lék so", translation: "Bien!" },
             {
@@ -1745,17 +1747,11 @@ export const coeurPrajnaparamita: PracticeText = {
               phonetics: "rik ki bou",
               translation: "fils de noble famille",
             },
-          ],
-        },
-        {
-          id: "cp-3-4",
-          type: "normal",
-          tibetan: "དེ་དེ་བཞིན་ནོ། དེ་དེ་བཞིན་ཏེ།",
-          phonetics: "dé dé / shin no / dé dé shin té",
-          translation: "il en est ainsi, il en est bien ainsi.",
-          words: [
-            { tibetan: "དེ་དེ་", phonetics: "dé dé", translation: "il en est" },
-            { tibetan: "བཞིན་ནོ་", phonetics: "shin no", translation: "ainsi" },
+            {
+              tibetan: "དེ་དེ་བཞིན་ནོ་",
+              phonetics: "dé dé shin no",
+              translation: "il en est ainsi",
+            },
             {
               tibetan: "དེ་དེ་བཞིན་ཏེ་",
               phonetics: "dé dé shin té",
@@ -1775,11 +1771,15 @@ export const coeurPrajnaparamita: PracticeText = {
               phonetics: "dji tar",
               translation: "exactement",
             },
-            { tibetan: "ཁྱོད་ཀྱིས་", phonetics: "k'yeu ki", translation: "tu" },
+            {
+              tibetan: "ཁྱོད་ཀྱིས་",
+              phonetics: "k'yeu ki",
+              translation: "par toi",
+            },
             {
               tibetan: "བསྟན་པ་",
               phonetics: "ten pa",
-              translation: "l'exposer",
+              translation: "exposé",
             },
             {
               tibetan: "བཞིན་དུ་",
@@ -1798,29 +1798,20 @@ export const coeurPrajnaparamita: PracticeText = {
             "qu'il convient de pratiquer la profonde prajnaparamita.",
           words: [
             {
-              tibetan: "ཤེས་རབ་ཀྱི་",
-              phonetics: "ché rap ki",
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་",
+              phonetics: "ché rap ki p'a reul tou tchin pa",
               translation: "prajnaparamita",
             },
-            {
-              tibetan: "ཕ་རོལ་ཏུ་",
-              phonetics: "p'a reul tou",
-              translation: "prajnaparamita",
-            },
-            {
-              tibetan: "ཕྱིན་པ་",
-              phonetics: "tchin pa",
-              translation: "prajnaparamita",
-            },
+
             {
               tibetan: "ཟབ་མོ་ལ་",
               phonetics: "sap mo la",
-              translation: "la profonde",
+              translation: "profonde",
             },
             {
               tibetan: "སྤྱད་པར་བྱ་སྟེ་",
               phonetics: "tché par dja té",
-              translation: "pratiquer",
+              translation: "qu'il convient de pratiquer",
             },
           ],
         },
@@ -1856,19 +1847,19 @@ export const coeurPrajnaparamita: PracticeText = {
           translation: "Lorsque le Bhagavan eût dit cela,",
           words: [
             {
-              tibetan: "བཅོམ་ལྡན་",
-              phonetics: "tchom den",
+              tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
+              phonetics: "tchom den dé ki",
               translation: "le Bhagavan",
             },
             {
-              tibetan: "འདས་ཀྱིས་",
-              phonetics: "dé ki",
-              translation: "Lorsque",
+              tibetan: "དེ་སྐད་ཅེས་",
+              phonetics: "dé ké tché",
+              translation: "ainsi ces paroles",
             },
             {
-              tibetan: "དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས་",
-              phonetics: "dé ké tché ka tsel né",
-              translation: "eût dit cela",
+              tibetan: "བཀའ་སྩལ་ནས་",
+              phonetics: "ka tsel né",
+              translation: "après avoir prononcé",
             },
           ],
         },
@@ -1885,18 +1876,8 @@ export const coeurPrajnaparamita: PracticeText = {
               translation: "le vénérable",
             },
             {
-              tibetan: "ཤཱ་ར་",
-              phonetics: "cha ra",
-              translation: "Shariputra",
-            },
-            {
-              tibetan: "དྭ་ཏིའི་",
-              phonetics: "do ti",
-              translation: "Shariputra",
-            },
-            {
-              tibetan: "བུ་དང་",
-              phonetics: "bou dang",
+              tibetan: "ཤཱ་ར་དྭ་ཏིའི་བུ་དང་",
+              phonetics: "cha ra do ti bou dang",
               translation: "Shariputra",
             },
           ],
@@ -1904,20 +1885,19 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-3-10",
           type: "normal",
-          tibetan: "བྱང་ཆུབ་སེམས་དཔའ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་།",
-          phonetics: "djang tchoup / sem pa / tchen ré zik / wang tchouk dang",
-          translation: "le bodhisattva Avalokiteshvara,",
+          tibetan:
+            "བྱང་ཆུབ་སེམས་དཔའ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་། ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང༌།",
+          phonetics:
+            "djang tchoup / sem pa / tchen ré zik / wang tchouk dang / t'am tché / dang den pai / k'or de dak dang",
+          translation:
+            "le bodhisattva Avalokiteshvara, les entourages ainsi que le monde avec",
           words: [
             {
-              tibetan: "བྱང་ཆུབ་",
-              phonetics: "djang tchoup",
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
               translation: "le bodhisattva",
             },
-            {
-              tibetan: "སེམས་དཔའ་",
-              phonetics: "sem pa",
-              translation: "bodhisattva",
-            },
+
             {
               tibetan: "སྤྱན་རས་གཟིགས་",
               phonetics: "tchen ré zik",
@@ -1926,31 +1906,17 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "དབང་ཕྱུག་དང་",
               phonetics: "wang tchouk dang",
-              translation: "Avalokiteshvara",
-            },
-          ],
-        },
-        {
-          id: "cp-3-11",
-          type: "normal",
-          tibetan: "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང༌།",
-          phonetics: "t'am tché / dang den pai / k'or de dak dang",
-          translation: "les entourages ainsi que le monde avec",
-          words: [
-            {
-              tibetan: "ཐམས་ཅད་",
-              phonetics: "t'am tché",
-              translation: "les entourages",
+              translation: "[puissant]",
             },
             {
-              tibetan: "དང་ལྡན་པའི་",
-              phonetics: "dang den pai",
-              translation: "ainsi que",
+              tibetan: "ཐམས་ཅད་དང་ལྡན་པའི་",
+              phonetics: "t'am tché dang den pai",
+              translation: "Tous, ainsi que",
             },
             {
               tibetan: "འཁོར་དེ་དག་དང་",
               phonetics: "k'or de dak dang",
-              translation: "le monde avec",
+              translation: "les entourages avec",
             },
           ],
         },
@@ -1975,11 +1941,10 @@ export const coeurPrajnaparamita: PracticeText = {
               translation: "ses humains",
             },
             {
-              tibetan: "ལྷ་མ་",
-              phonetics: "Ih'a ma",
-              translation: "ses asuras",
+              tibetan: "ལྷ་མ་ཡིན་དང་",
+              phonetics: "Ih'a ma yin dang",
+              translation: "ses asuras et",
             },
-            { tibetan: "ཡིན་དང་", phonetics: "yin dang", translation: "et" },
             {
               tibetan: "དྲི་ཟར་བཅས་པའི་",
               phonetics: "dri sar tché pai",
@@ -2007,17 +1972,17 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
               phonetics: "tchom den dé ki",
-              translation: "le Bhagavan",
+              translation: "Bhagavan",
             },
             {
               tibetan: "གསུངས་པ་ལ་",
               phonetics: "soung pa la",
-              translation: "les paroles",
+              translation: "ses paroles",
             },
             {
               tibetan: "མངོན་པར་བསྟོད་དོ་",
               phonetics: "ngeun par teu do",
-              translation: "louèrent",
+              translation: "[tous] louèrent",
             },
           ],
         },
