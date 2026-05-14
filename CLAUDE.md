@@ -37,7 +37,9 @@ Les phonétiques sont divisées en groupes par `/`. Chaque groupe correspond à 
 ### Règle OBLIGATOIRE : découpage mot à mot
 **Toujours** créer le tableau `words` à partir des groupes phonétiques (`/`) et de la traduction fournie. Ne jamais laisser `words: []` pour les phrases `normal` sauf si explicitement demandé.
 
-**La traduction de chaque mot doit être tirée uniquement des mots de la traduction française fournie.** Ne pas proposer plusieurs alternatives (ex: pas de `"victorieux/bouddhas"`), choisir un seul terme.
+**La traduction de chaque mot doit être tirée des mots de la traduction française fournie.** Ne pas proposer plusieurs alternatives (ex: pas de `"victorieux/bouddhas"`), choisir un seul terme. Il est normal qu'il n'y ait pas de correspondance parfaite au niveau du vers entre le tibétain et le français — quand un groupe phonétique n'a pas d'équivalent évident dans la traduction du vers courant, chercher dans les vers voisins fournis dans le même message. **Exception : si l'utilisateur propose lui-même une traduction pour un groupe, elle prime sur tout le reste.**
+
+**Ne jamais modifier les groupes phonétiques fournis.** Les groupes définis par `/` dans les phonétiques sont la référence pour le découpage `words`. Si les groupes ne permettent pas de faire une correspondance claire avec la traduction, demander comment regrouper — ne jamais décider seul.
 
 **Les mots entre crochets `[...]` dans la traduction sont des ajouts contextuels** (non présents en tibétain) : ne pas les inclure dans les `words`.
 
