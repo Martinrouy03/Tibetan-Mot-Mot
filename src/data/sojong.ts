@@ -12,26 +12,23 @@ const sevenBranchIds = [
   "ss-dedicace",
 ];
 
-const septBranchesSection = {
-  id: "sj-7-branches",
-  title: "Prière à sept branches",
-  phrases: souhaitsSamantabhadra.sections
+const septBranchesSections = [
+  {
+    id: "sj-7-branches",
+    title: "Prière à sept branches",
+    phrases: [] as Phrase[],
+  },
+  ...souhaitsSamantabhadra.sections
     .filter((s) => sevenBranchIds.includes(s.id))
-    .flatMap((section) => {
-      const label: Phrase = {
-        id: `sj-instr-${section.id}`,
-        type: "instructions",
-        tibetan: "",
-        phonetics: "",
-        translation: `[${section.title}]`,
-        words: [],
-      };
-      const phrases: Phrase[] = section.phrases
+    .map((section) => ({
+      id: `sj-branch-${section.id}`,
+      title: section.title,
+      subtitle: true,
+      phrases: section.phrases
         .filter((p) => p.translation !== "fin prière à 7 branches")
-        .map((p) => ({ ...p, id: `sj-${p.id}` }));
-      return [label, ...phrases];
-    }),
-};
+        .map((p) => ({ ...p, id: `sj-${p.id}` })),
+    })),
+];
 
 const louangeSection = {
   id: "sj-louange",
@@ -912,7 +909,7 @@ export const sojong: PracticeText = {
       ],
     },
     louangeSection,
-    septBranchesSection,
+    ...septBranchesSections,
     {
       id: "sj-voeu",
       title: "Sojong",
@@ -1489,7 +1486,7 @@ export const sojong: PracticeText = {
           phonetics:
             "du di né zoung té / dji si / sang nyi ma / ma char gui / bar dou",
           translation:
-            "à partir de ce moment, jusqu'au lever du soleil demain matin,",
+            "à partir de ce moment, jusqu'au lever du Soleil demain matin,",
           words: [
             {
               tibetan: "དུས་འདི་ནས་བཟུང་སྟེ་",
@@ -1499,17 +1496,17 @@ export const sojong: PracticeText = {
             {
               tibetan: "ཇི་སྲིད་",
               phonetics: "dji si",
-              translation: "XX",
+              translation: "tant que",
             },
             {
               tibetan: "སང་ཉི་མ་",
               phonetics: "sang nyi ma",
-              translation: "demain",
+              translation: "le Soleil demain",
             },
             {
               tibetan: "མ་ཤར་གྱི་",
               phonetics: "ma char gui",
-              translation: "lever du soleil",
+              translation: "pas levé",
             },
             { tibetan: "བར་དུ་", phonetics: "bar dou", translation: "jusqu'à" },
           ],
@@ -2251,24 +2248,63 @@ export const sojong: PracticeText = {
           translation: "Puissions-nous, moi et tous les êtres,",
           words: [
             { tibetan: "བདག་སོགས་", phonetics: "dak sok", translation: "moi" },
-            { tibetan: "སེམས་ཅན་", phonetics: "sem tchen", translation: "les êtres" },
-            { tibetan: "ཐམས་ཅད་ཀྱི་", phonetics: "t'am tché ki", translation: "tous" },
-            { tibetan: "རྒྱུད་ལ་", phonetics: "gyu la", translation: "dans le courant" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ཀྱི་",
+              phonetics: "t'am tché ki",
+              translation: "tous",
+            },
+            {
+              tibetan: "རྒྱུད་ལ་",
+              phonetics: "gyu la",
+              translation: "dans le courant",
+            },
           ],
         },
         {
           id: "sj-pa-3",
           type: "normal",
-          tibetan: "ཚུལ་ཁྲིམས་ཀྱི་ཕ་རོལ་དུ་ཕྱིན་པའི་ཆོས་རྣམས་ཡོངས་སུ་རྫོགས་པར་གྱུར་ཅིག",
-          phonetics: "tsul trim ki / p'a reul dou tchin pai / tcheu nam / yong sou / dzok par / gyour tchik",
-          translation: "parfaire complètement les qualités de la paramita de la conduite rafraîchissante dans le courant de notre être.",
+          tibetan:
+            "ཚུལ་ཁྲིམས་ཀྱི་ཕ་རོལ་དུ་ཕྱིན་པའི་ཆོས་རྣམས་ཡོངས་སུ་རྫོགས་པར་གྱུར་ཅིག",
+          phonetics:
+            "tsul trim ki / p'a reul dou tchin pai / tcheu nam / yong sou / dzok par / gyour tchik",
+          translation:
+            "parfaire complètement les qualités de la paramita de la conduite rafraîchissante dans le courant de notre être.",
           words: [
-            { tibetan: "ཚུལ་ཁྲིམས་ཀྱི་", phonetics: "tsul trim ki", translation: "conduite rafraîchissante" },
-            { tibetan: "ཕ་རོལ་དུ་ཕྱིན་པའི་", phonetics: "p'a reul dou tchin pai", translation: "paramita" },
-            { tibetan: "ཆོས་རྣམས་", phonetics: "tcheu nam", translation: "qualités" },
-            { tibetan: "ཡོངས་སུ་", phonetics: "yong sou", translation: "complètement" },
-            { tibetan: "རྫོགས་པར་", phonetics: "dzok par", translation: "parfaire" },
-            { tibetan: "གྱུར་ཅིག", phonetics: "gyour tchik", translation: "Puissions-nous" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་ཀྱི་",
+              phonetics: "tsul trim ki",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "ཕ་རོལ་དུ་ཕྱིན་པའི་",
+              phonetics: "p'a reul dou tchin pai",
+              translation: "paramita",
+            },
+            {
+              tibetan: "ཆོས་རྣམས་",
+              phonetics: "tcheu nam",
+              translation: "qualités",
+            },
+            {
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "complètement",
+            },
+            {
+              tibetan: "རྫོགས་པར་",
+              phonetics: "dzok par",
+              translation: "parfaire",
+            },
+            {
+              tibetan: "གྱུར་ཅིག",
+              phonetics: "gyour tchik",
+              translation: "Puissions-nous",
+            },
           ],
         },
         {
@@ -2276,41 +2312,94 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "ཉོན་མོངས་པས་ཚུལ་ཁྲིམས་འཆལ་བ་ལས་བྱུང་བའི་",
           phonetics: "nyeun mong pé / tsul trim / tchel wa lé / djoung wai",
-          translation: "Puissent être purifiés tous les actes néfastes et les voiles qui résultent",
+          translation:
+            "Puissent être purifiés tous les actes néfastes et les voiles qui résultent",
           words: [
-            { tibetan: "ཉོན་མོངས་པས་", phonetics: "nyeun mong pé", translation: "obscurcissements affligeants" },
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite rafraîchissante" },
-            { tibetan: "འཆལ་བ་ལས་", phonetics: "tchel wa lé", translation: "des écarts" },
-            { tibetan: "བྱུང་བའི་", phonetics: "djoung wai", translation: "qui résultent" },
+            {
+              tibetan: "ཉོན་མོངས་པས་",
+              phonetics: "nyeun mong pé",
+              translation: "obscurcissements affligeants",
+            },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "འཆལ་བ་ལས་",
+              phonetics: "tchel wa lé",
+              translation: "des écarts",
+            },
+            {
+              tibetan: "བྱུང་བའི་",
+              phonetics: "djoung wai",
+              translation: "qui résultent",
+            },
           ],
         },
         {
           id: "sj-pa-5",
           type: "normal",
           tibetan: "སྡིག་པ་དང་སྒྲིབ་པ་ཐམས་ཅད་བྱང་ཞིང་དག་པར་གྱུར་ཅིག",
-          phonetics: "dik pa dang / drip pa / t'am tché / djang ching / dak par / gyour tchik",
-          translation: "des écarts de conduite rafraîchissante causés par les obscurcissements affligeants.",
+          phonetics:
+            "dik pa dang / drip pa / t'am tché / djang ching / dak par / gyour tchik",
+          translation:
+            "des écarts de conduite rafraîchissante causés par les obscurcissements affligeants.",
           words: [
-            { tibetan: "སྡིག་པ་དང་", phonetics: "dik pa dang", translation: "les actes néfastes" },
-            { tibetan: "སྒྲིབ་པ་", phonetics: "drip pa", translation: "les voiles" },
+            {
+              tibetan: "སྡིག་པ་དང་",
+              phonetics: "dik pa dang",
+              translation: "les actes néfastes",
+            },
+            {
+              tibetan: "སྒྲིབ་པ་",
+              phonetics: "drip pa",
+              translation: "les voiles",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "བྱང་ཞིང་", phonetics: "djang ching", translation: "purifiés" },
+            {
+              tibetan: "བྱང་ཞིང་",
+              phonetics: "djang ching",
+              translation: "purifiés",
+            },
             { tibetan: "དག་པར་", phonetics: "dak par", translation: "être" },
-            { tibetan: "གྱུར་ཅིག", phonetics: "gyour tchik", translation: "Puissent" },
+            {
+              tibetan: "གྱུར་ཅིག",
+              phonetics: "gyour tchik",
+              translation: "Puissent",
+            },
           ],
         },
         {
           id: "sj-pa-6",
           type: "normal",
           tibetan: "འཕགས་པ་དགྱེས་པའི་ཚུལ་ཁྲིམས་ཀྱི་སྐལ་པ་དང་ལྡན་པར་གྱུར་ཅིག",
-          phonetics: "p'ak pa / gyé pai / tsul trim ki / kel pa dang / den par gyour tchik",
-          translation: "Puissions-nous avoir la bonne fortune de la conduite rafraîchissante réjouissant les êtres nobles.",
+          phonetics:
+            "p'ak pa / gyé pai / tsul trim ki / kel pa dang / den par gyour tchik",
+          translation:
+            "Puissions-nous avoir la bonne fortune de la conduite rafraîchissante réjouissant les êtres nobles.",
           words: [
             { tibetan: "འཕགས་པ་", phonetics: "p'ak pa", translation: "nobles" },
-            { tibetan: "དགྱེས་པའི་", phonetics: "gyé pai", translation: "réjouissant" },
-            { tibetan: "ཚུལ་ཁྲིམས་ཀྱི་", phonetics: "tsul trim ki", translation: "conduite rafraîchissante" },
-            { tibetan: "སྐལ་པ་དང་", phonetics: "kel pa dang", translation: "la bonne fortune" },
-            { tibetan: "ལྡན་པར་གྱུར་ཅིག", phonetics: "den par gyour tchik", translation: "Puissions-nous" },
+            {
+              tibetan: "དགྱེས་པའི་",
+              phonetics: "gyé pai",
+              translation: "réjouissant",
+            },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་ཀྱི་",
+              phonetics: "tsul trim ki",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "སྐལ་པ་དང་",
+              phonetics: "kel pa dang",
+              translation: "la bonne fortune",
+            },
+            {
+              tibetan: "ལྡན་པར་གྱུར་ཅིག",
+              phonetics: "den par gyour tchik",
+              translation: "Puissions-nous",
+            },
           ],
         },
         {
@@ -2318,11 +2407,24 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "ཉོན་མོངས་པས་མི་རྫི་བར་རྣམ་པར་གྲོལ་བའི་",
           phonetics: "nyeun mong pé / mi dzi war / nam par dreul wai",
-          translation: "N'étant plus accablés par les obscurcissements affligeants,",
+          translation:
+            "N'étant plus accablés par les obscurcissements affligeants,",
           words: [
-            { tibetan: "ཉོན་མོངས་པས་", phonetics: "nyeun mong pé", translation: "obscurcissements affligeants" },
-            { tibetan: "མི་རྫི་བར་", phonetics: "mi dzi war", translation: "accablés" },
-            { tibetan: "རྣམ་པར་གྲོལ་བའི་", phonetics: "nam par dreul wai", translation: "libération" },
+            {
+              tibetan: "ཉོན་མོངས་པས་",
+              phonetics: "nyeun mong pé",
+              translation: "obscurcissements affligeants",
+            },
+            {
+              tibetan: "མི་རྫི་བར་",
+              phonetics: "mi dzi war",
+              translation: "accablés",
+            },
+            {
+              tibetan: "རྣམ་པར་གྲོལ་བའི་",
+              phonetics: "nam par dreul wai",
+              translation: "libération",
+            },
           ],
         },
         {
@@ -2330,11 +2432,24 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "བདེ་བ་ལ་གནས་པར་གྱུར་ཅིག",
           phonetics: "dé wa la / né par / gyour tchik",
-          translation: "puissions-nous demeurer dans le bonheur de la libération complète.",
+          translation:
+            "puissions-nous demeurer dans le bonheur de la libération complète.",
           words: [
-            { tibetan: "བདེ་བ་ལ་", phonetics: "dé wa la", translation: "bonheur" },
-            { tibetan: "གནས་པར་", phonetics: "né par", translation: "demeurer" },
-            { tibetan: "གྱུར་ཅིག", phonetics: "gyour tchik", translation: "puissions-nous" },
+            {
+              tibetan: "བདེ་བ་ལ་",
+              phonetics: "dé wa la",
+              translation: "bonheur",
+            },
+            {
+              tibetan: "གནས་པར་",
+              phonetics: "né par",
+              translation: "demeurer",
+            },
+            {
+              tibetan: "གྱུར་ཅིག",
+              phonetics: "gyour tchik",
+              translation: "puissions-nous",
+            },
           ],
         },
         {
@@ -2342,11 +2457,24 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "ཁྲིམས་ཀྱི་ཚུལ་ཁྲིམས་སྐྱོན་མེད་ཅིང་།",
           phonetics: "trim ki / tsul trim / kyeun mé tching",
-          translation: "Avec la conduite rafraîchissante d'une discipline sans défauts,",
+          translation:
+            "Avec la conduite rafraîchissante d'une discipline sans défauts,",
           words: [
-            { tibetan: "ཁྲིམས་ཀྱི་", phonetics: "trim ki", translation: "discipline" },
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite rafraîchissante" },
-            { tibetan: "སྐྱོན་མེད་ཅིང་", phonetics: "kyeun mé tching", translation: "sans défauts" },
+            {
+              tibetan: "ཁྲིམས་ཀྱི་",
+              phonetics: "trim ki",
+              translation: "discipline",
+            },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "སྐྱོན་མེད་ཅིང་",
+              phonetics: "kyeun mé tching",
+              translation: "sans défauts",
+            },
           ],
         },
         {
@@ -2354,11 +2482,24 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "།ཚུལ་ཁྲིམས་རྣམ་པར་དག་དང་ལྡན།",
           phonetics: "tsul trim / nam par / dak dang den",
-          translation: "possédant la conduite rafraîchissante complètement pure,",
+          translation:
+            "possédant la conduite rafraîchissante complètement pure,",
           words: [
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite rafraîchissante" },
-            { tibetan: "རྣམ་པར་", phonetics: "nam par", translation: "complètement" },
-            { tibetan: "དག་དང་ལྡན་", phonetics: "dak dang den", translation: "pure" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "རྣམ་པར་",
+              phonetics: "nam par",
+              translation: "complètement",
+            },
+            {
+              tibetan: "དག་དང་ལྡན་",
+              phonetics: "dak dang den",
+              translation: "pure",
+            },
           ],
         },
         {
@@ -2366,11 +2507,20 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "།རློམ་སེམས་མེད་པའི་ཚུལ་ཁྲིམས་ཀྱིས།",
           phonetics: "lom sem / mé pai / tsul trim ki",
-          translation: "au moyen de la conduite rafraîchissante sans exagération,",
+          translation:
+            "au moyen de la conduite rafraîchissante sans exagération,",
           words: [
-            { tibetan: "རློམ་སེམས་", phonetics: "lom sem", translation: "exagération" },
+            {
+              tibetan: "རློམ་སེམས་",
+              phonetics: "lom sem",
+              translation: "exagération",
+            },
             { tibetan: "མེད་པའི་", phonetics: "mé pai", translation: "sans" },
-            { tibetan: "ཚུལ་ཁྲིམས་ཀྱིས་", phonetics: "tsul trim ki", translation: "conduite rafraîchissante" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་ཀྱིས་",
+              phonetics: "tsul trim ki",
+              translation: "conduite rafraîchissante",
+            },
           ],
         },
         {
@@ -2378,11 +2528,24 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "།ཚུལ་ཁྲིམས་ཕ་རོལ་ཕྱིན་རྫོགས་ཤོག",
           phonetics: "tsul trim / p'a reul / tchin dzok chok",
-          translation: "puissions-nous parfaire la paramita de la conduite rafraîchissante.",
+          translation:
+            "puissions-nous parfaire la paramita de la conduite rafraîchissante.",
           words: [
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite rafraîchissante" },
-            { tibetan: "ཕ་རོལ་", phonetics: "p'a reul", translation: "paramita" },
-            { tibetan: "ཕྱིན་རྫོགས་ཤོག", phonetics: "tchin dzok chok", translation: "puissions-nous" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "ཕ་རོལ་",
+              phonetics: "p'a reul",
+              translation: "paramita",
+            },
+            {
+              tibetan: "ཕྱིན་རྫོགས་ཤོག",
+              phonetics: "tchin dzok chok",
+              translation: "puissions-nous",
+            },
           ],
         },
         {
@@ -2392,10 +2555,22 @@ export const sojong: PracticeText = {
           phonetics: "gyal wa / kun gui / djé sou / lop gyour té",
           translation: "M'exerçant à la suite de tous les victorieux,",
           words: [
-            { tibetan: "རྒྱལ་བ་", phonetics: "gyal wa", translation: "victorieux" },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal wa",
+              translation: "victorieux",
+            },
             { tibetan: "ཀུན་གྱི་", phonetics: "kun gui", translation: "tous" },
-            { tibetan: "རྗེས་སུ་", phonetics: "djé sou", translation: "à la suite" },
-            { tibetan: "སློབ་གྱུར་ཏེ་", phonetics: "lop gyour té", translation: "M'exerçant" },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à la suite",
+            },
+            {
+              tibetan: "སློབ་གྱུར་ཏེ་",
+              phonetics: "lop gyour té",
+              translation: "M'exerçant",
+            },
           ],
         },
         {
@@ -2405,10 +2580,26 @@ export const sojong: PracticeText = {
           phonetics: "zang po / tcheu pa / yong sou / dzok djé tching",
           translation: "puissé-je parfaire la conduite excellente.",
           words: [
-            { tibetan: "བཟང་པོ་", phonetics: "zang po", translation: "excellente" },
-            { tibetan: "སྤྱོད་པ་", phonetics: "tcheu pa", translation: "conduite" },
-            { tibetan: "ཡོངས་སུ་", phonetics: "yong sou", translation: "parfaire" },
-            { tibetan: "རྫོགས་བྱེད་ཅིང་", phonetics: "dzok djé tching", translation: "puissé-je" },
+            {
+              tibetan: "བཟང་པོ་",
+              phonetics: "zang po",
+              translation: "excellente",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            {
+              tibetan: "ཡོངས་སུ་",
+              phonetics: "yong sou",
+              translation: "parfaire",
+            },
+            {
+              tibetan: "རྫོགས་བྱེད་ཅིང་",
+              phonetics: "dzok djé tching",
+              translation: "puissé-je",
+            },
           ],
         },
         {
@@ -2418,10 +2609,26 @@ export const sojong: PracticeText = {
           phonetics: "tsul trim / tcheu pa / dri mé / yang dak pa",
           translation: "la conduite rafraîchissante, immaculée et authentique,",
           words: [
-            { tibetan: "ཚུལ་ཁྲིམས་", phonetics: "tsul trim", translation: "conduite rafraîchissante" },
-            { tibetan: "སྤྱོད་པ་", phonetics: "tcheu pa", translation: "conduite" },
-            { tibetan: "དྲི་མེད་", phonetics: "dri mé", translation: "immaculée" },
-            { tibetan: "ཡང་དག་པ་", phonetics: "yang dak pa", translation: "authentique" },
+            {
+              tibetan: "ཚུལ་ཁྲིམས་",
+              phonetics: "tsul trim",
+              translation: "conduite rafraîchissante",
+            },
+            {
+              tibetan: "སྤྱོད་པ་",
+              phonetics: "tcheu pa",
+              translation: "conduite",
+            },
+            {
+              tibetan: "དྲི་མེད་",
+              phonetics: "dri mé",
+              translation: "immaculée",
+            },
+            {
+              tibetan: "ཡང་དག་པ་",
+              phonetics: "yang dak pa",
+              translation: "authentique",
+            },
           ],
         },
         {
@@ -2429,12 +2636,29 @@ export const sojong: PracticeText = {
           type: "normal",
           tibetan: "།རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
           phonetics: "tak tou / ma nyam / kyeun mé / tcheu par chok",
-          translation: "puissé-je continuellement l'observer sans altérations ni défauts.",
+          translation:
+            "puissé-je continuellement l'observer sans altérations ni défauts.",
           words: [
-            { tibetan: "རྟག་ཏུ་", phonetics: "tak tou", translation: "continuellement" },
-            { tibetan: "མ་ཉམས་", phonetics: "ma nyam", translation: "sans altérations" },
-            { tibetan: "སྐྱོན་མེད་", phonetics: "kyeun mé", translation: "sans défauts" },
-            { tibetan: "སྤྱོད་པར་ཤོག", phonetics: "tcheu par chok", translation: "puissé-je" },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "continuellement",
+            },
+            {
+              tibetan: "མ་ཉམས་",
+              phonetics: "ma nyam",
+              translation: "sans altérations",
+            },
+            {
+              tibetan: "སྐྱོན་མེད་",
+              phonetics: "kyeun mé",
+              translation: "sans défauts",
+            },
+            {
+              tibetan: "སྤྱོད་པར་ཤོག",
+              phonetics: "tcheu par chok",
+              translation: "puissé-je",
+            },
           ],
         },
       ],
