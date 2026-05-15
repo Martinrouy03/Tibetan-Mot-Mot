@@ -1070,7 +1070,7 @@ export const sojong: PracticeText = {
           translation: "semblables au cheval tout connaissant, les éléphants",
           words: [
             {
-              tibetan: "རྟ་ཅང་ཤེས་ལྟ་བུ་",
+              tibetan: "རྟ་ཅང་ཤེས་",
               phonetics: "ta tchang ché",
               translation: "cheval tout connaissant",
             },
@@ -1466,7 +1466,7 @@ export const sojong: PracticeText = {
           phonetics: "dak [mon nom] di shé gui wé kyang",
           translation: "Moi aussi, qui me nomme [mon nom],",
           words: [
-            { tibetan: "བདག་་", phonetics: "dak", translation: "Moi" },
+            { tibetan: "བདག་", phonetics: "dak", translation: "Moi" },
             {
               tibetan: "[མིང་]",
               phonetics: "[mon nom]",

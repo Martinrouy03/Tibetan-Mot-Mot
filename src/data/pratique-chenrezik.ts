@@ -336,8 +336,8 @@ export const pratiqueChenrezik: PracticeText = {
               phonetics: "dro gueun",
               translation: "Protecteur des êtres",
             },
-            { tibetan: "རས་", phonetics: "répa", translation: "Yogi" },
-            { tibetan: "ཆེན་", phonetics: "tchenpo", translation: "Grand" },
+            { tibetan: "རས་པ་", phonetics: "répa", translation: "Yogi" },
+            { tibetan: "ཆེན་པོ་", phonetics: "tchenpo", translation: "Grand" },
             {
               tibetan: "མཁྱེན་ནོ་",
               phonetics: "tchen no",
@@ -2445,7 +2445,7 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "posture jambes croisées",
             },
             {
-              tibetan: "་བཞུགས།",
+              tibetan: "བཞུགས།",
               phonetics: "chouk",
               translation: "assis",
             },
