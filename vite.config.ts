@@ -10,6 +10,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,jpg,mp3,woff,woff2}'],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
+        skipWaiting: true,
+        clientsClaim: true,
       },
       manifest: {
         name: 'Mot à Mot',
