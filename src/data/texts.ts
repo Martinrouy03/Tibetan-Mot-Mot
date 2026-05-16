@@ -11,6 +11,7 @@ import { mahakala } from './mahakala';
 import { dewachen } from './dewachen';
 import { sojong } from './sojong';
 import { louange12Actes } from './louange-12-actes';
+import { soutraLongevite } from './soutra-longevite';
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -20,13 +21,6 @@ const lojong7Points: PracticeText = {
   sections: [],
 };
 
-const soutraLongevite: PracticeText = {
-  id: "soutra-longevite",
-  title: "Soutra de longévité",
-  tibetanTitle: "ཚེ་མདོ།",
-  thumbnail: "/Amitayus.jpg",
-  sections: [],
-};
 
 export const practiceTexts: PracticeText[] = [
   pratiqueChenrezik,
