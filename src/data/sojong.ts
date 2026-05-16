@@ -2326,13 +2326,13 @@ export const sojong: PracticeText = {
               translation: "conduite rafraîchissante",
             },
             {
-              tibetan: "འཆལ་བ་ལས་",
-              phonetics: "tchel wa lé",
+              tibetan: "འཆལ་བ་",
+              phonetics: "tchel wa",
               translation: "des écarts",
             },
             {
-              tibetan: "བྱུང་བའི་",
-              phonetics: "djoung wai",
+              tibetan: "ལས་བྱུང་བའི་",
+              phonetics: "lé djoung wai",
               translation: "qui résultent",
             },
           ],
