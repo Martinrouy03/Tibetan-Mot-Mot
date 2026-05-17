@@ -12,6 +12,7 @@ import { dewachen } from './dewachen';
 import { sojong } from './sojong';
 import { louange12Actes } from './louange-12-actes';
 import { soutraLongevite } from './soutra-longevite';
+import { dakaYeshe } from './daka-yeshe';
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -35,6 +36,7 @@ export const practiceTexts: PracticeText[] = [
   mahakala,
   lojong7Points,
   soutraLongevite,
+  dakaYeshe,
   {
     id: "sauver-des-vies",
     title: "Sauver des vies",
