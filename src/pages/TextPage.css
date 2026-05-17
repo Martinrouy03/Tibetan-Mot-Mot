@@ -447,9 +447,31 @@
 [data-phrase-id="sl-0-79"],
 [data-phrase-id="sl-0-82"],
 [data-phrase-id="sl-0-85"],
-[data-phrase-id="sl-0-90"] {
+[data-phrase-id="sl-0-90"],
+[data-phrase-id="sl-0-94"],
+[data-phrase-id="sl-0-97"],
+[data-phrase-id="sl-0-102"],
+[data-phrase-id="sl-0-105"],
+[data-phrase-id="sl-0-108"],
+[data-phrase-id="sl-0-110"],
+[data-phrase-id="sl-0-114"],
+[data-phrase-id="sl-0-117"],
+[data-phrase-id="sl-0-140"] {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
+}
+
+[data-phrase-id="sl-0-121"],
+[data-phrase-id="sl-0-126"],
+[data-phrase-id="sl-0-130"],
+[data-phrase-id="sl-0-131d"],
+[data-phrase-id="sl-0-135"],
+[data-phrase-id="sl-0-139"] {
+  margin-bottom: 1.2rem;
+}
+
+[data-phrase-id="sl-0-146"] {
+  margin-top: 1.2rem;
 }
 
 .phrase-special .phrase-text {
