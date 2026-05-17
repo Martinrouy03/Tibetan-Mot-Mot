@@ -288,7 +288,7 @@
   display: block;
   font-size: 1.5rem;
   color: #c9a84c;
-  line-height: 2;
+  line-height: 1.4;
 }
 
 .phrase-special .phrase-text {
@@ -504,7 +504,8 @@
   display: block;
   color: #777;
   font-size: calc(var(--tibetan-font-size, 20px) * 0.7);
-  margin-top: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .phrase-image-row {
