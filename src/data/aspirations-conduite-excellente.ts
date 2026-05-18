@@ -1642,7 +1642,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "གང་བར་ཤོག་",
               phonetics: "gang war chok",
-              translation: "être emplis",
+              translation: "puissent-ils être emplis",
             },
           ],
         },
@@ -1752,7 +1752,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འགྲུབ་པར་ཤོག་",
               phonetics: "droup par chok",
-              translation: "réaliser",
+              translation: "puissent-ils réaliser",
             },
           ],
         },
@@ -1867,7 +1867,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འབྱུང་བར་ཤོག་",
               phonetics: "djoung war chok",
-              translation: "embrasser le renoncement",
+              translation: "puissent-ils renoncer",
             },
           ],
         },
@@ -2197,7 +2197,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "བྱང་བར་ཤོག་",
               phonetics: "djang war chok",
-              translation: "être purifiés",
+              translation: "puissent-ils être purifiés",
             },
           ],
         },
@@ -2569,7 +2569,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འགྲོགས་པར་ཤོག་",
               phonetics: "drok par chok",
-              translation: "être accompagné",
+              translation: "puissé-je être accompagné",
             },
           ],
         },
@@ -2700,7 +2700,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འཕྲད་པར་ཤོག་",
               phonetics: "tré par chok",
-              translation: "rencontrer",
+              translation: "puissé-je rencontrer",
             },
           ],
         },
@@ -4335,7 +4335,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             { tibetan: "དེ་འདྲར་", phonetics: "dé drar", translation: "de même" },
             { tibetan: "བདག་ཀྱང་", phonetics: "dak kyang", translation: "puissé-je" },
             { tibetan: "དེ་དང་", phonetics: "dé dang", translation: "à Samantabhadra" },
-            { tibetan: "མཚུངས་པར་ཤོག་", phonetics: "tsoung par chok", translation: "être comparable" },
+            { tibetan: "མཚུངས་པར་ཤོག་", phonetics: "tsoung par chok", translation: "puissé-je être comparable" },
           ],
         },
         {
@@ -5281,7 +5281,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             { tibetan: "སྐད་ཅིག་", phonetics: "ké tchik", translation: "un instant" },
             { tibetan: "གཅིག་གིས་", phonetics: "tchik gui", translation: "en l'espace d'un" },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "འབྱོར་བར་ཤོག་", phonetics: "djor war chok", translation: "s'accomplir" },
+            { tibetan: "འབྱོར་བར་ཤོག་", phonetics: "djor war chok", translation: "puissent-ils s'accomplir" },
           ],
         },
         {
@@ -5333,7 +5333,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           words: [
             { tibetan: "འོད་དཔག་མེད་པའི་", phonetics: "eu pa mé pai", translation: "d'Amitabha" },
             { tibetan: "གནས་རབ་", phonetics: "né rap", translation: "au domaine" },
-            { tibetan: "ཐོབ་པར་ཤོག་", phonetics: "t'op par chok", translation: "accéder" },
+            { tibetan: "ཐོབ་པར་ཤོག་", phonetics: "t'op par chok", translation: "puissent-ils accéder" },
           ],
         },
         {
@@ -5386,7 +5386,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             { tibetan: "ངན་སོང་", phonetics: "ngen song", translation: "les destinées mauvaises" },
             { tibetan: "གནས་རྣམས་", phonetics: "né nam", translation: "toutes" },
             { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "jusqu'à la dernière" },
-            { tibetan: "སྟོངས་པར་ཤོག་", phonetics: "tong par chok", translation: "se tarir" },
+            { tibetan: "སྟོངས་པར་ཤོག་", phonetics: "tong par chok", translation: "puissent-elles se tarir" },
           ],
         },
         {
