@@ -17,24 +17,53 @@ export const vajravidharan: PracticeText = {
           phonetics: "gya gar ké dou / vajra / vidarana / nama dharani",
           translation: "En sanskrit: vajravidāraṇa nāma dhāraṇī",
           words: [
-            { tibetan: "རྒྱ་གར་སྐད་དུ་", phonetics: "gya gar ké dou", translation: "En sanskrit" },
+            {
+              tibetan: "རྒྱ་གར་སྐད་དུ་",
+              phonetics: "gya gar ké dou",
+              translation: "En sanskrit",
+            },
             { tibetan: "བཛྲ་", phonetics: "vajra", translation: "vajra" },
-            { tibetan: "བི་ད་ར་ཎ་", phonetics: "vidarana", translation: "vidāraṇa" },
-            { tibetan: "ནཱ་མ་དྷཱ་ར་ཎཱི་", phonetics: "nama dharani", translation: "nāma dhāraṇī" },
+            {
+              tibetan: "བི་ད་ར་ཎ་",
+              phonetics: "vidarana",
+              translation: "vidāraṇa",
+            },
+            {
+              tibetan: "ནཱ་མ་དྷཱ་ར་ཎཱི་",
+              phonetics: "nama dharani",
+              translation: "nāma dhāraṇī",
+            },
           ],
         },
         {
           id: "vvd-title-2",
           type: "normal",
           tibetan: "།བོད་སྐད་དུ། རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་གཟུངས།",
-          phonetics: "beu ké dou / rdo rje / rnam par / 'joms pa / zhes bya ba'i / gzungs",
+          phonetics:
+            "beu ké dou / rdo rje / rnam par / 'joms pa / zhes bya ba'i / gzungs",
           translation: "En tibétain: La dhāraṇī de «Parfait-Vainqueur-Vajra»",
           words: [
-            { tibetan: "བོད་སྐད་དུ་", phonetics: "beu ké dou", translation: "En tibétain" },
+            {
+              tibetan: "བོད་སྐད་དུ་",
+              phonetics: "beu ké dou",
+              translation: "En tibétain",
+            },
             { tibetan: "རྡོ་རྗེ་", phonetics: "rdo rje", translation: "Vajra" },
-            { tibetan: "རྣམ་པར་", phonetics: "rnam par", translation: "Parfait" },
-            { tibetan: "འཇོམས་པ་", phonetics: "'joms pa", translation: "Vainqueur" },
-            { tibetan: "ཞེས་བྱ་བའི་", phonetics: "zhes bya ba'i", translation: "intitulé" },
+            {
+              tibetan: "རྣམ་པར་",
+              phonetics: "rnam par",
+              translation: "Parfait",
+            },
+            {
+              tibetan: "འཇོམས་པ་",
+              phonetics: "'joms pa",
+              translation: "Vainqueur",
+            },
+            {
+              tibetan: "ཞེས་བྱ་བའི་",
+              phonetics: "zhes bya ba'i",
+              translation: "intitulé",
+            },
             { tibetan: "གཟུངས་", phonetics: "gzungs", translation: "dhāraṇī" },
           ],
         },
@@ -45,8 +74,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "de shin chek pa / t'am tché kyi",
           translation: "Rassemblant la puissance",
           words: [
-            { tibetan: "དེ་བཞིན་གཤེགས་པ་", phonetics: "de shin chek pa", translation: "tathagatas" },
-            { tibetan: "ཐམས་ཅད་ཀྱི་", phonetics: "t'am tché kyi", translation: "de tous" },
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "de shin chek pa",
+              translation: "tathagatas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ཀྱི་",
+              phonetics: "t'am tché kyi",
+              translation: "de tous",
+            },
           ],
         },
         {
@@ -56,9 +93,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "t'ou top / tchik tou / du pa yi",
           translation: "de tous les tathagatas,",
           words: [
-            { tibetan: "མཐུ་སྟོབས་", phonetics: "t'ou top", translation: "la puissance" },
-            { tibetan: "གཅིག་ཏུ་", phonetics: "tchik tou", translation: "en un" },
-            { tibetan: "བསྡུས་པ་ཡི་", phonetics: "du pa yi", translation: "rassemblant" },
+            {
+              tibetan: "མཐུ་སྟོབས་",
+              phonetics: "t'ou top",
+              translation: "la puissance",
+            },
+            {
+              tibetan: "གཅིག་ཏུ་",
+              phonetics: "tchik tou",
+              translation: "en un",
+            },
+            {
+              tibetan: "བསྡུས་པ་ཡི་",
+              phonetics: "du pa yi",
+              translation: "rassemblant",
+            },
           ],
         },
         {
@@ -69,21 +118,43 @@ export const vajravidharan: PracticeText = {
           translation: "vous manifestez un corps de terreur vajra.",
           words: [
             { tibetan: "རྡོ་རྗེ་", phonetics: "dor djé", translation: "vajra" },
-            { tibetan: "ཁྲོ་བོ་", phonetics: "tro wo", translation: "de terreur" },
-            { tibetan: "སྐུར་སྟོན་པ་", phonetics: "kour teun pa", translation: "vous manifestez un corps" },
+            { tibetan: "ཁྲོ་བོ་", phonetics: "tro wo", translation: "terreur" },
+            {
+              tibetan: "སྐུར་སྟོན་པ་",
+              phonetics: "kour teun pa",
+              translation: "vous manifestez un corps",
+            },
           ],
         },
         {
           id: "vvd-4",
           type: "normal",
           tibetan: "།སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
-          phonetics: "sangyé dang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
-          translation: "Je me prosterne devant tous les bouddhas et bodhisattvas.",
+          phonetics:
+            "sangyé dang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
+          translation:
+            "Je me prosterne devant tous les bouddhas et bodhisattvas.",
           words: [
-            { tibetan: "སངས་རྒྱས་དང་", phonetics: "sangyé dang", translation: "les bouddhas et" },
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sem pa", translation: "bodhisattvas" },
-            { tibetan: "ཐམས་ཅད་ལ་", phonetics: "t'am tché la", translation: "devant tous" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "tchak tsel lo", translation: "je me prosterne" },
+            {
+              tibetan: "སངས་རྒྱས་དང་",
+              phonetics: "sangyé dang",
+              translation: "les bouddhas et",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
+              translation: "bodhisattvas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'am tché la",
+              translation: "devant tous",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tchak tsel lo",
+              translation: "je me prosterne",
+            },
           ],
         },
         {
@@ -93,10 +164,18 @@ export const vajravidharan: PracticeText = {
           phonetics: "di ké / da gui / t'eu pa / du tchik na",
           translation: "Il fût un temps, j'ai entendu ces paroles:",
           words: [
-            { tibetan: "འདི་སྐད་", phonetics: "di ké", translation: "ces paroles" },
+            {
+              tibetan: "འདི་སྐད་",
+              phonetics: "di ké",
+              translation: "ces paroles",
+            },
             { tibetan: "བདག་གིས་", phonetics: "da gui", translation: "j'ai" },
             { tibetan: "ཐོས་པ་", phonetics: "t'eu pa", translation: "entendu" },
-            { tibetan: "དུས་གཅིག་ན་", phonetics: "du tchik na", translation: "il fût un temps" },
+            {
+              tibetan: "དུས་གཅིག་ན་",
+              phonetics: "du tchik na",
+              translation: "il fût un temps",
+            },
           ],
         },
         {
@@ -106,9 +185,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "tchom den dé / dor djé la / shouk té",
           translation: "le Bhagavan demeurait à Vajra.",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "tchom den dé", translation: "Bhagavan" },
-            { tibetan: "རྡོ་རྗེ་ལ་", phonetics: "dor djé la", translation: "à Vajra" },
-            { tibetan: "བཞུགས་ཏེ་", phonetics: "shouk té", translation: "demeurait" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
+              translation: "Bhagavan",
+            },
+            {
+              tibetan: "རྡོ་རྗེ་ལ་",
+              phonetics: "dor djé la",
+              translation: "à Vajra",
+            },
+            {
+              tibetan: "བཞུགས་ཏེ་",
+              phonetics: "shouk té",
+              translation: "demeurait",
+            },
           ],
         },
         {
@@ -116,24 +207,56 @@ export const vajravidharan: PracticeText = {
           type: "normal",
           tibetan: "།སངས་རྒྱས་ཀྱི་མཐུས་ལག་ན་རྡོ་རྗེའི་ལུས་ཐམས་ཅད་རྡོ་རྗེར་",
           phonetics: "sangyé kyi t'u / lak na dor djé lu / t'am tché / dordjér",
-          translation: "Par le pouvoir du Bouddha, le corps de Vajrapani fût entièrement consacré en vajra.",
+          translation:
+            "Par le pouvoir du Bouddha, le corps de Vajrapani fût entièrement consacré en vajra.",
           words: [
-            { tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་", phonetics: "sangyé kyi t'u", translation: "par le pouvoir du Bouddha" },
-            { tibetan: "ལག་ན་རྡོ་རྗེའི་ལུས་", phonetics: "lak na dor djé lu", translation: "le corps de Vajrapani" },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "entièrement" },
-            { tibetan: "རྡོ་རྗེར་", phonetics: "dordjér", translation: "en vajra" },
+            {
+              tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་",
+              phonetics: "sangyé kyi t'u",
+              translation: "par le pouvoir du Bouddha",
+            },
+            {
+              tibetan: "ལག་ན་རྡོ་རྗེའི་ལུས་",
+              phonetics: "lak na dor djé lu",
+              translation: "le corps de Vajrapani",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "entièrement",
+            },
+            {
+              tibetan: "རྡོ་རྗེར་",
+              phonetics: "dordjér",
+              translation: "en vajra",
+            },
           ],
         },
         {
           id: "vvd-8",
           type: "normal",
-          tibetan: "།བྱིན་གྱིས་བརླབས་ནས་རྡོ་རྗེའི་ཏིང་ངེ་འཛིན་ལ་སྙོམས་པར་ཞུགས་སོ།",
-          phonetics: "djin gyi lap né / dor djé ting ngé dzin la / nyom par shouk so",
-          translation: "Celui-ci s'établit alors de manière égale dans l'absorption méditative du vajra.",
+          tibetan:
+            "།བྱིན་གྱིས་བརླབས་ནས་རྡོ་རྗེའི་ཏིང་ངེ་འཛིན་ལ་སྙོམས་པར་ཞུགས་སོ།",
+          phonetics:
+            "djin gyi lap né / dor djé ting ngé dzin la / nyom par shouk so",
+          translation:
+            "Celui-ci s'établit alors de manière égale dans l'absorption méditative du vajra.",
           words: [
-            { tibetan: "བྱིན་གྱིས་བརླབས་ནས་", phonetics: "djin gyi lap né", translation: "fût consacré" },
-            { tibetan: "རྡོ་རྗེའི་ཏིང་ངེ་འཛིན་ལ་", phonetics: "dor djé ting ngé dzin la", translation: "dans l'absorption méditative du vajra" },
-            { tibetan: "སྙོམས་པར་ཞུགས་སོ་", phonetics: "nyom par shouk so", translation: "s'établit de manière égale" },
+            {
+              tibetan: "བྱིན་གྱིས་བརླབས་ནས་",
+              phonetics: "djin gyi lap né",
+              translation: "fût consacré",
+            },
+            {
+              tibetan: "རྡོ་རྗེའི་ཏིང་ངེ་འཛིན་ལ་",
+              phonetics: "dor djé ting ngé dzin la",
+              translation: "dans l'absorption méditative du vajra",
+            },
+            {
+              tibetan: "སྙོམས་པར་ཞུགས་སོ་",
+              phonetics: "nyom par shouk so",
+              translation: "s'établit de manière égale",
+            },
           ],
         },
         {
@@ -144,8 +267,16 @@ export const vajravidharan: PracticeText = {
           translation: "Ensuite, grâce au pouvoir du Bouddha,",
           words: [
             { tibetan: "དེ་ནས་", phonetics: "dé né", translation: "ensuite" },
-            { tibetan: "ལག་ན་རྡོ་རྗེས་", phonetics: "lak na dor djé", translation: "Vajrapani" },
-            { tibetan: "སངས་རྒྱས་ཀྱི་མཐུ་དང་", phonetics: "sangyé kyi t'ou dang", translation: "grâce au pouvoir du Bouddha" },
+            {
+              tibetan: "ལག་ན་རྡོ་རྗེས་",
+              phonetics: "lak na dor djé",
+              translation: "Vajrapani",
+            },
+            {
+              tibetan: "སངས་རྒྱས་ཀྱི་མཐུ་དང་",
+              phonetics: "sangyé kyi t'ou dang",
+              translation: "grâce au pouvoir du Bouddha",
+            },
           ],
         },
         {
@@ -155,8 +286,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "sangyé kyi / djin gyi lap dang",
           translation: "à la bénédiction des bouddhas",
           words: [
-            { tibetan: "སངས་རྒྱས་ཀྱི་", phonetics: "sangyé kyi", translation: "des bouddhas" },
-            { tibetan: "བྱིན་གྱིས་བརླབས་དང་", phonetics: "djin gyi lap dang", translation: "à la bénédiction" },
+            {
+              tibetan: "སངས་རྒྱས་ཀྱི་",
+              phonetics: "sangyé kyi",
+              translation: "bouddhas",
+            },
+            {
+              tibetan: "བྱིན་གྱིས་བརླབས་དང་",
+              phonetics: "djin gyi lap dang",
+              translation: "bénédiction",
+            },
           ],
         },
         {
@@ -166,22 +305,52 @@ export const vajravidharan: PracticeText = {
           phonetics: "djang tchoup sempa / t'am tché kyi / djin gyi lap kyi",
           translation: "et de tous les bodhisattvas,",
           words: [
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sempa", translation: "bodhisattvas" },
-            { tibetan: "ཐམས་ཅད་ཀྱི་", phonetics: "t'am tché kyi", translation: "de tous" },
-            { tibetan: "བྱིན་གྱི་རླབས་ཀྱིས་", phonetics: "djin gyi lap kyi", translation: "à la bénédiction" },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sempa",
+              translation: "bodhisattvas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ཀྱི་",
+              phonetics: "t'am tché kyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "བྱིན་གྱི་རླབས་ཀྱིས་",
+              phonetics: "djin gyi lap kyi",
+              translation: "bénédiction",
+            },
           ],
         },
         {
           id: "vvd-12",
           type: "normal",
           tibetan: "།རྡོ་རྗེ་ཁྲོ་བོ་ལས་བྱུང་བ། རྡོ་རྗེ་སྙིང་པོ་རབ་ཏུ་སྨྲས་ཏེ།",
-          phonetics: "dordjé tro wo / lé djoung wa / dor djé nying po / rab tou / mé té",
-          translation: "Vajrapani énonca parfaitement la quintessence vajra issue de la fureur vajra :",
+          phonetics:
+            "dordjé tro wo / lé djoung wa / dor djé nying po / rab tou / mé té",
+          translation:
+            "Vajrapani énonca parfaitement la quintessence vajra issue de la fureur vajra :",
           words: [
-            { tibetan: "རྡོ་རྗེ་ཁྲོ་བོ་", phonetics: "dordjé tro wo", translation: "de la fureur vajra" },
-            { tibetan: "ལས་བྱུང་བ་", phonetics: "lé djoung wa", translation: "issue de" },
-            { tibetan: "རྡོ་རྗེ་སྙིང་པོ་", phonetics: "dor djé nying po", translation: "la quintessence vajra" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rab tou", translation: "parfaitement" },
+            {
+              tibetan: "རྡོ་རྗེ་ཁྲོ་བོ་",
+              phonetics: "dordjé tro wo",
+              translation: "fureur vajra",
+            },
+            {
+              tibetan: "ལས་བྱུང་བ་",
+              phonetics: "lé djoung wa",
+              translation: "issue",
+            },
+            {
+              tibetan: "རྡོ་རྗེ་སྙིང་པོ་",
+              phonetics: "dor djé nying po",
+              translation: "la quintessence vajra",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rab tou",
+              translation: "parfaitement",
+            },
             { tibetan: "སྨྲས་ཏེ་", phonetics: "mé té", translation: "énonca" },
           ],
         },
@@ -192,9 +361,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "mi tcheu pa / mi chik pa / den pa / sa wa / ten pa",
           translation: "invulnérable, indestructible, véridique, dure, ferme,",
           words: [
-            { tibetan: "མི་ཆོད་པ་", phonetics: "mi tcheu pa", translation: "invulnérable" },
-            { tibetan: "མི་ཤིགས་པ་", phonetics: "mi chik pa", translation: "indestructible" },
-            { tibetan: "བདེན་པ་", phonetics: "den pa", translation: "véridique" },
+            {
+              tibetan: "མི་ཆོད་པ་",
+              phonetics: "mi tcheu pa",
+              translation: "invulnérable",
+            },
+            {
+              tibetan: "མི་ཤིགས་པ་",
+              phonetics: "mi chik pa",
+              translation: "indestructible",
+            },
+            {
+              tibetan: "བདེན་པ་",
+              phonetics: "den pa",
+              translation: "véridique",
+            },
             { tibetan: "སྲ་བ་", phonetics: "sa wa", translation: "dure" },
             { tibetan: "བརྟན་པ་", phonetics: "ten pa", translation: "ferme" },
           ],
@@ -206,8 +387,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "t'am tché dou / t'ok pa mé pa",
           translation: "que rien ne peut entraver,",
           words: [
-            { tibetan: "ཐམས་ཅད་དུ་", phonetics: "t'am tché dou", translation: "en tout" },
-            { tibetan: "ཐོགས་པ་མེད་པ་", phonetics: "t'ok pa mé pa", translation: "sans entrave" },
+            {
+              tibetan: "ཐམས་ཅད་དུ་",
+              phonetics: "t'am tché dou",
+              translation: "en tout",
+            },
+            {
+              tibetan: "ཐོགས་པ་མེད་པ་",
+              phonetics: "t'ok pa mé pa",
+              translation: "sans entrave",
+            },
           ],
         },
         {
@@ -217,8 +406,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "t'am tché dou / ma p'am pa",
           translation: "complètement invincible;",
           words: [
-            { tibetan: "ཐམས་ཅད་དུ་", phonetics: "t'am tché dou", translation: "complètement" },
-            { tibetan: "མ་ཕམ་པ་", phonetics: "ma p'am pa", translation: "invincible" },
+            {
+              tibetan: "ཐམས་ཅད་དུ་",
+              phonetics: "t'am tché dou",
+              translation: "complètement",
+            },
+            {
+              tibetan: "མ་ཕམ་པ་",
+              phonetics: "ma p'am pa",
+              translation: "invincible",
+            },
           ],
         },
         {
@@ -228,9 +425,17 @@ export const vajravidharan: PracticeText = {
           phonetics: "sem tchen / t'am tché / trak par djé pa",
           translation: "effrayant tous les êtres,",
           words: [
-            { tibetan: "སེམས་ཅན་", phonetics: "sem tchen", translation: "les êtres" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "སྐྲག་པར་བྱེད་པ་", phonetics: "trak par djé pa", translation: "effrayant" },
+            {
+              tibetan: "སྐྲག་པར་བྱེད་པ་",
+              phonetics: "trak par djé pa",
+              translation: "effrayant",
+            },
           ],
         },
         {
@@ -240,9 +445,17 @@ export const vajravidharan: PracticeText = {
           phonetics: "sem tchen / t'am tché / djil war djé pa",
           translation: "chassant tous les êtres,",
           words: [
-            { tibetan: "སེམས་ཅན་", phonetics: "sem tchen", translation: "les êtres" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "འཇིལ་བར་བྱེད་པ་", phonetics: "djil war djé pa", translation: "chassant" },
+            {
+              tibetan: "འཇིལ་བར་བྱེད་པ་",
+              phonetics: "djil war djé pa",
+              translation: "chassant",
+            },
           ],
         },
         {
@@ -252,9 +465,17 @@ export const vajravidharan: PracticeText = {
           phonetics: "rik ngak / t'am tché / tcheu par djé pa",
           translation: "tranchant tous les vidyamantras,",
           words: [
-            { tibetan: "རིག་སྔགས་", phonetics: "rik ngak", translation: "vidyamantras" },
+            {
+              tibetan: "རིག་སྔགས་",
+              phonetics: "rik ngak",
+              translation: "vidyamantras",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "གཅོད་པར་བྱེད་པ་", phonetics: "tcheu par djé pa", translation: "tranchant" },
+            {
+              tibetan: "གཅོད་པར་བྱེད་པ་",
+              phonetics: "tcheu par djé pa",
+              translation: "tranchant",
+            },
           ],
         },
         {
@@ -264,9 +485,17 @@ export const vajravidharan: PracticeText = {
           phonetics: "rik ngak / t'am tché / neun par djé pa",
           translation: "neutralisant tous les vidyamantras,",
           words: [
-            { tibetan: "རིག་སྔགས་", phonetics: "rik ngak", translation: "vidyamantras" },
+            {
+              tibetan: "རིག་སྔགས་",
+              phonetics: "rik ngak",
+              translation: "vidyamantras",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "གནོན་པར་བྱེད་པ་", phonetics: "neun par djé pa", translation: "neutralisant" },
+            {
+              tibetan: "གནོན་པར་བྱེད་པ་",
+              phonetics: "neun par djé pa",
+              translation: "neutralisant",
+            },
           ],
         },
         {
@@ -276,8 +505,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "lé t'am tché / djom par djé pa",
           translation: "anéantissant toutes les activités,",
           words: [
-            { tibetan: "ལས་ཐམས་ཅད་", phonetics: "lé t'am tché", translation: "toutes les activités" },
-            { tibetan: "འཇོམས་པར་བྱེད་པ་", phonetics: "djom par djé pa", translation: "anéantissant" },
+            {
+              tibetan: "ལས་ཐམས་ཅད་",
+              phonetics: "lé t'am tché",
+              translation: "toutes les activités",
+            },
+            {
+              tibetan: "འཇོམས་པར་བྱེད་པ་",
+              phonetics: "djom par djé pa",
+              translation: "anéantissant",
+            },
           ],
         },
         {
@@ -287,9 +524,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "shen gyi lé / t'am tché / djik par djé pa",
           translation: "détruisant toutes les activités d'autrui,",
           words: [
-            { tibetan: "གཞན་གྱི་ལས་", phonetics: "shen gyi lé", translation: "les activités d'autrui" },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "toutes" },
-            { tibetan: "འཇིག་པར་བྱེད་པ་", phonetics: "djik par djé pa", translation: "détruisant" },
+            {
+              tibetan: "གཞན་གྱི་ལས་",
+              phonetics: "shen gyi lé",
+              translation: "les activités d'autrui",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes",
+            },
+            {
+              tibetan: "འཇིག་པར་བྱེད་པ་",
+              phonetics: "djik par djé pa",
+              translation: "détruisant",
+            },
           ],
         },
         {
@@ -299,9 +548,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "deun / t'am tché / lak par djé pa",
           translation: "désintégrant toutes les forces malfaisantes,",
           words: [
-            { tibetan: "གདོན་", phonetics: "deun", translation: "forces malfaisantes" },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "toutes" },
-            { tibetan: "བརླག་པར་བྱེད་པ་", phonetics: "lak par djé pa", translation: "désintégrant" },
+            {
+              tibetan: "གདོན་",
+              phonetics: "deun",
+              translation: "forces malfaisantes",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes",
+            },
+            {
+              tibetan: "བརླག་པར་བྱེད་པ་",
+              phonetics: "lak par djé pa",
+              translation: "désintégrant",
+            },
           ],
         },
         {
@@ -311,9 +572,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "deun / t'am tché / lé t'ar war djé pa",
           translation: "délivrant de toutes les forces malfaisantes,",
           words: [
-            { tibetan: "གདོན་", phonetics: "deun", translation: "forces malfaisantes" },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "toutes" },
-            { tibetan: "ལས་ཐར་བར་བྱེད་པ་", phonetics: "lé t'ar war djé pa", translation: "délivrant de" },
+            {
+              tibetan: "གདོན་",
+              phonetics: "deun",
+              translation: "forces malfaisantes",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "de toutes",
+            },
+            {
+              tibetan: "ལས་ཐར་བར་བྱེད་པ་",
+              phonetics: "lé t'ar war djé pa",
+              translation: "délivrant",
+            },
           ],
         },
         {
@@ -323,9 +596,17 @@ export const vajravidharan: PracticeText = {
           phonetics: "djoung po / t'am tché / gouk par djé pa",
           translation: "capturant tous les esprits élémentaux,",
           words: [
-            { tibetan: "འབྱུང་པོ་", phonetics: "djoung po", translation: "esprits élémentaux" },
+            {
+              tibetan: "འབྱུང་པོ་",
+              phonetics: "djoung po",
+              translation: "esprits élémentaux",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "འགུགས་པར་བྱེད་པ་", phonetics: "gouk par djé pa", translation: "capturant" },
+            {
+              tibetan: "འགུགས་པར་བྱེད་པ་",
+              phonetics: "gouk par djé pa",
+              translation: "capturant",
+            },
           ],
         },
         {
@@ -335,10 +616,26 @@ export const vajravidharan: PracticeText = {
           phonetics: "rik ngak / kyi lé / t'am tché / djé dou djouk pa",
           translation: "accomplissant toutes les activités des vidyamantras,",
           words: [
-            { tibetan: "རིག་སྔགས་", phonetics: "rik ngak", translation: "vidyamantras" },
-            { tibetan: "ཀྱི་ལས་", phonetics: "kyi lé", translation: "les activités des" },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "toutes" },
-            { tibetan: "བྱེད་དུ་འཇུག་པ་", phonetics: "djé dou djouk pa", translation: "accomplissant" },
+            {
+              tibetan: "རིག་སྔགས་",
+              phonetics: "rik ngak",
+              translation: "vidyamantras",
+            },
+            {
+              tibetan: "ཀྱི་ལས་",
+              phonetics: "kyi lé",
+              translation: "leurs activités",
+            },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes",
+            },
+            {
+              tibetan: "བྱེད་དུ་འཇུག་པ་",
+              phonetics: "djé dou djouk pa",
+              translation: "accomplissant",
+            },
           ],
         },
         {
@@ -348,8 +645,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "ma droup pa nam / droup par djé pa",
           translation: "permettant d'accomplir ce qui ne l'a pas été,",
           words: [
-            { tibetan: "མ་གྲུབ་པ་རྣམས་", phonetics: "ma droup pa nam", translation: "ce qui ne l'a pas été" },
-            { tibetan: "གྲུབ་པར་བྱེད་པ་", phonetics: "droup par djé pa", translation: "permettant d'accomplir" },
+            {
+              tibetan: "མ་གྲུབ་པ་རྣམས་",
+              phonetics: "ma droup pa nam",
+              translation: "ce qui ne l'a pas été",
+            },
+            {
+              tibetan: "གྲུབ་པར་བྱེད་པ་",
+              phonetics: "droup par djé pa",
+              translation: "permettant d'accomplir",
+            },
           ],
         },
         {
@@ -359,8 +664,16 @@ export const vajravidharan: PracticeText = {
           phonetics: "droup pa nam / tchu mi za war djé pa",
           translation: "rendant inépuisable ce qui a été accompli,",
           words: [
-            { tibetan: "གྲུབ་པ་རྣམས་", phonetics: "droup pa nam", translation: "ce qui a été accompli" },
-            { tibetan: "ཆུད་མི་ཟ་བར་བྱེད་པ་", phonetics: "tchu mi za war djé pa", translation: "rendant inépuisable" },
+            {
+              tibetan: "གྲུབ་པ་རྣམས་",
+              phonetics: "droup pa nam",
+              translation: "ce qui a été accompli",
+            },
+            {
+              tibetan: "ཆུད་མི་ཟ་བར་བྱེད་པ་",
+              phonetics: "tchu mi za war djé pa",
+              translation: "rendant inépuisable",
+            },
           ],
         },
         {
@@ -370,10 +683,22 @@ export const vajravidharan: PracticeText = {
           phonetics: "deu pa / t'am tché / rab tou / djin pa",
           translation: "pourvoyant à tous les désirs,",
           words: [
-            { tibetan: "འདོད་པ་", phonetics: "deu pa", translation: "les désirs" },
+            {
+              tibetan: "འདོད་པ་",
+              phonetics: "deu pa",
+              translation: "les désirs",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rab tou", translation: "parfaitement" },
-            { tibetan: "སྦྱིན་པ་", phonetics: "djin pa", translation: "pourvoyant à" },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rab tou",
+              translation: "parfaitement",
+            },
+            {
+              tibetan: "སྦྱིན་པ་",
+              phonetics: "djin pa",
+              translation: "pourvoyant à",
+            },
           ],
         },
         {
@@ -381,26 +706,52 @@ export const vajravidharan: PracticeText = {
           type: "normal",
           tibetan: "།སེམས་ཅན་ཐམས་ཅད་བསྲུང་བ། ཞི་བ། རྒྱས་པ།",
           phonetics: "sem tchen / t'am tché / soung wa / shi wa / gyé pa",
-          translation: "protégeant, pacifiant et faisant prospérer tous les êtres,",
+          translation:
+            "protégeant, pacifiant et faisant prospérer tous les êtres,",
           words: [
-            { tibetan: "སེམས་ཅན་", phonetics: "sem tchen", translation: "les êtres" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "བསྲུང་བ་", phonetics: "soung wa", translation: "protégeant" },
+            {
+              tibetan: "བསྲུང་བ་",
+              phonetics: "soung wa",
+              translation: "protégeant",
+            },
             { tibetan: "ཞི་བ་", phonetics: "shi wa", translation: "pacifiant" },
-            { tibetan: "རྒྱས་པ་", phonetics: "gyé pa", translation: "faisant prospérer" },
+            {
+              tibetan: "རྒྱས་པ་",
+              phonetics: "gyé pa",
+              translation: "faisant prospérer",
+            },
           ],
         },
         {
           id: "vvd-30",
           type: "normal",
           tibetan: "།སེམས་ཅན་ཐམས་ཅད་རེངས་པར་བྱེད་པ། རྨུགས་པར་བྱེད་པའི་",
-          phonetics: "sem tchen / t'am tché / reng par djé pa / mouk par djé pai",
+          phonetics:
+            "sem tchen / t'am tché / reng par djé pa / mouk par djé pai",
           translation: "paralysant et stupéfiant tous les êtres.",
           words: [
-            { tibetan: "སེམས་ཅན་", phonetics: "sem tchen", translation: "les êtres" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "sem tchen",
+              translation: "les êtres",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
-            { tibetan: "རེངས་པར་བྱེད་པ་", phonetics: "reng par djé pa", translation: "paralysant" },
-            { tibetan: "རྨུགས་པར་བྱེད་པའི་", phonetics: "mouk par djé pai", translation: "stupéfiant" },
+            {
+              tibetan: "རེངས་པར་བྱེད་པ་",
+              phonetics: "reng par djé pa",
+              translation: "paralysant",
+            },
+            {
+              tibetan: "རྨུགས་པར་བྱེད་པའི་",
+              phonetics: "mouk par djé pai",
+              translation: "stupéfiant",
+            },
           ],
         },
         {
@@ -410,9 +761,21 @@ export const vajravidharan: PracticeText = {
           phonetics: "sang ngak / kyi t'ou / tchen po di",
           translation: "Tel est le grand pouvoir du mantra secret",
           words: [
-            { tibetan: "གསང་སྔགས་", phonetics: "sang ngak", translation: "mantra secret" },
-            { tibetan: "ཀྱི་མཐུ་", phonetics: "kyi t'ou", translation: "le pouvoir du" },
-            { tibetan: "ཆེན་པོ་འདི་", phonetics: "tchen po di", translation: "ce grand" },
+            {
+              tibetan: "གསང་སྔགས་ཀྱི་",
+              phonetics: "sang ngak",
+              translation: "mantra secret",
+            },
+            {
+              tibetan: "མཐུ་ཆེན་པོ་",
+              phonetics: "t'ou tchen po",
+              translation: "grand pouvoir",
+            },
+            {
+              tibetan: "འདི་",
+              phonetics: "di",
+              translation: "tel est",
+            },
           ],
         },
         {
@@ -422,17 +785,31 @@ export const vajravidharan: PracticeText = {
           phonetics: "san gyé / kyi t'u / lak na dordjé / rab tou mé so",
           translation: "que Vajrapani prononça grâce au pouvoir du Bouddha:",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "san gyé", translation: "Bouddha" },
-            { tibetan: "ཀྱི་མཐུས་", phonetics: "kyi t'u", translation: "grâce au pouvoir du" },
-            { tibetan: "ལག་ན་རྡོ་རྗེས་", phonetics: "lak na dordjé", translation: "Vajrapani" },
-            { tibetan: "རབ་ཏུ་སྨྲས་སོ་", phonetics: "rab tou mé so", translation: "prononça parfaitement" },
+            {
+              tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་",
+              phonetics: "san gyé kyi t'u",
+              translation: "grâce au pouvoir du Bouddha",
+            },
+
+            {
+              tibetan: "ལག་ན་རྡོ་རྗེས་",
+              phonetics: "lak na dordjé",
+              translation: "Vajrapani",
+            },
+            {
+              tibetan: "རབ་ཏུ་སྨྲས་སོ་",
+              phonetics: "rab tou mé so",
+              translation: "prononça parfaitement",
+            },
           ],
         },
         {
           id: "vvd-33",
           type: "mantra",
-          tibetan: "།ན་མོ་རཏྣ་ཏྲ་ཡཱ་ཡ། ན་མཤྩཎྜ་བཛྲ་པཱ་ཎ་ཡེ། མ་ཧཱ་ཡཀྵ་སེ་ནཱ་པ་ཏ་ཡེ། ཏདྱ་ཐཱ། ༀ་ཏྲུ་ཊ་ཏྲུ་ཊ། ཏྲོ་ཊ་ཡ་ཏྲོ་ཊ་ཡ། སྥུ་ཊ་སྥུ་ཊ་ སྥོ་ཊ་ཡ་སྥོ་ཊ་ཡ། གྷུརྞ་གྷུརྞ། གྷུཎཱ་པ་ཡ་གྷུརྞྞ་པ་ཡ། སརྦ༌ས༌ཏྭཱ༌ནི། བོ་དྷ་ཡ་བོ་དྷ་ཡ། སཾ་བོ་དྷ་ཡ་སཾ་བོ་དྷ་ཡ། བྷྲ་མ་བྷྲ་མ། སཾ་བྷཱ་མ་ཡ་སཾ་བྷཱ་མ་ཡ། སརྦ་བྷཱུ་ཏཱ་ནི། ཀུཊྚ་ཀུཊྚ། སཾ་ཀུཊྚ་ཡ་སཾ་ཀུཊྚ་ཡ། སརྦ་ཤ་ཏཱུ་ན། གྷ་ཊ་གྷ་ཊ། སཾ་གྷ་ཊ་ཡ། སཾ་གྷ་ཊ་ཡ། སརྦ་བི་དྱཱ་བཛྲ་བཛྲ། སྤོ་ཊ་ཡ་བཛྲ་བཛྲ། ཀ་ཊ་བཛྲ་བཛྲ། མ་ཊ་བཛྲ་བཛྲ། མ་ཐ་བཛྲ་བཛྲ། ཨཊྚ་ཧཱ་ས་ནཱི་ལ་བཛྲ་སུ་བཛྙཱ་ཡ་སྭཱ་ཧཱ། ཧེ་ཕུལླཱ་ནི་རུ་ཕུལླཱ། གྲྀ་ཥྞ་ཀུལླཱ། མི་ལི་ཙུལླཱ། ཀུ་རུ་ཀུལླཱ། བཛྲ་བི་ཛཱ་ཡཱ་ཡ་སྭཱ་ཧཱ། ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཀ་ཊ་ཀ་ཊ། མ་ཊ་མ་ཊ། ར་ཊ་ར་ཊ། མོ་ཊ་ན་པྲ་མོ་ཊ་ནཱ་ཡ་སྭཱ་ཧཱ། ཙ་ར་ནི་ཙ་ར། ཧ་ར་ཧ་ར། ས་ར་ས་ར། མཱ་ར་ཡ། བཛྲ་བི་དཱ་ར་ཎཱ་ཡ་སྭཱ་ཧཱ། ཙྪིནྡ་ཙྪིནྡ། བྷིནྡ་བྷིནྡ། མ་ཧཱ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། བནྡྷ་བནྡྷ། ཀྲོ་དྷ་བཛྲ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཙུ་རུ་ཙུ་རུ་ཙཎྜ་ ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཏྲཱ་ས་ཡ་ཏྲཱ་ས་ཡ། བཛྲ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཧ་ར་ཧ་ར། བཛྲ་དྷ་རཱ་ཡ་སྭཱ་ཧཱ། པྲ་ཧ་ར་པྲ་ཧ་ར། བཛྲ་པྲ་བྷཉྫ་ནཱ་ཡ་སྭཱ་ཧཱ། མ་ཏི་སྠི་ར་བཛྲ། ཤརུ་ཏི་སྠི་ར་བཛྲ། པྲ་ཏི་སྠི་ར་བཛྲ། མ་ཧཱ་བཛྲ། ཨ་པྲ་ཏི་ཧ་ཏ་བཛྲ། ཨ་མོ་གྷ་བཛྲ། ཨེ་ཧྱ་ཧི་བཛྲ། ཤཱི་གྷཾ་བཛྲ་དྷ་རཱ་ཡ་སྭཱ་ཧཱ། དྷ་ར་དྷ་ར། དྷི་རི་དྷི་རི༑ དྷུ་རུ་དྷུ་རུ། སརྦ་བཛྲ་ཀུ་ལ་མཱ་ཝརྟ་ཡ་སྭཱ་ཧཱ། གནོད་བྱེད་འབྱུང་པོ་གྲིབ་གདོན་མཱ་ར་ཡ་ཕཊ། ན་མཿས་མནྟ་བཛཱ་ཎཱཾ། སརྦ་བཛྲ་ཀུ་ལ་མཱ་ཝརྟ་ཡ། མ་ཧཱ་བ་ལེ། ཀ་ཏ་བེ། ཏ་ཏ་ལེ། ཨ་ཙ་ལེ། མཎྜལ་མཱ་ཡེ། ཨ་ཏི་བཛྲ་མ་ཧཱ་བ་ལེ། བེ་ག་ར་ཎ་ར་ཎ། ཨ་ཛི་ཏེ། ཛྭ་ལ་ཛྭ་ལ། ཏི་ཊི་ཏི་ཊི། ཏིང་ག་ལེ། ད་ཧ་ད་ཧ། ཏེ་ཛོ་བ་ཏི། ཏི་ལི་ཏི་ལི། བནྡྷ་བནྡྷ། མ་ཧཱ་བ་ལེ། བཛྲ་ཨཾ་ཀུ་ཤ་ཛྭ་ལ་སྭཱ་ཧཱ། ན་མོ་རཏྣ་ཏྲ་ཡཱ་ཡ། ན་མཤྩཎྜ་བཛྲ་པཱ་ཎ་ཡེ། མ་ཧཱ་ཡཀྵ་སེ་ནཱ་པ་ཏ་ཡེ། ཏདྱ་ཐཱ། ༀ་ཧ་ར་ཧ་ར་བཛྲ། མ་ཐ་མ་ཐ་བཛྲ། དྷུ་ན་དྷུ་ན་བཛྲ། ད་ཧ་ད་ཧ་བཛྲ། པ་ཙ་པ་ཙ་བཛྲ། དྷ་ར་དྷ་ར་བཛྲ། དྷཱ་ར་ཡ་དྷཱ་ར་ཡ་བཛྲ། དཱ་རུ་ཎ་དཱ་རུ་ཎ་བཛྲ། ཙྪིནྡ་ཙྪིནྡ་བཛྲ། བྷིནྡ་བྷིནྡ་བཛྲ་ཧཱུྃ་ཕཊ།",
-          phonetics: "namo ratna trayaya / namach tchanda vajra panayé / maha yaksha séna patayé / tadyata / om trouta / trouta / trotaya / trotaya / spouta / spouta / sp'otaya / sp'otaya / gourna gourna / gourna paya / gourna paya / sarwa satvani / bodhaya / bodhaya / sam bodhaya / sam bodhaya / bhrama / bhrama / sam bhramaya / sam bhramaya / sarwa / bhoutani / kouta / kouta / sam koutaya / sam koutaya / sarwa chatrouna / gata / gata / sam gataya / sam gataya / sarwa vidya vajra vajra / sp'otaya vajra vajra / kata vajra vajra / mata vajra vajra / mat'a vajra vajra / atta hasanila / vajra sou / vajraya svaha / hé p'oulou / nirou / p'oulou / grihana koulou / mili tchoulou / kourou / koulou / vajra vijayaya svaha / kili / kilaya / svaha / kata / kata / mata / mata / rata / rata / motana / pramo tanaya svaha / tcharani / tchara / hara / hara / sara / sara maraya / vajra vidaranaya svaha / tchinda / tchinda / binda binda / maha kili / kilaya svaha / bandha bandha / krodha vajra / kili kilaya svaha / tchourou tchourou tchanda / kili kilaya svaha / trasaya / trasaya / vajra kili kilaya svaha / hara hara / vajra dharaya svaha / prahara / prahara / vajra prabhan janaya svaha / mati st'ira vajra / shrouti st'ira vajra / prati st'ira vajra / maha vajra / aprati hata vajra / amogha vajra / é hyé hi vajra / shi gram / vajra dharaya svaha / dhara dhara / dhiri dhiri / dhourou dhourou / sarwa vajra koulama wartaya svaha / neu djé / djoung po / drip deun / maraya phat / nama samanta vajra nam / sarwa vajra / koula mawartaya / maha balé / katabé / tatalé / atchalé / mandala mayé / ati vajra maha balé / véga rana rana / adjité / djvala / djvala / titi / titi / tingalé / daha daha / tédjo vati / tili tili / bandha bandha / maha balé / vajra / amkoucha / djvala svaha / namo ratna trayaya / namach tchanda vajra panayé / maha yaksha séna patayé / tadyata / om hara hara vajra / mat'a mat'a vajra / dhouna dhouna vajra / daha daha vajra / patcha patcha vajra / dhara dhara vajra / dharaya dharaya vajra / darouna darouna vajra / tchinda tchinda vajra / binda binda / vajra houm phat",
+          tibetan:
+            "།ན་མོ་རཏྣ་ཏྲ་ཡཱ་ཡ། ན་མཤྩཎྜ་བཛྲ་པཱ་ཎ་ཡེ། མ་ཧཱ་ཡཀྵ་སེ་ནཱ་པ་ཏ་ཡེ། ཏདྱ་ཐཱ། ༀ་ཏྲུ་ཊ་ཏྲུ་ཊ། ཏྲོ་ཊ་ཡ་ཏྲོ་ཊ་ཡ། སྥུ་ཊ་སྥུ་ཊ་ སྥོ་ཊ་ཡ་སྥོ་ཊ་ཡ། གྷུརྞ་གྷུརྞ། གྷུཎཱ་པ་ཡ་གྷུརྞྞ་པ་ཡ། སརྦ༌ས༌ཏྭཱ༌ནི། བོ་དྷ་ཡ་བོ་དྷ་ཡ། སཾ་བོ་དྷ་ཡ་སཾ་བོ་དྷ་ཡ། བྷྲ་མ་བྷྲ་མ། སཾ་བྷཱ་མ་ཡ་སཾ་བྷཱ་མ་ཡ། སརྦ་བྷཱུ་ཏཱ་ནི། ཀུཊྚ་ཀུཊྚ། སཾ་ཀུཊྚ་ཡ་སཾ་ཀུཊྚ་ཡ། སརྦ་ཤ་ཏཱུ་ན། གྷ་ཊ་གྷ་ཊ། སཾ་གྷ་ཊ་ཡ། སཾ་གྷ་ཊ་ཡ། སརྦ་བི་དྱཱ་བཛྲ་བཛྲ། སྤོ་ཊ་ཡ་བཛྲ་བཛྲ། ཀ་ཊ་བཛྲ་བཛྲ། མ་ཊ་བཛྲ་བཛྲ། མ་ཐ་བཛྲ་བཛྲ། ཨཊྚ་ཧཱ་ས་ནཱི་ལ་བཛྲ་སུ་བཛྙཱ་ཡ་སྭཱ་ཧཱ། ཧེ་ཕུལླཱ་ནི་རུ་ཕུལླཱ། གྲྀ་ཥྞ་ཀུལླཱ། མི་ལི་ཙུལླཱ། ཀུ་རུ་ཀུལླཱ། བཛྲ་བི་ཛཱ་ཡཱ་ཡ་སྭཱ་ཧཱ། ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཀ་ཊ་ཀ་ཊ། མ་ཊ་མ་ཊ། ར་ཊ་ར་ཊ། མོ་ཊ་ན་པྲ་མོ་ཊ་ནཱ་ཡ་སྭཱ་ཧཱ། ཙ་ར་ནི་ཙ་ར། ཧ་ར་ཧ་ར། ས་ར་ས་ར། མཱ་ར་ཡ། བཛྲ་བི་དཱ་ར་ཎཱ་ཡ་སྭཱ་ཧཱ། ཙྪིནྡ་ཙྪིནྡ། བྷིནྡ་བྷིནྡ། མ་ཧཱ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། བནྡྷ་བནྡྷ། ཀྲོ་དྷ་བཛྲ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཙུ་རུ་ཙུ་རུ་ཙཎྜ་ ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཏྲཱ་ས་ཡ་ཏྲཱ་ས་ཡ། བཛྲ་ཀི་ལི་ཀི་ལཱ་ཡ་སྭཱ་ཧཱ། ཧ་ར་ཧ་ར། བཛྲ་དྷ་རཱ་ཡ་སྭཱ་ཧཱ། པྲ་ཧ་ར་པྲ་ཧ་ར། བཛྲ་པྲ་བྷཉྫ་ནཱ་ཡ་སྭཱ་ཧཱ། མ་ཏི་སྠི་ར་བཛྲ། ཤརུ་ཏི་སྠི་ར་བཛྲ། པྲ་ཏི་སྠི་ར་བཛྲ། མ་ཧཱ་བཛྲ། ཨ་པྲ་ཏི་ཧ་ཏ་བཛྲ། ཨ་མོ་གྷ་བཛྲ། ཨེ་ཧྱ་ཧི་བཛྲ། ཤཱི་གྷཾ་བཛྲ་དྷ་རཱ་ཡ་སྭཱ་ཧཱ། དྷ་ར་དྷ་ར། དྷི་རི་དྷི་རི༑ དྷུ་རུ་དྷུ་རུ། སརྦ་བཛྲ་ཀུ་ལ་མཱ་ཝརྟ་ཡ་སྭཱ་ཧཱ། གནོད་བྱེད་འབྱུང་པོ་གྲིབ་གདོན་མཱ་ར་ཡ་ཕཊ། ན་མཿས་མནྟ་བཛཱ་ཎཱཾ། སརྦ་བཛྲ་ཀུ་ལ་མཱ་ཝརྟ་ཡ། མ་ཧཱ་བ་ལེ། ཀ་ཏ་བེ། ཏ་ཏ་ལེ། ཨ་ཙ་ལེ། མཎྜལ་མཱ་ཡེ། ཨ་ཏི་བཛྲ་མ་ཧཱ་བ་ལེ། བེ་ག་ར་ཎ་ར་ཎ། ཨ་ཛི་ཏེ། ཛྭ་ལ་ཛྭ་ལ། ཏི་ཊི་ཏི་ཊི། ཏིང་ག་ལེ། ད་ཧ་ད་ཧ། ཏེ་ཛོ་བ་ཏི། ཏི་ལི་ཏི་ལི། བནྡྷ་བནྡྷ། མ་ཧཱ་བ་ལེ། བཛྲ་ཨཾ་ཀུ་ཤ་ཛྭ་ལ་སྭཱ་ཧཱ། ན་མོ་རཏྣ་ཏྲ་ཡཱ་ཡ། ན་མཤྩཎྜ་བཛྲ་པཱ་ཎ་ཡེ། མ་ཧཱ་ཡཀྵ་སེ་ནཱ་པ་ཏ་ཡེ། ཏདྱ་ཐཱ། ༀ་ཧ་ར་ཧ་ར་བཛྲ། མ་ཐ་མ་ཐ་བཛྲ། དྷུ་ན་དྷུ་ན་བཛྲ། ད་ཧ་ད་ཧ་བཛྲ། པ་ཙ་པ་ཙ་བཛྲ། དྷ་ར་དྷ་ར་བཛྲ། དྷཱ་ར་ཡ་དྷཱ་ར་ཡ་བཛྲ། དཱ་རུ་ཎ་དཱ་རུ་ཎ་བཛྲ། ཙྪིནྡ་ཙྪིནྡ་བཛྲ། བྷིནྡ་བྷིནྡ་བཛྲ་ཧཱུྃ་ཕཊ།",
+          phonetics:
+            "namo ratna trayaya / namach tchanda vajra panayé / maha yaksha séna patayé / tadyata / om trouta / trouta / trotaya / trotaya / spouta / spouta / sp'otaya / sp'otaya / gourna gourna / gourna paya / gourna paya / sarwa satvani / bodhaya / bodhaya / sam bodhaya / sam bodhaya / bhrama / bhrama / sam bhramaya / sam bhramaya / sarwa / bhoutani / kouta / kouta / sam koutaya / sam koutaya / sarwa chatrouna / gata / gata / sam gataya / sam gataya / sarwa vidya vajra vajra / sp'otaya vajra vajra / kata vajra vajra / mata vajra vajra / mat'a vajra vajra / atta hasanila / vajra sou / vajraya svaha / hé p'oulou / nirou / p'oulou / grihana koulou / mili tchoulou / kourou / koulou / vajra vijayaya svaha / kili / kilaya / svaha / kata / kata / mata / mata / rata / rata / motana / pramo tanaya svaha / tcharani / tchara / hara / hara / sara / sara maraya / vajra vidaranaya svaha / tchinda / tchinda / binda binda / maha kili / kilaya svaha / bandha bandha / krodha vajra / kili kilaya svaha / tchourou tchourou tchanda / kili kilaya svaha / trasaya / trasaya / vajra kili kilaya svaha / hara hara / vajra dharaya svaha / prahara / prahara / vajra prabhan janaya svaha / mati st'ira vajra / shrouti st'ira vajra / prati st'ira vajra / maha vajra / aprati hata vajra / amogha vajra / é hyé hi vajra / shi gram / vajra dharaya svaha / dhara dhara / dhiri dhiri / dhourou dhourou / sarwa vajra koulama wartaya svaha / neu djé / djoung po / drip deun / maraya phat / nama samanta vajra nam / sarwa vajra / koula mawartaya / maha balé / katabé / tatalé / atchalé / mandala mayé / ati vajra maha balé / véga rana rana / adjité / djvala / djvala / titi / titi / tingalé / daha daha / tédjo vati / tili tili / bandha bandha / maha balé / vajra / amkoucha / djvala svaha / namo ratna trayaya / namach tchanda vajra panayé / maha yaksha séna patayé / tadyata / om hara hara vajra / mat'a mat'a vajra / dhouna dhouna vajra / daha daha vajra / patcha patcha vajra / dhara dhara vajra / dharaya dharaya vajra / darouna darouna vajra / tchinda tchinda vajra / binda binda / vajra houm phat",
           translation: "",
           words: [],
         },
