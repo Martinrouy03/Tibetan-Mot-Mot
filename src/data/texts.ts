@@ -15,6 +15,7 @@ import { soutraLongevite } from './soutra-longevite';
 import { dakaYeshe } from './daka-yeshe';
 import { prieresLongueVie } from './prieres-longue-vie';
 import { aspirationsConduiteExcellente } from './aspirations-conduite-excellente';
+import { vajravidharan } from './vajravidharan';
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -41,6 +42,7 @@ export const practiceTexts: PracticeText[] = [
   dakaYeshe,
   prieresLongueVie,
   aspirationsConduiteExcellente,
+  vajravidharan,
   {
     id: "sauver-des-vies",
     title: "Sauver des vies",

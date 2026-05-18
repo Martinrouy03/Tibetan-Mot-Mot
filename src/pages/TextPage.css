@@ -416,6 +416,11 @@
   gap: 0.3rem;
 }
 
+[data-phrase-id="vvd-33"] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .phrase-special-right {
   align-items: flex-end;
   text-align: right;
