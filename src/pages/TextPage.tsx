@@ -176,7 +176,8 @@ export default function TextPage() {
     textId === "pratique-chenrezik" ||
     textId === "pratique-chenrezik-thoungma" ||
     textId === "souhaits-samantabhadra" ||
-    textId === "sojong";
+    textId === "sojong" ||
+    textId === "prieres-longue-vie";
   const isTibetanOnly = text?.tibetanOnly ?? false;
   const navSections = useMemo(() => {
     if (!text || !hasSidebar) return [];
@@ -1292,7 +1293,7 @@ export default function TextPage() {
                                   <div
                                     ref={(el) => setPhraseRef(phrase.id, el)}
                                     data-phrase-id={phrase.id}
-                                    className={`phrase-container ${!isNormal || interactionMode === "fixed" ? "phrase-no-interact" : ""}${phrase.stanceNumber !== undefined ? " has-stance-number" : ""}`}
+                                    className={`phrase-container ${!isNormal || interactionMode === "fixed" ? "phrase-no-interact" : ""}${phrase.stanceNumber !== undefined ? " has-stance-number" : ""}${phrase.type === "colophon" ? " phrase-colophon" : ""}`}
                                     onClick={() =>
                                       isNormal &&
                                       interactionMode !== "fixed" &&

@@ -13,6 +13,7 @@ import { sojong } from './sojong';
 import { louange12Actes } from './louange-12-actes';
 import { soutraLongevite } from './soutra-longevite';
 import { dakaYeshe } from './daka-yeshe';
+import { prieresLongueVie } from './prieres-longue-vie';
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -37,6 +38,7 @@ export const practiceTexts: PracticeText[] = [
   lojong7Points,
   soutraLongevite,
   dakaYeshe,
+  prieresLongueVie,
   {
     id: "sauver-des-vies",
     title: "Sauver des vies",

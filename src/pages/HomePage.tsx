@@ -25,7 +25,7 @@ export default function HomePage() {
               </div>
             )}
             {text.thumbnails && (
-              <div className="text-card-thumbnails">
+              <div className={`text-card-thumbnails${text.thumbnails.length === 4 ? " text-card-thumbnails--2col" : ""}`}>
                 {text.thumbnails.map((src, i) => (
                   <img key={i} src={src} alt="" className="text-card-thumbnail-stacked" />
                 ))}
