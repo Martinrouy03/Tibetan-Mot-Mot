@@ -252,7 +252,8 @@
   border-radius: 6px;
 }
 
-.text-souhaits-samantabhadra .phrase-container {
+.text-souhaits-samantabhadra .phrase-container,
+.text-aspirations-conduite-excellente .phrase-container {
   position: relative;
   padding-left: 2.5rem;
 }
