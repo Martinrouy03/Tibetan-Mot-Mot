@@ -1264,12 +1264,12 @@ export const vajravidharan: PracticeText = {
           id: "vvd-71",
           type: "normal",
           tibetan: "།ལན་གྲངས་ཉི་ཤུ་རྩ་གཅིག་གམ།",
-          phonetics: "len drang / nyi shou / tsa tchik gam",
+          phonetics: "len drang / nyi shou tsa tchik / gam",
           translation: "Ayant récité vingt et une fois",
           words: [
             { tibetan: "ལན་གྲངས་", phonetics: "len drang", translation: "le nombre de fois" },
-            { tibetan: "ཉི་ཤུ་", phonetics: "nyi shou", translation: "vingt" },
-            { tibetan: "རྩ་གཅིག་གམ་", phonetics: "tsa tchik gam", translation: "et une ou" },
+            { tibetan: "ཉི་ཤུ་རྩ་གཅིག་", phonetics: "nyi shou tsa tchik", translation: "vingt et un" },
+            { tibetan: "གམ་", phonetics: "gam", translation: "ou" },
           ],
         },
         {
@@ -1279,7 +1279,7 @@ export const vajravidharan: PracticeText = {
           phonetics: "yang na / len drang / gya tsa gyé",
           translation: "ou cent huit fois",
           words: [
-            { tibetan: "ཡང་ན་", phonetics: "yang na", translation: "ou bien" },
+            { tibetan: "ཡང་ན་", phonetics: "yang na", translation: "sinon" },
             { tibetan: "ལན་གྲངས་", phonetics: "len drang", translation: "le nombre de fois" },
             { tibetan: "བརྒྱ་རྩ་བརྒྱད་", phonetics: "gya tsa gyé", translation: "cent huit" },
           ],
@@ -1288,11 +1288,10 @@ export const vajravidharan: PracticeText = {
           id: "vvd-73",
           type: "normal",
           tibetan: "།རྡོ་རྗེ་རྣམ་འཇོམས་བཟླས་ནས་ནི།",
-          phonetics: "dor djé / nam djom / dé né ni",
+          phonetics: "dor djé nam djom / dé né ni",
           translation: "la dharani de Vajravidarana,",
           words: [
-            { tibetan: "རྡོ་རྗེ་", phonetics: "dor djé", translation: "vajra" },
-            { tibetan: "རྣམ་འཇོམས་", phonetics: "nam djom", translation: "Vajravidarana" },
+            { tibetan: "རྡོ་རྗེ་རྣམ་འཇོམས་", phonetics: "dor djé nam djom", translation: "Vajravidarana" },
             { tibetan: "བཟླས་ནས་ནི་", phonetics: "dé né ni", translation: "ayant récité" },
           ],
         },
