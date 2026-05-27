@@ -43,7 +43,7 @@ button {
 }
 
 .tibetan {
-  font-family: 'Jomolhari', 'Noto Serif Tibetan', serif;
+  font-family: 'Jomolhari', serif;
   font-size: var(--tibetan-font-size, 20px);
 }
 

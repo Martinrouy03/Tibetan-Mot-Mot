@@ -313,6 +313,8 @@
 .phrase-mantra {
   opacity: 0.85;
   text-align: center;
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .phrase-mantra .phrase-text {

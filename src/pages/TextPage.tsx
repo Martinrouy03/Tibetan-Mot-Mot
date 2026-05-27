@@ -61,6 +61,7 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sl-0-110" ||
   phraseId === "sl-0-114" ||
   phraseId === "sl-0-117" ||
+  phraseId === "sl-0-117e" ||
   phraseId === "sl-0-140" ||
   phraseId === "vvd-33" ||
   phraseId === "vvd-33-mantra"
