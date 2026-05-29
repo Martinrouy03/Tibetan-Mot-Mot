@@ -3427,6 +3427,14 @@ export const soutraLongevite: PracticeText = {
           ],
         },
         {
+          id: "sl-0-113a",
+          type: "mantra",
+          tibetan: "ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ། ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུརྫྙཱ་ན་སུ་བི་ནི་ཤྩི་ཏ་ཏེ་ཛོ་རཱ་ཛཱ་ཡ། ཏ་ཐཱ་ག་ཏཱ་ཡ། ཨརྷ་ཏེ་སམྱཀྶཾ་བུདྡྷཱ་ཡ། ཏདྱ་ཐཱ། ༀ་པུཎྱེ་པུཎྱེ་མ་ཧཱ་པུཎྱེ། ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུར་པུཎྱེ་ཛྙཱ་ན་སཾ་བྷཱ་རོ་པ་ཙི་ཏེ། ༀ་སརྦ་སཾ་སྐཱ་ར་པ་རི་ཤུདྡྷ་དྷརྨ་ཏེ། ག་ག་ན་ས་མུཏྒ་ཏེ་སྭ་བྷཱ་བ་བི་ཤུདྡྷེ་མ་ཧཱ་ན་ཡ་པ་རི་ཝཱ་རེ་སྭཱ་ཧཱ།",
+          phonetics: "oṁ namo bhagavate aparimitāyurjñāna-suviniścita-tejorājāya tathāgatāya arhate samyaksaṃbuddhāya | tadyathā | oṁ puṇye puṇye mahāpuṇye aparimitāyurpuṇya-jñāna-saṃbhāropacite | oṁ sarva-saṃskārapariśuddha-dharmate gagana-samudgate svabhāva-viśuddhe mahānayaparivāre svāhā |",
+          translation: "",
+          words: [],
+        },
+        {
           id: "sl-0-113b",
           type: "normal",
           tibetan:
