@@ -29,6 +29,9 @@ const WHEEL_TICKS_PER_PHRASE = 3;
 const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, "");
 const renderTranslation = (s: string) => ({ __html: stripParens(s) });
 const renderMantraTib = (s: string, phraseId?: string) =>
+  phraseId === "ch-gr-8" ||
+  phraseId === "ch-gr-13" ||
+  phraseId === "ch-gr-14" ||
   phraseId === "gy-5-1" ||
   phraseId === "cp-2-34" ||
   phraseId === "sj-dd-5" ||

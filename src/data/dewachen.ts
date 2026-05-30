@@ -679,7 +679,7 @@ export const dewachen: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation: "Pratique de Chenrézik",
-          targetId: "/text/pratique-chenrezik#ch-dedicace",
+          targetId: "/text/pratique-chenrezik#ch-prieres-lv",
           altTargetId: "/text/pratique-chenrezik-thoungma#ch-colophon",
           altTargetFrom: "mahakala",
           navBack: true,
