@@ -689,14 +689,29 @@ export const soutraLongevite: PracticeText = {
               translation: "ayant lu",
             },
             {
-              tibetan: "གླེགས་བམ་ལ་བྲིས་ཏེ་",
-              phonetics: "lek pam la tri té",
-              translation: "copié en un recueil",
+              tibetan: "གླེགས་བམ་ལ་",
+              phonetics: "lek pam la",
+              translation: "dans un recueil",
             },
             {
-              tibetan: "ཁྱིམ་ན་འཆང་བར་བྱེད་དམ་",
-              phonetics: "k'yim na tchang war djé tam",
-              translation: "gardent à la maison",
+              tibetan: "བྲིས་ཏེ་",
+              phonetics: "tri té",
+              translation: "mis par écrit",
+            },
+            {
+              tibetan: "ཁྱིམ་ན་",
+              phonetics: "k'yim na",
+              translation: "à la maison",
+            },
+            {
+              tibetan: "འཆང་ངམ་",
+              phonetics: "tchang ngam",
+              translation: "le gardent",
+            },
+            {
+              tibetan: "འཆང་བར་བྱེད་དམ་",
+              phonetics: "tchang war djé tam",
+              translation: "le gardent",
             },
           ],
         },
@@ -710,16 +725,21 @@ export const soutraLongevite: PracticeText = {
           translation:
             "ceux qui l'honorent de fleurs, de fragrances, d'encens et de guirlandes,",
           words: [
-            { tibetan: "མེ་ཏོག་", phonetics: "mé tok", translation: "fleurs" },
-            { tibetan: "དང་།", phonetics: "tang", translation: "et" },
             {
-              tibetan: "བདུག་པ་",
-              phonetics: "douk pa",
-              translation: "fragrances",
+              tibetan: "མེ་ཏོག་དང་།",
+              phonetics: "mé tok tang",
+              translation: "fleurs et",
             },
-            { tibetan: "དང་།", phonetics: "tang", translation: "et" },
-            { tibetan: "སྤོས་", phonetics: "peu", translation: "encens" },
-            { tibetan: "དང་།", phonetics: "tang", translation: "et" },
+            {
+              tibetan: "བདུག་པ་དང་།",
+              phonetics: "douk pa tang",
+              translation: "fragrances et",
+            },
+            {
+              tibetan: "སྤོས་དང་།",
+              phonetics: "peu tang",
+              translation: "encens et",
+            },
             {
               tibetan: "ཕྲེང་བ་རྣམས་ཀྱིས་",
               phonetics: "treng wa nam kyi",
@@ -747,9 +767,14 @@ export const soutraLongevite: PracticeText = {
               translation: "tous ces êtres",
             },
             {
-              tibetan: "ཚེ་ཡོངས་སུ་ཟད་པ་ལས་",
-              phonetics: "tsé yong sou sé pa lé",
-              translation: "à l'épuisement de leur longévité",
+              tibetan: "ཚེ་ཡོངས་སུ་",
+              phonetics: "tsé yong sou",
+              translation: "leur longévité",
+            },
+            {
+              tibetan: "ཟད་པ་ལས་",
+              phonetics: "sé pa lé",
+              translation: "à l'épuisement",
             },
             {
               tibetan: "ཚེ་ལོ་བརྒྱ་",
@@ -967,13 +992,13 @@ export const soutraLongevite: PracticeText = {
               translation: "tathagata",
             },
             {
-              tibetan: "ཚེ་དཔག་ཏུ་མེད་པ་དེའི་",
-              phonetics: "tsé pak tou mé pa té",
+              tibetan: "ཚེ་དཔག་ཏུ་མེད་པ་",
+              phonetics: "tsé pak tou mé pa",
               translation: "Longévité incommensurable",
             },
             {
-              tibetan: "མཚན་བརྒྱ་རྩ་བརྒྱད་",
-              phonetics: "tsen gya tsa gyé",
+              tibetan: "དེའི་མཚན་བརྒྱ་རྩ་བརྒྱད་",
+              phonetics: "té tsen gya tsa gyé",
               translation: "108 épithètes",
             },
             {
@@ -1261,12 +1286,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1342,12 +1372,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1424,12 +1459,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1506,12 +1546,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1587,12 +1632,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1668,12 +1718,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1750,12 +1805,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1831,12 +1891,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
@@ -1925,12 +1990,17 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དགོངས་པ་གཅིག་",
               phonetics: "gong pa tchik",
-              translation: "une seule intention",
+              translation: "d'une seule intention",
             },
             {
-              tibetan: "དང་དབྱངས་གཅིག་གིས་",
-              phonetics: "tang yang tchik ki",
-              translation: "et d'une seule voix",
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "དབྱངས་གཅིག་གིས་",
+              phonetics: "yang tchik ki",
+              translation: "d'une seule voix",
             },
             {
               tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
