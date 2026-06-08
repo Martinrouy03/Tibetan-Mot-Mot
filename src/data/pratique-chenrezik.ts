@@ -2410,11 +2410,10 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "Il est couronné d'Amitabha.",
           words: [
             {
-              tibetan: "འོད་དཔག་",
-              phonetics: "eu pak",
-              translation: "lumière",
+              tibetan: "འོད་དཔག་མེད་པའི་",
+              phonetics: "eu pak mé pé",
+              translation: "Amitabha",
             },
-            { tibetan: "མེད་པའི་", phonetics: "mé pé", translation: "infinie" },
             {
               tibetan: "དབུ་རྒྱན་ཅན།",
               phonetics: "ou gyen tchen",
@@ -4820,11 +4819,10 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "Chenrézik",
             },
             { tibetan: "དབང་", phonetics: "ouang", translation: "puissant" },
-            { tibetan: "འགྲུབ་", phonetics: "droup", translation: "réaliser" },
             {
-              tibetan: "གྱུར་ནས།",
-              phonetics: "gyour né",
-              translation: "devenu",
+              tibetan: "འགྲུབ་གྱུར་ནས།",
+              phonetics: "droup gyour né",
+              translation: "réaliser",
             },
           ],
         },

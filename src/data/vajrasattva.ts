@@ -443,11 +443,10 @@ export const vajrasattva: PracticeText = {
               translation: "en ce qui concerne",
             },
             {
-              tibetan: "འགལ་ཞིང",
-              phonetics: "guel ching",
-              translation: "transgresse et",
+              tibetan: "འགལ་ཞིངཉམས",
+              phonetics: "guel ching nyam",
+              translation: "j'ai transgressé",
             },
-            { tibetan: "ཉམས", phonetics: "nyam", translation: "a décliné" },
           ],
         },
         {
@@ -458,9 +457,14 @@ export const vajrasattva: PracticeText = {
           translation: "Lama et protecteur, protégez-moi !",
           words: [
             {
-              tibetan: "བླ་མ་མགོན་པོས",
-              phonetics: "la ma geun peu",
-              translation: "Lama et protecteur",
+              tibetan: "བླ་མ་",
+              phonetics: "la ma",
+              translation: "Lama",
+            },
+            {
+              tibetan: "མགོན་པོས",
+              phonetics: "geun peu",
+              translation: "protecteur",
             },
             {
               tibetan: "སྐྱབས་མཛོད་ཅིག",
@@ -562,7 +566,7 @@ export const vajrasattva: PracticeText = {
             {
               tibetan: "ཉམས་ཆགས་",
               phonetics: "nyam tcha",
-              translation: "manquements",
+              translation: "endommagés / brisés",
             },
             {
               tibetan: "ཐམས་ཅད",

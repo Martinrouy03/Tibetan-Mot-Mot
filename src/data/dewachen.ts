@@ -335,7 +335,7 @@ export const dewachen: PracticeText = {
             "Là où bonheur et joie sont d'une merveille incommensurable",
           words: [
             {
-              tibetan: "བདེ་་",
+              tibetan: "བདེ་",
               phonetics: "dé",
               translation: "bonheur",
             },
