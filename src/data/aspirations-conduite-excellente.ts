@@ -4,6 +4,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
   id: "aspirations-conduite-excellente",
   title: "Aspirations à la Conduite Excellente",
   tibetanTitle: "བཟང་སྤྱོད་སྨོན་ལམ།",
+  audioSrc: "/audio/Samantabhadra.mp3",
   thumbnail: "/Samantabhadra.jpg",
   sections: [
     {
