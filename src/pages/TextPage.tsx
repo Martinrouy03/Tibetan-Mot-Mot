@@ -1521,9 +1521,6 @@ export default function TextPage() {
                                             (p) => p.type === "normal",
                                           );
                                         if (!firstNormal) return;
-                                        dispatch(
-                                          setSelectedPhrase(firstNormal.id),
-                                        );
                                         scrollToPhrase(firstNormal.id);
                                       }}
                                     >
@@ -1545,7 +1542,6 @@ export default function TextPage() {
                         (p) => p.type === "normal",
                       );
                       if (!firstNormal) return;
-                      dispatch(setSelectedPhrase(firstNormal.id));
                       scrollToPhrase(firstNormal.id);
                     }}
                   >

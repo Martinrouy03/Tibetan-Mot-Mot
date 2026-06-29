@@ -204,12 +204,12 @@ export const vajrasattva: PracticeText = {
               translation: "négativités, voiles",
             },
             {
-              tibetan: "ཉེས་ལྟུང་གི",
+              tibetan: "ཉེས་ལྟུང་",
               phonetics: "nyé toung ki",
               translation: "fautes et manquements",
             },
             {
-              tibetan: "ཚོགས་ཐམས་ཅད",
+              tibetan: "གི་ཚོགས་ཐམས་ཅད",
               phonetics: "tso tam tché",
               translation: "en totalité",
             },
@@ -574,9 +574,14 @@ export const vajrasattva: PracticeText = {
               translation: "tous",
             },
             {
-              tibetan: "མཐོལ་ལོ་བཤགས་སོ",
-              phonetics: "teul lo chak so",
+              tibetan: "མཐོལ་ལོ་",
+              phonetics: "teul lo",
               translation: "je confesse",
+            },
+            {
+              tibetan: "བཤགས་སོ",
+              phonetics: "chak so",
+              translation: "et purifie",
             },
           ],
         },
