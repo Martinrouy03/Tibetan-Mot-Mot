@@ -499,8 +499,11 @@ export const pratiqueChenrezik: PracticeText = {
           translation:
             "Courageux du coeur <i>Vajra Spontané Indestructible</i>, vous savez",
           words: [
-            { tibetan: "སེམས་", phonetics: "sem", translation: "Courageux" },
-            { tibetan: "དཔའ་", phonetics: "pa", translation: "du coeur" },
+            {
+              tibetan: "སེམས་དཔའ་",
+              phonetics: "sem pa",
+              translation: "Courageux du coeur",
+            },
             {
               tibetan: "རང་བྱུང་",
               phonetics: "rang djoung",
@@ -3225,14 +3228,6 @@ export const pratiqueChenrezik: PracticeText = {
             },
           ],
         },
-        {
-          id: "ch-7b-end",
-          type: "instructions",
-          tibetan: "།འདྲེན་པའི་དཔལ་དུ་བདག་གྱུར་ཅིག།",
-          phonetics: "",
-          translation: "fin prière à 7 branches",
-          words: [],
-        },
       ],
     },
     {
@@ -4045,7 +4040,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "།ཐོག་མེད་དུས་ནས་ལས་ངན་བསགས་པའི་མཐུས།",
           phonetics: "t'ok mé / tu né / lé gnen / sak pé / tu",
           translation:
-            "Par la force des actes négatifs accumulés depuis des temps sans commencement,",
+            "Par la force des actes néfastes accumulés depuis des temps sans commencement,",
           words: [
             {
               tibetan: "ཐོག་མེད་",
@@ -4060,7 +4055,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "ལས་ངན་",
               phonetics: "lé gnen",
-              translation: "des actes négatifs",
+              translation: "des actes néfastes",
             },
             {
               tibetan: "བསགས་པའི་",
@@ -5326,6 +5321,12 @@ export const pratiqueChenrezik: PracticeText = {
     {
       id: "ch-prieres-lv",
       title: "Prières de longue vie",
+      phrases: [],
+    },
+    {
+      id: "ch-plv-0",
+      title: "Longue vie de S.S. le 17ème Gyalwa Karmapa",
+      subtitle: true,
       phrases: [
         {
           id: "ch-plv-nav",
@@ -5336,11 +5337,21 @@ export const pratiqueChenrezik: PracticeText = {
           targetId: "/text/soutra-longevite",
           words: [],
         },
+        {
+          id: "sl-0-36",
+          type: "mantra",
+          tibetan:
+            "ༀ་ན་མོ་བྷ་ག་ཝ་ཏེ། ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུརྫྙཱ་ན་སུ་བི་ནི་ཤྩི་ཏ་ཏེ་ཛོ་རཱ་ཛཱ་ཡ། ཏ་ཐཱ་ག་ཏཱ་ཡ། ཨརྷ་ཏེ་སམྱཀྶཾ་བུདྡྷཱ་ཡ། ཏདྱ་ཐཱ། ༀ་པུཎྱེ་པུཎྱེ་མ་ཧཱ་པུཎྱེ། ཨ་པ་རི་མི་ཏ་ཨཱ་ཡུར་པུཎྱེ་ཛྙཱ་ན་སཾ་བྷཱ་རོ་པ་ཙི་ཏེ། ༀ་སརྦ་སཾ་སྐཱ་ར་པ་རི་ཤུདྡྷ་དྷརྨ་ཏེ། ག་ག་ན་ས་མུཏྒ་ཏེ་སྭ་བྷཱ་བ་བི་ཤུདྡྷེ་མ་ཧཱ་ན་ཡ་པ་རི་ཝཱ་རེ་སྭཱ་ཧཱ།",
+          phonetics:
+            "oṁ namo bhagavate aparimitāyurjñāna-suviniścita-tejorājāya tathāgatāya arhate samyaksaṃbuddhāya | tadyathā | oṁ puṇye puṇye mahāpuṇye aparimitāyurpuṇya-jñāna-saṃbhāropacite | oṁ sarva-saṃskārapariśuddha-dharmate gagana-samudgate svabhāva-viśuddhe mahānayaparivāre svāhā |",
+          translation: "",
+          words: [],
+        },
       ],
     },
     {
       id: "ch-plv-1",
-      title: "Longue vie de S.E. le 14ème Shamarpa",
+      title: "Longue vie de S.E. le 15ème Shamarpa",
       subtitle: true,
       phrases: [
         {

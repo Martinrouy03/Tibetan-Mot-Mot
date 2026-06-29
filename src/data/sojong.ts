@@ -290,23 +290,27 @@ export const sojong: PracticeText = {
           translation:
             "Puissent-ils demeurer en la grande équanimité libre d'attachement pour les proches et d'aversion pour ceux qui ne le sont pas.",
           words: [
-            { tibetan: "ཉེ་", phonetics: "nyé", translation: "les proches" },
+            { tibetan: "ཉེ་", phonetics: "nyé", translation: "proches" },
             {
               tibetan: "རིང་",
               phonetics: "ring",
-              translation: "ceux qui ne le sont pas",
+              translation: "loins",
             },
             {
               tibetan: "ཆགས་",
               phonetics: "tchak",
-              translation: "d'attachement",
+              translation: "attachement",
             },
-            { tibetan: "སྡང་", phonetics: "dang", translation: "d'aversion" },
-            { tibetan: "གཉིས་དང་", phonetics: "nyi dang", translation: "et" },
+            { tibetan: "སྡང་", phonetics: "dang", translation: "aversion" },
+            {
+              tibetan: "གཉིས་དང་",
+              phonetics: "nyi dang",
+              translation: "des deux",
+            },
             {
               tibetan: "བྲལ་བའི་",
               phonetics: "dral wai",
-              translation: "libre de",
+              translation: "libre",
             },
             {
               tibetan: "བཏང་སྙོམས་ཆེན་པོ་ལ་",
@@ -2537,14 +2541,14 @@ export const sojong: PracticeText = {
               translation: "conduite rafraîchissante",
             },
             {
-              tibetan: "ཕ་རོལ་",
-              phonetics: "p'a reul",
+              tibetan: "ཕ་རོལ་ཕྱིན་",
+              phonetics: "p'a reul tchin",
               translation: "paramita",
             },
             {
-              tibetan: "ཕྱིན་རྫོགས་ཤོག",
-              phonetics: "tchin dzok chok",
-              translation: "puissions-nous",
+              tibetan: "རྫོགས་ཤོག",
+              phonetics: "dzok chok",
+              translation: "puissions-nous parfaire",
             },
           ],
         },
@@ -2593,12 +2597,12 @@ export const sojong: PracticeText = {
             {
               tibetan: "ཡོངས་སུ་",
               phonetics: "yong sou",
-              translation: "parfaire",
+              translation: "complètement",
             },
             {
               tibetan: "རྫོགས་བྱེད་ཅིང་",
               phonetics: "dzok djé tching",
-              translation: "puissé-je",
+              translation: "puissé-je parfaire",
             },
           ],
         },

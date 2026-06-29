@@ -1200,11 +1200,10 @@ export const souhaitsSamantabhadra: PracticeText = {
               phonetics: "k'or lo",
               translation: "roue [du Dharma]",
             },
-            { tibetan: "བླ་ན་", phonetics: "la na", translation: "au-dessus" },
             {
-              tibetan: "མེད་པར་",
-              phonetics: "mé par",
-              translation: "sans (suprême)",
+              tibetan: "བླ་ན་མེད་པར་",
+              phonetics: "la na mé par",
+              translation: "sûpreme",
             },
             {
               tibetan: "བསྐོར་བར་བསྐུལ་",
@@ -1407,22 +1406,22 @@ export const souhaitsSamantabhadra: PracticeText = {
             {
               tibetan: "དགེ་བ་",
               phonetics: "gué wa",
-              translation: "mérite/vertu",
+              translation: "le mérite",
             },
             {
               tibetan: "ཅུང་ཟད་",
               phonetics: "tchoung zé",
-              translation: "un peu/infime",
+              translation: "le plus infime",
             },
             {
               tibetan: "བདག་གིས་",
               phonetics: "dak gui",
-              translation: "par moi/j'ai",
+              translation: "par moi",
             },
             {
               tibetan: "ཅི་བསགས་པ་",
               phonetics: "tchi sak pa",
-              translation: "quel qu'il soit accumulé",
+              translation: "accumulé",
             },
           ],
         },
@@ -3656,12 +3655,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal" as const,
           tibetan: "།དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་གང༌།",
           phonetics: "du soum / chek pa / mi yi / seng gué gang",
-          translation: "Tous les lions parmi les hommes [apparus dans] les trois temps,",
+          translation:
+            "Tous les lions parmi les hommes [apparus dans] les trois temps,",
           words: [
-            { tibetan: "དུས་གསུམ་", phonetics: "du soum", translation: "dans les trois temps" },
-            { tibetan: "གཤེགས་པ་", phonetics: "chek pa", translation: "apparus" },
-            { tibetan: "མི་ཡི་", phonetics: "mi yi", translation: "parmi les hommes" },
-            { tibetan: "སེང་གེ་གང་", phonetics: "seng gué gang", translation: "lions" },
+            {
+              tibetan: "དུས་གསུམ་",
+              phonetics: "du soum",
+              translation: "dans les trois temps",
+            },
+            {
+              tibetan: "གཤེགས་པ་",
+              phonetics: "chek pa",
+              translation: "apparus",
+            },
+            {
+              tibetan: "མི་ཡི་",
+              phonetics: "mi yi",
+              translation: "parmi les hommes",
+            },
+            {
+              tibetan: "སེང་གེ་གང་",
+              phonetics: "seng gué gang",
+              translation: "lions",
+            },
           ],
         },
         {
@@ -3672,9 +3688,21 @@ export const souhaitsSamantabhadra: PracticeText = {
           translation: "Puissé-je, en un seul instant, les percevoir!",
           words: [
             { tibetan: "དེ་དག་", phonetics: "dé dak", translation: "les" },
-            { tibetan: "སྐད་ཅིག་", phonetics: "ké tchik", translation: "en un seul" },
-            { tibetan: "གཅིག་ལ་", phonetics: "tchik la", translation: "instant" },
-            { tibetan: "བདག་གིས་བལྟ་", phonetics: "dak gui ta", translation: "Puissé-je percevoir" },
+            {
+              tibetan: "སྐད་ཅིག་",
+              phonetics: "ké tchik",
+              translation: "en un seul",
+            },
+            {
+              tibetan: "གཅིག་ལ་",
+              phonetics: "tchik la",
+              translation: "instant",
+            },
+            {
+              tibetan: "བདག་གིས་བལྟ་",
+              phonetics: "dak gui ta",
+              translation: "Puissé-je percevoir",
+            },
           ],
         },
         {
@@ -3682,11 +3710,24 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal" as const,
           tibetan: "།རྟག་ཏུ་དེ་དག་གི་ནི་སྤྱོད་ཡུལ་ལ།",
           phonetics: "tak tou / dé dak gui ni / tcheu yul la",
-          translation: "Continuellement, dans le champ d'activité de ces [bouddhas]",
+          translation:
+            "Continuellement, dans le champ d'activité de ces [bouddhas]",
           words: [
-            { tibetan: "རྟག་ཏུ་", phonetics: "tak tou", translation: "Continuellement" },
-            { tibetan: "དེ་དག་གི་ནི་", phonetics: "dé dak gui ni", translation: "de ces [bouddhas]" },
-            { tibetan: "སྤྱོད་ཡུལ་ལ་", phonetics: "tcheu yul la", translation: "dans le champ d'activité" },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "Continuellement",
+            },
+            {
+              tibetan: "དེ་དག་གི་ནི་",
+              phonetics: "dé dak gui ni",
+              translation: "de ces [bouddhas]",
+            },
+            {
+              tibetan: "སྤྱོད་ཡུལ་ལ་",
+              phonetics: "tcheu yul la",
+              translation: "dans le champ d'activité",
+            },
           ],
         },
         {
@@ -3694,12 +3735,29 @@ export const souhaitsSamantabhadra: PracticeText = {
           type: "normal" as const,
           tibetan: "།སྒྱུ་མར་གྱུར་པའི་རྣམ་ཐར་སྟོབས་ཀྱིས་འཇུག",
           phonetics: "gyou mar gyour pai / nam t'ar / top kyi / djouk",
-          translation: "Par la force d'une libération vécue comme illusion, je m'y engage.",
+          translation:
+            "Par la force d'une libération vécue comme illusion, je m'y engage.",
           words: [
-            { tibetan: "སྒྱུ་མར་གྱུར་པའི་", phonetics: "gyou mar gyour pai", translation: "vécue comme illusion" },
-            { tibetan: "རྣམ་ཐར་", phonetics: "nam t'ar", translation: "libération" },
-            { tibetan: "སྟོབས་ཀྱིས་", phonetics: "top kyi", translation: "par la force" },
-            { tibetan: "འཇུག་", phonetics: "djouk", translation: "je m'y engage" },
+            {
+              tibetan: "སྒྱུ་མར་གྱུར་པའི་",
+              phonetics: "gyou mar gyour pai",
+              translation: "vécue comme illusion",
+            },
+            {
+              tibetan: "རྣམ་ཐར་",
+              phonetics: "nam t'ar",
+              translation: "libération",
+            },
+            {
+              tibetan: "སྟོབས་ཀྱིས་",
+              phonetics: "top kyi",
+              translation: "par la force",
+            },
+            {
+              tibetan: "འཇུག་",
+              phonetics: "djouk",
+              translation: "je m'y engage",
+            },
           ],
         },
       ],

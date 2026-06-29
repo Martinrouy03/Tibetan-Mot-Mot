@@ -621,9 +621,19 @@ export const soutraLongevite: PracticeText = {
               translation: "Longévité incommensurable",
             },
             {
-              tibetan: "ཡོན་ཏན་དང་བསྔགས་པ་",
-              phonetics: "yeun ten tang ngak pa",
-              translation: "qualités et louanges",
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "yeun ten",
+              translation: "qualités",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "བསྔགས་པ་",
+              phonetics: "ngak pa",
+              translation: "louanges",
             },
             {
               tibetan: "ཡོངས་སུ་བརྗོད་པ་",
@@ -702,11 +712,6 @@ export const soutraLongevite: PracticeText = {
               tibetan: "ཁྱིམ་ན་",
               phonetics: "k'yim na",
               translation: "à la maison",
-            },
-            {
-              tibetan: "འཆང་ངམ་",
-              phonetics: "tchang ngam",
-              translation: "le gardent",
             },
             {
               tibetan: "འཆང་བར་བྱེད་དམ་",
@@ -825,9 +830,14 @@ export const soutraLongevite: PracticeText = {
               translation: "longévité et sagesse incommensurables",
             },
             {
-              tibetan: "ཤིན་ཏུ་རྣམ་པར་ངེས་པ་",
-              phonetics: "shin tou nam par ngé pa",
-              translation: "absolument certaines",
+              tibetan: "ཤིན་ཏུ་",
+              phonetics: "shin tou",
+              translation: "absolument",
+            },
+            {
+              tibetan: "རྣམ་པར་ངེས་པ་",
+              phonetics: "nam par ngé pa",
+              translation: "certaines",
             },
             {
               tibetan: "གཟི་བརྗིད་ཀྱི་རྒྱལ་པོའི་",
@@ -923,9 +933,14 @@ export const soutraLongevite: PracticeText = {
               translation: "leur vie aussi",
             },
             {
-              tibetan: "རྣམ་པར་འཕེལ་བར་འགྱུར་རོ་",
-              phonetics: "nam par p'el war gyour ro",
-              translation: "sera vraiment prolongée",
+              tibetan: "རྣམ་པར་",
+              phonetics: "nam par",
+              translation: "vraiment",
+            },
+            {
+              tibetan: "འཕེལ་བར་འགྱུར་རོ་",
+              phonetics: "p'el war gyour ro",
+              translation: "sera prolongée",
             },
           ],
         },
@@ -1031,12 +1046,22 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "དེ་དག་གི་",
               phonetics: "té tak ki",
-              translation: "ils en",
+              translation: "ceux-là",
             },
             {
-              tibetan: "ཡོན་ཏན་དང་ལེགས་པར་",
-              phonetics: "yeun ten tang lek par",
-              translation: "les qualités et excellences",
+              tibetan: "ཡོན་ཏན་",
+              phonetics: "yeun ten",
+              translation: "les qualités",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "tang",
+              translation: "et",
+            },
+            {
+              tibetan: "ལེགས་པར་",
+              phonetics: "lek par",
+              translation: "excellences",
             },
             {
               tibetan: "འགྱུར་བ་ནི་འདི་དག་གོ་",
@@ -3798,14 +3823,14 @@ export const soutraLongevite: PracticeText = {
             "Quiconque écrit, fait écrire ou respecte le soutra [intitulé] Noble Longévité et sagesse incommensurables,",
           words: [
             {
-              tibetan: "གང་ཞིག་ཚེ་དང་",
-              phonetics: "kang shik tsé tang",
-              translation: "quiconque, Longévité et",
+              tibetan: "གང་ཞིག་",
+              phonetics: "kang shik",
+              translation: "quiconque",
             },
             {
-              tibetan: "ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
-              phonetics: "yé shé pak tou mé pé",
-              translation: "sagesse incommensurables",
+              tibetan: "ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པའི་",
+              phonetics: "tsé tang yé shé pak tou mé pé",
+              translation: "longévité et sagesse incommensurables",
             },
             {
               tibetan: "མདོ་སྡེ་འདི་",
