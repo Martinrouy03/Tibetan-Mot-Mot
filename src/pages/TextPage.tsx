@@ -68,7 +68,36 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sl-0-117e" ||
   phraseId === "sl-0-140" ||
   phraseId === "vvd-33" ||
-  phraseId === "vvd-33-mantra"
+  phraseId === "vvd-33-mantra" ||
+  phraseId === "sv-109" ||
+  phraseId === "sv-111" ||
+  phraseId === "sv-148" ||
+  phraseId === "sv-149" ||
+  phraseId === "sv-150" ||
+  phraseId === "sv-151" ||
+  phraseId === "sv-156" ||
+  phraseId === "sv-157" ||
+  phraseId === "sv-158" ||
+  phraseId === "sv-159" ||
+  phraseId === "sv-160" ||
+  phraseId === "sv-161" ||
+  phraseId === "sv-162" ||
+  phraseId === "sv-163" ||
+  phraseId === "sv-178" ||
+  phraseId === "sv-179" ||
+  phraseId === "sv-180" ||
+  phraseId === "sv-181" ||
+  phraseId === "sv-182" ||
+  phraseId === "sv-184" ||
+  phraseId === "sv-186" ||
+  phraseId === "sv-197" ||
+  phraseId === "sv-198" ||
+  phraseId === "sv-199" ||
+  phraseId === "sv-200" ||
+  phraseId === "sv-201" ||
+  phraseId === "sv-202" ||
+  phraseId === "sv-203" ||
+  phraseId === "sv-204"
     ? s
     : s.replace(/་/g, " ").replace(/།/g, "");
 
@@ -184,7 +213,8 @@ export default function TextPage() {
     textId === "pratique-chenrezik-thoungma" ||
     textId === "souhaits-samantabhadra" ||
     textId === "sojong" ||
-    textId === "prieres-longue-vie";
+    textId === "prieres-longue-vie" ||
+    textId === "sauver-des-vies";
   const isTibetanOnly = text?.tibetanOnly ?? false;
   const navSections = useMemo(() => {
     if (!text || !hasSidebar) return [];
