@@ -1542,7 +1542,7 @@ export default function TextPage() {
                                       </div>
                                     )}
                                   </div>
-                                  {phrase.id === "dw-mantra" && (
+                                  {(phrase.id === "dw-mantra" || phrase.id === "sv-dw-mantra") && (
                                     <button
                                       className="scroll-top-btn"
                                       onClick={() => {

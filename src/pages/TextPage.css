@@ -556,6 +556,12 @@
   max-width: 100%;
 }
 
+.section-sv-s17 .phrase-image-mantra .phrase-image,
+.section-ta-dewachen .phrase-image-mantra .phrase-image {
+  height: auto;
+  max-width: 200px;
+}
+
 @media (max-width: 900px) and (orientation: portrait) {
   .phrase-image-mantra .phrase-image {
     width: 90vw;

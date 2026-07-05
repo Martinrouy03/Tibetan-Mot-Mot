@@ -4898,9 +4898,1922 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-219",
           type: "colophon",
-          tibetan: "འདི་ནི་གང་ཟག་གང་ཞིག་ཁམས་ལྔའི་སྒོ་ནས་ཚེ་ཉམས་པ་ཅིག་ཅར་དུ་གསོ་བའི་ཐབས་ཁྱད་པར་དུ་འཕགས་པ་ ཡིན་ལ། དེའང་བསྒྲུབ་བྱ་དུས་མིན་གྱི་འཆི་བ་ཟློག་ཅིང་ཚེའི་རིམ་གྲོ་གཙོར་བྱེད་ན། དུད་འགྲོ་གསོད་དུ་ཉེ་ བའམ་གསོད་པར་འོས་པ་ལོ་གྲངས་སམ་དེའི་སུམ་འགྱུར་ལ་སོགས་པ་ཆོ་ག་འདི་ཉིད་ཀྱིས་ཚར་གྲངས་གང་འགྲུབ་ འབུལ་ལ་དམིགས་བཟླས་ནན་ཏན་བྱ། དཔྲལ་བར་མར་གྱི་ཉི་ཟླས་བརྒྱན། མཐར་སྨོན་ལམ་དང་ཤིས་ བརྗོད་རྒྱས་པར་སྤེལ་ལ་མེ་ཏོག་འཐོར་རོ།",
+          tibetan:
+            "འདི་ནི་གང་ཟག་གང་ཞིག་ཁམས་ལྔའི་སྒོ་ནས་ཚེ་ཉམས་པ་ཅིག་ཅར་དུ་གསོ་བའི་ཐབས་ཁྱད་པར་དུ་འཕགས་པ་ ཡིན་ལ། དེའང་བསྒྲུབ་བྱ་དུས་མིན་གྱི་འཆི་བ་ཟློག་ཅིང་ཚེའི་རིམ་གྲོ་གཙོར་བྱེད་ན། དུད་འགྲོ་གསོད་དུ་ཉེ་ བའམ་གསོད་པར་འོས་པ་ལོ་གྲངས་སམ་དེའི་སུམ་འགྱུར་ལ་སོགས་པ་ཆོ་ག་འདི་ཉིད་ཀྱིས་ཚར་གྲངས་གང་འགྲུབ་ འབུལ་ལ་དམིགས་བཟླས་ནན་ཏན་བྱ། དཔྲལ་བར་མར་གྱི་ཉི་ཟླས་བརྒྱན། མཐར་སྨོན་ལམ་དང་ཤིས་ བརྗོད་རྒྱས་པར་སྤེལ་ལ་མེ་ཏོག་འཐོར་རོ།",
           phonetics: "",
-          translation: "Ce texte est une pratique particulièrement éminente qui restaure en un instant, au moyen des cinq éléments, tous les endommagements de la longévité chez une personne quelle qu'elle soit.\nAussi, si vous accomplissez des rituels dans le but d'accroître la longévité et de repousser les morts prématurées, offrez autant de pratiques que l'âge, ou trois fois l'âge, etc., de l'animal qui va se faire tuer ou qui est destiné plus tard à être tué. Soyez appliqué dans la visualisation et la récitation. Ornez le front [des animaux] d'une lune et d'un soleil en beurre. À la fin, rajoutez de manière extensive des prières d'aspiration et des versets de bon augure, puis jetez des fleurs.",
+          translation:
+            "Ce texte est une pratique particulièrement éminente qui restaure en un instant, au moyen des cinq éléments, tous les endommagements de la longévité chez une personne quelle qu'elle soit.\nAussi, si vous accomplissez des rituels dans le but d'accroître la longévité et de repousser les morts prématurées, offrez autant de pratiques que l'âge, ou trois fois l'âge, etc., de l'animal qui va se faire tuer ou qui est destiné plus tard à être tué. Soyez appliqué dans la visualisation et la récitation. Ornez le front [des animaux] d'une lune et d'un soleil en beurre. À la fin, rajoutez de manière extensive des prières d'aspiration et des versets de bon augure, puis jetez des fleurs.",
+          words: [],
+        },
+      ],
+    },
+    {
+      id: "sv-s17",
+      title: "Souhaits de Dewachen",
+      phrases: [
+        {
+          id: "sv-dw-image",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/Amitabha.jpg",
+        },
+        {
+          id: "sv-dw-emaho",
+          type: "normal",
+          tibetan: "ཨེ་མ་ཧོཿ",
+          phonetics: "Emaho",
+          translation: "Oh merveille !",
+          words: [
+            {
+              tibetan: "ཨེ་མ་ཧོཿ",
+              phonetics: "Emaho",
+              translation: "Oh merveille !",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-1",
+          type: "normal",
+          tibetan: "ངོ་མཚར་སངས་རྒྱས་སྣང་བ་མཐའ་ཡས་དང་༔",
+          phonetics: "ngo tsar / sangyé / nang wa / t'ayé tang",
+          translation: "Merveilleux Bouddha Lumière Infinie,",
+          words: [
+            {
+              tibetan: "ངོ་མཚར་",
+              phonetics: "ngo tsar",
+              translation: "merveilleux",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "Bouddha",
+            },
+            { tibetan: "སྣང་བ་", phonetics: "nang wa", translation: "Lumière" },
+            {
+              tibetan: "མཐའ་ཡས་དང་",
+              phonetics: "t'ayé tang",
+              translation: "Infinie",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-2",
+          type: "normal",
+          tibetan: "གཡས་སུ་ཇོ་བོ་ཐུགས་རྗེ་ཆེན་པོ་དང་༔",
+          phonetics: "yé sou / djo wo / t'ouk djé / tchenpo tang",
+          translation:
+            "vous, Seigneur de grande compassion, qui êtes à sa droite,",
+          words: [
+            {
+              tibetan: "གཡས་སུ་",
+              phonetics: "yé sou",
+              translation: "à sa droite",
+            },
+            { tibetan: "ཇོ་བོ་", phonetics: "djo wo", translation: "Seigneur" },
+            {
+              tibetan: "ཐུགས་རྗེ་",
+              phonetics: "t'ouk djé",
+              translation: "compassion",
+            },
+            {
+              tibetan: "ཆེན་པོ་དང་",
+              phonetics: "tchenpo tang",
+              translation: "grande",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-3",
+          type: "normal",
+          tibetan: "གཡོན་དུ་སེམས་དཔའ་མཐུ་ཆེན་ཐོབ་རྣམས་ལ༔",
+          phonetics: "yeun tou / sempa / t'ou tchen / t'op nam la",
+          translation:
+            "et vous bodhisattva aux grands pouvoirs, qui êtes à sa gauche,",
+          words: [
+            {
+              tibetan: "གཡོན་དུ་",
+              phonetics: "yeun tou",
+              translation: "à sa gauche",
+            },
+            {
+              tibetan: "སེམས་དཔའ་",
+              phonetics: "sempa",
+              translation: "bodhisattva",
+            },
+            {
+              tibetan: "མཐུ་ཆེན་",
+              phonetics: "t'ou tchen",
+              translation: "aux grands pouvoirs",
+            },
+            {
+              tibetan: "ཐོབ་རྣམས་ལ་",
+              phonetics: "t'op nam la",
+              translation: "qui êtes",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-4",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་བྱང་སེམས་དཔག་མེད་འཁོར་གྱིས་བསྐོར༔",
+          phonetics: "sangyé / djang sem / pak mé / k'or gyi kor",
+          translation:
+            "d'innombrables bouddhas et bodhisattvas font cercle autour de vous.",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "bouddhas",
+            },
+            {
+              tibetan: "བྱང་སེམས་",
+              phonetics: "djang sem",
+              translation: "bodhisattvas",
+            },
+            {
+              tibetan: "དཔག་མེད་",
+              phonetics: "pak mé",
+              translation: "innombrables",
+            },
+            {
+              tibetan: "འཁོར་གྱིས་བསྐོར་",
+              phonetics: "k'or gyi kor",
+              translation: "font cercle autour de vous",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-5",
+          type: "normal",
+          tibetan: "བདེ་སྐྱིད་ངོ་མཚར་དཔག་ཏུ་མེད་པ་ཡི༔",
+          phonetics: "dé kyi / ngo tsar / pak tou / mé pa yi",
+          translation:
+            "Là où bonheur et joie sont d'une merveille incommensurable",
+          words: [
+            { tibetan: "བདེ་", phonetics: "dé", translation: "bonheur" },
+            { tibetan: "སྐྱིད་", phonetics: "kyi", translation: "et joie" },
+            {
+              tibetan: "ངོ་མཚར་",
+              phonetics: "ngo tsar",
+              translation: "merveille",
+            },
+            {
+              tibetan: "དཔག་ཏུ་མེད་པ་ཡི་",
+              phonetics: "pak tou mé pa yi",
+              translation: "incommensurable",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-6",
+          type: "normal",
+          tibetan: "བདེ་བ་ཅན་ཞེས་བྱ་བའི་ཞིང་ཁམས་དེར༔",
+          phonetics: "déwatchen / ché dja wé / ching k'am ter",
+          translation: "Dans cette terre pure du nom de Sukhāvatī ;",
+          words: [
+            {
+              tibetan: "བདེ་བ་ཅན་",
+              phonetics: "déwatchen",
+              translation: "Sukhāvatī",
+            },
+            {
+              tibetan: "ཞེས་བྱ་བའི་",
+              phonetics: "ché dja wé",
+              translation: "du nom de",
+            },
+            {
+              tibetan: "ཞིང་ཁམས་",
+              phonetics: "ching k'am",
+              translation: "terre pure",
+            },
+            { tibetan: "དེར་", phonetics: "ter", translation: "celle-ci" },
+          ],
+        },
+        {
+          id: "sv-dw-7",
+          type: "normal",
+          tibetan: "བདག་གཞན་འདི་ནས་ཚེ་འཕོས་གྱུར་མ་ཐག༔",
+          phonetics: "da shen / di né / tsé p'eu / gyour ma t'ak",
+          translation: "Moi et les autres, après avoir quitté cette vie,",
+          words: [
+            {
+              tibetan: "བདག་གཞན་",
+              phonetics: "da shen",
+              translation: "moi et les autres",
+            },
+            { tibetan: "འདི་ནས་", phonetics: "di né", translation: "d'ici" },
+            {
+              tibetan: "ཚེ་འཕོས་",
+              phonetics: "tsé p'eu",
+              translation: "avoir quitté cette vie",
+            },
+            {
+              tibetan: "གྱུར་མ་ཐག་",
+              phonetics: "gyour ma t'ak",
+              translation: "aussitôt",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-8",
+          type: "normal",
+          tibetan: "སྐྱེ་བ་གཞན་གྱིས་བར་མ་ཆོད་པ་རུ༔",
+          phonetics: "kyé wa / chen gyi / par ma / tcheu pa rou",
+          translation:
+            "Sans que le bardo soit interrompu par une autre renaissance.",
+          words: [
+            {
+              tibetan: "སྐྱེ་བ་",
+              phonetics: "kyé wa",
+              translation: "renaissance",
+            },
+            {
+              tibetan: "གཞན་གྱིས་",
+              phonetics: "chen gyi",
+              translation: "autre",
+            },
+            {
+              tibetan: "བར་མ་",
+              phonetics: "par ma",
+              translation: "sans que le bardo",
+            },
+            {
+              tibetan: "ཆོད་པ་རུ་",
+              phonetics: "tcheu pa rou",
+              translation: "soit interrompu",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-9",
+          type: "normal",
+          tibetan: "དེ་རུ་སྐྱེས་ནས་སྣང་མཐའི་ཞལ་མཐོང་ཤོག༔",
+          phonetics: "té rou / kyé né / nang t'é / chel t'ong chok",
+          translation:
+            "Étant nés là-bas, puissent-ils voir le visage du Bouddha Lumière Infinie !",
+          words: [
+            { tibetan: "དེ་རུ་", phonetics: "té rou", translation: "là-bas" },
+            {
+              tibetan: "སྐྱེས་ནས་",
+              phonetics: "kyé né",
+              translation: "étant nés",
+            },
+            {
+              tibetan: "སྣང་མཐའི་",
+              phonetics: "nang t'é",
+              translation: "de Lumière Infinie",
+            },
+            { tibetan: "ཞལ་", phonetics: "chel", translation: "le visage" },
+            {
+              tibetan: "མཐོང་ཤོག་",
+              phonetics: "t'ong chok",
+              translation: "puissent-ils voir",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-10",
+          type: "normal",
+          tibetan: "དེ་སྐད་བདག་གིས་སྨོན་ལམ་བཏབ་པ་འདི༔",
+          phonetics: "té ké / dak gi / meunlam / tap pa di",
+          translation: "Ces souhaits que je formule ainsi,",
+          words: [
+            { tibetan: "དེ་སྐད་", phonetics: "té ké", translation: "ainsi" },
+            { tibetan: "བདག་གིས་", phonetics: "dak gi", translation: "je" },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "meunlam",
+              translation: "ces souhaits",
+            },
+            {
+              tibetan: "བཏབ་པ་འདི་",
+              phonetics: "tap pa di",
+              translation: "formule",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-11",
+          type: "normal",
+          tibetan: "།ཕྱོགས་བཅུའི་སངས་རྒྱས་བྱང་སེམས་ཐམས་ཅད་ཀྱིས༔",
+          phonetics: "tchok tchu / sangyé / djang sem / t'am tché kyi",
+          translation: "Tous les Bouddhas et bodhisattvas des dix directions,",
+          words: [
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "tchok tchu",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "Bouddhas",
+            },
+            {
+              tibetan: "བྱང་སེམས་",
+              phonetics: "djang sem",
+              translation: "bodhisattvas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ཀྱིས་",
+              phonetics: "t'am tché kyi",
+              translation: "tous",
+            },
+          ],
+        },
+        {
+          id: "sv-dw-12",
+          type: "normal",
+          tibetan: "གེགས་མེད་འགྲུབ་པར་བྱིན་གྱིས་བརླབས་ཏུ་གསོལ༔",
+          phonetics: "kek mé / droup par / djin gyi lap / tou / seul",
+          translation:
+            "Accordez votre bénédiction afin qu'ils s'accomplissent sans obstacle.",
+          words: [
+            {
+              tibetan: "གེགས་མེད་",
+              phonetics: "kek mé",
+              translation: "sans obstacle",
+            },
+            {
+              tibetan: "འགྲུབ་པར་",
+              phonetics: "droup par",
+              translation: "s'accomplissent",
+            },
+            {
+              tibetan: "བྱིན་གྱིས་བརླབས་",
+              phonetics: "djin gyi lap",
+              translation: "votre bénédiction",
+            },
+            { tibetan: "ཏུ་", phonetics: "tou", translation: "afin que" },
+            { tibetan: "གསོལ་", phonetics: "seul", translation: "accordez" },
+          ],
+        },
+        {
+          id: "sv-dw-mantra",
+          type: "mantra",
+          tibetan: "ཏདྱ་ཐཱ༔ པཉྩནྡྲི་ཡ་ཨ་ཝ་བྷོ་དྷ་ནི་སྭཱ་ཧཱ༔",
+          phonetics: "téyata pentsandriyia awa bo dani so ha",
+          translation: "",
+          words: [],
+        },
+      ],
+    },
+    {
+      id: "sv-s18",
+      title: "Dédicace des mérites",
+      phrases: [
+        {
+          id: "sv-ded-1",
+          type: "normal",
+          tibetan: "།བསོད་ནམས་འདི་ཡིས་ཐམས་ཅད་གཟིགས་པ་ཉིད།",
+          phonetics: "seunam / di yi / t'am tché / zik pa nyi",
+          translation: "Par ce mérite, la connaissance de toutes choses,",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seunam",
+              translation: "mérite",
+            },
+            { tibetan: "འདི་ཡིས་", phonetics: "di yi", translation: "par ce" },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes choses",
+            },
+            {
+              tibetan: "གཟིགས་པ་ཉིད།",
+              phonetics: "zik pa nyi",
+              translation: "la connaissance",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-2",
+          type: "normal",
+          tibetan: "།ཐོབ་ནས་ཉེས་པའི་དགྲ་རྣམས་ཕམ་བྱས་ནས།",
+          phonetics: "top né / nyé pé / dra nam / p'am djé né",
+          translation: "Puissé-je l'obtenir, et vaincre les ennemis néfastes.",
+          words: [
+            {
+              tibetan: "ཐོབ་ནས་",
+              phonetics: "top né",
+              translation: "l'obtenir",
+            },
+            {
+              tibetan: "ཉེས་པའི་",
+              phonetics: "nyé pé",
+              translation: "néfastes",
+            },
+            {
+              tibetan: "དགྲ་རྣམས་",
+              phonetics: "dra nam",
+              translation: "les ennemis",
+            },
+            {
+              tibetan: "ཕམ་བྱས་ནས།",
+              phonetics: "p'am djé né",
+              translation: "vaincre",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-3",
+          type: "normal",
+          tibetan: "།སྐྱེ་རྒ་ན་འཆིའི་རྦ་རླབས་འཁྲུག་པ་ཡི།",
+          phonetics: "kyé ga / na tchi / ba lap / t'ouk pa yi",
+          translation:
+            "Ballotés par les vagues de la naissance, de la maladie, de la vieillesse et de la mort",
+          words: [
+            { tibetan: "སྐྱེ་", phonetics: "kyé", translation: "naissance" },
+            { tibetan: "རྒ་", phonetics: "ga", translation: "vieillesse" },
+            { tibetan: "ན་", phonetics: "na", translation: "maladie" },
+            { tibetan: "འཆིའི་", phonetics: "tchi", translation: "mort" },
+            {
+              tibetan: "རྦ་རླབས་",
+              phonetics: "ba lap",
+              translation: "les vagues",
+            },
+            {
+              tibetan: "འཁྲུག་པ་ཡི།",
+              phonetics: "t'ouk pa yi",
+              translation: "ballotés par",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-4",
+          type: "normal",
+          tibetan: "།སྲིད་པའི་མཚོ་ལས་འགྲོ་བ་སྒྲོལ་བར་ཤོག",
+          phonetics: "si pé / tso lé / dro oua / dreul ouar chok",
+          translation:
+            "Puissé-je libérer ces êtres [errant] dans l'océan des destinées,",
+          words: [
+            {
+              tibetan: "སྲིད་པའི་",
+              phonetics: "si pé",
+              translation: "des destinées",
+            },
+            {
+              tibetan: "མཚོ་ལས་",
+              phonetics: "tso lé",
+              translation: "dans l'océan",
+            },
+            {
+              tibetan: "འགྲོ་བ་",
+              phonetics: "dro oua",
+              translation: "ces êtres",
+            },
+            {
+              tibetan: "སྒྲོལ་བར་ཤོག",
+              phonetics: "dreul ouar chok",
+              translation: "puissé-je libérer",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-5",
+          type: "normal",
+          tibetan: "།འཇམ་དཔལ་དཔའ་བོས་ཇི་ལྟར་མཁྱེན་པ་དང༌།",
+          phonetics: "djampel / pa eu / dji tar / kyen pa tang",
+          translation:
+            "Avec une sagesse semblable à celle du héros Manjoushri,",
+          words: [
+            {
+              tibetan: "འཇམ་དཔལ་",
+              phonetics: "djampel",
+              translation: "Manjoushri",
+            },
+            {
+              tibetan: "དཔའ་བོས་",
+              phonetics: "pa eu",
+              translation: "le héros",
+            },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "semblable à",
+            },
+            {
+              tibetan: "མཁྱེན་པ་དང༌།",
+              phonetics: "kyen pa tang",
+              translation: "la sagesse",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-6",
+          type: "normal",
+          tibetan: "།ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་དེ་བཞིན་ཏེ།",
+          phonetics: "kun tou zangpo / té yang / té chin té",
+          translation: "De la même manière également que Samantabhadra,",
+          words: [
+            {
+              tibetan: "ཀུན་ཏུ་བཟང་པོ་",
+              phonetics: "kun tou zangpo",
+              translation: "Samantabhadra",
+            },
+            {
+              tibetan: "དེ་ཡང་",
+              phonetics: "té yang",
+              translation: "également",
+            },
+            {
+              tibetan: "དེ་བཞིན་ཏེ།",
+              phonetics: "té chin té",
+              translation: "même manière que",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-7",
+          type: "normal",
+          tibetan: "།དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཅིང༌།",
+          phonetics: "té tak / kun gyi / djé sou / dak lop tching",
+          translation: "Je m'entraîne en suivant leur exemple,",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "té tak", translation: "leur" },
+            {
+              tibetan: "ཀུན་གྱི་",
+              phonetics: "kun gyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "en suivant",
+            },
+            {
+              tibetan: "བདག་སློབ་ཅིང༌།",
+              phonetics: "dak lop tching",
+              translation: "je m'entraîne",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-8",
+          type: "normal",
+          tibetan: "།དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
+          phonetics: "gué oua / di tak / t'am tché / rap tou gno",
+          translation: "Je dédie ainsi parfaitement toutes ces vertus.",
+          words: [
+            {
+              tibetan: "དགེ་བ་",
+              phonetics: "gué oua",
+              translation: "les vertus",
+            },
+            { tibetan: "འདི་དག་", phonetics: "di tak", translation: "ces" },
+            {
+              tibetan: "ཐམས་ཅད་",
+              phonetics: "t'am tché",
+              translation: "toutes",
+            },
+            {
+              tibetan: "རབ་ཏུ་བསྔོ།",
+              phonetics: "rap tou gno",
+              translation: "je dédie parfaitement",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-9",
+          type: "normal",
+          tibetan: "།དགེ་བ་འདི་ཡིས་སྐྱེ་བོ་ཀུན།",
+          phonetics: "gué oua / di yi / kyé ouo kun",
+          translation: "Par cette vertu, que tous les êtres,",
+          words: [
+            {
+              tibetan: "དགེ་བ་",
+              phonetics: "gué oua",
+              translation: "cette vertu",
+            },
+            { tibetan: "འདི་ཡིས་", phonetics: "di yi", translation: "par" },
+            {
+              tibetan: "སྐྱེ་བོ་ཀུན།",
+              phonetics: "kyé ouo kun",
+              translation: "tous les êtres",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-10",
+          type: "normal",
+          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་ཚོགས་རྫོགས་ནས།",
+          phonetics: "seunam / yéché / tsok dzok né",
+          translation: "Parachèvent les accumulations de mérite et de sagesse",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seunam",
+              translation: "mérite",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yéché", translation: "sagesse" },
+            {
+              tibetan: "ཚོགས་",
+              phonetics: "tsok",
+              translation: "les accumulations",
+            },
+            {
+              tibetan: "རྫོགས་ནས།",
+              phonetics: "dzok né",
+              translation: "parachèvent",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-11",
+          type: "normal",
+          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་ལས་བྱུང་བ།",
+          phonetics: "seunam / yéché / lé djoung oua",
+          translation: "et résultant de ces mérite et sagesse:",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seunam",
+              translation: "mérite",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yéché", translation: "sagesse" },
+            {
+              tibetan: "ལས་བྱུང་བ།",
+              phonetics: "lé djoung oua",
+              translation: "résultant de",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-12",
+          type: "normal",
+          tibetan: "།དམ་པ་སྐུ་གཉིས་ཐོབ་པར་ཤོག",
+          phonetics: "tampa / kou nyi / t'op par chok",
+          translation: "Puissent-ils obtenir les deux corps purs!",
+          words: [
+            { tibetan: "དམ་པ་", phonetics: "tampa", translation: "purs" },
+            {
+              tibetan: "སྐུ་གཉིས་",
+              phonetics: "kou nyi",
+              translation: "les deux corps",
+            },
+            {
+              tibetan: "ཐོབ་པར་ཤོག",
+              phonetics: "t'op par chok",
+              translation: "Puissent-ils obtenir",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-13",
+          type: "normal",
+          tibetan: "།སངས་རྒྱས་སྐུ་གསུམ་བརྙེས་པའི་བྱིན་རླབས་དང༌།",
+          phonetics: "sangyé / kou soum / nyé pé / djin lap tang",
+          translation: "Par la bénédiction des trois corps du Bouddha,",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "du Bouddha",
+            },
+            {
+              tibetan: "སྐུ་གསུམ་",
+              phonetics: "kou soum",
+              translation: "les trois corps",
+            },
+            {
+              tibetan: "བརྙེས་པའི་",
+              phonetics: "nyé pé",
+              translation: "ayant obtenu",
+            },
+            {
+              tibetan: "བྱིན་རླབས་དང༌།",
+              phonetics: "djin lap tang",
+              translation: "la bénédiction",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-14",
+          type: "normal",
+          tibetan: "།ཆོས་ཉིད་མི་འགྱུར་བདེན་པའི་བྱིན་རླབས་དང༌།",
+          phonetics: "tcheu nyi / mingyour / den pé / djin lap tang",
+          translation: "Par la bénédiction de la vérité immuable du Dharma,",
+          words: [
+            {
+              tibetan: "ཆོས་ཉིད་",
+              phonetics: "tcheu nyi",
+              translation: "du Dharma",
+            },
+            {
+              tibetan: "མི་འགྱུར་",
+              phonetics: "mingyour",
+              translation: "immuable",
+            },
+            {
+              tibetan: "བདེན་པའི་",
+              phonetics: "den pé",
+              translation: "de la vérité",
+            },
+            {
+              tibetan: "བྱིན་རླབས་དང༌།",
+              phonetics: "djin lap tang",
+              translation: "la bénédiction",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-15",
+          type: "normal",
+          tibetan: "།དགེ་འདུན་མི་ཕྱེད་འདུན་པའི་བྱིན་རླབས་ཀྱིས།",
+          phonetics: "guendun / mi tché / dun pé / djin lap kyi",
+          translation:
+            "Et par la bénédiction de l'aspiration continuelle de la Sangha,",
+          words: [
+            {
+              tibetan: "དགེ་འདུན་",
+              phonetics: "guendun",
+              translation: "de la Sangha",
+            },
+            {
+              tibetan: "མི་ཕྱེད་",
+              phonetics: "mi tché",
+              translation: "continuelle",
+            },
+            {
+              tibetan: "འདུན་པའི་",
+              phonetics: "dun pé",
+              translation: "de l'aspiration",
+            },
+            {
+              tibetan: "བྱིན་རླབས་ཀྱིས།",
+              phonetics: "djin lap kyi",
+              translation: "la bénédiction",
+            },
+          ],
+        },
+        {
+          id: "sv-ded-16",
+          type: "normal",
+          tibetan: "།ཇི་ལྟར་བསྔོ་བ་སྨོན་ལམ་འགྲུབ་པར་ཤོག",
+          phonetics: "dji tar / gno oua / meunlam / droup par chok",
+          translation:
+            "Puissent cette dédicace et ces souhaits s'accomplir tels qu'ils sont formulés.",
+          words: [
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "tels qu'ils sont formulés",
+            },
+            {
+              tibetan: "བསྔོ་བ་",
+              phonetics: "gno oua",
+              translation: "cette dédicace",
+            },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "meunlam",
+              translation: "ces souhaits",
+            },
+            {
+              tibetan: "འགྲུབ་པར་ཤོག",
+              phonetics: "droup par chok",
+              translation: "s'accomplir",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "sv-s19",
+      title: "Souhaits d'Orgyen",
+      phrases: [
+        {
+          id: "sv-org-pre",
+          type: "colophon",
+          tibetan:
+            "ༀ༔ ན་མོ་གུ་རུ༔ སྤྲེལ་ལོ་སྤྲེལ་ཟླ་ར་བའི་ཚེས་བཅུ་ལ་བསམ་ཡས་བར་ཁང་གཡུ་ཞལ་ཅན་དུ་རྡོ་རྗེ་དབྱིངས་ཀྱི་དཀྱིལ་འཁོར་ཞལ་ཕྱེས་ཚེ་ཨོ་རྒྱན་གྱིས་སྨོན་ལམ་འདི་གསུངས་པས་རྗེ་འབངས་ཐམས་ཅད་ཀྱི་ཐུགས་དམ་ནར་མར་མཛད། ཕྱི་རབས་རྣམས་ཀྱིས་ཀྱང་འདི་ལ་ཐུགས་དམ་རྩེ་གཅིག་ཏུ་མཛོད།",
+          phonetics: "",
+          translation:
+            "OM Namo Guru. Le dixième jour du mois du singe de l'année du singe, Gourou Rinpoché énonça cette prière d'aspiration lorsque le mandala de Vajradhatu fut dévoilé dans l'entre-salle de turquoise à Samyé. Le roi et les disciples en firent leur pratique quotidienne. Puissent les êtres dans le futur en faire leur pratique quotidienne !",
+          words: [],
+        },
+        {
+          id: "sv-org-1",
+          type: "normal",
+          tibetan: "ཕྱོགས་བཅུ་དུས་བཞི་རྒྱལ་བ་སྲས་དང་བཅས༔",
+          phonetics: "tcho tchou / tu chi / gyal oua / sé tang tché",
+          translation:
+            "Bouddhas et bodhisattvas des dix directions et des quatre temps,",
+          words: [
+            {
+              tibetan: "ཕྱོགས་བཅུ་",
+              phonetics: "tcho tchou",
+              translation: "des dix directions",
+            },
+            {
+              tibetan: "དུས་བཞི་",
+              phonetics: "tu chi",
+              translation: "des quatre temps",
+            },
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal oua",
+              translation: "Bouddhas",
+            },
+            {
+              tibetan: "སྲས་དང་བཅས་",
+              phonetics: "sé tang tché",
+              translation: "et bodhisattvas",
+            },
+          ],
+        },
+        {
+          id: "sv-org-2",
+          type: "normal",
+          tibetan: "བླ་མ་ཡི་དམ་མཁའ་འགྲོ་ཆོས་སྐྱོང་ཚོགས༔",
+          phonetics: "la ma / yi dam / khan dro / tcheu kyong / tso",
+          translation:
+            "Lamas, yidams, dakinis, et assemblée des protecteurs du Dharma,",
+          words: [
+            { tibetan: "བླ་མ་", phonetics: "la ma", translation: "Lamas" },
+            { tibetan: "ཡི་དམ་", phonetics: "yi dam", translation: "yidams" },
+            {
+              tibetan: "མཁའ་འགྲོ་",
+              phonetics: "khan dro",
+              translation: "dakinis",
+            },
+            {
+              tibetan: "ཆོས་སྐྱོང་",
+              phonetics: "tcheu kyong",
+              translation: "protecteurs du Dharma",
+            },
+            { tibetan: "ཚོགས་", phonetics: "tso", translation: "assemblées" },
+          ],
+        },
+        {
+          id: "sv-org-3",
+          type: "normal",
+          tibetan: "མ་ལུས་ཞིང་གི་རྡུལ་སྙེད་གཤེགས་སུ་གསོལ༔",
+          phonetics: "ma lu / ching gui / dul nyé / shek sou seul",
+          translation:
+            "Vous tous qui êtes aussi nombreux que tous les atomes de l'univers, veuillez venir ici.",
+          words: [
+            { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "vous tous" },
+            {
+              tibetan: "ཞིང་གི་",
+              phonetics: "ching gui",
+              translation: "de l'univers",
+            },
+            {
+              tibetan: "རྡུལ་སྙེད་",
+              phonetics: "dul nyé",
+              translation: "autant que les atomes",
+            },
+            {
+              tibetan: "གཤེགས་སུ་གསོལ་",
+              phonetics: "shek sou seul",
+              translation: "veuillez venir ici",
+            },
+          ],
+        },
+        {
+          id: "sv-org-4",
+          type: "normal",
+          tibetan: "མདུན་གྱི་ནམ་མཁར་པད་ཟླའི་གདན་ལ་བཞུགས༔",
+          phonetics: "dun gyi / nam khar / pé deï / den la chou",
+          translation:
+            "Prenez place sur ces sièges de lotus et de lune dans l'espace en face de moi!",
+          words: [
+            {
+              tibetan: "མདུན་གྱི་",
+              phonetics: "dun gyi",
+              translation: "en face de moi",
+            },
+            {
+              tibetan: "ནམ་མཁར་",
+              phonetics: "nam khar",
+              translation: "dans l'espace",
+            },
+            {
+              tibetan: "པད་ཟླའི་",
+              phonetics: "pé deï",
+              translation: "de lotus et de lune",
+            },
+            {
+              tibetan: "གདན་ལ་བཞུགས་",
+              phonetics: "den la chou",
+              translation: "prenez place sur ces sièges",
+            },
+          ],
+        },
+        {
+          id: "sv-org-5",
+          type: "normal",
+          tibetan: "ལུས་ངག་ཡིད་གསུམ་གུས་པས་ཕྱག་འཚལ་ལོ༔",
+          phonetics: "lu gna / yi soum / gu pé / tcha tsel lo",
+          translation:
+            "Je vous rends respectueusement hommage par le corps, la parole et l'esprit.",
+          words: [
+            {
+              tibetan: "ལུས་ངག་",
+              phonetics: "lu gna",
+              translation: "le corps, la parole",
+            },
+            {
+              tibetan: "ཡིད་གསུམ་",
+              phonetics: "yi soum",
+              translation: "et l'esprit",
+            },
+            {
+              tibetan: "གུས་པས་",
+              phonetics: "gu pé",
+              translation: "respectueusement",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tcha tsel lo",
+              translation: "je vous rends hommage",
+            },
+          ],
+        },
+        {
+          id: "sv-org-6",
+          type: "normal",
+          tibetan: "ཕྱི་ནང་གསང་བ་དེ་བཞིན་ཉིད་ཀྱིས་མཆོད༔",
+          phonetics: "tchi nang / sang oua / té chin nyi / kyi tcheu",
+          translation:
+            "Je vous honore d'offrandes externes, internes, secrètes et ultimes.",
+          words: [
+            {
+              tibetan: "ཕྱི་ནང་",
+              phonetics: "tchi nang",
+              translation: "externes et internes",
+            },
+            {
+              tibetan: "གསང་བ་",
+              phonetics: "sang oua",
+              translation: "secrètes",
+            },
+            {
+              tibetan: "དེ་བཞིན་ཉིད་",
+              phonetics: "té chin nyi",
+              translation: "et ultimes",
+            },
+            {
+              tibetan: "ཀྱིས་མཆོད་",
+              phonetics: "kyi tcheu",
+              translation: "je vous honore d'offrandes",
+            },
+          ],
+        },
+        {
+          id: "sv-org-7",
+          type: "normal",
+          tibetan: "རྟེན་མཆོག་བདེ་གཤེགས་རྣམས་ཀྱི་སྤྱན་སྔ་རུ༔",
+          phonetics: "ten tcho / dé shek / nam kyi / tchen gna rou",
+          translation:
+            "En la présence de ces supports suprêmes que sont les sugatas,",
+          words: [
+            {
+              tibetan: "རྟེན་མཆོག་",
+              phonetics: "ten tcho",
+              translation: "supports suprêmes",
+            },
+            {
+              tibetan: "བདེ་གཤེགས་",
+              phonetics: "dé shek",
+              translation: "sugatas",
+            },
+            {
+              tibetan: "རྣམས་ཀྱི་",
+              phonetics: "nam kyi",
+              translation: "de ces",
+            },
+            {
+              tibetan: "སྤྱན་སྔ་རུ་",
+              phonetics: "tchen gna rou",
+              translation: "en la présence",
+            },
+          ],
+        },
+        {
+          id: "sv-org-8",
+          type: "normal",
+          tibetan: "སྔོན་གྱི་སྡིག་པའི་ཚོགས་ལ་བདག་གནོང་ཞིང་༔",
+          phonetics: "gneun gyi / dik peï / tso la / da nong ching",
+          translation: "J'éprouve du remord pour les négativités du passé",
+          words: [
+            {
+              tibetan: "སྔོན་གྱི་",
+              phonetics: "gneun gyi",
+              translation: "du passé",
+            },
+            {
+              tibetan: "སྡིག་པའི་",
+              phonetics: "dik peï",
+              translation: "négativités",
+            },
+            {
+              tibetan: "ཚོགས་ལ་",
+              phonetics: "tso la",
+              translation: "accumulées",
+            },
+            {
+              tibetan: "བདག་གནོང་ཞིང་",
+              phonetics: "da nong ching",
+              translation: "j'éprouve du remords",
+            },
+          ],
+        },
+        {
+          id: "sv-org-9",
+          type: "normal",
+          tibetan: "ད་ལྟའི་མི་དགེ་འགྱོད་པས་རབ་ཏུ་བཤགས༔",
+          phonetics: "ta teï / mi gué / gyeu pé / rap tou / sha",
+          translation:
+            "Et du regret pour les non-vertus du présent. Je les confesse entièrement !",
+          words: [
+            {
+              tibetan: "ད་ལྟའི་",
+              phonetics: "ta teï",
+              translation: "du présent",
+            },
+            {
+              tibetan: "མི་དགེ་",
+              phonetics: "mi gué",
+              translation: "non-vertus",
+            },
+            {
+              tibetan: "འགྱོད་པས་",
+              phonetics: "gyeu pé",
+              translation: "du regret",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "entièrement",
+            },
+            {
+              tibetan: "བཤགས་",
+              phonetics: "sha",
+              translation: "je confesse",
+            },
+          ],
+        },
+        {
+          id: "sv-org-10",
+          type: "normal",
+          tibetan: "ཕྱིན་ཆད་དེ་ལས་ལྡོག་ཕྱིར་བདག་གིས་བསྡམ༔",
+          phonetics: "tchin tché / té lé / dok tchir / da gui dam",
+          translation:
+            "À partir de maintenant et afin de m'en détourner, je m'abstiendrai [de telles actions].",
+          words: [
+            {
+              tibetan: "ཕྱིན་ཆད་",
+              phonetics: "tchin tché",
+              translation: "à partir de maintenant",
+            },
+            { tibetan: "དེ་ལས་", phonetics: "té lé", translation: "de cela" },
+            {
+              tibetan: "ལྡོག་ཕྱིར་",
+              phonetics: "dok tchir",
+              translation: "afin de me détourner",
+            },
+            {
+              tibetan: "བདག་གིས་བསྡམ་",
+              phonetics: "da gui dam",
+              translation: "je m'abstiendrai",
+            },
+          ],
+        },
+        {
+          id: "sv-org-11",
+          type: "normal",
+          tibetan: "བསོད་ནམས་དགེ་ཚོགས་ཀུན་ལ་ཡི་རང་ངོ་༔",
+          phonetics: "seu nam / gué tso / kun la / yi rang gno",
+          translation:
+            "Je me réjouis de toutes les accumulations de mérite et de vertu.",
+          words: [
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "seu nam",
+              translation: "de mérite",
+            },
+            {
+              tibetan: "དགེ་ཚོགས་",
+              phonetics: "gué tso",
+              translation: "accumulations de vertu",
+            },
+            {
+              tibetan: "ཀུན་ལ་",
+              phonetics: "kun la",
+              translation: "de toutes",
+            },
+            {
+              tibetan: "ཡི་རང་ངོ་",
+              phonetics: "yi rang gno",
+              translation: "je me réjouis",
+            },
+          ],
+        },
+        {
+          id: "sv-org-12",
+          type: "normal",
+          tibetan: "རྒྱལ་བའི་ཚོགས་རྣམས་མྱ་ངན་མི་འདའ་བར༔",
+          phonetics: "gyal oueï / tso nam / nya gnen / mi da ouar",
+          translation:
+            "Je prie les assemblées des Vainqueurs de ne pas passer en nirvana",
+          words: [
+            {
+              tibetan: "རྒྱལ་བའི་",
+              phonetics: "gyal oueï",
+              translation: "Vainqueurs",
+            },
+            {
+              tibetan: "ཚོགས་རྣམས་",
+              phonetics: "tso nam",
+              translation: "assemblées",
+            },
+            {
+              tibetan: "མྱ་ངན་",
+              phonetics: "nya gnen",
+              translation: "en nirvana",
+            },
+            {
+              tibetan: "མི་འདའ་བར་",
+              phonetics: "mi da ouar",
+              translation: "n'allez pas",
+            },
+          ],
+        },
+        {
+          id: "sv-org-13",
+          type: "normal",
+          tibetan: "སྡེ་སྣོད་གསུམ་དང་བླ་མེད་ཆོས་འཁོར་བསྐོར༔",
+          phonetics: "dé neu / soum tang / la mé / tcheu khor kor",
+          translation:
+            "Et de tourner la roue de l'insurpassable enseignement et des trois corbeilles.",
+          words: [
+            {
+              tibetan: "སྡེ་སྣོད་",
+              phonetics: "dé neu",
+              translation: "des corbeilles",
+            },
+            {
+              tibetan: "གསུམ་དང་",
+              phonetics: "soum tang",
+              translation: "les trois",
+            },
+            {
+              tibetan: "བླ་མེད་",
+              phonetics: "la mé",
+              translation: "insurpassable",
+            },
+            {
+              tibetan: "ཆོས་འཁོར་བསྐོར་",
+              phonetics: "tcheu khor kor",
+              translation: "tourner la roue de l'enseignement",
+            },
+          ],
+        },
+        {
+          id: "sv-org-14",
+          type: "normal",
+          tibetan: "དགེ་ཚོགས་མ་ལུས་འགྲོ་བའི་རྒྱུད་ལ་བསྔོ༔",
+          phonetics: "gué tso / ma lu / dro oueï gyu la / gno",
+          translation:
+            "Je dédie cette accumulation de vertu à l'esprit de tous les êtres.",
+          words: [
+            {
+              tibetan: "དགེ་ཚོགས་",
+              phonetics: "gué tso",
+              translation: "cette accumulation de vertu",
+            },
+            {
+              tibetan: "མ་ལུས་",
+              phonetics: "ma lu",
+              translation: "sans exception",
+            },
+            {
+              tibetan: "འགྲོ་བའི་རྒྱུད་ལ་",
+              phonetics: "dro oueï gyu la",
+              translation: "à l'esprit des êtres",
+            },
+            { tibetan: "བསྔོ་", phonetics: "gno", translation: "je dédie" },
+          ],
+        },
+        {
+          id: "sv-org-15",
+          type: "normal",
+          tibetan: "འགྲོ་རྣམས་བླ་མེད་ཐར་པའི་སར་ཕྱིན་ཤོག༔",
+          phonetics: "dro nam / la meï / thar peï / sar tchin sho",
+          translation:
+            "Puissent-ils tous atteindre la terre de l'insurpassable libération.",
+          words: [
+            {
+              tibetan: "འགྲོ་རྣམས་",
+              phonetics: "dro nam",
+              translation: "tous les êtres",
+            },
+            {
+              tibetan: "བླ་མེད་",
+              phonetics: "la meï",
+              translation: "insurpassable",
+            },
+            {
+              tibetan: "ཐར་པའི་",
+              phonetics: "thar peï",
+              translation: "de la libération",
+            },
+            {
+              tibetan: "སར་ཕྱིན་ཤོག་",
+              phonetics: "sar tchin sho",
+              translation: "puissent-ils atteindre la terre",
+            },
+          ],
+        },
+        {
+          id: "sv-org-16",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་སྲས་བཅས་བདག་ལ་དགོངས་སུ་གསོལ༔",
+          phonetics: "sang gyé / sé tché / da la / gong sou seul",
+          translation:
+            "Bouddhas et bodhisattvas, accordez-moi votre attention!",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyé",
+              translation: "Bouddhas",
+            },
+            {
+              tibetan: "སྲས་བཅས་",
+              phonetics: "sé tché",
+              translation: "et bodhisattvas",
+            },
+            { tibetan: "བདག་ལ་", phonetics: "da la", translation: "à moi" },
+            {
+              tibetan: "དགོངས་སུ་གསོལ་",
+              phonetics: "gong sou seul",
+              translation: "accordez votre attention",
+            },
+          ],
+        },
+        {
+          id: "sv-org-17",
+          type: "normal",
+          tibetan: "བདག་གིས་བརྩམས་པའི་སྨོན་ལམ་རབ་བཟང་འདི༔",
+          phonetics: "da gui / tsam peï / meun lam / rap zang di",
+          translation:
+            "Cette excellente prière d'aspiration que je viens de commencer,",
+          words: [
+            {
+              tibetan: "བདག་གིས་",
+              phonetics: "da gui",
+              translation: "par moi",
+            },
+            {
+              tibetan: "བརྩམས་པའི་",
+              phonetics: "tsam peï",
+              translation: "composée",
+            },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "meun lam",
+              translation: "prière d'aspiration",
+            },
+            {
+              tibetan: "རབ་བཟང་འདི་",
+              phonetics: "rap zang di",
+              translation: "cette excellente",
+            },
+          ],
+        },
+        {
+          id: "sv-org-18",
+          type: "normal",
+          tibetan: "རྒྱལ་བ་ཀུན་ཏུ་བཟང་དང་དེ་སྲས་དང་༔",
+          phonetics: "gyal oua / kun tou / zang tang / té sé tang",
+          translation:
+            "Avec une compréhension pareille à celle du victorieux Samantabhadra,",
+          words: [
+            {
+              tibetan: "རྒྱལ་བ་",
+              phonetics: "gyal oua",
+              translation: "du victorieux",
+            },
+            {
+              tibetan: "ཀུན་ཏུ་",
+              phonetics: "kun tou",
+              translation: "Samanta-",
+            },
+            {
+              tibetan: "བཟང་དང་",
+              phonetics: "zang tang",
+              translation: "-bhadra",
+            },
+            {
+              tibetan: "དེ་སྲས་དང་",
+              phonetics: "té sé tang",
+              translation: "ses fils et",
+            },
+          ],
+        },
+        {
+          id: "sv-org-19",
+          type: "normal",
+          tibetan: "འཕགས་པ་འཇམ་དཔལ་དབྱངས་ཀྱིས་མཁྱེན་པ་ལྟར༔",
+          phonetics: "pag pa / djam pal / yang kyi / kyen pa tar",
+          translation: "De ses fils et du noble Manjugosha,",
+          words: [
+            {
+              tibetan: "འཕགས་པ་",
+              phonetics: "pag pa",
+              translation: "du noble",
+            },
+            {
+              tibetan: "འཇམ་དཔལ་",
+              phonetics: "djam pal",
+              translation: "Manju-",
+            },
+            {
+              tibetan: "དབྱངས་ཀྱིས་",
+              phonetics: "yang kyi",
+              translation: "-gosha",
+            },
+            {
+              tibetan: "མཁྱེན་པ་ལྟར་",
+              phonetics: "kyen pa tar",
+              translation: "ainsi connu",
+            },
+          ],
+        },
+        {
+          id: "sv-org-20",
+          type: "normal",
+          tibetan: "དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཤོག༔",
+          phonetics: "té ta / kun gyi / djé sou / da lop sho",
+          translation: "À leur suite à tous, puissé-je m'y entraîner!",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "té ta", translation: "d'eux" },
+            {
+              tibetan: "ཀུན་གྱི་",
+              phonetics: "kun gyi",
+              translation: "de tous",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
+              translation: "à leur suite",
+            },
+            {
+              tibetan: "བདག་སློབ་ཤོག་",
+              phonetics: "da lop sho",
+              translation: "puissé-je m'entraîner",
+            },
+          ],
+        },
+        {
+          id: "sv-org-21",
+          type: "normal",
+          tibetan: "བསྟན་པའི་དཔལ་གྱུར་བླ་མ་རིན་ཆེན་རྣམས༔",
+          phonetics: "ten peï / pal gyour / la ma / rin tchen nam",
+          translation:
+            "Puissent les précieux maîtres, la gloire de l'enseignement,",
+          words: [
+            {
+              tibetan: "བསྟན་པའི་",
+              phonetics: "ten peï",
+              translation: "l'enseignement",
+            },
+            {
+              tibetan: "དཔལ་གྱུར་",
+              phonetics: "pal gyour",
+              translation: "la gloire",
+            },
+            {
+              tibetan: "བླ་མ་",
+              phonetics: "la ma",
+              translation: "les maîtres",
+            },
+            {
+              tibetan: "རིན་ཆེན་རྣམས་",
+              phonetics: "rin tchen nam",
+              translation: "précieux",
+            },
+          ],
+        },
+        {
+          id: "sv-org-22",
+          type: "normal",
+          tibetan: "ནམ་མཁའ་བཞིན་དུ་ཀུན་ལ་ཁྱབ་པར་ཤོག༔",
+          phonetics: "nam kha / chin tou / kun la / kyap par sho",
+          translation: "Être partout présents comme l'espace,",
+          words: [
+            {
+              tibetan: "ནམ་མཁའ་",
+              phonetics: "nam kha",
+              translation: "l'espace",
+            },
+            {
+              tibetan: "བཞིན་དུ་",
+              phonetics: "chin tou",
+              translation: "comme",
+            },
+            {
+              tibetan: "ཀུན་ལ་",
+              phonetics: "kun la",
+              translation: "partout",
+            },
+            {
+              tibetan: "ཁྱབ་པར་ཤོག་",
+              phonetics: "kyap par sho",
+              translation: "puissent-ils être présents",
+            },
+          ],
+        },
+        {
+          id: "sv-org-23",
+          type: "normal",
+          tibetan: "ཉི་ཟླ་བཞིན་དུ་ཀུན་ལ་གསལ་བར་ཤོག༔",
+          phonetics: "nyi da / chin tou / kun la / sel ouar sho",
+          translation: "Tout éclairer comme le soleil et la lune",
+          words: [
+            {
+              tibetan: "ཉི་ཟླ་",
+              phonetics: "nyi da",
+              translation: "soleil et lune",
+            },
+            {
+              tibetan: "བཞིན་དུ་",
+              phonetics: "chin tou",
+              translation: "comme",
+            },
+            {
+              tibetan: "ཀུན་ལ་",
+              phonetics: "kun la",
+              translation: "tout",
+            },
+            {
+              tibetan: "གསལ་བར་ཤོག་",
+              phonetics: "sel ouar sho",
+              translation: "puissent-ils éclairer",
+            },
+          ],
+        },
+        {
+          id: "sv-org-24",
+          type: "normal",
+          tibetan: "རི་བོ་བཞིན་དུ་རྟག་ཏུ་བརྟན་པར་ཤོག༔",
+          phonetics: "ri ouo / chin tou / tak tou / ten par sho",
+          translation: "Et demeurer continuellement comme une montagne !",
+          words: [
+            {
+              tibetan: "རི་བོ་",
+              phonetics: "ri ouo",
+              translation: "montagne",
+            },
+            {
+              tibetan: "བཞིན་དུ་",
+              phonetics: "chin tou",
+              translation: "comme",
+            },
+            {
+              tibetan: "རྟག་ཏུ་",
+              phonetics: "tak tou",
+              translation: "continuellement",
+            },
+            {
+              tibetan: "བརྟན་པར་ཤོག་",
+              phonetics: "ten par sho",
+              translation: "puissent-ils demeurer",
+            },
+          ],
+        },
+        {
+          id: "sv-org-25",
+          type: "normal",
+          tibetan: "བསྟན་པའི་གཞི་མ་དགེ་འདུན་རིན་པོ་ཆེ༔",
+          phonetics: "ten peï / chi ma / guen dun / rin po tché",
+          translation: "Que le joyau du Sangha, l'assise de l'enseignement,",
+          words: [
+            {
+              tibetan: "བསྟན་པའི་",
+              phonetics: "ten peï",
+              translation: "l'enseignement",
+            },
+            {
+              tibetan: "གཞི་མ་",
+              phonetics: "chi ma",
+              translation: "assise",
+            },
+            {
+              tibetan: "དགེ་འདུན་",
+              phonetics: "guen dun",
+              translation: "Sangha",
+            },
+            {
+              tibetan: "རིན་པོ་ཆེ་",
+              phonetics: "rin po tché",
+              translation: "joyau",
+            },
+          ],
+        },
+        {
+          id: "sv-org-26",
+          type: "normal",
+          tibetan: "ཐུགས་མཐུན་ཁྲིམས་གཙང་བསླབ་གསུམ་གྱིས་ཕྱུག་ཤོག༔",
+          phonetics: "thouk thun / trim tsang / lab soum / gyi tchouk sho",
+          translation:
+            "Soit riche de l'harmonie, d'une discipline pure et des trois entraînements!",
+          words: [
+            {
+              tibetan: "ཐུགས་མཐུན་",
+              phonetics: "thouk thun",
+              translation: "harmonie",
+            },
+            {
+              tibetan: "ཁྲིམས་གཙང་",
+              phonetics: "trim tsang",
+              translation: "discipline pure",
+            },
+            {
+              tibetan: "བསླབ་གསུམ་",
+              phonetics: "lab soum",
+              translation: "trois entraînements",
+            },
+            {
+              tibetan: "གྱིས་ཕྱུག་ཤོག་",
+              phonetics: "gyi tchouk sho",
+              translation: "puisse-t-il en être riche",
+            },
+          ],
+        },
+        {
+          id: "sv-org-27",
+          type: "normal",
+          tibetan: "བསྟན་པའི་སྙིང་པོ་གསང་སྔགས་སྒྲུབ་པའི་སྡེ༔",
+          phonetics: "ten peï / nying po / sang gna / droup peï dé",
+          translation:
+            "Que les pratiquants du mantrayana - l'essence de l'enseignement -",
+          words: [
+            {
+              tibetan: "བསྟན་པའི་",
+              phonetics: "ten peï",
+              translation: "enseignement",
+            },
+            {
+              tibetan: "སྙིང་པོ་",
+              phonetics: "nying po",
+              translation: "l'essence",
+            },
+            {
+              tibetan: "གསང་སྔགས་",
+              phonetics: "sang gna",
+              translation: "mantrayana",
+            },
+            {
+              tibetan: "སྒྲུབ་པའི་སྡེ་",
+              phonetics: "droup peï dé",
+              translation: "les pratiquants",
+            },
+          ],
+        },
+        {
+          id: "sv-org-28",
+          type: "normal",
+          tibetan: "དམ་ཚིག་ལྡན་ཞིང་བསྐྱེད་རྫོགས་མཐར་ཕྱིན་ཤོག༔",
+          phonetics: "dam tsik / den ching / kyé dzok / tar tchin sho",
+          translation:
+            "Conservent leurs samayas et parachèvent les phases de génération et de perfection!",
+          words: [
+            {
+              tibetan: "དམ་ཚིག་",
+              phonetics: "dam tsik",
+              translation: "leurs samayas",
+            },
+            {
+              tibetan: "ལྡན་ཞིང་",
+              phonetics: "den ching",
+              translation: "qu'ils conservent",
+            },
+            {
+              tibetan: "བསྐྱེད་རྫོགས་",
+              phonetics: "kyé dzok",
+              translation: "génération et perfection",
+            },
+            {
+              tibetan: "མཐར་ཕྱིན་ཤོག་",
+              phonetics: "tar tchin sho",
+              translation: "puissent-ils parachever",
+            },
+          ],
+        },
+        {
+          id: "sv-org-29",
+          type: "normal",
+          tibetan: "བསྟན་པའི་སྦྱིན་བདག་ཆོས་སྐྱོང་རྒྱལ་པོ་ཡང་༔",
+          phonetics: "ten peï / djin da / tcheu kyong / gyal po yang",
+          translation:
+            "Puissent les bienfaiteurs de l'enseignement et les rois protecteurs du Dharma",
+          words: [
+            {
+              tibetan: "བསྟན་པའི་",
+              phonetics: "ten peï",
+              translation: "enseignement",
+            },
+            {
+              tibetan: "སྦྱིན་བདག་",
+              phonetics: "djin da",
+              translation: "les bienfaiteurs",
+            },
+            {
+              tibetan: "ཆོས་སྐྱོང་",
+              phonetics: "tcheu kyong",
+              translation: "protecteurs du Dharma",
+            },
+            {
+              tibetan: "རྒྱལ་པོ་ཡང་",
+              phonetics: "gyal po yang",
+              translation: "et les rois",
+            },
+          ],
+        },
+        {
+          id: "sv-org-30",
+          type: "normal",
+          tibetan: "ཆབ་སྲིད་རྒྱས་ཤིང་བསྟན་ལ་སྨན་པར་ཤོག༔",
+          phonetics: "tchap si / gyé shing / ten la / men par sho",
+          translation:
+            "Gagner en influence et soutenir la doctrine du Bouddha !",
+          words: [
+            {
+              tibetan: "ཆབ་སྲིད་",
+              phonetics: "tchap si",
+              translation: "leurinfluence",
+            },
+            {
+              tibetan: "རྒྱས་ཤིང་",
+              phonetics: "gyé shing",
+              translation: "qu'elle s'étende",
+            },
+            {
+              tibetan: "བསྟན་ལ་",
+              phonetics: "ten la",
+              translation: "la doctrine",
+            },
+            {
+              tibetan: "སྨན་པར་ཤོག་",
+              phonetics: "men par sho",
+              translation: "puissent-ils soutenir",
+            },
+          ],
+        },
+        {
+          id: "sv-org-31",
+          type: "normal",
+          tibetan: "བསྟན་པའི་ཞབས་འདེགས་རྒྱལ་རིགས་བློན་པོ་ཡང་༔",
+          phonetics: "ten peï / chap dek / gyal rik / leun po yang",
+          translation:
+            "Puissent les familles royales et les ministres au service de l'enseignement",
+          words: [
+            {
+              tibetan: "བསྟན་པའི་",
+              phonetics: "ten peï",
+              translation: "l'enseignement",
+            },
+            {
+              tibetan: "ཞབས་འདེགས་",
+              phonetics: "chap dek",
+              translation: "au service",
+            },
+            {
+              tibetan: "རྒྱལ་རིགས་",
+              phonetics: "gyal rik",
+              translation: "les familles royales",
+            },
+            {
+              tibetan: "བློན་པོ་ཡང་",
+              phonetics: "leun po yang",
+              translation: "et les ministres",
+            },
+          ],
+        },
+        {
+          id: "sv-org-32",
+          type: "normal",
+          tibetan: "བློ་གྲོས་རབ་འཕེལ་རྩལ་དང་ལྡན་པར་ཤོག༔",
+          phonetics: "lo dreu / rap pel / tsel tang / den par sho",
+          translation:
+            "Voir leur discernement s'épanouir et acquérir des compétences !",
+          words: [
+            {
+              tibetan: "བློ་གྲོས་",
+              phonetics: "lo dreu",
+              translation: "le discernement",
+            },
+            {
+              tibetan: "རབ་འཕེལ་",
+              phonetics: "rap pel",
+              translation: "s'épanouir",
+            },
+            {
+              tibetan: "རྩལ་དང་",
+              phonetics: "tsel tang",
+              translation: "des compétences",
+            },
+            {
+              tibetan: "ལྡན་པར་ཤོག་",
+              phonetics: "den par sho",
+              translation: "puissent-ils acquérir",
+            },
+          ],
+        },
+        {
+          id: "sv-org-33",
+          type: "normal",
+          tibetan: "བསྟན་པའི་གསོས་བྱེད་ཁྱིམ་བདག་འབྱོར་ལྡན་རྣམས༔",
+          phonetics: "ten peï / seu djé / kyim da / djor den nam",
+          translation: "Que les laïcs fortunés, soutien de la doctrine,",
+          words: [
+            { tibetan: "བསྟན་པའི་", phonetics: "ten peï", translation: "doctrine" },
+            { tibetan: "གསོས་བྱེད་", phonetics: "seu djé", translation: "soutien" },
+            { tibetan: "ཁྱིམ་བདག་", phonetics: "kyim da", translation: "les laïcs" },
+            { tibetan: "འབྱོར་ལྡན་རྣམས་", phonetics: "djor den nam", translation: "fortunés" },
+          ],
+        },
+        {
+          id: "sv-org-34",
+          type: "normal",
+          tibetan: "ལོངས་སྤྱོད་ལྡན་ཞིང་ཉེར་འཚེ་མེད་པར་ཤོག༔",
+          phonetics: "long tcheu / den ching / nyer tsé / mé par sho",
+          translation: "Soient prospères et à l'abri de toute nuisance !",
+          words: [
+            { tibetan: "ལོངས་སྤྱོད་", phonetics: "long tcheu", translation: "prospères" },
+            { tibetan: "ལྡན་ཞིང་", phonetics: "den ching", translation: "qu'ils soient" },
+            { tibetan: "ཉེར་འཚེ་", phonetics: "nyer tsé", translation: "toute nuisance" },
+            { tibetan: "མེད་པར་ཤོག་", phonetics: "mé par sho", translation: "puissent-ils être à l'abri" },
+          ],
+        },
+        {
+          id: "sv-org-35",
+          type: "normal",
+          tibetan: "བསྟན་ལ་དད་པའི་ཡངས་པའི་རྒྱལ་ཁམས་ཀུན༔",
+          phonetics: "ten la / té peï / yang peï / gyal kham kun",
+          translation: "Que tous les vastes royaumes plaçant leur confiance dans l'enseignement",
+          words: [
+            { tibetan: "བསྟན་ལ་", phonetics: "ten la", translation: "dans l'enseignement" },
+            { tibetan: "དད་པའི་", phonetics: "té peï", translation: "plaçant leur confiance" },
+            { tibetan: "ཡངས་པའི་", phonetics: "yang peï", translation: "vastes" },
+            { tibetan: "རྒྱལ་ཁམས་ཀུན་", phonetics: "gyal kham kun", translation: "tous les royaumes" },
+          ],
+        },
+        {
+          id: "sv-org-36",
+          type: "normal",
+          tibetan: "བདེ་སྐྱིད་ལྡན་ཞིང་བར་ཆད་ཞི་བར་ཤོག༔",
+          phonetics: "dé kyi / den ching / bar tché / chi ouar sho",
+          translation: "Connaissent bonheur et bien-être et voient tous leurs obstacles se dissiper!",
+          words: [
+            { tibetan: "བདེ་སྐྱིད་", phonetics: "dé kyi", translation: "bonheur et bien-être" },
+            { tibetan: "ལྡན་ཞིང་", phonetics: "den ching", translation: "qu'ils connaissent" },
+            { tibetan: "བར་ཆད་", phonetics: "bar tché", translation: "leurs obstacles" },
+            { tibetan: "ཞི་བར་ཤོག་", phonetics: "chi ouar sho", translation: "puissent-ils se dissiper" },
+          ],
+        },
+        {
+          id: "sv-org-37",
+          type: "normal",
+          tibetan: "ལམ་ལ་གནས་པའི་རྣལ་འབྱོར་བདག་ཉིད་ཀྱང་༔",
+          phonetics: "lam la / né peï / nal djor / da nyi kyang",
+          translation: "Quant à moi, le pratiquant qui est sur la voie,",
+          words: [
+            { tibetan: "ལམ་ལ་", phonetics: "lam la", translation: "sur la voie" },
+            { tibetan: "གནས་པའི་", phonetics: "né peï", translation: "demeurant" },
+            { tibetan: "རྣལ་འབྱོར་", phonetics: "nal djor", translation: "le pratiquant" },
+            { tibetan: "བདག་ཉིད་ཀྱང་", phonetics: "da nyi kyang", translation: "moi-même" },
+          ],
+        },
+        {
+          id: "sv-org-38",
+          type: "normal",
+          tibetan: "དམ་ཚིག་མི་ཉམས་བསམ་པ་འགྲུབ་པར་ཤོག༔",
+          phonetics: "dam tsik / mi nyang / sam pa / droup par sho",
+          translation: "Puissent mes samayas être intacts et mes souhaits se réaliser!",
+          words: [
+            { tibetan: "དམ་ཚིག་", phonetics: "dam tsik", translation: "mes samayas" },
+            { tibetan: "མི་ཉམས་", phonetics: "mi nyang", translation: "intacts" },
+            { tibetan: "བསམ་པ་", phonetics: "sam pa", translation: "mes souhaits" },
+            { tibetan: "འགྲུབ་པར་ཤོག་", phonetics: "droup par sho", translation: "puissent-ils se réaliser" },
+          ],
+        },
+        {
+          id: "sv-org-39",
+          type: "normal",
+          tibetan: "བདག་ལ་བཟང་ངན་ལས་ཀྱིས་འབྲེལ་གྱུར་གང་༔",
+          phonetics: "da la / zang gnen / lé kyi / drel gyour kang",
+          translation: "Que tous ceux qui me sont liés par des actions positives ou négatives",
+          words: [
+            { tibetan: "བདག་ལ་", phonetics: "da la", translation: "à moi" },
+            { tibetan: "བཟང་ངན་", phonetics: "zang gnen", translation: "positives ou négatives" },
+            { tibetan: "ལས་ཀྱིས་", phonetics: "lé kyi", translation: "actions" },
+            { tibetan: "འབྲེལ་གྱུར་གང་", phonetics: "drel gyour kang", translation: "tous ceux qui me sont liés" },
+          ],
+        },
+        {
+          id: "sv-org-40",
+          type: "normal",
+          tibetan: "གནས་སྐབས་མཐར་ཐུག་རྒྱལ་བས་རྗེས་འཛིན་ཤོག༔",
+          phonetics: "né kap / thar thouk / gyal oué / djé dzin sho",
+          translation: "Soient pris en charge par les Vainqueurs tant au niveau relatif qu'ultime !",
+          words: [
+            { tibetan: "གནས་སྐབས་", phonetics: "né kap", translation: "au niveau relatif" },
+            { tibetan: "མཐར་ཐུག་", phonetics: "thar thouk", translation: "et ultime" },
+            { tibetan: "རྒྱལ་བས་", phonetics: "gyal oué", translation: "par les Vainqueurs" },
+            { tibetan: "རྗེས་འཛིན་ཤོག་", phonetics: "djé dzin sho", translation: "puissent-ils être pris en charge" },
+          ],
+        },
+        {
+          id: "sv-org-41",
+          type: "normal",
+          tibetan: "འགྲོ་རྣམས་བླ་མེད་ཐེག་པའི་སྒོར་ཞུགས་ནས༔",
+          phonetics: "dro nam / la mé / thek peï / gor chou né",
+          translation: "Puissent tous les êtres ayant franchi le seuil de l'insurpassable véhicule",
+          words: [
+            { tibetan: "འགྲོ་རྣམས་", phonetics: "dro nam", translation: "tous les êtres" },
+            { tibetan: "བླ་མེད་", phonetics: "la mé", translation: "insurpassable" },
+            { tibetan: "ཐེག་པའི་", phonetics: "thek peï", translation: "véhicule" },
+            { tibetan: "སྒོར་ཞུགས་ནས་", phonetics: "gor chou né", translation: "ayant franchi le seuil" },
+          ],
+        },
+        {
+          id: "sv-org-42",
+          type: "normal",
+          tibetan: "ཀུན་བཟང་རྒྱལ་སྲིད་ཆེན་པོ་ཐོབ་པར་ཤོག༔",
+          phonetics: "kun zang / gyal si / tchen po / top par sho",
+          translation: "Atteindre le grand royaume de Samantabhadra!",
+          words: [
+            { tibetan: "ཀུན་བཟང་", phonetics: "kun zang", translation: "de Samantabhadra" },
+            { tibetan: "རྒྱལ་སྲིད་", phonetics: "gyal si", translation: "royaume" },
+            { tibetan: "ཆེན་པོ་", phonetics: "tchen po", translation: "grand" },
+            { tibetan: "ཐོབ་པར་ཤོག་", phonetics: "top par sho", translation: "puissent-ils atteindre" },
+          ],
+        },
+        {
+          id: "sv-org-43",
+          type: "normal",
+          tibetan: "ཀུན་བཟང་རྡོ་ཇེ་འཆང་ཆེན་མན་ཆད་ནས།",
+          phonetics: "kun zang / dordjé tchang tchen / men tché né",
+          translation: "Depuis le tout excellent Vajradhara,",
+          words: [
+            { tibetan: "ཀུན་བཟང་", phonetics: "kun zang", translation: "tout excellent" },
+            { tibetan: "རྡོ་ཇེ་འཆང་ཆེན་", phonetics: "dordjé tchang tchen", translation: "grand Vajradhara" },
+            { tibetan: "མན་ཆད་ནས་", phonetics: "men tché né", translation: "depuis" },
+          ],
+        },
+        {
+          id: "sv-org-44",
+          type: "normal",
+          tibetan: "དྲིན་ཆེན་རྩ་བའི་བླ་མ་ཡན་ཆད་ཀྱི།",
+          phonetics: "drin tchen / tsa oueï / la ma / yen tché kyi",
+          translation: "Jusqu'au bienveillant lama racine,",
+          words: [
+            { tibetan: "དྲིན་ཆེན་", phonetics: "drin tchen", translation: "bienveillant" },
+            { tibetan: "རྩ་བའི་", phonetics: "tsa oueï", translation: "racine" },
+            { tibetan: "བླ་མ་", phonetics: "la ma", translation: "lama" },
+            { tibetan: "ཡན་ཆད་ཀྱི་", phonetics: "yen tché kyi", translation: "jusqu'au" },
+          ],
+        },
+        {
+          id: "sv-org-45",
+          type: "normal",
+          tibetan: "འགྲོ་བའི་དོན་དུ་སྨོན་ལམ་གང་བཏབ་པ།",
+          phonetics: "dro oueï / teun tou / meun lam / kang tap pa",
+          translation: "Puissé-je œuvrer à réaliser",
+          words: [
+            { tibetan: "འགྲོ་བའི་", phonetics: "dro oueï", translation: "des êtres" },
+            { tibetan: "དོན་དུ་", phonetics: "teun tou", translation: "pour le bien" },
+            { tibetan: "སྨོན་ལམ་", phonetics: "meun lam", translation: "souhaits" },
+            { tibetan: "གང་བཏབ་པ་", phonetics: "kang tap pa", translation: "formulés" },
+          ],
+        },
+        {
+          id: "sv-org-46",
+          type: "normal",
+          tibetan: "དེ་དག་ཐམས་ཅད་བདག་གིས་འགྲུབ་པར་ཤོག།",
+          phonetics: "dé ta / tham tché / da gui / droup par sho",
+          translation: "Tous les souhaits formulés pour le bien des êtres.",
+          words: [
+            { tibetan: "དེ་དག་", phonetics: "dé ta", translation: "ceux-là" },
+            { tibetan: "ཐམས་ཅད་", phonetics: "tham tché", translation: "tous" },
+            { tibetan: "བདག་གིས་", phonetics: "da gui", translation: "moi" },
+            { tibetan: "འགྲུབ་པར་ཤོག་", phonetics: "droup par sho", translation: "puissé-je les réaliser" },
+          ],
+        },
+        {
+          id: "sv-org-col",
+          type: "colophon",
+          tibetan: "དེ་ལྟར་གྱི་སྨོན་ལམ་དུས་དྲུག་ཏུ་བརྩོན་པར་བྱ། ས་མ་ཡ་རྒྱ༔ ལྷ་སྲས་མུ་རུབ་རྣམ་འཕྲུལ་གཏེར་ཆེན་མཆོག་གྱུར་བདེ་ཆེན་གླིང་པས་གནས་མཆོག་སེང་ཆེན་གནམ་བྲག་གི་གཡས་ཟུར་བྲག་རི་རིན་ཆེན་བརྩེགས་པའི་གོང་མོ་འོག་མ་ནས་ཁྲོམ་གཏེར་དུ་སྤྱན་དྲངས་པའི་བཻ་རོའི་སྐུ་ཆོས་དར་ཤོག་ངོས་མཚོ་རྒྱལ་གྱི་ཕྱག་བྲིས་བོད་ཡིག་བཤུར་མ་ལས་དེ་འཕྲལ་ཉིད་དུ་པདྨ་གར་དབང་བློ་གྲོས་མཐའ་ཡས་ཀྱིས་དག་པར་བཤུས་པ་དགེ་ལེགས་འཕེལ།།",
+          phonetics: "",
+          translation: "Efforcez-vous de réciter cette prière aux six périodes de la journée ! Samaya Gya. L'émanation du prince Mouroup, le grand découvreur de trésor Chokgyur Dechen Lingpa, révéla ce trésor en public, le retirant par le dessous, sur la partie supérieure de la montagne \"Empilement de joyaux\" située sur le côté droit du suprême lieu sacré Sengtchen Namtrak. Il était écrit de la main même de Yéshé Tsogyal en écriture Shourma sur un papier de soie fait à partir de la robe de Vairocana. Padma Garwang Lodreu Thayé en fit aussitôt une authentique transcription. Puissent la vertu et ce qui est bon s'accroître !",
           words: [],
         },
       ],
