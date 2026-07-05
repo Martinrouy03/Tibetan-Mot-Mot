@@ -3,7 +3,6 @@ import { guruYoga } from './guru-yoga';
 import { coeurPrajnaparamita } from './coeur-prajnaparamita';
 import { vajrasattva } from './vajrasattva';
 import { troisAmoncellements } from './trois-amoncellements';
-import { souhaitsSamantabhadra } from './souhaits-samantabhadra';
 import { pratiqueChenrezik } from './pratique-chenrezik';
 import { pratiqueChenrezikThoungma } from './pratique-chenrezik-thoungma';
 import { louangeManjushri } from './louange-manjushri';
@@ -27,24 +26,37 @@ const lojong7Points: PracticeText = {
 };
 
 
-export const practiceTexts: PracticeText[] = [
+export const textesPratique: PracticeText[] = [
   pratiqueChenrezik,
   pratiqueChenrezikThoungma,
-  troisAmoncellements,
   vajrasattva,
-  louangeManjushri,
   guruYoga,
-  souhaitsSamantabhadra,
-  coeurPrajnaparamita,
-  dewachen,
   mahakala,
-  lojong7Points,
+  sauverDesVies,
+  sojong,
+];
+
+export const textesSoutras: PracticeText[] = [
+  troisAmoncellements,
+  coeurPrajnaparamita,
   soutraLongevite,
   dakaYeshe,
-  prieresLongueVie,
-  aspirationsConduiteExcellente,
   vajravidharan,
-  sauverDesVies,
+  aspirationsConduiteExcellente,
+];
+
+export const textesPrieres: PracticeText[] = [
+  louangeManjushri,
+  dewachen,
+  louange12Actes,
+  prieresLongueVie,
+];
+
+export const practiceTexts: PracticeText[] = [
+  ...textesPratique,
+  ...textesSoutras,
+  ...textesPrieres,
+  lojong7Points,
   {
     id: "rituel-tara",
     title: "Rituel de Tara",
@@ -73,8 +85,6 @@ export const practiceTexts: PracticeText[] = [
     thumbnail: "/goldenRosary/12k3.jpeg",
     sections: [],
   } as PracticeText,
-  sojong,
-  louange12Actes,
   {
     id: "37-pratiques",
     title: "Les 37 Pratiques",
