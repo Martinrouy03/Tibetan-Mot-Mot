@@ -10,8 +10,9 @@ function TextGrid({ texts }: { texts: PracticeText[] }) {
       {texts.filter((text) => text.sections.length > 0).map((text) => (
         <button
           key={text.id}
-          className={`text-card${(text.thumbnail || text.thumbnails) ? ' text-card-with-thumbnail' : ''}`}
-          onClick={() => navigate(`/text/${text.id}`)}
+          className={`text-card${(text.thumbnail || text.thumbnails) ? ' text-card-with-thumbnail' : ''}${text.comingSoon ? ' text-card-coming-soon' : ''}`}
+          onClick={() => !text.comingSoon && navigate(`/text/${text.id}`)}
+          disabled={text.comingSoon}
         >
           {text.thumbnail && (
             <div className="text-card-thumbnail-wrapper">
@@ -31,6 +32,7 @@ function TextGrid({ texts }: { texts: PracticeText[] }) {
           <div className="text-card-content">
             <span className="text-card-tibetan tibetan">{text.tibetanTitle}</span>
             <span className="text-card-title">{text.title}</span>
+            {text.comingSoon && <span className="text-card-coming-soon-label">bientôt disponible</span>}
           </div>
         </button>
       ))}

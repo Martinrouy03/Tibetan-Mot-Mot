@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const troisAmoncellements: PracticeText = {
   id: "trois-amoncellements",
   title: "Soutra des trois amoncellements",
-  tibetanTitle: "ཕུང་པོ་གསུམ་གྱི་མདོ",
+  tibetanTitle: "ཕུང་པོ་གསུམ་གྱི་མདོ།",
   audioSrc: "/audio/Sutra_confession.mp3",
   thumbnails: [
     "/35buddhas/Bouddha1.jpg",

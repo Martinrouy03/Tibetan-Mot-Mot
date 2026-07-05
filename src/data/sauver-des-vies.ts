@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const sauverDesVies: PracticeText = {
   id: "sauver-des-vies",
   title: "Pratique pour sauver des vies",
-  tibetanTitle: "ཚེ་ཐར་བཏང་ཐབས་",
+  tibetanTitle: "ཚེ་ཐར་བཏང་ཐབས།",
   thumbnail: "/Amitayus.jpg",
   sections: [
     {

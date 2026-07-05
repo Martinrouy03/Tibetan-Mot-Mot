@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const dewachen: PracticeText = {
   id: "dewachen",
   title: "Souhaits de Dewachen",
-  tibetanTitle: "བདེ་བ་ཅན་",
+  tibetanTitle: "བདེ་བ་ཅན།",
   audioSrc: "/audio/AmitabhaKSR.mp3",
   thumbnail: "/Amitabha.jpg",
   sections: [

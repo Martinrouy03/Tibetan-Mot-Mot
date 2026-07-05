@@ -44,6 +44,7 @@ export interface PracticeText {
   thumbnail?: string;
   thumbnailLogo?: string;
   thumbnails?: string[];
+  comingSoon?: boolean;
 }
 
 export type DisplayMode = 'tibetan' | 'phonetics';

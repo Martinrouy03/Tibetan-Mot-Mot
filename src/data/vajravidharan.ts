@@ -3,7 +3,7 @@
 export const vajravidharan: PracticeText = {
   id: "vajravidharan",
   title: "Dharani de Vajravidāraṇa",
-  tibetanTitle: "རྡོ་རྗེ་རྣམ་འཇོམས་ཀྱི་གཟུངས་",
+  tibetanTitle: "རྡོ་རྗེ་རྣམ་འཇོམས་ཀྱི་གཟུངས།",
   thumbnail: "/vajravidharana.jpg",
   sections: [
     {

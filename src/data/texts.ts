@@ -1,21 +1,21 @@
-import type { PracticeText } from '../types';
-import { guruYoga } from './guru-yoga';
-import { coeurPrajnaparamita } from './coeur-prajnaparamita';
-import { vajrasattva } from './vajrasattva';
-import { troisAmoncellements } from './trois-amoncellements';
-import { pratiqueChenrezik } from './pratique-chenrezik';
-import { pratiqueChenrezikThoungma } from './pratique-chenrezik-thoungma';
-import { louangeManjushri } from './louange-manjushri';
-import { mahakala } from './mahakala';
-import { dewachen } from './dewachen';
-import { sojong } from './sojong';
-import { louange12Actes } from './louange-12-actes';
-import { soutraLongevite } from './soutra-longevite';
-import { dakaYeshe } from './daka-yeshe';
-import { prieresLongueVie } from './prieres-longue-vie';
-import { aspirationsConduiteExcellente } from './aspirations-conduite-excellente';
-import { vajravidharan } from './vajravidharan';
-import { sauverDesVies } from './sauver-des-vies';
+import type { PracticeText } from "../types";
+import { guruYoga } from "./guru-yoga";
+import { coeurPrajnaparamita } from "./coeur-prajnaparamita";
+import { vajrasattva } from "./vajrasattva";
+import { troisAmoncellements } from "./trois-amoncellements";
+import { pratiqueChenrezik } from "./pratique-chenrezik";
+import { pratiqueChenrezikThoungma } from "./pratique-chenrezik-thoungma";
+import { louangeManjushri } from "./louange-manjushri";
+import { mahakala } from "./mahakala";
+import { dewachen } from "./dewachen";
+import { sojong } from "./sojong";
+import { louange12Actes } from "./louange-12-actes";
+import { soutraLongevite } from "./soutra-longevite";
+import { dakaYeshe } from "./daka-yeshe";
+import { prieresLongueVie } from "./prieres-longue-vie";
+import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente";
+import { vajravidharan } from "./vajravidharan";
+import { sauverDesVies } from "./sauver-des-vies";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -25,15 +25,24 @@ const lojong7Points: PracticeText = {
   sections: [],
 };
 
+const guruYogaShamarpa: PracticeText = {
+  id: "guru-yoga-shamarpa",
+  title: "Guru Yoga du 14ème Shamarpa",
+  tibetanTitle: "བླ་མའི་རྣལ་འབྱོར།",
+  thumbnail: "/shamarpa.jpg",
+  comingSoon: true,
+  sections: [{ id: "gys-s1", title: "", phrases: [] }],
+};
 
 export const textesPratique: PracticeText[] = [
   pratiqueChenrezik,
   pratiqueChenrezikThoungma,
-  vajrasattva,
   guruYoga,
-  mahakala,
+  guruYogaShamarpa,
+  vajrasattva,
   sauverDesVies,
   sojong,
+  mahakala,
 ];
 
 export const textesSoutras: PracticeText[] = [

@@ -42,8 +42,20 @@
 }
 
 .text-card:disabled {
-  opacity: 0.4;
+  opacity: 0.5;
   cursor: not-allowed;
+}
+
+.text-card-coming-soon .text-card-content {
+  position: relative;
+}
+
+.text-card-coming-soon-label {
+  position: absolute;
+  bottom: 4px;
+  font-size: 0.65rem;
+  font-style: italic;
+  color: #888;
 }
 
 .text-card-tibetan {

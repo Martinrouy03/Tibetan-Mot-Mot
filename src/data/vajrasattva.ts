@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const vajrasattva: PracticeText = {
   id: "vajrasattva",
   title: "Méditation de Vajrasattva",
-  tibetanTitle: "རྡོ་རྗེ་སེམས་དཔའི་བསྒོམ་བཟླས",
+  tibetanTitle: "རྡོ་རྗེ་སེམས་དཔའི་བསྒོམ་བཟླས།",
   thumbnail: "/vajrasattva.jpg",
   sections: [
     {

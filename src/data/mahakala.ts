@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const mahakala: PracticeText = {
   id: "mahakala",
   title: "Madak",
-  tibetanTitle: "མ་དག་",
+  tibetanTitle: "མ་དག།",
   tibetanOnly: true,
   thumbnail: "/Mahakala.jpg",
   audioSrc: "/audio/Madak.mp3",

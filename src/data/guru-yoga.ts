@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const guruYoga: PracticeText = {
   id: "guru-yoga",
   title: "Guru Yoga du 16ème Karmapa",
-  tibetanTitle: "བླ་མའི་རྣལ་འབྱོར",
+  tibetanTitle: "བླ་མའི་རྣལ་འབྱོར།",
   thumbnail: "/guruyoga_gk16.jpg",
   sections: [
     {
