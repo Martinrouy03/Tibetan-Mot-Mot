@@ -97,7 +97,9 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sv-201" ||
   phraseId === "sv-202" ||
   phraseId === "sv-203" ||
-  phraseId === "sv-204"
+  phraseId === "sv-204" ||
+  phraseId === "gys-s3-mantra" ||
+  phraseId === "gys-s6-mantra"
     ? s
     : s.replace(/་/g, " ").replace(/།/g, "");
 

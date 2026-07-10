@@ -16,6 +16,7 @@ import { prieresLongueVie } from "./prieres-longue-vie";
 import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente";
 import { vajravidharan } from "./vajravidharan";
 import { sauverDesVies } from "./sauver-des-vies";
+import { guruYogaShamarpa } from "./guru-yoga-shamarpa";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -25,14 +26,6 @@ const lojong7Points: PracticeText = {
   sections: [],
 };
 
-const guruYogaShamarpa: PracticeText = {
-  id: "guru-yoga-shamarpa",
-  title: "Guru Yoga du 14ème Shamarpa",
-  tibetanTitle: "བླ་མའི་རྣལ་འབྱོར།",
-  thumbnail: "/shamarpa.jpg",
-  comingSoon: true,
-  sections: [{ id: "gys-s1", title: "", phrases: [] }],
-};
 
 export const textesPratique: PracticeText[] = [
   pratiqueChenrezik,
