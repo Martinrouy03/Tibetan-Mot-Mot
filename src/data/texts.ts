@@ -17,6 +17,7 @@ import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente
 import { vajravidharan } from "./vajravidharan";
 import { sauverDesVies } from "./sauver-des-vies";
 import { guruYogaShamarpa } from "./guru-yoga-shamarpa";
+import { sukhavatiEn } from "./sukhavati-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -52,6 +53,7 @@ export const textesPrieres: PracticeText[] = [
   { ...dewachen, lang: "fr", baseId: "dewachen" },
   { ...louange12Actes, lang: "fr", baseId: "louange-12-actes" },
   { ...prieresLongueVie, lang: "fr", baseId: "prieres-longue-vie" },
+  sukhavatiEn,
 ];
 
 export const practiceTexts: PracticeText[] = [

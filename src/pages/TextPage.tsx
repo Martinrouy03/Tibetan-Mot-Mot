@@ -99,7 +99,8 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sv-203" ||
   phraseId === "sv-204" ||
   phraseId === "gys-s3-mantra" ||
-  phraseId === "gys-s6-mantra"
+  phraseId === "gys-s6-mantra" ||
+  phraseId === "suk-s1-mantra"
     ? s
     : s.replace(/་/g, " ").replace(/།/g, "");
 
@@ -1599,7 +1600,8 @@ export default function TextPage() {
                 </div>
                 {(section.id === "refuge" ||
                   section.id === "supplique" ||
-                  section.id === "ch-refuge") && (
+                  section.id === "ch-refuge" ||
+                  section.id === "suk-s1") && (
                   <button
                     className="scroll-top-btn"
                     onClick={() => {
