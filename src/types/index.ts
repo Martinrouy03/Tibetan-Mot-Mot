@@ -33,6 +33,8 @@ export interface Section {
   audioTimestamp?: number;
 }
 
+export type AppLang = "fr" | "en" | "de" | "es";
+
 export interface PracticeText {
   id: string;
   title: string;
@@ -45,6 +47,8 @@ export interface PracticeText {
   thumbnailLogo?: string;
   thumbnails?: string[];
   comingSoon?: boolean;
+  lang?: AppLang;
+  baseId?: string;
 }
 
 export type DisplayMode = 'tibetan' | 'phonetics';

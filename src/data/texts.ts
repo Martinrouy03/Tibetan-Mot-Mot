@@ -28,30 +28,30 @@ const lojong7Points: PracticeText = {
 
 
 export const textesPratique: PracticeText[] = [
-  pratiqueChenrezik,
-  pratiqueChenrezikThoungma,
-  guruYoga,
-  guruYogaShamarpa,
-  vajrasattva,
-  sauverDesVies,
-  sojong,
-  mahakala,
+  { ...pratiqueChenrezik, lang: "fr", baseId: "pratique-chenrezik" },
+  { ...pratiqueChenrezikThoungma, lang: "fr", baseId: "pratique-chenrezik-thoungma" },
+  { ...guruYoga, lang: "fr", baseId: "guru-yoga" },
+  { ...guruYogaShamarpa, lang: "fr", baseId: "guru-yoga-shamarpa" },
+  { ...vajrasattva, lang: "fr", baseId: "vajrasattva" },
+  { ...sauverDesVies, lang: "fr", baseId: "sauver-des-vies" },
+  { ...sojong, lang: "fr", baseId: "sojong" },
+  { ...mahakala, lang: "fr", baseId: "mahakala" },
 ];
 
 export const textesSoutras: PracticeText[] = [
-  troisAmoncellements,
-  coeurPrajnaparamita,
-  soutraLongevite,
-  dakaYeshe,
-  vajravidharan,
-  aspirationsConduiteExcellente,
+  { ...troisAmoncellements, lang: "fr", baseId: "trois-amoncellements" },
+  { ...coeurPrajnaparamita, lang: "fr", baseId: "coeur-prajnaparamita" },
+  { ...soutraLongevite, lang: "fr", baseId: "soutra-longevite" },
+  { ...dakaYeshe, lang: "fr", baseId: "daka-yeshe" },
+  { ...vajravidharan, lang: "fr", baseId: "vajravidharan" },
+  { ...aspirationsConduiteExcellente, lang: "fr", baseId: "aspirations-conduite-excellente" },
 ];
 
 export const textesPrieres: PracticeText[] = [
-  louangeManjushri,
-  dewachen,
-  louange12Actes,
-  prieresLongueVie,
+  { ...louangeManjushri, lang: "fr", baseId: "louange-manjushri" },
+  { ...dewachen, lang: "fr", baseId: "dewachen" },
+  { ...louange12Actes, lang: "fr", baseId: "louange-12-actes" },
+  { ...prieresLongueVie, lang: "fr", baseId: "prieres-longue-vie" },
 ];
 
 export const practiceTexts: PracticeText[] = [

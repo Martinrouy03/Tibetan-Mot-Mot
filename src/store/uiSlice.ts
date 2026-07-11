@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { DisplayMode, InteractionMode } from '../types';
+import { DisplayMode, InteractionMode, AppLang } from '../types';
 
 interface UiState {
   displayMode: DisplayMode;
@@ -12,6 +12,7 @@ interface UiState {
   seekToTimestamp: number | null;
   breakdownTranslationAbove: boolean;
   lightMode: boolean;
+  language: AppLang;
 }
 
 function loadFromStorage<T>(key: string, fallback: T): T {
@@ -32,6 +33,7 @@ const initialState: UiState = {
   seekToTimestamp: null,
   breakdownTranslationAbove: loadFromStorage('ui.breakdownTranslationAbove', true),
   lightMode: loadFromStorage('ui.lightMode', false),
+  language: loadFromStorage<AppLang>('ui.language', 'fr'),
 };
 
 const uiSlice = createSlice({
@@ -70,8 +72,12 @@ const uiSlice = createSlice({
     toggleLightMode(state) {
       state.lightMode = !state.lightMode;
     },
+    setLanguage(state, action: PayloadAction<AppLang>) {
+      state.language = action.payload;
+      localStorage.setItem('ui.language', JSON.stringify(action.payload));
+    },
   },
 });
 
-export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp, toggleBreakdownPosition, toggleLightMode } = uiSlice.actions;
+export const { setDisplayMode, setInteractionMode, toggleTranslation, setSelectedPhrase, changeFontSize, setCurrentAudioSrc, toggleAudioPlayer, setSeekToTimestamp, toggleBreakdownPosition, toggleLightMode, setLanguage } = uiSlice.actions;
 export default uiSlice.reducer;
