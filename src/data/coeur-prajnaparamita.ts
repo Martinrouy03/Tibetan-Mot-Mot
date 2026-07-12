@@ -296,12 +296,12 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "ཤེས་རབ་ཀྱི་",
               phonetics: "ché rap ki",
-              translation: "prajnaparamita",
+              translation: "prajna-",
             },
             {
               tibetan: "ཕ་རོལ་ཏུ་ཕྱིན་པ་",
               phonetics: "p'a reul tou tchin pa",
-              translation: "prajnaparamita",
+              translation: "-paramita",
             },
             {
               tibetan: "ཟབ་མོའི་",
@@ -471,12 +471,12 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "ཤེས་རབ་ཀྱི་",
               phonetics: "ché rap ki",
-              translation: "prajna",
+              translation: "prajna-",
             },
             {
               tibetan: "ཕ་རོལ་ཏུ་ཕྱིན་པ་",
               phonetics: "p'a reul tou tchin pa",
-              translation: "paramita",
+              translation: "-paramita",
             },
             {
               tibetan: "ཟབ་མོའི་",
@@ -1644,11 +1644,11 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "ཤེས་རབ་ཀྱི་",
               phonetics: "ché rap ki",
-              translation: "prajna",
+              translation: "prajna-",
             },
             {
               tibetan: "ཕ་རོལ་ཏུ་ཕྱིན་པ་",
-              phonetics: "p'a reul tou tchin pa",
+              phonetics: "-p'a reul tou tchin pa",
               translation: "paramita",
             },
             {

@@ -2569,7 +2569,7 @@ export const soutraLongevite: PracticeText = {
           type: "normal",
           tibetan: "།དེའི་སྡིག་པའི་ཕུང་པོ་རི་རབ་ཙམ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།",
           phonetics:
-            "té dik pé p'oung po / ri rap tsam / yang / yong sou / djang war gyour ro",
+            "té dik pé p'oung po / ri rap / tsam yang / yong sou / djang war gyour ro",
           translation:
             "purifiera même un amas de méfaits de la taille du mont Méru.",
           words: [
@@ -2579,11 +2579,15 @@ export const soutraLongevite: PracticeText = {
               translation: "un amas de méfaits",
             },
             {
-              tibetan: "རི་རབ་ཙམ་",
-              phonetics: "ri rap tsam",
-              translation: "de la taille du mont Méru",
+              tibetan: "རི་རབ་",
+              phonetics: "ri rap",
+              translation: "du mont Méru",
             },
-            { tibetan: "ཡང་", phonetics: "yang", translation: "même" },
+            {
+              tibetan: "ཙམ་ཡང་",
+              phonetics: "tsam yang",
+              translation: "même taille",
+            },
             {
               tibetan: "ཡོངས་སུ་",
               phonetics: "yong sou",
