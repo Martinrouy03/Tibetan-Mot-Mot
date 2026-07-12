@@ -513,7 +513,8 @@ export default function TextPage() {
           >
             <svg viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="currentColor">
               <rect x="3" y="4" width="18" height="2" rx="1"/>
-              <text x="12" y="16" fontSize="9" textAnchor="middle" fontFamily="sans-serif">↕</text>
+              <polygon points="12,7 9,11 15,11"/>
+              <polygon points="12,17 9,13 15,13"/>
               <rect x="3" y="18" width="18" height="2" rx="1"/>
             </svg>
           </button>
