@@ -44,8 +44,7 @@ const LANGS: { code: AppLang; flag: React.ReactNode }[] = [
 ];
 
 function filterByLang(texts: PracticeText[], lang: AppLang): PracticeText[] {
-  if (lang === "fr") return texts.filter((t) => t.sections.length > 0);
-  return texts.filter((t) => t.lang === lang && t.sections.length > 0);
+  return texts.filter((t) => t.sections.length > 0 && (t.lang === lang || (!t.lang && lang === "fr")));
 }
 
 function TextGrid({ texts }: { texts: PracticeText[] }) {

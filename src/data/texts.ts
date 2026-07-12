@@ -18,6 +18,7 @@ import { vajravidharan } from "./vajravidharan";
 import { sauverDesVies } from "./sauver-des-vies";
 import { guruYogaShamarpa } from "./guru-yoga-shamarpa";
 import { sukhavatiEn } from "./sukhavati-en";
+import { louangeManjushriEn } from "./louange-manjushri-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -54,6 +55,7 @@ export const textesPrieres: PracticeText[] = [
   { ...louange12Actes, lang: "fr", baseId: "louange-12-actes" },
   { ...prieresLongueVie, lang: "fr", baseId: "prieres-longue-vie" },
   sukhavatiEn,
+  louangeManjushriEn,
 ];
 
 export const practiceTexts: PracticeText[] = [
