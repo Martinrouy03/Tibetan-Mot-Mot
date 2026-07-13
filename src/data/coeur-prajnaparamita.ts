@@ -5,6 +5,7 @@ export const coeurPrajnaparamita: PracticeText = {
   title: "Coeur de la Prajnaparamita",
   tibetanTitle: "ཤེས་རབ་སྙིང་པོ།",
   thumbnail: "/Prajnaparamita.jpg",
+  audioSrc: "/audio/Heart-Sutra-GK.mp3",
   sections: [
     {
       id: "cp-0",

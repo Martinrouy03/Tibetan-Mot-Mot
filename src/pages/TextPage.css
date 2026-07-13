@@ -253,7 +253,8 @@
 }
 
 .text-souhaits-samantabhadra .phrase-container,
-.text-aspirations-conduite-excellente .phrase-container {
+.text-aspirations-conduite-excellente .phrase-container,
+.text-aspirations-conduite-excellente-en .phrase-container {
   position: relative;
   padding-left: 2.5rem;
 }

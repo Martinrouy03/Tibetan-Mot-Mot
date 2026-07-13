@@ -77,7 +77,7 @@ function TextGrid({ texts }: { texts: PracticeText[] }) {
             </div>
           )}
           <div className="text-card-content">
-            <span className="text-card-tibetan tibetan">{text.tibetanTitle}</span>
+            <span className="text-card-tibetan tibetan">{text.shortTibetanTitle ?? text.tibetanTitle}</span>
             <span className="text-card-title">{text.title}</span>
             {text.comingSoon && <span className="text-card-coming-soon-label">bientôt disponible</span>}
           </div>

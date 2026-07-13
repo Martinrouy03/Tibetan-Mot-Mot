@@ -4,7 +4,7 @@ export const troisAmoncellements: PracticeText = {
   id: "trois-amoncellements",
   title: "Soutra des trois amoncellements",
   tibetanTitle: "ཕུང་པོ་གསུམ་གྱི་མདོ།",
-  audioSrc: "/audio/Sutra_confession.mp3",
+  audioSrc: "/audio/Sutra-Of-The-Three-Sections-GK.mp3",
   thumbnails: [
     "/35buddhas/Bouddha1.jpg",
     "/35buddhas/Bouddha2.jpg",

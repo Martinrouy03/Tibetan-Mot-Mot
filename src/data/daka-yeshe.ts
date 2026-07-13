@@ -5,6 +5,7 @@ export const dakaYeshe: PracticeText = {
   title: "Sagesse du moment de la mort",
   tibetanTitle: "འདའ་ཀ་ཡེ་ཤེས་མདོ།",
   thumbnail: "/akasha.jpg",
+  audioSrc: "/audio/daka-yeshe-GK.mp3",
   sections: [
     {
       id: "dy-0",

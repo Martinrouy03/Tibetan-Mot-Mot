@@ -3,8 +3,12 @@ import type { PracticeText } from "../types";
 export const aspirationsConduiteExcellente: PracticeText = {
   id: "aspirations-conduite-excellente",
   title: "Aspirations à la Conduite Excellente",
-  tibetanTitle: "བཟང་སྤྱོད་སྨོན་ལམ།",
-  audioSrc: "/audio/Samantabhadra.mp3",
+  longTitle:
+    "La Reine des Aspirations à la Conduite Excellente, extrait de l'Avataṃsaka Sūtra",
+  tibetanTitle:
+    "མདོ་སྡེ་ཕལ་པོ་ཆེ་ལས་བྱུང་བའི་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོའི་མདོ་ནི།",
+  shortTibetanTitle: "བཟང་སྤྱོད་སྨོན་ལམ་",
+  audioSrc: "/audio/Samantabhadra-GK.mp3",
   thumbnail: "/Samantabhadra.jpg",
   sections: [
     {
@@ -1398,14 +1402,14 @@ export const aspirationsConduiteExcellente: PracticeText = {
             },
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "je" },
             {
-              tibetan: "བྱང་ཆུབ་",
-              phonetics: "djang tchoup",
-              translation: "l'éveil",
+              tibetan: "བྱང་ཆུབ་ཕྱིར་",
+              phonetics: "djang tchoup tchir",
+              translation: "à l'éveil parfait",
             },
             {
-              tibetan: "ཕྱིར་བསྔོའོ་",
-              phonetics: "tchir ngo'o",
-              translation: "je dédie à",
+              tibetan: "བསྔོའོ་",
+              phonetics: "ngo'o",
+              translation: "je dédie",
             },
           ],
         },

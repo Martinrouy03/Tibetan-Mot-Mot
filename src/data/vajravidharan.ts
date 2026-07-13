@@ -5,6 +5,7 @@ export const vajravidharan: PracticeText = {
   title: "Dharani de Vajravidāraṇa",
   tibetanTitle: "རྡོ་རྗེ་རྣམ་འཇོམས་ཀྱི་གཟུངས།",
   thumbnail: "/vajravidharana.jpg",
+  audioSrc: "/audio/Vajra-Vidarana-GK.mp3",
   sections: [
     {
       id: "vvd-s1",

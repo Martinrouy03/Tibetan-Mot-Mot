@@ -40,6 +40,7 @@ export interface PracticeText {
   title: string;
   longTitle?: string;
   tibetanTitle: string;
+  shortTibetanTitle?: string;
   sections: Section[];
   tibetanOnly?: boolean;
   audioSrc?: string;
