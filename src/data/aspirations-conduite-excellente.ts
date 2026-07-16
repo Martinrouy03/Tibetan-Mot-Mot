@@ -2375,7 +2375,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-24-3",
           type: "normal",
           tibetan: "།བདེ་བ་དག་ལ་འགྲོ་བ་ཀུན་འགོད་ཅིང་།",
-          phonetics: "dé wa / dak la / dro wa / kun gueu tching",
+          phonetics: "dé wa / dak la / dro wa kun / gueu tching",
           translation: "Puissé-je établir les êtres dans le bonheur",
           words: [
             {
@@ -2385,14 +2385,14 @@ export const aspirationsConduiteExcellente: PracticeText = {
             },
             { tibetan: "དག་ལ་", phonetics: "dak la", translation: "dans [ce]" },
             {
-              tibetan: "འགྲོ་བ་",
-              phonetics: "dro wa",
-              translation: "les êtres",
+              tibetan: "འགྲོ་བ་ཀུན་",
+              phonetics: "dro wa kun",
+              translation: "tous les êtres",
             },
             {
-              tibetan: "ཀུན་འགོད་ཅིང་",
-              phonetics: "kun gueu tching",
-              translation: "établir tous et",
+              tibetan: "འགོད་ཅིང་",
+              phonetics: "gueu tching",
+              translation: "établir",
             },
           ],
         },
