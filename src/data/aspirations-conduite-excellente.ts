@@ -3930,7 +3930,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           phonetics: "kun né / nyour wai / dzou trul / top nam dang",
           translation: "Grâce aux forces de la célérité des prodiges,",
           words: [
-            { tibetan: "ཀུན་ནས་", phonetics: "kun né", translation: "des" },
+            { tibetan: "ཀུན་ནས་", phonetics: "kun né", translation: "Grâce à" },
             {
               tibetan: "མྱུར་བའི་",
               phonetics: "nyour wai",
@@ -3955,7 +3955,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           phonetics: "kun né / go yi / t'ek pai / top dak dang",
           translation: "aux forces des approches multiples des yanas,",
           words: [
-            { tibetan: "ཀུན་ནས་", phonetics: "kun né", translation: "des" },
+            { tibetan: "ཀུན་ནས་", phonetics: "kun né", translation: "Grâce à" },
             {
               tibetan: "སྒོ་ཡི་",
               phonetics: "go yi",
@@ -4665,17 +4665,17 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "དེ་དང་",
               phonetics: "dé dang",
-              translation: "d'égaler",
+              translation: "son",
             },
             {
               tibetan: "མཚུངས་པར་",
               phonetics: "tsoung par",
-              translation: "afin",
+              translation: "égaler",
             },
             {
               tibetan: "སྤྱད་པའི་ཕྱིར་",
               phonetics: "tché pai tchir",
-              translation: "pour pratiquer",
+              translation: "afin de faire",
             },
           ],
         },
@@ -4795,12 +4795,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "བདག་ཀྱང་",
               phonetics: "dak kyang",
-              translation: "puissé-je",
+              translation: "je",
             },
             {
               tibetan: "དེ་དང་",
               phonetics: "dé dang",
-              translation: "à Samantabhadra",
+              translation: "à [Samantabhadra]",
             },
             {
               tibetan: "མཚུངས་པར་ཤོག་",
@@ -4844,24 +4844,19 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-45-2",
           type: "normal",
           tibetan: "།འཇམ་དཔལ་གྱི་ནི་སྨོན་ལམ་སྤྱད་པར་བགྱི།",
-          phonetics: "djam pal / gyi ni / meun lam / tché par gyi",
+          phonetics: "djam pal gyi ni / meun lam / tché par gyi",
           translation:
             "afin d'avoir une conduite excellente, en tous points vertueuse.",
           words: [
             {
-              tibetan: "འཇམ་དཔལ་",
-              phonetics: "djam pal",
-              translation: "de Manjushri",
-            },
-            {
-              tibetan: "གྱི་ནི་",
-              phonetics: "gyi ni",
-              translation: "les prières",
+              tibetan: "འཇམ་དཔལ་གྱི་ནི་",
+              phonetics: "djam pal gyi ni",
+              translation: "de Mañjuśrī",
             },
             {
               tibetan: "སྨོན་ལམ་",
               phonetics: "meun lam",
-              translation: "d'aspiration",
+              translation: "les prières d'aspiration",
             },
             {
               tibetan: "སྤྱད་པར་བགྱི་",
@@ -4921,24 +4916,23 @@ export const aspirationsConduiteExcellente: PracticeText = {
           type: "normal",
           stanceNumber: 46,
           tibetan: "།སྤྱོད་པ་དག་ནི་ཚད་ཡོད་མ་གྱུར་ཅིག",
-          phonetics: "tcheu pa / da ni / tsé yeu / ma gyour tchik",
+          phonetics: "tcheu pa da ni / tsé yeu / ma gyour tchik",
           translation: "Puissent mes actes être sans limitations",
           words: [
             {
-              tibetan: "སྤྱོད་པ་",
-              phonetics: "tcheu pa",
-              translation: "mes actes",
+              tibetan: "སྤྱོད་པ་དག་ནི་",
+              phonetics: "tcheu pa da ni",
+              translation: "mes actions",
             },
-            { tibetan: "དག་ནི་", phonetics: "da ni", translation: "puissent" },
             {
               tibetan: "ཚད་ཡོད་",
               phonetics: "tsé yeu",
-              translation: "sans limitations",
+              translation: "limitations",
             },
             {
               tibetan: "མ་གྱུར་ཅིག་",
               phonetics: "ma gyour tchik",
-              translation: "être",
+              translation: "puissent être dénués de",
             },
           ],
         },
@@ -4946,7 +4940,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-46-2",
           type: "normal",
           tibetan: "།ཡོན་ཏན་རྣམས་ཀྱང་ཚད་གཟུང་མེད་པར་ཤོག",
-          phonetics: "yeun ten / nam kyang / tsé zoung / mé par chok",
+          phonetics: "yeun ten / nam kyang / tsé zoung / mé par / chok",
           translation: "et mes qualités sans attaches!",
           words: [
             {
@@ -4958,11 +4952,16 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "ཚད་གཟུང་",
               phonetics: "tsé zoung",
-              translation: "sans attaches",
+              translation: "attaches",
             },
             {
-              tibetan: "མེད་པར་ཤོག་",
-              phonetics: "mé par chok",
+              tibetan: "མེད་པར་",
+              phonetics: "mé par",
+              translation: "sans",
+            },
+            {
+              tibetan: "ཤོག་",
+              phonetics: "chok",
               translation: "puissent être",
             },
           ],

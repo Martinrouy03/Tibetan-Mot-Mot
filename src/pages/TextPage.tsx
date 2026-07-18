@@ -526,7 +526,7 @@ export default function TextPage() {
             aria-label="Traduction"
             title="Traduction"
           >
-            <span style={{ fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.02em" }}>FR</span>
+            <span style={{ fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.02em" }}>{(text?.lang ?? "fr").toUpperCase()}</span>
           </button>
         )}
         <button
