@@ -5054,7 +5054,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
               phonetics: "sem tchen",
               translation: "d'êtres",
             },
-            { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "le nombre" },
+            { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "[without exception]" },
             {
               tibetan: "མཐའ་ཡས་",
               phonetics: "t'a yé",
@@ -5063,7 +5063,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "དེ་བཞིན་ཏེ་",
               phonetics: "dé shin té",
-              translation: "est",
+              translation: "[de même]",
             },
           ],
         },
@@ -5078,7 +5078,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "ཇི་ཙམ་",
               phonetics: "dji tsam",
-              translation: "incommensurables",
+              translation: "[de même]",
             },
             {
               tibetan: "ལས་དང་",
@@ -5093,7 +5093,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "མཐར་གྱུར་པ་",
               phonetics: "t'ar gyour pa",
-              translation: "sont",
+              translation: "incommensurables",
             },
           ],
         },
@@ -5101,7 +5101,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-47-4",
           type: "normal",
           tibetan: "།བདག་གི་སྨོན་ལམ་མཐའ་ཡང་དེ་ཙམ་མོ།",
-          phonetics: "dak gui / meun lam / t'a yang / dé tsam mo",
+          phonetics: "dak gui / meun lam / t'a yang dé tsam mo",
           translation: "mes prières de souhaits le sont donc aussi !",
           words: [
             { tibetan: "བདག་གི་", phonetics: "dak gui", translation: "mes" },
@@ -5111,14 +5111,9 @@ export const aspirationsConduiteExcellente: PracticeText = {
               translation: "prières de souhaits",
             },
             {
-              tibetan: "མཐའ་ཡང་",
-              phonetics: "t'a yang",
+              tibetan: "མཐའ་ཡང་དེ་ཙམ་མོ་",
+              phonetics: "t'a yang dé tsam mo",
               translation: "le sont donc aussi",
-            },
-            {
-              tibetan: "དེ་ཙམ་མོ་",
-              phonetics: "dé tsam mo",
-              translation: "ainsi",
             },
           ],
         },
@@ -5516,12 +5511,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "དེ་ཡང་",
               phonetics: "dé yang",
-              translation: "similaires",
+              translation: "[aussi]",
             },
             {
               tibetan: "ཅི་འདྲ་བར་",
               phonetics: "tchi dra war",
-              translation: "en tous points",
+              translation: "similaires",
             },
           ],
         },
