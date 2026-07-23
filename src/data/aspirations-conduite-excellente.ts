@@ -5054,7 +5054,11 @@ export const aspirationsConduiteExcellente: PracticeText = {
               phonetics: "sem tchen",
               translation: "d'êtres",
             },
-            { tibetan: "མ་ལུས་", phonetics: "ma lu", translation: "[without exception]" },
+            {
+              tibetan: "མ་ལུས་",
+              phonetics: "ma lu",
+              translation: "[without exception]",
+            },
             {
               tibetan: "མཐའ་ཡས་",
               phonetics: "t'a yé",
@@ -5845,7 +5849,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-53-4",
           type: "normal",
           tibetan: "།བདུད་རྣམས་སྡེ་དང་བཅས་པ་ཐམས་ཅད་བཏུལ།",
-          phonetics: "du nam / dé dang / tché pa / t'am tché tul",
+          phonetics: "du nam / dé dang / tché pa / t'am tché / tul",
           translation: "l'emportant sur tous les maras et leurs légions.",
           words: [
             {
@@ -5858,10 +5862,15 @@ export const aspirationsConduiteExcellente: PracticeText = {
               phonetics: "dé dang",
               translation: "et leurs légions",
             },
-            { tibetan: "བཅས་པ་", phonetics: "tché pa", translation: "tous" },
             {
-              tibetan: "ཐམས་ཅད་བཏུལ་",
-              phonetics: "t'am tché tul",
+              tibetan: "བཅས་པ་",
+              phonetics: "tché pa",
+              translation: "[ensemble]",
+            },
+            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
+            {
+              tibetan: "བཏུལ་",
+              phonetics: "tul",
               translation: "l'emportant sur",
             },
           ],
@@ -5925,19 +5934,14 @@ export const aspirationsConduiteExcellente: PracticeText = {
           id: "ace-54-3",
           type: "normal",
           tibetan: "།དེ་ཡི་རྣམ་པར་སྨིན་པ་སངས་རྒྱས་མཁྱེན།",
-          phonetics: "dé yi / nam par / min pa / sangyé kyen",
+          phonetics: "dé yi / nam par min pa / sangyé kyen",
           translation: "ou lit cette prière de la conduite excellente.",
           words: [
             { tibetan: "དེ་ཡི་", phonetics: "dé yi", translation: "de cela" },
             {
-              tibetan: "རྣམ་པར་",
-              phonetics: "nam par",
-              translation: "le plein",
-            },
-            {
-              tibetan: "སྨིན་པ་",
-              phonetics: "min pa",
-              translation: "mûrissement",
+              tibetan: "རྣམ་པར་སྨིན་པ་",
+              phonetics: "nam par min pa",
+              translation: "plein mûrissement karmique",
             },
             {
               tibetan: "སངས་རྒྱས་མཁྱེན་",
@@ -5961,17 +5965,17 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "མཆོག་ལ་",
               phonetics: "tchok la",
-              translation: "le suprême",
+              translation: "suprême",
             },
             {
               tibetan: "སོམ་ཉི་",
               phonetics: "som nyi",
-              translation: "aucun doute",
+              translation: "doute",
             },
             {
               tibetan: "མ་བྱེད་ཅིག་",
               phonetics: "ma djé tchik",
-              translation: "n'ayez",
+              translation: "n'ayez aucun",
             },
           ],
         },
@@ -6062,18 +6066,22 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "དགེ་བ་",
               phonetics: "gué wa",
-              translation: "ces vertus",
+              translation: "vertus",
             },
-            { tibetan: "འདི་དག་", phonetics: "di dak", translation: "toutes" },
+            {
+              tibetan: "འདི་དག་",
+              phonetics: "di dak",
+              translation: "celles-ci",
+            },
             {
               tibetan: "ཐམས་ཅད་",
               phonetics: "t'am tché",
-              translation: "complètement",
+              translation: "toutes",
             },
             {
               tibetan: "རབ་ཏུ་བསྔོ་",
               phonetics: "rap tou ngo",
-              translation: "reverser",
+              translation: "complètement reverser",
             },
           ],
         },
@@ -6153,7 +6161,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འདི་ཀུན་ཀྱང་",
               phonetics: "di kun kyang",
-              translation: "entièrement",
+              translation: "tous",
             },
           ],
         },
@@ -6177,12 +6185,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "རབ་ཏུ་",
               phonetics: "rap tou",
-              translation: "je dédie",
+              translation: "entièrement",
             },
             {
               tibetan: "བསྔོ་བར་བགྱི་",
               phonetics: "ngo war gyi",
-              translation: "entièrement",
+              translation: "je dédie",
             },
           ],
         },
@@ -6194,7 +6202,11 @@ export const aspirationsConduiteExcellente: PracticeText = {
           phonetics: "dak ni / tchi wai / du djé / gyour pa na",
           translation: "Quand viendra le moment de mourir",
           words: [
-            { tibetan: "བདག་ནི་", phonetics: "dak ni", translation: "Quand" },
+            {
+              tibetan: "བདག་ནི་",
+              phonetics: "dak ni",
+              translation: "[pour moi]",
+            },
             {
               tibetan: "འཆི་བའི་",
               phonetics: "tchi wai",
@@ -6208,7 +6220,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "གྱུར་པ་ན་",
               phonetics: "gyour pa na",
-              translation: "viendra",
+              translation: "quand viendra",
             },
           ],
         },
@@ -6304,7 +6316,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "འདི་དག་ཀྱང་",
               phonetics: "di dak kyang",
-              translation: "puissent",
+              translation: "celles-ci aussi",
             },
           ],
         },
@@ -6484,12 +6496,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "བདག་གིས་",
               phonetics: "dak gui",
-              translation: "puissé-je",
+              translation: "[moi]",
             },
             {
               tibetan: "དེར་ཐོབ་ཤོག་",
               phonetics: "der t'op chok",
-              translation: "recevoir",
+              translation: "puissé-je recevoir",
             },
           ],
         },
@@ -6536,7 +6548,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "མང་པོ་",
               phonetics: "mang po",
-              translation: "de multiples",
+              translation: "[nombreuses]",
             },
             {
               tibetan: "བྱེ་བ་",
@@ -6546,7 +6558,7 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "ཕྲག་བརྒྱ་ཡིས་",
               phonetics: "trak gya yi",
-              translation: "des centaines de",
+              translation: "des centaines",
             },
           ],
         },
@@ -6589,14 +6601,18 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "སེམས་ཅན་",
               phonetics: "sem tchen",
-              translation: "des êtres",
+              translation: "les êtres",
             },
-            { tibetan: "རྣམས་ལ་", phonetics: "nam la", translation: "pour" },
-            { tibetan: "ཕན་པ་", phonetics: "p'en pa", translation: "le bien" },
+            { tibetan: "རྣམས་ལ་", phonetics: "nam la", translation: "[tous]" },
+            {
+              tibetan: "ཕན་པ་",
+              phonetics: "p'en pa",
+              translation: "oeuvrer pour le bien",
+            },
             {
               tibetan: "མང་པོ་བགྱི་",
               phonetics: "mang po gyi",
-              translation: "œuvrer",
+              translation: "de multiples façons",
             },
           ],
         },
