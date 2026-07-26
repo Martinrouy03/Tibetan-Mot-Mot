@@ -6738,12 +6738,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "ཡོངས་སུ་",
               phonetics: "yong sou",
-              translation: "en dédiant pleinement",
+              translation: "pleinement",
             },
             {
               tibetan: "བསྔོས་པ་ལས་",
               phonetics: "ngeu pa lé",
-              translation: "grâce aux mérites",
+              translation: "en dédiant",
             },
           ],
         },
@@ -6902,9 +6902,14 @@ export const aspirationsConduiteExcellente: PracticeText = {
               translation: "magnifié",
             },
             {
-              tibetan: "ཞིང་གྲུབ་སྟེ་",
-              phonetics: "shing droup té",
-              translation: "se réaliser",
+              tibetan: "ཞིང་",
+              phonetics: "shing",
+              translation: "ce texte",
+            },
+            {
+              tibetan: "གྲུབ་སྟེ་",
+              phonetics: "droup té",
+              translation: "[puisse] se réaliser",
             },
           ],
         },
