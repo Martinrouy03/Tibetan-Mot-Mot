@@ -1226,6 +1226,10 @@ export default function TextPage() {
                               const isImageRow = phrase.type === "image-row";
                               const isRepeatBtn = phrase.type === "repeat-btn";
 
+                              if (phrase.type === "space") {
+                                return <div key={phrase.id} style={{ height: "1rem" }} />;
+                              }
+
                               if (isRepeatBtn) {
                                 return (
                                   <div

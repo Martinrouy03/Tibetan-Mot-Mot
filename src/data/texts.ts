@@ -14,12 +14,13 @@ import { soutraLongevite } from "./soutra-longevite";
 import { dakaYeshe } from "./daka-yeshe";
 import { prieresLongueVie } from "./prieres-longue-vie";
 import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente";
-import { vajravidharan } from "./vajravidharan";
+import { vajravidharana } from "./vajravidharana";
 import { sauverDesVies } from "./sauver-des-vies";
 import { guruYogaShamarpa } from "./guru-yoga-shamarpa";
 import { sukhavatiEn } from "./sukhavati-en";
 import { louangeManjushriEn } from "./louange-manjushri-en";
 import { aspirationsConduiteExcellenteEn } from "./aspirations-conduite-excellente-en";
+import { vajravidhâranaEn } from "./vajravidharana-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -29,10 +30,13 @@ const lojong7Points: PracticeText = {
   sections: [],
 };
 
-
 export const textesPratique: PracticeText[] = [
   { ...pratiqueChenrezik, lang: "fr", baseId: "pratique-chenrezik" },
-  { ...pratiqueChenrezikThoungma, lang: "fr", baseId: "pratique-chenrezik-thoungma" },
+  {
+    ...pratiqueChenrezikThoungma,
+    lang: "fr",
+    baseId: "pratique-chenrezik-thoungma",
+  },
   { ...guruYoga, lang: "fr", baseId: "guru-yoga" },
   { ...guruYogaShamarpa, lang: "fr", baseId: "guru-yoga-shamarpa" },
   { ...vajrasattva, lang: "fr", baseId: "vajrasattva" },
@@ -46,8 +50,12 @@ export const textesSoutras: PracticeText[] = [
   { ...coeurPrajnaparamita, lang: "fr", baseId: "coeur-prajnaparamita" },
   { ...soutraLongevite, lang: "fr", baseId: "soutra-longevite" },
   { ...dakaYeshe, lang: "fr", baseId: "daka-yeshe" },
-  { ...vajravidharan, lang: "fr", baseId: "vajravidharan" },
-  { ...aspirationsConduiteExcellente, lang: "fr", baseId: "aspirations-conduite-excellente" },
+  { ...vajravidharana, lang: "fr", baseId: "vajravidharana" },
+  {
+    ...aspirationsConduiteExcellente,
+    lang: "fr",
+    baseId: "aspirations-conduite-excellente",
+  },
 ];
 
 export const textesPrieres: PracticeText[] = [
@@ -58,6 +66,7 @@ export const textesPrieres: PracticeText[] = [
   sukhavatiEn,
   louangeManjushriEn,
   aspirationsConduiteExcellenteEn,
+  vajravidhâranaEn,
 ];
 
 export const practiceTexts: PracticeText[] = [
