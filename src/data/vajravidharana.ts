@@ -77,9 +77,17 @@ export const vajravidharana: PracticeText = {
           phonetics: "nam par djom / la / tchak tsel lo",
           translation: "Vidarana, devant vous, je me prosterne.",
           words: [
-            { tibetan: "རྣམ་པར་འཇོམས་", phonetics: "nam par djom", translation: "Vidarana" },
+            {
+              tibetan: "རྣམ་པར་འཇོམས་",
+              phonetics: "nam par djom",
+              translation: "Vidarana",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "devant vous" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "tchak tsel lo", translation: "je me prosterne" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tchak tsel lo",
+              translation: "je me prosterne",
+            },
           ],
         },
         {
@@ -295,9 +303,14 @@ export const vajravidharana: PracticeText = {
               translation: "Vajrapani",
             },
             {
-              tibetan: "སངས་རྒྱས་ཀྱི་མཐུ་དང་",
-              phonetics: "sangyé kyi t'ou dang",
-              translation: "grâce au pouvoir du Bouddha",
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "Bouddha",
+            },
+            {
+              tibetan: "ཀྱི་མཐུ་དང་",
+              phonetics: "kyi t'ou dang",
+              translation: "grâce à son pouvoir",
             },
           ],
         },
@@ -309,14 +322,24 @@ export const vajravidharana: PracticeText = {
           translation: "à la bénédiction des bouddhas",
           words: [
             {
-              tibetan: "སངས་རྒྱས་ཀྱི་",
-              phonetics: "sangyé kyi",
-              translation: "bouddhas",
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "Bouddha",
             },
             {
-              tibetan: "བྱིན་གྱིས་བརླབས་དང་",
-              phonetics: "djin gyi lap dang",
+              tibetan: "ཀྱི་",
+              phonetics: "kyi",
+              translation: "des",
+            },
+            {
+              tibetan: "བྱིན་གྱིས་བརླབས་",
+              phonetics: "djin gyi lap",
               translation: "bénédiction",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "et",
             },
           ],
         },
@@ -354,9 +377,14 @@ export const vajravidharana: PracticeText = {
             "Vajrapani énonca parfaitement la quintessence vajra issue de la fureur vajra :",
           words: [
             {
-              tibetan: "རྡོ་རྗེ་ཁྲོ་བོ་",
-              phonetics: "dordjé tro wo",
-              translation: "fureur vajra",
+              tibetan: "རྡོ་རྗེ་",
+              phonetics: "dordjé",
+              translation: "vajra",
+            },
+            {
+              tibetan: "ཁྲོ་བོ་",
+              phonetics: "tro wo",
+              translation: "fureur",
             },
             {
               tibetan: "ལས་བྱུང་བ་",
@@ -364,9 +392,14 @@ export const vajravidharana: PracticeText = {
               translation: "issue",
             },
             {
-              tibetan: "རྡོ་རྗེ་སྙིང་པོ་",
-              phonetics: "dor djé nying po",
-              translation: "la quintessence vajra",
+              tibetan: "རྡོ་རྗེ་",
+              phonetics: "dor djé",
+              translation: "vajra",
+            },
+            {
+              tibetan: "སྙིང་པོ་",
+              phonetics: "nying po",
+              translation: "quintessence",
             },
             {
               tibetan: "རབ་ཏུ་",
@@ -415,9 +448,14 @@ export const vajravidharana: PracticeText = {
               translation: "en tout",
             },
             {
-              tibetan: "ཐོགས་པ་མེད་པ་",
-              phonetics: "t'ok pa mé pa",
-              translation: "sans entrave",
+              tibetan: "ཐོགས་པ་",
+              phonetics: "t'ok pa",
+              translation: "entrave",
+            },
+            {
+              tibetan: "མེད་པ་",
+              phonetics: "mé pa",
+              translation: "sans",
             },
           ],
         },
@@ -753,10 +791,9 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-30",
           type: "normal",
-          tibetan: "།སེམས་ཅན་ཐམས་ཅད་རེངས་པར་བྱེད་པ། རྨུགས་པར་བྱེད་པའི་",
-          phonetics:
-            "sem tchen / t'am tché / reng par djé pa / mouk par djé pai",
-          translation: "paralysant et stupéfiant tous les êtres.",
+          tibetan: "།སེམས་ཅན་ཐམས་ཅད་རེངས་པར་བྱེད་པ།",
+          phonetics: "sem tchen / t'am tché / reng par djé pa",
+          translation: "paralysant tous les êtres,",
           words: [
             {
               tibetan: "སེམས་ཅན་",
@@ -769,20 +806,21 @@ export const vajravidharana: PracticeText = {
               phonetics: "reng par djé pa",
               translation: "paralysant",
             },
+          ],
+        },
+
+        {
+          id: "vvd-31",
+          type: "normal",
+          tibetan: "།རྨུགས་པར་བྱེད་པའི་གསང་སྔགས་ཀྱི་མཐུ་ཆེན་པོ་འདི།",
+          phonetics: "sang ngak / kyi t'ou / tchen po di",
+          translation: "stupéfiant. Tel est le grand pouvoir du mantra secret",
+          words: [
             {
               tibetan: "རྨུགས་པར་བྱེད་པའི་",
               phonetics: "mouk par djé pai",
               translation: "stupéfiant",
             },
-          ],
-        },
-        {
-          id: "vvd-31",
-          type: "normal",
-          tibetan: "།གསང་སྔགས་ཀྱི་མཐུ་ཆེན་པོ་འདི།",
-          phonetics: "sang ngak / kyi t'ou / tchen po di",
-          translation: "Tel est le grand pouvoir du mantra secret",
-          words: [
             {
               tibetan: "གསང་སྔགས་ཀྱི་",
               phonetics: "sang ngak",
@@ -808,11 +846,15 @@ export const vajravidharana: PracticeText = {
           translation: "que Vajrapani prononça grâce au pouvoir du Bouddha:",
           words: [
             {
-              tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་",
-              phonetics: "san gyé kyi t'u",
-              translation: "grâce au pouvoir du Bouddha",
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "san gyé",
+              translation: "Bouddha",
             },
-
+            {
+              tibetan: "ཀྱི་མཐུས་",
+              phonetics: "kyi t'u",
+              translation: "grâce à son pouvoir",
+            },
             {
               tibetan: "ལག་ན་རྡོ་རྗེས་",
               phonetics: "lak na dordjé",
@@ -1020,19 +1062,24 @@ export const vajravidharana: PracticeText = {
           translation: "qui sont dans l'infortune,",
           words: [
             {
-              tibetan: "ཕུན་སུམ་",
-              phonetics: "p'un soum",
-              translation: "l'abondance",
+              tibetan: "ཕུན་སུམ་ཚོགས་མིན་",
+              phonetics: "p'un soum tsok min",
+              translation: "infortune",
             },
             {
-              tibetan: "ཚོགས་མིན་",
-              phonetics: "tsok min",
-              translation: "dépourvus",
+              tibetan: "གང་",
+              phonetics: "gang",
+              translation: "[toute]",
             },
             {
-              tibetan: "གང་ཆགས་དང་",
-              phonetics: "gang tchak dang",
-              translation: "qui s'y trouvent",
+              tibetan: "ཆགས་",
+              phonetics: "tchak",
+              translation: "[qui survient]",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1054,9 +1101,14 @@ export const vajravidharana: PracticeText = {
               translation: "le dos",
             },
             {
-              tibetan: "ཕྱོགས་པ་དང་",
-              phonetics: "tchok pa dang",
+              tibetan: "ཕྱོགས་པ་",
+              phonetics: "tchok pa",
               translation: "tournent",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1078,9 +1130,14 @@ export const vajravidharana: PracticeText = {
               translation: "les personnes",
             },
             {
-              tibetan: "སྡང་བ་དང་",
-              phonetics: "dang wa dang",
+              tibetan: "སྡང་བ་",
+              phonetics: "dang wa",
               translation: "hostiles",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1103,9 +1160,14 @@ export const vajravidharana: PracticeText = {
               translation: "et autres",
             },
             {
-              tibetan: "གཙེས་པ་དང་",
-              phonetics: "tsé pa dang",
+              tibetan: "གཙེས་པ་",
+              phonetics: "tsé pa",
               translation: "menacés",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1127,9 +1189,14 @@ export const vajravidharana: PracticeText = {
               translation: "en accord",
             },
             {
-              tibetan: "མ་ཡིན་དང་",
-              phonetics: "ma yin dang",
+              tibetan: "མ་ཡིན་",
+              phonetics: "ma yin",
               translation: "ne sont pas",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1147,9 +1214,14 @@ export const vajravidharana: PracticeText = {
               translation: "par le déclin",
             },
             {
-              tibetan: "གནོད་པ་དང་",
-              phonetics: "neu pa dang",
+              tibetan: "གནོད་པ་",
+              phonetics: "neu pa",
               translation: "affectés",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1171,9 +1243,14 @@ export const vajravidharana: PracticeText = {
               translation: "abattus et",
             },
             {
-              tibetan: "གནོད་པ་དང་",
-              phonetics: "neu pa dang",
+              tibetan: "གནོད་པ་",
+              phonetics: "neu pa",
               translation: "attaqués",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
@@ -1220,9 +1297,14 @@ export const vajravidharana: PracticeText = {
               translation: "les constellations",
             },
             {
-              tibetan: "བྱད་སྟེམས་དང་",
-              phonetics: "djé tem dang",
+              tibetan: "བྱད་སྟེམས་",
+              phonetics: "djé tem",
               translation: "les mauvais sorts",
+            },
+            {
+              tibetan: "དང་",
+              phonetics: "dang",
+              translation: "[et]",
             },
           ],
         },
