@@ -29,11 +29,10 @@ export const coeurPrajnaparamita: PracticeText = {
               phonetics: "bhagawati",
               translation: "bhagavati",
             },
-            { tibetan: "པྲ་ཛྙཱ་", phonetics: "prajnya", translation: "prajñā" },
             {
-              tibetan: "པ་ར་མི་ཏ་",
-              phonetics: "paramita",
-              translation: "pāramitā",
+              tibetan: "པྲ་ཛྙཱ་པ་ར་མི་ཏ་",
+              phonetics: "prajnya paramita",
+              translation: "prajñā pāramitā",
             },
             {
               tibetan: "ཧྲྀ་ད་ཡ་",
@@ -48,9 +47,8 @@ export const coeurPrajnaparamita: PracticeText = {
           tibetan:
             "བོད་སྐད་དུ། བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
           phonetics:
-            "beu ké dou / tchomdendé ma / chérap kyi p'a reul tou / tchin pai / nying po",
-          translation:
-            "En tibétain: bcom ldan 'das ma shes rab kyi pha rol tu phyin pa'i snying po",
+            "beu ké dou / tchomdendé ma / chérap kyi / p'a reul tou tchin pai / nying po",
+          translation: "En tibétain: Le Coeur de la Victorieuse Prajñapāramitā",
           words: [
             {
               tibetan: "བོད་སྐད་དུ་",
@@ -60,32 +58,24 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "བཅོམ་ལྡན་འདས་མ་",
               phonetics: "tchomdendé ma",
-              translation: "bcom ldan 'das ma",
+              translation: "La Victorieuse",
             },
             {
-              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་",
-              phonetics: "chérap kyi p'a reul tou",
-              translation: "shes rab kyi pha rol tu",
+              tibetan: "ཤེས་རབ་ཀྱི་",
+              phonetics: "chérap kyi",
+              translation: "prajña-",
             },
             {
-              tibetan: "ཕྱིན་པའི་",
-              phonetics: "tchin pai",
-              translation: "phyin pa'i",
+              tibetan: "ཕ་རོལ་ཏུ་ཕྱིན་པའི་",
+              phonetics: "p'a reul tou tchin pai",
+              translation: "-paramita",
             },
             {
               tibetan: "སྙིང་པོ་",
               phonetics: "nying po",
-              translation: "snying po",
+              translation: "coeur",
             },
           ],
-        },
-        {
-          id: "cp-0-3",
-          type: "instructions",
-          tibetan: "",
-          phonetics: "",
-          translation: "En français: Le Cœur de la prajñapāramitā",
-          words: [],
         },
         {
           id: "cp-1-1",
