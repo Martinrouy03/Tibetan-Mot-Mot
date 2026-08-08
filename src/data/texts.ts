@@ -56,6 +56,8 @@ export const textesSoutras: PracticeText[] = [
     lang: "fr",
     baseId: "aspirations-conduite-excellente",
   },
+  aspirationsConduiteExcellenteEn,
+  vajravidhâranaEn,
 ];
 
 export const textesPrieres: PracticeText[] = [
@@ -65,8 +67,6 @@ export const textesPrieres: PracticeText[] = [
   { ...prieresLongueVie, lang: "fr", baseId: "prieres-longue-vie" },
   sukhavatiEn,
   louangeManjushriEn,
-  aspirationsConduiteExcellenteEn,
-  vajravidhâranaEn,
 ];
 
 export const practiceTexts: PracticeText[] = [

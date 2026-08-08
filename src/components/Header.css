@@ -64,6 +64,36 @@
   background: rgba(201, 168, 76, 0.2);
 }
 
+.header-lang-selector {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lang-btn {
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 0.15rem 0.2rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  opacity: 0.45;
+  line-height: 0;
+}
+
+.lang-btn:hover {
+  opacity: 0.8;
+}
+
+.lang-btn.active {
+  opacity: 1;
+  border-color: #c9a84c;
+  background: rgba(201, 168, 76, 0.1);
+}
+
 /* Settings button */
 .settings-wrapper {
   position: relative;
