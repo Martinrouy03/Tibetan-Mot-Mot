@@ -14,7 +14,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-0-1",
           type: "normal",
-          tibetan: "།རྒྱ་གར་སྐད་དུ། བྷ་ག་ཝ་ཏི་པྲ་ཛྙཱ་པ་ར་མི་ཏ་ཧྲྀ་ད་ཡ།",
+          tibetan: "རྒྱ་གར་སྐད་དུ། བྷ་ག་ཝ་ཏི་པྲ་ཛྙཱ་པ་ར་མི་ཏ་ཧྲྀ་ད་ཡ།",
           phonetics:
             "gya gar ké dou / bhagawati / prajnya / paramita / hridaya",
           translation: "En sanskrit: bhagavati prajñā pāramitā hrīdaya",
@@ -80,7 +80,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-1-1",
           type: "normal",
-          tibetan: "།འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
+          tibetan: "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
           phonetics: "di ké / dak gui / t'eu pa / du tchik na",
           translation: "Il fût un temps où j'ai entendu ces paroles:",
           words: [
@@ -424,7 +424,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-1-12",
           type: "normal",
-          tibetan: "།རིགས་ཀྱི་བུ། རིགས་ཀྱི་བུའམ་ རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ།",
+          tibetan: "རིགས་ཀྱི་བུ། རིགས་ཀྱི་བུའམ་ རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ།",
           phonetics: "rik ki bou / rik ki bou'am / rik ki bou mo / gang la la",
           translation: "Comment un fils ou une fille de noble famille",
           words: [
@@ -570,7 +570,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-1-17",
           type: "normal",
-          tibetan: "།ཤཱ་རིའི་བུ་རིགས་ཀྱི་བུའམ་རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་",
+          tibetan: "ཤཱ་རིའི་བུ་རིགས་ཀྱི་བུའམ་རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་",
           phonetics: "cha ri bou / rik ki bou'am / rik ki bou mo / gang la la",
           translation: "Ô Shariputra, un fils ou une fille de noble famille",
           words: [
@@ -703,33 +703,24 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-1",
           type: "normal",
-          tibetan: "།གཟུགས་སྟོང་པའོ།",
-          phonetics: "zouk tong pa'o",
-          translation: "La forme est vide,",
+          tibetan: "གཟུགས་སྟོང་པའོ། །སྟོང་པ་ཉིད་གཟུགས་སོ།",
+          phonetics: "zouk tong pa'o / tong pa nyi / zouk so",
+          translation: "La forme est vacuité, la vacuité est forme,",
           words: [
             {
               tibetan: "གཟུགས་",
               phonetics: "zouk",
-              translation: "forme",
+              translation: "La forme",
             },
             {
               tibetan: "སྟོང་པའོ་",
               phonetics: "tong pa'o",
-              translation: "est vide",
+              translation: "est vacuité",
             },
-          ],
-        },
-        {
-          id: "cp-2-2",
-          type: "normal",
-          tibetan: "།སྟོང་པ་ཉིད་གཟུགས་སོ། །",
-          phonetics: "tong pa nyi / zouk so",
-          translation: "La vacuité est forme,",
-          words: [
             {
               tibetan: "སྟོང་པ་ཉིད་",
               phonetics: "tong pa nyi",
-              translation: "vacuité",
+              translation: "la vacuité",
             },
             {
               tibetan: "གཟུགས་སོ་",
@@ -738,6 +729,7 @@ export const coeurPrajnaparamita: PracticeText = {
             },
           ],
         },
+
         {
           id: "cp-2-3",
           type: "normal",
@@ -789,7 +781,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-5",
           type: "normal",
-          tibetan: "།དེ་བཞིན་དུ་ཚོར་བ་དང༌། འདུ་ཤེས་དང་།",
+          tibetan: "དེ་བཞིན་དུ་ཚོར་བ་དང༌། འདུ་ཤེས་དང་།",
           phonetics: "dé shin dou / tsor wa dang / dou ché dang",
           translation: "De la même manière, les sensations, les distinctions,",
           words: [
@@ -837,7 +829,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-7",
           type: "normal",
-          tibetan: "།ཤཱ་རིའི་བུ་དེ་ལྟར་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
+          tibetan: "ཤཱ་རིའི་བུ་དེ་ལྟར་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
           phonetics: "cha ri bou / dé tar / tcheu t'am tché / tong pa nyi dé",
           translation: "Ainsi Shariputra, tous les phénomènes sont vacuité:",
           words: [
@@ -924,7 +916,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-11",
           type: "normal",
-          tibetan: "།ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན། སྟོང་པ་ཉིད་ལ་",
+          tibetan: "ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན། སྟོང་པ་ཉིད་ལ་",
           phonetics: "cha ri bou / de ta wé na / tong pa / nyi la",
           translation: "Ainsi Shariputra, dans la vacuité,",
           words: [
@@ -1056,7 +1048,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-15",
           type: "normal",
-          tibetan: "།མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
+          tibetan: "མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
           phonetics: "mik gui k'am / mé pa né / yi ki / k'am mé",
           translation:
             "il n'y a ni dhatu-œil, ni les autres dhatus jusqu'au dhatu-mental,",
@@ -1102,9 +1094,11 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-17",
           type: "normal",
-          tibetan: "།མ་རིག་པ་མེད། མ་རིག་པ་ཟད་པ་མེད་པ་ནས།",
-          phonetics: "ma rik pa mé / ma rik pa / sé pa mé pa né",
-          translation: "il n'y a ni ignorance, ni fin de l'ignorance,",
+          tibetan: "མ་རིག་པ་མེད། མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད།",
+          phonetics:
+            "ma rik pa mé / ma rik pa / sé pa / mé pa / né / ga chi mé",
+          translation:
+            "il n'y a ni ignorance, ni fin de l'ignorance [ainsi que tous les autres composants de l'apparition en dépendance] jusqu'à ni vieillissement et mort,",
           words: [
             {
               tibetan: "མ་རིག་པ་མེད་",
@@ -1112,31 +1106,33 @@ export const coeurPrajnaparamita: PracticeText = {
               translation: "ni ignorance",
             },
             {
-              tibetan: "མ་རིག་པ་ཟད་པ་མེད་པ་ནས་",
-              phonetics: "ma rik pa sé pa mé pa né",
-              translation:
-                "ni fin de l'ignorance [ainsi que tous les autres composants de l'apparition en dépendance]",
+              tibetan: "མ་རིག་པ་",
+              phonetics: "ma rik pa",
+              translation: "ignorance",
+            },
+            { tibetan: "ཟད་པ་", phonetics: "sé pa", translation: "fin" },
+            { tibetan: "མེད་པ་", phonetics: "mé pa", translation: "ni" },
+            { tibetan: "ནས་", phonetics: "né", translation: "jusqu'à" },
+            {
+              tibetan: "རྒ་ཤི་མེད་",
+              phonetics: "ga chi mé",
+              translation: "ni vieillissement et mort",
             },
           ],
         },
         {
           id: "cp-2-18",
           type: "normal",
-          tibetan: "རྒ་ཤི་མེད། རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ།",
-          phonetics: "ga chi mé / ga chi sé pai / bar dou / yang mé do",
-          translation:
-            'jusqu\'au "vieillissement et mort" et la fin du "vieillissement et mort";',
+          tibetan: "རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ།",
+          phonetics: "ga chi / sé pai / bar dou / yang mé do",
+          translation: "ni fin du vieillissement et mort.",
           words: [
             {
-              tibetan: "རྒ་ཤི་མེད་",
-              phonetics: "ga chi mé",
-              translation: "ni vieillissement et mort",
+              tibetan: "རྒ་ཤི་",
+              phonetics: "ga chi",
+              translation: "vieillissement et mort",
             },
-            {
-              tibetan: "རྒ་ཤི་ཟད་པའི་",
-              phonetics: "ga chi sé pai",
-              translation: "fin du vieillissement et mort",
-            },
+            { tibetan: "ཟད་པའི་", phonetics: "sé pai", translation: "fin" },
             {
               tibetan: "བར་དུ་",
               phonetics: "bar dou",
@@ -1167,22 +1163,27 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "སྡུག་བསྔལ་བ་དང་",
               phonetics: "douk ngel wa dang",
-              translation: "ni souffrance",
+              translation: "souffrance",
             },
             {
               tibetan: "ཀུན་འབྱུང་བ་དང་",
               phonetics: "kun djoung wa dang",
-              translation: "ni origine de toute souffrance",
+              translation: "origine de toute souffrance",
             },
             {
               tibetan: "འགོག་པ་དང་",
               phonetics: "gok pa dang",
-              translation: "ni cessation",
+              translation: "cessation",
             },
             {
-              tibetan: "ལམ་མེད་",
-              phonetics: "lam mé",
-              translation: "ni chemin",
+              tibetan: "ལམ་",
+              phonetics: "lam",
+              translation: "chemin",
+            },
+            {
+              tibetan: "མེད་",
+              phonetics: "mé",
+              translation: "ni",
             },
           ],
         },
@@ -1348,7 +1349,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-2-25",
           type: "normal",
-          tibetan: "།དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་",
+          tibetan: "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་",
           phonetics:
             "du soum dou / nam par / shouk pai / sang gyé t'am tché kyang /",
           translation: "C'est en s'appuyant sur la prajnaparamita",
@@ -1657,7 +1658,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-3-1",
           type: "normal",
-          tibetan: "།དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ།",
+          tibetan: "དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ།",
           phonetics: "dé né / tchom den dé / ting ngé dzin / dé lé / sheng té",
           translation: "Puis le Bhagavan sortit de son absorption méditative",
           words: [
@@ -1833,7 +1834,7 @@ export const coeurPrajnaparamita: PracticeText = {
         {
           id: "cp-3-8",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+          tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
           phonetics: "tchom den / dé ki / dé ké tché ka tsel né",
           translation: "Lorsque le Bhagavan eût dit cela,",
           words: [
