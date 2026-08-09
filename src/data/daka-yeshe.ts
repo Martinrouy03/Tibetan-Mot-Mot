@@ -15,32 +15,72 @@ export const dakaYeshe: PracticeText = {
           id: "dy-0-1",
           type: "normal",
           tibetan: "རྒྱ་གར་སྐད་དུ། ཨཱརྱ་ཨ་ཏ་ཛྙཱ་ན་ན་མ་མ་ཧཱ་ཡཱ་ན་སཱུ་ཏྲ།",
-          phonetics: "gya gar ké dou / arya / ata / jnyana / nama / mahayana / soutra",
+          phonetics:
+            "gya gar ké dou / arya / ata / jnyana / nama / mahayana / soutra",
           translation: "En sanskrit : ārya ata jñāna nāma mahāyāna sūtra",
           words: [
-            { tibetan: "རྒྱ་གར་སྐད་དུ་", phonetics: "gya gar ké dou", translation: "en sanskrit" },
+            {
+              tibetan: "རྒྱ་གར་སྐད་དུ་",
+              phonetics: "gya gar ké dou",
+              translation: "en sanskrit",
+            },
             { tibetan: "ཨཱརྱ་", phonetics: "arya", translation: "ārya" },
             { tibetan: "ཨ་ཏ་", phonetics: "ata", translation: "ata" },
             { tibetan: "ཛྙཱ་ན་", phonetics: "jnyana", translation: "jñāna" },
             { tibetan: "ན་མ་", phonetics: "nama", translation: "nāma" },
-            { tibetan: "མ་ཧཱ་ཡཱ་ན་", phonetics: "mahayana", translation: "mahāyāna" },
+            {
+              tibetan: "མ་ཧཱ་ཡཱ་ན་",
+              phonetics: "mahayana",
+              translation: "mahāyāna",
+            },
             { tibetan: "སཱུ་ཏྲ་", phonetics: "soutra", translation: "sūtra" },
           ],
         },
         {
           id: "dy-0-2",
           type: "normal",
-          tibetan: "བོད་སྐད་དུ། འཕགས་པ་འདའ་ཀ་ཡེ་ཤེས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།",
-          phonetics: "beu ké dou / 'phags pa / 'da' ka / ye shes / zhes bya ba / thek pa / tchen po'i / mdo",
-          translation: "En tibétain : Le noble soutra du grand véhicule intitulé La Sagesse primordiale du moment de la mort.",
+          tibetan:
+            "བོད་སྐད་དུ། འཕགས་པ་འདའ་ཀ་ཡེ་ཤེས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།",
+          phonetics:
+            "beu ké dou / 'phags pa / 'da' ka / ye shes / zhes bya ba / thek pa / tchen po'i / mdo",
+          translation:
+            "En tibétain : Le noble soutra du grand véhicule intitulé La Sagesse primordiale du moment de la mort.",
           words: [
-            { tibetan: "བོད་སྐད་དུ་", phonetics: "beu ké dou", translation: "en tibétain" },
-            { tibetan: "འཕགས་པ་", phonetics: "'phags pa", translation: "noble" },
-            { tibetan: "འདའ་ཀ་", phonetics: "'da' ka", translation: "moment de la mort" },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "ye shes", translation: "sagesse primordiale" },
-            { tibetan: "ཞེས་བྱ་བ་", phonetics: "zhes bya ba", translation: "intitulé" },
-            { tibetan: "ཐེག་པ་", phonetics: "thek pa", translation: "véhicule" },
-            { tibetan: "ཆེན་པོའི་", phonetics: "tchen po'i", translation: "du grand" },
+            {
+              tibetan: "བོད་སྐད་དུ་",
+              phonetics: "beu ké dou",
+              translation: "en tibétain",
+            },
+            {
+              tibetan: "འཕགས་པ་",
+              phonetics: "'phags pa",
+              translation: "noble",
+            },
+            {
+              tibetan: "འདའ་ཀ་",
+              phonetics: "'da' ka",
+              translation: "moment de la mort",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "ye shes",
+              translation: "sagesse primordiale",
+            },
+            {
+              tibetan: "ཞེས་བྱ་བ་",
+              phonetics: "zhes bya ba",
+              translation: "intitulé",
+            },
+            {
+              tibetan: "ཐེག་པ་",
+              phonetics: "thek pa",
+              translation: "véhicule",
+            },
+            {
+              tibetan: "ཆེན་པོའི་",
+              phonetics: "tchen po'i",
+              translation: "du grand",
+            },
             { tibetan: "མདོ་", phonetics: "mdo", translation: "soutra" },
           ],
         },
@@ -48,13 +88,31 @@ export const dakaYeshe: PracticeText = {
           id: "dy-0-3",
           type: "normal",
           tibetan: "སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
-          phonetics: "sangyé dang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
-          translation: "Je me prosterne devant tous les bouddhas et bodhisattvas.",
+          phonetics:
+            "sangyé dang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
+          translation:
+            "Je me prosterne devant tous les bouddhas et bodhisattvas.",
           words: [
-            { tibetan: "སངས་རྒྱས་དང་", phonetics: "sangyé dang", translation: "bouddhas et" },
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sem pa", translation: "bodhisattvas" },
-            { tibetan: "ཐམས་ཅད་ལ་", phonetics: "t'am tché la", translation: "devant tous" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "tchak tsel lo", translation: "je me prosterne" },
+            {
+              tibetan: "སངས་རྒྱས་དང་",
+              phonetics: "sangyé dang",
+              translation: "bouddhas et",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
+              translation: "bodhisattvas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'am tché la",
+              translation: "devant tous",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "tchak tsel lo",
+              translation: "je me prosterne",
+            },
           ],
         },
         {
@@ -64,24 +122,58 @@ export const dakaYeshe: PracticeText = {
           phonetics: "di ké / dak gui / t'eu pai / du tchik na",
           translation: "Il fût un temps, j'ai entendu ces paroles :",
           words: [
-            { tibetan: "འདི་སྐད་", phonetics: "di ké", translation: "ces paroles" },
+            {
+              tibetan: "འདི་སྐད་",
+              phonetics: "di ké",
+              translation: "ces paroles",
+            },
             { tibetan: "བདག་གིས་", phonetics: "dak gui", translation: "j'ai" },
-            { tibetan: "ཐོས་པ་", phonetics: "t'eu pai", translation: "entendu" },
-            { tibetan: "དུས་གཅིག་ན་", phonetics: "du tchik na", translation: "il fût un temps" },
+            {
+              tibetan: "ཐོས་པ་",
+              phonetics: "t'eu pai",
+              translation: "entendu",
+            },
+            {
+              tibetan: "དུས་གཅིག་ན་",
+              phonetics: "du tchik na",
+              translation: "il fût un temps",
+            },
           ],
         },
         {
           id: "dy-0-5",
           type: "normal",
           tibetan: "བཅོམ་ལྡན་འདས་འོག་མིན་ལྷ་ཡི་ཁང་བཟང་ན་བཞུགས་ཏེ།",
-          phonetics: "tchom den dé / ok min / lh'a yi / k'ang zang na / shouk té",
-          translation: "le Bhagavan demeurait dans le palais des dieux d'Akanishta",
+          phonetics:
+            "tchom den dé / ok min / lh'a yi / k'ang zang na / shouk té",
+          translation:
+            "le Bhagavan demeurait dans le palais des dieux d'Akanishta",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "tchom den dé", translation: "Bhagavan" },
-            { tibetan: "འོག་མིན་", phonetics: "ok min", translation: "Akanishta" },
-            { tibetan: "ལྷ་ཡི་", phonetics: "lh'a yi", translation: "des dieux" },
-            { tibetan: "ཁང་བཟང་ན་", phonetics: "k'ang zang na", translation: "dans le palais" },
-            { tibetan: "བཞུགས་ཏེ་", phonetics: "shouk té", translation: "demeurait" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
+              translation: "Bhagavan",
+            },
+            {
+              tibetan: "འོག་མིན་",
+              phonetics: "ok min",
+              translation: "Akanishta",
+            },
+            {
+              tibetan: "ལྷ་ཡི་",
+              phonetics: "lh'a yi",
+              translation: "des dieux",
+            },
+            {
+              tibetan: "ཁང་བཟང་ན་",
+              phonetics: "k'ang zang na",
+              translation: "dans le palais",
+            },
+            {
+              tibetan: "བཞུགས་ཏེ་",
+              phonetics: "shouk té",
+              translation: "demeurait",
+            },
           ],
         },
         {
@@ -91,48 +183,106 @@ export const dakaYeshe: PracticeText = {
           phonetics: "k'or t'am tché la / tcheu / teun pa dang",
           translation: "et enseignait le Dharma à tous ceux qui l'entouraient.",
           words: [
-            { tibetan: "འཁོར་ཐམས་ཅད་ལ་", phonetics: "k'or t'am tché la", translation: "à tous ceux qui l'entouraient" },
+            {
+              tibetan: "འཁོར་ཐམས་ཅད་ལ་",
+              phonetics: "k'or t'am tché la",
+              translation: "à tous ceux qui l'entouraient",
+            },
             { tibetan: "ཆོས་", phonetics: "tcheu", translation: "le Dharma" },
-            { tibetan: "སྟོན་པ་དང་", phonetics: "teun pa dang", translation: "enseignait et" },
+            {
+              tibetan: "སྟོན་པ་དང་",
+              phonetics: "teun pa dang",
+              translation: "enseignait et",
+            },
           ],
         },
         {
           id: "dy-0-7",
           type: "normal",
-          tibetan: "བྱང་ཆུབ་སེམས་དཔའ་ནམ་མཁའི་སྙིང་པོས་བཅོམ་ལྡན་འདས་ལ་",
-          phonetics: "djang tchoup sem pa / nam k'ai nying peu / tchom den dé la",
-          translation: "Le bodhisattva Akashagarba se prosterna devant le Bhagavan",
+          tibetan:
+            "བྱང་ཆུབ་སེམས་དཔའ་ནམ་མཁའི་སྙིང་པོས་བཅོམ་ལྡན་འདས་ལ་ཕྱག་འཚལ་ནས་",
+          phonetics:
+            "djang tchoup sem pa / nam k'ai nying peu / tchom den dé la / tchak tsel né",
+          translation:
+            "Le bodhisattva Akashagarba se prosterna devant le Bhagavan",
           words: [
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sem pa", translation: "bodhisattva" },
-            { tibetan: "ནམ་མཁའི་སྙིང་པོས་", phonetics: "nam k'ai nying peu", translation: "Akashagarba" },
-            { tibetan: "བཅོམ་ལྡན་འདས་ལ་", phonetics: "tchom den dé la", translation: "devant le Bhagavan" },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
+              translation: "bodhisattva",
+            },
+            {
+              tibetan: "ནམ་མཁའི་སྙིང་པོས་",
+              phonetics: "nam k'ai nying peu",
+              translation: "Akashagarba",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་ལ་",
+              phonetics: "tchom den dé la",
+              translation: "devant le Bhagavan",
+            },
+            {
+              tibetan: "ཕྱག་འཚལ་ནས་",
+              phonetics: "tchak tsel né",
+              translation: "se prosterna",
+            },
           ],
         },
         {
           id: "dy-0-8",
           type: "normal",
-          tibetan: "ཕྱག་འཚལ་ནས་འདི་སྐད་ཅེས་གསོལ་ཏོ།",
-          phonetics: "tchak tsel né / di ké tché / seul to",
+          tibetan: "འདི་སྐད་ཅེས་གསོལ་ཏོ།",
+          phonetics: "di ké tché / seul to",
           translation: "et s'adressa à lui en ces termes :",
           words: [
-            { tibetan: "ཕྱག་འཚལ་ནས་", phonetics: "tchak tsel né", translation: "s'étant prosterné" },
-            { tibetan: "འདི་སྐད་ཅེས་", phonetics: "di ké tché", translation: "en ces termes" },
-            { tibetan: "གསོལ་ཏོ་", phonetics: "seul to", translation: "s'adressa" },
+            {
+              tibetan: "འདི་སྐད་ཅེས་",
+              phonetics: "di ké tché",
+              translation: "en ces termes",
+            },
+            {
+              tibetan: "གསོལ་ཏོ་",
+              phonetics: "seul to",
+              translation: "s'adressa à lui",
+            },
           ],
         },
         {
           id: "dy-0-9",
           type: "normal",
-          tibetan: "བཅོམ་ལྡན་འདས་བྱང་ཆུབ་སེམས་དཔའ་ནམ་འཆི་ཀ་མའི་སེམས་ཇི་ལྟར་བལྟ་བར་བགྱི།",
-          phonetics: "tchom den dé / djang tchoup sem pa / nam tchi ka mai / sem / dji tar / ta war gyi",
-          translation: "Bhagavan, comment un bodhisattva doit-il contempler l'esprit au moment de la mort ?",
+          tibetan:
+            "བཅོམ་ལྡན་འདས་བྱང་ཆུབ་སེམས་དཔའ་ནམ་འཆི་ཀ་མའི་སེམས་ཇི་ལྟར་བལྟ་བར་བགྱི།",
+          phonetics:
+            "tchom den dé / djang tchoup sem pa / nam tchi ka mai / sem / dji tar / ta war gyi",
+          translation:
+            "Bhagavan, comment un bodhisattva doit-il contempler l'esprit au moment de la mort ?",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "tchom den dé", translation: "Bhagavan" },
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sem pa", translation: "bodhisattva" },
-            { tibetan: "ནམ་འཆི་ཀ་མའི་", phonetics: "nam tchi ka mai", translation: "au moment de la mort" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
+              translation: "Bhagavan",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
+              translation: "bodhisattva",
+            },
+            {
+              tibetan: "ནམ་འཆི་ཀ་མའི་",
+              phonetics: "nam tchi ka mai",
+              translation: "au moment de la mort",
+            },
             { tibetan: "སེམས་", phonetics: "sem", translation: "l'esprit" },
-            { tibetan: "ཇི་ལྟར་", phonetics: "dji tar", translation: "comment" },
-            { tibetan: "བལྟ་བར་བགྱི་", phonetics: "ta war gyi", translation: "doit-il contempler" },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "dji tar",
+              translation: "comment",
+            },
+            {
+              tibetan: "བལྟ་བར་བགྱི་",
+              phonetics: "ta war gyi",
+              translation: "doit-il contempler",
+            },
           ],
         },
         {
@@ -143,8 +293,16 @@ export const dakaYeshe: PracticeText = {
           translation: "Le Bhagavan répondit :",
           words: [
             { tibetan: "དེ་ནས་", phonetics: "dé né", translation: "alors" },
-            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "tchom den dé kyi", translation: "le Bhagavan" },
-            { tibetan: "བཀའ་སྩལ་པ་", phonetics: "ka tsel pa", translation: "répondit" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
+              phonetics: "tchom den dé kyi",
+              translation: "le Bhagavan",
+            },
+            {
+              tibetan: "བཀའ་སྩལ་པ་",
+              phonetics: "ka tsel pa",
+              translation: "répondit",
+            },
           ],
         },
         {
@@ -152,12 +310,29 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "ཆོས་ཐམས་ཅད་རང་བཞིན་གྱིས་རྣམ་པར་དག་པས་ན།",
           phonetics: "tcheu t'am tché / rang shin gyi / nam par / dak pé na",
-          translation: "Tous les phénomènes étant parfaitement purs par nature,",
+          translation:
+            "Tous les phénomènes étant parfaitement purs par nature,",
           words: [
-            { tibetan: "ཆོས་ཐམས་ཅད་", phonetics: "tcheu t'am tché", translation: "tous les phénomènes" },
-            { tibetan: "རང་བཞིན་གྱིས་", phonetics: "rang shin gyi", translation: "par nature" },
-            { tibetan: "རྣམ་པར་", phonetics: "nam par", translation: "parfaitement" },
-            { tibetan: "དག་པས་ན་", phonetics: "dak pé na", translation: "étant purs" },
+            {
+              tibetan: "ཆོས་ཐམས་ཅད་",
+              phonetics: "tcheu t'am tché",
+              translation: "tous les phénomènes",
+            },
+            {
+              tibetan: "རང་བཞིན་གྱིས་",
+              phonetics: "rang shin gyi",
+              translation: "par nature",
+            },
+            {
+              tibetan: "རྣམ་པར་",
+              phonetics: "nam par",
+              translation: "parfaitement",
+            },
+            {
+              tibetan: "དག་པས་ན་",
+              phonetics: "dak pé na",
+              translation: "étant purs",
+            },
           ],
         },
         {
@@ -165,13 +340,34 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "དངོས་པོ་མེད་པའི་འདུ་ཤེས་རབ་ཏུ་བསྒོམ་པར་བྱའོ།",
           phonetics: "ngeu po / mé pai / dou ché / rap tou / gom par dja'o",
-          translation: "il faut méditer pleinement la pensée de l'absence d'existence substantielle.",
+          translation:
+            "il faut méditer pleinement la pensée de l'absence d'existence substantielle.",
           words: [
-            { tibetan: "དངོས་པོ་", phonetics: "ngeu po", translation: "existence substantielle" },
-            { tibetan: "མེད་པའི་", phonetics: "mé pai", translation: "de l'absence de" },
-            { tibetan: "འདུ་ཤེས་", phonetics: "dou ché", translation: "la pensée" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rap tou", translation: "pleinement" },
-            { tibetan: "བསྒོམ་པར་བྱའོ་", phonetics: "gom par dja'o", translation: "il faut méditer" },
+            {
+              tibetan: "དངོས་པོ་",
+              phonetics: "ngeu po",
+              translation: "existence substantielle",
+            },
+            {
+              tibetan: "མེད་པའི་",
+              phonetics: "mé pai",
+              translation: "de l'absence de",
+            },
+            {
+              tibetan: "འདུ་ཤེས་",
+              phonetics: "dou ché",
+              translation: "la pensée",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "pleinement",
+            },
+            {
+              tibetan: "བསྒོམ་པར་བྱའོ་",
+              phonetics: "gom par dja'o",
+              translation: "il faut méditer",
+            },
           ],
         },
         {
@@ -181,52 +377,126 @@ export const dakaYeshe: PracticeText = {
           phonetics: "tcheu t'am tché / djang tchoup kyi sem / sou / du pé na",
           translation: "Tous les phénomènes étant réunis dans la bodhichitta,",
           words: [
-            { tibetan: "ཆོས་ཐམས་ཅད་", phonetics: "tcheu t'am tché", translation: "tous les phénomènes" },
-            { tibetan: "བྱང་ཆུབ་ཀྱི་སེམས་", phonetics: "djang tchoup kyi sem", translation: "la bodhichitta" },
+            {
+              tibetan: "ཆོས་ཐམས་ཅད་",
+              phonetics: "tcheu t'am tché",
+              translation: "tous les phénomènes",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་ཀྱི་སེམས་",
+              phonetics: "djang tchoup kyi sem",
+              translation: "la bodhichitta",
+            },
             { tibetan: "སུ་", phonetics: "sou", translation: "dans" },
-            { tibetan: "འདུས་པས་ན་", phonetics: "du pé na", translation: "étant réunis" },
+            {
+              tibetan: "འདུས་པས་ན་",
+              phonetics: "du pé na",
+              translation: "étant réunis",
+            },
           ],
         },
         {
           id: "dy-0-14",
           type: "normal",
           tibetan: "སྙིང་རྗེ་ཆེན་པོའི་འདུ་ཤེས་རབ་ཏུ་བསྒོམ་པར་བྱའོ།",
-          phonetics: "nying djé / tchen peu / dou ché / rap tou / gom par dja'o",
-          translation: "il faut méditer pleinement la pensée de la grande compassion.",
+          phonetics:
+            "nying djé / tchen peu / dou ché / rap tou / gom par dja'o",
+          translation:
+            "il faut méditer pleinement la pensée de la grande compassion.",
           words: [
-            { tibetan: "སྙིང་རྗེ་", phonetics: "nying djé", translation: "compassion" },
-            { tibetan: "ཆེན་པོའི་", phonetics: "tchen peu", translation: "de la grande" },
-            { tibetan: "འདུ་ཤེས་", phonetics: "dou ché", translation: "la pensée" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rap tou", translation: "pleinement" },
-            { tibetan: "བསྒོམ་པར་བྱའོ་", phonetics: "gom par dja'o", translation: "il faut méditer" },
+            {
+              tibetan: "སྙིང་རྗེ་",
+              phonetics: "nying djé",
+              translation: "compassion",
+            },
+            {
+              tibetan: "ཆེན་པོའི་",
+              phonetics: "tchen peu",
+              translation: "de la grande",
+            },
+            {
+              tibetan: "འདུ་ཤེས་",
+              phonetics: "dou ché",
+              translation: "la pensée",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "pleinement",
+            },
+            {
+              tibetan: "བསྒོམ་པར་བྱའོ་",
+              phonetics: "gom par dja'o",
+              translation: "il faut méditer",
+            },
           ],
         },
         {
           id: "dy-0-15",
           type: "normal",
           tibetan: "ཆོས་ཐམས་ཅད་རང་བཞིན་གྱིས་མི་དམིགས་ཤིང་འོད་གསལ་བས་ན།",
-          phonetics: "tcheu t'am tché / rang shin gyi / mi mik ching / eu sel wé na",
-          translation: "Tous les phénomènes étant par nature non référentiels et claire lumière,",
+          phonetics:
+            "tcheu t'am tché / rang shin gyi / mi mik ching / eu sel wé na",
+          translation:
+            "Tous les phénomènes étant par nature non référentiels et claire lumière,",
           words: [
-            { tibetan: "ཆོས་ཐམས་ཅད་", phonetics: "tcheu t'am tché", translation: "tous les phénomènes" },
-            { tibetan: "རང་བཞིན་གྱིས་", phonetics: "rang shin gyi", translation: "par nature" },
-            { tibetan: "མི་དམིགས་ཤིང་", phonetics: "mi mik ching", translation: "non référentiels et" },
-            { tibetan: "འོད་གསལ་བས་ན་", phonetics: "eu sel wé na", translation: "claire lumière étant" },
+            {
+              tibetan: "ཆོས་ཐམས་ཅད་",
+              phonetics: "tcheu t'am tché",
+              translation: "tous les phénomènes",
+            },
+            {
+              tibetan: "རང་བཞིན་གྱིས་",
+              phonetics: "rang shin gyi",
+              translation: "par nature",
+            },
+            {
+              tibetan: "མི་དམིགས་ཤིང་",
+              phonetics: "mi mik ching",
+              translation: "non référentiels et",
+            },
+            {
+              tibetan: "འོད་གསལ་བས་ན་",
+              phonetics: "eu sel wé na",
+              translation: "claire lumière étant",
+            },
           ],
         },
         {
           id: "dy-0-16",
           type: "normal",
           tibetan: "དངོས་པོ་ཅི་ལའང་མི་ཆགས་པའི་འདུ་ཤེས་རབ་ཏུ་བསྒོམ་པར་བྱའོ།",
-          phonetics: "ngeu po / tchi la'ang / mi tchak pai / dou ché / rap tou / gom par dja'o",
-          translation: "il faut méditer pleinement la pensée du non-attachement à toute chose.",
+          phonetics:
+            "ngeu po / tchi la'ang / mi tchak pai / dou ché / rap tou / gom par dja'o",
+          translation:
+            "il faut méditer pleinement la pensée du non-attachement à toute chose.",
           words: [
             { tibetan: "དངོས་པོ་", phonetics: "ngeu po", translation: "chose" },
-            { tibetan: "ཅི་ལའང་", phonetics: "tchi la'ang", translation: "à toute" },
-            { tibetan: "མི་ཆགས་པའི་", phonetics: "mi tchak pai", translation: "du non-attachement" },
-            { tibetan: "འདུ་ཤེས་", phonetics: "dou ché", translation: "la pensée" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rap tou", translation: "pleinement" },
-            { tibetan: "བསྒོམ་པར་བྱའོ་", phonetics: "gom par dja'o", translation: "il faut méditer" },
+            {
+              tibetan: "ཅི་ལའང་",
+              phonetics: "tchi la'ang",
+              translation: "à toute",
+            },
+            {
+              tibetan: "མི་ཆགས་པའི་",
+              phonetics: "mi tchak pai",
+              translation: "du non-attachement",
+            },
+            {
+              tibetan: "འདུ་ཤེས་",
+              phonetics: "dou ché",
+              translation: "la pensée",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "pleinement",
+            },
+            {
+              tibetan: "བསྒོམ་པར་བྱའོ་",
+              phonetics: "gom par dja'o",
+              translation: "il faut méditer",
+            },
           ],
         },
         {
@@ -237,24 +507,62 @@ export const dakaYeshe: PracticeText = {
           translation: "Si on réalise l'esprit, il est sagesse primordiale :",
           words: [
             { tibetan: "སེམས་", phonetics: "sem", translation: "l'esprit" },
-            { tibetan: "རྟོགས་ན་", phonetics: "tok na", translation: "si on réalise" },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse primordiale" },
-            { tibetan: "ཡིན་པས་ན་", phonetics: "yin pé na", translation: "il est" },
+            {
+              tibetan: "རྟོགས་ན་",
+              phonetics: "tok na",
+              translation: "si on réalise",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yé ché",
+              translation: "sagesse primordiale",
+            },
+            {
+              tibetan: "ཡིན་པས་ན་",
+              phonetics: "yin pé na",
+              translation: "il est",
+            },
           ],
         },
         {
           id: "dy-0-18",
           type: "normal",
           tibetan: "སངས་རྒྱས་གཞན་ཏུ་མི་བཙལ་བའི་འདུ་ཤེས་རབ་ཏུ་བསྒོམ་པར་བྱའོ།",
-          phonetics: "sang gyé / shen dou / mi tsal wai / dou ché / rab tou / gom par dja'o",
-          translation: "il faut méditer pleinement la pensée que la bouddhéité ne se trouve nulle part ailleurs.\"",
+          phonetics:
+            "sang gyé / shen dou / mi tsal wai / dou ché / rab tou / gom par dja'o",
+          translation:
+            'il faut méditer pleinement la pensée que la bouddhéité ne se trouve nulle part ailleurs."',
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sang gyé", translation: "la bouddhéité" },
-            { tibetan: "གཞན་ཏུ་", phonetics: "shen dou", translation: "ailleurs" },
-            { tibetan: "མི་བཙལ་བའི་", phonetics: "mi tsal wai", translation: "ne se trouve pas" },
-            { tibetan: "འདུ་ཤེས་", phonetics: "dou ché", translation: "la pensée" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rab tou", translation: "pleinement" },
-            { tibetan: "བསྒོམ་པར་བྱའོ་", phonetics: "gom par dja'o", translation: "il faut méditer" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyé",
+              translation: "la bouddhéité",
+            },
+            {
+              tibetan: "གཞན་ཏུ་",
+              phonetics: "shen dou",
+              translation: "ailleurs",
+            },
+            {
+              tibetan: "མི་བཙལ་བའི་",
+              phonetics: "mi tsal wai",
+              translation: "ne se trouve pas",
+            },
+            {
+              tibetan: "འདུ་ཤེས་",
+              phonetics: "dou ché",
+              translation: "la pensée",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rab tou",
+              translation: "pleinement",
+            },
+            {
+              tibetan: "བསྒོམ་པར་བྱའོ་",
+              phonetics: "gom par dja'o",
+              translation: "il faut méditer",
+            },
           ],
         },
         {
@@ -264,9 +572,21 @@ export const dakaYeshe: PracticeText = {
           phonetics: "tchom den dé kyi / tsik sou tché dé / ka tsel pa",
           translation: "Le Bhagavan énonça cela en vers :",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "tchom den dé kyi", translation: "le Bhagavan" },
-            { tibetan: "ཚིགས་སུ་བཅད་དེ་", phonetics: "tsik sou tché dé", translation: "en vers" },
-            { tibetan: "བཀའ་སྩལ་པ་", phonetics: "ka tsel pa", translation: "énonça" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
+              phonetics: "tchom den dé kyi",
+              translation: "le Bhagavan",
+            },
+            {
+              tibetan: "ཚིགས་སུ་བཅད་དེ་",
+              phonetics: "tsik sou tché dé",
+              translation: "en vers",
+            },
+            {
+              tibetan: "བཀའ་སྩལ་པ་",
+              phonetics: "ka tsel pa",
+              translation: "énonça",
+            },
           ],
         },
         {
@@ -274,11 +594,23 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "ཆོས་རྣམས་རང་བཞིན་རྣམ་དག་པས།",
           phonetics: "tcheu nam / rang shin / nam dak pé",
-          translation: "\"Naturellement purs sont les phénomènes,",
+          translation: '"Naturellement purs sont les phénomènes,',
           words: [
-            { tibetan: "ཆོས་རྣམས་", phonetics: "tcheu nam", translation: "les phénomènes" },
-            { tibetan: "རང་བཞིན་", phonetics: "rang shin", translation: "par nature" },
-            { tibetan: "རྣམ་དག་པས་", phonetics: "nam dak pé", translation: "purs étant" },
+            {
+              tibetan: "ཆོས་རྣམས་",
+              phonetics: "tcheu nam",
+              translation: "les phénomènes",
+            },
+            {
+              tibetan: "རང་བཞིན་",
+              phonetics: "rang shin",
+              translation: "par nature",
+            },
+            {
+              tibetan: "རྣམ་དག་པས་",
+              phonetics: "nam dak pé",
+              translation: "purs étant",
+            },
           ],
         },
         {
@@ -286,11 +618,24 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "དངོས་པོ་མེད་པའི་འདུ་ཤེས་བསྒོམ།",
           phonetics: "ngeu po / mé pai / dou ché gom",
-          translation: "ainsi médite la pensée de l'absence d'existence substantielle;",
+          translation:
+            "ainsi médite la pensée de l'absence d'existence substantielle;",
           words: [
-            { tibetan: "དངོས་པོ་", phonetics: "ngeu po", translation: "existence substantielle" },
-            { tibetan: "མེད་པའི་", phonetics: "mé pai", translation: "de l'absence de" },
-            { tibetan: "འདུ་ཤེས་བསྒོམ་", phonetics: "dou ché gom", translation: "médite la pensée" },
+            {
+              tibetan: "དངོས་པོ་",
+              phonetics: "ngeu po",
+              translation: "existence substantielle",
+            },
+            {
+              tibetan: "མེད་པའི་",
+              phonetics: "mé pai",
+              translation: "de l'absence de",
+            },
+            {
+              tibetan: "འདུ་ཤེས་བསྒོམ་",
+              phonetics: "dou ché gom",
+              translation: "médite la pensée",
+            },
           ],
         },
         {
@@ -300,9 +645,17 @@ export const dakaYeshe: PracticeText = {
           phonetics: "djang tchoup sem dang / rap / den pé",
           translation: "ils sont parfaitement doués de bodhichitta,",
           words: [
-            { tibetan: "བྱང་ཆུབ་སེམས་དང་", phonetics: "djang tchoup sem dang", translation: "de bodhichitta" },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དང་",
+              phonetics: "djang tchoup sem dang",
+              translation: "de bodhichitta",
+            },
             { tibetan: "རབ་", phonetics: "rap", translation: "parfaitement" },
-            { tibetan: "ལྡན་པས་", phonetics: "den pé", translation: "doués étant" },
+            {
+              tibetan: "ལྡན་པས་",
+              phonetics: "den pé",
+              translation: "doués étant",
+            },
           ],
         },
         {
@@ -312,9 +665,21 @@ export const dakaYeshe: PracticeText = {
           phonetics: "nying djé / tchen peu / dou ché / gom",
           translation: "ainsi médite la pensée de la grande compassion;",
           words: [
-            { tibetan: "སྙིང་རྗེ་", phonetics: "nying djé", translation: "compassion" },
-            { tibetan: "ཆེན་པོའི་", phonetics: "tchen peu", translation: "de la grande" },
-            { tibetan: "འདུ་ཤེས་", phonetics: "dou ché", translation: "la pensée" },
+            {
+              tibetan: "སྙིང་རྗེ་",
+              phonetics: "nying djé",
+              translation: "compassion",
+            },
+            {
+              tibetan: "ཆེན་པོའི་",
+              phonetics: "tchen peu",
+              translation: "de la grande",
+            },
+            {
+              tibetan: "འདུ་ཤེས་",
+              phonetics: "dou ché",
+              translation: "la pensée",
+            },
             { tibetan: "བསྒོམ་", phonetics: "gom", translation: "médite" },
           ],
         },
@@ -323,11 +688,24 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "རང་བཞིན་མི་དམིགས་འོད་གསལ་བས།",
           phonetics: "rang shin / mi mik / eu sel wé",
-          translation: "ils sont naturellement non référentiels et claire lumière,",
+          translation:
+            "ils sont naturellement non référentiels et claire lumière,",
           words: [
-            { tibetan: "རང་བཞིན་", phonetics: "rang shin", translation: "par nature" },
-            { tibetan: "མི་དམིགས་", phonetics: "mi mik", translation: "non référentiels" },
-            { tibetan: "འོད་གསལ་བས་", phonetics: "eu sel wé", translation: "claire lumière étant" },
+            {
+              tibetan: "རང་བཞིན་",
+              phonetics: "rang shin",
+              translation: "par nature",
+            },
+            {
+              tibetan: "མི་དམིགས་",
+              phonetics: "mi mik",
+              translation: "non référentiels",
+            },
+            {
+              tibetan: "འོད་གསལ་བས་",
+              phonetics: "eu sel wé",
+              translation: "claire lumière étant",
+            },
           ],
         },
         {
@@ -338,8 +716,16 @@ export const dakaYeshe: PracticeText = {
           translation: "ainsi médite le non-attachement à toute chose;",
           words: [
             { tibetan: "དངོས་པོ་", phonetics: "ngeu po", translation: "chose" },
-            { tibetan: "ཅི་ལའང་", phonetics: "tchi la'ang", translation: "à toute" },
-            { tibetan: "མི་ཆགས་", phonetics: "mi tchak", translation: "non-attachement" },
+            {
+              tibetan: "ཅི་ལའང་",
+              phonetics: "tchi la'ang",
+              translation: "à toute",
+            },
+            {
+              tibetan: "མི་ཆགས་",
+              phonetics: "mi tchak",
+              translation: "non-attachement",
+            },
             { tibetan: "བསྒོམ་", phonetics: "gom", translation: "médite" },
           ],
         },
@@ -350,9 +736,21 @@ export const dakaYeshe: PracticeText = {
           phonetics: "sem ni / yé ché / djoung wai gyou",
           translation: "l'esprit est la source de la sagesse primordiale,",
           words: [
-            { tibetan: "སེམས་ནི་", phonetics: "sem ni", translation: "l'esprit" },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse primordiale" },
-            { tibetan: "འབྱུང་བའི་རྒྱུ་", phonetics: "djoung wai gyou", translation: "la source de" },
+            {
+              tibetan: "སེམས་ནི་",
+              phonetics: "sem ni",
+              translation: "l'esprit",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yé ché",
+              translation: "sagesse primordiale",
+            },
+            {
+              tibetan: "འབྱུང་བའི་རྒྱུ་",
+              phonetics: "djoung wai gyou",
+              translation: "la source de",
+            },
           ],
         },
         {
@@ -360,11 +758,23 @@ export const dakaYeshe: PracticeText = {
           type: "normal",
           tibetan: "སངས་རྒྱས་གཞན་དུ་མ་ཚོལ་ཅིག",
           phonetics: "sangyé / shen dou / ma tseul tchik",
-          translation: "ainsi ne cherche pas la bouddhéité ailleurs.\"",
+          translation: 'ainsi ne cherche pas la bouddhéité ailleurs."',
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sangyé", translation: "la bouddhéité" },
-            { tibetan: "གཞན་དུ་", phonetics: "shen dou", translation: "ailleurs" },
-            { tibetan: "མ་ཚོལ་ཅིག་", phonetics: "ma tseul tchik", translation: "ne cherche pas" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sangyé",
+              translation: "la bouddhéité",
+            },
+            {
+              tibetan: "གཞན་དུ་",
+              phonetics: "shen dou",
+              translation: "ailleurs",
+            },
+            {
+              tibetan: "མ་ཚོལ་ཅིག་",
+              phonetics: "ma tseul tchik",
+              translation: "ne cherche pas",
+            },
           ],
         },
         {
@@ -374,23 +784,58 @@ export const dakaYeshe: PracticeText = {
           phonetics: "tchom den dé kyi / dé ké tché / ka tsel pa dang",
           translation: "Ainsi s'exprima le Bhagavan.",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "tchom den dé kyi", translation: "le Bhagavan" },
-            { tibetan: "དེ་སྐད་ཅེས་", phonetics: "dé ké tché", translation: "ainsi" },
-            { tibetan: "བཀའ་སྩལ་པ་དང་", phonetics: "ka tsel pa dang", translation: "s'exprima" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
+              phonetics: "tchom den dé kyi",
+              translation: "le Bhagavan",
+            },
+            {
+              tibetan: "དེ་སྐད་ཅེས་",
+              phonetics: "dé ké tché",
+              translation: "ainsi",
+            },
+            {
+              tibetan: "བཀའ་སྩལ་པ་དང་",
+              phonetics: "ka tsel pa dang",
+              translation: "s'exprima",
+            },
           ],
         },
         {
           id: "dy-0-29",
           type: "normal",
-          tibetan: "བྱང་ཆུབ་སེམས་དཔའ་ནམ་མཁའི་སྙིང་པོ་ལ་སོགས་པའི་འཁོར་ཐམས་ཅད་རབ་ཏུ་དགའ་སྟེ།",
-          phonetics: "djang tchoup sem pa / nam k'aï nying po / la sok pai / k'or t'am tché / rap tou / ga té",
-          translation: "Le bodhisattva Akashagarba et tout l'entourage furent alors remplis de joie",
+          tibetan:
+            "བྱང་ཆུབ་སེམས་དཔའ་ནམ་མཁའི་སྙིང་པོ་ལ་སོགས་པའི་འཁོར་ཐམས་ཅད་རབ་ཏུ་དགའ་སྟེ།",
+          phonetics:
+            "djang tchoup sem pa / nam k'aï nying po / la sok pai / k'or t'am tché / rap tou / ga té",
+          translation:
+            "Le bodhisattva Akashagarba et tout l'entourage furent alors remplis de joie",
           words: [
-            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "djang tchoup sem pa", translation: "le bodhisattva" },
-            { tibetan: "ནམ་མཁའི་སྙིང་པོ་", phonetics: "nam k'aï nying po", translation: "Akashagarba" },
-            { tibetan: "ལ་སོགས་པའི་", phonetics: "la sok pai", translation: "ainsi que" },
-            { tibetan: "འཁོར་ཐམས་ཅད་", phonetics: "k'or t'am tché", translation: "tout l'entourage" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rap tou", translation: "pleinement" },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "djang tchoup sem pa",
+              translation: "le bodhisattva",
+            },
+            {
+              tibetan: "ནམ་མཁའི་སྙིང་པོ་",
+              phonetics: "nam k'aï nying po",
+              translation: "Akashagarba",
+            },
+            {
+              tibetan: "ལ་སོགས་པའི་",
+              phonetics: "la sok pai",
+              translation: "ainsi que",
+            },
+            {
+              tibetan: "འཁོར་ཐམས་ཅད་",
+              phonetics: "k'or t'am tché",
+              translation: "tout l'entourage",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rap tou",
+              translation: "pleinement",
+            },
             { tibetan: "དགའ་སྟེ་", phonetics: "ga té", translation: "de joie" },
           ],
         },
@@ -401,9 +846,21 @@ export const dakaYeshe: PracticeText = {
           phonetics: "tchom den dé kyi / soung pa la / ngeun par teu do",
           translation: "et louèrent les paroles du Bhagavan.",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "tchom den dé kyi", translation: "du Bhagavan" },
-            { tibetan: "གསུངས་པ་ལ་", phonetics: "soung pa la", translation: "les paroles" },
-            { tibetan: "མངོན་པར་བསྟོད་དོ་", phonetics: "ngeun par teu do", translation: "louèrent" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་",
+              phonetics: "tchom den dé kyi",
+              translation: "du Bhagavan",
+            },
+            {
+              tibetan: "གསུངས་པ་ལ་",
+              phonetics: "soung pa la",
+              translation: "les paroles",
+            },
+            {
+              tibetan: "མངོན་པར་བསྟོད་དོ་",
+              phonetics: "ngeun par teu do",
+              translation: "louèrent",
+            },
           ],
         },
         {
@@ -411,7 +868,8 @@ export const dakaYeshe: PracticeText = {
           type: "colophon",
           tibetan: "འཕགས་པ་འདའ་ཀ་ཡེ་ཤེས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ་རྫོགས་སོ།།",
           phonetics: "",
-          translation: "Ainsi se termine le noble soutra du grand véhicule intitulé La Sagesse primordiale du moment de la mort.",
+          translation:
+            "Ainsi se termine le noble soutra du grand véhicule intitulé La Sagesse primordiale du moment de la mort.",
           words: [],
         },
       ],
