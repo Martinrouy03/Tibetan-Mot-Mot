@@ -1714,12 +1714,12 @@ export const coeurPrajnaparamita: PracticeText = {
             {
               tibetan: "ལེགས་སོ་",
               phonetics: "lék so",
-              translation: '"Bien!"',
+              translation: "félicita",
             },
             {
               tibetan: "ཞེས་བྱ་བ་བྱིན་ཏེ་",
               phonetics: "shé dja wa djin té",
-              translation: "ainsi s'adressa-t-il",
+              translation: "[ainsi s'adressa-t-il]",
             },
           ],
         },

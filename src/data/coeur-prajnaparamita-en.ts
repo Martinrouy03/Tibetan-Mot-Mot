@@ -1223,53 +1223,129 @@ export const coeurPrajnaparamitaEn: PracticeText = {
           translation: "Without obscuration of mind, there is no fear.",
           words: [
             { tibetan: "སེམས་ལ་", phonetics: "sem la", translation: "of mind" },
-            { tibetan: "སྒྲིབ་པ་མེད་པས་", phonetics: "dribpa mepe", translation: "without obscuration" },
-            { tibetan: "སྐྲག་པ་མེད་དེ་", phonetics: "tragpa me de", translation: "there is no fear" },
+            {
+              tibetan: "སྒྲིབ་པ་མེད་པས་",
+              phonetics: "dribpa mepe",
+              translation: "without obscuration",
+            },
+            {
+              tibetan: "སྐྲག་པ་མེད་དེ་",
+              phonetics: "tragpa me de",
+              translation: "there is no fear",
+            },
           ],
         },
         {
           id: "cp-en-2-24",
           type: "normal",
           tibetan: "ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པའི་མཐར་ཕྱིན་ཏོ།",
-          phonetics: "chhin chi log le / shintu / de ne / nya ngen le depe / thar / chhin to",
-          translation: "Having utterly transcended erroneous views, they acquire ultimate nirvana.",
+          phonetics:
+            "chhin chi log le / shintu / de ne / nya ngen le depe / thar / chhin to",
+          translation:
+            "Having utterly transcended erroneous views, they acquire ultimate nirvana.",
           words: [
-            { tibetan: "ཕྱིན་ཅི་ལོག་ལས་", phonetics: "chhin chi log le", translation: "erroneous views" },
+            {
+              tibetan: "ཕྱིན་ཅི་ལོག་ལས་",
+              phonetics: "chhin chi log le",
+              translation: "erroneous views",
+            },
             { tibetan: "ཤིན་ཏུ་", phonetics: "shintu", translation: "utterly" },
-            { tibetan: "འདས་ནས་", phonetics: "de ne", translation: "having transcended" },
-            { tibetan: "མྱ་ངན་ལས་འདས་པའི་", phonetics: "nya ngen le depe", translation: "nirvana" },
+            {
+              tibetan: "འདས་ནས་",
+              phonetics: "de ne",
+              translation: "having transcended",
+            },
+            {
+              tibetan: "མྱ་ངན་ལས་འདས་པའི་",
+              phonetics: "nya ngen le depe",
+              translation: "nirvana",
+            },
             { tibetan: "མཐར་", phonetics: "thar", translation: "ultimate" },
-            { tibetan: "ཕྱིན་ཏོ་", phonetics: "chhin to", translation: "they acquire" },
+            {
+              tibetan: "ཕྱིན་ཏོ་",
+              phonetics: "chhin to",
+              translation: "they acquire",
+            },
           ],
         },
         {
           id: "cp-en-2-25",
           type: "normal",
-          tibetan: "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་འདི་ལ་བརྟེན་ནས་",
-          phonetics: "dü sum du / nampar zhugpe / sanggye / thamche kyang / sherab kyi pharol tu chhinpa / di la / ten ne",
-          translation: "All the Buddhas of the three times come to realize supreme perfect complete",
+          tibetan:
+            "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་འདི་ལ་བརྟེན་ནས་",
+          phonetics:
+            "dü sum du / nampar zhugpe / sanggye / thamche kyang / sherab kyi pharol tu chhinpa / di la / ten ne",
+          translation:
+            "All the Buddhas of the three times come to realize supreme perfect complete",
           words: [
-            { tibetan: "དུས་གསུམ་དུ་", phonetics: "dü sum du", translation: "of the three times" },
-            { tibetan: "རྣམ་པར་བཞུགས་པའི་", phonetics: "nampar zhugpe", translation: "[perfectly abiding]" },
-            { tibetan: "སངས་རྒྱས་", phonetics: "sanggye", translation: "Buddhas" },
-            { tibetan: "ཐམས་ཅད་ཀྱང་", phonetics: "thamche kyang", translation: "all" },
-            { tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་", phonetics: "sherab kyi pharol tu chhinpa", translation: "transcendental wisdom" },
+            {
+              tibetan: "དུས་གསུམ་དུ་",
+              phonetics: "dü sum du",
+              translation: "of the three times",
+            },
+            {
+              tibetan: "རྣམ་པར་བཞུགས་པའི་",
+              phonetics: "nampar zhugpe",
+              translation: "[perfectly abiding]",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sanggye",
+              translation: "Buddhas",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ཀྱང་",
+              phonetics: "thamche kyang",
+              translation: "all",
+            },
+            {
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་",
+              phonetics: "sherab kyi pharol tu chhinpa",
+              translation: "transcendental wisdom",
+            },
             { tibetan: "འདི་ལ་", phonetics: "di la", translation: "this" },
-            { tibetan: "བརྟེན་ནས་", phonetics: "ten ne", translation: "by reliance on" },
+            {
+              tibetan: "བརྟེན་ནས་",
+              phonetics: "ten ne",
+              translation: "by reliance on",
+            },
           ],
         },
         {
           id: "cp-en-2-26",
           type: "normal",
-          tibetan: "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ།",
-          phonetics: "lana mepa / yangdagpar / dzogpe / jangchhub tu / ngönpar dzogpar sanggye so",
-          translation: "enlightenment by this reliance on transcendental wisdom.",
+          tibetan:
+            "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ།",
+          phonetics:
+            "lana mepa / yangdagpar / dzogpe / jangchhub tu / ngönpar dzogpar sanggye so",
+          translation:
+            "enlightenment by this reliance on transcendental wisdom.",
           words: [
-            { tibetan: "བླ་ན་མེད་པ་", phonetics: "lana mepa", translation: "supreme" },
-            { tibetan: "ཡང་དག་པར་", phonetics: "yangdagpar", translation: "complete" },
-            { tibetan: "རྫོགས་པའི་", phonetics: "dzogpe", translation: "perfect" },
-            { tibetan: "བྱང་ཆུབ་ཏུ་", phonetics: "jangchhub tu", translation: "enlightenment" },
-            { tibetan: "མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ་", phonetics: "ngönpar dzogpar sanggye so", translation: "come to realize" },
+            {
+              tibetan: "བླ་ན་མེད་པ་",
+              phonetics: "lana mepa",
+              translation: "supreme",
+            },
+            {
+              tibetan: "ཡང་དག་པར་",
+              phonetics: "yangdagpar",
+              translation: "complete",
+            },
+            {
+              tibetan: "རྫོགས་པའི་",
+              phonetics: "dzogpe",
+              translation: "perfect",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་ཏུ་",
+              phonetics: "jangchhub tu",
+              translation: "enlightenment",
+            },
+            {
+              tibetan: "མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ་",
+              phonetics: "ngönpar dzogpar sanggye so",
+              translation: "come to realize",
+            },
           ],
         },
         {
@@ -1279,21 +1355,390 @@ export const coeurPrajnaparamitaEn: PracticeText = {
           phonetics: "detawe na / sherab kyi pharol tu chhinpe / ngag",
           translation: "Therefore, know the mantra of transcendental wisdom,",
           words: [
-            { tibetan: "དེ་ལྟ་བས་ན་", phonetics: "detawe na", translation: "Therefore" },
-            { tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་", phonetics: "sherab kyi pharol tu chhinpe", translation: "transcendental wisdom" },
+            {
+              tibetan: "དེ་ལྟ་བས་ན་",
+              phonetics: "detawe na",
+              translation: "Therefore",
+            },
+            {
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་",
+              phonetics: "sherab kyi pharol tu chhinpe",
+              translation: "transcendental wisdom",
+            },
             { tibetan: "སྔགས་", phonetics: "ngag", translation: "mantra" },
           ],
         },
         {
           id: "cp-en-2-28",
           type: "normal",
-          tibetan: "རིག་པ་ཆེན་པོའི་སྔགས། བླ་ན་མེད་པའི་སྔགས། མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
-          phonetics: "rigpa chhenpo'i ngag / lana mepe ngag / minyampa dang nyampe ngag",
-          translation: "the mantra of great awareness, the unsurpassed mantra, the peerless mantra,",
+          tibetan:
+            "རིག་པ་ཆེན་པོའི་སྔགས། བླ་ན་མེད་པའི་སྔགས། མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
+          phonetics:
+            "rigpa chhenpo'i ngag / lana mepe ngag / minyampa dang nyampe ngag",
+          translation:
+            "the mantra of great awareness, the unsurpassed mantra, the peerless mantra,",
           words: [
-            { tibetan: "རིག་པ་ཆེན་པོའི་སྔགས་", phonetics: "rigpa chhenpo'i ngag", translation: "the mantra of great awareness" },
-            { tibetan: "བླ་ན་མེད་པའི་སྔགས་", phonetics: "lana mepe ngag", translation: "the unsurpassed mantra" },
-            { tibetan: "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས་", phonetics: "minyampa dang nyampe ngag", translation: "the peerless mantra" },
+            {
+              tibetan: "རིག་པ་ཆེན་པོའི་སྔགས་",
+              phonetics: "rigpa chhenpo'i ngag",
+              translation: "the mantra of great awareness",
+            },
+            {
+              tibetan: "བླ་ན་མེད་པའི་སྔགས་",
+              phonetics: "lana mepe ngag",
+              translation: "the unsurpassed mantra",
+            },
+            {
+              tibetan: "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས་",
+              phonetics: "minyampa dang nyampe ngag",
+              translation: "the peerless mantra",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-29",
+          type: "normal",
+          tibetan: "སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས།",
+          phonetics: "dugngal / thamche / rabtu / zhiwar jepe / ngag",
+          translation: "the mantra that totally pacifies all suffering,",
+          words: [
+            {
+              tibetan: "སྡུག་བསྔལ་",
+              phonetics: "dugngal",
+              translation: "suffering",
+            },
+            { tibetan: "ཐམས་ཅད་", phonetics: "thamche", translation: "all" },
+            { tibetan: "རབ་ཏུ་", phonetics: "rabtu", translation: "totally" },
+            {
+              tibetan: "ཞི་བར་བྱེད་པའི་",
+              phonetics: "zhiwar jepe",
+              translation: "pacifies",
+            },
+            { tibetan: "སྔགས་", phonetics: "ngag", translation: "the mantra" },
+          ],
+        },
+        {
+          id: "cp-en-2-30",
+          type: "normal",
+          tibetan: "མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ།",
+          phonetics: "midzünpe na / denpar / shepar ja te",
+          translation: "said to be the truth as it is not falsehood.",
+          words: [
+            {
+              tibetan: "མི་རྫུན་པས་ན་",
+              phonetics: "midzünpe na",
+              translation: "as it is not falsehood",
+            },
+            {
+              tibetan: "བདེན་པར་",
+              phonetics: "denpar",
+              translation: "the truth",
+            },
+            {
+              tibetan: "ཤེས་པར་བྱ་སྟེ་",
+              phonetics: "shepar ja te",
+              translation: "said to be",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-31",
+          type: "normal",
+          tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
+          phonetics: "sherab kyi pharol tu chinpe / ngag / mepa",
+          translation:
+            "The mantra of transcendental wisdom (Prajñā Pāramitā) is uttered thus:",
+          words: [
+            {
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་",
+              phonetics: "sherab kyi pharol tu chinpe",
+              translation: "transcendental wisdom",
+            },
+            { tibetan: "སྔགས་", phonetics: "ngag", translation: "the mantra" },
+            {
+              tibetan: "སྨྲས་པ་",
+              phonetics: "mepa",
+              translation: "is uttered thus",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-32",
+          type: "mantra",
+          tibetan: "ཏདྱ ཐཱ། ༀ ག ཏེ ག ཏེ པཱ ར ག ཏེ པཱ ར སཾ ག ཏེ བོ དྷི སྭཱ ཧཱ།",
+          phonetics: "tadyathā om gate gate pāragate pārasamgate bodhi svāhā",
+          translation: "",
+          words: [],
+        },
+        {
+          id: "cp-en-2-33",
+          type: "normal",
+          tibetan:
+            "ཤཱ་རིའི་བུ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ།",
+          phonetics:
+            "shāriibu / jangchhub sempa / sempa chhenpö / detar / sherab kyi pharol tu chhinpa / zabmo / la / labpar ja'o",
+          translation:
+            'This, O Śāriputra, is how a Mahāsattva-bodhisattva should train in the profound transcendental wisdom (Prajñā Pāramitā)."',
+          words: [
+            {
+              tibetan: "ཤཱ་རིའི་བུ་",
+              phonetics: "shāriibu",
+              translation: "O Śāriputra",
+            },
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "jangchhub sempa",
+              translation: "bodhisattva",
+            },
+            {
+              tibetan: "སེམས་དཔའ་ཆེན་པོས་",
+              phonetics: "sempa chhenpö",
+              translation: "Mahāsattva",
+            },
+            {
+              tibetan: "དེ་ལྟར་",
+              phonetics: "detar",
+              translation: "This is how",
+            },
+            {
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་",
+              phonetics: "sherab kyi pharol tu chhinpa",
+              translation: "transcendental wisdom",
+            },
+            { tibetan: "ཟབ་མོ་", phonetics: "zabmo", translation: "profound" },
+            { tibetan: "ལ་", phonetics: "la", translation: "in" },
+            {
+              tibetan: "བསླབ་པར་བྱའོ་",
+              phonetics: "labpar ja'o",
+              translation: "should train",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-34",
+          type: "normal",
+          tibetan: "དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ།",
+          phonetics: "dene / chomdende / ting nge dzin / de le / zheng te",
+          translation: "Then Buddha Bhagavan arose from Samadhi",
+          words: [
+            { tibetan: "དེ་ནས་", phonetics: "dene", translation: "Then" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "chomdende",
+              translation: "Buddha Bhagavan",
+            },
+            {
+              tibetan: "ཏིང་ངེ་འཛིན་",
+              phonetics: "ting nge dzin",
+              translation: "Samadhi",
+            },
+            { tibetan: "དེ་ལས་", phonetics: "de le", translation: "from" },
+            {
+              tibetan: "བཞེངས་ཏེ་",
+              phonetics: "zheng te",
+              translation: "arose",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-35",
+          type: "normal",
+          tibetan:
+            "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས།",
+          phonetics:
+            "jangchhub sempa / sempa chhenpo / phagpa / chenrezig wangchhug la / leg so / zhejawa jin ne",
+          translation:
+            "and commended Avalokiteśvara, the Mahāsattva-bodhisattva, saying:",
+          words: [
+            {
+              tibetan: "བྱང་ཆུབ་སེམས་དཔའ་",
+              phonetics: "jangchhub sempa",
+              translation: "bodhisattva",
+            },
+            {
+              tibetan: "སེམས་དཔའ་ཆེན་པོ་",
+              phonetics: "sempa chhenpo",
+              translation: "Mahāsattva",
+            },
+            { tibetan: "འཕགས་པ་", phonetics: "phagpa", translation: "noble" },
+            {
+              tibetan: "སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
+              phonetics: "chenrezig wangchhug la",
+              translation: "Avalokiteśvara",
+            },
+            {
+              tibetan: "ལེགས་སོ་",
+              phonetics: "leg so",
+              translation: "commended",
+            },
+            {
+              tibetan: "ཞེས་བྱ་བ་བྱིན་ནས་",
+              phonetics: "zhejawa jin ne",
+              translation: "saying",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-36",
+          type: "normal",
+          tibetan: "ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ནོ། དེ་དེ་བཞིན་ཏེ།",
+          phonetics:
+            "leg so / leg so / rig kyi bu / de dezhin no / de dezhin te",
+          translation:
+            '"Excellent, excellent. Noble son, just so, just as you have taught,',
+          words: [
+            {
+              tibetan: "ལེགས་སོ་",
+              phonetics: "leg so",
+              translation: "Excellent",
+            },
+            {
+              tibetan: "ལེགས་སོ་",
+              phonetics: "leg so",
+              translation: "excellent",
+            },
+            {
+              tibetan: "རིགས་ཀྱི་བུ་",
+              phonetics: "rig kyi bu",
+              translation: "Noble son",
+            },
+            {
+              tibetan: "དེ་དེ་བཞིན་ནོ་",
+              phonetics: "de dezhin no",
+              translation: "just so",
+            },
+            {
+              tibetan: "དེ་དེ་བཞིན་ཏེ་",
+              phonetics: "de dezhin te",
+              translation: "just as [this]",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-37",
+          type: "normal",
+          tibetan:
+            "ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།",
+          phonetics:
+            "jitar / khyö kyi / tenpa / zhindu / sherab kyi pharol tu chhinpa / zabmo la / chepar ja te",
+          translation:
+            "so should the practice of the profound transcendental wisdom be performed,",
+          words: [
+            { tibetan: "ཇི་ལྟར་", phonetics: "jitar", translation: "as" },
+            {
+              tibetan: "ཁྱོད་ཀྱིས་",
+              phonetics: "khyö kyi",
+              translation: "you",
+            },
+            {
+              tibetan: "བསྟན་པ་",
+              phonetics: "tenpa",
+              translation: "have taught",
+            },
+            {
+              tibetan: "བཞིན་དུ་",
+              phonetics: "zhindu",
+              translation: "just so",
+            },
+            {
+              tibetan: "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་",
+              phonetics: "sherab kyi pharol tu chhinpa",
+              translation: "transcendental wisdom",
+            },
+            {
+              tibetan: "ཟབ་མོ་ལ་",
+              phonetics: "zabmo la",
+              translation: "profound",
+            },
+            {
+              tibetan: "སྤྱད་པར་བྱ་སྟེ་",
+              phonetics: "chepar ja te",
+              translation: "should the practice be performed",
+            },
+          ],
+        },
+        {
+          id: "cp-en-2-38",
+          type: "normal",
+          tibetan: "དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་།",
+          phonetics: "dezhin shegpa / nam kyang / jesu yi rang ngo",
+          translation: "and all the tathāgatas rejoice in [confirming] this.\"",
+          words: [
+            { tibetan: "དེ་བཞིན་གཤེགས་པ་", phonetics: "dezhin shegpa", translation: "tathāgatas" },
+            { tibetan: "རྣམས་ཀྱང་", phonetics: "nam kyang", translation: "all" },
+            { tibetan: "རྗེས་སུ་ཡི་རང་ངོ་", phonetics: "jesu yi rang ngo", translation: "rejoice in this" },
+          ],
+        },
+        {
+          id: "cp-en-2-39",
+          type: "normal",
+          tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+          phonetics: "chomdende kyi / deke che / katsal ne",
+          translation: "Thus the Bhagavan proclaimed.",
+          words: [
+            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "chomdende kyi", translation: "the Bhagavan" },
+            { tibetan: "དེ་སྐད་ཅེས་", phonetics: "deke che", translation: "[these words]" },
+            { tibetan: "བཀའ་སྩལ་ནས་", phonetics: "katsal ne", translation: "thus proclaimed" },
+          ],
+        },
+        {
+          id: "cp-en-2-40",
+          type: "normal",
+          tibetan: "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་དང་།",
+          phonetics: "tshe dang denpa / shāra dvatiibu dang",
+          translation: "Then, the Venerable Śāriputra,",
+          words: [
+            { tibetan: "ཚེ་དང་ལྡན་པ་", phonetics: "tshe dang denpa", translation: "the Venerable" },
+            { tibetan: "ཤཱ་ར་དྭ་ཏིའི་བུ་དང་", phonetics: "shāra dvatiibu dang", translation: "Śāriputra" },
+          ],
+        },
+        {
+          id: "cp-en-2-41",
+          type: "normal",
+          tibetan: "བྱང་ཆུབ་སེམས་དཔའ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་",
+          phonetics: "jangchhub sempa / chenrezig wangchhug",
+          translation: "the Bodhisattva Avalokiteśvara,",
+          words: [
+            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་", phonetics: "jangchhub sempa", translation: "the Bodhisattva" },
+            { tibetan: "སྤྱན་རས་གཟིགས་དབང་ཕྱུག་", phonetics: "chenrezig wangchhug", translation: "Avalokiteśvara" },
+          ],
+        },
+        {
+          id: "cp-en-2-42",
+          type: "normal",
+          tibetan: "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
+          phonetics: "thamche dang denpe / khor dedag dang",
+          translation: "along with their noble assembly [of Bhikkhus and Bodhisattvas],",
+          words: [
+            { tibetan: "ཐམས་ཅད་དང་ལྡན་པའི་", phonetics: "thamche dang denpe", translation: "[all]" },
+            { tibetan: "འཁོར་དེ་དག་དང་", phonetics: "khor dedag dang", translation: "with their noble assembly" },
+          ],
+        },
+        {
+          id: "cp-en-2-43",
+          type: "normal",
+          tibetan: "ལྷ་དང་། མི་དང་། ལྷ་མ་ཡིན་དང་། དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ།",
+          phonetics: "lha dang / mi dang / lha mayin dang / drizar chepe / jigten / yi rang te",
+          translation: "and the devas, human beings, asuras and gandharvas in the universe, rejoiced,",
+          words: [
+            { tibetan: "ལྷ་དང་", phonetics: "lha dang", translation: "devas [and]" },
+            { tibetan: "མི་དང་", phonetics: "mi dang", translation: "human beings [and]" },
+            { tibetan: "ལྷ་མ་ཡིན་དང་", phonetics: "lha mayin dang", translation: "asuras [and]" },
+            { tibetan: "དྲི་ཟར་བཅས་པའི་", phonetics: "drizar chepe", translation: "gandharvas" },
+            { tibetan: "འཇིག་རྟེན་", phonetics: "jigten", translation: "in the universe" },
+            { tibetan: "ཡི་རངས་ཏེ་", phonetics: "yi rang te", translation: "rejoiced" },
+          ],
+        },
+        {
+          id: "cp-en-2-44",
+          type: "normal",
+          tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ།",
+          phonetics: "chomdende kyi / sungpa la / ngönpar tö do",
+          translation: "and openly praised what the Buddha Bhagavan had proclaimed.",
+          words: [
+            { tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་", phonetics: "chomdende kyi", translation: "the Bhagavan" },
+            { tibetan: "གསུངས་པ་ལ་", phonetics: "sungpa la", translation: "what [he] had proclaimed" },
+            { tibetan: "མངོན་པར་བསྟོད་དོ་", phonetics: "ngönpar tö do", translation: "openly praised" },
           ],
         },
       ],
