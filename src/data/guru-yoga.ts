@@ -270,7 +270,7 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-2b-1",
           type: "normal",
-          tibetan: "།དཔལ་ལྡན་རྩ་བའི་བླ་མ་རིན་པོ་ཆེ།",
+          tibetan: "དཔལ་ལྡན་རྩ་བའི་བླ་མ་རིན་པོ་ཆེ།",
           phonetics: "pel den tsa oué la ma rin po tché",
           translation: "Glorieux maître-racine vénéré,",
           words: [
@@ -294,7 +294,7 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-2b-2",
           type: "normal",
-          tibetan: "།བདག་གི་སྤྱི་བོར་པད་ཟླའི་གདན་བཞུགས་ལ།",
+          tibetan: "བདག་གི་སྤྱི་བོར་པད་ཟླའི་གདན་བཞུགས་ལ།",
           phonetics: "da ki tchi ouor pe dé den chou la",
           translation:
             "vous qui êtes assis au sommet de ma tête sur un lotus et un disque de lune,",
@@ -320,7 +320,7 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-2b-3",
           type: "normal",
-          tibetan: "།བཀའ་དྲིན་ཆེན་པོའི་སྒོ་ནས་རྗེས་བཟུང་སྟེ།",
+          tibetan: "བཀའ་དྲིན་ཆེན་པོའི་སྒོ་ནས་རྗེས་བཟུང་སྟེ།",
           phonetics: "ka trin tchen peu go né djé zoung té",
           translation: "guidez-moi par votre immense bonté et",
           words: [
@@ -344,7 +344,7 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-2b-4",
           type: "normal",
-          tibetan: "།སྐུ་གསུང་ཐུགས་ཀྱི་དངོས་གྲུབ་སྩལ་དུ་གསོལ།",
+          tibetan: "སྐུ་གསུང་ཐུགས་ཀྱི་དངོས་གྲུབ་སྩལ་དུ་གསོལ།",
           phonetics: "kou soung tou kyi ngeu troup tsel tou seul",
           translation:
             "accordez-moi les accomplissements du corps, de la parole et de l'esprit.",
@@ -376,7 +376,7 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-3-0",
           type: "mantra",
-          tibetan: "།ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།",
+          tibetan: "ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།",
           phonetics:
             "om sobhaoua shouddha saroua dharma sobhaoua shouddho hang",
           translation: "",

@@ -3,7 +3,7 @@ import type { PracticeText } from "../types";
 export const sukhavatiEn: PracticeText = {
   id: "sukhavati-en",
   title: "Short Sukhavati Prayer",
-  tibetanTitle: "།བདེ་སྨོན་བསྡུས་པ་ནི།",
+  tibetanTitle: "བདེ་སྨོན་བསྡུས་པ་ནི།",
   thumbnail: "/Amitabha.jpg",
   audioSrc: "/audio/AmitabhaKSR.mp3",
   lang: "en",
@@ -183,7 +183,7 @@ export const sukhavatiEn: PracticeText = {
         {
           id: "suk-s1-mantra",
           type: "mantra",
-          tibetan: "།ཏདྱ་ཐཱ༔ པཉྩནྡྲི་ཡ་ཨ་ཝ་བོ་དྷ་ན་ཡེ་སྭཱ་ཧཱ༔",
+          tibetan: "ཏདྱ་ཐཱ༔ པཉྩནྡྲི་ཡ་ཨ་ཝ་བོ་དྷ་ན་ཡེ་སྭཱ་ཧཱ༔",
           phonetics: "Tadyatha.Bentsa Dri Ya.Awa Bodha Na Ye.Swaha.",
           translation: "",
           words: [],

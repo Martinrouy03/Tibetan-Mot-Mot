@@ -99,7 +99,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-4",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics:
             "sang gyé / tang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
           translation: "Hommage à tous les bouddhas et bodhisattvas.",
@@ -130,7 +130,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-5",
           type: "normal",
-          tibetan: "།འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
+          tibetan: "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
           phonetics: "di ké / dak ki / t'eu pa / tu tchik na",
           translation: "Une fois, j'ai entendu ces paroles.",
           words: [
@@ -490,7 +490,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-14",
           type: "normal",
-          tibetan: "།འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ཉོན་ཅིག་",
+          tibetan: "འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ཉོན་ཅིག་",
           phonetics: "djam pel / sheun nour kyour pa / nyeun tchik",
           translation: '"Manjushri Kumarabhuta, écoute!',
           words: [
@@ -556,7 +556,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-16",
           type: "normal",
-          tibetan: "།དེ་དག་ལས་ཀྱང་ཕལ་ཆེར་དུས་མ་ཡིན་པར་འཆི་བར་བསྟན་ཏོ།",
+          tibetan: "དེ་དག་ལས་ཀྱང་ཕལ་ཆེར་དུས་མ་ཡིན་པར་འཆི་བར་བསྟན་ཏོ།",
           phonetics:
             "té tak lé kyang / p'el tcher / tu ma yin par / tchi war / ten to",
           translation:
@@ -650,7 +650,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-18",
           type: "normal",
-          tibetan: "།ཆོས་ཀྱི་རྣམ་གྲངས་འདི་ཡི་གེར་འདྲིའམ་ཡི་གེར་འདྲིར་འཇུག་གམ།",
+          tibetan: "ཆོས་ཀྱི་རྣམ་གྲངས་འདི་ཡི་གེར་འདྲིའམ་ཡི་གེར་འདྲིར་འཇུག་གམ།",
           phonetics:
             "tcheu kyi nam trang di / yi ker dri am / yi ker drir djouk kam",
           translation:
@@ -760,7 +760,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-21",
           type: "normal",
-          tibetan: "།དེ་དག་གི་ཚེ་ཡོངས་སུ་ཟད་པ་ལས་ཚེ་ལོ་བརྒྱ་ཐུབ་པར་འགྱུར་རོ།",
+          tibetan: "དེ་དག་གི་ཚེ་ཡོངས་སུ་ཟད་པ་ལས་ཚེ་ལོ་བརྒྱ་ཐུབ་པར་འགྱུར་རོ།",
           phonetics:
             "té tak ki / tsé yong sou sé pa lé / tsé lo gya / t'oup par gyour ro",
           translation:
@@ -796,7 +796,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-22",
           type: "normal",
-          tibetan: "།འཇམ་དཔལ་སེམས་ཅན་གང་དག་",
+          tibetan: "འཇམ་དཔལ་སེམས་ཅན་གང་དག་",
           phonetics: "djam pel / sem tchen / kang tak",
           translation:
             '"Manjushri, les êtres sensibles qui entendent les 108 épithètes',
@@ -885,7 +885,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-25",
           type: "normal",
-          tibetan: "།སེམས་ཅན་གང་དག་ཚེ་ཟད་ཀར་མཚན་འཆང་བར་འགྱུར་བ་",
+          tibetan: "སེམས་ཅན་གང་དག་ཚེ་ཟད་ཀར་མཚན་འཆང་བར་འགྱུར་བ་",
           phonetics:
             "sem tchen / kang tak / tsé sé kar / tsen / tchang war gyour wa",
           translation:
@@ -917,7 +917,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-26",
           type: "normal",
-          tibetan: "།དེ་དག་གི་ཚེ་ཡང་རྣམ་པར་འཕེལ་བར་འགྱུར་རོ།",
+          tibetan: "དེ་དག་གི་ཚེ་ཡང་རྣམ་པར་འཕེལ་བར་འགྱུར་རོ།",
           phonetics: "té tak ki / tsé yang / nam par p'el war gyour ro",
           translation:
             'ces [êtres] verront également leur vie vraiment prolongée."',
@@ -1122,7 +1122,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-32",
           type: "normal",
-          tibetan: "།ཡི་གེར་འདྲིར་འཇུག་གམ། གླེགས་བམ་ལ་བྲིས་ཏེ་ཁྱིམ་ན་འཆང་ངམ།",
+          tibetan: "ཡི་གེར་འདྲིར་འཇུག་གམ། གླེགས་བམ་ལ་བྲིས་ཏེ་ཁྱིམ་ན་འཆང་ངམ།",
           phonetics:
             "yi ker drir djouk kam / lek pam la / tri té / k'yim na / tchang ngam",
           translation:
@@ -1190,7 +1190,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-34",
           type: "normal",
-          tibetan: "།འདི་ནས་ཤི་འཕོས་ནས་ཀྱང་",
+          tibetan: "འདི་ནས་ཤི་འཕོས་ནས་ཀྱང་",
           phonetics: "di né / shi p'eu / né kyang",
           translation: "Ainsi, lors du transfert posthume,",
           words: [
@@ -1267,7 +1267,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-37",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་དགུ་བཅུ་རྩ་དགུས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་དགུ་བཅུ་རྩ་དགུས་",
           phonetics: "yang té tsé / sang gyé / djé wa / trak gou tchou tsa gu",
           translation: "À ce moment-là également, 990 millions de bouddhas",
           words: [
@@ -1353,7 +1353,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-39",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བརྒྱད་ཅུ་རྩ་བཞིས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བརྒྱད་ཅུ་རྩ་བཞིས་",
           phonetics: "yang té tsé / sang gyé / djé wa / trak gyé tchou tsa shi",
           translation: "À ce moment-là également, 840 millions de bouddhas",
           words: [
@@ -1439,7 +1439,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-42",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བདུན་ཅུ་རྩ་བདུན་གྱིས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བདུན་ཅུ་རྩ་བདུན་གྱིས་",
           phonetics:
             "yang té tsé / sang gyé / djé wa / trak dun tchou tsa dun kyi",
           translation: "À ce moment-là également, 770 millions de bouddhas",
@@ -1526,7 +1526,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-45",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་དྲུག་ཅུ་རྩ་ལྔས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་དྲུག་ཅུ་རྩ་ལྔས་",
           phonetics:
             "yang té tsé / sang gyé / djé wa / trak trouk tchou tsa ngé",
           translation: "À ce moment-là également, 650 millions de bouddhas",
@@ -1613,7 +1613,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-48",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་ལྔ་བཅུ་རྩ་ལྔས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་ལྔ་བཅུ་རྩ་ལྔས་",
           phonetics: "yang té tsé / sang gyé / djé wa / trak nga tchou tsa ngé",
           translation: "À ce moment-là également, 550 millions de bouddhas",
           words: [
@@ -1699,7 +1699,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-51",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བཞི་བཅུ་རྩ་ལྔས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་བཞི་བཅུ་རྩ་ལྔས་",
           phonetics: "yang té tsé / sang gyé / djé wa / trak shi tchou tsa ngé",
           translation: "À ce moment-là également, 450 millions de bouddhas",
           words: [
@@ -1785,7 +1785,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-54",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་སུམ་ཅུ་རྩ་དྲུག་གིས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་སུམ་ཅུ་རྩ་དྲུག་གིས་",
           phonetics:
             "yang té tsé / sang gyé / djé wa / trak soum tchou tsa trouk kyi",
           translation: "À ce moment-là également, 360 millions de bouddhas",
@@ -1872,7 +1872,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-57",
           type: "normal",
-          tibetan: "།ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་ཉི་ཤུ་རྩ་ལྔས་",
+          tibetan: "ཡང་དེའི་ཚེ་སངས་རྒྱས་བྱེ་བ་ཕྲག་ཉི་ཤུ་རྩ་ལྔས་",
           phonetics: "yang té tsé / sang gyé / djé wa / trak nyi shou tsa ngé",
           translation: "À ce moment-là également, 250 millions de bouddhas",
           words: [
@@ -2094,7 +2094,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-64",
           type: "normal",
-          tibetan: "།དེ་ཚེ་ཟད་པ་ལས་ཚེ་ལོ་བརྒྱ་ཐུབ་པར་འགྱུར་ཏེ་",
+          tibetan: "དེ་ཚེ་ཟད་པ་ལས་ཚེ་ལོ་བརྒྱ་ཐུབ་པར་འགྱུར་ཏེ་",
           phonetics: "té tsé sé pa lé / tsé lo gya / t'oup par gyour té",
           translation:
             "à l'épuisement de sa longévité, pourra vivre cent ans de plus;",
@@ -2119,7 +2119,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-65",
           type: "normal",
-          tibetan: "།ཚེ་ཡང་རྣམ་པར་འཕེལ་བར་འགྱུར་རོ།",
+          tibetan: "ཚེ་ཡང་རྣམ་པར་འཕེལ་བར་འགྱུར་རོ།",
           phonetics: "tsé yang / nam par / p'el war gyour ro",
           translation: "sa vie se prolongera vraiment.",
           words: [
@@ -2240,7 +2240,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-69",
           type: "normal",
-          tibetan: "།གང་དང་གང་དུ་སྐྱེ་བ་ཐམས་ཅད་དུ་སྐྱེ་བ་དྲན་པར་འགྱུར་རོ།",
+          tibetan: "གང་དང་གང་དུ་སྐྱེ་བ་ཐམས་ཅད་དུ་སྐྱེ་བ་དྲན་པར་འགྱུར་རོ།",
           phonetics:
             "kang tang kang tou / kyé wa / t'am tché tou / kyé wa / tren par gyour ro",
           translation:
@@ -2488,7 +2488,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-78",
           type: "normal",
-          tibetan: "།དེའི་མཚམས་མེད་པ་ལྔ་བྱས་པ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།",
+          tibetan: "དེའི་མཚམས་མེད་པ་ལྔ་བྱས་པ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།",
           phonetics:
             "té / tsam mé pa / nga / djé pa yang / yong sou / djang war gyour ro",
           translation:
@@ -2567,7 +2567,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-81",
           type: "normal",
-          tibetan: "།དེའི་སྡིག་པའི་ཕུང་པོ་རི་རབ་ཙམ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།",
+          tibetan: "དེའི་སྡིག་པའི་ཕུང་པོ་རི་རབ་ཙམ་ཡང་ཡོངས་སུ་བྱང་བར་འགྱུར་རོ།",
           phonetics:
             "té dik pé p'oung po / ri rap / tsam yang / yong sou / djang war gyour ro",
           translation:
@@ -2804,7 +2804,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-87",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་སྟོང་གིས་དེ་ལ་ཕྱག་རྐྱོང་བར་འགྱུར་རོ།",
+          tibetan: "སངས་རྒྱས་སྟོང་གིས་དེ་ལ་ཕྱག་རྐྱོང་བར་འགྱུར་རོ།",
           phonetics: "sang gyé / tong ki / té la / tchak kyong war gyour ro",
           translation: "et mille bouddhas étendront leurs mains vers lui.",
           words: [
@@ -2855,7 +2855,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-89",
           type: "normal",
-          tibetan: "།འདི་ལ་ཐེ་ཚོམ་དང་སོམ་ཉི་དང་ཡིད་གཉིས་མ་ཟ་ཤིག",
+          tibetan: "འདི་ལ་ཐེ་ཚོམ་དང་སོམ་ཉི་དང་ཡིད་གཉིས་མ་ཟ་ཤིག",
           phonetics:
             "di la / t'é tsom / tang / som nyi / tang / yi nyi / ma sa shik",
           translation:
@@ -2940,7 +2940,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-92",
           type: "normal",
-          tibetan: "།རྒྱལ་པོ་ཆེན་པོ་བཞི་དེའི་ཕྱི་བཞིན་འབྲང་ཞིང་",
+          tibetan: "རྒྱལ་པོ་ཆེན་པོ་བཞི་དེའི་ཕྱི་བཞིན་འབྲང་ཞིང་",
           phonetics: "gyel po tchen po / shi / té tchi shin / drang shing",
           translation: "sera accompagné par les quatre grands rois",
           words: [
@@ -2965,7 +2965,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-93",
           type: "normal",
-          tibetan: "།བསྲུང་བ་དང་། བསྐྱབ་པ་དང་། སྦེད་པ་བྱེད་པར་འགྱུར་རོ།",
+          tibetan: "བསྲུང་བ་དང་། བསྐྱབ་པ་དང་། སྦེད་པ་བྱེད་པར་འགྱུར་རོ།",
           phonetics:
             "soung wa / tang / kyap pa / tang / bé pa djé par gyour ro",
           translation: "qui le garderont, le protégeront et le cacheront.",
@@ -3092,7 +3092,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-98",
           type: "normal",
-          tibetan: "།ས་ཕྱོགས་གང་དང་གང་དུ་མདོ་སྡེ་དཀོན་མཆོག་འདི་འདྲི་བའི་",
+          tibetan: "ས་ཕྱོགས་གང་དང་གང་དུ་མདོ་སྡེ་དཀོན་མཆོག་འདི་འདྲི་བའི་",
           phonetics:
             "sa tchok / kang tang kang tou / do dé / keun tchok / di / dri wé",
           translation:
@@ -3298,7 +3298,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-104",
           type: "normal",
-          tibetan: "།དེ་བུད་མེད་ཀྱི་ལུས་སུ་ནམ་ཡང་སྐྱེ་བར་མི་འགྱུར་རོ།",
+          tibetan: "དེ་བུད་མེད་ཀྱི་ལུས་སུ་ནམ་ཡང་སྐྱེ་བར་མི་འགྱུར་རོ།",
           phonetics:
             "té / pu mé kyi / lu sou / nam yang / kyé war min gyour ro",
           translation: "ne renaitra jamais dans un corps de femme.",
@@ -3482,7 +3482,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-111",
           type: "normal",
-          tibetan: "།འདི་ལྟ་སྟེ། དཔེར་ན་དེ་བཞིན་གཤེགས་པ་རྣམ་པར་གཟིགས་དང་།",
+          tibetan: "འདི་ལྟ་སྟེ། དཔེར་ན་དེ་བཞིན་གཤེགས་པ་རྣམ་པར་གཟིགས་དང་།",
           phonetics: "di ta té / per na / té shin shek pa / nam par zik tang",
           translation:
             "Il en est ainsi : par exemple, la somme de mérites générée en honorant, par l'offrande des sept joyaux,",
@@ -3914,7 +3914,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-117d",
           type: "normal",
-          tibetan: "།མཆོད་པ་བྱས་པ་ཡིན་ནོ།",
+          tibetan: "མཆོད་པ་བྱས་པ་ཡིན་ནོ།",
           phonetics: "tcheu pa djé pa yin no",
           translation: "et les honore.",
           words: [
@@ -3938,7 +3938,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-118",
           type: "normal",
-          tibetan: "།སྦྱིན་པའི་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "སྦྱིན་པའི་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "djin pé top kyi / sang gyé / yang tak / p'ak",
           translation:
             "Grâce à la générosité, un noble et authentique bouddha,",
@@ -3964,7 +3964,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-119",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་སྦྱིན་པའི་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་སྦྱིན་པའི་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / djin pé top / tok té",
           translation:
             "lion parmi les hommes, réalise la force de la générosité.",
@@ -3989,7 +3989,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-120",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4019,7 +4019,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-121",
           type: "normal",
-          tibetan: "།སྦྱིན་པའི་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "སྦྱིན་པའི་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "djin pé top kyi / dra ni / trak par gyour",
           translation: "résonne le son de la force de la générosité.",
           words: [
@@ -4039,7 +4039,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-123",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "ཚུལ་ཁྲིམས་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "tsul trim top kyi / sang gyé / yang tak / p'ak",
           translation:
             "Grâce à la conduite rafraîchissante, un noble et authentique bouddha,",
@@ -4065,7 +4065,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-124",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་ཚུལ་ཁྲིམས་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་ཚུལ་ཁྲིམས་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / tsul trim top / tok té",
           translation:
             "lion parmi les hommes, réalise la force de la conduite rafraîchissante.",
@@ -4090,7 +4090,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-125",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4120,7 +4120,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-126",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "ཚུལ་ཁྲིམས་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "tsul trim top kyi / dra ni / trak par gyour",
           translation:
             "résonne le son de la force de la conduite rafraîchissante.",
@@ -4141,7 +4141,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-127",
           type: "normal",
-          tibetan: "།བཟོད་པའི་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "བཟོད་པའི་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "zeu pé top kyi / sang gyé / yang tak / p'ak",
           translation: "Grâce à la patience, un noble et authentique bouddha,",
           words: [
@@ -4166,7 +4166,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-128",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་བཟོད་པའི་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་བཟོད་པའི་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / zeu pé top / tok té",
           translation:
             "lion parmi les hommes, réalise la force de la patience.",
@@ -4191,7 +4191,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-129",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4221,7 +4221,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-130",
           type: "normal",
-          tibetan: "།བཟོད་པའི་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "བཟོད་པའི་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "zeu pé top kyi / dra ni / trak par gyour",
           translation: "résonne le son de la force de la patience.",
           words: [
@@ -4241,7 +4241,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-131a",
           type: "normal",
-          tibetan: "།བརྩོན་འགྲུས་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "བརྩོན་འགྲུས་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "tseun dru top kyi / sang gyé / yang tak / p'ak",
           translation:
             "Grâce à la persévérance, un noble et authentique bouddha,",
@@ -4267,7 +4267,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-131b",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་བརྩོན་འགྲུས་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་བརྩོན་འགྲུས་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / tseun dru top / tok té",
           translation:
             "lion parmi les hommes, réalise la force de la persévérance.",
@@ -4292,7 +4292,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-131c",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4322,7 +4322,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-131d",
           type: "normal",
-          tibetan: "།བརྩོན་འགྲུས་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "བརྩོན་འགྲུས་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "tseun dru top kyi / dra ni / trak par gyour",
           translation: "résonne le son de la force de la persévérance.",
           words: [
@@ -4342,7 +4342,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-132",
           type: "normal",
-          tibetan: "།བསམ་གཏན་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "བསམ་གཏན་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "sam ten top kyi / sang gyé / yang tak / p'ak",
           translation:
             "Grâce à la stabilité mentale, un noble et authentique bouddha,",
@@ -4368,7 +4368,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-133",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་བསམ་གཏན་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་བསམ་གཏན་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / sam ten top / tok té",
           translation:
             "lion parmi les hommes, réalise la force de la stabilité mentale.",
@@ -4393,7 +4393,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-134",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4423,7 +4423,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-135",
           type: "normal",
-          tibetan: "།བསམ་གཏན་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "བསམ་གཏན་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "sam ten top kyi / dra ni / trak par gyour",
           translation: "résonne le son de la force de la stabilité mentale.",
           words: [
@@ -4443,7 +4443,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-136",
           type: "normal",
-          tibetan: "།ཤེས་རབ་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
+          tibetan: "ཤེས་རབ་སྟོབས་ཀྱིས་སངས་རྒྱས་ཡང་དག་འཕགས།",
           phonetics: "shé rap top kyi / sang gyé / yang tak / p'ak",
           translation:
             "Grâce au discernement, un noble et authentique bouddha,",
@@ -4469,7 +4469,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-137",
           type: "normal",
-          tibetan: "།མི་ཡི་སེང་གེ་ཤེས་རབ་སྟོབས་རྟོགས་ཏེ།",
+          tibetan: "མི་ཡི་སེང་གེ་ཤེས་རབ་སྟོབས་རྟོགས་ཏེ།",
           phonetics: "mi yi seng ké / shé rap top / tok té",
           translation:
             "lion parmi les hommes, réalise la force du discernement.",
@@ -4494,7 +4494,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-138",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
+          tibetan: "སྙིང་རྗེ་ཅན་གྱི་གྲོང་ཁྱེར་འཇུག་པ་ན།",
           phonetics: "nying djé / tchen kyi / trong k'yer / djouk pa na",
           translation:
             "Lorsqu'il entre alors dans la cité des êtres compassionnés,",
@@ -4524,7 +4524,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-139",
           type: "normal",
-          tibetan: "།ཤེས་རབ་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
+          tibetan: "ཤེས་རབ་སྟོབས་ཀྱི་སྒྲ་ནི་གྲག་པར་འགྱུར།",
           phonetics: "shé rap top kyi / dra ni / trak par gyour",
           translation: "résonne le son de la force du discernement.",
           words: [
@@ -4554,7 +4554,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-141",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་དགྱེས་ཤིང་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+          tibetan: "བཅོམ་ལྡན་འདས་དགྱེས་ཤིང་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
           phonetics: "tchom den dé / gyé shing / té ké tché / ka tsel né",
           translation: "Le Bhagavan s'étant ainsi exprimé avec joie,",
           words: [
@@ -4583,7 +4583,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-142",
           type: "normal",
-          tibetan: "།འཇམ་དཔལ་གཞོན་ནུར་གྱུར་བ་དང་།",
+          tibetan: "འཇམ་དཔལ་གཞོན་ནུར་གྱུར་བ་དང་།",
           phonetics: "djam pel / sheun nour kyour wa tang",
           translation: "Manjushri Kumarabhuta,",
           words: [
@@ -4602,7 +4602,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-143",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
+          tibetan: "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
           phonetics: "t'am tché tang den pé / k'or / té tak tang",
           translation: "la totalité de l'entourage ainsi que le monde, avec",
           words: [
@@ -4664,7 +4664,7 @@ export const soutraLongevite: PracticeText = {
         {
           id: "sl-0-145",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ།།",
+          tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ།།",
           phonetics: "tchom den dé kyi / soung pa la / ngeun par teu to",
           translation:
             "[se réjouirent et] adressèrent des louanges à l'enseignement du Bhagavan.",

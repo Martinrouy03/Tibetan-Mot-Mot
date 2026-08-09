@@ -59,7 +59,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-3",
           type: "normal",
-          tibetan: "།པདྨ་གེ་སར་སྡོང་པོ་ལ༔",
+          tibetan: "པདྨ་གེ་སར་སྡོང་པོ་ལ༔",
           phonetics: "Péma / guésar / dong po la",
           translation: "Dans le cœur d'un lotus dressé sur sa tige,",
           words: [
@@ -75,7 +75,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-4",
           type: "normal",
-          tibetan: "།ཡ་མཚན་མཆོག་གི་དངོས་གྲུབ་བརྙེས༔",
+          tibetan: "ཡ་མཚན་མཆོག་གི་དངོས་གྲུབ་བརྙེས༔",
           phonetics: "Ya tsen / tcho gyi / ngeu droup / nyé",
           translation:
             "Vous avez obtenu le merveilleux accomplissement suprême.",
@@ -101,7 +101,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-5",
           type: "normal",
-          tibetan: "།པདྨ་འབྱུང་གནས་ཞེས་སུ་གྲགས༔",
+          tibetan: "པདྨ་འབྱུང་གནས་ཞེས་སུ་གྲགས༔",
           phonetics: "Pema djoung né / ché sou drak",
           translation: "Vous êtes célèbre sous le nom de Padmasambhava",
           words: [
@@ -120,7 +120,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-6",
           type: "normal",
-          tibetan: "།འཁོར་དུ་མཁའ་འགྲོ་མང་པོས་བསྐོར༔",
+          tibetan: "འཁོར་དུ་མཁའ་འགྲོ་མང་པོས་བསྐོར༔",
           phonetics: "Khor tou / khandro / mang peu / k'or",
           translation: "Et une cour de nombreuses dakinis vous entoure.",
           words: [
@@ -149,7 +149,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-7",
           type: "normal",
-          tibetan: "།ཁྱེད་ཀྱི་རྗེས་སུ་བདག་བསྒྲུབ་ཀྱི༔",
+          tibetan: "ཁྱེད་ཀྱི་རྗེས་སུ་བདག་བསྒྲུབ་ཀྱི༔",
           phonetics: "Khé kyi / djé sou / da / droup kyi",
           translation: "Afin de pouvoir pratiquer à votre suite,",
           words: [
@@ -170,7 +170,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-8",
           type: "normal",
-          tibetan: "།བྱིན་གྱིས་བརླབ་ཕྱིར་གཤེགས་སུ་གསོལ༔",
+          tibetan: "བྱིན་གྱིས་བརླབ་ཕྱིར་གཤེགས་སུ་གསོལ༔",
           phonetics: "Djin gyi lap / tchir / chek sou seul",
           translation: "Je vous prie de venir nous accorder vos bénédictions.",
           words: [
@@ -194,7 +194,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-9",
           type: "mantra",
-          tibetan: "།གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ༔",
+          tibetan: "གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ༔",
           phonetics: "Gourou pema siddhi houng",
           translation: "",
           words: [],
@@ -241,7 +241,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-12",
           type: "normal",
-          tibetan: "།ཆོས་ཉིད་དུས་གསུམ་སྐྱེ་འགག་མེད་པའི་ངང་༔",
+          tibetan: "ཆོས་ཉིད་དུས་གསུམ་སྐྱེ་འགག་མེད་པའི་ངང་༔",
           phonetics: "Tcheunyi / tu soum / kyé gak / mé pé ngang",
           translation:
             "Est la réalité, l'état au-delà de la naissance et de la cessation des trois temps,",
@@ -271,7 +271,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-13",
           type: "normal",
-          tibetan: "།བྱ་བྲལ་ལྷུན་རྫོགས་བདེ་བ་ཆེན་པོའི་སྐུ༔",
+          tibetan: "བྱ་བྲལ་ལྷུན་རྫོགས་བདེ་བ་ཆེན་པོའི་སྐུ༔",
           phonetics: "Dja drel / lun dzo / de oua tchen peu / kou",
           translation:
             "Le corps de grande félicité, parfait, spontané, libre d'action,",
@@ -297,7 +297,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-14",
           type: "normal",
-          tibetan: "།ནམ་མཁའ་བཞིན་དུ་ཐུགས་རྗེ་ཕྱོགས་རིས་མེད༔",
+          tibetan: "ནམ་མཁའ་བཞིན་དུ་ཐུགས་རྗེ་ཕྱོགས་རིས་མེད༔",
           phonetics: "Nam kha chin tou / thouk djé / tcho rim mé",
           translation: "La compassion impartiale semblable à l'espace.",
           words: [
@@ -321,7 +321,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-15",
           type: "normal",
-          tibetan: "།བླ་མ་ཆོས་ཀྱི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "བླ་མ་ཆོས་ཀྱི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Lama / tcheu kyi kou / la / seul oua dep",
           translation: "Lama dharmakaya, je vous adresse ma prière.",
           words: [
@@ -342,7 +342,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-16",
           type: "normal",
-          tibetan: "།ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Orgyen / pema djoung né / la / seul oua dep",
           translation: "Padmasambhava d'Oddiyana, je vous adresse ma prière.",
           words: [
@@ -367,7 +367,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-17",
           type: "normal",
-          tibetan: "།བདེ་ཆེན་ལྷུན་གྱིས་གྲུབ་པའི་ཞིང་ཁམས་སུ༔",
+          tibetan: "བདེ་ཆེན་ལྷུན་གྱིས་གྲུབ་པའི་ཞིང་ཁམས་སུ༔",
           phonetics: "dé tchen lun gyi / droup pé / ching kham sou",
           translation:
             "Dans la terre pure de la grande félicité spontanément présente,",
@@ -392,7 +392,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-18",
           type: "normal",
-          tibetan: "།སྐུ་གསུང་ཐུགས་དང་ཡོན་ཏན་ཕྲིན་ལས་ཀྱི༔",
+          tibetan: "སྐུ་གསུང་ཐུགས་དང་ཡོན་ཏན་ཕྲིན་ལས་ཀྱི༔",
           phonetics: "Kou / soung / touk / tang / yeunten / trinlé kyi",
           translation: "Est le corps du sugata possédant les cinq sagesses",
           words: [
@@ -415,7 +415,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-19",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་ལྔ་ལྡན་བདེ་བར་གཤེགས་པའི་སྐུ༔",
+          tibetan: "ཡེ་ཤེས་ལྔ་ལྡན་བདེ་བར་གཤེགས་པའི་སྐུ༔",
           phonetics: "Yeshé nga den / dé ouar chek pé kou",
           translation:
             "des corps, parole, esprit, qualités et activité éveillés.",
@@ -435,7 +435,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-20",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེའི་བྱེ་བྲག་སྣ་ཚོགས་སོ་སོར་སྟོན༔",
+          tibetan: "ཐུགས་རྗེའི་བྱེ་བྲག་སྣ་ཚོགས་སོ་སོར་སྟོན༔",
           phonetics: "Thouk djé / djé dra / na tso / so sor teun",
           translation:
             "Les multiples aspects de sa compassion font qu'il se manifeste différemment à chacun.",
@@ -465,7 +465,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-21",
           type: "normal",
-          tibetan: "།བླ་མ་ལོངས་སྤྱོད་རྫོགས་སྐུ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "བླ་མ་ལོངས་སྤྱོད་རྫོགས་སྐུ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Lama / long tcheu dzok kou / la / seul oua dep",
           translation: "Lama sambhogakaya, je vous adresse ma prière.",
           words: [
@@ -486,7 +486,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-22",
           type: "normal",
-          tibetan: "།ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Orgyen / pema djoung né / la / seul oua dep",
           translation: "Padmasambhava d'Oddiyana, je vous adresse ma prière.",
           words: [
@@ -511,7 +511,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-23",
           type: "normal",
-          tibetan: "།མི་མཇེད་འཇིག་རྟེན་དག་པའི་ཞིང་ཁམས་སུ༔",
+          tibetan: "མི་མཇེད་འཇིག་རྟེན་དག་པའི་ཞིང་ཁམས་སུ༔",
           phonetics: "Mi djé / djikten / dak pé / ching kham sou",
           translation:
             "Dans cette terre pure qu'est l'univers \"Absence de crainte\",",
@@ -537,7 +537,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-24",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེ་ཆེན་པོས་འགྲོ་བའི་དོན་ལ་བྱོན༔",
+          tibetan: "ཐུགས་རྗེ་ཆེན་པོས་འགྲོ་བའི་དོན་ལ་བྱོན༔",
           phonetics: "Thouk djé tchen peu / dro oué / deun la / djeun",
           translation:
             "Sous l'effet de votre grande compassion, vous vous êtes manifestés pour le bien des êtres.",
@@ -563,7 +563,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-25",
           type: "normal",
-          tibetan: "།གང་ལ་གང་འདུལ་ཐབས་ཀྱིས་འགྲོ་དོན་མཛད༔",
+          tibetan: "གང་ལ་གང་འདུལ་ཐབས་ཀྱིས་འགྲོ་དོན་མཛད༔",
           phonetics: "gang la gang dul / thab kyi / dro deun / dzé",
           translation: "Vous œuvrez à leur bonheur avec des méthodes adaptées.",
           words: [
@@ -588,7 +588,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-26",
           type: "normal",
-          tibetan: "།འདས་དང་མ་བྱོན་ད་ལྟ་དུས་གསུམ་གྱི༔",
+          tibetan: "འདས་དང་མ་བྱོན་ད་ལྟ་དུས་གསུམ་གྱི༔",
           phonetics: "dé / tang / ma djeun / da ta / du soum gyi",
           translation: "Lamas nirmanakaya du passé, du présent et à venir,",
           words: [
@@ -610,7 +610,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-27",
           type: "normal",
-          tibetan: "།བླ་མ་སྤྲུལ་པའི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "བླ་མ་སྤྲུལ་པའི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "lama / t'ul pé kou / la / seul oua dep",
           translation: "Je vous adresse ma prière.",
           words: [
@@ -631,7 +631,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-28",
           type: "normal",
-          tibetan: "།ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "ཨོ་རྒྱན་པདྨ་འབྱུང་གནས་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "orgyen / pema djoung né / la / seul oua dep",
           translation: "Padmasambhava d'Oddiyana, je vous adresse ma prière.",
           words: [
@@ -662,7 +662,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-29",
           type: "instructions",
-          tibetan: "།ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་ནི།",
+          tibetan: "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་ནི།",
           phonetics: "",
           translation: "Prière-testament d'Orgyen Rinpoché :",
           words: [],
@@ -705,7 +705,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-31",
           type: "normal",
-          tibetan: "།སྟོན་པ་རྡོར་སེམས་བཅོམ་ལྡན་ཤཱཀྱའི་རྒྱལ༔",
+          tibetan: "སྟོན་པ་རྡོར་སེམས་བཅོམ་ལྡན་ཤཱཀྱའི་རྒྱལ༔",
           phonetics: "teun pa / dor sem / tchom den / shakyé gyel",
           translation:
             "L'instructeur Vajrasattva, le Bhagavan roi des Shakyas,",
@@ -735,7 +735,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-32",
           type: "normal",
-          tibetan: "།མགོན་པོ་ཚེ་དཔག་མེད་དང་སྤྱན་རས་གཟིགས༔",
+          tibetan: "མགོན་པོ་ཚེ་དཔག་མེད་དང་སྤྱན་རས་གཟིགས༔",
           phonetics: "Gueun po / tsé pak mé / dang / tchenrézi",
           translation:
             "Les protecteurs Amitayus et Avalokita ne font qu'un avec vous.",
@@ -761,7 +761,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-33",
           type: "normal",
-          tibetan: "།དབྱེར་མེད་པདྨ་དེ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "དབྱེར་མེད་པདྨ་དེ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Yer mé / péma / té la / seul oua dep",
           translation: "Padma, je vous adresse ma prière.",
           words: [
@@ -782,7 +782,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-34",
           type: "normal",
-          tibetan: "།སྐུ་ཡི་བདག་ཉིད་འཇམ་དཔལ་གཤིན་རྗེའི་གཤེད༔",
+          tibetan: "སྐུ་ཡི་བདག་ཉིད་འཇམ་དཔལ་གཤིན་རྗེའི་གཤེད༔",
           phonetics: "Kou yi / dak nyi / djam pel / chin djé shé",
           translation:
             "Manjushri Yamantaka est la personnification de votre corps;",
@@ -812,7 +812,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-35",
           type: "normal",
-          tibetan: "།གསུང་གི་བདག་ཉིད་དབང་ཆེན་རྟ་སྐད་འཚེར༔",
+          tibetan: "གསུང་གི་བདག་ཉིད་དབང་ཆེན་རྟ་སྐད་འཚེར༔",
           phonetics: "Soung gi / dak nyi / ouang tchen / také tser",
           translation: "Le très puissant Hayagriva, de votre parole;",
           words: [
@@ -841,7 +841,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-36",
           type: "normal",
-          tibetan: "།ཐུགས་ཀྱི་བདག་ཉིད་ཡང་དག་ཧེ་རུ་ཀ༔",
+          tibetan: "ཐུགས་ཀྱི་བདག་ཉིད་ཡང་དག་ཧེ་རུ་ཀ༔",
           phonetics: "Touk kyi / dak nyi / yang dak / herouka",
           translation: "Yangdak Heruka, de votre esprit.",
           words: [
@@ -870,7 +870,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-37",
           type: "normal",
-          tibetan: "།གུ་རུ་ཡིད་བཞིན་ནོར་བུ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "གུ་རུ་ཡིད་བཞིན་ནོར་བུ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Gourou / yichin norbou / la / seul oua dep",
           translation:
             "Lama, joyau qui exaucez tous les souhaits, je vous adresse ma prière.",
@@ -892,7 +892,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-38",
           type: "normal",
-          tibetan: "།ཡོན་ཏན་ཟིལ་གནོན་ཆེ་མཆོག་ཧེ་རུ་ཀ༔",
+          tibetan: "ཡོན་ཏན་ཟིལ་གནོན་ཆེ་མཆོག་ཧེ་རུ་ཀ༔",
           phonetics: "Yeun ten / zil neun / tché tcho / hérouka",
           translation: "L'éblouissant Mahottara Heruka [incarne] vos qualités",
           words: [
@@ -921,7 +921,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-39",
           type: "normal",
-          tibetan: "།ཕྲིན་ལས་བདག་ཉིད་རྡོ་རྗེ་གཞོན་ནུའི་སྐུ༔",
+          tibetan: "ཕྲིན་ལས་བདག་ཉིད་རྡོ་རྗེ་གཞོན་ནུའི་སྐུ༔",
           phonetics: "Trinlé / dak nyi / dordjé chen nu / kou",
           translation: "Et le corps de Vajrakumara, votre activité.",
           words: [
@@ -946,7 +946,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-40",
           type: "normal",
-          tibetan: "།མ་མོ་མཁའ་འགྲོའི་གཙོ་བོ་མངོན་རྫོགས་རྒྱལ༔",
+          tibetan: "མ་མོ་མཁའ་འགྲོའི་གཙོ་བོ་མངོན་རྫོགས་རྒྱལ༔",
           phonetics: "Mamo / kandreu / tso ouo / ngeun / dzok gyel",
           translation:
             "Souverain authentique et parfait, chef des dakinis et des mamos,",
@@ -973,7 +973,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-41",
           type: "normal",
-          tibetan: "།དཔལ་ཆེན་ཐོད་ཕྲེང་རྩལ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "དཔལ་ཆེན་ཐོད་ཕྲེང་རྩལ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Pal tchen / teu treng tsel / la / seul oua dep",
           translation: "Grand glorieux Tötrengtsel, je vous adresse ma prière.",
           words: [
@@ -998,7 +998,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-42",
           type: "normal",
-          tibetan: "།སྐུ་ཡི་དབྱིངས་སུ་སྒྱུ་འཕྲུལ་ཞི་ཁྲོའི་ངང་༔",
+          tibetan: "སྐུ་ཡི་དབྱིངས་སུ་སྒྱུ་འཕྲུལ་ཞི་ཁྲོའི་ངང་༔",
           phonetics: "Kou yi / ying sou / gyou trul / chi / treu / ngang",
           translation:
             "La magie des déités paisibles et courroucées se déploie dans l'espace de votre corps.",
@@ -1030,7 +1030,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-43",
           type: "normal",
-          tibetan: "།གསུང་གི་གདངས་སྐད་ཡན་ལག་བཅུ་གཉིས་ལྡན༔",
+          tibetan: "གསུང་གི་གདངས་སྐད་ཡན་ལག་བཅུ་གཉིས་ལྡན༔",
           phonetics: "Soung gui / dang ké / yen la / tchou nyi / den",
           translation: "La mélodie de votre voix est riche des douze qualités",
           words: [
@@ -1056,7 +1056,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-44",
           type: "normal",
-          tibetan: "།ཐུགས་ཀྱི་དགོངས་པ་ཟང་ཐལ་ཡོངས་ལ་ཁྱབ༔",
+          tibetan: "ཐུགས་ཀྱི་དགོངས་པ་ཟང་ཐལ་ཡོངས་ལ་ཁྱབ༔",
           phonetics: "Thouk kyi gong pa / zang tel / yong la khyap",
           translation:
             "Et votre esprit, embrassant tout, est d'une transparence pénétrante.",
@@ -1081,7 +1081,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-45",
           type: "normal",
-          tibetan: "།མཁའ་འགྲོ་གཙོ་བོ་རྗེ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "མཁའ་འགྲོ་གཙོ་བོ་རྗེ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Khandro / tso ouo djé / la / seul oua dep",
           translation: "Vénérable chef des dakinis, je vous adresse ma prière.",
           words: [
@@ -1106,7 +1106,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-46",
           type: "normal",
-          tibetan: "།སྐུ་ཚབ་ལུང་བསྟན་གསུང་ཚབ་གཏེར་དུ་སྦས༔",
+          tibetan: "སྐུ་ཚབ་ལུང་བསྟན་གསུང་ཚབ་གཏེར་དུ་སྦས༔",
           phonetics: "Kou tsap / loung ten / soung tsap / ter tou bé",
           translation:
             "Vous avez prophétisé vos représentants, dissimulé les représentations de votre parole dans des trésors.",
@@ -1136,7 +1136,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-47",
           type: "normal",
-          tibetan: "།ཐུགས་ཀྱི་དགོངས་པ་ལས་ཅན་བུ་ལ་གཏད༔",
+          tibetan: "ཐུགས་ཀྱི་དགོངས་པ་ལས་ཅན་བུ་ལ་གཏད༔",
           phonetics: "Thouk kyi gong pa / lé tchen / bou la té",
           translation:
             "Vous avez transmis l'intention éveillée à vos enfants qui en avaient le karma",
@@ -1161,7 +1161,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-48",
           type: "normal",
-          tibetan: "།བརྩེ་བའི་ཞལ་ཆེམས་བོད་འབངས་ཡོངས་ལ་བཞག༔",
+          tibetan: "བརྩེ་བའི་ཞལ་ཆེམས་བོད་འབངས་ཡོངས་ལ་བཞག༔",
           phonetics: "Tsé oué / chel tchem / beu bang / yong la chak",
           translation: "Et laissé au peuple du Tibet un testament d'amour.",
           words: [
@@ -1190,7 +1190,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-49",
           type: "normal",
-          tibetan: "།དྲིན་ཆེན་སྤྲུལ་པའི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
+          tibetan: "དྲིན་ཆེན་སྤྲུལ་པའི་སྐུ་ལ་གསོལ་བ་འདེབས༔",
           phonetics: "Drin tchen / t'ul pé kou / la / seul oua dep",
           translation:
             "Corps d'apparition plein de bonté, je vous adresse ma prière.",
@@ -1216,7 +1216,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-50",
           type: "normal",
-          tibetan: "།བཀའ་དྲིན་དྲན་ནོ་གུ་རུ་རིན་པོ་ཆེ༔",
+          tibetan: "བཀའ་དྲིན་དྲན་ནོ་གུ་རུ་རིན་པོ་ཆེ༔",
           phonetics: "Kan drin / dren no / gourou rin po tché",
           translation: "Je me remémore votre bonté, Gourou Rinpoché.",
           words: [
@@ -1240,7 +1240,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-51",
           type: "normal",
-          tibetan: "།ཐུགས་དམ་ཞལ་བཞེས་དགོངས་པས་བཟུང་དུ་གསོལ༔",
+          tibetan: "ཐུགས་དམ་ཞལ་བཞེས་དགོངས་པས་བཟུང་དུ་གསོལ༔",
           phonetics: "Thouk dam / chel ché / gong pé / zoung tou seul",
           translation:
             "Je vous prie de garder à l'esprit vos promesses et vos engagements.",
@@ -1270,7 +1270,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-52",
           type: "normal",
-          tibetan: "།དུས་ངན་འདི་ལ་རེ་ལྟོས་གཞན་མ་མཆིས༔",
+          tibetan: "དུས་ངན་འདི་ལ་རེ་ལྟོས་གཞན་མ་མཆིས༔",
           phonetics: "Tu ngen / di la / ré teu / chen ma tchi",
           translation:
             "En ces temps funestes, il n'y a pas d'autre espoir que vous.",
@@ -1292,7 +1292,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-53",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེས་གཟིགས་ཤིག་ཨོ་རྒྱན་སྤྲུལ་པའི་སྐུ༔",
+          tibetan: "ཐུགས་རྗེས་གཟིགས་ཤིག་ཨོ་རྒྱན་སྤྲུལ་པའི་སྐུ༔",
           phonetics: "Thouk djé / zi chi / orgyen / t'ul pé kou",
           translation:
             "Considérez-nous avec compassion, nirmanakaya d'Oddiyana.",
@@ -1322,7 +1322,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-54",
           type: "normal",
-          tibetan: "།མཐུ་རྩལ་ནུས་པས་དུས་ངན་གཡོ་འཁྲུགས་ཟློག༔",
+          tibetan: "མཐུ་རྩལ་ནུས་པས་དུས་ངན་གཡོ་འཁྲུགས་ཟློག༔",
           phonetics: "Thou / tsel / nu pé / tu ngen / yo trouk do",
           translation:
             "Que votre puissance, votre habileté et votre pouvoir chassent les conflits de ces temps mauvais.",
@@ -1357,7 +1357,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-55",
           type: "normal",
-          tibetan: "།བྱིན་རླབས་ཡེ་ཤེས་དབང་ཆེན་བསྐུར་དུ་གསོལ༔",
+          tibetan: "བྱིན་རླབས་ཡེ་ཤེས་དབང་ཆེན་བསྐུར་དུ་གསོལ༔",
           phonetics: "Djin lap / yéshé / ouang tchen / kour tou seul",
           translation:
             "Veuillez conférer vos bénédictions ainsi que la grande initiation de la sagesse primordiale.",
@@ -1387,7 +1387,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-56",
           type: "normal",
-          tibetan: "།ཉམས་དང་རྟོགས་པའི་རྩལ་ཤུགས་རྒྱས་པ་དང་༔",
+          tibetan: "ཉམས་དང་རྟོགས་པའི་རྩལ་ཤུགས་རྒྱས་པ་དང་༔",
           phonetics: "Nyam / tang / tok pé / tsel chou / gyé pa tang",
           translation:
             "Faites que l'intensité des expériences méditatives et des réalisations s'accroisse,",
@@ -1418,7 +1418,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-57",
           type: "normal",
-          tibetan: "།བསྟན་འགྲོར་ཕན་པའི་མཐུ་རྩལ་རབ་ལྡན་ཞིང་༔",
+          tibetan: "བསྟན་འགྲོར་ཕན་པའི་མཐུ་རྩལ་རབ་ལྡན་ཞིང་༔",
           phonetics: "Ten dror / pen pé / thou tsel / rap den ching",
           translation:
             "Que nous ayons la capacité de faire le bien de l'enseignement et des êtres,",
@@ -1444,7 +1444,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-58",
           type: "normal",
-          tibetan: "།ཚེ་གཅིག་སངས་རྒྱས་འགྲུབ་པར་མཛད་དུ་གསོལ༔",
+          tibetan: "ཚེ་གཅིག་སངས་རྒྱས་འགྲུབ་པར་མཛད་དུ་གསོལ༔",
           phonetics: "Tsé tchik / sangyé / droup par / dzé tou seul",
           translation:
             "Et que l'état de bouddha soit réalisé en une seule vie.",
@@ -1484,7 +1484,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-60",
           type: "normal",
-          tibetan: "།དུས་གསུམ་སངས་རྒྱས་གུ་རུ་རིན་པོ་ཆེ༔",
+          tibetan: "དུས་གསུམ་སངས་རྒྱས་གུ་རུ་རིན་པོ་ཆེ༔",
           phonetics: "du soum / sangyé / gourou rinpotché",
           translation:
             "Gourou Rinpoché [qui êtes indissociable des] bouddhas des trois temps,",
@@ -1509,7 +1509,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-61",
           type: "normal",
-          tibetan: "།དངོས་གྲུབ་ཀུན་བདག་བདེ་བ་ཆེན་པོའི་ཞབས༔",
+          tibetan: "དངོས་གྲུབ་ཀུན་བདག་བདེ་བ་ཆེན་པོའི་ཞབས༔",
           phonetics: "ngeu droup / kun dak / dé oua tchen peu / chab",
           translation:
             "Vénérable Dewa Chenpo qui détenez tous les accomplissements,",
@@ -1535,7 +1535,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-62",
           type: "normal",
-          tibetan: "།བར་ཆད་ཀུན་སེལ་བདུད་འདུལ་དྲག་པོ་རྩལ༔",
+          tibetan: "བར་ཆད་ཀུན་སེལ་བདུད་འདུལ་དྲག་པོ་རྩལ༔",
           phonetics: "bar tché / kun sel / du dul / drak po tsel",
           translation: "Düdül DrakpoTsel qui dissipez les obstacles,",
           words: [
@@ -1564,7 +1564,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-63",
           type: "normal",
-          tibetan: "།གསོལ་བ་འདེབས་སོ་བྱིན་གྱིས་བརླབ་ཏུ་གསོལ༔",
+          tibetan: "གསོལ་བ་འདེབས་སོ་བྱིན་གྱིས་བརླབ་ཏུ་གསོལ༔",
           phonetics: "seul oua dep so / djin gyi lap / tou seul",
           translation:
             "J'en appelle à vous. Veuillez dispenser vos bénédictions.",
@@ -1589,7 +1589,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-64",
           type: "normal",
-          tibetan: "།ཕྱི་ནང་གསང་བའི་བར་ཆད་ཞི་བ་དང་༔",
+          tibetan: "ཕྱི་ནང་གསང་བའི་བར་ཆད་ཞི་བ་དང་༔",
           phonetics: "tchi / nang / sang oué / bar tché / chi oua tang",
           translation:
             "Bénissez-nous pour que les obstacles extérieurs, intérieurs et secrets disparaissent,",
@@ -1616,7 +1616,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-65",
           type: "normal",
-          tibetan: "།བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས༔",
+          tibetan: "བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས༔",
           phonetics: "sam pa / lhun gyi droup par / djin gyi lop",
           translation: "Et que nos souhaits se réalisent spontanément.",
           words: [
@@ -1670,7 +1670,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-67",
           type: "normal",
-          tibetan: "།བོད་འབངས་སྐྱོབ་པའི་མ་ཅིག་དྲིན་མོ་ཆེ།",
+          tibetan: "བོད་འབངས་སྐྱོབ་པའི་མ་ཅིག་དྲིན་མོ་ཆེ།",
           phonetics: "beu bang / kyop pé / ma tchik / drin mo tché",
           translation:
             "La grande mère bienveillante protectrice du peuple tibétain,",
@@ -1700,7 +1700,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-68",
           type: "normal",
-          tibetan: "།དངོས་གྲུབ་མཆོག་སྩོལ་བདེ་ཆེན་མཁའ་འགྲོའི་གཙོ།",
+          tibetan: "དངོས་གྲུབ་མཆོག་སྩོལ་བདེ་ཆེན་མཁའ་འགྲོའི་གཙོ།",
           phonetics: "ngeu droup / tchok tseul / dé tchen / kandreu tso",
           translation:
             "La chef des dakinis de grande félicité, qui confère l'accomplissement suprême,",
@@ -1730,7 +1730,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-69",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་མཚོ་རྒྱལ་ཞབས་ལ་གསོལ་བ་འདེབས།",
+          tibetan: "ཡེ་ཤེས་མཚོ་རྒྱལ་ཞབས་ལ་གསོལ་བ་འདེབས།",
           phonetics: "yéshé tso gyel / chap / la / seul oua dep",
           translation: "Vénérable Yéshé Tsogyal, je vous adresse ma prière.",
           words: [
@@ -1751,7 +1751,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-70",
           type: "normal",
-          tibetan: "།ཕྱི་ནང་གསང་བའི་བར་ཆད་ཞི་བ་དང༌།",
+          tibetan: "ཕྱི་ནང་གསང་བའི་བར་ཆད་ཞི་བ་དང༌།",
           phonetics: "tchi / nang / sang oué / bar tché / chi oua tang",
           translation:
             "Accordez vos bénédictions pour que les obstacles extérieurs, intérieurs et secrets soient pacifiés,",
@@ -1778,7 +1778,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-71",
           type: "normal",
-          tibetan: "།བླ་མའི་སྐུ་ཚེ་བརྟན་པར་བྱིན་གྱིས་རློབས།",
+          tibetan: "བླ་མའི་སྐུ་ཚེ་བརྟན་པར་བྱིན་གྱིས་རློབས།",
           phonetics: "la mé / kou tsé / ten par / djin gyi lop",
           translation: "Et que le Maître demeure longtemps.",
           words: [
@@ -1803,7 +1803,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-72",
           type: "normal",
-          tibetan: "།ནད་མུག་མཚོན་བསྐལ་ཞི་བར་བྱིན་གྱིས་རློབས།",
+          tibetan: "ནད་མུག་མཚོན་བསྐལ་ཞི་བར་བྱིན་གྱིས་རློབས།",
           phonetics: "né mouk / tseun kel / chi ouar / djin gyi lop",
           translation:
             "Accordez votre grâce pour que les maladies, les famines et les conflits disparaissent.",
@@ -1833,7 +1833,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-73",
           type: "normal",
-          tibetan: "།བྱད་ཕུར་རྦོད་གཏོང་ཞི་བར་བྱིན་གྱིས་རློབས།",
+          tibetan: "བྱད་ཕུར་རྦོད་གཏོང་ཞི་བར་བྱིན་གྱིས་རློབས།",
           phonetics: "djé p'our / beu tong / chi ouar / djin gyi lop",
           translation:
             "Dispensez vos bénédictions pour que les sortilèges de magie noire et les maléfices soient conjurés.",
@@ -1863,7 +1863,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-74",
           type: "normal",
-          tibetan: "།ཚེ་དཔལ་ཤེས་རབ་རྒྱས་པར་བྱིན་གྱིས་རློབས།",
+          tibetan: "ཚེ་དཔལ་ཤེས་རབ་རྒྱས་པར་བྱིན་གྱིས་རློབས།",
           phonetics: "tsé pel / ché rap / gyé par / djin gyi lop",
           translation:
             "Bénissez-nous pour que la longévité, l'excellence et le discernement s'accroissent,",
@@ -1893,7 +1893,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-75",
           type: "normal",
-          tibetan: "།བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས།",
+          tibetan: "བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས།",
           phonetics: "sam pa / lhun gi droup par / djin gyi lop",
           translation: "Et que nos souhaits se réalisent spontanément.",
           words: [
@@ -1941,7 +1941,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-77",
           type: "normal",
-          tibetan: "།འཁོར་དང་སྐུ་ཚེའི་ཚད་དང་ཞིང་ཁམས་དང༌།",
+          tibetan: "འཁོར་དང་སྐུ་ཚེའི་ཚད་དང་ཞིང་ཁམས་དང༌།",
           phonetics: "Kor tang / kou tsé / tsé tang / ching kham tang",
           translation:
             "Avoir un corps, un entourage, une durée de vie, une terre pure",
@@ -1971,7 +1971,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-78",
           type: "normal",
-          tibetan: "།ནད་མུག་མཚོན་བསྐལ་ཞི་བར་བྱིན་གྱིས་རློབས།",
+          tibetan: "ནད་མུག་མཚོན་བསྐལ་ཞི་བར་བྱིན་གྱིས་རློབས།",
           phonetics: "né mouk / tseun kel / chi ouar / djin gyi lop",
           translation:
             "Accordez votre grâce pour que les maladies, les famines et les conflits disparaissent.",
@@ -2001,7 +2001,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-79",
           type: "normal",
-          tibetan: "།བྱད་ཕུར་རྦོད་གཏོང་ཞི་བར་བྱིན་གྱིས་རློབས།",
+          tibetan: "བྱད་ཕུར་རྦོད་གཏོང་ཞི་བར་བྱིན་གྱིས་རློབས།",
           phonetics: "djé p'our / beu tong / chi ouar / djin gyi lop",
           translation:
             "Dispensez vos bénédictions pour que les sortilèges de magie noire et les maléfices soient conjurés.",
@@ -2031,7 +2031,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-80",
           type: "normal",
-          tibetan: "།ཚེ་དཔལ་ཤེས་རབ་རྒྱས་པར་བྱིན་གྱིས་རློབས།",
+          tibetan: "ཚེ་དཔལ་ཤེས་རབ་རྒྱས་པར་བྱིན་གྱིས་རློབས།",
           phonetics: "tsé / pel / ché rap / gyé par / djin gyi lop",
           translation:
             "Bénissez-nous pour que la longévité, l'excellence et le discernement s'accroissent,",
@@ -2058,7 +2058,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-81",
           type: "normal",
-          tibetan: "།བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས།",
+          tibetan: "བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས།",
           phonetics: "sam pa / lhun gi / droup par / djin gyi lop",
           translation: "Et que nos souhaits se réalisent spontanément.",
           words: [
@@ -2111,7 +2111,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-83",
           type: "normal",
-          tibetan: "།འཁོར་དང་སྐུ་ཚེའི་ཚད་དང་ཞིང་ཁམས་དང༌།",
+          tibetan: "འཁོར་དང་སྐུ་ཚེའི་ཚད་དང་ཞིང་ཁམས་དང༌།",
           phonetics: "Kor tang / kou tsé / tsé tang / ching kham tang",
           translation:
             "Avoir un corps, un entourage, une durée de vie, une terre pure",
@@ -2141,7 +2141,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-84",
           type: "normal",
-          tibetan: "།ལོངས་སྐུའི་དབང་ཕྱུག་འཕགས་མཆོག་སྤྱན་རས་གཟིགས།",
+          tibetan: "ལོངས་སྐུའི་དབང་ཕྱུག་འཕགས་མཆོག་སྤྱན་རས་གཟིགས།",
           phonetics: "long kouï / wang tchouk / pak tcho / tchen re zi",
           translation:
             "Suprême Noble Avalokita qui êtes détenteur du corps de jouissance,",
@@ -2171,7 +2171,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-85",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་སྐུ་བརྙེས་གུ་རུ་པདྨ་འབྱུང༌།",
+          tibetan: "ཡེ་ཤེས་སྐུ་བརྙེས་གུ་རུ་པདྨ་འབྱུང༌།",
           phonetics: "ye she / kou nye / gou rou / pema djoung",
           translation:
             "Gourou Padmasambhava qui avez obtenu le corps de sagesse primordiale,",
@@ -2197,7 +2197,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-86",
           type: "normal",
-          tibetan: "།ངོ་བོ་གཅིག་བསྡུས་དཔལ་ལྡན་ཀརྨ་པ།",
+          tibetan: "ངོ་བོ་གཅིག་བསྡུས་དཔལ་ལྡན་ཀརྨ་པ།",
           phonetics: "ngo wo / tchik du / pel den / kar ma pa",
           translation: "Glorieux Karmapa qui les unissez tous en essence,",
           words: [
@@ -2226,7 +2226,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-87",
           type: "normal",
-          tibetan: "།གསོལ་བ་འདེབས་སོ་བྱིན་གྱིས་བརླབས་ཏུ་གསོལ།",
+          tibetan: "གསོལ་བ་འདེབས་སོ་བྱིན་གྱིས་བརླབས་ཏུ་གསོལ།",
           phonetics: "seul wa dep so / djin gyi lap / tou seul",
           translation:
             "Je vous adresse ma prière. Veuillez m'accorder vos bénédictions.",
@@ -2251,7 +2251,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-88",
           type: "normal",
-          tibetan: "།རབ་འབྱམས་ཡེ་ཤེས་ལས་བསྐྲུན་བརྩེ་བའི་སྤྱན།",
+          tibetan: "རབ་འབྱམས་ཡེ་ཤེས་ལས་བསྐྲུན་བརྩེ་བའི་སྤྱན།",
           phonetics: "rab djam / ye she / le t'ul / tse we tchen",
           translation:
             "Votre regard plein d'amour qui prend sa source dans une immense sagesse",
@@ -2277,7 +2277,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-89",
           type: "normal",
-          tibetan: "།ནམ་ཡང་འགྲོ་ལ་གཟིགས་པ་མི་གཡེལ་བ།",
+          tibetan: "ནམ་ཡང་འགྲོ་ལ་གཟིགས་པ་མི་གཡེལ་བ།",
           phonetics: "nam yang / dro la / zik pa / me yel wa",
           translation: "Ne quitte jamais l'ensemble des êtres.",
           words: [
@@ -2302,7 +2302,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-90",
           type: "normal",
-          tibetan: "།ཕན་བདེའི་འབྱུང་གནས་སྲིད་དང་ཞི་བའི་ནོར།",
+          tibetan: "ཕན་བདེའི་འབྱུང་གནས་སྲིད་དང་ཞི་བའི་ནོར།",
           phonetics: "p'en deï / djoung ne / si dang / zhi we nor",
           translation:
             "Vous êtes la fontaine d'où s'écoulent bienfaits et félicité, la richesse du nirvana et du samsara.",
@@ -2332,7 +2332,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-91",
           type: "normal",
-          tibetan: "།རིག་པའི་རྡོ་རྗེའི་ཞབས་ལ་གསོལ་བ་འདེབས།",
+          tibetan: "རིག་པའི་རྡོ་རྗེའི་ཞབས་ལ་གསོལ་བ་འདེབས།",
           phonetics: "rik pe / dordje / chap / la / seul wa dep",
           translation: "Vénérable Rigpé Dorjé, je vous adresse ma prière.",
           words: [
@@ -2354,7 +2354,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-92",
           type: "normal",
-          tibetan: "།གདམས་པའི་ཆུ་གཏེར་རྩོལ་ཆེན་ཐུགས་སུ་དཀྱིལ།",
+          tibetan: "གདམས་པའི་ཆུ་གཏེར་རྩོལ་ཆེན་ཐུགས་སུ་དཀྱིལ།",
           phonetics: "dampé / tchou ter / tseul tchen / t'ouk sou kyil",
           translation:
             "Par un dur labeur, il s'est abreuvé l'esprit d'un océan d'instructions;",
@@ -2384,7 +2384,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-93",
           type: "normal",
-          tibetan: "།སྒོམ་པའི་ཆུ་རྒྱུན་ཡེ་ཤེས་རྒྱ་མཚོར་འདྲེས།",
+          tibetan: "སྒོམ་པའི་ཆུ་རྒྱུན་ཡེ་ཤེས་རྒྱ་མཚོར་འདྲེས།",
           phonetics: "gompé / tchou gyun / yéshé / gyamtsor / dré",
           translation:
             "le fleuve de sa pratique s'est jeté dans la mer de la Connaissance;",
@@ -2415,7 +2415,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-94",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེའི་ཆུ་ཆར་སྣོད་ལྡན་འགྲོ་ལ་འབེབས།",
+          tibetan: "ཐུགས་རྗེའི་ཆུ་ཆར་སྣོད་ལྡན་འགྲོ་ལ་འབེབས།",
           phonetics: "t'oukdjé / tchou tchar / neuden / dro la / bep",
           translation:
             "les ondées de sa compassion se déversent sur les êtres vivants prédisposés;",
@@ -2450,7 +2450,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-95",
           type: "normal",
-          tibetan: "།དགེ་འདུན་རིན་པོ་ཆེ་ལ་གསོལ་བ་འདེབས།",
+          tibetan: "དགེ་འདུན་རིན་པོ་ཆེ་ལ་གསོལ་བ་འདེབས།",
           phonetics: "guendun rinpoché / la / seulwa dep",
           translation: "j'adresse ma requête à Guendune Rinpoché.",
           words: [
@@ -2470,7 +2470,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-96",
           type: "normal",
-          tibetan: "།སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང༌།",
+          tibetan: "སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང༌།",
           phonetics: "kye wa / kun tou / yang dag / lama tang",
           translation:
             "En toutes mes existences, puissé-je ne jamais être séparé d'un lama parfaitement authentique",
@@ -2500,7 +2500,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-97",
           type: "normal",
-          tibetan: "།འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང༌།",
+          tibetan: "འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང༌།",
           phonetics: "drel me / tcheu kyi / pel la / long tcheu tching",
           translation: "Et jouir de la splendeur du Dharma.",
           words: [
@@ -2529,7 +2529,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-98",
           type: "normal",
-          tibetan: "།ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།",
+          tibetan: "ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།",
           phonetics: "sa dang / lam gyi / yeunten / rab dzok ne",
           translation:
             "Puissé-je, une fois parachevées les qualités des chemins et des terres d'éveil,",
@@ -2559,7 +2559,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-99",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་འཆང་གི་གོ་འཕང་མྱུར་ཐོབ་ཤོག༑",
+          tibetan: "རྡོ་རྗེ་འཆང་གི་གོ་འཕང་མྱུར་ཐོབ་ཤོག༑",
           phonetics: "dordje tchang gi / go pang / nyour thob sho",
           translation: "Obtenir rapidement l'état de Vajradhara.",
           words: [
@@ -2619,7 +2619,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-103",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ཆོས་དང་ཚོགས་ཀྱི་མཆོག་རྣམས་ལ།",
+          tibetan: "སངས་རྒྱས་ཆོས་དང་ཚོགས་ཀྱི་མཆོག་རྣམས་ལ།",
           phonetics: "sangyé / tcheu tang / tsok yi / tchok nam la",
           translation: "En les suprêmes Bouddha, Dharma et Sangha,",
           words: [
@@ -2648,7 +2648,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-104",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་བར་དུ་བདག་ནི་སྐྱབས་སུ་མཆི།",
+          tibetan: "བྱང་ཆུབ་བར་དུ་བདག་ནི་སྐྱབས་སུ་མཆི།",
           phonetics: "djang tchoub / bar dou / dak ni / kyap sou / tchi",
           translation: "Je prends refuge jusqu'à l'éveil.",
           words: [
@@ -2670,7 +2670,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-105",
           type: "normal",
-          tibetan: "།བདག་གིས་སྦྱིན་སོགས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
+          tibetan: "བདག་གིས་སྦྱིན་སོགས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
           phonetics: "dag gi / djin so / gyi peï / seunam kyi",
           translation:
             "Par le mérite qui résulte de ma pratique de la générosité et des autres paramitas",
@@ -2700,7 +2700,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-106",
           type: "normal",
-          tibetan: "།འགྲོ་ལ་ཕན་ཕྱིར་སངས་རྒྱས་འགྲུབ་པར་ཤོག",
+          tibetan: "འགྲོ་ལ་ཕན་ཕྱིར་སངས་རྒྱས་འགྲུབ་པར་ཤོག",
           phonetics: "dro la / pen tchir / sangyé / droup par sho",
           translation:
             "Puissé-je atteindre l'éveil pour le bien de tous les êtres!",
@@ -2777,7 +2777,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-112",
           type: "normal",
-          tibetan: "།ཆོས་རྣམས་མི་དམིགས་སྟོང་པའི་ངང་༔",
+          tibetan: "ཆོས་རྣམས་མི་དམིགས་སྟོང་པའི་ངང་༔",
           phonetics: "tcheu nam / mi mik / tong pé / ngang",
           translation:
             "Depuis l'état de vacuité où aucun phénomène n'est réifié,",
@@ -2803,7 +2803,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-113",
           type: "normal",
-          tibetan: "།ཤ་ཁྲག་དྲོད་དབུགས་སེམས་དང་བཅས༔",
+          tibetan: "ཤ་ཁྲག་དྲོད་དབུགས་སེམས་དང་བཅས༔",
           phonetics: "cha / t'ak / dreu / ouk / sem / tang tché",
           translation:
             "La chair, le sang, la chaleur, le souffle et la conscience",
@@ -2827,7 +2827,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-114",
           type: "normal",
-          tibetan: "།ཡོངས་སུ་རྫོགས་པའི་སྲོག་ཆགས་རྣམས༔",
+          tibetan: "ཡོངས་སུ་རྫོགས་པའི་སྲོག་ཆགས་རྣམས༔",
           phonetics: "yong sou / dzok pé / sok tchak nam",
           translation: "Qui composent entièrement les animaux",
           words: [
@@ -2851,7 +2851,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-115",
           type: "normal",
-          tibetan: "།ངོ་བོ་གདོད་ནས་ཡུམ་ལྔའི་དངོས༔",
+          tibetan: "ངོ་བོ་གདོད་ནས་ཡུམ་ལྔའི་དངོས༔",
           phonetics: "ngo wo / deu né / youm ngé / ngeu",
           translation:
             "Sont en essence, depuis toujours, la personnification des cinq épouses",
@@ -2881,7 +2881,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-116",
           type: "normal",
-          tibetan: "།རྣམ་པ་རིགས་ལྔའི་ཕུང་པོ་ནི༔",
+          tibetan: "རྣམ་པ་རིགས་ལྔའི་ཕུང་པོ་ནི༔",
           phonetics: "nam pa / rik ngé / p'oung po / ni",
           translation: "Et, en apparence, les agrégats des cinq familles,",
           words: [
@@ -2906,7 +2906,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-117",
           type: "normal",
-          tibetan: "།རང་རང་བྱད་གཟུགས་ཡོངས་རྫོགས་པ༔",
+          tibetan: "རང་རང་བྱད་གཟུགས་ཡོངས་རྫོགས་པ༔",
           phonetics: "rang rang / djé zouk / yong dzok pa",
           translation: "Chacun se manifestant sous son apparence parfaite.",
           words: [
@@ -2930,7 +2930,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-118",
           type: "normal",
-          tibetan: "།འདོད་ཡོན་དཔག་མེད་འཕྲོ་བ་ཡི༔",
+          tibetan: "འདོད་ཡོན་དཔག་མེད་འཕྲོ་བ་ཡི༔",
           phonetics: "deu yeun / pak mé / t'o oua / yi",
           translation:
             "[De ces êtres,] s'émanent d'innombrables jouissances sensorielles.",
@@ -2956,7 +2956,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-119",
           type: "normal",
-          tibetan: "།མདུན་གྱི་ནམ་མཁར་གཞལ་ཡས་ཁང་༔",
+          tibetan: "མདུན་གྱི་ནམ་མཁར་གཞལ་ཡས་ཁང་༔",
           phonetics: "dun gyi / nam k'ar / chel yé / k'ang",
           translation: "Dans le ciel en face, est un palais incommensurable,",
           words: [
@@ -2981,7 +2981,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-120",
           type: "normal",
-          tibetan: "།མཚན་རྫོགས་རྒྱན་གྱིས་སྤྲས་པའི་ནང་༔",
+          tibetan: "མཚན་རྫོགས་རྒྱན་གྱིས་སྤྲས་པའི་ནང་༔",
           phonetics: "tsen dzok / gyen gyi / t'é pé / nang",
           translation:
             "Paré de toutes les caractéristiques et rehaussé d'ornements.",
@@ -3003,7 +3003,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-121",
           type: "normal",
-          tibetan: "།སྣ་ཚོགས་པདྨ་འདབ་བཞིའི་སྟེང་༔",
+          tibetan: "སྣ་ཚོགས་པདྨ་འདབ་བཞིའི་སྟེང་༔",
           phonetics: "na tsok / péma / tap chi / teng",
           translation: "Sur un lotus multicolore à quatre pétales,",
           words: [
@@ -3024,7 +3024,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-122",
           type: "normal",
-          tibetan: "།གླང་ཆེན་སེང་གེ་རྟ་མཆོག་དང་༔",
+          tibetan: "གླང་ཆེན་སེང་གེ་རྟ་མཆོག་དང་༔",
           phonetics: "lang tchen / seng gué / ta tchok / tang",
           translation:
             "Soutenus [respectivement] par des éléphants, des lions, des suprêmes chevaux,",
@@ -3046,7 +3046,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-123",
           type: "normal",
-          tibetan: "།རྨ་བྱ་ཤང་ཤང་གིས་བཏེགས་པའི༔",
+          tibetan: "རྨ་བྱ་ཤང་ཤང་གིས་བཏེགས་པའི༔",
           phonetics: "ma dja / chang chang / gi tek pé",
           translation: "Des paons et des shang-shangs,",
           words: [
@@ -3066,7 +3066,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-124",
           type: "normal",
-          tibetan: "།རིན་ཆེན་ཁྲི་རྐང་པདྨ་དང་༔",
+          tibetan: "རིན་ཆེན་ཁྲི་རྐང་པདྨ་དང་༔",
           phonetics: "rin tchen / t'i kang / péma / tang",
           translation: "Sont [cinq] trônes faits de matières précieuses.",
           words: [
@@ -3087,7 +3087,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-125",
           type: "normal",
-          tibetan: "།ཉི་མ་ཟླ་བའི་གདན་གྱི་དབུས༔",
+          tibetan: "ཉི་མ་ཟླ་བའི་གདན་གྱི་དབུས༔",
           phonetics: "nyi ma / da wé / den gyi / u",
           translation:
             "Au-dessus, sur des sièges de lotus, de soleil et de lune,",
@@ -3105,7 +3105,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-126",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་རིགས་ལྔ་ཚེ་དཔག་མེད༔",
+          tibetan: "བཅོམ་ལྡན་རིགས་ལྔ་ཚེ་དཔག་མེད༔",
           phonetics: "tchom den / rik nga / tsé pak mé",
           translation: "Se tiennent les bhagavans, les cinq Amitayus,",
           words: [
@@ -3129,7 +3129,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-127",
           type: "normal",
-          tibetan: "།དཀར་མཐིང་སེར་དམར་ལྗང་བའི་མདོག༔",
+          tibetan: "དཀར་མཐིང་སེར་དམར་ལྗང་བའི་མདོག༔",
           phonetics: "kar / t'ing / ser / mar / djang wé / dok",
           translation: "De couleur blanche, bleu foncé, jaune, rouge et verte.",
           words: [
@@ -3148,7 +3148,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-128",
           type: "normal",
-          tibetan: "།ཞལ་གཅིག་ཕྱག་གཉིས་མཉམ་གཞག་གིས༔",
+          tibetan: "ཞལ་གཅིག་ཕྱག་གཉིས་མཉམ་གཞག་གིས༔",
           phonetics: "chel tchik / tchak nyi / nyam chak gi",
           translation:
             "Ils ont un visage et deux bras dans le geste de la méditation",
@@ -3173,7 +3173,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-129",
           type: "normal",
-          tibetan: "།འཆི་མེད་ཚེ་ཡི་བུམ་པ་འཛིན༔",
+          tibetan: "འཆི་མེད་ཚེ་ཡི་བུམ་པ་འཛིན༔",
           phonetics: "tchi mé / tse yi / boum pa / dzin",
           translation: "Tenant un vase d'immortalité.",
           words: [
@@ -3193,7 +3193,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-130",
           type: "normal",
-          tibetan: "།རང་འོད་ཡུམ་མཆོག་དབྱིངས་ཕྱུག་ལྔ༔",
+          tibetan: "རང་འོད་ཡུམ་མཆོག་དབྱིངས་ཕྱུག་ལྔ༔",
           phonetics: "rang eu / youm tchok / ying tchouk / nga",
           translation:
             "Ils sont enlacés par leur propre luminosité, leurs suprêmes épouses, les cinq dhatishvaris",
@@ -3219,7 +3219,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-131",
           type: "normal",
-          tibetan: "།རང་རྟགས་ཚེ་བུམ་བསྣམས་པས་འཁྲིལ༔",
+          tibetan: "རང་རྟགས་ཚེ་བུམ་བསྣམས་པས་འཁྲིལ༔",
           phonetics: "rang tak / tsé boum / nam pé / t'il",
           translation:
             "Qui tiennent dans leurs mains leur attribut et un vase de longévité.",
@@ -3245,7 +3245,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-132",
           type: "normal",
-          tibetan: "།དར་དང་རིན་ཆེན་རྒྱན་གྱིས་སྤྲས༔",
+          tibetan: "དར་དང་རིན་ཆེན་རྒྱན་གྱིས་སྤྲས༔",
           phonetics: "dar tang / rin tchen / gyen gyi / t'é",
           translation: "Parés de soieries et de précieux ornements,",
           words: [
@@ -3270,7 +3270,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-133",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་པདྨའི་སྐྱིལ་ཀྲུང་གིས༔",
+          tibetan: "རྡོ་རྗེ་པདྨའི་སྐྱིལ་ཀྲུང་གིས༔",
           phonetics: "dordjé / pémé / kyil t'oung / gi",
           translation:
             "[Les époux et épouses] sont assis [respectivement] dans la posture de vajra et de lotus.",
@@ -3288,7 +3288,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-134",
           type: "normal",
-          tibetan: "།འོད་ཟེར་འཁྲུགས་པའི་གྲོང་ན་བཞུགས༔",
+          tibetan: "འོད་ཟེར་འཁྲུགས་པའི་གྲོང་ན་བཞུགས༔",
           phonetics: "eu ser / t'ouk pé / drong na / chouk",
           translation:
             "Ils demeurent au milieu d'une étendue vibrante de rayons lumineux.",
@@ -3318,7 +3318,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-135",
           type: "normal",
-          tibetan: "།ཕྱི་རོལ་པདྨ་འདབ་བརྒྱད་ལ༔",
+          tibetan: "ཕྱི་རོལ་པདྨ་འདབ་བརྒྱད་ལ༔",
           phonetics: "tchi reul / pé ma / tap gyé / la",
           translation: "[En cercle] autour d'eux, sur un lotus à huit pétales,",
           words: [
@@ -3339,7 +3339,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-136",
           type: "normal",
-          tibetan: "།སྒེག་སོགས་མཆོད་པའི་ལྷ་མོ་དང་༔",
+          tibetan: "སྒེག་སོགས་མཆོད་པའི་ལྷ་མོ་དང་༔",
           phonetics: "guék sok / tcheu pé / lhamo / tang",
           translation: "Sont les déesses d'offrande (de la beauté, etc.).",
           words: [
@@ -3360,7 +3360,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-137",
           type: "normal",
-          tibetan: "།སྒོ་བཞིར་རྡོ་རྗེའི་མགྱོགས་མ་བཞི༔",
+          tibetan: "སྒོ་བཞིར་རྡོ་རྗེའི་མགྱོགས་མ་བཞི༔",
           phonetics: "go chir / dordjé / gyok ma / chi",
           translation: "Aux quatre portes, les quatre promptes déesses,",
           words: [
@@ -3385,7 +3385,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-138",
           type: "normal",
-          tibetan: "།བར་མཚམས་རྩ་གསུམ་ཚེ་ཡི་ལྷ༔",
+          tibetan: "བར་མཚམས་རྩ་གསུམ་ཚེ་ཡི་ལྷ༔",
           phonetics: "bar tsam / tsa soum / ts'é yi / lha",
           translation:
             "Et dans les espaces intermédiaires, les trois racines et les divinités de longévité.",
@@ -3411,7 +3411,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-139",
           type: "normal",
-          tibetan: "།བྱིན་རླབས་གཟི་བྱིན་འབར་བ་ཡི༔",
+          tibetan: "བྱིན་རླབས་གཟི་བྱིན་འབར་བ་ཡི༔",
           phonetics: "djin lap / zi djin / bar oua / yi",
           translation:
             "[Toutes les déités du mandala] resplendissent de la splendeur de la bénédiction.",
@@ -3437,7 +3437,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-140",
           type: "normal",
-          tibetan: "།གནས་གསུམ་ཨོཾ་ཨཱཿཧཱུྃ་གིས་མཚན༔",
+          tibetan: "གནས་གསུམ་ཨོཾ་ཨཱཿཧཱུྃ་གིས་མཚན༔",
           phonetics: "né soum / om a houng / gi tsen",
           translation:
             "Depuis les syllabes OM AH et HOUNG à leurs trois lieux,",
@@ -3462,7 +3462,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-141",
           type: "normal",
-          tibetan: "།དེ་ལས་འཕྲོས་པའི་འོད་ཟེར་གྱིས༔",
+          tibetan: "དེ་ལས་འཕྲོས་པའི་འོད་ཟེར་གྱིས༔",
           phonetics: "dé lé / t'eu pé / eu ser / gyi",
           translation: "Des rayons de lumière se diffusent",
           words: [
@@ -3491,7 +3491,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-142",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་ལྷ་ཚོགས་སྤྱན་དྲངས་གྱུར༔",
+          tibetan: "ཡེ་ཤེས་ལྷ་ཚོགས་སྤྱན་དྲངས་གྱུར༔",
           phonetics: "yé shé / lhat sok / tchen drang / gyour",
           translation: "Et invitent les divinités de sagesse.",
           words: [
@@ -3523,7 +3523,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-143",
           type: "normal",
-          tibetan: "།མ་ལུས་སེམས་ཅན་ཀུན་གྱི་མགོན་གྱུར་ཅིང་།",
+          tibetan: "མ་ལུས་སེམས་ཅན་ཀུན་གྱི་མགོན་གྱུར་ཅིང་།",
           phonetics: "ma lu / semtchen / kun gyi / gueun / gyour tching",
           translation:
             "Vous êtes le protecteur de tous les êtres sans exception,",
@@ -3554,7 +3554,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-144",
           type: "normal",
-          tibetan: "།བདུད་སྡེ་དཔུང་བཅས་མི་བཟད་འཇོམས་མཛད་ལྷ།",
+          tibetan: "བདུད་སྡེ་དཔུང་བཅས་མི་བཟད་འཇོམས་མཛད་ལྷ།",
           phonetics: "du dé / poung tché / mi sé / djom dzé / lha",
           translation:
             "La déité qui a vaincu l'intolérable Mara et ses troupes.",
@@ -3581,7 +3581,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-145",
           type: "normal",
-          tibetan: "།དངོས་རྣམས་མ་ལུས་ཇི་བཞིན་མཁྱེན་གྱུར་པའི།",
+          tibetan: "དངོས་རྣམས་མ་ལུས་ཇི་བཞིན་མཁྱེན་གྱུར་པའི།",
           phonetics: "ngeu nam / ma lu / dji chin / kyen gyour pé",
           translation: "Vous connaissez toutes les choses de manière juste.",
           words: [
@@ -3606,7 +3606,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-146",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འཁོར་བཅས་གནས་འདིར་གཤེགས་སུ་གསོལ།",
+          tibetan: "བཅོམ་ལྡན་འཁོར་བཅས་གནས་འདིར་གཤེགས་སུ་གསོལ།",
           phonetics: "tchom den / k'or tché / né dir / chek sou seul",
           translation:
             "Baghavan, veuillez venir en ce lieu avec votre entourage.",
@@ -3705,7 +3705,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-153",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་བཟང་པོའི་མཆོད་སྤྲིན་གྱིས༔",
+          tibetan: "ཀུན་ཏུ་བཟང་པོའི་མཆོད་སྤྲིན་གྱིས༔",
           phonetics: "kun tou zang peu tcheu t'in gyi",
           translation: "De nuées d'offrandes",
           words: [
@@ -3729,7 +3729,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-154",
           type: "normal",
-          tibetan: "།ཆོས་དབྱིངས་རྒྱས་པར་བཀང་བྱས་ཏེ༔",
+          tibetan: "ཆོས་དབྱིངས་རྒྱས་པར་བཀང་བྱས་ཏེ༔",
           phonetics: "tcheu ying gyé par kang djé té",
           translation: "Réelles et imaginées",
           words: [
@@ -3754,7 +3754,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-155",
           type: "normal",
-          tibetan: "།འཆི་མེད་ཚེ་ཡི་ལྷ་ཚོགས་མཆོད༔",
+          tibetan: "འཆི་མེད་ཚེ་ཡི་ལྷ་ཚོགས་མཆོད༔",
           phonetics: "tchi mé tsé yi lha tsok tcheu",
           translation: "Et vous les offre, divinités d'immortalité.",
           words: [
@@ -3845,7 +3845,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-164",
           type: "normal",
-          tibetan: "།ཤ་ཁྲག་དྲོད་དབུགས་སེམས་དང་བཅས༔",
+          tibetan: "ཤ་ཁྲག་དྲོད་དབུགས་སེམས་དང་བཅས༔",
           phonetics: "cha / t'ak / dreu / ouk / sem / tang tché",
           translation:
             "La chair, le sang, la chaleur, le souffle et la conscience",
@@ -3869,7 +3869,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-165",
           type: "normal",
-          tibetan: "།ཡོངས་སུ་རྫོགས་པའི་སྲོག་ཆགས་རྣམས༔",
+          tibetan: "ཡོངས་སུ་རྫོགས་པའི་སྲོག་ཆགས་རྣམས༔",
           phonetics: "yong sou / dzok pé / sok tchak nam",
           translation: "Qui composent entièrement les animaux",
           words: [
@@ -3893,7 +3893,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-166",
           type: "normal",
-          tibetan: "།ངོ་བོ་གདོད་ནས་ཡུམ་ལྔའི་དངོས༔",
+          tibetan: "ངོ་བོ་གདོད་ནས་ཡུམ་ལྔའི་དངོས༔",
           phonetics: "ngo wo / deu né / youm ngé / ngeu",
           translation:
             "Sont en essence, depuis toujours, la personnification des cinq épouses",
@@ -3923,7 +3923,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-167",
           type: "normal",
-          tibetan: "།རྣམ་པ་རིགས་ལྔའི་ཕུང་པོ་ནི༔",
+          tibetan: "རྣམ་པ་རིགས་ལྔའི་ཕུང་པོ་ནི༔",
           phonetics: "nam pa / rik ngé / p'oung po / ni",
           translation: "Et, en apparence, les agrégats des cinq familles,",
           words: [
@@ -3948,7 +3948,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-168",
           type: "normal",
-          tibetan: "།རང་རང་བྱད་གཟུགས་ཡོངས་རྫོགས་པ༔",
+          tibetan: "རང་རང་བྱད་གཟུགས་ཡོངས་རྫོགས་པ༔",
           phonetics: "rang rang / djé zouk / yong dzok pa",
           translation: "Chacun se manifestant sous son apparence parfaite.",
           words: [
@@ -3972,7 +3972,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-169",
           type: "normal",
-          tibetan: "།འདོད་ཡོན་དཔག་མེད་འཕྲོ་བ་ཡི༔",
+          tibetan: "འདོད་ཡོན་དཔག་མེད་འཕྲོ་བ་ཡི༔",
           phonetics: "deu yeun pak mé t'o oua yi",
           translation:
             "[De ces êtres,] s'émanent d'innombrables jouissances sensorielles.",
@@ -3998,7 +3998,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-170",
           type: "normal",
-          tibetan: "།རིགས་ལྔ་ཚེ་ཡི་དཀྱིལ་འཁོར་ལྷར༔",
+          tibetan: "རིགས་ལྔ་ཚེ་ཡི་དཀྱིལ་འཁོར་ལྷར༔",
           phonetics: "rik gna ts'é yi kyil k'or lhar",
           translation: "Divinités du mandala des cinq familles d'Amitayus,",
           words: [
@@ -4027,7 +4027,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-171",
           type: "normal",
-          tibetan: "།གུས་པའི་ཚུལ་གྱིས་འབུལ་ལགས་ན༔",
+          tibetan: "གུས་པའི་ཚུལ་གྱིས་འབུལ་ལགས་ན༔",
           phonetics: "gu pé ts'ul gyi bul lak na",
           translation:
             "Si je vous offre avec respect [ces êtres et leurs offrandes émanées],",
@@ -4048,7 +4048,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-172",
           type: "normal",
-          tibetan: "།དགྱེས་པ་ཆེན་པོས་རབ་བཞེས་ནས༔",
+          tibetan: "དགྱེས་པ་ཆེན་པོས་རབ་བཞེས་ནས༔",
           phonetics: "gyé pa tchen peu rab ché né",
           translation: "Veuillez les accepter avec grand plaisir !",
           words: [
@@ -4068,7 +4068,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-173",
           type: "normal",
-          tibetan: "།གནས་སྐབས་འཆི་བའི་འཇིགས་པ་དང་༔",
+          tibetan: "གནས་སྐབས་འཆི་བའི་འཇིགས་པ་དང་༔",
           phonetics: "né kap tchi oué djik pa tang",
           translation: "Des dangers temporels de la mort,",
           words: [
@@ -4093,7 +4093,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-174",
           type: "normal",
-          tibetan: "།མཐར་ཐུག་འཁོར་བ་ངན་སོང་གི༔",
+          tibetan: "མཐར་ཐུག་འཁོར་བ་ངན་སོང་གི༔",
           phonetics: "t'ar t'ouk k'or wa ngen song ki",
           translation:
             "Et, ultimement, du samsara et des destinées inférieures,",
@@ -4119,7 +4119,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-175",
           type: "normal",
-          tibetan: "།སྡུག་བསྔལ་ཀུན་ལས་བསྐྱབ་མཛད་གསོལ༔",
+          tibetan: "སྡུག་བསྔལ་ཀུན་ལས་བསྐྱབ་མཛད་གསོལ༔",
           phonetics: "douk ngel kun lé kyap dzé seul",
           translation: "De toutes ces souffrances, veuillez [les] protéger !",
           words: [
@@ -4255,7 +4255,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-188",
           type: "normal",
-          tibetan: "།བདག་གི་ཐུགས་ནས་འོད་འཕྲོས་པས༔",
+          tibetan: "བདག་གི་ཐུགས་ནས་འོད་འཕྲོས་པས༔",
           phonetics: "dak ki t'ouk né eu t'eu pé",
           translation: "De mon cœur, irradie de la lumière",
           words: [
@@ -4275,7 +4275,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-189",
           type: "normal",
-          tibetan: "།མདུན་བསྐྱེད་རྒྱུད་བསྐུལ་འོད་ཟེར་གྱིས༔",
+          tibetan: "མདུན་བསྐྱེད་རྒྱུད་བསྐུལ་འོད་ཟེར་གྱིས༔",
           phonetics: "dun kyé gyu kul eu ser gyi",
           translation:
             "qui exhorte la visualisation en face de moi. Les rayons lumineux [alors émanés] rassemblent",
@@ -4305,7 +4305,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-190",
           type: "normal",
-          tibetan: "།སྲིད་ཞིའི་ཁམས་ཀྱི་ཚེ་བཅུད་དང་༔",
+          tibetan: "སྲིད་ཞིའི་ཁམས་ཀྱི་ཚེ་བཅུད་དང་༔",
           phonetics: "si chi k'am kyi ts'é tchu tang",
           translation:
             "La subtile quintessence vitale du samsara et du nirvana,",
@@ -4331,7 +4331,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-191",
           type: "normal",
-          tibetan: "།ཁྱད་པར་འབྱུང་ལྔའི་དྭངས་བཅུད་ཀུན༔",
+          tibetan: "ཁྱད་པར་འབྱུང་ལྔའི་དྭངས་བཅུད་ཀུན༔",
           phonetics: "kye par djoung ngé tang tchu kun",
           translation: "En particulier l'essence pure des cinq éléments,",
           words: [
@@ -4356,7 +4356,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-192",
           type: "normal",
-          tibetan: "།བསྡུས་ཏེ་བདག་དང་བསྒྲུབ་བྱར་ཐིམ༔",
+          tibetan: "བསྡུས་ཏེ་བདག་དང་བསྒྲུབ་བྱར་ཐིམ༔",
           phonetics: "du té dak tang droup djar t'im",
           translation:
             "Puis reviennent se fondre en moi et en ceux pour qui l'on fait la pratique.",
@@ -4382,7 +4382,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-193",
           type: "normal",
-          tibetan: "།ཁམས་ལྔ་ཉམས་པ་སོར་ཆུད་ནས༔",
+          tibetan: "ཁམས་ལྔ་ཉམས་པ་སོར་ཆུད་ནས༔",
           phonetics: "k'am nga nyam pa sor tchu né",
           translation: "Les cinq éléments endommagés sont alors restaurés",
           words: [
@@ -4407,7 +4407,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-194",
           type: "normal",
-          tibetan: "།རིགས་ལྔའི་ཚེ་དབང་ཐོབ་པར་གྱུར༔",
+          tibetan: "རིགས་ལྔའི་ཚེ་དབང་ཐོབ་པར་གྱུར༔",
           phonetics: "rik ngé tsé ouang t'op par gyour",
           translation:
             "Et l'initiation de longue vie des cinq familles est obtenue.",
@@ -4527,7 +4527,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-206",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་ལྔ་ཡི་ངོ་བོ་ཉིད༔",
+          tibetan: "ཡེ་ཤེས་ལྔ་ཡི་ངོ་བོ་ཉིད༔",
           phonetics: "yé shé nga yi ngo wo nyi",
           translation: "Essence des cinq sagesses,",
           words: [
@@ -4551,7 +4551,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-207",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་རིགས་ལྔ་ཚེ་དཔག་མེད༔",
+          tibetan: "བཅོམ་ལྡན་རིགས་ལྔ་ཚེ་དཔག་མེད༔",
           phonetics: "tchom den rik nga tsé pak mé",
           translation: "Baghavans Amitayus des cinq familles,",
           words: [
@@ -4575,7 +4575,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-208",
           type: "normal",
-          tibetan: "།ཁམས་ལྔ་རྣམ་དག་ཡུམ་དང་སྦྱོར༔",
+          tibetan: "ཁམས་ལྔ་རྣམ་དག་ཡུམ་དང་སྦྱོར༔",
           phonetics: "k'am nga nam dak youm dang djor",
           translation:
             "Vous qui êtes unis à vos parèdres - les cinq éléments complètement purs -,",
@@ -4601,7 +4601,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-209",
           type: "normal",
-          tibetan: "།ཚེ་བདག་རིགས་ལྔའི་ཚོགས་ལ་བསྟོད༔",
+          tibetan: "ཚེ་བདག་རིགས་ལྔའི་ཚོགས་ལ་བསྟོད༔",
           phonetics: "tsé dak rik gné tsok la teu",
           translation:
             "Assemblée des cinq seigneurs de la longévité, je vous adresse mes louanges !",
@@ -4634,7 +4634,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-210",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་ཚེ་ཡི་ལྷ་ཚོགས་ཀྱིས༔",
+          tibetan: "བཅོམ་ལྡན་ཚེ་ཡི་ལྷ་ཚོགས་ཀྱིས༔",
           phonetics: "tchom den tsé yi lha tsok kyi",
           translation: "Assemblée des baghavans et des divinités de longévité,",
           words: [
@@ -4663,7 +4663,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-211",
           type: "normal",
-          tibetan: "།བདག་དང་མཐའ་ཡས་སེམས་ཅན་རྣམས༔",
+          tibetan: "བདག་དང་མཐའ་ཡས་སེམས་ཅན་རྣམས༔",
           phonetics: "dak tang t'a yé sem tchen nam",
           translation: "De moi et tous les êtres en nombre infini,",
           words: [
@@ -4687,7 +4687,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-212",
           type: "normal",
-          tibetan: "།ཚེ་བསོད་ཉམས་པ་སོར་ཆུད་ནས༔",
+          tibetan: "ཚེ་བསོད་ཉམས་པ་སོར་ཆུད་ནས༔",
           phonetics: "tsé seu nyam pa sor tchu né",
           translation: "Restaurez la longévité et le mérite endommagés !",
           words: [
@@ -4712,7 +4712,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-213",
           type: "normal",
-          tibetan: "།རིགས་ལྔའི་ཚེ་དབང་དངོས་གྲུབ་སྩོལ༔",
+          tibetan: "རིགས་ལྔའི་ཚེ་དབང་དངོས་གྲུབ་སྩོལ༔",
           phonetics: "rik ngé tsé ouang ngeu droup tseul",
           translation:
             "Accordez-nous l'initiation de longue vie des cinq familles !",
@@ -4814,7 +4814,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-217",
           type: "normal",
-          tibetan: "།རང་དང་བསྒྲུབ་བྱར་ལ་ཐིམ་པས་ཁམས་ལྔ་ཉམས་པ་སོར་ཆུད།",
+          tibetan: "རང་དང་བསྒྲུབ་བྱར་ལ་ཐིམ་པས་ཁམས་ལྔ་ཉམས་པ་སོར་ཆུད།",
           phonetics:
             "rang tang droup dja la t'im pé k'am nga nyam pa sor tch'u",
           translation:
@@ -4856,7 +4856,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-218",
           type: "normal",
-          tibetan: "།རིགས་ལྔའི་ཚེ་དང་ཡེ་ཤེས་ཀྱི་དངོས་གྲུབ་མ་ལུས་པ་ཐོབ་པར་གྱུར།",
+          tibetan: "རིགས་ལྔའི་ཚེ་དང་ཡེ་ཤེས་ཀྱི་དངོས་གྲུབ་མ་ལུས་པ་ཐོབ་པར་གྱུར།",
           phonetics:
             "rik ngé ts'é tang yé shé kyi ngeu droup ma lu pa t'op par gyour",
           translation:
@@ -5198,7 +5198,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-dw-11",
           type: "normal",
-          tibetan: "།ཕྱོགས་བཅུའི་སངས་རྒྱས་བྱང་སེམས་ཐམས་ཅད་ཀྱིས༔",
+          tibetan: "ཕྱོགས་བཅུའི་སངས་རྒྱས་བྱང་སེམས་ཐམས་ཅད་ཀྱིས༔",
           phonetics: "tchok tchu / sangyé / djang sem / t'am tché kyi",
           translation: "Tous les Bouddhas et bodhisattvas des dix directions,",
           words: [
@@ -5268,7 +5268,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-1",
           type: "normal",
-          tibetan: "།བསོད་ནམས་འདི་ཡིས་ཐམས་ཅད་གཟིགས་པ་ཉིད།",
+          tibetan: "བསོད་ནམས་འདི་ཡིས་ཐམས་ཅད་གཟིགས་པ་ཉིད།",
           phonetics: "seunam / di yi / t'am tché / zik pa nyi",
           translation: "Par ce mérite, la connaissance de toutes choses,",
           words: [
@@ -5293,7 +5293,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-2",
           type: "normal",
-          tibetan: "།ཐོབ་ནས་ཉེས་པའི་དགྲ་རྣམས་ཕམ་བྱས་ནས།",
+          tibetan: "ཐོབ་ནས་ཉེས་པའི་དགྲ་རྣམས་ཕམ་བྱས་ནས།",
           phonetics: "top né / nyé pé / dra nam / p'am djé né",
           translation: "Puissé-je l'obtenir, et vaincre les ennemis néfastes.",
           words: [
@@ -5322,7 +5322,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-3",
           type: "normal",
-          tibetan: "།སྐྱེ་རྒ་ན་འཆིའི་རྦ་རླབས་འཁྲུག་པ་ཡི།",
+          tibetan: "སྐྱེ་རྒ་ན་འཆིའི་རྦ་རླབས་འཁྲུག་པ་ཡི།",
           phonetics: "kyé ga / na tchi / ba lap / t'ouk pa yi",
           translation:
             "Ballotés par les vagues de la naissance, de la maladie, de la vieillesse et de la mort",
@@ -5346,7 +5346,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-4",
           type: "normal",
-          tibetan: "།སྲིད་པའི་མཚོ་ལས་འགྲོ་བ་སྒྲོལ་བར་ཤོག",
+          tibetan: "སྲིད་པའི་མཚོ་ལས་འགྲོ་བ་སྒྲོལ་བར་ཤོག",
           phonetics: "si pé / tso lé / dro oua / dreul ouar chok",
           translation:
             "Puissé-je libérer ces êtres [errant] dans l'océan des destinées,",
@@ -5376,7 +5376,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-5",
           type: "normal",
-          tibetan: "།འཇམ་དཔལ་དཔའ་བོས་ཇི་ལྟར་མཁྱེན་པ་དང༌།",
+          tibetan: "འཇམ་དཔལ་དཔའ་བོས་ཇི་ལྟར་མཁྱེན་པ་དང༌།",
           phonetics: "djampel / pa eu / dji tar / kyen pa tang",
           translation:
             "Avec une sagesse semblable à celle du héros Manjoushri,",
@@ -5406,7 +5406,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-6",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་དེ་བཞིན་ཏེ།",
+          tibetan: "ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་དེ་བཞིན་ཏེ།",
           phonetics: "kun tou zangpo / té yang / té chin té",
           translation: "De la même manière également que Samantabhadra,",
           words: [
@@ -5430,7 +5430,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-7",
           type: "normal",
-          tibetan: "།དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཅིང༌།",
+          tibetan: "དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཅིང༌།",
           phonetics: "té tak / kun gyi / djé sou / dak lop tching",
           translation: "Je m'entraîne en suivant leur exemple,",
           words: [
@@ -5455,7 +5455,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-8",
           type: "normal",
-          tibetan: "།དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
+          tibetan: "དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
           phonetics: "gué oua / di tak / t'am tché / rap tou gno",
           translation: "Je dédie ainsi parfaitement toutes ces vertus.",
           words: [
@@ -5480,7 +5480,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-9",
           type: "normal",
-          tibetan: "།དགེ་བ་འདི་ཡིས་སྐྱེ་བོ་ཀུན།",
+          tibetan: "དགེ་བ་འདི་ཡིས་སྐྱེ་བོ་ཀུན།",
           phonetics: "gué oua / di yi / kyé ouo kun",
           translation: "Par cette vertu, que tous les êtres,",
           words: [
@@ -5500,7 +5500,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-10",
           type: "normal",
-          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་ཚོགས་རྫོགས་ནས།",
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་ཚོགས་རྫོགས་ནས།",
           phonetics: "seunam / yéché / tsok dzok né",
           translation: "Parachèvent les accumulations de mérite et de sagesse",
           words: [
@@ -5525,7 +5525,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-11",
           type: "normal",
-          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་ལས་བྱུང་བ།",
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་ལས་བྱུང་བ།",
           phonetics: "seunam / yéché / lé djoung oua",
           translation: "et résultant de ces mérite et sagesse:",
           words: [
@@ -5545,7 +5545,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-12",
           type: "normal",
-          tibetan: "།དམ་པ་སྐུ་གཉིས་ཐོབ་པར་ཤོག",
+          tibetan: "དམ་པ་སྐུ་གཉིས་ཐོབ་པར་ཤོག",
           phonetics: "tampa / kou nyi / t'op par chok",
           translation: "Puissent-ils obtenir les deux corps purs!",
           words: [
@@ -5565,7 +5565,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-13",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་སྐུ་གསུམ་བརྙེས་པའི་བྱིན་རླབས་དང༌།",
+          tibetan: "སངས་རྒྱས་སྐུ་གསུམ་བརྙེས་པའི་བྱིན་རླབས་དང༌།",
           phonetics: "sangyé / kou soum / nyé pé / djin lap tang",
           translation: "Par la bénédiction des trois corps du Bouddha,",
           words: [
@@ -5594,7 +5594,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-14",
           type: "normal",
-          tibetan: "།ཆོས་ཉིད་མི་འགྱུར་བདེན་པའི་བྱིན་རླབས་དང༌།",
+          tibetan: "ཆོས་ཉིད་མི་འགྱུར་བདེན་པའི་བྱིན་རླབས་དང༌།",
           phonetics: "tcheu nyi / mingyour / den pé / djin lap tang",
           translation: "Par la bénédiction de la vérité immuable du Dharma,",
           words: [
@@ -5623,7 +5623,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-15",
           type: "normal",
-          tibetan: "།དགེ་འདུན་མི་ཕྱེད་འདུན་པའི་བྱིན་རླབས་ཀྱིས།",
+          tibetan: "དགེ་འདུན་མི་ཕྱེད་འདུན་པའི་བྱིན་རླབས་ཀྱིས།",
           phonetics: "guendun / mi tché / dun pé / djin lap kyi",
           translation:
             "Et par la bénédiction de l'aspiration continuelle de la Sangha,",
@@ -5653,7 +5653,7 @@ export const sauverDesVies: PracticeText = {
         {
           id: "sv-ded-16",
           type: "normal",
-          tibetan: "།ཇི་ལྟར་བསྔོ་བ་སྨོན་ལམ་འགྲུབ་པར་ཤོག",
+          tibetan: "ཇི་ལྟར་བསྔོ་བ་སྨོན་ལམ་འགྲུབ་པར་ཤོག",
           phonetics: "dji tar / gno oua / meunlam / droup par chok",
           translation:
             "Puissent cette dédicace et ces souhaits s'accomplir tels qu'ils sont formulés.",

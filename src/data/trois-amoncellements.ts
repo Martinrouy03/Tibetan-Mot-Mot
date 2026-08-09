@@ -55,7 +55,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-1-2",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ལ་སྐྱབས་སུ་མཆིའོ།",
+          tibetan: "སངས་རྒྱས་ལ་སྐྱབས་སུ་མཆིའོ།",
           phonetics: "sangyé la kyap sou tchi'o",
           translation: "prennent refuge dans le Bouddha,",
           words: [
@@ -74,7 +74,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-1-3",
           type: "normal",
-          tibetan: "།ཆོས་ལ་སྐྱབས་སུ་མཆིའོ།",
+          tibetan: "ཆོས་ལ་སྐྱབས་སུ་མཆིའོ།",
           phonetics: "tcheu la kyap sou tchi'o",
           translation: "prennent refuge dans le Dharma,",
           words: [
@@ -93,7 +93,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-1-4",
           type: "normal",
-          tibetan: "།དགེ་འདུན་ལ་སྐྱབས་སུ་མཆིའོ།",
+          tibetan: "དགེ་འདུན་ལ་སྐྱབས་སུ་མཆིའོ།",
           phonetics: "guen dun la kyap sou chi'o",
           translation: "et prennent refuge dans la Sangha.",
           words: [
@@ -179,7 +179,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-2",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་སྙིང་པོས་རབ་ཏུ་འཇོམས་པ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རྡོ་རྗེ་སྙིང་པོས་རབ་ཏུ་འཇོམས་པ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "dorjé nyingpeu raptou djompa la tchaktsel lo",
           translation:
             "Hommage à Complètement Conquérant par le Cœur-Vajra (Vajrasārapramardi).",
@@ -246,7 +246,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-4",
           type: "normal",
-          tibetan: "།ཀླུ་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཀླུ་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "louwang gui gyalpo la tchaktsel lo",
           translation: "Hommage à Roi des Puissants Nagas (Nāgeśvararāja).",
           words: [
@@ -279,7 +279,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-5",
           type: "normal",
-          tibetan: "།དཔའ་བོའི་སྡེ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཔའ་བོའི་སྡེ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "paweu dé la tchaktsel lo",
           translation: "Hommage à Classe Héroïque (Virasena).",
           words: [
@@ -312,7 +312,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-6",
           type: "normal",
-          tibetan: "།དཔལ་དགྱེས་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཔལ་དགྱེས་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "pelgyé la tchaktsel lo",
           translation: "Hommage à Glorieux Heureux (Vīranandi).",
           words: [
@@ -340,7 +340,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-7",
           type: "normal",
-          tibetan: "།རིན་ཆེན་མེ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རིན་ཆེན་མེ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "rinchen mé la tchaktsel lo",
           translation: "Hommage à Joyau Flamboyant (Ratnāgni).",
           words: [
@@ -373,7 +373,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-8",
           type: "normal",
-          tibetan: "།རིན་ཆེན་ཟླ་འོད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རིན་ཆེན་ཟླ་འོད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "rinchen da eu la tchaktsel lo",
           translation: "Hommage à Joyau Clair de Lune (Ratnacandraprabha).",
           words: [
@@ -406,7 +406,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-9",
           type: "normal",
-          tibetan: "།མཐོང་བ་དོན་ཡོད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "མཐོང་བ་དོན་ཡོད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tongwa deun yeu la tchaktsel lo",
           translation: "Hommage à Vision Bienfaisante (Amoghadarśī).",
           words: [
@@ -435,7 +435,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-10",
           type: "normal",
-          tibetan: "།རིན་ཆེན་ཟླ་བ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རིན་ཆེན་ཟླ་བ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "rinchen dawa la tchaktsel lo",
           translation: "Hommage à Joyau de Lune (Ratnacandra).",
           words: [
@@ -468,7 +468,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-11",
           type: "normal",
-          tibetan: "།དྲི་མ་མེད་པ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དྲི་མ་མེད་པ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "drima mépa la tchaktsel lo",
           translation: "Hommage à Immaculé (Nirmala).",
           words: [
@@ -496,7 +496,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-12",
           type: "normal",
-          tibetan: "།དཔས་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཔས་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "pédjin la tchaktsel lo",
           translation: "Hommage à Glorieuse Générosité (Śūradatta).",
           words: [
@@ -524,7 +524,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-13",
           type: "normal",
-          tibetan: "།ཚངས་པ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཚངས་པ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tsangpa la tchaktsel lo",
           translation: "Hommage à Pureté (Brahma).",
           words: [
@@ -552,7 +552,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-14",
           type: "normal",
-          tibetan: "།ཚངས་པའི་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཚངས་པའི་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tsangpai djin la tchaktsel lo",
           translation: "Hommage à Bénédiction de Pureté (Brahmadatta).",
           words: [
@@ -585,7 +585,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-15",
           type: "normal",
-          tibetan: "།ཆུ་ལྷ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཆུ་ལྷ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tchou lh'a la tchaktsel lo",
           translation: "Hommage à Divinité Aquatile (Varuna).",
           words: [
@@ -613,7 +613,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-16",
           type: "normal",
-          tibetan: "།ཆུ་ལྷའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཆུ་ལྷའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tchou lh'ai lh'a la tchaktsel lo",
           translation:
             "Hommage à Divinité des Divinités Aquatiles (Varunadeva).",
@@ -647,7 +647,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-17",
           type: "normal",
-          tibetan: "།དཔལ་བཟང་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཔལ་བཟང་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "pelzang la tchaktsel lo",
           translation: "Hommage à Gloire Excellente (Bhadraśrī).",
           words: [
@@ -675,7 +675,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-18",
           type: "normal",
-          tibetan: "།ཙན་དན་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཙན་དན་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tsenden pel la tchaktsel lo",
           translation: "Hommage à Glorieux Santal (Candanaśrī).",
           words: [
@@ -704,7 +704,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-19",
           type: "normal",
-          tibetan: "།གཟི་བརྗིད་མཐའ་ཡས་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "གཟི་བརྗིད་མཐའ་ཡས་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "zidji t'ayé la tchaktsel lo",
           translation: "Hommage à Splendeur Infinie (Anantaujas).",
           words: [
@@ -737,7 +737,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-20",
           type: "normal",
-          tibetan: "།འོད་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "འོད་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "eupel la tchaktsel lo",
           translation: "Hommage à Glorieuse Lumière (Prabhāsaśrī).",
           words: [
@@ -765,7 +765,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-21",
           type: "normal",
-          tibetan: "།མྱ་ངན་མེད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "མྱ་ངན་མེད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "nya ngen mépai pel la tchaktsel lo",
           translation: "Hommage à Glorieuse Absence de Tourments (Aśokaśrī).",
           words: [
@@ -798,7 +798,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-22",
           type: "normal",
-          tibetan: "།སྲེད་མེད་ཀྱི་བུ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "སྲེད་མེད་ཀྱི་བུ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "sémé ki bou la tchaktsel lo",
           translation: "Hommage à Fils Dénué de Soif (Nārāyaņā).",
           words: [
@@ -827,7 +827,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-23",
           type: "normal",
-          tibetan: "།མེ་ཏོག་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "མེ་ཏོག་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "métok pel la tchaktsel lo",
           translation: "Hommage à Glorieux Fleurissement (Kusumaśrī).",
           words: [
@@ -952,7 +952,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-26",
           type: "normal",
-          tibetan: "།ནོར་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ནོར་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "norpel la tchaktsel lo",
           translation: "Hommage à Glorieuse Prospérité (Ghanaśrī).",
           words: [
@@ -980,7 +980,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-27",
           type: "normal",
-          tibetan: "།དྲན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དྲན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "drenpai pel la tchaktsel lo",
           translation: "Hommage à Gloire de la Souvenance (Smrtiśrī).",
           words: [
@@ -1013,7 +1013,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-28",
           type: "normal",
-          tibetan: "།མཚན་དཔལ་ཤིན་ཏུ་ཡོངས་གྲགས་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "མཚན་དཔལ་ཤིན་ཏུ་ཡོངས་གྲགས་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "tsenpel chintou yongdrak la tchaktsel lo",
           translation:
             "Hommage à glorieux Nom Complètement Renommé (Suparikīrtitanāmadheyaśrī).",
@@ -1047,7 +1047,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-29",
           type: "normal",
-          tibetan: "།དབང་པོའི་ཏོག་གི་རྒྱལ་མཚན་གྱི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དབང་པོའི་ཏོག་གི་རྒྱལ་མཚན་གྱི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "wangpeu tok gui gyaltsen gyi gyalpo la tchaktsel lo",
           translation:
             "Hommage à Bannière Royale de Victoire au Sommet de la Tête d'Indra (Indraketudhvajarāja).",
@@ -1086,7 +1086,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-30",
           type: "normal",
-          tibetan: "།ཤིན་ཏུ་རྣམ་པར་གནོན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཤིན་ཏུ་རྣམ་པར་གནོན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "chintou nampar neunpai pel la tchaktsel lo",
           translation:
             "Hommage à Glorieux Totalement Subjuguant (Suvikrāntaśrī).",
@@ -1125,7 +1125,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-31",
           type: "normal",
-          tibetan: "།གཡུལ་ལས་ཤིན་ཏུ་རྣམ་པར་རྒྱལ་བ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "གཡུལ་ལས་ཤིན་ཏུ་རྣམ་པར་རྒྱལ་བ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "yul lé chintou nampar gyalwa la tchaktsel lo",
           translation:
             "Hommage à Triomphant dans les Batailles (Suvijitasamgrāma).",
@@ -1164,7 +1164,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-32",
           type: "normal",
-          tibetan: "།རྣམ་པར་གནོན་པས་གཤེགས་པ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རྣམ་པར་གནོན་པས་གཤེགས་པ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "nampar neunpé shekpa la tchaktsel lo",
           translation: "Hommage à Celui qui va Victorieux (Vikrāntagāmin).",
           words: [
@@ -1197,7 +1197,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-33",
           type: "normal",
-          tibetan: "།ཀུན་ནས་སྣང་བ་བཀོད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཀུན་ནས་སྣང་བ་བཀོད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "kun né nang wa keu pai pel la tchak tsel lo",
           translation:
             "Hommage à Glorieux Agencement de Manifestations Partout Présentes (Samantāvabhāsavyūhaśrī).",
@@ -1236,7 +1236,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-34",
           type: "normal",
-          tibetan: "།རིན་ཆེན་པདྨ་རྣམ་པར་གནོན་པ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རིན་ཆེན་པདྨ་རྣམ་པར་གནོན་པ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "rinchen péma nampar neunpa la tchaktsel lo",
           translation:
             "Hommage à Celui qui Subjugue les Joyaux en Lotus (Ratnapadmavikrāmin).",
@@ -2201,7 +2201,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-3-33",
           type: "normal",
-          tibetan: "།མི་འཆབ་བོ། མི་སྦེད་དོ།",
+          tibetan: "མི་འཆབ་བོ། མི་སྦེད་དོ།",
           phonetics: "mi tchap po mi bé do",
           translation: "Je ne cache rien et ne dissimule rien.",
           words: [
@@ -2250,7 +2250,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-3-35",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+          tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
           phonetics: "sangyé tchom den dé dé dak t'amché dak la gong sou seul",
           translation:
             "Que tous ces bouddhas-bhagavans m'accordent leur attention.",
@@ -2853,7 +2853,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-18",
           type: "normal",
-          tibetan: "།སྡིག་པ་ཐམས་ཅད་ནི་སོ་སོར་བཤགས་སོ།",
+          tibetan: "སྡིག་པ་ཐམས་ཅད་ནི་སོ་སོར་བཤགས་སོ།",
           phonetics: "dik pa t'amché ni so sor chak so",
           translation: "Je confesse chacun des actes néfastes",
           words: [
@@ -2882,7 +2882,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-19",
           type: "normal",
-          tibetan: "།བསོད་ནམས་ཐམས་ཅད་ལ་རྗེས་སུ་ཡི་རང་ངོ་།",
+          tibetan: "བསོད་ནམས་ཐམས་ཅད་ལ་རྗེས་སུ་ཡི་རང་ངོ་།",
           phonetics: "seu nam t'am tché la djé sou yi rang ngo",
           translation: "et me réjouis de tous les mérites.",
           words: [
@@ -2907,7 +2907,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-20",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ཐམས་ཅད་ལ་བསྐུལ་ཞིང་གསོལ་བ་འདེབས་སོ།",
+          tibetan: "སངས་རྒྱས་ཐམས་ཅད་ལ་བསྐུལ་ཞིང་གསོལ་བ་འདེབས་སོ།",
           phonetics: "sangyé t'amché la kul shing seulwa dep so",
           translation:
             "J'exhorte tous les bouddhas [à ne pas passer en nirvana] et leur fais la requête [de tourner la roue du Dharma].",
@@ -2937,7 +2937,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-21",
           type: "normal",
-          tibetan: "།བདག་གིས་བླ་ན་མེད་པ་ཡེ་ཤེས་ཀྱི་མཆོག་དམ་པ་ཐོབ་པར་གྱུར་ཅིག",
+          tibetan: "བདག་གིས་བླ་ན་མེད་པ་ཡེ་ཤེས་ཀྱི་མཆོག་དམ་པ་ཐོབ་པར་གྱུར་ཅིག",
           phonetics:
             "dak gui lana mépa yéché ki tchok dampa top par gyour tchik",
           translation:
@@ -2969,7 +2969,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-22",
           type: "normal",
-          tibetan: "།མི་མཆོག་རྒྱལ་བ་གང་དག་ད་ལྟར་བཞུགས་པ་དང་།",
+          tibetan: "མི་མཆོག་རྒྱལ་བ་གང་དག་ད་ལྟར་བཞུགས་པ་དང་།",
           phonetics: "mi tchok gyal wa gang dak da tar shouk pa dang",
           translation: "Êtres suprêmes victorieux du présent,",
           words: [
@@ -3003,7 +3003,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-23",
           type: "normal",
-          tibetan: "།གང་དག་འདས་པ་དག་དང་དེ་བཞིན་གང་མ་བྱོན།",
+          tibetan: "གང་དག་འདས་པ་དག་དང་དེ་བཞིན་གང་མ་བྱོན།",
           phonetics: "gang dak dé pa dak dang dé shin gang ma djeun",
           translation: "Ceux du passé et ceux qui ne sont pas encore venus,",
           words: [
@@ -3032,7 +3032,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-4-24",
           type: "normal",
-          tibetan: "།ཡོན་ཏན་བསྔགས་པ་མཐའ་ཡས་རྒྱ་མཚོ་འདྲ་ཀུན་ལ།",
+          tibetan: "ཡོན་ཏན་བསྔགས་པ་མཐའ་ཡས་རྒྱ་མཚོ་འདྲ་ཀུན་ལ།",
           phonetics: "yeun ten ngak pa t'ayé gyamtso dra kun la",
           translation:
             "en vous tous qui êtes comme des océans de qualités louées et infinies",

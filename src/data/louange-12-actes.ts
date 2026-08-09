@@ -44,7 +44,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-2",
           type: "normal",
-          tibetan: "།གཞན་གྱིས་མི་ཐུབ་བདུད་ཀྱི་དཔུང་འཇོམས་པ།",
+          tibetan: "གཞན་གྱིས་མི་ཐུབ་བདུད་ཀྱི་དཔུང་འཇོམས་པ།",
           phonetics: "shen gui / mi t'oup / du ki / poung djom pa",
           translation:
             "et avez vaincu l'armée de Mara que nul n'avait pu défaire.",
@@ -74,7 +74,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-3",
           type: "normal",
-          tibetan: "།གསེར་གྱི་ལྷུན་པོ་ལྟ་བུར་བརྗིད་པའི་སྐུ།",
+          tibetan: "གསེར་གྱི་ལྷུན་པོ་ལྟ་བུར་བརྗིད་པའི་སྐུ།",
           phonetics: "ser gui / lh'un po / ta bour / dji pai kou",
           translation: "Hommage à vous, roi des Shakyas",
           words: [
@@ -99,7 +99,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-4",
           type: "normal",
-          tibetan: "།ཤཱཀྱའི་རྒྱལ་པོ་ཁྱོད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཤཱཀྱའི་རྒྱལ་པོ་ཁྱོད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "cha kyai / gyal po / k'yeu la / tchak tsel lo",
           translation:
             "dont le corps est aussi resplendissant qu'une montagne d'or.",
@@ -125,7 +125,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-5",
           type: "normal",
-          tibetan: "།གང་གིས་དང་པོར་བྱང་ཆུབ་ཐུགས་བསྐྱེད་ནས།",
+          tibetan: "གང་གིས་དང་པོར་བྱང་ཆུབ་ཐུགས་བསྐྱེད་ནས།",
           phonetics: "gang gi / dang por / djang tchoup / t'ouk kyé né",
           translation: "Après avoir engendré l'esprit d'éveil,",
           words: [
@@ -154,7 +154,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-6",
           type: "normal",
-          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་ཚོགས་གཉིས་རྫོགས་མཛད་ཅིང༌།",
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་ཚོགས་གཉིས་རྫོགས་མཛད་ཅིང༌།",
           phonetics: "seu nam / yé ché / tsok nyi / dzok dzé tching",
           translation:
             "vous avez parachevé les deux accumulations de mérite et de sagesse.",
@@ -180,7 +180,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-7",
           type: "normal",
-          tibetan: "།དུས་འདིར་མཛད་པ་རྒྱ་ཆེན་འགྲོ་བ་ཡི།",
+          tibetan: "དུས་འདིར་མཛད་པ་རྒྱ་ཆེན་འགྲོ་བ་ཡི།",
           phonetics: "du dir / dzé pa / gya tchen / dro wa yi",
           translation: "Louanges à vous, protecteur des êtres",
           words: [
@@ -205,7 +205,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-1-8",
           type: "normal",
-          tibetan: "།མགོན་གྱུར་ཁྱོད་ལ་བདག་གིས་བསྟོད་པར་བགྱི།",
+          tibetan: "མགོན་གྱུར་ཁྱོད་ལ་བདག་གིས་བསྟོད་པར་བགྱི།",
           phonetics: "gueun gyour / k'yeu la / dak gui / teu par gui",
           translation:
             "qui, en cette époque, avez déployé une immense activité.",
@@ -237,7 +237,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-2-1",
           type: "normal",
-          tibetan: "།ལྷ་རྣམས་དོན་མཛད་འདུལ་བའི་དུས་མཁྱེན་ནས།",
+          tibetan: "ལྷ་རྣམས་དོན་མཛད་འདུལ་བའི་དུས་མཁྱེན་ནས།",
           phonetics: "Ih'a nam / deun dzé / dul wai / du k'yen né",
           translation:
             "Alors que vous accomplissiez le bienfait des dieux, vous avez su que le temps était venu de discipliner [ce monde].",
@@ -267,7 +267,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-2-2",
           type: "normal",
-          tibetan: "།ལྷ་ལས་བབས་ནས་གླང་ཆེན་ལྟར་གཤེགས་ཤིང༌།",
+          tibetan: "ལྷ་ལས་བབས་ནས་གླང་ཆེན་ལྟར་གཤེགས་ཤིང༌།",
           phonetics: "lh'a lé / bap né / lang tchen / tar chek ching",
           translation:
             "Vous êtes venu depuis votre séjour divin sous l'aspect d'un éléphant.",
@@ -293,7 +293,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-2-3",
           type: "normal",
-          tibetan: "།རིགས་ལ་གཟིགས་ནས་ལྷ་མོ་སྒྱུ་འཕྲུལ་གྱི།",
+          tibetan: "རིགས་ལ་གཟིགས་ནས་ལྷ་མོ་སྒྱུ་འཕྲུལ་གྱི།",
           phonetics: "rik la / zik né / lh'a mo / gyou trul gui",
           translation:
             "Percevant une lignée familiale [supérieure], vous êtes entré dans la matrice",
@@ -318,7 +318,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-2-4",
           type: "normal",
-          tibetan: "།ལྷུམས་སུ་ཞུགས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ལྷུམས་སུ་ཞུགས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "Ih'oum sou / shouk par / dzé la / tchak tsel lo",
           translation:
             "de Mayadevi. À vous qui avez accompli cet acte, je rends hommage.",
@@ -354,7 +354,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-3-1",
           type: "normal",
-          tibetan: "།ཟླ་བ་བཅུ་རྫོགས་ཤཱཀྱའི་སྲས་པོ་ནི།",
+          tibetan: "ཟླ་བ་བཅུ་རྫོགས་ཤཱཀྱའི་སྲས་པོ་ནི།",
           phonetics: "da wa / tchou dzok / cka kyai / sé po ni",
           translation: "Dix mois plus tard, vous êtes né prince des Shakyas,",
           words: [
@@ -379,7 +379,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-3-2",
           type: "normal",
-          tibetan: "།བཀྲ་ཤིས་ལུམྦིའི་ཚལ་དུ་བལྟམས་པའི་ཚེ།",
+          tibetan: "བཀྲ་ཤིས་ལུམྦིའི་ཚལ་དུ་བལྟམས་པའི་ཚེ།",
           phonetics: "tra chi / loum bi / tsel tou / tam pai tsé",
           translation: "dans le parc auspicieux de Lumbini.",
           words: [
@@ -408,7 +408,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-3-3",
           type: "normal",
-          tibetan: "།ཚངས་དང་བརྒྱ་བྱིན་གྱིས་བསྟོད་",
+          tibetan: "ཚངས་དང་བརྒྱ་བྱིན་གྱིས་བསྟོད་",
           phonetics: "tsang dang / gya djin / gui teu /",
           translation: "Brahma et Indra chantèrent vos louanges.",
           words: [
@@ -479,7 +479,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-4-1",
           type: "normal",
-          tibetan: "།གཞོན་ནུ་སྟོབས་ལྡན་མི་ཡི་སེང་གེ་དེས།",
+          tibetan: "གཞོན་ནུ་སྟོབས་ལྡན་མི་ཡི་སེང་གེ་དེས།",
           phonetics: "sheun nou / top den / mi yi / seng gué dé",
           translation: "Jeune et fort lion parmi les hommes,",
           words: [
@@ -503,7 +503,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-4-2",
           type: "normal",
-          tibetan: "།ཨཾ་ག་མ་ག་དྷར་ནི་སྒྱུ་རྩལ་བསྟན།",
+          tibetan: "ཨཾ་ག་མ་ག་དྷར་ནི་སྒྱུ་རྩལ་བསྟན།",
           phonetics: "am ga / ma ga / dar ni / gyou tsel ten",
           translation:
             "dans l'Anga-Magadha, vous avez démontré votre habileté dans les arts pratiques.",
@@ -529,7 +529,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-4-3",
           type: "normal",
-          tibetan: "།སྐྱེ་བོ་དྲེགས་པ་ཅན་རྣམས་ཚར་བཅད་ནས།",
+          tibetan: "སྐྱེ་བོ་དྲེགས་པ་ཅན་རྣམས་ཚར་བཅད་ནས།",
           phonetics: "kyé wo / drek pa / tchen nam / tsar tché né",
           translation: "Vainqueur sur les arrogants,",
           words: [
@@ -553,7 +553,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-4-4",
           type: "normal",
-          tibetan: "།འགྲན་ཟླ་མེད་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "འགྲན་ཟླ་མེད་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "dren da / mé par / dzé la / tchak tsel lo",
           translation:
             "vous étiez sans rival. À vous qui avez accompli cet acte, je rends hommage.",
@@ -581,7 +581,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-5-1",
           type: "normal",
-          tibetan: "།འཇིག་རྟེན་ཆོས་དང་མཐུན་པར་བྱ་བ་དང༌།",
+          tibetan: "འཇིག་རྟེན་ཆོས་དང་མཐུན་པར་བྱ་བ་དང༌།",
           phonetics: "djik ten / tcheu dang / t'un par / dja wa dang",
           translation: "Pour vous conformer aux usages du monde",
           words: [
@@ -654,7 +654,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-5-4",
           type: "normal",
-          tibetan: "།ཐབས་ལ་མཁས་པ་ཡིས་རྒྱལ་སྲིད་སྐྱོང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཐབས་ལ་མཁས་པ་ཡིས་རྒྱལ་སྲིད་སྐྱོང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics:
             "t'ap la / k'é pa yi / gyal si / kyong war / dzé la / tchak tsel lo",
           translation:
@@ -696,7 +696,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-6-1",
           type: "normal",
-          tibetan: "།འཁོར་བའི་བྱ་བ་སྙིང་པོ་མེད་གཟིགས་ནས།",
+          tibetan: "འཁོར་བའི་བྱ་བ་སྙིང་པོ་མེད་གཟིགས་ནས།",
           phonetics: "k'or wai / dja wa / nying po / mé zik né",
           translation:
             "Ayant perçu que les activités dans le cycle des existences n'avaient aucune essence,",
@@ -752,7 +752,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-6-3",
           type: "normal",
-          tibetan: "།མཆོད་རྟེན་རྣམ་དག་དྲུང་དུ་ཉིད་ལ་ཉིད།",
+          tibetan: "མཆོད་རྟེན་རྣམ་དག་དྲུང་དུ་ཉིད་ལ་ཉིད།",
           phonetics: "tcheu ten / nam dak / droung dou / nyi la nyi",
           translation: "Au pied du stoupa Vishuddha,",
           words: [
@@ -781,7 +781,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-6-4",
           type: "normal",
-          tibetan: "།རབ་ཏུ་བྱུང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རབ་ཏུ་བྱུང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "rap tou / djoung war / dzé la / tchak tsel lo",
           translation:
             "vous vous êtes fait renonçant. À vous qui avez accompli cet acte, je rends hommage.",
@@ -812,7 +812,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-7-1",
           type: "normal",
-          tibetan: "།བརྩོན་པས་བྱང་ཆུབ་བསྒྲུབ་པར་དགོངས་ནས་ནི།",
+          tibetan: "བརྩོན་པས་བྱང་ཆུབ་བསྒྲུབ་པར་དགོངས་ནས་ནི།",
           phonetics: "tseun pé / djang tchoup / droup par / gong né ni",
           translation: "Avec l'intention d'accomplir l'éveil avec ténacité,",
           words: [
@@ -841,7 +841,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-7-2",
           type: "normal",
-          tibetan: "།ནཻ་རཉྫ་ནའི་འགྲམ་དུ་ལོ་དྲུག་ཏུ།",
+          tibetan: "ནཻ་རཉྫ་ནའི་འགྲམ་དུ་ལོ་དྲུག་ཏུ།",
           phonetics: "na rén ja né / dram dou / lo drouk tou",
           translation:
             "vous vous êtes livré pendant six ans à des austérités au bord de la rivière Nairanjana.",
@@ -866,7 +866,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-7-3",
           type: "normal",
-          tibetan: "།དཀའ་བ་སྤྱད་མཛད་བརྩོན་འགྲུས་མཐར་ཕྱིན་པས།",
+          tibetan: "དཀའ་བ་སྤྱད་མཛད་བརྩོན་འགྲུས་མཐར་ཕྱིན་པས།",
           phonetics: "ka wa / tché dzé / tseun dru / t'ar tchin pé",
           translation: "Déployant une persévérance à toute épreuve,",
           words: [
@@ -895,7 +895,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-7-4",
           type: "normal",
-          tibetan: "།བསམ་གཏན་མཆོག་བརྙེས་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "བསམ་གཏན་མཆོག་བརྙེས་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "sam ten / tchok nyé / dzé la / tchak tsel lo",
           translation:
             "vous avez acquis une suprême stabilité mentale. À vous qui avez accompli cet acte, je rends hommage.",
@@ -936,7 +936,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-8-1",
           type: "normal",
-          tibetan: "།ཐོག་མ་མེད་ནས་འབད་པ་དོན་ཡོད་ཕྱིར།",
+          tibetan: "ཐོག་མ་མེད་ནས་འབད་པ་དོན་ཡོད་ཕྱིར།",
           phonetics: "t'ok ma / mé né / bé pa / deun yeu tchir",
           translation:
             "Afin que vos efforts depuis des temps immémoriaux ne soient pas vains,",
@@ -957,7 +957,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-8-2",
           type: "normal",
-          tibetan: "།མ་ག་དྷ་ཡི་བྱང་ཆུབ་ཤིང་དྲུང་དུ།",
+          tibetan: "མ་ག་དྷ་ཡི་བྱང་ཆུབ་ཤིང་དྲུང་དུ།",
           phonetics: "ma ga / da yi / djang tchoup / ching droung dou",
           translation: "sous l'arbre de la bodhi dans le Magadha,",
           words: [
@@ -981,7 +981,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-8-3",
           type: "normal",
-          tibetan: "།སྐྱིལ་ཀྲུང་མི་གཡོ་མངོན་པར་སངས་རྒྱས་ནས།",
+          tibetan: "སྐྱིལ་ཀྲུང་མི་གཡོ་མངོན་པར་སངས་རྒྱས་ནས།",
           phonetics: "kyil troung / mi yo / ngeun par / sang gyé né",
           translation:
             "vous vous êtes assis, immuable, en la posture vajra et êtes devenu véritablement Bouddha.",
@@ -1007,7 +1007,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-8-4",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་རྫོགས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "བྱང་ཆུབ་རྫོགས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "djang tchoup / dzok par / dzé la / tchak tsel lo",
           translation: "Hommage à vous qui avez réalisé le parfait éveil.",
           words: [
@@ -1038,7 +1038,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-9-1",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེས་འགྲོ་ལ་མྱུར་དུ་གཟིགས་ནས་ནི།",
+          tibetan: "ཐུགས་རྗེས་འགྲོ་ལ་མྱུར་དུ་གཟིགས་ནས་ནི།",
           phonetics: "t'ouk djé / dro la / nyour dou / zik né ni",
           translation: "Considérant promptement les êtres avec compassion,",
           words: [
@@ -1067,7 +1067,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-9-2",
           type: "normal",
-          tibetan: "།ཝཱ་རཱ་ཎ་སཱི་ལ་སོགས་གནས་མཆོག་ཏུ།",
+          tibetan: "ཝཱ་རཱ་ཎ་སཱི་ལ་སོགས་གནས་མཆོག་ཏུ།",
           phonetics: "wa ra / na si / la sok / né tchok tou",
           translation: "à Varanasi et en d'autres lieux suprêmes,",
           words: [
@@ -1091,7 +1091,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-9-3",
           type: "normal",
-          tibetan: "།ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་ནས་གདུལ་བྱ་རྣམས།",
+          tibetan: "ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་ནས་གདུལ་བྱ་རྣམས།",
           phonetics: "tcheu ki / k'or lo / kor né / dul dja nam",
           translation: "vous avez fait tourner la roue du Dharma,",
           words: [
@@ -1116,7 +1116,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-9-4",
           type: "normal",
-          tibetan: "།ཐེག་པ་གསུམ་ལ་འགོད་མཛད་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཐེག་པ་གསུམ་ལ་འགོད་མཛད་ཕྱག་འཚལ་ལོ།",
           phonetics: "t'ek pa / soum la / gueu dzé / tchak tsel lo",
           translation:
             "établissant ainsi les êtres à discipliner dans les trois véhicules. À vous qui avez accompli cet acte, je rends hommage.",
@@ -1148,7 +1148,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-10-1",
           type: "normal",
-          tibetan: "།གཞན་གྱི་རྒོལ་བ་ངན་པ་ཚར་བཅད་ཕྱིར།",
+          tibetan: "གཞན་གྱི་རྒོལ་བ་ངན་པ་ཚར་བཅད་ཕྱིར།",
           phonetics: "shen gui / gueul wa / ngen pa / tsar tché tchir",
           translation: "Afin de vaincre les funestes contradicteurs,",
           words: [
@@ -1169,7 +1169,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-10-2",
           type: "normal",
-          tibetan: "།མུ་སྟེགས་སྟོན་པ་དྲུག་དང་ལྷ་སྦྱིན་སོགས།",
+          tibetan: "མུ་སྟེགས་སྟོན་པ་དྲུག་དང་ལྷ་སྦྱིན་སོགས།",
           phonetics: "mou tek / teun pa / drouk dang / lh'a djin so",
           translation:
             "Vous avez discipliné les six enseignants tirtikas, Devadatta et les autres,",
@@ -1199,7 +1199,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-10-3",
           type: "normal",
-          tibetan: "།འཁོར་མོ་འཇིག་གི་ཡུལ་དུ་བདུད་རྣམས་བཏུལ།",
+          tibetan: "འཁོར་མོ་འཇིག་གི་ཡུལ་དུ་བདུད་རྣམས་བཏུལ།",
           phonetics: "k'or mo / djik gui / yul dou / du nam tul",
           translation: "et avez dompté les maras dans la région de Varanasi.",
           words: [
@@ -1229,7 +1229,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-10-4",
           type: "normal",
-          tibetan: "།ཐུབ་པ་གཡུལ་ལས་རྒྱལ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "ཐུབ་པ་གཡུལ་ལས་རྒྱལ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "t'oup pa / yul lé / gyal la / tchak tsel lo",
           translation: "À vous Muni le victorieux, je rends hommage.",
           words: [
@@ -1282,7 +1282,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-11-2",
           type: "normal",
-          tibetan: "།མཉན་དུ་ཡོད་པར་ཆོ་འཕྲུལ་ཆེན་པོ་བསྟན།",
+          tibetan: "མཉན་དུ་ཡོད་པར་ཆོ་འཕྲུལ་ཆེན་པོ་བསྟན།",
           phonetics: "nyen dou / yeu par / tcho trul / tchen po ten",
           translation: "vous avez manifesté de grands prodiges à Shravasti.",
           words: [
@@ -1307,7 +1307,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-11-3",
           type: "normal",
-          tibetan: "།ལྷ་མི་འགྲོ་བ་ཀུན་གྱིས་རབ་མཆོད་པ།",
+          tibetan: "ལྷ་མི་འགྲོ་བ་ཀུན་གྱིས་རབ་མཆོད་པ།",
           phonetics: "Ih'a mi / dro wa / kun gui / rap tcheu pa",
           translation:
             "Les dieux, les humains et tous les êtres vous ont honoré d'offrandes.",
@@ -1337,7 +1337,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-11-4",
           type: "normal",
-          tibetan: "།བསྟན་པ་རྒྱས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "བསྟན་པ་རྒྱས་པར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "ten pa / gyé par / dzé la / tchak tsel lo",
           translation:
             "Vous avez fait fleurir l'enseignement. À vous qui avez accompli cet acte, je rends hommage.",
@@ -1373,7 +1373,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-12-1",
           type: "normal",
-          tibetan: "།ལེ་ལོ་ཅན་རྣམས་མྱུར་དུ་བསྐུལ་བྱའི་ཕྱིར།",
+          tibetan: "ལེ་ལོ་ཅན་རྣམས་མྱུར་དུ་བསྐུལ་བྱའི་ཕྱིར།",
           phonetics: "lé lo / tchen nam / nyour dou / kul djai tchir",
           translation:
             "Afin d'inciter promptement les paresseux [à la pratique],",
@@ -1398,7 +1398,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-12-2",
           type: "normal",
-          tibetan: "།རྩྭ་མཆོག་གྲོང་གི་ས་གཞི་གཙང་མ་རུ།",
+          tibetan: "རྩྭ་མཆོག་གྲོང་གི་ས་གཞི་གཙང་མ་རུ།",
           phonetics: "tsa tchok / drong gui / sa shi / tsang ma rou",
           translation: "Vers les terres immaculées de la ville de Kushinagar",
           words: [
@@ -1422,7 +1422,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-12-3",
           type: "normal",
-          tibetan: "།འཆི་མེད་རྡོ་རྗེ་ལྟ་བུའི་སྐུ་གཤེགས་ནས།",
+          tibetan: "འཆི་མེད་རྡོ་རྗེ་ལྟ་བུའི་སྐུ་གཤེགས་ནས།",
           phonetics: "tchi mé / dor djé / ta bu / kou chék né",
           translation: "votre corps immortel semblable au vajra s'en est allé,",
           words: [
@@ -1447,7 +1447,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-12-4",
           type: "normal",
-          tibetan: "།མྱ་ངན་འདའ་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "མྱ་ངན་འདའ་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "nya ngen / da war / dzé la / tchak tsel lo",
           translation:
             "vous êtes passé en l'au-delà de la souffrance. À vous qui avez accompli cet acte, je rends hommage.",
@@ -1483,7 +1483,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-13-1",
           type: "normal",
-          tibetan: "།ཡང་དག་ཉིད་དུ་འཇིག་པ་མེད་ཕྱིར་དང༌།",
+          tibetan: "ཡང་དག་ཉིད་དུ་འཇིག་པ་མེད་ཕྱིར་དང༌།",
           phonetics: "yang dak / nyi dou / djik pa / mé tchir dang",
           translation: "Comme en vérité la destruction n'existe pas,",
           words: [
@@ -1507,7 +1507,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-13-2",
           type: "normal",
-          tibetan: "།མ་འོངས་སེམས་ཅན་བསོད་ནམས་ཐོབ་བྱའི་ཕྱིར།",
+          tibetan: "མ་འོངས་སེམས་ཅན་བསོད་ནམས་ཐོབ་བྱའི་ཕྱིར།",
           phonetics: "ma ong / sem tchen / seu nam / top djai tchir",
           translation:
             "afin que les êtres sensibles des temps futurs puissent accumuler du mérite,",
@@ -1537,7 +1537,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-13-3",
           type: "normal",
-          tibetan: "།དེ་ཉིད་དུ་ནི་རིང་བསྲེལ་མང་སྤྲུལ་ནས།",
+          tibetan: "དེ་ཉིད་དུ་ནི་རིང་བསྲེལ་མང་སྤྲུལ་ནས།",
           phonetics: "dé nyi / dou ni / ring sel / mang trul né",
           translation: "vous avez manifesté de nombreuses reliques",
           words: [
@@ -1566,7 +1566,7 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-13-4",
           type: "normal",
-          tibetan: "།སྐུ་གདུང་ཆ་བརྒྱད་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "སྐུ་གདུང་ཆ་བརྒྱད་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "kou doung / tcha gyé / dzé la / tchak tsel lo",
           translation:
             "qui se trouvèrent réparties dans huit stoupas. À vous qui avez accompli cet acte, je rends hommage.",

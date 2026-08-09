@@ -391,7 +391,7 @@ export const louangeManjushri: PracticeText = {
         {
           id: "mj-9",
           type: "normal",
-          tibetan: "།བརྩེ་ལྡན་ཁྱེད་ཀྱི་མཁྱེན་རབ་འོད་ཟེར་གྱིས།",
+          tibetan: "བརྩེ་ལྡན་ཁྱེད་ཀྱི་མཁྱེན་རབ་འོད་ཟེར་གྱིས།",
           phonetics: "tsé den / kyé kyi / kyen rab / eu zer gyi",
           translation:
             "Par le rayonnement lumineux de votre parfaite sagesse et de votre amour,",
@@ -421,7 +421,7 @@ export const louangeManjushri: PracticeText = {
         {
           id: "mj-10",
           type: "normal",
-          tibetan: "།བདག་བློའི་གཏི་མུག་མུན་པ་རབ་གསལ་ནས།",
+          tibetan: "བདག་བློའི་གཏི་མུག་མུན་པ་རབ་གསལ་ནས།",
           phonetics: "dak leu / ti mouk / mun pa / rab sel né",
           translation:
             "Ayant complètement dissipé les ténèbres de l'ignorance de mon esprit,",
@@ -451,7 +451,7 @@ export const louangeManjushri: PracticeText = {
         {
           id: "mj-11",
           type: "normal",
-          tibetan: "།བཀའ་དང་བསྟན་བཅོས་གཞུང་ལུགས་རྟོགས་པ་ཡི།",
+          tibetan: "བཀའ་དང་བསྟན་བཅོས་གཞུང་ལུགས་རྟོགས་པ་ཡི།",
           phonetics: "ka tang / ten tcheu / choung louk / tok pa yi",
           translation:
             "La compréhension des enseignements du bouddha, des commentaires et des différentes manières d'expliquer.",
@@ -481,7 +481,7 @@ export const louangeManjushri: PracticeText = {
         {
           id: "mj-12",
           type: "normal",
-          tibetan: "།བློ་གྲོས་སྤོབས་པའི་སྣང་བ་སྩལ་དུ་གསོལ།",
+          tibetan: "བློ་གྲོས་སྤོབས་པའི་སྣང་བ་སྩལ་དུ་གསོལ།",
           phonetics: "lo dreu / pop pai / nang oua / tsel tou seul",
           translation:
             "Accordez-m'en la clarté de l'intelligence et de l'éloquence.",

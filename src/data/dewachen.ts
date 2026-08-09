@@ -47,7 +47,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-2",
           type: "normal",
-          tibetan: "།གཙོ་འཁོར་ཐུགས་ཀའི་འོད་ཟེར་གྱིས།",
+          tibetan: "གཙོ་འཁོར་ཐུགས་ཀའི་འོད་ཟེར་གྱིས།",
           phonetics: "tso k'or / t'ouk ké / eu zer gyi",
           translation:
             "et son entourage. De leur cœur, sont émanés des rayonnements de lumière",
@@ -72,7 +72,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-3",
           type: "normal",
-          tibetan: "།དམིགས་ཡུལ་གཙོར་བྱས་བར་དོ་ཡི།",
+          tibetan: "དམིགས་ཡུལ་གཙོར་བྱས་བར་དོ་ཡི།",
           phonetics: "mik yul / tsor djé / bar do yi",
           translation: "Vers les personnes confiées à leur attention.",
           words: [
@@ -96,7 +96,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-4",
           type: "normal",
-          tibetan: "།འགྲོ་རྣམས་བསྡུས་ཤིང་སྡིག་སྒྲིབ་སྦྱངས།",
+          tibetan: "འགྲོ་རྣམས་བསྡུས་ཤིང་སྡིག་སྒྲིབ་སྦྱངས།",
           phonetics: "dro nam / du ching / dik drip djang",
           translation:
             "purifient les actes négatifs et les voiles des êtres du bardo rassemblés",
@@ -119,7 +119,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-5",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་སེམས་དཔའི་སྐུ་རུ་གྱུར།",
+          tibetan: "ཐམས་ཅད་སེམས་དཔའི་སྐུ་རུ་གྱུར།",
           phonetics: "t'am tché / sem pé / kou rou gyour",
           translation: "Ils obtiennent tous un corps de bodhisattva.",
           words: [
@@ -144,7 +144,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-6",
           type: "normal",
-          tibetan: "།བདེ་བ་ཅན་དུ་ཁྲིད་མཛད་ནས།",
+          tibetan: "བདེ་བ་ཅན་དུ་ཁྲིད་མཛད་ནས།",
           phonetics: "déwatchen tou / t'i / dzé né",
           translation: "Après avoir été conduits en Déouatchène,",
           words: [
@@ -164,7 +164,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-7",
           type: "normal",
-          tibetan: "།ཕྱིར་མི་ལྡོག་པའི་སར་འཁོད་གྱུར།",
+          tibetan: "ཕྱིར་མི་ལྡོག་པའི་སར་འཁོད་གྱུར།",
           phonetics: "tchir mi / dok pé / sar k'eu gyour",
           translation: "Ils s'établissent dans la terre de non-retour.",
           words: [
@@ -495,7 +495,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-18",
           type: "normal",
-          tibetan: "།ཕྱོགས་བཅུའི་སངས་རྒྱས་བྱང་སེམས་ཐམས་ཅད་ཀྱིས༔",
+          tibetan: "ཕྱོགས་བཅུའི་སངས་རྒྱས་བྱང་སེམས་ཐམས་ཅད་ཀྱིས༔",
           phonetics: "tchok tchu / sangyé / djang sem / t'am tché kyi",
           translation: "Tous les Bouddhas et bodhisattvas des dix directions,",
           words: [
@@ -589,7 +589,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-21",
           type: "normal",
-          tibetan: "།དཀའ་བ་སྤྱད་པ་མེད་པར་ཡང༌།",
+          tibetan: "དཀའ་བ་སྤྱད་པ་མེད་པར་ཡང༌།",
           phonetics: "ka oua / tché pa / mé par yang",
           translation: "Sans rencontrer de difficultés,",
           words: [
@@ -637,7 +637,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-23",
           type: "normal",
-          tibetan: "།དེ་དག་སངས་རྒྱས་མྱུར་ཐོབ་ཤོག",
+          tibetan: "དེ་དག་སངས་རྒྱས་མྱུར་ཐོབ་ཤོག",
           phonetics: "té tak / sangyé / nyour t'op chok",
           translation: "Obtenir rapidement l'état de bouddha.",
           words: [
@@ -667,7 +667,7 @@ export const dewachen: PracticeText = {
         {
           id: "dw-instr-2",
           type: "instructions",
-          tibetan: "།དེ་ལྟར་བགྱིས་པས་དགེ་ཚོགས་ཐམས་ཅད་ལ་བསྔོ་བའི་འདུན་པ་དང་བཅས།",
+          tibetan: "དེ་ལྟར་བགྱིས་པས་དགེ་ཚོགས་ཐམས་ཅད་ལ་བསྔོ་བའི་འདུན་པ་དང་བཅས།",
           phonetics: "",
           translation:
             "Après ceci, reverser toutes les vertus avec aspiration.",

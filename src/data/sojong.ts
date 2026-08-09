@@ -96,7 +96,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-1-2",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་བར་དུ་བདག་ནི་སྐྱབས་སུ་མཆི།",
+          tibetan: "བྱང་ཆུབ་བར་དུ་བདག་ནི་སྐྱབས་སུ་མཆི།",
           phonetics: "djang tchoup / bar dou / dak ni / kyap sou tchi",
           translation: "je prends refuge jusqu'à l'éveil.",
           words: [
@@ -117,7 +117,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-1-3",
           type: "normal",
-          tibetan: "།བདག་གིས་སྦྱིན་སོགས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
+          tibetan: "བདག་གིས་སྦྱིན་སོགས་བགྱིས་པའི་བསོད་ནམས་ཀྱིས།",
           phonetics: "dak gui / djin so / gyi pai / seu nam ki",
           translation:
             "Par le mérite issu de ma pratique de la générosité et des autres [paramitas],",
@@ -143,7 +143,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-1-4",
           type: "normal",
-          tibetan: "།འགྲོ་ལ་ཕན་ཕྱིར་སངས་རྒྱས་འགྲུབ་པར་ཤོག",
+          tibetan: "འགྲོ་ལ་ཕན་ཕྱིར་སངས་རྒྱས་འགྲུབ་པར་ཤོག",
           phonetics: "dro la / p'en tchir / sang gyé / droup par chok",
           translation:
             "puisse l'état de bouddha s'accomplir pour le bien des êtres.",
@@ -353,7 +353,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-3-2",
           type: "normal",
-          tibetan: "།གསེག་མ་ལ་སོགས་མེད་པ་དང༌།",
+          tibetan: "གསེག་མ་ལ་སོགས་མེད་པ་དང༌།",
           phonetics: "sek ma / la sok / mé pa dang",
           translation: "soit dépourvu de cailloux et d'autres [imperfections]",
           words: [
@@ -377,7 +377,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-3-3",
           type: "normal",
-          tibetan: "།ལག་མཐིལ་ལྟར་མཉམ་བཻ་ཌཱུརྱའི།",
+          tibetan: "ལག་མཐིལ་ལྟར་མཉམ་བཻ་ཌཱུརྱའི།",
           phonetics: "lak t'il / tar nyam / bé dou ryai",
           translation: "qu'il soit lisse comme la paume de la main,",
           words: [
@@ -396,7 +396,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-3-4",
           type: "normal",
-          tibetan: "།རང་བཞིན་འཇམ་པོར་གནས་གྱུར་ཅིག",
+          tibetan: "རང་བཞིན་འཇམ་པོར་གནས་གྱུར་ཅིག",
           phonetics: "rang chin / djam por / né gyour tchik",
           translation: "de la nature de l'aigue-marine, et doux.",
           words: [
@@ -428,7 +428,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-1",
           type: "normal",
-          tibetan: "།མ་ལུས་སེམས་ཅན་ཀུན་གྱི་མགོན་གྱུར་ཅིང༌།",
+          tibetan: "མ་ལུས་སེམས་ཅན་ཀུན་གྱི་མགོན་གྱུར་ཅིང༌།",
           phonetics: "ma lu / sem tchen / kun gui / gueun gyour tching",
           translation:
             "Être éminent qui êtes le protecteur de tous les êtres sans exception",
@@ -458,7 +458,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-2",
           type: "normal",
-          tibetan: "།བདུད་སྡེ་དཔུང་བཅས་མི་བཟད་འཇོམས་མཛད་ལྷ།",
+          tibetan: "བདུད་སྡེ་དཔུང་བཅས་མི་བཟད་འཇོམས་མཛད་ལྷ།",
           phonetics: "du dé / poung tché / mi zé / djom dzé lh'a",
           translation: "et qui défaites l'intolérable Mara et ses troupes,",
           words: [
@@ -488,7 +488,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-3",
           type: "normal",
-          tibetan: "།དངོས་རྣམས་མ་ལུས་ཇི་བཞིན་མཁྱེན་གྱུར་པའི།",
+          tibetan: "དངོས་རྣམས་མ་ལུས་ཇི་བཞིན་མཁྱེན་གྱུར་པའི།",
           phonetics: "ngeu nam / ma lu / dji shin / k'yén gyour pai",
           translation: "vous connaissez toutes choses telles qu'elles sont.",
           words: [
@@ -547,7 +547,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-5",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདིར་ནི་བྱོན་པ་ལེགས།",
+          tibetan: "བཅོམ་ལྡན་འདིར་ནི་བྱོན་པ་ལེགས།",
           phonetics: "tchom den / dir ni / djeun pa lek",
           translation: "Bhagavan, il est excellent que vous soyez venu.",
           words: [
@@ -572,7 +572,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-6",
           type: "normal",
-          tibetan: "།བདག་ཅག་བསོད་ནམས་སྐལ་པར་ལྡན།",
+          tibetan: "བདག་ཅག་བསོད་ནམས་སྐལ་པར་ལྡན།",
           phonetics: "dak tchak / seu nam / kel war den",
           translation: "Nous avons du mérite et sommes fortunés.",
           words: [
@@ -597,7 +597,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-4-7",
           type: "normal",
-          tibetan: "།བདག་གི་མཆོད་ཡོན་བཞེས་སླད་དུ།",
+          tibetan: "བདག་གི་མཆོད་ཡོན་བཞེས་སླད་དུ།",
           phonetics: "dak gui / tcheu yeun / shé lé dou",
           translation: "Afin de recevoir mon offrande,",
           words: [
@@ -667,7 +667,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-2",
           type: "normal",
-          tibetan: "།ལྷ་རྣམས་ཀུན་གྱིས་ཁྲུས་གསོལ་ལྟར།",
+          tibetan: "ལྷ་རྣམས་ཀུན་གྱིས་ཁྲུས་གསོལ་ལྟར།",
           phonetics: "Ih'a nam / kun gui / tru seul tar",
           translation: "de même que tous les dieux vous ont donné le bain,",
           words: [
@@ -692,7 +692,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-3",
           type: "normal",
-          tibetan: "།ལྷ་ཡི་ཆུ་ནི་དག་པ་ཡིས།",
+          tibetan: "ལྷ་ཡི་ཆུ་ནི་དག་པ་ཡིས།",
           phonetics: "Ih'a yi / tchou ni / dak pa yi",
           translation: "de la même manière, je baigne votre corps",
           words: [
@@ -708,7 +708,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-4",
           type: "normal",
-          tibetan: "།དེ་བཞིན་བདག་གིས་སྐུ་ཁྲུས་གསོལ།",
+          tibetan: "དེ་བཞིན་བདག་གིས་སྐུ་ཁྲུས་གསོལ།",
           phonetics: "dé shin / dak gui / kou tru seul",
           translation: "avec un flot d'eau pure et divine.",
           words: [
@@ -728,7 +728,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-5",
           type: "normal",
-          tibetan: "།སྲབ་འཇམ་ཡང་པ་ལྷ་ཡི་གོས།",
+          tibetan: "སྲབ་འཇམ་ཡང་པ་ལྷ་ཡི་གོས།",
           phonetics: "sap djam / yang pa / lh'a yi geu",
           translation: "Ces étoffes divines, fines, douces et amples,",
           words: [
@@ -748,7 +748,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-6",
           type: "normal",
-          tibetan: "།མི་བསྐྱོད་རྡོ་རྗེའི་སྐུ་བརྙེས་ལ།",
+          tibetan: "མི་བསྐྱོད་རྡོ་རྗེའི་སྐུ་བརྙེས་ལ།",
           phonetics: "mi kyeu / dor djéï / kou nyé la",
           translation: "je les offre en pleine confiance",
           words: [
@@ -772,7 +772,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-7",
           type: "normal",
-          tibetan: "།མི་ཕྱེད་དད་པས་བདག་འབུལ་ན།",
+          tibetan: "མི་ཕྱེད་དད་པས་བདག་འབུལ་ན།",
           phonetics: "mi tché / dé pé / dak bul na",
           translation: "à ceux dotés d'un corps-vajra inébranlable.",
           words: [
@@ -792,7 +792,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-8",
           type: "normal",
-          tibetan: "།བདག་ཀྱང་རྡོ་རྗེའི་སྐུ་ཐོབ་ཤོག",
+          tibetan: "བདག་ཀྱང་རྡོ་རྗེའི་སྐུ་ཐོབ་ཤོག",
           phonetics: "dak kyang / dor djéï / kou top chok",
           translation: "Puissé-je moi aussi obtenir ce corps-vajra.",
           words: [
@@ -816,7 +816,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-9",
           type: "normal",
-          tibetan: "།དེ་ལས་གཞན་ཡང་མཆོད་པའི་ཚོགས།",
+          tibetan: "དེ་ལས་གཞན་ཡང་མཆོད་པའི་ཚོགས།",
           phonetics: "dé lé / shen yang / tcheu pai tsok",
           translation: "Entre autres offrandes,",
           words: [
@@ -840,7 +840,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-10",
           type: "normal",
-          tibetan: "།རོལ་མོ་དབྱངས་སྙན་ཡིད་འོང་ལྡན།",
+          tibetan: "རོལ་མོ་དབྱངས་སྙན་ཡིད་འོང་ལྡན།",
           phonetics: "reul mo / yang nyen / yi ong den",
           translation: "qu'apparaissent devant chacun",
           words: [
@@ -864,7 +864,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-11",
           type: "normal",
-          tibetan: "།སེམས་ཅན་སྡུག་བསྔལ་སིམ་བྱེད་པའི།",
+          tibetan: "སེམས་ཅན་སྡུག་བསྔལ་སིམ་བྱེད་པའི།",
           phonetics: "sem tchen / douk ngel / sim djé pai",
           translation:
             "des nuées de ravissantes musiques et de chants mélodieux",
@@ -889,7 +889,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-5-12",
           type: "normal",
-          tibetan: "།སྤྲིན་རྣམས་སོ་སོར་གནས་གྱུར་ཅིག",
+          tibetan: "སྤྲིན་རྣམས་སོ་སོར་གནས་གྱུར་ཅིག",
           phonetics: "trin nam / so sor / né gyour tchik",
           translation: "apaisant les souffrances des êtres.",
           words: [
@@ -939,7 +939,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-v-3",
           type: "no-translation",
-          tibetan: "།དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "keun tchok / soum la / tchak tsel lo",
           translation: "",
           words: [],
@@ -947,7 +947,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-v-4",
           type: "no-translation",
-          tibetan: "།ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
+          tibetan: "ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
           phonetics: "NAMO / MAN JOU SHRI YÉ",
           translation: "",
           words: [],
@@ -1571,7 +1571,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-v-32",
           type: "no-translation",
-          tibetan: "།དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "keun tchok / soum la / tchak tsel lo",
           translation: "",
           words: [],
@@ -1579,7 +1579,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-v-33",
           type: "no-translation",
-          tibetan: "།ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
+          tibetan: "ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
           phonetics: "NAMO / MAN JOU SHRI YÉ",
           translation: "",
           words: [],
@@ -2077,7 +2077,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-e-26",
           type: "no-translation",
-          tibetan: "།དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "keun tchok / soum la / tchak tsel lo",
           translation: "",
           words: [],
@@ -2085,7 +2085,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-e-27",
           type: "no-translation",
-          tibetan: "།ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
+          tibetan: "ན་མོ་མཉྫུ་ཤྲི་ཡེ།",
           phonetics: "NAMO / MAN JOU SHRI YÉ",
           translation: "",
           words: [],
@@ -2484,7 +2484,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-10",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་རྣམ་པར་དག་དང་ལྡན།",
+          tibetan: "ཚུལ་ཁྲིམས་རྣམ་པར་དག་དང་ལྡན།",
           phonetics: "tsul trim / nam par / dak dang den",
           translation:
             "possédant la conduite rafraîchissante complètement pure,",
@@ -2509,7 +2509,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-11",
           type: "normal",
-          tibetan: "།རློམ་སེམས་མེད་པའི་ཚུལ་ཁྲིམས་ཀྱིས།",
+          tibetan: "རློམ་སེམས་མེད་པའི་ཚུལ་ཁྲིམས་ཀྱིས།",
           phonetics: "lom sem / mé pai / tsul trim ki",
           translation:
             "au moyen de la conduite rafraîchissante sans exagération,",
@@ -2530,7 +2530,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-12",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་ཕ་རོལ་ཕྱིན་རྫོགས་ཤོག",
+          tibetan: "ཚུལ་ཁྲིམས་ཕ་རོལ་ཕྱིན་རྫོགས་ཤོག",
           phonetics: "tsul trim / p'a reul / tchin dzok chok",
           translation:
             "puissions-nous parfaire la paramita de la conduite rafraîchissante.",
@@ -2555,7 +2555,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-13",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
+          tibetan: "རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
           phonetics: "gyal wa / kun gui / djé sou / lop gyour té",
           translation: "M'exerçant à la suite de tous les victorieux,",
           words: [
@@ -2580,7 +2580,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-14",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང་།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང་།",
           phonetics: "zang po / tcheu pa / yong sou / dzok djé tching",
           translation: "puissé-je parfaire la conduite excellente.",
           words: [
@@ -2609,7 +2609,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-15",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་སྤྱོད་པ་དྲི་མེད་ཡང་དག་པ།",
+          tibetan: "ཚུལ་ཁྲིམས་སྤྱོད་པ་དྲི་མེད་ཡང་དག་པ།",
           phonetics: "tsul trim / tcheu pa / dri mé / yang dak pa",
           translation: "la conduite rafraîchissante, immaculée et authentique,",
           words: [
@@ -2638,7 +2638,7 @@ export const sojong: PracticeText = {
         {
           id: "sj-pa-16",
           type: "normal",
-          tibetan: "།རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
+          tibetan: "རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
           phonetics: "tak tou / ma nyam / kyeun mé / tcheu par chok",
           translation:
             "puissé-je continuellement l'observer sans altérations ni défauts.",
@@ -2906,7 +2906,7 @@ export const sojong: PracticeText = {
         {
           id: "stj-1-7",
           type: "normal",
-          tibetan: "།དེ་བཞིན་གཤེགས་པ་དེ་ནི་བསོད་ནམས་དག་གི་རྒྱུ་མཐུན་པ།",
+          tibetan: "དེ་བཞིན་གཤེགས་པ་དེ་ནི་བསོད་ནམས་དག་གི་རྒྱུ་མཐུན་པ།",
           phonetics:
             "dé shin chék pa / dé ni / seu nam / dak gui / gyou t'un pa",
           translation:
@@ -3782,7 +3782,7 @@ export const sojong: PracticeText = {
         {
           id: "stj-2-1",
           type: "normal",
-          tibetan: "།དམ་པའི་ཆོས་ནི་ཐོག་མར་དགེ་བ།",
+          tibetan: "དམ་པའི་ཆོས་ནི་ཐོག་མར་དགེ་བ།",
           phonetics: "dam pai / tcheu ni / t'ok mar / gué wa",
           translation: "Le Dharma suprême est vertueux au début,",
           words: [

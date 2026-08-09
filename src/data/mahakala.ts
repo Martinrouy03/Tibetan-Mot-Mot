@@ -23,7 +23,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-1R",
           type: "normal",
-          tibetan: "།སྟོང་པའི་ངང་ལས་ཡེ་ཤེས་ཀྱི།",
+          tibetan: "སྟོང་པའི་ངང་ལས་ཡེ་ཤེས་ཀྱི།",
           phonetics: "tong pé ngang lé yéché kyi",
           translation: "",
           words: [],
@@ -31,7 +31,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-2L",
           type: "normal",
-          tibetan: "།རླུང་མེ་ཐོད་སྒྱེད་སྟེང་ཉིད་དུ།",
+          tibetan: "རླུང་མེ་ཐོད་སྒྱེད་སྟེང་ཉིད་དུ།",
           phonetics: "loung mé t'ö gyé teng nyi dou",
           translation: "",
           words: [],
@@ -39,7 +39,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-2R",
           type: "normal",
-          tibetan: "།ཐོད་པ་ཤ་ལྔ་བདུད་རྩི་ལྔ།",
+          tibetan: "ཐོད་པ་ཤ་ལྔ་བདུད་རྩི་ལྔ།",
           phonetics: "t'öpa cha nga dü tsi nga",
           translation: "",
           words: [],
@@ -47,7 +47,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-3L",
           type: "normal",
-          tibetan: "།རླུང་མེས་བསྐོལ་བའི་དམ་ཚིག་པའི།",
+          tibetan: "རླུང་མེས་བསྐོལ་བའི་དམ་ཚིག་པའི།",
           phonetics: "loung mé kol wé dam tsik pé",
           translation: "",
           words: [],
@@ -55,7 +55,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-3R",
           type: "normal",
-          tibetan: "།བདུད་རྩི་རབ་འབར་འོད་ཉིད་དེས།",
+          tibetan: "བདུད་རྩི་རབ་འབར་འོད་ཉིད་དེས།",
           phonetics: "dü tsi rab bar ö nyi dé",
           translation: "",
           words: [],
@@ -63,7 +63,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-4L",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་བདུད་རྩི་སྤྱན་དྲངས་ནས།",
+          tibetan: "ཡེ་ཤེས་བདུད་རྩི་སྤྱན་དྲངས་ནས།",
           phonetics: "yéché dü tsi tchen drang né",
           translation: "",
           words: [],
@@ -71,7 +71,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-4R",
           type: "normal",
-          tibetan: "།དབྱེར་མེད་ཨོཾ་དང་ཨཱཿཧཱུྃ་གིས།",
+          tibetan: "དབྱེར་མེད་ཨོཾ་དང་ཨཱཿཧཱུྃ་གིས།",
           phonetics: "yer mé om dang ah houng gi",
           translation: "",
           words: [],
@@ -79,7 +79,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-5L",
           type: "normal",
-          tibetan: "།བྱིན་བརླབས་དྲི་རོ་མཚུངས་མེད་གྱུར།",
+          tibetan: "བྱིན་བརླབས་དྲི་རོ་མཚུངས་མེད་གྱུར།",
           phonetics: "djin lap dri ro tsoung mé gyour",
           translation: "",
           words: [],
@@ -87,7 +87,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-5R",
           type: "normal",
-          tibetan: "།རྩ་བརྒྱུད་བླ་མ་ཡི་དམ་ལྷ་ཚོགས་དང་།",
+          tibetan: "རྩ་བརྒྱུད་བླ་མ་ཡི་དམ་ལྷ་ཚོགས་དང་།",
           phonetics: "tsa gyü lama yi dam lha tsok dang",
           translation: "",
           words: [],
@@ -95,7 +95,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-6L",
           type: "normal",
-          tibetan: "།དཔའ་བོ་མཁའ་འགྲོ་ཆོས་སྐྱོང་ཚོགས་སྤྱན་དྲངས།",
+          tibetan: "དཔའ་བོ་མཁའ་འགྲོ་ཆོས་སྐྱོང་ཚོགས་སྤྱན་དྲངས།",
           phonetics: "pawo k'andro tcheu kyong tsok tchen drang",
           translation: "",
           words: [],
@@ -103,7 +103,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-6R",
           type: "normal",
-          tibetan: "།མདུན་གྱི་ནམ་མཁར་སྤྲིན་བཞིན་གཏིབས་པར་གྱུར།",
+          tibetan: "མདུན་གྱི་ནམ་མཁར་སྤྲིན་བཞིན་གཏིབས་པར་གྱུར།",
           phonetics: "dün gyi namk'ar trin chin tip par gyour",
           translation: "",
           words: [],
@@ -111,7 +111,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-7L",
           type: "normal",
-          tibetan: "།ཡི་དམ་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
+          tibetan: "ཡི་དམ་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
           phonetics: "yi dam kün dü tsa wé lama tchö",
           translation: "",
           words: [],
@@ -119,7 +119,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-7R",
           type: "normal",
-          tibetan: "།དཀོན་མཆོག་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
+          tibetan: "དཀོན་མཆོག་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
           phonetics: "könchok kün dü tsa wé lama tchö",
           translation: "",
           words: [],
@@ -127,7 +127,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-8L",
           type: "normal",
-          tibetan: "།ཆོས་སྐྱོང་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
+          tibetan: "ཆོས་སྐྱོང་ཀུན་འདུས་རྩ་བའི་བླ་མ་མཆོད།",
           phonetics: "tcheu kyong kün dü tsa wé lama tchö",
           translation: "",
           words: [],
@@ -135,7 +135,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-8R",
           type: "normal",
-          tibetan: "།ཁྱད་པར་ཆོས་སྐྱོང་བེར་གྱི་ན་བཟའ་ཅན།",
+          tibetan: "ཁྱད་པར་ཆོས་སྐྱོང་བེར་གྱི་ན་བཟའ་ཅན།",
           phonetics: "k'yépar tcheu kyong ber gyi na saw tchen",
           translation: "",
           words: [],
@@ -143,7 +143,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-9L",
           type: "normal",
-          tibetan: "།དཔལ་ལྡན་ལྷ་མོ་རང་བྱུང་རྒྱལ་མོ་ནི།",
+          tibetan: "དཔལ་ལྡན་ལྷ་མོ་རང་བྱུང་རྒྱལ་མོ་ནི།",
           phonetics: "pelden lhamo rang djung gyalmo ni",
           translation: "",
           words: [],
@@ -151,7 +151,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-9R",
           type: "normal",
-          tibetan: "།མཆེད་ལྕམ་འཁོར་དང་བཅས་པ་མཆོད་པར་བགྱི།",
+          tibetan: "མཆེད་ལྕམ་འཁོར་དང་བཅས་པ་མཆོད་པར་བགྱི།",
           phonetics: "tchécham k'or dang tchépa tchöpar gyi",
           translation: "",
           words: [],
@@ -167,7 +167,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-10R",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་ལེགས་པ་སྲིན་མགོན་ཞིང་སྐྱོང་དང་།",
+          tibetan: "རྡོ་རྗེ་ལེགས་པ་སྲིན་མགོན་ཞིང་སྐྱོང་དང་།",
           phonetics: "dordjé lekpa sin gön shing kyong dang",
           translation: "",
           words: [],
@@ -183,7 +183,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-11R",
           type: "normal",
-          tibetan: "།ཀརྨ་པ་ཡི་བསྟན་པ་སྐྱོང་རྣམས་ལ།",
+          tibetan: "ཀརྨ་པ་ཡི་བསྟན་པ་སྐྱོང་རྣམས་ལ།",
           phonetics: "karmapa yi tenpa kyong nam la",
           translation: "",
           words: [],
@@ -199,7 +199,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-12R",
           type: "normal",
-          tibetan: "།གཏོར་མ་རྩ་བརྒྱད་པཉྩ་ཨ་མྲྀ་ཏ།",
+          tibetan: "གཏོར་མ་རྩ་བརྒྱད་པཉྩ་ཨ་མྲྀ་ཏ།",
           phonetics: "torma tsa gyé pantcha amrita",
           translation: "",
           words: [],
@@ -215,7 +215,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-13R",
           type: "normal",
-          tibetan: "།འདོད་ཡོན་ལྔ་དང་གསང་བའི་མཆོད་པ་དང་།",
+          tibetan: "འདོད་ཡོན་ལྔ་དང་གསང་བའི་མཆོད་པ་དང་།",
           phonetics: "dö yön nga dang sang wé tchöpa dang",
           translation: "",
           words: [],
@@ -223,7 +223,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-14L",
           type: "normal",
-          tibetan: "།དེ་ཁོ་ན་ཡི་ཀུན་བཟང་མཆོད་པས་མཆོད།",
+          tibetan: "དེ་ཁོ་ན་ཡི་ཀུན་བཟང་མཆོད་པས་མཆོད།",
           phonetics: "dé kho na yi künsang tchöpé tchö",
           translation: "",
           words: [],
@@ -231,7 +231,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-14R",
           type: "normal",
-          tibetan: "།ཁྱོད་ཀྱི་སྐྱོན་དག་ཡོན་ཏན་རྫོགས་པ་དེའི།",
+          tibetan: "ཁྱོད་ཀྱི་སྐྱོན་དག་ཡོན་ཏན་རྫོགས་པ་དེའི།",
           phonetics: "kyö kyi kyön dak yönten dzokpa dé",
           translation: "",
           words: [],
@@ -239,7 +239,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-15L",
           type: "normal",
-          tibetan: "།གནས་ཚུལ་ཇི་བཞིན་རྟོགས་པའི་སྒོ་གསུམ་གྱི།",
+          tibetan: "གནས་ཚུལ་ཇི་བཞིན་རྟོགས་པའི་སྒོ་གསུམ་གྱི།",
           phonetics: "né tsoul dji shin tokpé go soum gyi",
           translation: "",
           words: [],
@@ -247,7 +247,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-15R",
           type: "normal",
-          tibetan: "།བསྟོད་པ་མ་ལུས་པ་ཡིས་བསྟོད་པར་བགྱི།",
+          tibetan: "བསྟོད་པ་མ་ལུས་པ་ཡིས་བསྟོད་པར་བགྱི།",
           phonetics: "töpa ma lüpa yi töpar gyi",
           translation: "",
           words: [],
@@ -255,7 +255,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-16L",
           type: "normal",
-          tibetan: "།ཁྱོད་ལ་འདོད་དོན་གསོལ་བ་བཏབ་པ་ནི།",
+          tibetan: "ཁྱོད་ལ་འདོད་དོན་གསོལ་བ་བཏབ་པ་ནི།",
           phonetics: "kyö la dö dön solwa tab pa ni",
           translation: "",
           words: [],
@@ -263,7 +263,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-16R",
           type: "normal",
-          tibetan: "།བདག་སོགས་ཀུན་ལ་མཆོག་དང་ཐུན་མོང་གི",
+          tibetan: "བདག་སོགས་ཀུན་ལ་མཆོག་དང་ཐུན་མོང་གི",
           phonetics: "dak sok kün la tchok dang t'ün mong gi",
           translation: "",
           words: [],
@@ -271,7 +271,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-17L",
           type: "normal",
-          tibetan: "།དངོས་གྲུབ་སྟན་ཐོག་འདི་ལ་སྩོལ་བ་དང་།",
+          tibetan: "དངོས་གྲུབ་སྟན་ཐོག་འདི་ལ་སྩོལ་བ་དང་།",
           phonetics: "ngödrub ten tok di la tsol wa dang",
           translation: "",
           words: [],
@@ -279,7 +279,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-17R",
           type: "normal",
-          tibetan: "།ཁྱད་པར་ཚེ་རིང་ནད་མེད་དཔལ་འབྱོར་རྒྱས།",
+          tibetan: "ཁྱད་པར་ཚེ་རིང་ནད་མེད་དཔལ་འབྱོར་རྒྱས།",
           phonetics: "k'yépar tsé ring né mé paljor gyé",
           translation: "",
           words: [],
@@ -287,7 +287,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-18L",
           type: "normal",
-          tibetan: "།ཡིད་ལ་བསམ་ཚད་སྐད་ཅིག་ཙམ་ཉིད་ལ།",
+          tibetan: "ཡིད་ལ་བསམ་ཚད་སྐད་ཅིག་ཙམ་ཉིད་ལ།",
           phonetics: "yi la sam tché ké chik tsam nyi la",
           translation: "",
           words: [],
@@ -295,7 +295,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-18R",
           type: "normal",
-          tibetan: "།གྲུབ་ནས་ཀརྨ་པ་ཡི་བཞེད་པ་ཀུན།",
+          tibetan: "གྲུབ་ནས་ཀརྨ་པ་ཡི་བཞེད་པ་ཀུན།",
           phonetics: "drub né karmapa yi zhépa kün",
           translation: "",
           words: [],
@@ -303,7 +303,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-19L",
           type: "normal",
-          tibetan: "།བདག་གིས་མ་ལུས་མྱུར་དུ་འགྲུབ་པ་དང་།",
+          tibetan: "བདག་གིས་མ་ལུས་མྱུར་དུ་འགྲུབ་པ་དང་།",
           phonetics: "dak gi ma lü nyour dou drubpa dang",
           translation: "",
           words: [],
@@ -311,7 +311,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-19R",
           type: "normal",
-          tibetan: "།ཀརྨ་པ་ཡི་བསྟན་ལ་གནོད་བྱེད་རྣམས།",
+          tibetan: "ཀརྨ་པ་ཡི་བསྟན་ལ་གནོད་བྱེད་རྣམས།",
           phonetics: "karmapa yi ten la nö djé nam",
           translation: "",
           words: [],
@@ -319,7 +319,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-20L",
           type: "normal",
-          tibetan: "།བདག་གིས་ཐལ་བ་བཞིན་དུ་རློག་པ་ཡི།",
+          tibetan: "བདག་གིས་ཐལ་བ་བཞིན་དུ་རློག་པ་ཡི།",
           phonetics: "dak gi t'alba shindou lokpa yi",
           translation: "",
           words: [],
@@ -327,7 +327,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-20R",
           type: "normal",
-          tibetan: "།ནུས་པ་ད་ལྟ་ཉིད་དུ་སྩལ་དུ་གསོལ།",
+          tibetan: "ནུས་པ་ད་ལྟ་ཉིད་དུ་སྩལ་དུ་གསོལ།",
           phonetics: "nüpa da ta nyi dou tsaldou sol",
           translation: "",
           words: [],
@@ -335,7 +335,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-21L",
           type: "normal",
-          tibetan: "།དེ་ལྟར་མཆོད་བསྟོད་དད་པའི་དགེ་བ་དེས།",
+          tibetan: "དེ་ལྟར་མཆོད་བསྟོད་དད་པའི་དགེ་བ་དེས།",
           phonetics: "dé tar tchö tö dé pé géwa dé",
           translation: "",
           words: [],
@@ -343,7 +343,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-21R",
           type: "normal",
-          tibetan: "།མ་གྱུར་འགྲོ་བ་སེམས་ཅན་ཐམས་ཅད་ཀུན།",
+          tibetan: "མ་གྱུར་འགྲོ་བ་སེམས་ཅན་ཐམས་ཅད་ཀུན།",
           phonetics: "ma gyour drowa semchen tamché kün",
           translation: "",
           words: [],
@@ -351,7 +351,7 @@ export const mahakala: PracticeText = {
         {
           id: "mk-22L",
           type: "normal",
-          tibetan: "།རྫོགས་པའི་སངས་རྒྱས་གོ་འཕང་འཐོབ་ཕྱིར་བསྔོ།།",
+          tibetan: "རྫོགས་པའི་སངས་རྒྱས་གོ་འཕང་འཐོབ་ཕྱིར་བསྔོ།།",
           phonetics: "dzokpé sangyé go p'ang t'ob tchir ngö",
           translation: "",
           words: [],

@@ -44,7 +44,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-3",
           type: "normal",
-          tibetan: "།སྐྱེ་བའི་ཕྲེང་བར་བསགས་པའི་ཚོགས་གཉིས་མཐུས།",
+          tibetan: "སྐྱེ་བའི་ཕྲེང་བར་བསགས་པའི་ཚོགས་གཉིས་མཐུས།",
           phonetics: "kyé oué / treng ouar / sak pé / tsok nyi t'ou",
           translation: "par le pouvoir des deux accumulations rassemblées par le rosaire de vos naissances,",
           words: [
@@ -70,7 +70,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-5",
           type: "normal",
-          tibetan: "།གང་ཚེ་ཐུབ་དབང་དེས་གསུངས་ཆོས་འཁོར་ཀླུང་།",
+          tibetan: "གང་ཚེ་ཐུབ་དབང་དེས་གསུངས་ཆོས་འཁོར་ཀླུང་།",
           phonetics: "kang tsé / t'oup ouang / té soung / tcheu k'or loung",
           translation: "Vous, le détenteur du flot des enseignements énoncés par le Bouddha,",
           words: [
@@ -83,7 +83,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-6",
           type: "normal",
-          tibetan: "།གདུལ་བྱའི་ཞིང་ལ་འདྲེན་པའི་ཐབས་ཀྱི་གསང་།",
+          tibetan: "གདུལ་བྱའི་ཞིང་ལ་འདྲེན་པའི་ཐབས་ཀྱི་གསང་།",
           phonetics: "dul djé / ching la / dren pé / t'ap kyi sang",
           translation: "du secret des moyens habiles qui permettent de guider les êtres à convertir vers les terres d'éveil.",
           words: [
@@ -96,7 +96,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-7",
           type: "normal",
-          tibetan: "།འཛིན་ལ་མཁྱེན་ནུས་བརྩེ་བའི་མཐུ་མངའ་བ།",
+          tibetan: "འཛིན་ལ་མཁྱེན་ནུས་བརྩེ་བའི་མཐུ་མངའ་བ།",
           phonetics: "dzin la / kyen nu / tsé oué / t'ou gna oua",
           translation: "Vous qui possédez la force de la sagesse, du pouvoir et de l'amour,",
           words: [
@@ -109,7 +109,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-8",
           type: "normal",
-          tibetan: "།སྨྲ་བའི་དབང་པོའི་ངོ་བོར་འཚོ་གྱུར་ཅིག །",
+          tibetan: "སྨྲ་བའི་དབང་པོའི་ངོ་བོར་འཚོ་གྱུར་ཅིག །",
           phonetics: "ma oué / ouang peu / gno ouor / tso gyour tchik",
           translation: "Puissiez-vous vivre longtemps, personnification de Manjoushri.",
           words: [
@@ -135,7 +135,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-10",
           type: "normal",
-          tibetan: "།ཟབ་གནད་བདུད་རྩིའི་རྒྱུན་མཆོག་འཛིན་པའི་དཔལ།",
+          tibetan: "ཟབ་གནད་བདུད་རྩིའི་རྒྱུན་མཆོག་འཛིན་པའི་དཔལ།",
           phonetics: "zap né / dutsi / gyun tchok / dzin pé pal",
           translation: "Vous en détenez le suprême flot de nectar des points essentiels profonds.",
           words: [
@@ -148,7 +148,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-11",
           type: "normal",
-          tibetan: "།དུས་གསུམ་མཁྱེན་པ་གང་དེའི་ཕྲིན་ལས་མཐའ།",
+          tibetan: "དུས་གསུམ་མཁྱེན་པ་གང་དེའི་ཕྲིན་ལས་མཐའ།",
           phonetics: "tu soum / kyenpa / kang té / t'in lé t'a",
           translation: "Parfait détenteur de l'étendue de l'activité de Tusoum Khyenpa,",
           words: [
@@ -174,7 +174,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-13",
           type: "normal",
-          tibetan: "།དེ་ལྟར་བདག་གིས་སྨོན་ལམ་བདེན་པའི་དོན། །",
+          tibetan: "དེ་ལྟར་བདག་གིས་སྨོན་ལམ་བདེན་པའི་དོན། །",
           phonetics: "té tar / dak ki / meunlam / den pé teun",
           translation: "Par le pouvoir des paroles de vérité de cette prière",
           words: [
@@ -187,7 +187,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-14",
           type: "normal",
-          tibetan: "།མཆོག་གསུམ་རྒྱ་མཚོའི་སྤྱན་སྔར་དབུལ་བའི་མཐུ།",
+          tibetan: "མཆོག་གསུམ་རྒྱ་མཚོའི་སྤྱན་སྔར་དབུལ་བའི་མཐུ།",
           phonetics: "tchok soum / gya tseu / tchen gnar / ul oué t'ou",
           translation: "accomplie devant l'océan des Trois Joyaux,",
           words: [
@@ -200,7 +200,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-15",
           type: "normal",
-          tibetan: "།བསླུ་མེད་རྟེན་འབྲེལ་ཚོགས་པའི་ནུས་སྟོབས་ལས།",
+          tibetan: "བསླུ་མེད་རྟེན་འབྲེལ་ཚོགས་པའི་ནུས་སྟོབས་ལས།",
           phonetics: "lou mé / tendrel / tsok pé / nu top lé",
           translation: "par la force des tendrels infaillibles,",
           words: [
@@ -213,7 +213,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-0-16",
           type: "normal",
-          tibetan: "།དཔག་བསམ་ཤིང་ལྟར་འབད་མེད་འགྲུབ་གྱུར་ཅིག",
+          tibetan: "དཔག་བསམ་ཤིང་ལྟར་འབད་མེད་འགྲུབ་གྱུར་ཅིག",
           phonetics: "pak sam / ching tar / bé mé / droup gyour tchik",
           translation: "puisse cette requête, comme l'arbre qui exauce tous les souhaits, se réaliser, sans effort.",
           words: [
@@ -240,7 +240,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-1",
           type: "instructions",
-          tibetan: "།ཀུན་གཟིགས་ཞྭ་དམར་རིན་པོ་ཆེའི་ཡང་སྲིད་ཀྱི་ཞབས་བརྟན།",
+          tibetan: "ཀུན་གཟིགས་ཞྭ་དམར་རིན་པོ་ཆེའི་ཡང་སྲིད་ཀྱི་ཞབས་བརྟན།",
           phonetics: "",
           translation: "Prière de longue vie pour la réincarnation de Kunzik Shamar Rinpoché.",
           words: [],
@@ -261,7 +261,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-3",
           type: "normal",
-          tibetan: "།འགག་མེད་སྒྱུ་འཕྲུལ་དྲྭ་བའི་རོལ་གར་གྱིས།",
+          tibetan: "འགག་མེད་སྒྱུ་འཕྲུལ་དྲྭ་བའི་རོལ་གར་གྱིས།",
           phonetics: "gak mé / gyou trul / dra wé / reul kar gyi",
           translation: "le vaste espace de la félicité et de la vacuité immuables,",
           words: [
@@ -274,7 +274,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-4",
           type: "normal",
-          tibetan: "།སྲིད་ཞིའི་དྭངས་བཅུད་ཚེ་ཡི་དཔལ་སྩོལ་བ།",
+          tibetan: "སྲིད་ཞིའི་དྭངས་བཅུད་ཚེ་ཡི་དཔལ་སྩོལ་བ།",
           phonetics: "si chi / tang tchu / tsé yi pel / tseul wa",
           translation: "elle confere la gloire de la vie, essence pure de l'existence et de la paix, par le déploiement du filet magique incessant.",
           words: [
@@ -287,7 +287,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-5",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་ཡིད་བཞིན་འཁོར་ལོས་དགེ་ལེགས་སྩོལ།",
+          tibetan: "བཅོམ་ལྡན་ཡིད་བཞིན་འཁོར་ལོས་དགེ་ལེགས་སྩོལ།",
           phonetics: "tchom den / yi chin k'or leu / gué lek / tseul",
           translation: "Puisse la bhagavati Tara, la roue qui exauce les souhaits, conférer vertu et excellence.",
           words: [
@@ -300,7 +300,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-6",
           type: "normal",
-          tibetan: "།རྒྱལ་ཀུན་ཕྲིན་ལས་གཅིག་བསྡུས་ཀརྨ་པའི།",
+          tibetan: "རྒྱལ་ཀུན་ཕྲིན་ལས་གཅིག་བསྡུས་ཀརྨ་པའི།",
           phonetics: "gyel kun / trin lé / tchik du / karma pé",
           translation: "Détenteur du trésor des secrets du corps, de la parole et de l'esprit de Karmapa",
           words: [
@@ -313,7 +313,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-7",
           type: "normal",
-          tibetan: "།སྐུ་གསུང་ཐུགས་ཀྱི་གསང་བའི་མཛོད་འཛིན་པ།",
+          tibetan: "སྐུ་གསུང་ཐུགས་ཀྱི་གསང་བའི་མཛོད་འཛིན་པ།",
           phonetics: "kou soung t'ouk / kyi sang wé / dzeu / dzin pa",
           translation: "qui incarne l'activité de tous les victorieux,",
           words: [
@@ -326,7 +326,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-8",
           type: "normal",
-          tibetan: "།མི་ཕམ་གར་གྱི་དབང་ཕྱུག་སྤྲུལ་པའི་སྐུ།",
+          tibetan: "མི་ཕམ་གར་གྱི་དབང་ཕྱུག་སྤྲུལ་པའི་སྐུ།",
           phonetics: "mi p'am / kar gyi / wang tchouk / trul pé kou",
           translation: "vous êtes le nirmanakaya Mipham Gargyi Wangchuk.",
           words: [
@@ -339,7 +339,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-9",
           type: "normal",
-          tibetan: "།སྟོན་འཁོར་ཐ་མི་དད་པའི་ཞབས་བརྟན་གསོལ།",
+          tibetan: "སྟོན་འཁོར་ཐ་མི་དད་པའི་ཞབས་བརྟན་གསོལ།",
           phonetics: "teun k'or / t'a mi té pé / chap ten seul",
           translation: "Enseignant et étudiant indifférenciés, puissiez-vous vivre longtemps!",
           words: [
@@ -351,7 +351,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-10",
           type: "normal",
-          tibetan: "།རྟོགས་པ་དོན་བརྒྱུད་མན་ངག་ཐུགས་སུ་བྱོན།",
+          tibetan: "རྟོགས་པ་དོན་བརྒྱུད་མན་ངག་ཐུགས་སུ་བྱོན།",
           phonetics: "tok pa / teun gyu / men ngak / t'ouk sou djeun",
           translation: "Puissent les instructions de la véritable lignée de la réalisation s'écouler dans votre esprit!",
           words: [
@@ -364,7 +364,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-11",
           type: "normal",
-          tibetan: "།མཁས་དང་གྲུབ་པའི་ཡོན་ཏན་རྒྱ་མཚོས་ཕྱུག",
+          tibetan: "མཁས་དང་གྲུབ་པའི་ཡོན་ཏན་རྒྱ་མཚོས་ཕྱུག",
           phonetics: "ké tang / droup pé / yeun ten / gyam tseu tchouk",
           translation: "Puissiez-vous être riche des océans de qualités de l'étude et de la pratique!",
           words: [
@@ -377,7 +377,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-12",
           type: "normal",
-          tibetan: "།མཐོང་ཐོས་དྲན་པས་འགྲོ་རྣམས་སྨིན་གྲོལ་མཛད།",
+          tibetan: "མཐོང་ཐོས་དྲན་པས་འགྲོ་རྣམས་སྨིན་གྲོལ་མཛད།",
           phonetics: "t'ong t'eu / dren pé / dro nam / min dreul dzé",
           translation: "Puissiez-vous mûrir et libérer les êtres qui vous voient, vous entendent et se souviennent de vous",
           words: [
@@ -390,7 +390,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-13",
           type: "normal",
-          tibetan: "།འབྲེལ་ཚད་དོན་ལྡན་བླ་མར་ཞབས་བརྟན་གསོལ།",
+          tibetan: "འབྲེལ་ཚད་དོན་ལྡན་བླ་མར་ཞབས་བརྟན་གསོལ།",
           phonetics: "drel tsé / teun den / la mar / chap ten seul",
           translation: "Puissiez-vous vivre longtemps, comme le maître, utile à tous ceux qui établissent un lien avec vous!",
           words: [
@@ -403,7 +403,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-14",
           type: "normal",
-          tibetan: "།སྐྱེ་བ་འདི་དང་ཚེ་རབས་ཐམས་ཅད་དུ།",
+          tibetan: "སྐྱེ་བ་འདི་དང་ཚེ་རབས་ཐམས་ཅད་དུ།",
           phonetics: "kyé wa di / tang tsé rap / t'am tché tou",
           translation: "Puissé-je, en cette vie et dans toutes les autres,",
           words: [
@@ -415,7 +415,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-15",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཡབ་སྲས་འབྲལ་མེད་བསྟེན་པ་དང༌།",
+          tibetan: "རྒྱལ་བ་ཡབ་སྲས་འབྲལ་མེད་བསྟེན་པ་དང༌།",
           phonetics: "gyel wa / yap sé / drel mé / ten pa tang",
           translation: "suivre Karmapa et ses fils de coeur inséparables,",
           words: [
@@ -428,7 +428,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-16",
           type: "normal",
-          tibetan: "།བསམ་པའི་དོན་ཀུན་ཆོས་བཞིན་འགྲུབ་གྱུར་ནས།",
+          tibetan: "བསམ་པའི་དོན་ཀུན་ཆོས་བཞིན་འགྲུབ་གྱུར་ནས།",
           phonetics: "sam pé / teun kun / tcheu chin / droup kyour né",
           translation: "accomplir toutes mes intentions en accord avec le Dharma et,",
           words: [
@@ -441,7 +441,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-17",
           type: "normal",
-          tibetan: "།མཐར་ཐུག་ཐུགས་ཡིད་གཅིག་ཏུ་འདྲེས་པར་ཤོག",
+          tibetan: "མཐར་ཐུག་ཐུགས་ཡིད་གཅིག་ཏུ་འདྲེས་པར་ཤོག",
           phonetics: "t’ar t’ouk / t’ouk / yi / tchik tou / dré par chok",
           translation: "ultimement, unifier mon esprit au leur pour ne faire qu’un avec eux!",
           words: [
@@ -455,7 +455,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-1-18",
           type: "colophon",
-          tibetan: "།ཅེས་པ་འདི་ནི་ཐམས་ཅད་མཁྱེན་པ་ཞྭ་དམར་ཅོད་པན་འཛིན་པ་མི་ཕམ་ཆོས་ཀྱི་བློ་གྲོས་ཀྱི་ཡང་སྲིད་སྤྲུལ་པའི་ཉི་གཞོན་མྱུར་དུ་འཆར་བར་འགྱུར་བ་གང་གི་ཞབས་པད་བརྟན་ཅིང་མཛད་ཕྲིན་རྒྱས་པ་དང༌། མཐུ་ལ་བརྟེན་ནས་སྒྲུབ་བརྒྱུད་ཀརྨ་ཀཾ་ཚང་གི་བསྟན་པ་གཅིག་གྱུར་ཡོང་བའི་སྨོན་འདུན་ཤུགས་དྲག་བཅས། ཨོ་རྒྱན་ཕྲིན་ལས་དང༌། མཐའ་ཡས་རྡོ་རྗེར་གྲགས་པ་ངེད་གཉིས་ཐུན་མོང་ནས་བྲིས་ཏེ་ཤོ་ལོ་ཀ་དེའི་མཐའ་མར་རྒྱལ་དབང་མི་བསྐྱོད་རྡོ་རྗེའི་བདེན་ཚིག་གིས་མཐའ་བརྒྱན་པར་བྱས་པ་འདིས་ཀྱང༌། བསྟན་པ་རྒྱས་པ་དང་འགྲོ་བ་བདེ་བའི་དོན་དུ་འགྱུར་བར་རྒྱལ་བ་སྲས་དང་བཅས་པས་མཐུན་འགྱུར་མཛད་པར་ གྱུར་ཅིག་ཅེས། ས་མོ་ཕག་ཧོར་ཟླ་བརྒྱད་པའི་ཚེས་ ༢༢ སྤྱི་ལོ་ ༢༠༡༩ ཟླ་ ༡༠ ཚེས་ ༢༠ ནུབ་ཕྱོགས་ཡོ་རོབ་ཀྱི་གླིང་ཆེན་དུ་སྦྱར་བ་དགེའོ།། །།",
+          tibetan: "ཅེས་པ་འདི་ནི་ཐམས་ཅད་མཁྱེན་པ་ཞྭ་དམར་ཅོད་པན་འཛིན་པ་མི་ཕམ་ཆོས་ཀྱི་བློ་གྲོས་ཀྱི་ཡང་སྲིད་སྤྲུལ་པའི་ཉི་གཞོན་མྱུར་དུ་འཆར་བར་འགྱུར་བ་གང་གི་ཞབས་པད་བརྟན་ཅིང་མཛད་ཕྲིན་རྒྱས་པ་དང༌། མཐུ་ལ་བརྟེན་ནས་སྒྲུབ་བརྒྱུད་ཀརྨ་ཀཾ་ཚང་གི་བསྟན་པ་གཅིག་གྱུར་ཡོང་བའི་སྨོན་འདུན་ཤུགས་དྲག་བཅས། ཨོ་རྒྱན་ཕྲིན་ལས་དང༌། མཐའ་ཡས་རྡོ་རྗེར་གྲགས་པ་ངེད་གཉིས་ཐུན་མོང་ནས་བྲིས་ཏེ་ཤོ་ལོ་ཀ་དེའི་མཐའ་མར་རྒྱལ་དབང་མི་བསྐྱོད་རྡོ་རྗེའི་བདེན་ཚིག་གིས་མཐའ་བརྒྱན་པར་བྱས་པ་འདིས་ཀྱང༌། བསྟན་པ་རྒྱས་པ་དང་འགྲོ་བ་བདེ་བའི་དོན་དུ་འགྱུར་བར་རྒྱལ་བ་སྲས་དང་བཅས་པས་མཐུན་འགྱུར་མཛད་པར་ གྱུར་ཅིག་ཅེས། ས་མོ་ཕག་ཧོར་ཟླ་བརྒྱད་པའི་ཚེས་ ༢༢ སྤྱི་ལོ་ ༢༠༡༩ ཟླ་ ༡༠ ཚེས་ ༢༠ ནུབ་ཕྱོགས་ཡོ་རོབ་ཀྱི་གླིང་ཆེན་དུ་སྦྱར་བ་དགེའོ།། །།",
           phonetics: "",
           translation: "Pareille au soleil qui se lève rapidement, la réincarnation de l’omniscient détenteur de la coiffe rouge, Mipham Chökyi Lodrö, apparaîtra bientôt. Avec la fervente aspiration qu’elle puisse vivre longtemps, que son activité fleurisse et que, par la force de cela, les enseignements de la lignée de la pratique karma kamtsang soit unifiés, nous deux, connus sous les noms d’Orgyen Trinley et Thayé Dorjé, avons écrit cette prière ensemble. Nous l’avons conclue avec les paroles véritables de Gyalwang Mikyö Dorjé, qui l’ornent en tant que stance finale. Puisse ce travail participer à répandre les enseignements et à apporter du bonheur aux êtres et puissent les bouddhas et les bodhisattvas le faire advenir!\n\nÉcrit en Europe, le 22 jour du 8 mois tibétain de l’année cochon-femelle, le 20 octobre 2019.",
           words: [],
@@ -469,7 +469,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-2-1",
           type: "normal",
-          tibetan: "།གདམས་པའི་ཆུ་གཏེར་རྩོལ་ཆེན་ཐུགས་སུ་དཀྱིལ།",
+          tibetan: "གདམས་པའི་ཆུ་གཏེར་རྩོལ་ཆེན་ཐུགས་སུ་དཀྱིལ།",
           phonetics: "dampé / tchouter / tseul tchen / t'ouk sou / kyil",
           translation: "Par un dur labeur, il s'est abreuvé l'esprit d'un océan d'instructions;",
           words: [
@@ -483,7 +483,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-2-2",
           type: "normal",
-          tibetan: "།སྒོམ་པའི་ཆུ་རྒྱུན་ཡེ་ཤེས་རྒྱ་མཚོར་འདྲེས།",
+          tibetan: "སྒོམ་པའི་ཆུ་རྒྱུན་ཡེ་ཤེས་རྒྱ་མཚོར་འདྲེས།",
           phonetics: "gompé / tchou gyun / yéshé / gyamtsor / dré",
           translation: "le fleuve de sa pratique s'est jeté dans la mer de la Connaissance;",
           words: [
@@ -497,7 +497,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-2-3",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེའི་ཆུ་ཆར་སྣོད་ལྡན་འགྲོ་ལ་འབེབས།",
+          tibetan: "ཐུགས་རྗེའི་ཆུ་ཆར་སྣོད་ལྡན་འགྲོ་ལ་འབེབས།",
           phonetics: "t'oukdjé / tchou tchar / neuden / dro la / bep",
           translation: "les ondées de sa compassion se déversent sur les êtres vivants prédisposés:",
           words: [
@@ -511,7 +511,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-2-4",
           type: "normal",
-          tibetan: "།དགེ་འདུན་རིན་པོ་ཆེ་ལ་གསོལ་བ་འདེབས།",
+          tibetan: "དགེ་འདུན་རིན་པོ་ཆེ་ལ་གསོལ་བ་འདེབས།",
           phonetics: "guendun rinpoché / la / seulwa dep",
           translation: "j'adresse ma requête à Guendune Rinpoché.",
           words: [
@@ -545,7 +545,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-2",
           type: "normal",
-          tibetan: "།ནམོཨརྱཏཱརཡ།",
+          tibetan: "ནམོཨརྱཏཱརཡ།",
           phonetics: "Namo / arya / taraya",
           translation: "Hommage à la noble Tara",
           words: [
@@ -609,7 +609,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-7",
           type: "normal",
-          tibetan: "།འགྲོ་ཁམས་གཡོ་ཡང་མི་གཡོ་ལྷུན་པོ་བཞིན།",
+          tibetan: "འགྲོ་ཁམས་གཡོ་ཡང་མི་གཡོ་ལྷུན་པོ་བཞིན།",
           phonetics: "dro k'am / yo yang / mi yo / lhun po chin",
           translation: "Semblable à une montagne qui reste inébranlable lorsque le monde s'agite,",
           words: [
@@ -648,7 +648,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-10",
           type: "normal",
-          tibetan: "།སྟོན་པར་མཛད་དེ་སྐལ་བརྒྱར་རྟག་བརྟན་ཤོག",
+          tibetan: "སྟོན་པར་མཛད་དེ་སྐལ་བརྒྱར་རྟག་བརྟན་ཤོག",
           phonetics: "teun par / dzé dé / kel gyar / tak ten chok",
           translation: "Puisse-t-il constamment demeurer durant cent kalpas!",
           words: [
@@ -661,7 +661,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-11",
           type: "normal",
-          tibetan: "།རྣམ་དཀར་སྨིན་པའི་གླིང་ན་སྤྲུལ་སྐུ་ནི།",
+          tibetan: "རྣམ་དཀར་སྨིན་པའི་གླིང་ན་སྤྲུལ་སྐུ་ནི།",
           phonetics: "nam kar / min pé / ling na / trul kou ni",
           translation: "Émanation dans ce continent où la vertu est parvenue à maturité,",
           words: [
@@ -674,7 +674,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-12",
           type: "normal",
-          tibetan: "།གང་དང་རྣམ་དབྱེར་མེད་ཅེས་བཅུ་དྲུག་པས།",
+          tibetan: "གང་དང་རྣམ་དབྱེར་མེད་ཅེས་བཅུ་དྲུག་པས།",
           phonetics: "gang dang / nam yer mé / tché / tchou drouk pé",
           translation: "que le XVIème Karmapa a déclaré indifférenciée de lui-même,",
           words: [
@@ -700,7 +700,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-14",
           type: "normal",
-          tibetan: "།དད་ལྡན་ཕན་བདེའི་སླད་དུ་ཞབས་བརྟན་གསོལ།",
+          tibetan: "དད་ལྡན་ཕན་བདེའི་སླད་དུ་ཞབས་བརྟན་གསོལ།",
           phonetics: "dé den / p'en dé / lé dou / chap ten seul",
           translation: "Nous le prions de vivre longtemps pour le bien de ceux qui lui sont dévoués.",
           words: [
@@ -713,7 +713,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-15",
           type: "normal",
-          tibetan: "།དད་མོས་ཆེན་པོའི་བརྒྱུད་པ་བྱིན་ཅན་འདི།",
+          tibetan: "དད་མོས་ཆེན་པོའི་བརྒྱུད་པ་བྱིན་ཅན་འདི།",
           phonetics: "dé meu / tchen peu / gyu pa / djin tchen di",
           translation: "Comme cette lignée de la grande dévotion qui confère la grâce",
           words: [
@@ -726,7 +726,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-16",
           type: "normal",
-          tibetan: "།བཤེས་གཉེན་ཆེན་པོའི་རྣམ་ཐར་ལས་བྱུང་བས།",
+          tibetan: "བཤེས་གཉེན་ཆེན་པོའི་རྣམ་ཐར་ལས་བྱུང་བས།",
           phonetics: "ché nyen / tchen peu / nam t'ar lé / djoung wé",
           translation: "est issue de l'exemple des grands maîtres,",
           words: [
@@ -739,7 +739,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-17",
           type: "normal",
-          tibetan: "།ལྷག་བསམ་ཆེན་པོས་ཐོག་མཐའ་བར་གསུམ་དུ།",
+          tibetan: "ལྷག་བསམ་ཆེན་པོས་ཐོག་མཐའ་བར་གསུམ་དུ།",
           phonetics: "lhak sam / tchen peu / t'ok t'a / bar soum dou",
           translation: "puisse-t-il, par son grand altruisme, demeurer à tout instant,",
           words: [
@@ -765,7 +765,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-19",
           type: "normal",
-          tibetan: "།ཀུན་མཁྱེན་འགྲོ་ལ་བརྩེ་ནུས་བདག་ཉིད་ཆེ།",
+          tibetan: "ཀུན་མཁྱེན་འགྲོ་ལ་བརྩེ་ནུས་བདག་ཉིད་ཆེ།",
           phonetics: "kun k'yen / dro la / tsé nu / dak nyi tché",
           translation: "O grand être, omniscient, plein d'affection et de secours pour les êtres,",
           words: [
@@ -778,7 +778,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-20",
           type: "normal",
-          tibetan: "།ཀུན་ལ་གུས་ཤིང་སྲོང་པོའི་བདེན་སྨོན་ན།",
+          tibetan: "ཀུན་ལ་གུས་ཤིང་སྲོང་པོའི་བདེན་སྨོན་ན།",
           phonetics: "kun la / gu ching / song peu / den meun na",
           translation: "je formule ce souhait qui s'appuie sur la véritable intégrité et le respect de tous;",
           words: [
@@ -791,7 +791,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-21",
           type: "normal",
-          tibetan: "།ཀུན་ནས་རླབས་ཆེ་ལྷག་པའི་ལྷ་མཆོག་གཅིག",
+          tibetan: "ཀུན་ནས་རླབས་ཆེ་ལྷག་པའི་ལྷ་མཆོག་གཅིག",
           phonetics: "kun né / lap tché / lhak pé / lha tchok tchik",
           translation: "ô insurpassable unique divinité dont la force est supérieure à toutes,",
           words: [
@@ -804,7 +804,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-22",
           type: "normal",
-          tibetan: "།ཀུན་འདུས་ཡིད་བཞིན་འཁོར་ལོས་ཤིས་པ་སྩོལ།",
+          tibetan: "ཀུན་འདུས་ཡིད་བཞིན་འཁོར་ལོས་ཤིས་པ་སྩོལ།",
           phonetics: "kun du / yi chin / k'or leu / chi pa tseul",
           translation: "Veuillez donc accorder votre grâce, Chintachakral, vous qui réunissez toutes [les excellences]!",
           words: [
@@ -817,7 +817,7 @@ export const prieresLongueVie: PracticeText = {
         {
           id: "plv-3-23",
           type: "colophon",
-          tibetan: "།ཅེས་པ་འདི་ཀ་རབ་སྐུ་ཡི་ཕྲེང་བའི་མཚན་གྱི་ཟིལ་མ་ཕྲ་རབ་ཙམ་ཕོག་པ་མཐའ་ཡས་རྡོ་རྗེར་འབོད་པས་འཕྲུལ་གྱི་འཁོར་ལོས་གནམ་འཕང་གཅོད་པའི་གཟིང་ན་ཡེ་ཤེས་ལྷ་མཆོག་ལ་གསོལ་བ་འདེབས་བཞིན་སྐྱབས་རྗེ་ འཇིགས་མེད་རིན་པོ་ཆེེའི་ཞབས་བརྟན་དུ་སྤྱི་ལོ་༢༠༡༦་སྤྱི་ཟླ་༤་སྤྱི་ཚེས་༦་བཟང་པོར་སྦྱར་ན་སརླམངྒལཾ།།",
+          tibetan: "ཅེས་པ་འདི་ཀ་རབ་སྐུ་ཡི་ཕྲེང་བའི་མཚན་གྱི་ཟིལ་མ་ཕྲ་རབ་ཙམ་ཕོག་པ་མཐའ་ཡས་རྡོ་རྗེར་འབོད་པས་འཕྲུལ་གྱི་འཁོར་ལོས་གནམ་འཕང་གཅོད་པའི་གཟིང་ན་ཡེ་ཤེས་ལྷ་མཆོག་ལ་གསོལ་བ་འདེབས་བཞིན་སྐྱབས་རྗེ་ འཇིགས་མེད་རིན་པོ་ཆེེའི་ཞབས་བརྟན་དུ་སྤྱི་ལོ་༢༠༡༦་སྤྱི་ཟླ་༤་སྤྱི་ཚེས་༦་བཟང་པོར་སྦྱར་ན་སརླམངྒལཾ།།",
           phonetics: "",
           translation: "Moi, Thayé Dorjé, touché par une infime partie de la splendeur du nom de la lignée des karmapas, j'ai écrit cette prière de longue vie pour Kyabjé Jigmé Rinpoché, en priant la divinité de sagesse, dans l'avion, le 6 avril 2016. Que tout soit excellent!",
           words: [],

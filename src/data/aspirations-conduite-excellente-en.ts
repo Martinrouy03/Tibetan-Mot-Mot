@@ -116,7 +116,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-hom-1",
           type: "normal",
           stanceNumber: 1,
-          tibetan: "།ཇི་སྙེད་སུ་དག་ཕྱོགས་བཅུའི་འཇིག་རྟེན་ན།",
+          tibetan: "ཇི་སྙེད་སུ་དག་ཕྱོགས་བཅུའི་འཇིག་རྟེན་ན།",
           phonetics: "jinye su dag / chhog chü / jigten na",
           translation: "In all of the worlds in all ten directions,",
           words: [
@@ -140,7 +140,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-2",
           type: "normal",
-          tibetan: "།དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་ཀུན།",
+          tibetan: "དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་ཀུན།",
           phonetics: "dü sum / shegpa / mi yi sengge / kün",
           translation: "reside the Tathagatas of past, present and future.",
           words: [
@@ -165,7 +165,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-3",
           type: "normal",
-          tibetan: "།བདག་གིས་མ་ལུས་དེ་དག་ཐམས་ཅད་ལ།",
+          tibetan: "བདག་གིས་མ་ལུས་དེ་དག་ཐམས་ཅད་ལ།",
           phonetics: "dag gi / malü / dedag thamche la",
           translation: "Before each and every one of these lions among men,",
           words: [
@@ -185,7 +185,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-4",
           type: "normal",
-          tibetan: "།ལུས་དང་ངག་ཡིད་དང་བས་ཕྱག་བགྱིའོ།",
+          tibetan: "ལུས་དང་ངག་ཡིད་དང་བས་ཕྱག་བགྱིའོ།",
           phonetics: "lü dang ngag yi / dangwe / chhag gyi'o",
           translation: "I bow down joyfully with body, speech, and mind.",
           words: [
@@ -206,7 +206,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-hom-5",
           type: "normal",
           stanceNumber: 2,
-          tibetan: "།བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་སྟོབས་དག་གིས།",
+          tibetan: "བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་སྟོབས་དག་གིས།",
           phonetics: "zangpo chöpe / mönlam / tob dag gi",
           translation: "By the power of wishes of Excellent Conduct,",
           words: [
@@ -226,7 +226,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-6",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཐམས་ཅད་ཡིད་ཀྱིས་མངོན་སུམ་དུ།",
+          tibetan: "རྒྱལ་བ་ཐམས་ཅད་ཡིད་ཀྱིས་མངོན་སུམ་དུ།",
           phonetics: "gyalwa thamche / yi kyi / ngönsum du",
           translation: "each Buddha evoked becomes manifest.",
           words: [
@@ -250,7 +250,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-7",
           type: "normal",
-          tibetan: "།ཞིང་གི་རྡུལ་སྙེད་ལུས་རབ་བཏུད་པ་ཡིས།",
+          tibetan: "ཞིང་གི་རྡུལ་སྙེད་ལུས་རབ་བཏུད་པ་ཡིས།",
           phonetics: "zhing gi / dul nye / lü rab tüpa yi",
           translation: "With as many bodies as atoms in the universe,",
           words: [
@@ -274,7 +274,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-8",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཀུན་ལ་རབ་ཏུ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རྒྱལ་བ་ཀུན་ལ་རབ་ཏུ་ཕྱག་འཚལ་ལོ།",
           phonetics: "gyalwa kün la / rabtu / chhag tshal lo",
           translation: "I bow down deeply to the Victorious Ones.",
           words: [
@@ -295,7 +295,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-hom-9",
           type: "normal",
           stanceNumber: 3,
-          tibetan: "།རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་སངས་རྒྱས་རྣམས།",
+          tibetan: "རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་སངས་རྒྱས་རྣམས།",
           phonetics: "dul chig teng na / dul nye / sanggye nam",
           translation: "Atop one particle, as many Buddhas as particles",
           words: [
@@ -319,7 +319,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-10",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་དག",
+          tibetan: "སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་དག",
           phonetics: "sanggye se kyi / ü na / zhugpa dag",
           translation:
             "are settled amidst Bodhisattvas, their spiritual heirs.",
@@ -340,7 +340,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-11",
           type: "normal",
-          tibetan: "།དེ་ལྟར་ཆོས་ཀྱི་དབྱིངས་རྣམས་མ་ལུས་པར།",
+          tibetan: "དེ་ལྟར་ཆོས་ཀྱི་དབྱིངས་རྣམས་མ་ལུས་པར།",
           phonetics: "detar / chhö kyi ying nam / malüpar",
           translation: "Thus Dharmadhatu, the entire sphere of being,",
           words: [
@@ -360,7 +360,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-12",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་རྒྱལ་བ་དག་གིས་གང་བར་མོས།",
+          tibetan: "ཐམས་ཅད་རྒྱལ་བ་དག་གིས་གང་བར་མོས།",
           phonetics: "thamche / gyalwa dag gi / gangwar mö",
           translation: "abounds with the Buddhas that I have envisioned.",
           words: [
@@ -385,7 +385,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-hom-13",
           type: "normal",
           stanceNumber: 4,
-          tibetan: "།དེ་དག་བསྔགས་པ་མི་ཟད་རྒྱ་མཚོ་རྣམས།",
+          tibetan: "དེ་དག་བསྔགས་པ་མི་ཟད་རྒྱ་མཚོ་རྣམས།",
           phonetics: "dedag / ngagpa / mize / gyatsho nam",
           translation: "Using every tone of a multitude of melodies,",
           words: [
@@ -406,7 +406,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-14",
           type: "normal",
-          tibetan: "།དབྱངས་ཀྱི་ཡན་ལག་རྒྱ་མཚོའི་སྒྲ་ཀུན་གྱིས།",
+          tibetan: "དབྱངས་ཀྱི་ཡན་ལག་རྒྱ་མཚོའི་སྒྲ་ཀུན་གྱིས།",
           phonetics: "yang kyi / yenlag / gyatshö / dra kün gyi",
           translation: "I revere them with boundless oceans of acclaim.",
           words: [
@@ -435,7 +435,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-15",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཀུན་གྱི་ཡོན་ཏན་རབ་བརྗོད་ཅིང༌།",
+          tibetan: "རྒྱལ་བ་ཀུན་གྱི་ཡོན་ཏན་རབ་བརྗོད་ཅིང༌།",
           phonetics: "gyalwa kün gyi / yönten / rab jö ching",
           translation: "Singing the praises of Those Gone to Bliss,",
           words: [
@@ -459,7 +459,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-hom-16",
           type: "normal",
-          tibetan: "།བདེ་བར་གཤེགས་པ་ཐམས་ཅད་བདག་གིས་བསྟོད།",
+          tibetan: "བདེ་བར་གཤེགས་པ་ཐམས་ཅད་བདག་གིས་བསྟོད།",
           phonetics: "dewar shegpa / thamche / dag gi tö",
           translation: "I honor your qualities, O Victorious Ones.",
           words: [
@@ -487,7 +487,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-off-1",
           type: "normal",
           stanceNumber: 5,
-          tibetan: "།མེ་ཏོག་དམ་པ་ཕྲེང་བ་དམ་པ་དང༌།",
+          tibetan: "མེ་ཏོག་དམ་པ་ཕྲེང་བ་དམ་པ་དང༌།",
           phonetics: "metog dampa / threngwa / dampa dang",
           translation:
             "Sumptuous flowers, beautiful garlands, precious parasols,",
@@ -512,7 +512,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-2",
           type: "normal",
-          tibetan: "།སིལ་སྙན་རྣམས་དང་བྱུག་པའི་གདུགས་མཆོག་དང།",
+          tibetan: "སིལ་སྙན་རྣམས་དང་བྱུག་པའི་གདུགས་མཆོག་དང།",
           phonetics: "silnyen nam dang / jugpe / dug chhog dang",
           translation: "fine cymbals and balms, radiant lamps and",
           words: [
@@ -532,7 +532,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-3",
           type: "normal",
-          tibetan: "།མར་མེ་མཆོག་དང་བདུག་སྤོས་དམ་པ་ཡིས།",
+          tibetan: "མར་མེ་མཆོག་དང་བདུག་སྤོས་དམ་པ་ཡིས།",
           phonetics: "marme chhog dang / dugpö / dampa yi",
           translation: "the most fragrant incense:",
           words: [
@@ -556,7 +556,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-4",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་དེ་དག་ལ་ནི་མཆོད་པར་བགྱི།",
+          tibetan: "རྒྱལ་བ་དེ་དག་ལ་ནི་མཆོད་པར་བགྱི།",
           phonetics: "gyalwa dedag / la ni / chhöpar gyi",
           translation: "I offer them to you, O Victorious Ones.",
           words: [
@@ -577,7 +577,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-off-5",
           type: "normal",
           stanceNumber: 6,
-          tibetan: "།ན་བཟའ་དམ་པ་རྣམས་དང་དྲི་མཆོག་དང༌།",
+          tibetan: "ན་བཟའ་དམ་པ་རྣམས་དང་དྲི་མཆོག་དང༌།",
           phonetics: "naza dampa / nam dang / dri chhog dang",
           translation: "Such wonderful arrays, all perfectly presented",
           words: [
@@ -597,7 +597,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-6",
           type: "normal",
-          tibetan: "།ཕྱེ་མའི་ཕུར་མ་རི་རབ་མཉམ་པ་དང་།",
+          tibetan: "ཕྱེ་མའི་ཕུར་མ་རི་རབ་མཉམ་པ་དང་།",
           phonetics: "chheme phurma / rirab / nyampa dang",
           translation: "-exquisite apparel and sweet-smelling perfume,",
           words: [
@@ -621,7 +621,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-7",
           type: "normal",
-          tibetan: "།བཀོད་པ་ཁྱད་པར་འཕགས་པའི་མཆོག་ཀུན་གྱིས།",
+          tibetan: "བཀོད་པ་ཁྱད་པར་འཕགས་པའི་མཆོག་ཀུན་གྱིས།",
           phonetics: "köpa / khyepar phagpe / chhog kün gyi",
           translation: "jars of scented powder piled high like a mountain:",
           words: [
@@ -641,7 +641,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-8",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་དེ་དག་ལ་ཡང་མཆོད་པར་བགྱི།",
+          tibetan: "རྒྱལ་བ་དེ་དག་ལ་ཡང་མཆོད་པར་བགྱི།",
           phonetics: "gyalwa dedag / la yang / chhöpar gyi",
           translation: "I offer them to you, O Victorious Ones.",
           words: [
@@ -666,7 +666,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-off-9",
           type: "normal",
           stanceNumber: 7,
-          tibetan: "།མཆོད་པ་གང་རྣམས་བླ་མེད་རྒྱ་ཆེ་བ།",
+          tibetan: "མཆོད་པ་གང་རྣམས་བླ་མེད་རྒྱ་ཆེ་བ།",
           phonetics: "chhöpa gang nam / lame / gya chhewa",
           translation: "These vast and superlative offerings",
           words: [
@@ -690,7 +690,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-10",
           type: "normal",
-          tibetan: "།དེ་དག་རྒྱལ་བ་ཐམས་ཅད་ལ་ཡང་མོས།",
+          tibetan: "དེ་དག་རྒྱལ་བ་ཐམས་ཅད་ལ་ཡང་མོས།",
           phonetics: "dedag gyalwa thamche / la yang / mö",
           translation: "express my confidence in all of the Buddhas.",
           words: [
@@ -710,7 +710,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-11",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་ལ་དད་པའི་སྟོབས་དག་གིས།",
+          tibetan: "བཟང་པོ་སྤྱོད་ལ་དད་པའི་སྟོབས་དག་གིས།",
           phonetics: "zangpo chö la / depe / tob dag gi",
           translation: "With the strength of conviction in Excellent Conduct,",
           words: [
@@ -734,7 +734,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-off-12",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཀུན་ལ་ཕྱག་འཚལ་མཆོད་པར་བགྱི།",
+          tibetan: "རྒྱལ་བ་ཀུན་ལ་ཕྱག་འཚལ་མཆོད་པར་བགྱི།",
           phonetics: "gyalwa kün la / chhag tshal / chhöpar gyi",
           translation: "I bow and present them to the Victorious Ones.",
           words: [
@@ -766,7 +766,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-conf-1",
           type: "normal",
           stanceNumber: 8,
-          tibetan: "།འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་དབང་གིས་ནི།",
+          tibetan: "འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་དབང་གིས་ནི།",
           phonetics: "döchhag / zhedang / timug / wang gi ni",
           translation: "Whatever misdeeds I may have committed",
           words: [
@@ -791,7 +791,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-conf-2",
           type: "normal",
-          tibetan: "།ལུས་དང་ངག་དང་དེ་བཞིན་ཡིད་ཀྱིས་ཀྱང་།",
+          tibetan: "ལུས་དང་ངག་དང་དེ་བཞིན་ཡིད་ཀྱིས་ཀྱང་།",
           phonetics: "lü dang / ngag dang / dezhin / yi kyi kyang",
           translation: "through body and speech, as well as through mind,",
           words: [
@@ -816,7 +816,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-conf-3",
           type: "normal",
-          tibetan: "།སྡིག་པ་བདག་གིས་བགྱིས་པ་ཅི་མཆིས་པ།",
+          tibetan: "སྡིག་པ་བདག་གིས་བགྱིས་པ་ཅི་མཆིས་པ།",
           phonetics: "digpa / dag gi / gyipa / chi chhipa",
           translation: "all outcomes of passion and anger and ignorance:",
           words: [
@@ -837,7 +837,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-conf-4",
           type: "normal",
-          tibetan: "།དེ་དག་ཐམས་ཅད་བདག་གིས་སོ་སོར་བཤགས།",
+          tibetan: "དེ་དག་ཐམས་ཅད་བདག་གིས་སོ་སོར་བཤགས།",
           phonetics: "dedag thamche / dag gi / sosor shag",
           translation: "I openly disclose each and every one.",
           words: [
@@ -865,7 +865,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-rejo-1",
           type: "normal",
           stanceNumber: 9,
-          tibetan: "།ཕྱོགས་བཅུའི་རྒྱལ་བ་ཀུན་དང་སངས་རྒྱས་སྲས།",
+          tibetan: "ཕྱོགས་བཅུའི་རྒྱལ་བ་ཀུན་དང་སངས་རྒྱས་སྲས།",
           phonetics: "chhog chü / gyalwa kün dang / sanggye se",
           translation: "I rejoice in each occurrence of merit produced by",
           words: [
@@ -889,7 +889,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-rejo-2",
           type: "normal",
-          tibetan: "།རང་རྒྱལ་རྣམས་དང་སློབ་དང་མི་སློབ་དང་།",
+          tibetan: "རང་རྒྱལ་རྣམས་དང་སློབ་དང་མི་སློབ་དང་།",
           phonetics: "ranggyal / nam dang / lob dang / milob dang",
           translation:
             "Buddhas and Bodhisattvas of all ten directions, by Pratyekabuddhas,",
@@ -915,7 +915,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-rejo-3",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཀུན་གྱི་བསོད་ནམས་གང་ལ་ཡང༌།",
+          tibetan: "འགྲོ་བ་ཀུན་གྱི་བསོད་ནམས་གང་ལ་ཡང༌།",
           phonetics: "drowa kün gyi / sönam / gangla yang",
           translation: "by those training on the path,",
           words: [
@@ -935,7 +935,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-rejo-4",
           type: "normal",
-          tibetan: "།དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་ཡི་རང་།",
+          tibetan: "དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་ཡི་རང་།",
           phonetics: "dedag kün gyi / jesu / dag yi rang",
           translation: "by Arhats beyond training, and by every single being.",
           words: [
@@ -967,7 +967,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-exh-1",
           type: "normal",
           stanceNumber: 10,
-          tibetan: "།གང་རྣམས་ཕྱོགས་བཅུའི་འཇིག་རྟེན་སྒྲོན་མ་དག",
+          tibetan: "གང་རྣམས་ཕྱོགས་བཅུའི་འཇིག་རྟེན་སྒྲོན་མ་དག",
           phonetics: "gang nam / chhog chü / jigten / drönma dag",
           translation: "O lanterns, who illumine worlds in all ten directions,",
           words: [
@@ -996,7 +996,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-exh-2",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་མ་ཆགས་བརྙེས།",
+          tibetan: "བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་མ་ཆགས་བརྙེས།",
           phonetics: "jangchhub / rimpar / sanggye / machag nye",
           translation: "by way of the progressive stages of awakening,",
           words: [
@@ -1025,7 +1025,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-exh-3",
           type: "normal",
-          tibetan: "།མགོན་པོ་དེ་དག་བདག་གིས་ཐམས་ཅད་ལ།",
+          tibetan: "མགོན་པོ་དེ་དག་བདག་གིས་ཐམས་ཅད་ལ།",
           phonetics: "gönpo dedag / dag gi / thamche la",
           translation: "you have become Buddhas, free from attachment.",
           words: [
@@ -1045,7 +1045,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-exh-4",
           type: "normal",
-          tibetan: "།འཁོར་ལོ་བླ་ན་མེད་པར་བསྐོར་བར་བསྐུལ།",
+          tibetan: "འཁོར་ལོ་བླ་ན་མེད་པར་བསྐོར་བར་བསྐུལ།",
           phonetics: "khorlo / lana mepar / korwar kul",
           translation: "Protectors, I entreat you all: turn the Supreme Wheel.",
           words: [
@@ -1082,7 +1082,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-req-1",
           type: "normal",
           stanceNumber: 11,
-          tibetan: "།མྱ་ངན་འདའ་སྟོན་གང་བཞེད་དེ་དག་ལ།",
+          tibetan: "མྱ་ངན་འདའ་སྟོན་གང་བཞེད་དེ་དག་ལ།",
           phonetics: "nya ngen da tön / gang zhe / dedag la",
           translation: "Palms joined, I beseech those among you",
           words: [
@@ -1111,7 +1111,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-req-2",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཀུན་ལ་ཕན་ཞིང་བདེ་བའི་ཕྱིར།",
+          tibetan: "འགྲོ་བ་ཀུན་ལ་ཕན་ཞིང་བདེ་བའི་ཕྱིར།",
           phonetics: "drowa kün la / phen zhing / dewe chhir",
           translation: "who mean to manifest the state beyond suffering:",
           words: [
@@ -1140,7 +1140,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-req-3",
           type: "normal",
-          tibetan: "།བསྐལ་པ་ཞིང་གི་རྡུལ་སྙེད་བཞུགས་པར་ཡང༌།",
+          tibetan: "བསྐལ་པ་ཞིང་གི་རྡུལ་སྙེད་བཞུགས་པར་ཡང༌།",
           phonetics: "kalpa / zhing gi dul nye / zhugpar yang",
           translation: "for as many eons as there are atoms in the universe,",
           words: [
@@ -1165,7 +1165,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-req-4",
           type: "normal",
-          tibetan: "།བདག་གིས་ཐལ་མོ་རབ་སྦྱར་གསོལ་བར་བགྱི།",
+          tibetan: "བདག་གིས་ཐལ་མོ་རབ་སྦྱར་གསོལ་བར་བགྱི།",
           phonetics: "dag gi thalmo / rab jar / solwar gyi",
           translation: "remain for the welfare and happiness of all beings.",
           words: [
@@ -1202,7 +1202,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-ded-1",
           type: "normal",
           stanceNumber: 12,
-          tibetan: "།ཕྱག་འཚལ་བ་དང་མཆོད་ཅིང་བཤགས་པ་དང།",
+          tibetan: "ཕྱག་འཚལ་བ་དང་མཆོད་ཅིང་བཤགས་པ་དང།",
           phonetics: "chhag tshalwa dang / chhö ching / shagpa dang",
           translation: "Whatever small merit has been garnered here",
           words: [
@@ -1226,7 +1226,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-ded-2",
           type: "normal",
-          tibetan: "།རྗེས་སུ་ཡི་རང་བསྐུལ་ཞིང་གསོལ་བ་ཡི།",
+          tibetan: "རྗེས་སུ་ཡི་རང་བསྐུལ་ཞིང་གསོལ་བ་ཡི།",
           phonetics: "jesu yi rang / kul zhing / solwa yi",
           translation: "through prostrating, offering and disclosing,",
           words: [
@@ -1250,7 +1250,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-ded-3",
           type: "normal",
-          tibetan: "།དགེ་བ་ཅུང་ཟད་བདག་གིས་ཅི་བསགས་པ།",
+          tibetan: "དགེ་བ་ཅུང་ཟད་བདག་གིས་ཅི་བསགས་པ།",
           phonetics: "gewa chungze / dag gi / chi sagpa",
           translation: "rejoicing, entreating and beseeching,",
           words: [
@@ -1279,7 +1279,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-ded-4",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་བདག་གིས་བྱང་ཆུབ་ཕྱིར་བསྔོའོ།",
+          tibetan: "ཐམས་ཅད་བདག་གིས་བྱང་ཆུབ་ཕྱིར་བསྔོའོ།",
           phonetics: "thamche dag gi / jangchhub chhir / ngo'o",
           translation: "I dedicate it all for the sake of enlightenment.",
           words: [
@@ -1311,7 +1311,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-13-1",
           type: "normal",
           stanceNumber: 13,
-          tibetan: "།འདས་པའི་སངས་རྒྱས་རྣམས་དང་ཕྱོགས་བཅུ་ཡི།",
+          tibetan: "འདས་པའི་སངས་རྒྱས་རྣམས་དང་ཕྱོགས་བཅུ་ཡི།",
           phonetics: "depe / sanggye nam dang / chhog chu yi",
           translation:
             "May the Buddhas of the past and those dwelling presently",
@@ -1336,7 +1336,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-13-2",
           type: "normal",
-          tibetan: "།འཇིག་རྟེན་དག་ན་གང་བཞུགས་མཆོད་པར་གྱུར།",
+          tibetan: "འཇིག་རྟེན་དག་ན་གང་བཞུགས་མཆོད་པར་གྱུར།",
           phonetics: "jigten dag na / gang zhug / chhöpar gyur",
           translation:
             "in the worlds of the ten directions be honored by offerings.",
@@ -1361,7 +1361,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-13-3",
           type: "normal",
-          tibetan: "།གང་ཡང་མ་བྱོན་དེ་དག་རབ་མྱུར་བར།",
+          tibetan: "གང་ཡང་མ་བྱོན་དེ་དག་རབ་མྱུར་བར།",
           phonetics: "gangyang / majön / dedag / rab nyurwar",
           translation: "May those yet to come swiftly fulfill their aspiration",
           words: [
@@ -1382,7 +1382,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-13-4",
           type: "normal",
-          tibetan: "།བསམ་རྫོགས་བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་སྤྱོན།",
+          tibetan: "བསམ་རྫོགས་བྱང་ཆུབ་རིམ་པར་སངས་རྒྱས་སྤྱོན།",
           phonetics: "sam dzog / jangchhub / rimpar / sanggye / chön",
           translation: "and attain Buddhahood through the stages of awakening.",
           words: [
@@ -1413,7 +1413,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-14-1",
           type: "normal",
           stanceNumber: 14,
-          tibetan: "།ཕྱོགས་བཅུ་ག་ལའི་ཞིང་རྣམས་ཇི་སྙེད་པ།",
+          tibetan: "ཕྱོགས་བཅུ་ག་ལའི་ཞིང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "chhog chu / gale / zhing nam / jinyepa",
           translation:
             "Wherever there are world systems in the ten directions,",
@@ -1439,7 +1439,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-14-2",
           type: "normal",
-          tibetan: "།དེ་དག་རྒྱ་ཆེར་ཡོངས་སུ་དག་པར་གྱུར།",
+          tibetan: "དེ་དག་རྒྱ་ཆེར་ཡོངས་སུ་དག་པར་གྱུར།",
           phonetics: "dedag / gyacher / yongsu / dagpar gyur",
           translation: "may they, in their great number, become pure.",
           words: [
@@ -1469,7 +1469,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-15-1",
           type: "normal",
           stanceNumber: 15,
-          tibetan: "།བྱང་ཆུབ་ཤིང་དབང་དྲུང་གཤེགས་རྒྱལ་བ་དང༌།",
+          tibetan: "བྱང་ཆུབ་ཤིང་དབང་དྲུང་གཤེགས་རྒྱལ་བ་དང༌།",
           phonetics: "jangchhub / shingwang / drung sheg / gyalwa dang",
           translation:
             "May these universes abound in Victorious Ones who have come",
@@ -1499,7 +1499,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-15-2",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་སྲས་ཀྱིས་རབ་ཏུ་གང་བར་ཤོག",
+          tibetan: "སངས་རྒྱས་སྲས་ཀྱིས་རབ་ཏུ་གང་བར་ཤོག",
           phonetics: "sanggye / se kyi / rabtu / gangwar shog",
           translation:
             "before the Tree of Enlightenment accompanied by Bodhisattvas, their spiritual heirs.",
@@ -1526,7 +1526,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-16-1",
           type: "normal",
           stanceNumber: 16,
-          tibetan: "།ཕྱོགས་བཅུའི་སེམས་ཅན་གང་རྣམས་ཇི་སྙེད་པ།",
+          tibetan: "ཕྱོགས་བཅུའི་སེམས་ཅན་གང་རྣམས་ཇི་སྙེད་པ།",
           phonetics: "chhog chü / semchen / gang nam / jinye pa",
           translation: "May each and every one of the manifold beings",
           words: [
@@ -1555,7 +1555,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-16-2",
           type: "normal",
-          tibetan: "།དེ་དག་རྟག་ཏུ་ནད་མེད་བདེ་བར་གྱུར།",
+          tibetan: "དེ་དག་རྟག་ཏུ་ནད་མེད་བདེ་བར་གྱུར།",
           phonetics: "dedag / tagtu / neme / dewar gyur",
           translation: "of the ten directions always be happy and healthy.",
           words: [
@@ -1577,7 +1577,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-17-1",
           type: "normal",
           stanceNumber: 17,
-          tibetan: "།འགྲོ་བ་ཀུན་གྱི་ཆོས་ཀྱི་དོན་རྣམས་ནི།",
+          tibetan: "འགྲོ་བ་ཀུན་གྱི་ཆོས་ཀྱི་དོན་རྣམས་ནི།",
           phonetics: "drowa / kün gyi / chhö kyi / dön nam ni",
           translation: "May all beings find true purpose in the Dharma,",
           words: [
@@ -1598,7 +1598,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-17-2",
           type: "normal",
-          tibetan: "།མཐུན་པར་གྱུར་ཅིང་རེ་བའང་འགྲུབ་པར་ཤོག",
+          tibetan: "མཐུན་པར་གྱུར་ཅིང་རེ་བའང་འགྲུབ་པར་ཤོག",
           phonetics: "thünpar / gyur ching / rewa'ang / drubpar shog",
           translation:
             "and in harmony with this, may their hopes be fulfilled.",
@@ -1629,7 +1629,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-18-1",
           type: "normal",
           stanceNumber: 18,
-          tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་དག་ནི་བདག་སྤྱོད་ཅིང༌།",
+          tibetan: "བྱང་ཆུབ་སྤྱོད་པ་དག་ནི་བདག་སྤྱོད་ཅིང༌།",
           phonetics: "jangchhub / chöpa / dag ni / dag chô ching",
           translation: "May I carry out the many forms of Enlightened Conduct,",
           words: [
@@ -1654,7 +1654,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-18-2",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཀུན་ཏུ་སྐྱེ་བ་དྲན་པར་གྱུར།",
+          tibetan: "འགྲོ་བ་ཀུན་ཏུ་སྐྱེ་བ་དྲན་པར་གྱུར།",
           phonetics: "drowa / küntu / kyewa / drenpar gyur",
           translation:
             "and remember past lives when experiencing each new one.",
@@ -1680,7 +1680,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-18-3",
           type: "normal",
-          tibetan: "།ཚེ་རབས་ཀུན་ཏུ་འཆི་འཕོ་སྐྱེ་བ་ན།",
+          tibetan: "ཚེ་རབས་ཀུན་ཏུ་འཆི་འཕོ་སྐྱེ་བ་ན།",
           phonetics: "tsherab / küntu / chhipho / kyewa na",
           translation:
             "During each successive death, transmigration, and rebirth,",
@@ -1706,7 +1706,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-18-4",
           type: "normal",
-          tibetan: "།རྟག་ཏུ་བདག་ནི་རབ་ཏུ་འབྱུང་བར་ཤོག",
+          tibetan: "རྟག་ཏུ་བདག་ནི་རབ་ཏུ་འབྱུང་བར་ཤོག",
           phonetics: "tagtu / dag ni / rabtu / jungwar shog",
           translation: "may I always embrace religious life, and renounce.",
           words: [
@@ -1724,7 +1724,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-19-1",
           type: "normal",
           stanceNumber: 19,
-          tibetan: "།རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
+          tibetan: "རྒྱལ་བ་ཀུན་གྱི་རྗེས་སུ་སློབ་གྱུར་ཏེ།",
           phonetics: "gyalwa / kün gyi / jesu / lob gyur te",
           translation: "Following the example of the Victorious Ones,",
           words: [
@@ -1753,7 +1753,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-19-2",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང༌།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང༌།",
           phonetics: "zangpo / chöpa / yongsu / dzog je ching",
           translation: "may I fully accomplish Excellent Conduct,",
           words: [
@@ -1774,7 +1774,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-19-3",
           type: "normal",
-          tibetan: "།ཚུལ་ཁྲིམས་སྤྱོད་པ་དྲི་མེད་ཡོངས་དག་པར།",
+          tibetan: "ཚུལ་ཁྲིམས་སྤྱོད་པ་དྲི་མེད་ཡོངས་དག་པར།",
           phonetics: "tshulthrim / chöpa / drime / yong dagpar",
           translation: "and may my moral behavior be flawless and pure.",
           words: [
@@ -1799,7 +1799,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-19-4",
           type: "normal",
-          tibetan: "།རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
+          tibetan: "རྟག་ཏུ་མ་ཉམས་སྐྱོན་མེད་སྤྱོད་པར་ཤོག",
           phonetics: "tagtu / manyam / kyönme / chöpar shog",
           translation: "May I conduct myself faultlessly in all situations.",
           words: [
@@ -1825,7 +1825,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-20-1",
           type: "normal",
           stanceNumber: 20,
-          tibetan: "།ལྷ་ཡི་སྐད་དང་ཀླུ་དང་གནོད་སྦྱིན་སྐད།",
+          tibetan: "ལྷ་ཡི་སྐད་དང་ཀླུ་དང་གནོད་སྦྱིན་སྐད།",
           phonetics: "lha yi / ke dang / lu dang / nöjin ke",
           translation: "May I communicate the Buddhadharma",
           words: [
@@ -1850,7 +1850,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-20-2",
           type: "normal",
-          tibetan: "།གྲུལ་བུམ་དག་དང་མི་ཡི་སྐད་རྣམས་དང༌།",
+          tibetan: "གྲུལ་བུམ་དག་དང་མི་ཡི་སྐད་རྣམས་དང༌།",
           phonetics: "drulbum / dag dang / mi yi / ke nam dang",
           translation: "in every language known to sentient beings,",
           words: [
@@ -1875,7 +1875,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-20-3",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཀུན་གྱི་སྒྲ་སྐད་ཇི་ཙམ་པར།",
+          tibetan: "འགྲོ་བ་ཀུན་གྱི་སྒྲ་སྐད་ཇི་ཙམ་པར།",
           phonetics: "drowa / kün gyi / dra ke / ji tsampar",
           translation: "the tongues of gods, nagas, yakshas, kumbhandas,",
           words: [
@@ -1904,7 +1904,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-20-4",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་སྐད་དུ་བདག་གིས་ཆོས་བསྟན་ཏོ།",
+          tibetan: "ཐམས་ཅད་སྐད་དུ་བདག་གིས་ཆོས་བསྟན་ཏོ།",
           phonetics: "thamche / ke du / dag gi / chhö ten to",
           translation: "and all languages spoken by humankind.",
           words: [
@@ -1926,7 +1926,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-21-1",
           type: "normal",
           stanceNumber: 21,
-          tibetan: "།དེས་ཤིང་ཕ་རོལ་ཕྱིན་ལ་རབ་བརྩོན་ཏེ།",
+          tibetan: "དེས་ཤིང་ཕ་རོལ་ཕྱིན་ལ་རབ་བརྩོན་ཏེ།",
           phonetics: "de shing / pharol chhin la / rab tsön te",
           translation:
             "May I apply myself to the transcendent qualities of the paramitas,",
@@ -1951,7 +1951,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-21-2",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སེམས་ནི་ནམ་ཡང་བརྗེད་མ་གྱུར།",
+          tibetan: "བྱང་ཆུབ་སེམས་ནི་ནམ་ཡང་བརྗེད་མ་གྱུར།",
           phonetics: "jangchhub sem ni / namyang / je magyur",
           translation: "while never losing sight of awakening mind.",
           words: [
@@ -1972,7 +1972,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-22-1",
           type: "normal",
           stanceNumber: 22,
-          tibetan: "།སྡིག་པ་གང་རྣམས་སྒྲིབ་པར་འགྱུར་བ་དག",
+          tibetan: "སྡིག་པ་གང་རྣམས་སྒྲིབ་པར་འགྱུར་བ་དག",
           phonetics: "digpa / gang nam / dribpar / gyurwa dag",
           translation: "As for all harmful acts that have resulted in veils,",
           words: [
@@ -2001,7 +2001,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-22-2",
           type: "normal",
-          tibetan: "།དེ་དག་མ་ལུས་ཡོངས་སུ་བྱང་བར་ཤོག",
+          tibetan: "དེ་དག་མ་ལུས་ཡོངས་སུ་བྱང་བར་ཤོག",
           phonetics: "dedag / malü / yongsu / jangwar shog",
           translation: "may they be entirely purified, without exception.",
           words: [
@@ -2027,7 +2027,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-23-1",
           type: "normal",
           stanceNumber: 23,
-          tibetan: "།ལས་དང་ཉོན་མོངས་བདུད་ཀྱི་ལས་རྣམས་ལས།",
+          tibetan: "ལས་དང་ཉོན་མོངས་བདུད་ཀྱི་ལས་རྣམས་ལས།",
           phonetics: "le dang / nyonmong / dü kyi / le nam le",
           translation:
             "May I be liberated from negative karma, disturbing emotions, and the actions of maras.",
@@ -2057,7 +2057,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-23-2",
           type: "normal",
-          tibetan: "།གྲོལ་ཞིང་འཇིག་རྟེན་འགྲོ་བ་རྣམས་སུ་ཡང་།",
+          tibetan: "གྲོལ་ཞིང་འཇིག་རྟེན་འགྲོ་བ་རྣམས་སུ་ཡང་།",
           phonetics: "drol zhing / jigten / drowa / nam su yang",
           translation: "Wherever there are world systems and beings,",
           words: [
@@ -2086,7 +2086,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-23-3",
           type: "normal",
-          tibetan: "།ཇི་ལྟར་པདྨོ་ཆུས་མི་ཆགས་པ་བཞིན།",
+          tibetan: "ཇི་ལྟར་པདྨོ་ཆུས་མི་ཆགས་པ་བཞིན།",
           phonetics: "jitar / pemo / chhü / michhagpa zhin",
           translation: "may I be like the lotus, not clung to by water,",
           words: [
@@ -2103,7 +2103,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-23-4",
           type: "normal",
-          tibetan: "།ཉི་ཟླ་ནམ་མཁར་ཐོགས་པ་མེད་ལྟར་སྤྱད།",
+          tibetan: "ཉི་ཟླ་ནམ་མཁར་ཐོགས་པ་མེད་ལྟར་སྤྱད།",
           phonetics: "nyi / da / namkhar / thogpame / tar che",
           translation: "and the sun and the moon, unhindered in the sky.",
           words: [
@@ -2130,7 +2130,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-24-1",
           type: "normal",
           stanceNumber: 24,
-          tibetan: "།ཞིང་གི་ཁྱོན་དང་ཕྱོགས་རྣམས་ཇི་ཙམ་པར།",
+          tibetan: "ཞིང་གི་ཁྱོན་དང་ཕྱོགས་རྣམས་ཇི་ཙམ་པར།",
           phonetics: "zhing gi / khyön dang / chhog nam / ji tsampar",
           translation: "Throughout each of the realms and in every direction,",
           words: [
@@ -2143,7 +2143,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-24-2",
           type: "normal",
-          tibetan: "།ངན་སོང་སྡུག་བསྔལ་རབ་ཏུ་ཞི་བར་བྱེད།",
+          tibetan: "ངན་སོང་སྡུག་བསྔལ་རབ་ཏུ་ཞི་བར་བྱེད།",
           phonetics: "ngensong / dugngal / rabtu / zhiwar je",
           translation: "may I pacify all suffering of the lower realms.",
           words: [
@@ -2156,7 +2156,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-24-3",
           type: "normal",
-          tibetan: "།བདེ་བ་དག་ལ་འགྲོ་བ་ཀུན་འགོད་ཅིང་།",
+          tibetan: "བདེ་བ་དག་ལ་འགྲོ་བ་ཀུན་འགོད་ཅིང་།",
           phonetics: "dewa / dag la / drowa kün / gö ching",
           translation: "May I establish all beings in happiness,",
           words: [
@@ -2169,7 +2169,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-24-4",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཐམས་ཅད་ལ་ནི་ཕན་པར་སྤྱད།",
+          tibetan: "འགྲོ་བ་ཐམས་ཅད་ལ་ནི་ཕན་པར་སྤྱད།",
           phonetics: "drowa / thamche / la ni / phenpar che",
           translation: "and may I be of assistance to everyone.",
           words: [
@@ -2183,7 +2183,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-25-1",
           type: "normal",
           stanceNumber: 25,
-          tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང༌།",
+          tibetan: "བྱང་ཆུབ་སྤྱོད་པ་ཡོངས་སུ་རྫོགས་བྱེད་ཅིང༌།",
           phonetics: "jangchhub / chöpa / yongsu / dzogje ching",
           translation: "May I perfect the practice of Enlightened Conduct",
           words: [
@@ -2196,7 +2196,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-25-2",
           type: "normal",
-          tibetan: "།སེམས་ཅན་དག་གི་སྤྱོད་དང་མཐུན་པར་འཇུག",
+          tibetan: "སེམས་ཅན་དག་གི་སྤྱོད་དང་མཐུན་པར་འཇུག",
           phonetics: "semchen / dag gi / chö dang / thünpar jug",
           translation: "in accord with the various lifestyles of beings.",
           words: [
@@ -2209,7 +2209,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-25-3",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་དག་ནི་རབ་སྟོན་ཅིང༌།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་དག་ནི་རབ་སྟོན་ཅིང༌།",
           phonetics: "zangpo / chöpa / dag ni / rab tön ching",
           translation: "May I fully exemplify Excellent Conduct,",
           words: [
@@ -2222,7 +2222,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-25-4",
           type: "normal",
-          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱོད་པར་གྱུར།",
+          tibetan: "མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱོད་པར་གྱུར།",
           phonetics: "ma ong / kalpa / küntu / chöpar gyur",
           translation: "and continue to do so during all future eons.",
           words: [
@@ -2236,7 +2236,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-26-1",
           type: "normal",
           stanceNumber: 26,
-          tibetan: "།བདག་གི་སྤྱོད་དང་མཚུངས་པར་གང་སྤྱོད་པ།",
+          tibetan: "བདག་གི་སྤྱོད་དང་མཚུངས་པར་གང་སྤྱོད་པ།",
           phonetics: "dag gi / chö dang / tsungpar / gang chöpa",
           translation: "May I always be accompanied by those friends",
           words: [
@@ -2249,7 +2249,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-26-2",
           type: "normal",
-          tibetan: "།དེ་དག་དང་ནི་རྟག་ཏུ་འགྲོགས་པར་ཤོག",
+          tibetan: "དེ་དག་དང་ནི་རྟག་ཏུ་འགྲོགས་པར་ཤོག",
           phonetics: "dedag / dang ni / tagtu / drogpar shog",
           translation: "whose practice and conduct resemble my own.",
           words: [
@@ -2262,7 +2262,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-26-3",
           type: "normal",
-          tibetan: "།ལུས་དང་ངག་རྣམས་དང་ནི་སེམས་ཀྱིས་ཀྱང༌།",
+          tibetan: "ལུས་དང་ངག་རྣམས་དང་ནི་སེམས་ཀྱིས་ཀྱང༌།",
           phonetics: "lü dang / ngag nam / dang ni / sem kyi kyang",
           translation: "With regard to our body, speech, and mind,",
           words: [
@@ -2275,7 +2275,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-26-4",
           type: "normal",
-          tibetan: "།སྤྱོད་པ་དག་དང་སྨོན་ལམ་གཅིག་ཏུ་སྤྱད།",
+          tibetan: "སྤྱོད་པ་དག་དང་སྨོན་ལམ་གཅིག་ཏུ་སྤྱད།",
           phonetics: "chöpa / dag dang / mönlam / chig tu che",
           translation: "may all of our actions and prayers be as one.",
           words: [
@@ -2289,7 +2289,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-27-1",
           type: "normal",
           stanceNumber: 27,
-          tibetan: "།བདག་ལ་ཕན་པར་འདོད་པའི་གྲོགས་པོ་དག",
+          tibetan: "བདག་ལ་ཕན་པར་འདོད་པའི་གྲོགས་པོ་དག",
           phonetics: "dag la / phenpar / döpe / drogpo dag",
           translation: "Friends who wish to benefit me,",
           words: [
@@ -2302,7 +2302,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-27-2",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་རབ་ཏུ་སྟོན་པ་རྣམས།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་རབ་ཏུ་སྟོན་པ་རྣམས།",
           phonetics: "zangpo / chöpa / rabtu / tönpa nam",
           translation: "those who teach the sublime conduct excellently,",
           words: [
@@ -2315,7 +2315,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-27-3",
           type: "normal",
-          tibetan: "།དེ་དག་དང་ཡང་རྟག་ཏུ་འཕྲད་པར་ཤོག",
+          tibetan: "དེ་དག་དང་ཡང་རྟག་ཏུ་འཕྲད་པར་ཤོག",
           phonetics: "dedag dang yang / tagtu / threpar shog",
           translation: "may I always encounter companions who exemplify Excellent Conduct",
           words: [
@@ -2327,7 +2327,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-27-4",
           type: "normal",
-          tibetan: "།དེ་དག་བདག་གིས་ནམ་ཡང་ཡིད་མི་དབྱུང༌།",
+          tibetan: "དེ་དག་བདག་གིས་ནམ་ཡང་ཡིད་མི་དབྱུང༌།",
           phonetics: "dedag / dag gi / namyang / yi miyung",
           translation: "and have my well-being at heart. May I never let these teachers down.",
           words: [
@@ -2341,7 +2341,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-28-1",
           type: "normal",
           stanceNumber: 28,
-          tibetan: "།སངས་རྒྱས་སྲས་ཀྱིས་བསྐོར་བའི་མགོན་པོ་རྣམས།",
+          tibetan: "སངས་རྒྱས་སྲས་ཀྱིས་བསྐོར་བའི་མགོན་པོ་རྣམས།",
           phonetics: "sanggye / se kyi / korwe / gönpo nam",
           translation: "May I always directly perceive the Victorious Ones:",
           words: [
@@ -2354,7 +2354,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-28-2",
           type: "normal",
-          tibetan: "།མངོན་སུམ་རྟག་ཏུ་བདག་གིས་རྒྱལ་བ་བལྟ།",
+          tibetan: "མངོན་སུམ་རྟག་ཏུ་བདག་གིས་རྒྱལ་བ་བལྟ།",
           phonetics: "ngönsum / tagtu / dag gi / gyalwa ta",
           translation: "the Protectors and their entourage of Bodhisattvas.",
           words: [
@@ -2367,7 +2367,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-28-3",
           type: "normal",
-          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་མི་སྐྱོ་བར།",
+          tibetan: "མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་མི་སྐྱོ་བར།",
           phonetics: "ma ong / kalpa / küntu / mikyowar",
           translation: "Throughout all future eons, may I never grow weary",
           words: [
@@ -2380,7 +2380,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-28-4",
           type: "normal",
-          tibetan: "།དེ་དག་ལ་ཡང་མཆོད་པ་རྒྱ་ཆེར་བགྱི།",
+          tibetan: "དེ་དག་ལ་ཡང་མཆོད་པ་རྒྱ་ཆེར་བགྱི།",
           phonetics: "dedag la yang / chhöpa / gyachher gyi",
           translation: "of honoring them with remarkably vast offerings.",
           words: [
@@ -2393,7 +2393,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-29-1",
           type: "normal",
           stanceNumber: 29,
-          tibetan: "།རྒྱལ་བ་རྣམས་ཀྱི་དམ་པའི་ཆོས་འཛིན་ཅིང།",
+          tibetan: "རྒྱལ་བ་རྣམས་ཀྱི་དམ་པའི་ཆོས་འཛིན་ཅིང།",
           phonetics: "gyalwa / nam kyi / dampe / chhö dzin ching",
           translation: "May I uphold the genuine Dharma of the Buddhas,",
           words: [
@@ -2406,7 +2406,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-29-2",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སྤྱོད་པ་ཀུན་ཏུ་སྣང་བར་བྱེད།",
+          tibetan: "བྱང་ཆུབ་སྤྱོད་པ་ཀུན་ཏུ་སྣང་བར་བྱེད།",
           phonetics: "jangchhub / chöpa / küntu / nangwar je",
           translation: "and make Enlightened Conduct fully manifest.",
           words: [
@@ -2419,7 +2419,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-29-3",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་རྣམ་པར་སྦྱང་བ་ཡང་།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་རྣམ་པར་སྦྱང་བ་ཡང་།",
           phonetics: "zangpo / chöpa / nampar / jangwa yang",
           translation: "May I be perfectly trained in Excellent Conduct,",
           words: [
@@ -2432,7 +2432,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-29-4",
           type: "normal",
-          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱད་པར་བགྱི།",
+          tibetan: "མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་སྤྱད་པར་བགྱི།",
           phonetics: "ma ong / kalpa / küntu / chepar gyi",
           translation: "wholeheartedly continuing for eons to come.",
           words: [
@@ -2446,7 +2446,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-30-1",
           type: "normal",
           stanceNumber: 30,
-          tibetan: "།སྲིད་པ་ཐམས་ཅད་དུ་ཡང་འཁོར་བ་ན།",
+          tibetan: "སྲིད་པ་ཐམས་ཅད་དུ་ཡང་འཁོར་བ་ན།",
           phonetics: "sipa / thamche / du yang / khorwa na",
           translation: "Through all my existences, be they within samsara,",
           words: [
@@ -2459,7 +2459,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-30-2",
           type: "normal",
-          tibetan: "།བསོད་ནམས་ཡེ་ཤེས་དག་ནི་མི་ཟད་རྙེད།",
+          tibetan: "བསོད་ནམས་ཡེ་ཤེས་དག་ནི་མི་ཟད་རྙེད།",
           phonetics: "sönam / yeshe / dag ni / mize / nye",
           translation: "may I acquire inexhaustible merit and wisdom.",
           words: [
@@ -2473,7 +2473,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-30-3",
           type: "normal",
-          tibetan: "།ཐབས་དང་ཤེས་རབ་ཏིང་འཛིན་རྣམ་ཐར་དང༌།",
+          tibetan: "ཐབས་དང་ཤེས་རབ་ཏིང་འཛིན་རྣམ་ཐར་དང༌།",
           phonetics: "thab / dang / sherab / tingdzin / namthar / dang",
           translation: "May these become a never-ending treasure of qualities,",
           words: [
@@ -2488,7 +2488,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-30-4",
           type: "normal",
-          tibetan: "།ཡོན་ཏན་ཀུན་གྱི་མི་ཟད་མཛོད་དུ་གྱུར།",
+          tibetan: "ཡོན་ཏན་ཀུན་གྱི་མི་ཟད་མཛོད་དུ་གྱུར།",
           phonetics: "yönten / kün gyi / mize / dzö du gyur",
           translation: "methods, superior knowledge, samadhi and liberation.",
           words: [
@@ -2502,7 +2502,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-31-1",
           type: "normal",
           stanceNumber: 31,
-          tibetan: "།རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་ཞིང་རྣམས་ཏེ།",
+          tibetan: "རྡུལ་གཅིག་སྟེང་ན་རྡུལ་སྙེད་ཞིང་རྣམས་ཏེ།",
           phonetics: "dul chig teng na / dul nye / zhing nam te",
           translation: "Atop one particle, there are as many realms as atoms;",
           words: [
@@ -2514,7 +2514,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-31-2",
           type: "normal",
-          tibetan: "།ཞིང་དེར་བསམ་གྱིས་མི་ཁྱབ་སངས་རྒྱས་རྣམས།",
+          tibetan: "ཞིང་དེར་བསམ་གྱིས་མི་ཁྱབ་སངས་རྒྱས་རྣམས།",
           phonetics: "zhing der / sam gyi mikhyab / sanggye nam",
           translation: "in each pure realm, more Buddhas than can be imagined",
           words: [
@@ -2526,7 +2526,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-31-3",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་ལ།",
+          tibetan: "སངས་རྒྱས་སྲས་ཀྱི་དབུས་ན་བཞུགས་པ་ལ།",
           phonetics: "sanggye / se kyi / ü na / zhugpa la",
           translation: "reside amidst Bodhisattvas, their spiritual heirs.",
           words: [
@@ -2539,7 +2539,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-31-4",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སྤྱད་པ་སྤྱོད་ཅིང་བལྟ་བར་བགྱི།",
+          tibetan: "བྱང་ཆུབ་སྤྱད་པ་སྤྱོད་ཅིང་བལྟ་བར་བགྱི།",
           phonetics: "jangchhub / chepa / chö ching / tawar gyi",
           translation: "May I see them and emulate their enlightened activity.",
           words: [
@@ -2553,7 +2553,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-32-1",
           type: "normal",
           stanceNumber: 32,
-          tibetan: "།དེ་ལྟར་མ་ལུས་ཐམས་ཅད་ཕྱོགས་སུ་ཡང་།",
+          tibetan: "དེ་ལྟར་མ་ལུས་ཐམས་ཅད་ཕྱོགས་སུ་ཡང་།",
           phonetics: "detar / malü / thamche / chhog su yang",
           translation: "Likewise, in absolutely every direction, within the space on the tip of one hair,",
           words: [
@@ -2566,7 +2566,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-32-2",
           type: "normal",
-          tibetan: "།སྐྲ་ཙམ་ཁྱོན་ལ་དུས་གསུམ་ཚད་སྙེད་ཀྱི།",
+          tibetan: "སྐྲ་ཙམ་ཁྱོན་ལ་དུས་གསུམ་ཚད་སྙེད་ཀྱི།",
           phonetics: "tra tsam / khyön la / dü sum / tshe nye kyi",
           translation: "there are oceans of Buddhas of past, present, and future,",
           words: [
@@ -2579,7 +2579,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-32-3",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་རྒྱ་མཚོ་ཞིང་རྣམས་རྒྱ་མཚོ་དང༌།",
+          tibetan: "སངས་རྒྱས་རྒྱ་མཚོ་ཞིང་རྣམས་རྒྱ་མཚོ་དང༌།",
           phonetics: "sanggye / gyatsho / zhing nam / gyatsho dang",
           translation: "oceans of pure realms and oceans of eons.",
           words: [
@@ -2592,7 +2592,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-32-4",
           type: "normal",
-          tibetan: "།བསྐལ་པ་རྒྱ་མཚོར་སྤྱོད་ཅིང་རབ་ཏུ་འཇུག",
+          tibetan: "བསྐལ་པ་རྒྱ་མཚོར་སྤྱོད་ཅིང་རབ་ཏུ་འཇུག",
           phonetics: "kalpa / gyatshor / chö ching / rabtu jug",
           translation: "May I fully take part in this enlightened activity.",
           words: [
@@ -2606,7 +2606,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-33-1",
           type: "normal",
           stanceNumber: 33,
-          tibetan: "།གསུང་གཅིག་ཡན་ལག་རྒྱ་མཚོའི་སྒྲ་སྐད་ཀྱིས།",
+          tibetan: "གསུང་གཅིག་ཡན་ལག་རྒྱ་མཚོའི་སྒྲ་སྐད་ཀྱིས།",
           phonetics: "sung chig / yenlag / gyatsho'i / drake kyi",
           translation: "The sound of one instance of the Buddha's speech, with its ocean of qualities,",
           words: [
@@ -2619,7 +2619,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-33-2",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་ཀུན་དབྱངས་ཡན་ལག་རྣམ་དག་པ།",
+          tibetan: "རྒྱལ་བ་ཀུན་དབྱངས་ཡན་ལག་རྣམ་དག་པ།",
           phonetics: "gyalwa / kün yang / yenlag / namdagpa",
           translation: "holds the pure range of harmonious expressions of all Victorious Ones:",
           words: [
@@ -2632,7 +2632,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-33-3",
           type: "normal",
-          tibetan: "།འགྲོ་བ་ཀུན་གྱི་བསམ་པ་ཇི་བཞིན་དབྱངས།",
+          tibetan: "འགྲོ་བ་ཀུན་གྱི་བསམ་པ་ཇི་བཞིན་དབྱངས།",
           phonetics: "drowa / kün gyi / sampa / jizhin yang",
           translation: "It is the very melody of each being's understanding.",
           words: [
@@ -2645,7 +2645,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-33-4",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་གསུང་ལ་རྟག་ཏུ་འཇུག་པར་བགྱི།",
+          tibetan: "སངས་རྒྱས་གསུང་ལ་རྟག་ཏུ་འཇུག་པར་བགྱི།",
           phonetics: "sanggye / sung la / tagtu / jugpar gyi",
           translation: "May I always engage in the speech of the Buddhas.",
           words: [
@@ -2659,7 +2659,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-34-1",
           type: "normal",
           stanceNumber: 34,
-          tibetan: "།དུས་གསུམ་གཤེགས་པ་རྒྱལ་བ་ཐམས་ཅད་དག",
+          tibetan: "དུས་གསུམ་གཤེགས་པ་རྒྱལ་བ་ཐམས་ཅད་དག",
           phonetics: "dü sum / shegpa / gyalwa / thamche dag",
           translation: "All Victorious Ones of past, present, and future",
           words: [
@@ -2672,7 +2672,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-34-2",
           type: "normal",
-          tibetan: "།འཁོར་ལོའི་ཚུལ་རྣམས་རབ་ཏུ་བསྐོར་བ་ཡིས།",
+          tibetan: "འཁོར་ལོའི་ཚུལ་རྣམས་རབ་ཏུ་བསྐོར་བ་ཡིས།",
           phonetics: "khorlö / tshul nam / rabtu / korwa yi",
           translation: "fully turn the Wheel of Dharma in a variety of ways.",
           words: [
@@ -2685,7 +2685,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-34-3",
           type: "normal",
-          tibetan: "།དེ་དག་གི་ཡང་གསུང་དབྱངས་མི་ཟད་ལ།",
+          tibetan: "དེ་དག་གི་ཡང་གསུང་དབྱངས་མི་ཟད་ལ།",
           phonetics: "dedag gi yang / sung yang / mize la",
           translation: "Through the power of mind, may I also participate",
           words: [
@@ -2697,7 +2697,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-34-4",
           type: "normal",
-          tibetan: "།བློ་ཡི་སྟོབས་ཀྱིས་བདག་ཀྱང་རབ་ཏུ་འཇུག",
+          tibetan: "བློ་ཡི་སྟོབས་ཀྱིས་བདག་ཀྱང་རབ་ཏུ་འཇུག",
           phonetics: "lo yi / tob kyi / dag kyang / rabtu jug",
           translation: "in the boundless expression of their melodious speech.",
           words: [
@@ -2711,7 +2711,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-35-1",
           type: "normal",
           stanceNumber: 35,
-          tibetan: "།མ་འོངས་བསྐལ་པ་ཐམས་ཅད་འཇུག་པར་ཡང༌།",
+          tibetan: "མ་འོངས་བསྐལ་པ་ཐམས་ཅད་འཇུག་པར་ཡང༌།",
           phonetics: "ma ong / kalpa / thamche / jugpar yang",
           translation: "In a single instant, may I engage",
           words: [
@@ -2724,7 +2724,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-35-2",
           type: "normal",
-          tibetan: "།སྐད་ཅིག་གཅིག་གིས་བདག་ཀྱང་འཇུག་པར་བགྱི།",
+          tibetan: "སྐད་ཅིག་གཅིག་གིས་བདག་ཀྱང་འཇུག་པར་བགྱི།",
           phonetics: "kechig / chig gi / dag kyang / jugpar gyi",
           translation: "in all future eons that will be experienced.",
           words: [
@@ -2737,7 +2737,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-35-3",
           type: "normal",
-          tibetan: "།གང་ཡང་བསྐལ་པ་དུས་གསུམ་ཚད་དེ་དག",
+          tibetan: "གང་ཡང་བསྐལ་པ་དུས་གསུམ་ཚད་དེ་དག",
           phonetics: "gangyang / kalpa / dü sum / tshe dedag",
           translation: "In just a split second, may I take part in any",
           words: [
@@ -2750,7 +2750,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-35-4",
           type: "normal",
-          tibetan: "།སྐད་ཅིག་ཆ་ཤས་ཀྱིས་ནི་ཞུགས་པར་སྤྱད།",
+          tibetan: "སྐད་ཅིག་ཆ་ཤས་ཀྱིས་ནི་ཞུགས་པར་སྤྱད།",
           phonetics: "kechig / chhashe / kyi ni / zhugpar che",
           translation: "and all of the eons of the three times.",
           words: [
@@ -2764,7 +2764,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-36-1",
           type: "normal",
           stanceNumber: 36,
-          tibetan: "།དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་གང༌།",
+          tibetan: "དུས་གསུམ་གཤེགས་པ་མི་ཡི་སེང་གེ་གང༌།",
           phonetics: "dü sum / shegpa / mi yi / sengge gang",
           translation: "In the space of a single moment,",
           words: [
@@ -2777,7 +2777,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-36-2",
           type: "normal",
-          tibetan: "།དེ་དག་སྐད་ཅིག་གཅིག་ལ་བདག་གིས་བལྟ།",
+          tibetan: "དེ་དག་སྐད་ཅིག་གཅིག་ལ་བདག་གིས་བལྟ།",
           phonetics: "dedag / kechig / chig la / dag gi ta",
           translation: "may I behold all lions among men of past, present, and future.",
           words: [
@@ -2790,7 +2790,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-36-3",
           type: "normal",
-          tibetan: "།རྟག་ཏུ་དེ་དག་གི་ནི་སྤྱོད་ཡུལ་ལ།",
+          tibetan: "རྟག་ཏུ་དེ་དག་གི་ནི་སྤྱོད་ཡུལ་ལ།",
           phonetics: "tagtu / dedag / gi ni / chöyul la",
           translation: "May I continually engage in their field of experience",
           words: [
@@ -2803,7 +2803,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-36-4",
           type: "normal",
-          tibetan: "།སྒྱུ་མར་གྱུར་པའི་རྣམ་ཐར་སྟོབས་ཀྱིས་འཇུག",
+          tibetan: "སྒྱུ་མར་གྱུར་པའི་རྣམ་ཐར་སྟོབས་ཀྱིས་འཇུག",
           phonetics: "gyumar gyurpe / namthar / tob / kyi jug",
           translation: "through the power of illusion-like spiritual liberation.",
           words: [
@@ -2817,7 +2817,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-37-1",
           type: "normal",
           stanceNumber: 37,
-          tibetan: "།གང་ཡང་དུས་གསུམ་དག་གི་ཞིང་བཀོད་པ།",
+          tibetan: "གང་ཡང་དུས་གསུམ་དག་གི་ཞིང་བཀོད་པ།",
           phonetics: "gangyang / dü sum / dag gi / zhing köpa",
           translation: "The clusters of galaxies of past, present, and future",
           words: [
@@ -2830,7 +2830,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-37-2",
           type: "normal",
-          tibetan: "།དེ་དག་རྡུལ་གཅིག་སྟེང་དུ་མངོན་པར་བསྒྲུབ།",
+          tibetan: "དེ་དག་རྡུལ་གཅིག་སྟེང་དུ་མངོན་པར་བསྒྲུབ།",
           phonetics: "dedag / dul chig / tengdu / ngönpar drub",
           translation: "have all been established atop a single particle.",
           words: [
@@ -2843,7 +2843,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-37-3",
           type: "normal",
-          tibetan: "།དེ་ལྟར་མ་ལུས་ཕྱོགས་རྣམས་ཐམས་ཅད་དུ།",
+          tibetan: "དེ་ལྟར་མ་ལུས་ཕྱོགས་རྣམས་ཐམས་ཅད་དུ།",
           phonetics: "detar / malü / chhog nam / thamche du",
           translation: "Accordingly, in all directions, without exception,",
           words: [
@@ -2856,7 +2856,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-37-4",
           type: "normal",
-          tibetan: "།རྒྱལ་བ་རྣམས་ཀྱི་ཞིང་གི་བཀོད་ལ་འཇུག",
+          tibetan: "རྒྱལ་བ་རྣམས་ཀྱི་ཞིང་གི་བཀོད་ལ་འཇུག",
           phonetics: "gyalwa / namkyi / zhing gi / kö la jug",
           translation: "may I take part in the pure realms of the Victors.",
           words: [
@@ -2870,7 +2870,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-38-1",
           type: "normal",
           stanceNumber: 38,
-          tibetan: "།གང་ཡང་མ་བྱོན་འཇིག་རྟེན་སྒྲོན་མ་རྣམས།",
+          tibetan: "གང་ཡང་མ་བྱོན་འཇིག་རྟེན་སྒྲོན་མ་རྣམས།",
           phonetics: "gangyang / majön / jigten / drönma nam",
           translation: "The Lanterns of the World who have yet to come will all,",
           words: [
@@ -2883,7 +2883,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-38-2",
           type: "normal",
-          tibetan: "།དེ་དག་རིམ་པར་འཚང་རྒྱ་འཁོར་ལོ་བསྐོར།",
+          tibetan: "དེ་དག་རིམ་པར་འཚང་རྒྱ་འཁོར་ལོ་བསྐོར།",
           phonetics: "dedag / rimpar / tshang gya / khorlo kor",
           translation: "by stages, become fully enlightened, turn the Wheel of the Dharma,",
           words: [
@@ -2896,7 +2896,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-38-3",
           type: "normal",
-          tibetan: "།མྱ་ངན་འདས་པ་རབ་ཏུ་ཞི་མཐའ་སྟོན།",
+          tibetan: "མྱ་ངན་འདས་པ་རབ་ཏུ་ཞི་མཐའ་སྟོན།",
           phonetics: "nya ngen / depa / rabtu / zhi tha tön",
           translation: "and demonstrate the state beyond suffering, ultimate peace.",
           words: [
@@ -2909,7 +2909,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-38-4",
           type: "normal",
-          tibetan: "།མགོན་པོ་ཀུན་གྱི་དྲུང་དུ་བདག་མཆིའོ།",
+          tibetan: "མགོན་པོ་ཀུན་གྱི་དྲུང་དུ་བདག་མཆིའོ།",
           phonetics: "gönpo / kün gyi / drung du / dag chhi'o",
           translation: "May I be in the presence of all those Protectors.",
           words: [
@@ -2923,7 +2923,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-39-1",
           type: "normal",
           stanceNumber: 39,
-          tibetan: "།ཀུན་ནས་མྱུར་བའི་རྫུ་འཕྲུལ་སྟོབས་རྣམས་དང༌།",
+          tibetan: "ཀུན་ནས་མྱུར་བའི་རྫུ་འཕྲུལ་སྟོབས་རྣམས་དང༌།",
           phonetics: "kun né / nyour wai / dzou trul / top nam dang",
           translation: "By virtue of the powers of miraculous swiftness,",
           words: [
@@ -2936,7 +2936,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-2",
           type: "normal",
-          tibetan: "།ཀུན་ནས་སྒོ་ཡི་ཐེག་པའི་སྟོབས་དག་དང་།",
+          tibetan: "ཀུན་ནས་སྒོ་ཡི་ཐེག་པའི་སྟོབས་དག་དང་།",
           phonetics: "kun né / go yi / t'ek pai / top dak dang",
           translation: "the powers of the manifold approaches of the yanas,",
           words: [
@@ -2949,7 +2949,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-3",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་ཡོན་ཏན་སྤྱོད་པའི་སྟོབས་རྣམས་དང༌།",
+          tibetan: "ཀུན་ཏུ་ཡོན་ཏན་སྤྱོད་པའི་སྟོབས་རྣམས་དང༌།",
           phonetics: "kun tou / yeun ten / tcheu pai / top nam dang",
           translation: "the powers of practice endowed with all qualities,",
           words: [
@@ -2962,7 +2962,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-4",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་ཁྱབ་པ་བྱམས་པ་དག་གི་སྟོབས།",
+          tibetan: "ཀུན་ཏུ་ཁྱབ་པ་བྱམས་པ་དག་གི་སྟོབས།",
           phonetics: "kun tou / kyap pa / djam pa / da gui top",
           translation: "the powers of omnipresent loving-kindness,",
           words: [
@@ -2975,7 +2975,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-5",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་དགེ་བའི་བསོད་ནམས་སྟོབས་རྣམས་དང༌།",
+          tibetan: "ཀུན་ཏུ་དགེ་བའི་བསོད་ནམས་སྟོབས་རྣམས་དང༌།",
           phonetics: "kun tou / gué wai / seu nam / top nam dang",
           translation: "the powers of perfectly virtuous goodness,",
           words: [
@@ -2988,7 +2988,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-6",
           type: "normal",
-          tibetan: "།ཆགས་པ་མེད་པར་གྱུར་པའི་ཡེ་ཤེས་སྟོབས།",
+          tibetan: "ཆགས་པ་མེད་པར་གྱུར་པའི་ཡེ་ཤེས་སྟོབས།",
           phonetics: "tchak pa mé par / gyour pai / yé ché top",
           translation: "the powers of unbounded timeless wisdom,",
           words: [
@@ -3000,7 +3000,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-7",
           type: "normal",
-          tibetan: "།ཤེས་རབ་ཐབས་དང་ཏིང་འཛིན་སྟོབས་དག་གིས།",
+          tibetan: "ཤེས་རབ་ཐབས་དང་ཏིང་འཛིན་སྟོབས་དག་གིས།",
           phonetics: "ché rap / t'ap dang / ting dzin / top da gui",
           translation: "the powers of knowledge, means, and deep meditation,",
           words: [
@@ -3013,7 +3013,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-39-8",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སྟོབས་རྣམས་ཡང་དག་སྒྲུབ་པར་བྱེད།",
+          tibetan: "བྱང་ཆུབ་སྟོབས་རྣམས་ཡང་དག་སྒྲུབ་པར་བྱེད།",
           phonetics: "djang tchoup / top nam / yang dak / droup par djé",
           translation: "may I truly achieve the many powers of awakening.",
           words: [
@@ -3027,7 +3027,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-40-1",
           type: "normal",
           stanceNumber: 40,
-          tibetan: "།ལས་ཀྱི་སྟོབས་རྣམས་ཡོངས་སུ་དག་བྱེད་ཅིང༌།",
+          tibetan: "ལས་ཀྱི་སྟོབས་རྣམས་ཡོངས་སུ་དག་བྱེད་ཅིང༌།",
           phonetics: "lé kyi / top nam / yong sou / dak djé tching",
           translation: "May I completely purify the powers of karma,",
           words: [
@@ -3040,7 +3040,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-40-2",
           type: "normal",
-          tibetan: "།ཉོན་མོངས་སྟོབས་རྣམས་ཀུན་ཏུ་འཇོམས་པར་བྱེད།",
+          tibetan: "ཉོན་མོངས་སྟོབས་རྣམས་ཀུན་ཏུ་འཇོམས་པར་བྱེད།",
           phonetics: "nyeun mong / top nam / kun tou / djom par djé",
           translation: "fully defeat the powers of the afflictions,",
           words: [
@@ -3053,7 +3053,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-40-3",
           type: "normal",
-          tibetan: "།བདུད་ཀྱི་སྟོབས་རྣམས་སྟོབས་མེད་རབ་བྱེད་ཅིང༌།",
+          tibetan: "བདུད་ཀྱི་སྟོབས་རྣམས་སྟོབས་མེད་རབ་བྱེད་ཅིང༌།",
           phonetics: "du kyi / top nam / top mé / rap djé tching",
           translation: "utterly make the powers of the maras disabled,",
           words: [
@@ -3066,7 +3066,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-40-4",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པའི་སྟོབས་ནི་རྫོགས་པར་བགྱི།",
+          tibetan: "བཟང་པོ་སྤྱོད་པའི་སྟོབས་ནི་རྫོགས་པར་བགྱི།",
           phonetics: "zang po / tcheu pai / top ni / dzok par gyi",
           translation: "and bring the power of Excellent Conduct to perfection.",
           words: [
@@ -3080,7 +3080,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-41-1",
           type: "normal",
           stanceNumber: 41,
-          tibetan: "།ཞིང་རྣམས་རྒྱ་མཚོ་རྣམ་པར་དག་བྱེད་ཅིང༌།",
+          tibetan: "ཞིང་རྣམས་རྒྱ་མཚོ་རྣམ་པར་དག་བྱེད་ཅིང༌།",
           phonetics: "shing nam / gyam tso / nam par / dak djé tching",
           translation: "May I totally purify oceans of realms,",
           words: [
@@ -3093,7 +3093,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-2",
           type: "normal",
-          tibetan: "།སེམས་ཅན་རྒྱ་མཚོ་དག་ནི་རྣམ་པར་འགྲོལ།",
+          tibetan: "སེམས་ཅན་རྒྱ་མཚོ་དག་ནི་རྣམ་པར་འགྲོལ།",
           phonetics: "sem tchen / gyam tso / dak ni / nam par dreul",
           translation: "entirely liberate oceans of beings,",
           words: [
@@ -3106,7 +3106,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-3",
           type: "normal",
-          tibetan: "།ཆོས་རྣམས་རྒྱ་མཚོ་རབ་ཏུ་མཐོང་བྱེད་ཅིང༌།",
+          tibetan: "ཆོས་རྣམས་རྒྱ་མཚོ་རབ་ཏུ་མཐོང་བྱེད་ཅིང༌།",
           phonetics: "tcheu nam / gyam tso / rap tou / t'ong djé tching",
           translation: "clearly behold oceans of Dharma,",
           words: [
@@ -3119,7 +3119,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-4",
           type: "normal",
-          tibetan: "།ཡེ་ཤེས་རྒྱ་མཚོ་རབ་ཏུ་གོམས་པར་བྱེད།",
+          tibetan: "ཡེ་ཤེས་རྒྱ་མཚོ་རབ་ཏུ་གོམས་པར་བྱེད།",
           phonetics: "yé ché / gyam tso / rap tou / gom par djé",
           translation: "wholly integrate oceans of wisdom,",
           words: [
@@ -3132,7 +3132,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-5",
           type: "normal",
-          tibetan: "།སྤྱོད་པ་རྒྱ་མཚོ་རྣམ་པར་དག་བྱེད་ཅིང༌།",
+          tibetan: "སྤྱོད་པ་རྒྱ་མཚོ་རྣམ་པར་དག་བྱེད་ཅིང༌།",
           phonetics: "tcheu pa / gyam tso / nam par / dak djé tching",
           translation: "patiently clarify oceans of conduct,",
           words: [
@@ -3145,7 +3145,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-6",
           type: "normal",
-          tibetan: "།སྨོན་ལམ་རྒྱ་མཚོ་རབ་ཏུ་རྫོགས་པར་བྱེད།",
+          tibetan: "སྨོན་ལམ་རྒྱ་མཚོ་རབ་ཏུ་རྫོགས་པར་བྱེད།",
           phonetics: "meun lam / gyam tso / rap tou / dzok par djé",
           translation: "perfectly fulfill oceans of aspirations,",
           words: [
@@ -3158,7 +3158,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-7",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་རྒྱ་མཚོ་རབ་ཏུ་མཆོད་བྱེད་ཅིང༌།",
+          tibetan: "སངས་རྒྱས་རྒྱ་མཚོ་རབ་ཏུ་མཆོད་བྱེད་ཅིང༌།",
           phonetics: "sangyé / gyam tso / rap tou / tcheu djé tching",
           translation: "honor oceans of Buddhas with my offerings,",
           words: [
@@ -3171,7 +3171,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-41-8",
           type: "normal",
-          tibetan: "།བསྐལ་པ་རྒྱ་མཚོར་མི་སྐྱོ་སྤྱད་པར་བགྱི།",
+          tibetan: "བསྐལ་པ་རྒྱ་མཚོར་མི་སྐྱོ་སྤྱད་པར་བགྱི།",
           phonetics: "kal pa / gyam tsor / mi kyo / tcheu par gyi",
           translation: "and practice tirelessly during oceans of eons.",
           words: [
@@ -3185,7 +3185,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-42-1",
           type: "normal",
           stanceNumber: 42,
-          tibetan: "།གང་ཡང་དུས་གསུམ་གཤེགས་པའི་རྒྱལ་བ་ཡི།",
+          tibetan: "གང་ཡང་དུས་གསུམ་གཤེགས་པའི་རྒྱལ་བ་ཡི།",
           phonetics: "gang yang / du soum / chek pai / gyal wa yi",
           translation: "Once I have awakened and attained Buddhahood",
           words: [
@@ -3198,7 +3198,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-42-2",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སྤྱོད་པའི་སྨོན་ལམ་བྱེ་བྲག་རྣམས།",
+          tibetan: "བྱང་ཆུབ་སྤྱོད་པའི་སྨོན་ལམ་བྱེ་བྲག་རྣམས།",
           phonetics: "djang tchoup / tcheu pai / meun lam / djé drak nam",
           translation: "by means of the practice of Excellent Conduct,",
           words: [
@@ -3211,7 +3211,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-42-3",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་པས་བྱང་ཆུབ་སངས་རྒྱས་ནས།",
+          tibetan: "བཟང་པོ་སྤྱོད་པས་བྱང་ཆུབ་སངས་རྒྱས་ནས།",
           phonetics: "zang po / tcheu pé / djang tchoup / sangyé né",
           translation: "may I fulfill all special wishes of Enlightened Conduct",
           words: [
@@ -3224,7 +3224,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-42-4",
           type: "normal",
-          tibetan: "།དེ་ཀུན་བདག་གིས་མ་ལུས་རྫོགས་པར་བགྱི།",
+          tibetan: "དེ་ཀུན་བདག་གིས་མ་ལུས་རྫོགས་པར་བགྱི།",
           phonetics: "dé kun / dak gui / ma lu / dzok par gyi",
           translation: "expressed by Victorious Ones of past, present and future.",
           words: [
@@ -3238,7 +3238,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-43-1",
           type: "normal",
           stanceNumber: 43,
-          tibetan: "།རྒྱལ་བ་ཀུན་གྱི་སྲས་ཀྱི་ཐུ་བོ་པ།",
+          tibetan: "རྒྱལ་བ་ཀུན་གྱི་སྲས་ཀྱི་ཐུ་བོ་པ།",
           phonetics: "gyal wa / kun gyi / sé kyi / tou wo pa",
           translation: "The eldest son of the Victorious Ones",
           words: [
@@ -3251,7 +3251,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-43-2",
           type: "normal",
-          tibetan: "།གང་གི་མིང་ནི་ཀུན་ཏུ་བཟང་ཞེས་བྱ།",
+          tibetan: "གང་གི་མིང་ནི་ཀུན་ཏུ་བཟང་ཞེས་བྱ།",
           phonetics: "gang gui / ming ni / kun tou zang / shé dja",
           translation: "is known as Samantabhadra, the All-Excellent.",
           words: [
@@ -3264,7 +3264,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-43-3",
           type: "normal",
-          tibetan: "།མཁས་པ་དེ་དང་མཚུངས་པར་སྤྱད་པའི་ཕྱིར།",
+          tibetan: "མཁས་པ་དེ་དང་མཚུངས་པར་སྤྱད་པའི་ཕྱིར།",
           phonetics: "k'é pa / dé dang / tsoung par / tché pai tchir",
           translation: "In order to equal his masterful skill,",
           words: [
@@ -3277,7 +3277,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-43-4",
           type: "normal",
-          tibetan: "།དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
+          tibetan: "དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
           phonetics: "gué wa / di dak / t'am tché / rap tou ngo",
           translation: "I perfectly dedicate all forms of merit.",
           words: [
@@ -3291,7 +3291,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-44-1",
           type: "normal",
           stanceNumber: 44,
-          tibetan: "།ལུས་དང་ངག་དང་ཡིད་ཀྱང་རྣམ་དག་ཅིང༌།",
+          tibetan: "ལུས་དང་ངག་དང་ཡིད་ཀྱང་རྣམ་དག་ཅིང༌།",
           phonetics: "lu dang / ngak dang / yi kyang / nam dak tching",
           translation: "May I be comparable to Samantabhadra:",
           words: [
@@ -3304,7 +3304,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-44-2",
           type: "normal",
-          tibetan: "།སྤྱོད་པ་རྣམ་དག་ཞིང་རྣམས་ཡོངས་དག་དང༌།",
+          tibetan: "སྤྱོད་པ་རྣམ་དག་ཞིང་རྣམས་ཡོངས་དག་དང༌།",
           phonetics: "tcheu pa / nam dak / shing nam / yong dak dang",
           translation: "his utterly pure body, speech, and mind,",
           words: [
@@ -3317,7 +3317,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-44-3",
           type: "normal",
-          tibetan: "།བསྔོ་བའང་བཟང་པོ་མཁས་པ་ཅི་འདྲ་བ།",
+          tibetan: "བསྔོ་བའང་བཟང་པོ་མཁས་པ་ཅི་འདྲ་བ།",
           phonetics: "ngo wa'ang / zang po / k'é pa / tchi dra wa",
           translation: "his totally pure conduct, perfectly pure realms,",
           words: [
@@ -3330,7 +3330,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-44-4",
           type: "normal",
-          tibetan: "།དེ་འདྲར་བདག་ཀྱང་དེ་དང་མཚུངས་པར་ཤོག",
+          tibetan: "དེ་འདྲར་བདག་ཀྱང་དེ་དང་མཚུངས་པར་ཤོག",
           phonetics: "dé drar / dak kyang / dé dang / tsoung par chok",
           translation: "and superior skill in dedicating merit.",
           words: [
@@ -3344,7 +3344,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-45-1",
           type: "normal",
           stanceNumber: 45,
-          tibetan: "།ཀུན་ནས་དགེ་བ་བཟང་པོ་སྤྱོད་པའི་ཕྱིར།",
+          tibetan: "ཀུན་ནས་དགེ་བ་བཟང་པོ་སྤྱོད་པའི་ཕྱིར།",
           phonetics: "kun né / gué wa / zang po / tcheu pai tchir",
           translation: "So as to completely achieve excellent goodness,",
           words: [
@@ -3357,7 +3357,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-45-2",
           type: "normal",
-          tibetan: "།འཇམ་དཔལ་གྱི་ནི་སྨོན་ལམ་སྤྱད་པར་བགྱི།",
+          tibetan: "འཇམ་དཔལ་གྱི་ནི་སྨོན་ལམ་སྤྱད་པར་བགྱི།",
           phonetics: "djam pal gyi ni / meun lam / tché par gyi",
           translation: "I will carry out Mañjuśrī's aspiration prayers.",
           words: [
@@ -3369,7 +3369,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-45-3",
           type: "normal",
-          tibetan: "།མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་མི་སྐྱོ་བར།",
+          tibetan: "མ་འོངས་བསྐལ་པ་ཀུན་ཏུ་མི་སྐྱོ་བར།",
           phonetics: "ma ong / kal pa / kun tou / mi kyo war",
           translation: "Continuing tirelessly throughout future eons,",
           words: [
@@ -3382,7 +3382,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-45-4",
           type: "normal",
-          tibetan: "།དེ་ཡི་བྱ་བ་མ་ལུས་རྫོགས་པར་བགྱི།",
+          tibetan: "དེ་ཡི་བྱ་བ་མ་ལུས་རྫོགས་པར་བགྱི།",
           phonetics: "dé yi / dja wa / ma lu / dzok par gyi",
           translation: "I will accomplish every last one of his activities.",
           words: [
@@ -3396,7 +3396,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-46-1",
           type: "normal",
           stanceNumber: 46,
-          tibetan: "།སྤྱོད་པ་དག་ནི་ཚད་ཡོད་མ་གྱུར་ཅིག",
+          tibetan: "སྤྱོད་པ་དག་ནི་ཚད་ཡོད་མ་གྱུར་ཅིག",
           phonetics: "tcheu pa da ni / tsé yeu / ma gyour tchik",
           translation: "May my actions be free of limitations,",
           words: [
@@ -3408,7 +3408,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-46-2",
           type: "normal",
-          tibetan: "།ཡོན་ཏན་རྣམས་ཀྱང་ཚད་གཟུང་མེད་པར་ཤོག",
+          tibetan: "ཡོན་ཏན་རྣམས་ཀྱང་ཚད་གཟུང་མེད་པར་ཤོག",
           phonetics: "yeun ten / nam kyang / tsé zoung / mé par / chok",
           translation: "and my qualities also be without bounds.",
           words: [
@@ -3422,7 +3422,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-46-3",
           type: "normal",
-          tibetan: "།སྤྱོད་པ་ཚད་མེད་པ་ལ་གནས་ནས་ཀྱང་།",
+          tibetan: "སྤྱོད་པ་ཚད་མེད་པ་ལ་གནས་ནས་ཀྱང་།",
           phonetics: "tcheu pa / tsé mé / pa la / né né kyang",
           translation: "May I remain engaged in activities beyond measure,",
           words: [
@@ -3435,7 +3435,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-46-4",
           type: "normal",
-          tibetan: "།དེ་དག་འཕྲུལ་པ་ཐམས་ཅད་འཚལ་བར་བགྱི།",
+          tibetan: "དེ་དག་འཕྲུལ་པ་ཐམས་ཅད་འཚལ་བར་བགྱི།",
           phonetics: "dé dak / trul pa / t'am tché / tsel war gyi",
           translation: "and may I come to know all of their manifestations.",
           words: [
@@ -3449,7 +3449,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-47-1",
           type: "normal",
           stanceNumber: 47,
-          tibetan: "།ནམ་མཁའི་མཐར་ཐུག་གྱུར་པ་ཇི་ཙམ་པར།",
+          tibetan: "ནམ་མཁའི་མཐར་ཐུག་གྱུར་པ་ཇི་ཙམ་པར།",
           phonetics: "nam k'aï / t'ar t'ouk / gyour pa / dji tsam par",
           translation: "There are countless beings,",
           words: [
@@ -3462,7 +3462,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-47-2",
           type: "normal",
-          tibetan: "།སེམས་ཅན་མ་ལུས་མཐའ་ཡང་དེ་བཞིན་ཏེ།",
+          tibetan: "སེམས་ཅན་མ་ལུས་མཐའ་ཡང་དེ་བཞིན་ཏེ།",
           phonetics: "sem tchen / ma lu / t'a yang / dé shin té",
           translation: "as limitless as the very confines of the endless sky.",
           words: [
@@ -3475,7 +3475,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-47-3",
           type: "normal",
-          tibetan: "།ཇི་ཙམ་ལས་དང་ཉོན་མོངས་མཐར་གྱུར་པ།",
+          tibetan: "ཇི་ཙམ་ལས་དང་ཉོན་མོངས་མཐར་གྱུར་པ།",
           phonetics: "dji tsam / lé dang / nyeun mong / t'ar gyour pa",
           translation: "Whatever their karma and afflictions may be,",
           words: [
@@ -3488,7 +3488,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-47-4",
           type: "normal",
-          tibetan: "།བདག་གི་སྨོན་ལམ་མཐའ་ཡང་དེ་ཙམ་མོ།",
+          tibetan: "བདག་གི་སྨོན་ལམ་མཐའ་ཡང་དེ་ཙམ་མོ།",
           phonetics: "dak gui / meun lam / t'a yang dé tsam mo",
           translation: "may my aspiration prayers encompass them all.",
           words: [
@@ -3501,7 +3501,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-48-1",
           type: "normal",
           stanceNumber: 48,
-          tibetan: "།གང་ཡང་ཕྱོགས་བཅུའི་ཞིང་རྣམས་མཐའ་ཡས་པ།",
+          tibetan: "གང་ཡང་ཕྱོགས་བཅུའི་ཞིང་རྣམས་མཐའ་ཡས་པ།",
           phonetics: "gang yang / tchok tchu / shing nam / t'a yé pa",
           translation: "We may embellish the infinite realms of the ten directions",
           words: [
@@ -3514,7 +3514,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-2",
           type: "normal",
-          tibetan: "།རིན་ཆེན་བརྒྱན་ཏེ་རྒྱལ་བ་རྣམས་ལ་ཕུལ།",
+          tibetan: "རིན་ཆེན་བརྒྱན་ཏེ་རྒྱལ་བ་རྣམས་ལ་ཕུལ།",
           phonetics: "rin tchen / gyen té / gyal wa / nam la p'ul",
           translation: "with precious gems and present them to the Victorious Ones;",
           words: [
@@ -3527,7 +3527,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-3",
           type: "normal",
-          tibetan: "།ལྷ་དང་མི་ཡི་བདེ་བའི་མཆོག་རྣམས་ཀྱང༌།",
+          tibetan: "ལྷ་དང་མི་ཡི་བདེ་བའི་མཆོག་རྣམས་ཀྱང༌།",
           phonetics: "lh'a dang / mi yi / dé waï / tchok nam kyang",
           translation: "we may offer the finest pleasures of gods and humans",
           words: [
@@ -3540,7 +3540,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-4",
           type: "normal",
-          tibetan: "།ཞིང་གི་རྡུལ་སྙེད་བསྐལ་པར་ཕུལ་བ་བས།",
+          tibetan: "ཞིང་གི་རྡུལ་སྙེད་བསྐལ་པར་ཕུལ་བ་བས།",
           phonetics: "shing gui / dul nyé / kal par / p'ul wa wé",
           translation: "during as many eons as there are atoms in the universe.",
           words: [
@@ -3553,7 +3553,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-5",
           type: "normal",
-          tibetan: "།གང་གིས་བསྔོ་བའི་རྒྱལ་པོ་འདི་ཐོས་ནས།",
+          tibetan: "གང་གིས་བསྔོ་བའི་རྒྱལ་པོ་འདི་ཐོས་ནས།",
           phonetics: "gang gui / ngo wai / gyal po / di t'eu né",
           translation: "Even so, paramount indeed is the exceptional merit",
           words: [
@@ -3566,7 +3566,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-6",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་མཆོག་གི་རྗེས་སུ་རབ་མོས་ཤིང་།",
+          tibetan: "བྱང་ཆུབ་མཆོག་གི་རྗེས་སུ་རབ་མོས་ཤིང་།",
           phonetics: "djang tchoup / tchok gui / djé sou / rap meu shing",
           translation: "of those of us who have heard this King of Dedications,",
           words: [
@@ -3579,7 +3579,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-7",
           type: "normal",
-          tibetan: "།ལན་གཅིག་ཙམ་ཡང་དད་པ་སྐྱེད་པ་ནི།",
+          tibetan: "ལན་གཅིག་ཙམ་ཡང་དད་པ་སྐྱེད་པ་ནི།",
           phonetics: "len tchik / tsam yang / dé pa / kyé pa ni",
           translation: "are truly determined to pursue supreme enlightenment,",
           words: [
@@ -3592,7 +3592,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-48-8",
           type: "normal",
-          tibetan: "།བསོད་ནམས་དམ་པའི་མཆོག་ཏུ་འདི་འགྱུར་རོ།",
+          tibetan: "བསོད་ནམས་དམ་པའི་མཆོག་ཏུ་འདི་འགྱུར་རོ།",
           phonetics: "seu nam / dam pai / tchok tou / di gyour ro",
           translation: "and give rise to genuine faith, be it just for a moment.",
           words: [
@@ -3606,7 +3606,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-49-1",
           type: "normal",
           stanceNumber: 49,
-          tibetan: "།གང་གིས་བཟང་སྤྱོད་སྨོན་ལམ་འདི་བཏབ་པས།",
+          tibetan: "གང་གིས་བཟང་སྤྱོད་སྨོན་ལམ་འདི་བཏབ་པས།",
           phonetics: "gang gui / zang tcheu / meun lam / di tap pé",
           translation: "Those who practice this Prayer of Excellent Conduct",
           words: [
@@ -3619,7 +3619,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-49-2",
           type: "normal",
-          tibetan: "།དེས་ནི་ངན་སོང་ཐམས་ཅད་སྤངས་པར་འགྱུར།",
+          tibetan: "དེས་ནི་ངན་སོང་ཐམས་ཅད་སྤངས་པར་འགྱུར།",
           phonetics: "dé ni / ngen song / t'am tché / pang par gyour",
           translation: "will turn away from rebirth in the lower realms,",
           words: [
@@ -3632,7 +3632,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-49-3",
           type: "normal",
-          tibetan: "།དེས་ནི་གྲོགས་པོ་ངན་པ་སྤངས་པ་ཡིན།",
+          tibetan: "དེས་ནི་གྲོགས་པོ་ངན་པ་སྤངས་པ་ཡིན།",
           phonetics: "dé ni / drok po / ngen pa / pang pa yin",
           translation: "sever all ties to unwholesome companions,",
           words: [
@@ -3645,7 +3645,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-49-4",
           type: "normal",
-          tibetan: "།སྣང་བ་མཐའ་ཡས་དེ་ཡང་དེས་མྱུར་མཐོང༌།",
+          tibetan: "སྣང་བ་མཐའ་ཡས་དེ་ཡང་དེས་མྱུར་མཐོང༌།",
           phonetics: "nang wa t'a yé / dé yang / dé nyour t'ong",
           translation: "and promptly behold Amitābha, Infinite Light.",
           words: [
@@ -3658,7 +3658,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-50-1",
           type: "normal",
           stanceNumber: 50,
-          tibetan: "།དེ་དག་རྙེད་པ་རབ་རྙེད་བདེ་བར་འཚོ།",
+          tibetan: "དེ་དག་རྙེད་པ་རབ་རྙེད་བདེ་བར་འཚོ།",
           phonetics: "dé dak / nyé pa / rap nyé / dé war tso",
           translation: "They will be perfectly comfortable and lead happy lives;",
           words: [
@@ -3671,7 +3671,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-50-2",
           type: "normal",
-          tibetan: "།མི་ཚེ་འདིར་ཡང་དེ་དག་ལེགས་པར་འོང་།",
+          tibetan: "མི་ཚེ་འདིར་ཡང་དེ་དག་ལེགས་པར་འོང་།",
           phonetics: "mi tsé / dir yang / dé dak / lek par ong",
           translation: "in this lifetime as well, comfort and happiness will reign.",
           words: [
@@ -3684,7 +3684,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-50-3",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་ཅི་འདྲ་བར།",
+          tibetan: "ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་ཅི་འདྲ་བར།",
           phonetics: "kun tou zang po / dé yang / tchi dra war",
           translation: "Without delay, they will become similar",
           words: [
@@ -3696,7 +3696,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-50-4",
           type: "normal",
-          tibetan: "།དེ་དག་རིང་པོར་མི་ཐོགས་དེ་བཞིན་འགྱུར།",
+          tibetan: "དེ་དག་རིང་པོར་མི་ཐོགས་དེ་བཞིན་འགྱུར།",
           phonetics: "dé dak / ring por / mi t'ok / de shin gyour",
           translation: "in every way to Samantabhadra, the All-Excellent One.",
           words: [
@@ -3710,7 +3710,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-51-1",
           type: "normal",
           stanceNumber: 51,
-          tibetan: "།མཚམས་མེད་ལྔ་པོ་དག་གི་སྡིག་པ་རྣམས།",
+          tibetan: "མཚམས་མེད་ལྔ་པོ་དག་གི་སྡིག་པ་རྣམས།",
           phonetics: "tsam mé / nga po / dak gui / dik pa nam",
           translation: "If this prayer of Excellent Conduct is recited",
           words: [
@@ -3723,7 +3723,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-51-2",
           type: "normal",
-          tibetan: "།གང་གིས་མི་ཤེས་དབང་གིས་བྱས་པ་དག",
+          tibetan: "གང་གིས་མི་ཤེས་དབང་གིས་བྱས་པ་དག",
           phonetics: "gang gui / mi ché / wang gui / djé pa dak",
           translation: "by those who have committed, by reason of ignorance,",
           words: [
@@ -3736,7 +3736,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-51-3",
           type: "normal",
-          tibetan: "།དེ་ཡིས་བཟང་པོ་སྤྱོད་པ་འདི་བརྗོད་ན།",
+          tibetan: "དེ་ཡིས་བཟང་པོ་སྤྱོད་པ་འདི་བརྗོད་ན།",
           phonetics: "dé yi / zang po / tcheu pa / di djeu na",
           translation: "the five most negative acts of direct consequence,",
           words: [
@@ -3749,7 +3749,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-51-4",
           type: "normal",
-          tibetan: "།མྱུར་དུ་མ་ལུས་ཡོངས་སུ་བྱང་བར་འགྱུར།",
+          tibetan: "མྱུར་དུ་མ་ལུས་ཡོངས་སུ་བྱང་བར་འགྱུར།",
           phonetics: "nyour dou / ma lu / yong sou / djang war gyour",
           translation: "these all will be quickly and thoroughly purified.",
           words: [
@@ -3763,7 +3763,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-52-1",
           type: "normal",
           stanceNumber: 52,
-          tibetan: "།ཡེ་ཤེས་དང་ནི་གཟུགས་དང་མཚན་རྣམས་དང༌།",
+          tibetan: "ཡེ་ཤེས་དང་ནི་གཟུགས་དང་མཚན་རྣམས་དང༌།",
           phonetics: "yé ché / dang ni / zouk dang / tsen nam dang",
           translation: "Practitioners will have wisdom, the shapeliest physique,",
           words: [
@@ -3776,7 +3776,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-52-2",
           type: "normal",
-          tibetan: "།རིགས་དང་ཁ་དོག་རྣམས་དང་ལྡན་པར་འགྱུར།",
+          tibetan: "རིགས་དང་ཁ་དོག་རྣམས་དང་ལྡན་པར་འགྱུར།",
           phonetics: "rik dang / k'a dok / nam dang / den par gyour",
           translation: "excellent signs, a noble family, and a fine complexion.",
           words: [
@@ -3789,7 +3789,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-52-3",
           type: "normal",
-          tibetan: "།བདུད་དང་མུ་སྟེགས་མང་པོས་དེ་མི་ཐུབ།",
+          tibetan: "བདུད་དང་མུ་སྟེགས་མང་པོས་དེ་མི་ཐུབ།",
           phonetics: "du dang / mou tek / mang peu / dé mi t'oup",
           translation: "The many maras and heretics will be powerless against them,",
           words: [
@@ -3802,7 +3802,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-52-4",
           type: "normal",
-          tibetan: "།འཇིག་རྟེན་གསུམ་པོ་ཀུན་ནའང་མཆོད་པར་འགྱུར།",
+          tibetan: "འཇིག་རྟེན་གསུམ་པོ་ཀུན་ནའང་མཆོད་པར་འགྱུར།",
           phonetics: "djik ten / soum po / kun na'ang / tcheu par gyour",
           translation: "and they will be honored with offerings throughout the three worlds.",
           words: [
@@ -3816,7 +3816,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-53-1",
           type: "normal",
           stanceNumber: 53,
-          tibetan: "།བྱང་ཆུབ་ཤིང་དབང་དྲུང་དུ་དེ་མྱུར་འགྲོ།",
+          tibetan: "བྱང་ཆུབ་ཤིང་དབང་དྲུང་དུ་དེ་མྱུར་འགྲོ།",
           phonetics: "djang tchoup / shing wang / droung dou / dé nyour dro",
           translation: "They will go quickly before the great Bodhi tree,",
           words: [
@@ -3829,7 +3829,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-53-2",
           type: "normal",
-          tibetan: "།སོང་ནས་སེམས་ཅན་ཕན་ཕྱིར་དེར་འདུག་སྟེ།",
+          tibetan: "སོང་ནས་སེམས་ཅན་ཕན་ཕྱིར་དེར་འདུག་སྟེ།",
           phonetics: "song né / sem tchen / p'en tchir / der douk té",
           translation: "and settle there for the benefit of sentient beings.",
           words: [
@@ -3842,7 +3842,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-53-3",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སངས་རྒྱས་འཁོར་ལོ་རབ་ཏུ་བསྐོར།",
+          tibetan: "བྱང་ཆུབ་སངས་རྒྱས་འཁོར་ལོ་རབ་ཏུ་བསྐོར།",
           phonetics: "djang tchoup / sangyé / k'or lo / rap tou kor",
           translation: "As awakened Buddhas, they will turn the wheel of Dharma,",
           words: [
@@ -3855,7 +3855,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-53-4",
           type: "normal",
-          tibetan: "།བདུད་རྣམས་སྡེ་དང་བཅས་པ་ཐམས་ཅད་བཏུལ།",
+          tibetan: "བདུད་རྣམས་སྡེ་དང་བཅས་པ་ཐམས་ཅད་བཏུལ།",
           phonetics: "du nam / dé dang / tché pa / t'am tché / tul",
           translation: "prevailing against all of the maras and their legions.",
           words: [
@@ -3870,7 +3870,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-54-1",
           type: "normal",
           stanceNumber: 54,
-          tibetan: "།གང་ཡང་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་འདི།",
+          tibetan: "གང་ཡང་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་འདི།",
           phonetics: "gang yang / zang po / tcheu pai / meun lam di",
           translation: "The Buddhas alone fathom the full karmic fruition",
           words: [
@@ -3883,7 +3883,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-54-2",
           type: "normal",
-          tibetan: "།འཆང་བ་དང་ནི་སྟོན་ཏམ་ཀློག་པ་ཡི།",
+          tibetan: "འཆང་བ་དང་ནི་སྟོན་ཏམ་ཀློག་པ་ཡི།",
           phonetics: "tchang wa / dang ni / teun tam / lok pa yi",
           translation: "for those who take this Prayer of Excellent Conduct to heart",
           words: [
@@ -3896,7 +3896,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-54-3",
           type: "normal",
-          tibetan: "།དེ་ཡི་རྣམ་པར་སྨིན་པ་སངས་རྒྱས་མཁྱེན།",
+          tibetan: "དེ་ཡི་རྣམ་པར་སྨིན་པ་སངས་རྒྱས་མཁྱེན།",
           phonetics: "dé yi / nam par min pa / sangyé kyen",
           translation: "by expounding it, or reading and reciting it.",
           words: [
@@ -3908,7 +3908,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-54-4",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་མཆོག་ལ་སོམ་ཉི་མ་བྱེད་ཅིག",
+          tibetan: "བྱང་ཆུབ་མཆོག་ལ་སོམ་ཉི་མ་བྱེད་ཅིག",
           phonetics: "djang tchoup / tchok la / som nyi / ma djé tchik",
           translation: "Have no doubt: the outcome is supreme awakening!",
           words: [
@@ -3922,7 +3922,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-55-1",
           type: "normal",
           stanceNumber: 55,
-          tibetan: "།འཇམ་དཔལ་ཇི་ལྟར་མཁྱེན་ཅིང་དཔའ་བ་དང་།",
+          tibetan: "འཇམ་དཔལ་ཇི་ལྟར་མཁྱེན་ཅིང་དཔའ་བ་དང་།",
           phonetics: "djam pal / dji tar / kyen tching / pa wa dang",
           translation: "May I train by emulating the examples of Mañjuśrī,",
           words: [
@@ -3935,7 +3935,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-55-2",
           type: "normal",
-          tibetan: "།ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་དེ་བཞིན་ཏེ།",
+          tibetan: "ཀུན་ཏུ་བཟང་པོ་དེ་ཡང་དེ་བཞིན་ཏེ།",
           phonetics: "kun tou zang po / dé yang / dé shin té",
           translation: "with his momentous knowledge and great courage,",
           words: [
@@ -3947,7 +3947,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-55-3",
           type: "normal",
-          tibetan: "།དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཅིང་།",
+          tibetan: "དེ་དག་ཀུན་གྱི་རྗེས་སུ་བདག་སློབ་ཅིང་།",
           phonetics: "dé dak / kun gyi / djé sou / dak lop tching",
           translation: "and Samantabhadra, whose qualities are identical;",
           words: [
@@ -3960,7 +3960,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-55-4",
           type: "normal",
-          tibetan: "།དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
+          tibetan: "དགེ་བ་འདི་དག་ཐམས་ཅད་རབ་ཏུ་བསྔོ།",
           phonetics: "gué wa / di dak / t'am tché / rap tou ngo",
           translation: "like them, I perfectly dedicate all forms of merit.",
           words: [
@@ -3974,7 +3974,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-56-1",
           type: "normal",
           stanceNumber: 56,
-          tibetan: "།དུས་གསུམ་གཤེགས་པའི་རྒྱལ་བ་ཐམས་ཅད་ཀྱིས།",
+          tibetan: "དུས་གསུམ་གཤེགས་པའི་རྒྱལ་བ་ཐམས་ཅད་ཀྱིས།",
           phonetics: "du soum / chek pa / gyal wa / t'am tché kyi",
           translation: "For the sake of the practice of Excellent Conduct,",
           words: [
@@ -3987,7 +3987,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-56-2",
           type: "normal",
-          tibetan: "།བསྔོ་བ་གང་ལ་མཆོག་ཏུ་བསྔགས་པ་དེས།",
+          tibetan: "བསྔོ་བ་གང་ལ་མཆོག་ཏུ་བསྔགས་པ་དེས།",
           phonetics: "ngo wa / gang la / tchok tou / ngak pa dé",
           translation: "I completely dedicate all of my roots of goodness",
           words: [
@@ -4000,7 +4000,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-56-3",
           type: "normal",
-          tibetan: "།བདག་གི་དགེ་བའི་རྩ་བ་འདི་ཀུན་ཀྱང་།",
+          tibetan: "བདག་གི་དགེ་བའི་རྩ་བ་འདི་ཀུན་ཀྱང་།",
           phonetics: "dak gui / gué waï / tsa wa / di kun kyang",
           translation: "by means of those dedications praised as supreme",
           words: [
@@ -4013,7 +4013,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-56-4",
           type: "normal",
-          tibetan: "།བཟང་པོ་སྤྱོད་ཕྱིར་རབ་ཏུ་བསྔོ་བར་བགྱི།",
+          tibetan: "བཟང་པོ་སྤྱོད་ཕྱིར་རབ་ཏུ་བསྔོ་བར་བགྱི།",
           phonetics: "zang po / tcheu tchir / rap tou / ngo war gyi",
           translation: "by the Victorious Ones of past, present, and future.",
           words: [
@@ -4027,7 +4027,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-57-1",
           type: "normal",
           stanceNumber: 57,
-          tibetan: "།བདག་ནི་འཆི་བའི་དུས་བྱེད་གྱུར་པ་ན།",
+          tibetan: "བདག་ནི་འཆི་བའི་དུས་བྱེད་གྱུར་པ་ན།",
           phonetics: "dak ni / tchi wai / du djé / gyour pa na",
           translation: "When the time has come for me to die,",
           words: [
@@ -4040,7 +4040,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-57-2",
           type: "normal",
-          tibetan: "།སྒྲིབ་པ་ཐམས་ཅད་དག་ནི་ཕྱིར་བསལ་ཏེ།",
+          tibetan: "སྒྲིབ་པ་ཐམས་ཅད་དག་ནི་ཕྱིར་བསལ་ཏེ།",
           phonetics: "drip pa / t'am tché / dak ni / tchir sal té",
           translation: "and all of my veils, now purified, disappear,",
           words: [
@@ -4053,7 +4053,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-57-3",
           type: "normal",
-          tibetan: "།མངོན་སུམ་སྣང་བ་མཐའ་ཡས་དེ་མཐོང་ནས།",
+          tibetan: "མངོན་སུམ་སྣང་བ་མཐའ་ཡས་དེ་མཐོང་ནས།",
           phonetics: "ngeun soum / nang wa t'a yé / dé t'ong né",
           translation: "may I directly behold Amitābha,",
           words: [
@@ -4065,7 +4065,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-57-4",
           type: "normal",
-          tibetan: "།བདེ་བ་ཅན་གྱི་ཞིང་དེར་རབ་ཏུ་འགྲོ།",
+          tibetan: "བདེ་བ་ཅན་གྱི་ཞིང་དེར་རབ་ཏུ་འགྲོ།",
           phonetics: "dé wa tchen gyi / shing der / rap tou dro",
           translation: "Infinite Light, and proceed with certainty to the Realm of Bliss.",
           words: [
@@ -4078,7 +4078,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-58-1",
           type: "normal",
           stanceNumber: 58,
-          tibetan: "།དེར་སོང་ནས་ནི་སྨོན་ལམ་འདི་དག་ཀྱང་།",
+          tibetan: "དེར་སོང་ནས་ནི་སྨོན་ལམ་འདི་དག་ཀྱང་།",
           phonetics: "der song / né ni / meun lam / di dak kyang",
           translation: "Once there, may these and all other prayers,",
           words: [
@@ -4091,7 +4091,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-58-2",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་མ་ལུས་མངོན་དུ་འགྱུར་བར་ཤོག",
+          tibetan: "ཐམས་ཅད་མ་ལུས་མངོན་དུ་འགྱུར་བར་ཤོག",
           phonetics: "t'am tché / ma lu / ngeun dou gyour war / chok",
           translation: "without a single exception, become manifest.",
           words: [
@@ -4105,7 +4105,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-58-3",
           type: "normal",
-          tibetan: "།དེ་དག་མ་ལུས་བདག་གིས་ཡོངས་སུ་བསྐང༌།",
+          tibetan: "དེ་དག་མ་ལུས་བདག་གིས་ཡོངས་སུ་བསྐང༌།",
           phonetics: "dé dak / ma lu / dak gui / yong sou kang",
           translation: "May I perfectly fulfill each and every one,",
           words: [
@@ -4118,7 +4118,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-58-4",
           type: "normal",
-          tibetan: "།འཇིག་རྟེན་ཇི་སྲིད་སེམས་ཅན་ཕན་པར་བགྱི།",
+          tibetan: "འཇིག་རྟེན་ཇི་སྲིད་སེམས་ཅན་ཕན་པར་བགྱི།",
           phonetics: "djik ten / dji si / sem tchen / p'en par gyi",
           translation: "helping beings for as long as the universe exists.",
           words: [
@@ -4132,7 +4132,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-59-1",
           type: "normal",
           stanceNumber: 59,
-          tibetan: "།རྒྱལ་བའི་དཀྱིལ་འཁོར་བཟང་ཞིང་དགའ་བ་དེར།",
+          tibetan: "རྒྱལ་བའི་དཀྱིལ་འཁོར་བཟང་ཞིང་དགའ་བ་དེར།",
           phonetics: "gyal wai / kyil k'or / zang shing / ga wa der",
           translation: "May I be reborn in a supremely beautiful lotus",
           words: [
@@ -4145,7 +4145,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-59-2",
           type: "normal",
-          tibetan: "།པདྨོ་དམ་པ་ཤིན་ཏུ་མཛེས་ལས་སྐྱེས།",
+          tibetan: "པདྨོ་དམ་པ་ཤིན་ཏུ་མཛེས་ལས་སྐྱེས།",
           phonetics: "pé mo / dam pa / chin tou / dzé lé kyé",
           translation: "in the excellent joyous mandala of the Buddhas.",
           words: [
@@ -4158,7 +4158,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-59-3",
           type: "normal",
-          tibetan: "།སྣང་བ་མཐའ་ཡས་རྒྱལ་བས་མངོན་སུམ་དུ།",
+          tibetan: "སྣང་བ་མཐའ་ཡས་རྒྱལ་བས་མངོན་སུམ་དུ།",
           phonetics: "nang wa t'a yé / gyal wé / ngeun soum dou",
           translation: "There, may I obtain my prophetic revelation",
           words: [
@@ -4170,7 +4170,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-59-4",
           type: "normal",
-          tibetan: "།ལུང་བསྟན་པ་ཡང་བདག་གིས་དེར་ཐོབ་ཤོག",
+          tibetan: "ལུང་བསྟན་པ་ཡང་བདག་གིས་དེར་ཐོབ་ཤོག",
           phonetics: "loung ten pa yang / dak gui / der t'op chok",
           translation: "directly from Amitabha, the Victorious One.",
           words: [
@@ -4183,7 +4183,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-60-1",
           type: "normal",
           stanceNumber: 60,
-          tibetan: "།དེར་ནི་བདག་གིས་ལུང་བསྟན་རབ་ཐོབ་ནས།",
+          tibetan: "དེར་ནི་བདག་གིས་ལུང་བསྟན་རབ་ཐོབ་ནས།",
           phonetics: "der ni / dak gui / loung ten / rap t'op né",
           translation: "Once the prophecy has been fully achieved,",
           words: [
@@ -4196,7 +4196,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-60-2",
           type: "normal",
-          tibetan: "།སྤྲུལ་པ་མང་པོ་བྱེ་བ་ཕྲག་བརྒྱ་ཡིས།",
+          tibetan: "སྤྲུལ་པ་མང་པོ་བྱེ་བ་ཕྲག་བརྒྱ་ཡིས།",
           phonetics: "trul pa / mang po / djé wa / trak gya yi",
           translation: "may I serve the beings of the ten directions",
           words: [
@@ -4209,7 +4209,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-60-3",
           type: "normal",
-          tibetan: "།བློ་ཡི་སྟོབས་ཀྱིས་ཕྱོགས་བཅུ་རྣམས་སུ་ཡང་།",
+          tibetan: "བློ་ཡི་སྟོབས་ཀྱིས་ཕྱོགས་བཅུ་རྣམས་སུ་ཡང་།",
           phonetics: "lo yi / top kyi / tchok tchou / nam sou yang",
           translation: "in a number of ways through the power of mind",
           words: [
@@ -4222,7 +4222,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-60-4",
           type: "normal",
-          tibetan: "།སེམས་ཅན་རྣམས་ལ་ཕན་པ་མང་པོ་བགྱི།",
+          tibetan: "སེམས་ཅན་རྣམས་ལ་ཕན་པ་མང་པོ་བགྱི།",
           phonetics: "sem tchen / nam la / p'en pa / mang po gyi",
           translation: "of many hundred times millions of emanations.",
           words: [
@@ -4236,7 +4236,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-61-1",
           type: "normal",
           stanceNumber: 61,
-          tibetan: "།བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་བཏབ་པ་ཡི།",
+          tibetan: "བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་བཏབ་པ་ཡི།",
           phonetics: "zang po / tcheu pai / meun lam / tap pa yi",
           translation: "By whatever small merit I may have garnered",
           words: [
@@ -4249,7 +4249,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-61-2",
           type: "normal",
-          tibetan: "།དགེ་བ་ཅུང་ཟད་བདག་གིས་ཅི་བསགས་པ།",
+          tibetan: "དགེ་བ་ཅུང་ཟད་བདག་གིས་ཅི་བསགས་པ།",
           phonetics: "gué wa / tchoung zé / dak gui / tchi sak pa",
           translation: "by practicing this Prayer of Excellent Conduct,",
           words: [
@@ -4262,7 +4262,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-61-3",
           type: "normal",
-          tibetan: "།དེས་ནི་འགྲོ་བའི་སྨོན་ལམ་དགེ་བ་རྣམས།",
+          tibetan: "དེས་ནི་འགྲོ་བའི་སྨོན་ལམ་དགེ་བ་རྣམས།",
           phonetics: "dé ni / dro wai / meun lam / gué wa nam",
           translation: "may the meritorious aspirations of sentient beings",
           words: [
@@ -4275,7 +4275,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-61-4",
           type: "normal",
-          tibetan: "།སྐད་ཅིག་གཅིག་གིས་ཐམས་ཅད་འབྱོར་བར་ཤོག",
+          tibetan: "སྐད་ཅིག་གཅིག་གིས་ཐམས་ཅད་འབྱོར་བར་ཤོག",
           phonetics: "ké tchik / tchik gui / t'am tché / djor war chok",
           translation: "all be accomplished in the space of one instant.",
           words: [
@@ -4289,7 +4289,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-62-1",
           type: "normal",
           stanceNumber: 62,
-          tibetan: "།བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་བསྔོས་པ་ལས།",
+          tibetan: "བཟང་པོ་སྤྱོད་པ་ཡོངས་སུ་བསྔོས་པ་ལས།",
           phonetics: "zang po / tcheu pa / yong sou / ngeu pa lé",
           translation: "By virtue of the boundless, genuine merit",
           words: [
@@ -4302,7 +4302,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-62-2",
           type: "normal",
-          tibetan: "།བསོད་ནམས་མཐའ་ཡས་དམ་པ་གང་ཐོབ་དེས།",
+          tibetan: "བསོད་ནམས་མཐའ་ཡས་དམ་པ་གང་ཐོབ་དེས།",
           phonetics: "seu nam / t'a yé / dam pa / gang t'op dé",
           translation: "gained by fully dedicating Excellent Conduct,",
           words: [
@@ -4315,7 +4315,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-62-3",
           type: "normal",
-          tibetan: "།འགྲོ་བ་སྡུག་བསྔལ་ཆུ་བོར་བྱིང་བ་རྣམས།",
+          tibetan: "འགྲོ་བ་སྡུག་བསྔལ་ཆུ་བོར་བྱིང་བ་རྣམས།",
           phonetics: "dro wa / douk ngel / tchou wor / djing wa nam",
           translation: "may all beings engulfed in the great river of suffering",
           words: [
@@ -4328,7 +4328,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-62-4",
           type: "normal",
-          tibetan: "།འོད་དཔག་མེད་པའི་གནས་རབ་ཐོབ་པར་ཤོག",
+          tibetan: "འོད་དཔག་མེད་པའི་གནས་རབ་ཐོབ་པར་ཤོག",
           phonetics: "eu pa mé pai / né rap / t'op par chok",
           translation: "attain Buddha Amitābha's most excellent domain.",
           words: [
@@ -4341,7 +4341,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-63-1",
           type: "normal",
           stanceNumber: 63,
-          tibetan: "།སྨོན་ལམ་རྒྱལ་པོ་འདི་དག་མཆོག་གི་གཙོ།",
+          tibetan: "སྨོན་ལམ་རྒྱལ་པོ་འདི་དག་མཆོག་གི་གཙོ།",
           phonetics: "meun lam / gyal po / di dak / tchok gui tso",
           translation: "May these sovereign aspiration prayers bring about that which is most excellent",
           words: [
@@ -4354,7 +4354,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-63-2",
           type: "normal",
-          tibetan: "།མཐའ་ཡས་འགྲོ་བ་ཀུན་ལ་ཕན་བྱེད་ཅིང༌།",
+          tibetan: "མཐའ་ཡས་འགྲོ་བ་ཀུན་ལ་ཕན་བྱེད་ཅིང༌།",
           phonetics: "t'a yé / dro wa / kun la / p'en djé tching",
           translation: "and may they benefit all beings, infinite in number.",
           words: [
@@ -4368,7 +4368,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
           id: "ace-en-64-1",
           type: "normal",
           stanceNumber: 64,
-          tibetan: "།ཀུན་ཏུ་བཟང་པོས་བརྒྱན་པའི་གཞུང་གྲུབ་སྟེ།",
+          tibetan: "ཀུན་ཏུ་བཟང་པོས་བརྒྱན་པའི་གཞུང་གྲུབ་སྟེ།",
           phonetics: "kun tou zang po / gyen pai / shing / droup té",
           translation: "May this scripture adorned by Samantabhadra be accomplished,",
           words: [
@@ -4381,7 +4381,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-64-2",
           type: "normal",
-          tibetan: "།ངན་སོང་གནས་རྣམས་མ་ལུས་སྟོངས་པར་ཤོག།",
+          tibetan: "ངན་སོང་གནས་རྣམས་མ་ལུས་སྟོངས་པར་ཤོག།",
           phonetics: "ngen song / né nam / ma lu / tong par chok",
           translation: "and may the entire space of the unfortunate realms become empty.",
           words: [
@@ -4394,7 +4394,7 @@ export const aspirationsConduiteExcellenteEn: PracticeText = {
         {
           id: "ace-en-colophon",
           type: "colophon",
-          tibetan: "།འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ་རྗོགས་སོ། །རྒྱ་གར་གྱི་མཁན་པོ་ཛི་ན་མི་ཏྲ་དང་། །སུ་རེནྡྲ་བོ་ངྷི་དང༌། །ཞུ་ཆེན་གྱི་ལོ་ཙཱ་བ་བནྡེ་ཡེ་ཤེས་སྡེ་ལ་སོགས་པས་བསྒྱུར་ཅིང་ཞུས་ཏེ་གཏན་ལ་ཕབ་པ།།",
+          tibetan: "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ་རྗོགས་སོ། །རྒྱ་གར་གྱི་མཁན་པོ་ཛི་ན་མི་ཏྲ་དང་། །སུ་རེནྡྲ་བོ་ངྷི་དང༌། །ཞུ་ཆེན་གྱི་ལོ་ཙཱ་བ་བནྡེ་ཡེ་ཤེས་སྡེ་ལ་སོགས་པས་བསྒྱུར་ཅིང་ཞུས་ཏེ་གཏན་ལ་ཕབ་པ།།",
           phonetics: "",
           translation: "This concludes the Noble King of Aspiration Prayers of Excellent Conduct. This text was finalized by the Indian scholars Dzinamitra and Surendrabodhi and the great editor Lotsawa Bende Yeshe De, among others, who translated and checked it.\n\nTranslation reference from the translation of this text under the guidance of Kunzig Shamar Rinpoche by Pamela Gayle White.",
           words: [],

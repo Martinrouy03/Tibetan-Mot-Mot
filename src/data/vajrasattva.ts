@@ -29,7 +29,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-1-2",
           type: "normal",
-          tibetan: "།རང་གི་སྤྱི་བོར་པད་ཟླའི་གདན་གྱི་སྟེང་།",
+          tibetan: "རང་གི་སྤྱི་བོར་པད་ཟླའི་གདན་གྱི་སྟེང་།",
           phonetics: "Rang ki tchi ouor pé dé den kyi teng",
           translation:
             "Au sommet de ma tête, assis sur un lotus et un disque de lune,",
@@ -56,7 +56,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-1-3",
           type: "normal",
-          tibetan: "།བླ་མ་རྡོ་རྗེ་སེམས་དཔའ་རྒྱན་ལྡན་དཀར།",
+          tibetan: "བླ་མ་རྡོ་རྗེ་སེམས་དཔའ་རྒྱན་ལྡན་དཀར།",
           phonetics: "la ma dor djé sem pa gyen den kar",
           translation:
             "est le lama Vajrasattva. Il est de couleur blanche, paré d'ornements,",
@@ -78,7 +78,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-1-4",
           type: "normal",
-          tibetan: "།ཞལ་གཅིག་ཕྱག་གཉིས་གཡས་པས་རྡོ་རྗེ་དང༌།",
+          tibetan: "ཞལ་གཅིག་ཕྱག་གཉིས་གཡས་པས་རྡོ་རྗེ་དང༌།",
           phonetics: "chel tchik tchak nyi yé pé dor djé tang",
           translation:
             "il a un visage et deux bras, tenant un vajra dans la main droite",
@@ -108,7 +108,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-1-5",
           type: "normal",
-          tibetan: "།གཡོན་པས་དྲིལ་བུ་འཛིན་ཅིང་སྐྱིལ་ཀྲུང་བཞུགས།",
+          tibetan: "གཡོན་པས་དྲིལ་བུ་འཛིན་ཅིང་སྐྱིལ་ཀྲུང་བཞུགས།",
           phonetics: "yeun pé tril pou dzin tching kyil troung chou",
           translation:
             "et une cloche dans la main gauche. Il est assis dans la posture du bodhisattva.",
@@ -428,7 +428,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-4-3",
           type: "normal",
-          tibetan: "།དམ་ཚིག་ལས་ནི་འགལ་ཞིང་ཉམས། །",
+          tibetan: "དམ་ཚིག་ལས་ནི་འགལ་ཞིང་ཉམས། །",
           phonetics: "tam tsik lé ni guel ching nyam",
           translation: "j'ai failli à mes vœux initiatiques.",
           words: [
@@ -476,7 +476,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-4-5",
           type: "normal",
-          tibetan: "།གཙོ་བོ་རྡོ་རྗེ་འཛིན་པ་ཀྱཻ།",
+          tibetan: "གཙོ་བོ་རྡོ་རྗེ་འཛིན་པ་ཀྱཻ།",
           phonetics: "tso ouo dor djé dzin pa kyé",
           translation: "Seigneur, Détenteur du vajra,",
           words: [
@@ -496,7 +496,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-4-6",
           type: "normal",
-          tibetan: "།ཐུགས་རྗེ་ཆེན་པོའི་བདག་ཉིད་ཅན།",
+          tibetan: "ཐུགས་རྗེ་ཆེན་པོའི་བདག་ཉིད་ཅན།",
           phonetics: "touk djé tchen peu da nyi tchen",
           translation: "personnification de la grande compassion,",
           words: [
@@ -515,7 +515,7 @@ export const vajrasattva: PracticeText = {
         {
           id: "vs-4-7",
           type: "normal",
-          tibetan: "།འགྲོ་བའི་གཙོ་ལ་བདག་སྐྱབས་མཆི།",
+          tibetan: "འགྲོ་བའི་གཙོ་ལ་བདག་སྐྱབས་མཆི།",
           phonetics: "dro oué tso la da kyap tchi",
           translation: "souverain des êtres, je prends refuge en vous.",
           words: [

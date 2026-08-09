@@ -14,7 +14,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-1",
           type: "normal",
-          tibetan: "།དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི།",
+          tibetan: "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི།",
           phonetics: "de shin chek pa / t'am tché kyi",
           translation: "Rassemblant la puissance",
           words: [
@@ -33,7 +33,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-2",
           type: "normal",
-          tibetan: "།མཐུ་སྟོབས་གཅིག་ཏུ་བསྡུས་པ་ཡི།",
+          tibetan: "མཐུ་སྟོབས་གཅིག་ཏུ་བསྡུས་པ་ཡི།",
           phonetics: "t'ou top / tchik tou / du pa yi",
           translation: "de tous les tathagatas,",
           words: [
@@ -57,7 +57,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-3",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་ཁྲོ་བོ་སྐུར་སྟོན་པ།",
+          tibetan: "རྡོ་རྗེ་ཁྲོ་བོ་སྐུར་སྟོན་པ།",
           phonetics: "dor djé / tro wo / kour teun pa",
           translation: "vous manifestez un corps de terreur vajra.",
           words: [
@@ -73,7 +73,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-4",
           type: "normal",
-          tibetan: "།རྣམ་པར་འཇོམས་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "རྣམ་པར་འཇོམས་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "nam par djom / la / tchak tsel lo",
           translation: "Vidarana, devant vous, je me prosterne.",
           words: [
@@ -101,7 +101,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-title-1",
           type: "normal",
-          tibetan: "།རྒྱ་གར་སྐད་དུ། བཛྲ་བི་ད་ར་ཎ་ནཱ་མ་དྷཱ་ར་ཎཱི།",
+          tibetan: "རྒྱ་གར་སྐད་དུ། བཛྲ་བི་ད་ར་ཎ་ནཱ་མ་དྷཱ་ར་ཎཱི།",
           phonetics: "gya gar ké dou / vajra / vidarana / nama dharani",
           translation: "En sanskrit: vajravidāraṇa nāma dhāraṇī",
           words: [
@@ -126,7 +126,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-title-2",
           type: "normal",
-          tibetan: "།བོད་སྐད་དུ། རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་གཟུངས།",
+          tibetan: "བོད་སྐད་དུ། རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་གཟུངས།",
           phonetics:
             "beu ké dou / rdo rje / rnam par / 'joms pa / zhes bya ba'i / gzungs",
           translation: "En tibétain: La dhāraṇī de «Parfait-Vainqueur-Vajra»",
@@ -159,7 +159,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-4",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics:
             "sangyé dang / djang tchoup sem pa / t'am tché la / tchak tsel lo",
           translation:
@@ -190,7 +190,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-5",
           type: "normal",
-          tibetan: "།འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
+          tibetan: "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
           phonetics: "di ké / da gui / t'eu pa / du tchik na",
           translation: "Il fût un temps, j'ai entendu ces paroles:",
           words: [
@@ -211,7 +211,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-6",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་རྡོ་རྗེ་ལ་བཞུགས་ཏེ།",
+          tibetan: "བཅོམ་ལྡན་འདས་རྡོ་རྗེ་ལ་བཞུགས་ཏེ།",
           phonetics: "tchom den dé / dor djé la / shouk té",
           translation: "le Bhagavan demeurait à Vajra.",
           words: [
@@ -235,7 +235,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-7",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ཀྱི་མཐུས་ལག་ན་རྡོ་རྗེའི་ལུས་ཐམས་ཅད་རྡོ་རྗེར་",
+          tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་ལག་ན་རྡོ་རྗེའི་ལུས་ཐམས་ཅད་རྡོ་རྗེར་",
           phonetics: "sangyé kyi t'u / lak na dor djé lu / t'am tché / dordjér",
           translation:
             "Par le pouvoir du Bouddha, le corps de Vajrapani fût entièrement consacré en vajra.",
@@ -292,7 +292,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-9",
           type: "normal",
-          tibetan: "།དེ་ནས་ལག་ན་རྡོ་རྗེས་སངས་རྒྱས་ཀྱི་མཐུ་དང༌།",
+          tibetan: "དེ་ནས་ལག་ན་རྡོ་རྗེས་སངས་རྒྱས་ཀྱི་མཐུ་དང༌།",
           phonetics: "dé né / lak na dor djé / sangyé kyi t'ou dang",
           translation: "Ensuite, grâce au pouvoir du Bouddha,",
           words: [
@@ -317,7 +317,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-10",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ཀྱི་བྱིན་གྱིས་བརླབས་དང༌།",
+          tibetan: "སངས་རྒྱས་ཀྱི་བྱིན་གྱིས་བརླབས་དང༌།",
           phonetics: "sangyé kyi / djin gyi lap dang",
           translation: "à la bénédiction des bouddhas",
           words: [
@@ -346,7 +346,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-11",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ཀྱི་བྱིན་གྱི་རླབས་ཀྱིས།",
+          tibetan: "བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་ཀྱི་བྱིན་གྱི་རླབས་ཀྱིས།",
           phonetics: "djang tchoup sempa / t'am tché kyi / djin gyi lap kyi",
           translation: "et de tous les bodhisattvas,",
           words: [
@@ -370,7 +370,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-12",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་ཁྲོ་བོ་ལས་བྱུང་བ། རྡོ་རྗེ་སྙིང་པོ་རབ་ཏུ་སྨྲས་ཏེ།",
+          tibetan: "རྡོ་རྗེ་ཁྲོ་བོ་ལས་བྱུང་བ། རྡོ་རྗེ་སྙིང་པོ་རབ་ཏུ་སྨྲས་ཏེ།",
           phonetics:
             "dordjé tro wo / lé djoung wa / dor djé nying po / rab tou / mé té",
           translation:
@@ -412,7 +412,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-13",
           type: "normal",
-          tibetan: "།མི་ཆོད་པ། མི་ཤིགས་པ། བདེན་པ། སྲ་བ། བརྟན་པ།",
+          tibetan: "མི་ཆོད་པ། མི་ཤིགས་པ། བདེན་པ། སྲ་བ། བརྟན་པ།",
           phonetics: "mi tcheu pa / mi chik pa / den pa / sa wa / ten pa",
           translation: "invulnérable, indestructible, véridique, dure, ferme,",
           words: [
@@ -438,7 +438,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-14",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་དུ་ཐོགས་པ་མེད་པ།",
+          tibetan: "ཐམས་ཅད་དུ་ཐོགས་པ་མེད་པ།",
           phonetics: "t'am tché dou / t'ok pa mé pa",
           translation: "que rien ne peut entraver,",
           words: [
@@ -462,7 +462,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-15",
           type: "normal",
-          tibetan: "།ཐམས་ཅད་དུ་མ་ཕམ་པ།",
+          tibetan: "ཐམས་ཅད་དུ་མ་ཕམ་པ།",
           phonetics: "t'am tché dou / ma p'am pa",
           translation: "complètement invincible;",
           words: [
@@ -481,7 +481,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-16",
           type: "normal",
-          tibetan: "།སེམས་ཅན་ཐམས་ཅད་སྐྲག་པར་བྱེད་པ།",
+          tibetan: "སེམས་ཅན་ཐམས་ཅད་སྐྲག་པར་བྱེད་པ།",
           phonetics: "sem tchen / t'am tché / trak par djé pa",
           translation: "effrayant tous les êtres,",
           words: [
@@ -501,7 +501,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-17",
           type: "normal",
-          tibetan: "།སེམས་ཅན་ཐམས་ཅད་འཇིལ་བར་བྱེད་པ།",
+          tibetan: "སེམས་ཅན་ཐམས་ཅད་འཇིལ་བར་བྱེད་པ།",
           phonetics: "sem tchen / t'am tché / djil war djé pa",
           translation: "chassant tous les êtres,",
           words: [
@@ -521,7 +521,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-18",
           type: "normal",
-          tibetan: "།རིག་སྔགས་ཐམས་ཅད་གཅོད་པར་བྱེད་པ།",
+          tibetan: "རིག་སྔགས་ཐམས་ཅད་གཅོད་པར་བྱེད་པ།",
           phonetics: "rik ngak / t'am tché / tcheu par djé pa",
           translation: "tranchant tous les vidyamantras,",
           words: [
@@ -541,7 +541,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-19",
           type: "normal",
-          tibetan: "།རིག་སྔགས་ཐམས་ཅད་གནོན་པར་བྱེད་པ།",
+          tibetan: "རིག་སྔགས་ཐམས་ཅད་གནོན་པར་བྱེད་པ།",
           phonetics: "rik ngak / t'am tché / neun par djé pa",
           translation: "neutralisant tous les vidyamantras,",
           words: [
@@ -561,7 +561,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-20",
           type: "normal",
-          tibetan: "།ལས་ཐམས་ཅད་འཇོམས་པར་བྱེད་པ།",
+          tibetan: "ལས་ཐམས་ཅད་འཇོམས་པར་བྱེད་པ།",
           phonetics: "lé t'am tché / djom par djé pa",
           translation: "anéantissant toutes les activités,",
           words: [
@@ -580,7 +580,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-21",
           type: "normal",
-          tibetan: "།གཞན་གྱི་ལས་ཐམས་ཅད་འཇིག་པར་བྱེད་པ།",
+          tibetan: "གཞན་གྱི་ལས་ཐམས་ཅད་འཇིག་པར་བྱེད་པ།",
           phonetics: "shen gyi lé / t'am tché / djik par djé pa",
           translation: "détruisant toutes les activités d'autrui,",
           words: [
@@ -604,7 +604,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-22",
           type: "normal",
-          tibetan: "།གདོན་ཐམས་ཅད་བརླག་པར་བྱེད་པ།",
+          tibetan: "གདོན་ཐམས་ཅད་བརླག་པར་བྱེད་པ།",
           phonetics: "deun / t'am tché / lak par djé pa",
           translation: "désintégrant toutes les forces malfaisantes,",
           words: [
@@ -628,7 +628,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-23",
           type: "normal",
-          tibetan: "།གདོན་ཐམས་ཅད་ལས་ཐར་བར་བྱེད་པ།",
+          tibetan: "གདོན་ཐམས་ཅད་ལས་ཐར་བར་བྱེད་པ།",
           phonetics: "deun / t'am tché / lé t'ar war djé pa",
           translation: "délivrant de toutes les forces malfaisantes,",
           words: [
@@ -652,7 +652,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-24",
           type: "normal",
-          tibetan: "།འབྱུང་པོ་ཐམས་ཅད་འགུགས་པར་བྱེད་པ།",
+          tibetan: "འབྱུང་པོ་ཐམས་ཅད་འགུགས་པར་བྱེད་པ།",
           phonetics: "djoung po / t'am tché / gouk par djé pa",
           translation: "capturant tous les esprits élémentaux,",
           words: [
@@ -672,7 +672,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-25",
           type: "normal",
-          tibetan: "།རིག་སྔགས་ཀྱི་ལས་ཐམས་ཅད་བྱེད་དུ་འཇུག་པ།",
+          tibetan: "རིག་སྔགས་ཀྱི་ལས་ཐམས་ཅད་བྱེད་དུ་འཇུག་པ།",
           phonetics: "rik ngak / kyi lé / t'am tché / djé dou djouk pa",
           translation: "accomplissant toutes les activités des vidyamantras,",
           words: [
@@ -701,7 +701,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-26",
           type: "normal",
-          tibetan: "།མ་གྲུབ་པ་རྣམས་གྲུབ་པར་བྱེད་པ།",
+          tibetan: "མ་གྲུབ་པ་རྣམས་གྲུབ་པར་བྱེད་པ།",
           phonetics: "ma droup pa nam / droup par djé pa",
           translation: "permettant d'accomplir ce qui ne l'a pas été,",
           words: [
@@ -720,7 +720,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-27",
           type: "normal",
-          tibetan: "།གྲུབ་པ་རྣམས་ཆུད་མི་ཟ་བར་བྱེད་པ།",
+          tibetan: "གྲུབ་པ་རྣམས་ཆུད་མི་ཟ་བར་བྱེད་པ།",
           phonetics: "droup pa nam / tchu mi za war djé pa",
           translation: "rendant inépuisable ce qui a été accompli,",
           words: [
@@ -739,7 +739,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-28",
           type: "normal",
-          tibetan: "།འདོད་པ་ཐམས་ཅད་རབ་ཏུ་སྦྱིན་པ།",
+          tibetan: "འདོད་པ་ཐམས་ཅད་རབ་ཏུ་སྦྱིན་པ།",
           phonetics: "deu pa / t'am tché / rab tou / djin pa",
           translation: "pourvoyant à tous les désirs,",
           words: [
@@ -764,7 +764,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-29",
           type: "normal",
-          tibetan: "།སེམས་ཅན་ཐམས་ཅད་བསྲུང་བ། ཞི་བ། རྒྱས་པ།",
+          tibetan: "སེམས་ཅན་ཐམས་ཅད་བསྲུང་བ། ཞི་བ། རྒྱས་པ།",
           phonetics: "sem tchen / t'am tché / soung wa / shi wa / gyé pa",
           translation:
             "protégeant, pacifiant et faisant prospérer tous les êtres,",
@@ -791,7 +791,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-30",
           type: "normal",
-          tibetan: "།སེམས་ཅན་ཐམས་ཅད་རེངས་པར་བྱེད་པ།",
+          tibetan: "སེམས་ཅན་ཐམས་ཅད་རེངས་པར་བྱེད་པ།",
           phonetics: "sem tchen / t'am tché / reng par djé pa",
           translation: "paralysant tous les êtres,",
           words: [
@@ -812,7 +812,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-31",
           type: "normal",
-          tibetan: "།རྨུགས་པར་བྱེད་པའི་གསང་སྔགས་ཀྱི་མཐུ་ཆེན་པོ་འདི།",
+          tibetan: "རྨུགས་པར་བྱེད་པའི་གསང་སྔགས་ཀྱི་མཐུ་ཆེན་པོ་འདི།",
           phonetics: "sang ngak / kyi t'ou / tchen po di",
           translation: "stupéfiant. Tel est le grand pouvoir du mantra secret",
           words: [
@@ -841,7 +841,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-32",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་ཀྱི་མཐུས་ལག་ན་རྡོ་རྗེས་རབ་ཏུ་སྨྲས་སོ།",
+          tibetan: "སངས་རྒྱས་ཀྱི་མཐུས་ལག་ན་རྡོ་རྗེས་རབ་ཏུ་སྨྲས་སོ།",
           phonetics: "san gyé / kyi t'u / lak na dordjé / rab tou mé so",
           translation: "que Vajrapani prononça grâce au pouvoir du Bouddha:",
           words: [
@@ -898,7 +898,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-34",
           type: "normal",
-          tibetan: "།བདག་དང་སེམས་ཅན་ཐམས་ཅད་ཀྱི།",
+          tibetan: "བདག་དང་སེམས་ཅན་ཐམས་ཅད་ཀྱི།",
           phonetics: "dak dang / sem tchen / t'am tché kyi",
           translation: "Cette dharani purifie toutes les négativités",
           words: [
@@ -922,7 +922,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-35",
           type: "normal",
-          tibetan: "།སྡིག་པ་ཐམས་ཅད་བྱང་བྱས་ནས།",
+          tibetan: "སྡིག་པ་ཐམས་ཅད་བྱང་བྱས་ནས།",
           phonetics: "dik pa / t'am tché / djang djé né",
           translation: "de soi-même et de tous les êtres,",
           words: [
@@ -946,7 +946,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-36",
           type: "normal",
-          tibetan: "།སྡུག་བསྔལ་ཐམས་ཅད་མེད་པར་བྱེད།",
+          tibetan: "སྡུག་བསྔལ་ཐམས་ཅད་མེད་པར་བྱེད།",
           phonetics: "douk ngel / t'am tché / mé par djé",
           translation: "dissipant ainsi toutes les souffrances.",
           words: [
@@ -970,7 +970,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-37",
           type: "normal",
-          tibetan: "།རྒྱུད་དོ་ཅོག་གི་རྩ་བ་སྟེ།",
+          tibetan: "རྒྱུད་དོ་ཅོག་གི་རྩ་བ་སྟེ།",
           phonetics: "gyu do / tcho gui / tsa wa té",
           translation: "Racine de tous les tantras,",
           words: [
@@ -994,7 +994,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-38",
           type: "normal",
-          tibetan: "།དཔལ་ཀུན་གྱིས་ནི་ལེགས་པར་བརྒྱན།",
+          tibetan: "དཔལ་ཀུན་གྱིས་ནི་ལེགས་པར་བརྒྱན།",
           phonetics: "pal kun / gyi ni / lek par gyen",
           translation: "elle est excellemment parée de toutes les splendeurs.",
           words: [
@@ -1014,7 +1014,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-39",
           type: "normal",
-          tibetan: "།སེམས་ཅན་དབང་པོ་ཉམས་པ་དང༌།",
+          tibetan: "སེམས་ཅན་དབང་པོ་ཉམས་པ་དང༌།",
           phonetics: "sem tchen / wang po / nyam pa / dang",
           translation: "Les êtres dont les facultés déclinent,",
           words: [
@@ -1039,7 +1039,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-40",
           type: "normal",
-          tibetan: "།ཚེ་ཟད་པ་དང་ཚེ་ཉམས་དང༌།",
+          tibetan: "ཚེ་ཟད་པ་དང་ཚེ་ཉམས་དང༌།",
           phonetics: "tsé / zé pa / dang / tsé nyam / dang",
           translation: "dont la longévité s'épuise ou se détériore,",
           words: [
@@ -1057,7 +1057,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-41",
           type: "normal",
-          tibetan: "།ཕུན་སུམ་ཚོགས་མིན་གང་ཆགས་དང༌།",
+          tibetan: "ཕུན་སུམ་ཚོགས་མིན་གང་ཆགས་དང༌།",
           phonetics: "p'un soum / tsok min / gang tchak dang",
           translation: "qui sont dans l'infortune,",
           words: [
@@ -1086,7 +1086,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-42",
           type: "normal",
-          tibetan: "།ལྷ་རྣམས་རྒྱབ་ཀྱིས་ཕྱོགས་པ་དང་།",
+          tibetan: "ལྷ་རྣམས་རྒྱབ་ཀྱིས་ཕྱོགས་པ་དང་།",
           phonetics: "Ih'a nam / gyap kyi / tchok pa dang",
           translation: "auxquels les dieux tournent le dos,",
           words: [
@@ -1115,7 +1115,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-43",
           type: "normal",
-          tibetan: "།མཛའ་སྡུག་སྐྱེ་བོ་སྡང་བ་དང་།",
+          tibetan: "མཛའ་སྡུག་སྐྱེ་བོ་སྡང་བ་དང་།",
           phonetics: "dza douk / kyé wo / dang wa dang",
           translation: "qui rencontrent l'hostilité de leurs proches,",
           words: [
@@ -1144,7 +1144,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-44",
           type: "normal",
-          tibetan: "།བྲན་བཟའ་ལ་སོགས་གཙེས་པ་དང༌།",
+          tibetan: "བྲན་བཟའ་ལ་སོགས་གཙེས་པ་དང༌།",
           phonetics: "dren sa / la sok / tsé pa dang",
           translation:
             "qui sont menacés par leurs serviteurs, leur entourage et autres,",
@@ -1174,7 +1174,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-45",
           type: "normal",
-          tibetan: "།ཕན་ཚུན་མཐུན་པ་མ་ཡིན་དང་།",
+          tibetan: "ཕན་ཚུན་མཐུན་པ་མ་ཡིན་དང་།",
           phonetics: "p'en tsun / t'un pa / ma yin dang",
           translation: "qui sont en conflit avec autrui,",
           words: [
@@ -1203,7 +1203,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-46",
           type: "normal",
-          tibetan: "།ནོར་འགྲིབ་པས་ནི་གནོད་པ་དང་།",
+          tibetan: "ནོར་འགྲིབ་པས་ནི་གནོད་པ་དང་།",
           phonetics: "nor / drip pé ni / neu pa dang",
           translation: "qui sont affectés par le déclin de leurs richesses,",
           words: [
@@ -1228,7 +1228,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-47",
           type: "normal",
-          tibetan: "།མྱ་ངན་ངལ་དང་གནོད་པ་དང་།",
+          tibetan: "མྱ་ངན་ངལ་དང་གནོད་པ་དང་།",
           phonetics: "nya ngen / ngel dang / neu pa dang",
           translation: "qui sont abattus par les malheurs, attaqués,",
           words: [
@@ -1257,7 +1257,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-48",
           type: "normal",
-          tibetan: "།འཇིགས་པ་དང་ནི་ཕོངས་པ་དང་།",
+          tibetan: "འཇིགས་པ་དང་ནི་ཕོངས་པ་དང་།",
           phonetics: "djik pa / dang ni / p'ong pa dang",
           translation: "effrayés, démunis,",
           words: [
@@ -1281,7 +1281,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-49",
           type: "normal",
-          tibetan: "།གཟའ་དང་རྒྱུ་སྐར་བྱད་སྟེམས་དང༌།",
+          tibetan: "གཟའ་དང་རྒྱུ་སྐར་བྱད་སྟེམས་དང༌།",
           phonetics: "za dang / gyou kar / djé tem dang",
           translation:
             "victimes de mauvais sorts ou de l'influence [néfaste] des planètes et des constellations,",
@@ -1311,7 +1311,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-50",
           type: "normal",
-          tibetan: "།མི་བཟད་གདོན་གྱིས་ཉེན་པ་དང༌།",
+          tibetan: "མི་བཟད་གདོན་གྱིས་ཉེན་པ་དང༌།",
           phonetics: "mi sé / deun gyi / nyen pa dang",
           translation: "qui sont affligés par de terribles forces malfaisantes",
           words: [
@@ -1340,7 +1340,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-51",
           type: "normal",
-          tibetan: "།མྱ་ངན་ངལ་ལས་བྱུང་བ་ཡི།",
+          tibetan: "མྱ་ངན་ངལ་ལས་བྱུང་བ་ཡི།",
           phonetics: "nya ngen / ngel lé / djoung wa yi",
           translation: "et qui, affligés par les malheurs,",
           words: [
@@ -1364,7 +1364,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-52",
           type: "normal",
-          tibetan: "།རྨི་ལམ་སྡིག་པ་མཐོང་ན་ཡང་།",
+          tibetan: "རྨི་ལམ་སྡིག་པ་མཐོང་ན་ཡང་།",
           phonetics: "mi lam / dik pa / t'ong na yang",
           translation: "sont en proie à de mauvais rêves,",
           words: [
@@ -1384,7 +1384,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-53",
           type: "normal",
-          tibetan: "།དེས་ནི་རབ་བཀྲུས་གཙང་མ་ཡིས།",
+          tibetan: "དེས་ནི་རབ་བཀྲུས་གཙང་མ་ཡིས།",
           phonetics: "dé ni / rap tru / tsang ma yi",
           translation:
             "seront complètement lavés et purifiés par cette [dharani].",
@@ -1419,7 +1419,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-54",
           type: "normal",
-          tibetan: "།མདོ་སྡེ་དམ་པ་ཉན་པར་གྱིས།",
+          tibetan: "མདོ་སྡེ་དམ་པ་ཉན་པར་གྱིས།",
           phonetics: "do dé / dam pa / nyen par gyi",
           translation: "Faites que cet éminent soutra soit écouté.",
           words: [
@@ -1439,7 +1439,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-55",
           type: "normal",
-          tibetan: "།གང་དག་ཡིད་དགེ་སེམས་དང་ཞིང༌།",
+          tibetan: "གང་དག་ཡིད་དགེ་སེམས་དང་ཞིང༌།",
           phonetics: "gang dak / yi gué / sem dang shing",
           translation:
             "Si une personne douée d'un esprit de vertu et de confiance inspirée,",
@@ -1466,7 +1466,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-56",
           type: "normal",
-          tibetan: "།གཙང་མའི་གོས་ཀྱིས་རབ་བརྒྱན་ཏེ།",
+          tibetan: "གཙང་མའི་གོས་ཀྱིས་རབ་བརྒྱན་ཏེ།",
           phonetics: "tsang mai / gueu kyi / rap gyen té",
           translation: "et parée de vêtements propres,",
           words: [
@@ -1490,7 +1490,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-57",
           type: "normal",
-          tibetan: "།ཟབ་མོ་སངས་རྒྱས་སྤྱོད་ཡུལ་བ།",
+          tibetan: "ཟབ་མོ་སངས་རྒྱས་སྤྱོད་ཡུལ་བ།",
           phonetics: "sap meu / sangyé / tcheu yul wa",
           translation: "fait entendre ce soutra",
           words: [
@@ -1510,7 +1510,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-58",
           type: "normal",
-          tibetan: "།མདོ་སྡེ་འདི་ནི་ཉན་བྱེད་ན།",
+          tibetan: "མདོ་སྡེ་འདི་ནི་ཉན་བྱེད་ན།",
           phonetics: "do dé / di ni / nyen djé na",
           translation: "dont la profondeur relève de la sphère des bouddhas,",
           words: [
@@ -1530,7 +1530,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-59",
           type: "normal",
-          tibetan: "།མདོ་སྡེ་འདི་ཡི་གཟི་བརྗིད་ཀྱིས།",
+          tibetan: "མདོ་སྡེ་འདི་ཡི་གཟི་བརྗིད་ཀྱིས།",
           phonetics: "do dé / di yi / si dji kyi",
           translation: "de par la radiance de ce soutra,",
           words: [
@@ -1550,7 +1550,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-60",
           type: "normal",
-          tibetan: "།སྲོག་ཆགས་དག་ནི་ཐམས་ཅད་ཀྱི།",
+          tibetan: "སྲོག་ཆགས་དག་ནི་ཐམས་ཅད་ཀྱི།",
           phonetics: "so tchak / dak ni / t'am tché kyi",
           translation: "tous les êtres sensibles",
           words: [
@@ -1569,7 +1569,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-61",
           type: "normal",
-          tibetan: "།མི་བཟད་པ་ཡི་ནད་རྣམས་ཀྱང༌།",
+          tibetan: "མི་བཟད་པ་ཡི་ནད་རྣམས་ཀྱང༌།",
           phonetics: "mi sé / pa yi / né nam kyang",
           translation: "verront disparaître",
           words: [
@@ -1593,7 +1593,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-62",
           type: "normal",
-          tibetan: "།དེ་དག་ཐམས་ཅད་ཞི་བར་བལྟ།",
+          tibetan: "དེ་དག་ཐམས་ཅད་ཞི་བར་བལྟ།",
           phonetics: "dé dak / t'am tché / shi war ta",
           translation: "tous leurs tourments, même les plus terribles.",
           words: [
@@ -1609,7 +1609,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-63",
           type: "normal",
-          tibetan: "།ཚེ་དང་བསོད་ནམས་འཕེལ་བར་འགྱུར།",
+          tibetan: "ཚེ་དང་བསོད་ནམས་འཕེལ་བར་འགྱུར།",
           phonetics: "tsé dang / seu nam / p'el war gyour",
           translation: "Longévité et mérite s'accroîtront,",
           words: [
@@ -1638,7 +1638,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-64",
           type: "normal",
-          tibetan: "།སྡིག་པ་ཀུན་ལས་རྣམ་པར་ཐར།",
+          tibetan: "སྡིག་པ་ཀུན་ལས་རྣམ་པར་ཐར།",
           phonetics: "dik pa / kun lé / nam par t'ar",
           translation: "et ils seront délivrés de toutes les négativités.",
           words: [
@@ -1662,7 +1662,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-65",
           type: "normal",
-          tibetan: "།ནོར་བུ་ཉུངས་ཀར་དུར་བ་དང༌།",
+          tibetan: "ནོར་བུ་ཉུངས་ཀར་དུར་བ་དང༌།",
           phonetics: "nor bou / nyoung kar / dour wa dang",
           translation:
             "Remplissez de gemmes, de graines de moutarde blanche, d'herbe durva,",
@@ -1692,7 +1692,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-66",
           type: "normal",
-          tibetan: "།རིན་ཆེན་རྨ་མེད་ཙན་དན་བཅས།",
+          tibetan: "རིན་ཆེན་རྨ་མེད་ཙན་དན་བཅས།",
           phonetics: "rin chen / ma mé / tsen den tché",
           translation: "de matières précieuses inaltérées, de bois de santal,",
           words: [
@@ -1721,7 +1721,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-67",
           type: "normal",
-          tibetan: "།ཤེལ་དང་རྡོ་རྗེ་མེ་ཏོག་དང༌།",
+          tibetan: "ཤེལ་དང་རྡོ་རྗེ་མེ་ཏོག་དང༌།",
           phonetics: "chel dang / dor djé / mi tok dang",
           translation: "de cristaux, de fleurs-vajra (diamants) et d'eau",
           words: [
@@ -1741,7 +1741,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-68",
           type: "normal",
-          tibetan: "།ཆུ་ཡི་གསེར་རམ་ཡང་ན་ནི།",
+          tibetan: "ཆུ་ཡི་གསེར་རམ་ཡང་ན་ནི།",
           phonetics: "tchou yi / ser ram / yang na ni",
           translation: "une aiguière en or",
           words: [
@@ -1757,7 +1757,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-69",
           type: "normal",
-          tibetan: "།དངུལ་གྱི་བུམ་པ་དག་ཀྱང་རུང༌།",
+          tibetan: "དངུལ་གྱི་བུམ་པ་དག་ཀྱང་རུང༌།",
           phonetics: "ngul gyi / boum pa / dak kyang roung",
           translation: "ou en argent,",
           words: [
@@ -1781,7 +1781,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-70",
           type: "normal",
-          tibetan: "།གཙང་མའི་གོས་ཀྱིས་དཀྲི་ཞིང་དགང༌།",
+          tibetan: "གཙང་མའི་གོས་ཀྱིས་དཀྲི་ཞིང་དགང༌།",
           phonetics: "tsang mai / gueu kyi / tri shing gang",
           translation: "puis parez la d'une étoffe immaculée.",
           words: [
@@ -1810,7 +1810,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-71",
           type: "normal",
-          tibetan: "།ལན་གྲངས་ཉི་ཤུ་རྩ་གཅིག་གམ།",
+          tibetan: "ལན་གྲངས་ཉི་ཤུ་རྩ་གཅིག་གམ།",
           phonetics: "len drang / nyi shou tsa tchik / gam",
           translation: "Ayant récité vingt et une fois",
           words: [
@@ -1830,7 +1830,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-72",
           type: "normal",
-          tibetan: "།ཡང་ན་ལན་གྲངས་བརྒྱ་རྩ་བརྒྱད།",
+          tibetan: "ཡང་ན་ལན་གྲངས་བརྒྱ་རྩ་བརྒྱད།",
           phonetics: "yang na / len drang / gya tsa gyé",
           translation: "ou cent huit fois",
           words: [
@@ -1850,7 +1850,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-73",
           type: "normal",
-          tibetan: "།རྡོ་རྗེ་རྣམ་འཇོམས་བཟླས་ནས་ནི།",
+          tibetan: "རྡོ་རྗེ་རྣམ་འཇོམས་བཟླས་ནས་ནི།",
           phonetics: "dor djé nam djom / dé né ni",
           translation: "la dharani de Vajravidarana,",
           words: [
@@ -1869,7 +1869,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-74",
           type: "normal",
-          tibetan: "།རྒྱལ་པོ་རྟག་ཏུ་ཁྲུས་གྱིས་ཤིག།",
+          tibetan: "རྒྱལ་པོ་རྟག་ཏུ་ཁྲུས་གྱིས་ཤིག།",
           phonetics: "gyal po / tak tou / tru gyi shik",
           translation: "ô roi, lavez-vous ainsi tous les jours.",
           words: [
@@ -1889,7 +1889,7 @@ export const vajravidharana: PracticeText = {
         {
           id: "vvd-75",
           type: "instructions",
-          tibetan: "།རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་གཟུངས་རྫོགས་སོ།།",
+          tibetan: "རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་གཟུངས་རྫོགས་སོ།།",
           phonetics: "",
           translation: "Ainsi se termine la dhāranī de Vajravidāraṇa.",
           words: [],

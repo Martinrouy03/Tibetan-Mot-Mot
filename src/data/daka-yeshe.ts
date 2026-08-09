@@ -60,7 +60,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-4",
           type: "normal",
-          tibetan: "།འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
+          tibetan: "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
           phonetics: "di ké / dak gui / t'eu pai / du tchik na",
           translation: "Il fût un temps, j'ai entendu ces paroles :",
           words: [
@@ -177,7 +177,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-13",
           type: "normal",
-          tibetan: "།ཆོས་ཐམས་ཅད་བྱང་ཆུབ་ཀྱི་སེམས་སུ་འདུས་པས་ན།",
+          tibetan: "ཆོས་ཐམས་ཅད་བྱང་ཆུབ་ཀྱི་སེམས་སུ་འདུས་པས་ན།",
           phonetics: "tcheu t'am tché / djang tchoup kyi sem / sou / du pé na",
           translation: "Tous les phénomènes étant réunis dans la bodhichitta,",
           words: [
@@ -204,7 +204,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-15",
           type: "normal",
-          tibetan: "།ཆོས་ཐམས་ཅད་རང་བཞིན་གྱིས་མི་དམིགས་ཤིང་འོད་གསལ་བས་ན།",
+          tibetan: "ཆོས་ཐམས་ཅད་རང་བཞིན་གྱིས་མི་དམིགས་ཤིང་འོད་གསལ་བས་ན།",
           phonetics: "tcheu t'am tché / rang shin gyi / mi mik ching / eu sel wé na",
           translation: "Tous les phénomènes étant par nature non référentiels et claire lumière,",
           words: [
@@ -232,7 +232,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-17",
           type: "normal",
-          tibetan: "།སེམས་རྟོགས་ན་ཡེ་ཤེས་ཡིན་པས་ན་",
+          tibetan: "སེམས་རྟོགས་ན་ཡེ་ཤེས་ཡིན་པས་ན་",
           phonetics: "sem / tok na / yé ché / yin pé na",
           translation: "Si on réalise l'esprit, il est sagesse primordiale :",
           words: [
@@ -260,7 +260,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-19",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་ཀྱིས་ཚིགས་སུ་བཅད་དེ་བཀའ་སྩལ་པ།",
+          tibetan: "བཅོམ་ལྡན་འདས་ཀྱིས་ཚིགས་སུ་བཅད་དེ་བཀའ་སྩལ་པ།",
           phonetics: "tchom den dé kyi / tsik sou tché dé / ka tsel pa",
           translation: "Le Bhagavan énonça cela en vers :",
           words: [
@@ -284,7 +284,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-21",
           type: "normal",
-          tibetan: "།དངོས་པོ་མེད་པའི་འདུ་ཤེས་བསྒོམ།",
+          tibetan: "དངོས་པོ་མེད་པའི་འདུ་ཤེས་བསྒོམ།",
           phonetics: "ngeu po / mé pai / dou ché gom",
           translation: "ainsi médite la pensée de l'absence d'existence substantielle;",
           words: [
@@ -296,7 +296,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-22",
           type: "normal",
-          tibetan: "།བྱང་ཆུབ་སེམས་དང་རབ་ལྡན་པས།",
+          tibetan: "བྱང་ཆུབ་སེམས་དང་རབ་ལྡན་པས།",
           phonetics: "djang tchoup sem dang / rap / den pé",
           translation: "ils sont parfaitement doués de bodhichitta,",
           words: [
@@ -308,7 +308,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-23",
           type: "normal",
-          tibetan: "།སྙིང་རྗེ་ཆེན་པོའི་འདུ་ཤེས་བསྒོམ།",
+          tibetan: "སྙིང་རྗེ་ཆེན་པོའི་འདུ་ཤེས་བསྒོམ།",
           phonetics: "nying djé / tchen peu / dou ché / gom",
           translation: "ainsi médite la pensée de la grande compassion;",
           words: [
@@ -321,7 +321,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-24",
           type: "normal",
-          tibetan: "།རང་བཞིན་མི་དམིགས་འོད་གསལ་བས།",
+          tibetan: "རང་བཞིན་མི་དམིགས་འོད་གསལ་བས།",
           phonetics: "rang shin / mi mik / eu sel wé",
           translation: "ils sont naturellement non référentiels et claire lumière,",
           words: [
@@ -333,7 +333,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-25",
           type: "normal",
-          tibetan: "།དངོས་པོ་ཅི་ལའང་མི་ཆགས་བསྒོམ།",
+          tibetan: "དངོས་པོ་ཅི་ལའང་མི་ཆགས་བསྒོམ།",
           phonetics: "ngeu po / tchi la'ang / mi tchak / gom",
           translation: "ainsi médite le non-attachement à toute chose;",
           words: [
@@ -346,7 +346,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-26",
           type: "normal",
-          tibetan: "།སེམས་ནི་ཡེ་ཤེས་འབྱུང་བའི་རྒྱུ།",
+          tibetan: "སེམས་ནི་ཡེ་ཤེས་འབྱུང་བའི་རྒྱུ།",
           phonetics: "sem ni / yé ché / djoung wai gyou",
           translation: "l'esprit est la source de la sagesse primordiale,",
           words: [
@@ -358,7 +358,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-27",
           type: "normal",
-          tibetan: "།སངས་རྒྱས་གཞན་དུ་མ་ཚོལ་ཅིག",
+          tibetan: "སངས་རྒྱས་གཞན་དུ་མ་ཚོལ་ཅིག",
           phonetics: "sangyé / shen dou / ma tseul tchik",
           translation: "ainsi ne cherche pas la bouddhéité ailleurs.\"",
           words: [
@@ -409,7 +409,7 @@ export const dakaYeshe: PracticeText = {
         {
           id: "dy-0-31",
           type: "colophon",
-          tibetan: "།འཕགས་པ་འདའ་ཀ་ཡེ་ཤེས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ་རྫོགས་སོ།།",
+          tibetan: "འཕགས་པ་འདའ་ཀ་ཡེ་ཤེས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ་རྫོགས་སོ།།",
           phonetics: "",
           translation: "Ainsi se termine le noble soutra du grand véhicule intitulé La Sagesse primordiale du moment de la mort.",
           words: [],

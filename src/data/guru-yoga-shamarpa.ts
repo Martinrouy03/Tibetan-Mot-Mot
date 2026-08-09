@@ -39,7 +39,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s2-2",
           type: "normal",
-          tibetan: "།སྒོ་གསུམ་གུས་པས་སྐྱབས་སུ་མཆི།",
+          tibetan: "སྒོ་གསུམ་གུས་པས་སྐྱབས་སུ་མཆི།",
           phonetics: "go soum / ku pé / kyap sou tchi",
           translation: "Avec le corps, la parole et l'esprit empreints de respect.",
           words: [
@@ -51,7 +51,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s2-3",
           type: "normal",
-          tibetan: "།མཁའ་མཉམ་སེམས་ཅན་དོན་གྱི་ཕྱིར།",
+          tibetan: "མཁའ་མཉམ་སེམས་ཅན་དོན་གྱི་ཕྱིར།",
           phonetics: "k'a nyam / sem tchen / teun gyi tchir",
           translation: "Pour le bien des êtres dont le nombre est aussi vaste que l'espace,",
           words: [
@@ -63,7 +63,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s2-4",
           type: "normal",
-          tibetan: "།བླ་མའི་རྣལ་འབྱོར་བསྒྲུབ་པར་བྱ།",
+          tibetan: "བླ་མའི་རྣལ་འབྱོར་བསྒྲུབ་པར་བྱ།",
           phonetics: "la mé nel djor / droup par dja",
           translation: "Je vais pratiquer le gourou yoga.",
           words: [
@@ -74,7 +74,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s2-inst",
           type: "instructions",
-          tibetan: "།ལན་གསུམ།",
+          tibetan: "ལན་གསུམ།",
           phonetics: "",
           translation: "Trois fois",
           words: [],
@@ -88,7 +88,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-mantra",
           type: "mantra",
-          tibetan: "།ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།",
+          tibetan: "ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།",
           phonetics: "OM SVABHAVA SHUDDHA SARVA DHARMA SVABHAVA SHUDDHO HANG",
           translation: "",
           words: [],
@@ -96,7 +96,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-1",
           type: "normal",
-          tibetan: "།སྟོང་ལས་རང་ཉིད་བཛྲ་ཝཱ་ར་ཧི།།",
+          tibetan: "སྟོང་ལས་རང་ཉིད་བཛྲ་ཝཱ་ར་ཧི།།",
           phonetics: "tong lé / rang nyi / vajra vahari",
           translation: "Au sein de la vacuité, j'apparais clairement comme Vajravarahi,",
           words: [
@@ -108,7 +108,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-2",
           type: "normal",
-          tibetan: "།པདྨ་རཱ་གའི་གཞིར་འཕོས་གཅེར་བུའི་སྐུ།",
+          tibetan: "པདྨ་རཱ་གའི་གཞིར་འཕོས་གཅེར་བུའི་སྐུ།",
           phonetics: "padma ra ké / chir p'eu / tcher pu kou",
           translation: "sur un lotus rubis, le corps nu,",
           words: [
@@ -120,7 +120,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-3",
           type: "normal",
-          tibetan: "།རབ་དམར་ཆུ་སྐྱེས་གཞོན་ནུའི་ཕྲེང་ཚོགས་ཀྱིས།",
+          tibetan: "རབ་དམར་ཆུ་སྐྱེས་གཞོན་ནུའི་ཕྲེང་ཚོགས་ཀྱིས།",
           phonetics: "rap mar / tchou kyé cheun nu / treng tsok kyi",
           translation: "rouge vermeil et entièrement orné de guirlandes de jeunes lotus.",
           words: [
@@ -132,7 +132,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-4",
           type: "normal",
-          tibetan: "།མ་ལུས་བརྒྱན་པའི་སྐུ་གྱུར་གསལ་བ་ལས།།",
+          tibetan: "མ་ལུས་བརྒྱན་པའི་སྐུ་གྱུར་གསལ་བ་ལས།།",
           phonetics: "ma lu gyen pé / kou gyour / sel wa lé",
           translation: "le corps entièrement orné, j'apparais clairement",
           words: [
@@ -144,7 +144,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-5",
           type: "normal",
-          tibetan: "།མདུན་མཁར་སྤྲོས་པ་བྲལ་བའི་དབྱིངས་རོལ་ན།",
+          tibetan: "མདུན་མཁར་སྤྲོས་པ་བྲལ་བའི་དབྱིངས་རོལ་ན།",
           phonetics: "dun k'ar / treu pa drel wé / ying reul na",
           translation: "En face, dans la dimension libre d'élaboration,",
           words: [
@@ -156,7 +156,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-6",
           type: "normal",
-          tibetan: "།ཡིད་འཕྲོག་པདྨ་ཟླ་བའི་གདན་སྟེང་དུ།",
+          tibetan: "ཡིད་འཕྲོག་པདྨ་ཟླ་བའི་གདན་སྟེང་དུ།",
           phonetics: "yi trok / padma / da wé / den / teng tou",
           translation: "sur un ravissant siège de lotus et de lune,",
           words: [
@@ -170,7 +170,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-7",
           type: "normal",
-          tibetan: "།བདེ་ཆེན་ཞིང་མགོན་བཅོམ་ལྡན་འོད་དཔག་མེད།",
+          tibetan: "བདེ་ཆེན་ཞིང་མགོན་བཅོམ་ལྡན་འོད་དཔག་མེད།",
           phonetics: "dé tchen / ching gueun / tchom den / eu pak mé",
           translation: "se trouve le bhagavan Amitabha, gardien du champ pur Grande Félicité,",
           words: [
@@ -183,7 +183,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-8",
           type: "normal",
-          tibetan: "།རྣམ་འཕྲུལ་འོད་ཆགས་ཞྭ་དམར་ཅོད་པན་འཛིན།",
+          tibetan: "རྣམ་འཕྲུལ་འོད་ཆགས་ཞྭ་དམར་ཅོད་པན་འཛིན།",
           phonetics: "nam trul / eu tchak / cha mar / tcheu pen dzin",
           translation: "[sous les traits] d'une émanation resplendissante: le détenteur de la coiffe rouge.",
           words: [
@@ -196,7 +196,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-9",
           type: "normal",
-          tibetan: "།ཕྱག་གཉིས་ཆོས་འཆད་ཕྱག་རྒྱ་ཐུགས་ཀར་གཏོད།",
+          tibetan: "ཕྱག་གཉིས་ཆོས་འཆད་ཕྱག་རྒྱ་ཐུགས་ཀར་གཏོད།",
           phonetics: "tchak nyi / tcheu tché / tchak gya / t'ouk kar teu",
           translation: "Ses deux mains au niveau du cœur, dans le mudra de l'enseignement du Dharma,",
           words: [
@@ -209,7 +209,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-10",
           type: "normal",
-          tibetan: "།རྣམ་བཀྲ་ངུར་སྨྲིག་གོས་གསོལ་ཞབས་སྐྱིལ་ཀྲུང་།",
+          tibetan: "རྣམ་བཀྲ་ངུར་སྨྲིག་གོས་གསོལ་ཞབས་སྐྱིལ་ཀྲུང་།",
           phonetics: "nam tra / ngour mik / keu seul / chap kyil troung",
           translation: "vêtu d'élégantes robes safran, ses jambes dans la posture adamantine,",
           words: [
@@ -222,7 +222,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s3-11",
           type: "normal",
-          tibetan: "།མཚན་དཔེའི་གཟི་བྱིན་འོད་སྟོང་འབར་བཞིན་བཞུགས།",
+          tibetan: "མཚན་དཔེའི་གཟི་བྱིན་འོད་སྟོང་འབར་བཞིན་བཞུགས།",
           phonetics: "tsen pé / zi djin / eu tong / bar chin / chouk",
           translation: "Il demeure dans la splendeur des marques majeures et mineures, brillant de mille feux.",
           words: [
@@ -242,7 +242,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-inst1",
           type: "instructions",
-          tibetan: "།མོས་གུས་རྩེ་གཅིག་པས།",
+          tibetan: "མོས་གུས་རྩེ་གཅིག་པས།",
           phonetics: "",
           translation: "Avec une dévotion centrée en un point:",
           words: [],
@@ -250,7 +250,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-1",
           type: "normal",
-          tibetan: "།རྒྱལ་ཀུན་འདུས་པའི་ཁྱབ་བདག་ཆོས་ཀྱི་མགོན།",
+          tibetan: "རྒྱལ་ཀུན་འདུས་པའི་ཁྱབ་བདག་ཆོས་ཀྱི་མགོན།",
           phonetics: "gyel kun du pé / k'yap dak / tcheu kyi gueun",
           translation: "Gardien du Dharma, souverain, essence de tous les victorieux,",
           words: [
@@ -262,7 +262,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-2",
           type: "normal",
-          tibetan: "།གསོལ་བ་འདེབས་སོ་མཁའ་མཉམ་སེམས་ཅན་གྱི།",
+          tibetan: "གསོལ་བ་འདེབས་སོ་མཁའ་མཉམ་སེམས་ཅན་གྱི།",
           phonetics: "seul wa dep so / k'a nyam / sem tchen gyi",
           translation: "je vous supplie! Faites que se dissipent complètement les deux voiles",
           words: [
@@ -274,7 +274,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-3",
           type: "normal",
-          tibetan: "།སྒྲིབ་གཉིས་བག་ཆགས་མ་ལུས་རབ་སེལ་ཞིང་།",
+          tibetan: "སྒྲིབ་གཉིས་བག་ཆགས་མ་ལུས་རབ་སེལ་ཞིང་།",
           phonetics: "drip nyi / pak tchak / ma lu / rap sel ching",
           translation: "et toutes les tendances des êtres dont le nombre est aussi vaste que l'espace,",
           words: [
@@ -287,7 +287,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-4",
           type: "normal",
-          tibetan: "།འཁྲུལ་མེད་རང་ངོ་ཤེས་པར་མཛད་དུ་གསོལ།",
+          tibetan: "འཁྲུལ་མེད་རང་ངོ་ཤེས་པར་མཛད་དུ་གསོལ།",
           phonetics: "trul mé / rang ngo / ché par / dzé tou seul",
           translation: "et que soit connue notre propre nature, libre de confusion.",
           words: [
@@ -300,7 +300,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s4-inst2",
           type: "instructions",
-          tibetan: "།ཞེས་ལན་གསུམ་བཟླ།",
+          tibetan: "ཞེས་ལན་གསུམ་བཟླ།",
           phonetics: "",
           translation: "Réciter trois fois",
           words: [],
@@ -327,7 +327,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-2",
           type: "normal",
-          tibetan: "།བུམ་དབང་གསང་དབང་ཤེས་རབ་ཡེ་ཤེས་ཀྱི།",
+          tibetan: "བུམ་དབང་གསང་དབང་ཤེས་རབ་ཡེ་ཤེས་ཀྱི།",
           phonetics: "poum wang sang wang ché rap yé ché kyi",
           translation: "émane un flot de nectar, bénédiction de l'initiation du vase,",
           words: [
@@ -340,7 +340,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-3",
           type: "normal",
-          tibetan: "།བྱིན་རླབས་བདུད་རྩིའི་ཆུ་རྒྱུན་རབ་སྤྲོ་བས།",
+          tibetan: "བྱིན་རླབས་བདུད་རྩིའི་ཆུ་རྒྱུན་རབ་སྤྲོ་བས།",
           phonetics: "djin lap du tsi tchou gyun rap tro wé",
           translation: "de l'initiation secrète et de [l'initiation] du discernement-sagesse.",
           words: [
@@ -353,7 +353,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-4",
           type: "normal",
-          tibetan: "།སྒོ་གསུམ་ལ་ཐིམ་དབང་བཞི་མ་ལུས་རྫོགས།",
+          tibetan: "སྒོ་གསུམ་ལ་ཐིམ་དབང་བཞི་མ་ལུས་རྫོགས།",
           phonetics: "go soum la t'im wang chi ma lu dzok",
           translation: "Il se dissout dans les trois lieux et l'ensemble des quatre initiations est parachevé.",
           words: [
@@ -367,7 +367,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-5",
           type: "normal",
-          tibetan: "།ཡང་དག་ངོ་བོ་ཉིད་སྐུ་མངོན་བྱས་ནས།",
+          tibetan: "ཡང་དག་ངོ་བོ་ཉིད་སྐུ་མངོན་བྱས་ནས།",
           phonetics: "yang tak ngo wo nyi kou ngeun djé né",
           translation: "L'authentique svabhavikakaya est actualisé:",
           words: [
@@ -379,7 +379,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-6",
           type: "normal",
-          tibetan: "།ཀུན་འདུས་ཀུན་རྫོགས་བླ་མའི་ཐུགས་དགོངས་དང༌།",
+          tibetan: "ཀུན་འདུས་ཀུན་རྫོགས་བླ་མའི་ཐུགས་དགོངས་དང༌།",
           phonetics: "kun du kun dzok la mé t'ouk gong tang",
           translation: "l'esprit de sagesse du lama, embrassant tout, parfait en tout point,",
           words: [
@@ -392,7 +392,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s5-7",
           type: "normal",
-          tibetan: "།རང་སེམས་དབྱེར་མེད་གཅིག་ཏུ་མཉམ་པར་བཞག",
+          tibetan: "རང་སེམས་དབྱེར་མེད་གཅིག་ཏུ་མཉམ་པར་བཞག",
           phonetics: "rang sem yer mé tchik tou nyam par chak",
           translation: "et mon propre esprit demeurent dans un état égal, indifférenciés, ne faisant qu'un.",
           words: [
@@ -411,7 +411,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s6-mantra",
           type: "mantra",
-          tibetan: "།ཨོཾ་ཨཱཿགུ་རུ་བྷ་ག་ཝཱན་དྷརྨ་མ་ཏི་ཧཱུྃ་སྭཱ་ཧཱ།",
+          tibetan: "ཨོཾ་ཨཱཿགུ་རུ་བྷ་ག་ཝཱན་དྷརྨ་མ་ཏི་ཧཱུྃ་སྭཱ་ཧཱ།",
           phonetics: "om ah gourou bhagavan dharma mati houng svaha",
           translation: "",
           words: [],
@@ -419,7 +419,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s6-inst1",
           type: "instructions",
-          tibetan: "།ཞེས་གྲངས་མང་བཟླ།",
+          tibetan: "ཞེས་གྲངས་མང་བཟླ།",
           phonetics: "",
           translation: "Réciter un grand nombre de fois",
           words: [],
@@ -446,7 +446,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-2",
           type: "normal",
-          tibetan: "།ཐོག་མེད་ནས་བསགས་སྡིག་ལྟུང་བག་ཆགས་ཀུན།",
+          tibetan: "ཐོག་མེད་ནས་བསགས་སྡིག་ལྟུང་བག་ཆགས་ཀུན།",
           phonetics: "t'ok mé né sak dik toung pak tchak kun",
           translation: "les manquements et les tendances accumulées par la multitude des êtres depuis des temps sans commencement!",
           words: [
@@ -460,7 +460,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-3",
           type: "normal",
-          tibetan: "།དྲུང་ནས་འབྱིན་བྱས་ཡང་དག་སྣང་བ་རྒྱས།",
+          tibetan: "དྲུང་ནས་འབྱིན་བྱས་ཡང་དག་སྣང་བ་རྒྱས།",
           phonetics: "droung né djin djé yang tak nang wa gyé",
           translation: "Puisse la perception pure se déployer!",
           words: [
@@ -473,7 +473,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-4",
           type: "normal",
-          tibetan: "།དཔལ་ལྡན་བླ་མའི་གོ་འཕང་ཐོབ་པར་ཤོག",
+          tibetan: "དཔལ་ལྡན་བླ་མའི་གོ་འཕང་ཐོབ་པར་ཤོག",
           phonetics: "pel den la mé ko p'ang t'op par chok",
           translation: "Puisse l'état accompli du glorieux lama être obtenu!",
           words: [
@@ -486,7 +486,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-5",
           type: "normal",
-          tibetan: "།སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང་།",
+          tibetan: "སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང་།",
           phonetics: "kyé wa kun tou yang tak la ma tang",
           translation: "Dans toutes nos vies, puissions-nous ne jamais être séparés du lama authentique,",
           words: [
@@ -499,7 +499,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-6",
           type: "normal",
-          tibetan: "།འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང་།",
+          tibetan: "འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང་།",
           phonetics: "drel mé tcheu kyi pel la long tcheu tching",
           translation: "bénéficier du glorieux Dharma,",
           words: [
@@ -512,7 +512,7 @@ export const guruYogaShamarpa: PracticeText = {
         {
           id: "gys-s7-7",
           type: "normal",
-          tibetan: "།ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།",
+          tibetan: "ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།",
           phonetics: "sa tang lam gyi yeun ten rap dzok né",
           translation: "et ayant parachevé complètement les qualités des bhumis et des chemins,",
           words: [

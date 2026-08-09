@@ -16,7 +16,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-1",
           type: "normal",
-          tibetan: "།བཅོམ་ལྡན་འདས་འཇམ་པའི་དབྱངས་ལ་ཕྱག་འཚལ་ལོ།།",
+          tibetan: "བཅོམ་ལྡན་འདས་འཇམ་པའི་དབྱངས་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "tchom den dé / djam pé yang la / tchak tsel lo",
           translation: "To the guru and to the guide, Jetsun Manjushri, I bow down.",
           words: [
@@ -28,7 +28,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-2",
           type: "normal",
-          tibetan: "།གང་གི་བློ་གྲོས་སྒྲིབ་གཉིས་སྤྲིན་བྲལ་ཉི་ལྟར་རྣམ་དག་རབ་གསལ་བས།",
+          tibetan: "གང་གི་བློ་གྲོས་སྒྲིབ་གཉིས་སྤྲིན་བྲལ་ཉི་ལྟར་རྣམ་དག་རབ་གསལ་བས།",
           phonetics: "gang gui / lo dreu / drip nyi / trin drel / nyi tar / nam dak / rab sel wé",
           translation: "The complete clarity of your intellect breaks through the two veils like the sun breaking through clouds.",
           words: [
@@ -60,7 +60,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-4",
           type: "normal",
-          tibetan: "།གང་དག་སྲིད་པའི་བཙོན་རར་མ་རིག་མུན་འཐུམས་སྡུག་བསྔལ་གྱིས་གཟིར་བའི།",
+          tibetan: "གང་དག་སྲིད་པའི་བཙོན་རར་མ་རིག་མུན་འཐུམས་སྡུག་བསྔལ་གྱིས་གཟིར་བའི།",
           phonetics: "gang dak / si pé / tseun rar / ma rik / mun t'oum / douk ngel / gyi zir wé",
           translation: "Like a mother's love for her only child, your loving kindness extends towards all sentient beings oppressed by suffering, enveloped in the dark ignorance of the prison that is samsara.",
           words: [
@@ -130,7 +130,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-8",
           type: "normal",
-          tibetan: "།གདོད་ནས་དག་ཅིང་ས་བཅུའི་མཐར་སོན་ཡོན་ཏན་ལུས་རྫོགས་རྒྱལ་སྲས་ཐུ་བོའི་སྐུ།",
+          tibetan: "གདོད་ནས་དག་ཅིང་ས་བཅུའི་མཐར་སོན་ཡོན་ཏན་ལུས་རྫོགས་རྒྱལ་སྲས་ཐུ་བོའི་སྐུ།",
           phonetics: "deu né / dak tching / sa tchu / t'ar seun / yeun ten / lu dzok / gyel sé / t'ou weu kou",
           translation: "Great One, pure from the beginning, who has perfected the ten bhumis, who possesses all good qualities, who is perfect in form, son of the Victorious Ones,",
           words: [
@@ -163,7 +163,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-10",
           type: "normal",
-          tibetan: "།བརྩེ་ལྡན་ཁྱེད་ཀྱི་མཁྱེན་རབ་འོད་ཟེར་གྱིས།",
+          tibetan: "བརྩེ་ལྡན་ཁྱེད་ཀྱི་མཁྱེན་རབ་འོད་ཟེར་གྱིས།",
           phonetics: "tsé den / k'yé kyi / k'yen rab / eu zer gyi",
           translation: "Compassionate One, with the radiance of your final insight,",
           words: [
@@ -189,7 +189,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-12",
           type: "normal",
-          tibetan: "།བཀའ་དང་བསྟན་བཅོས་གཞུང་ལུགས་རྟོགས་པ་ཡི།",
+          tibetan: "བཀའ་དང་བསྟན་བཅོས་གཞུང་ལུགས་རྟོགས་པ་ཡི།",
           phonetics: "ka dang / ten tcheu / choung louk / tok pa yi",
           translation: "So that I truly understand the vast meanings of the teachings, the scriptures and their commentaries",
           words: [
@@ -202,7 +202,7 @@ export const louangeManjushriEn: PracticeText = {
         {
           id: "lmj-en-s1-13",
           type: "normal",
-          tibetan: "།བློ་གྲོས་སྤོབས་པའི་སྣང་བ་སྩལ་དུ་གསོལ།",
+          tibetan: "བློ་གྲོས་སྤོབས་པའི་སྣང་བ་སྩལ་དུ་གསོལ།",
           phonetics: "lo dreu / pop pé / nang wa / tsel dou seul",
           translation: "Please endow me with the light of your fearless intelligence.",
           words: [
