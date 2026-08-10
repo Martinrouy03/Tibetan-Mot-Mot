@@ -286,6 +286,42 @@ export const dakaYeshe: PracticeText = {
           ],
         },
         {
+          id: "dy-0-9b",
+          type: "normal",
+          tibetan: "ནམ་མཁའི་སྙིང་པོ་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་འཆི་བའི་ཚེ།",
+          phonetics: "nam k'ai nying po / djang tchoup sem pa nam / tchi wai tsé",
+          translation: "\"Akashagarba, au moment de la mort, un bodhisattva",
+          words: [
+            { tibetan: "ནམ་མཁའི་སྙིང་པོ་", phonetics: "nam k'ai nying po", translation: "Akashagarba" },
+            { tibetan: "བྱང་ཆུབ་སེམས་དཔའ་རྣམས་", phonetics: "djang tchoup sem pa nam", translation: "un bodhisattva" },
+            { tibetan: "འཆི་བའི་ཚེ་", phonetics: "tchi wai tsé", translation: "au moment de la mort" },
+          ],
+        },
+        {
+          id: "dy-0-9c",
+          type: "normal",
+          tibetan: "འདའ་ཀ་ཡེ་ཤེས་བསྒོམ་པར་བྱའོ།",
+          phonetics: "da ka / yé ché / gom par dja'o",
+          translation: "doit méditer la sagesse primordiale du moment de la mort.",
+          words: [
+            { tibetan: "འདའ་ཀ་", phonetics: "da ka", translation: "moment de la mort" },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yé ché", translation: "sagesse primordiale" },
+            { tibetan: "བསྒོམ་པར་བྱའོ་", phonetics: "gom par dja'o", translation: "doit méditer" },
+          ],
+        },
+        {
+          id: "dy-0-9d",
+          type: "normal",
+          tibetan: "དེ་ལ་འདའ་ཀ་ཡེ་ཤེས་ནི།",
+          phonetics: "dé la / da ka / yé ché ni",
+          translation: "Voici quelle est la sagesse primordiale du moment de la mort:",
+          words: [
+            { tibetan: "དེ་ལ་", phonetics: "dé la", translation: "voici" },
+            { tibetan: "འདའ་ཀ་", phonetics: "da ka", translation: "moment de la mort" },
+            { tibetan: "ཡེ་ཤེས་ནི་", phonetics: "yé ché ni", translation: "sagesse primordiale" },
+          ],
+        },
+        {
           id: "dy-0-10",
           type: "normal",
           tibetan: "དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་བཀའ་སྩལ་པ།",
