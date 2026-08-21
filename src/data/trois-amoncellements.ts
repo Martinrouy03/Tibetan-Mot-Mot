@@ -496,7 +496,7 @@ export const troisAmoncellements: PracticeText = {
         {
           id: "ta-2-12",
           type: "normal",
-          tibetan: "དཔས་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
+          tibetan: "དཔལ་བྱིན་ལ་ཕྱག་འཚལ་ལོ།",
           phonetics: "pédjin la tchaktsel lo",
           translation: "Hommage à Glorieuse Générosité (Śūradatta).",
           words: [
