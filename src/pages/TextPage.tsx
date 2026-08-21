@@ -898,7 +898,7 @@ export default function TextPage() {
             };
             const pairs: PhrasePair[] = [];
             const isHommageSection =
-              section.id === "ta-hommage" || section.id === "ch-priere-lignee";
+              section.id === "ta-hommage" || section.id === "ta-en-hommage" || section.id === "ch-priere-lignee";
             if (isHommageSection) {
               let i = 0;
               while (i < section.phrases.length) {
@@ -968,9 +968,9 @@ export default function TextPage() {
                       ? pairs.map(({ label, normal, image }) => {
                           normalCount++;
                           const buddhaName =
-                            image && section.id === "ta-hommage"
+                            image && (section.id === "ta-hommage" || section.id === "ta-en-hommage")
                               ? normalCount === 1
-                                ? "Bouddha Shakyamuni"
+                                ? section.id === "ta-en-hommage" ? "Śākyamuni" : "Bouddha Shakyamuni"
                                 : (normal.translation.match(
                                     /\(([^)]+)\)/,
                                   )?.[1] ?? "")

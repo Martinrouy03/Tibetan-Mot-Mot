@@ -23,6 +23,7 @@ import { aspirationsConduiteExcellenteEn } from "./aspirations-conduite-excellen
 import { vajravidhâranaEn } from "./vajravidharana-en";
 import { coeurPrajnaparamitaEn } from "./coeur-prajnaparamita-en";
 import { dakaYesheEn } from "./daka-yeshe-en";
+import { troisAmoncellementsEn } from "./trois-amoncellements-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -62,6 +63,7 @@ export const textesSoutras: PracticeText[] = [
   vajravidhâranaEn,
   coeurPrajnaparamitaEn,
   dakaYesheEn,
+  troisAmoncellementsEn,
 ];
 
 export const textesPrieres: PracticeText[] = [
