@@ -30,13 +30,30 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "སེམས་ཅན་ཐམས་ཅད་རྟག་པར་བླ་མ་ལ་སྐྱབས་སུ་མཆིའོ།",
           phonetics: "semchen / thamche / tagpar / lama la / kyab su chhi'o",
-          translation: "All sentient beings constantly take refuge in the Guru,",
+          translation:
+            "All sentient beings constantly take refuge in the Guru,",
           words: [
-            { tibetan: "སེམས་ཅན་", phonetics: "semchen", translation: "sentient beings" },
+            {
+              tibetan: "སེམས་ཅན་",
+              phonetics: "semchen",
+              translation: "sentient beings",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "thamche", translation: "all" },
-            { tibetan: "རྟག་པར་", phonetics: "tagpar", translation: "constantly" },
-            { tibetan: "བླ་མ་ལ་", phonetics: "lama la", translation: "in the Guru" },
-            { tibetan: "སྐྱབས་སུ་མཆིའོ་", phonetics: "kyab su chhi'o", translation: "take refuge" },
+            {
+              tibetan: "རྟག་པར་",
+              phonetics: "tagpar",
+              translation: "constantly",
+            },
+            {
+              tibetan: "བླ་མ་ལ་",
+              phonetics: "lama la",
+              translation: "in the Guru",
+            },
+            {
+              tibetan: "སྐྱབས་སུ་མཆིའོ་",
+              phonetics: "kyab su chhi'o",
+              translation: "take refuge",
+            },
           ],
         },
         {
@@ -46,8 +63,16 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "sanggye la / kyab su chhi'o",
           translation: "I take refuge in the Buddha,",
           words: [
-            { tibetan: "སངས་རྒྱས་ལ་", phonetics: "sanggye la", translation: "in the Buddha" },
-            { tibetan: "སྐྱབས་སུ་མཆིའོ་", phonetics: "kyab su chhi'o", translation: "take refuge" },
+            {
+              tibetan: "སངས་རྒྱས་ལ་",
+              phonetics: "sanggye la",
+              translation: "in the Buddha",
+            },
+            {
+              tibetan: "སྐྱབས་སུ་མཆིའོ་",
+              phonetics: "kyab su chhi'o",
+              translation: "take refuge",
+            },
           ],
         },
         {
@@ -57,8 +82,16 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "chhö la / kyab su chhi'o",
           translation: "take refuge in the Dharma,",
           words: [
-            { tibetan: "ཆོས་ལ་", phonetics: "chhö la", translation: "in the Dharma" },
-            { tibetan: "སྐྱབས་སུ་མཆིའོ་", phonetics: "kyab su chhi'o", translation: "take refuge" },
+            {
+              tibetan: "ཆོས་ལ་",
+              phonetics: "chhö la",
+              translation: "in the Dharma",
+            },
+            {
+              tibetan: "སྐྱབས་སུ་མཆིའོ་",
+              phonetics: "kyab su chhi'o",
+              translation: "take refuge",
+            },
           ],
         },
         {
@@ -68,8 +101,16 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "gendün la / kyab su chhi'o",
           translation: "take refuge in the Sangha.",
           words: [
-            { tibetan: "དགེ་འདུན་ལ་", phonetics: "gendün la", translation: "in the Sangha" },
-            { tibetan: "སྐྱབས་སུ་མཆིའོ་", phonetics: "kyab su chhi'o", translation: "take refuge" },
+            {
+              tibetan: "དགེ་འདུན་ལ་",
+              phonetics: "gendün la",
+              translation: "in the Sangha",
+            },
+            {
+              tibetan: "སྐྱབས་སུ་མཆིའོ་",
+              phonetics: "kyab su chhi'o",
+              translation: "take refuge",
+            },
           ],
         },
       ],
@@ -81,18 +122,49 @@ export const troisAmoncellementsEn: PracticeText = {
         {
           id: "ta-en-2-1",
           type: "normal",
-          tibetan: "བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ཤཱཀྱ་ཐུབ་པ་ལ་ཕྱག་འཚལ་ལོ།།",
-          phonetics: "chomdende / dezhin shegpa / drachompa / yangdagpar dzogpe / sanggye / shākya thubpa / la / chhag tshal lo",
-          translation: "I prostrate to the Bhagavan, Tathagata, Arhat, Samyaksam Buddha Śākyamuni.",
+          tibetan:
+            "བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ཤཱཀྱ་ཐུབ་པ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics:
+            "chomdende / dezhin shegpa / drachompa / yangdagpar dzogpe / sanggye / shākya thubpa / la / chhag tshal lo",
+          translation:
+            "I prostrate to the Bhagavan, Tathagata, Arhat, Samyaksam Buddha Śākyamuni.",
           words: [
-            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "chomdende", translation: "Bhagavan" },
-            { tibetan: "དེ་བཞིན་གཤེགས་པ་", phonetics: "dezhin shegpa", translation: "Tathagata" },
-            { tibetan: "དགྲ་བཅོམ་པ་", phonetics: "drachompa", translation: "Arhat" },
-            { tibetan: "ཡང་དག་པར་རྫོགས་པའི་", phonetics: "yangdagpar dzogpe", translation: "Samyaksam" },
-            { tibetan: "སངས་རྒྱས་", phonetics: "sanggye", translation: "Buddha" },
-            { tibetan: "ཤཱཀྱ་ཐུབ་པ་", phonetics: "shākya thubpa", translation: "Śākyamuni" },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "chomdende",
+              translation: "Bhagavan",
+            },
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "dezhin shegpa",
+              translation: "Tathagata",
+            },
+            {
+              tibetan: "དགྲ་བཅོམ་པ་",
+              phonetics: "drachompa",
+              translation: "Arhat",
+            },
+            {
+              tibetan: "ཡང་དག་པར་རྫོགས་པའི་",
+              phonetics: "yangdagpar dzogpe",
+              translation: "Samyaksam",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sanggye",
+              translation: "Buddha",
+            },
+            {
+              tibetan: "ཤཱཀྱ་ཐུབ་པ་",
+              phonetics: "shākya thubpa",
+              translation: "Śākyamuni",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -109,13 +181,30 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "རྡོ་རྗེ་སྙིང་པོས་རབ་ཏུ་འཇོམས་པ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "dorje nyingpö / rabtu / jompa / la / chhag tshal lo",
-          translation: "I prostrate to the one who conquers completely with vajra essence (Vajrapramadhī).",
+          translation:
+            "I prostrate to the one who conquers completely with vajra essence (Vajrapramadhī).",
           words: [
-            { tibetan: "རྡོ་རྗེ་སྙིང་པོས་", phonetics: "dorje nyingpö", translation: "vajra essence" },
-            { tibetan: "རབ་ཏུ་", phonetics: "rabtu", translation: "completely" },
-            { tibetan: "འཇོམས་པ་", phonetics: "jompa", translation: "who conquers" },
+            {
+              tibetan: "རྡོ་རྗེ་སྙིང་པོས་",
+              phonetics: "dorje nyingpö",
+              translation: "vajra essence",
+            },
+            {
+              tibetan: "རབ་ཏུ་",
+              phonetics: "rabtu",
+              translation: "completely",
+            },
+            {
+              tibetan: "འཇོམས་པ་",
+              phonetics: "jompa",
+              translation: "who conquers",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -132,13 +221,26 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "རིན་ཆེན་འོད་འཕྲོ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "rinchhen / ö / thro / la / chhag tshal lo",
-          translation: "I prostrate to the emanation of jewel light (Ratnāśiş).",
+          translation:
+            "I prostrate to the emanation of jewel light (Ratnāśiş).",
           words: [
-            { tibetan: "རིན་ཆེན་", phonetics: "rinchhen", translation: "jewel" },
+            {
+              tibetan: "རིན་ཆེན་",
+              phonetics: "rinchhen",
+              translation: "jewel",
+            },
             { tibetan: "འོད་", phonetics: "ö", translation: "light" },
-            { tibetan: "འཕྲོ་", phonetics: "thro", translation: "emanation of" },
+            {
+              tibetan: "འཕྲོ་",
+              phonetics: "thro",
+              translation: "emanation of",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -155,13 +257,22 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "ཀླུ་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "lu / wang / gi gyalpo / la / chhag tshal lo",
-          translation: "I prostrate to the king of the powerful nagas (Nāgeśvararāja).",
+          translation:
+            "I prostrate to the king of the powerful nagas (Nāgeśvararāja).",
           words: [
             { tibetan: "ཀླུ་", phonetics: "lu", translation: "nagas" },
             { tibetan: "དབང་", phonetics: "wang", translation: "powerful" },
-            { tibetan: "གི་རྒྱལ་པོ་", phonetics: "gi gyalpo", translation: "king of" },
+            {
+              tibetan: "གི་རྒྱལ་པོ་",
+              phonetics: "gi gyalpo",
+              translation: "king of",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -180,9 +291,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "pawo'i de / la / chhag tshal lo",
           translation: "I prostrate to the assembly of heroes (Vīrasena).",
           words: [
-            { tibetan: "དཔའ་བོའི་སྡེ་", phonetics: "pawo'i de", translation: "assembly of heroes" },
+            {
+              tibetan: "དཔའ་བོའི་སྡེ་",
+              phonetics: "pawo'i de",
+              translation: "assembly of heroes",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -201,9 +320,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "palgye / la / chhag tshal lo",
           translation: "I prostrate to glorious joy (Viranandi).",
           words: [
-            { tibetan: "དཔལ་དགྱེས་", phonetics: "palgye", translation: "glorious joy" },
+            {
+              tibetan: "དཔལ་དགྱེས་",
+              phonetics: "palgye",
+              translation: "glorious joy",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -222,9 +349,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "rinchhen me / la / chhag tshal lo",
           translation: "I prostrate to jewel fire (Ratnāgni).",
           words: [
-            { tibetan: "རིན་ཆེན་མེ་", phonetics: "rinchhen me", translation: "jewel fire" },
+            {
+              tibetan: "རིན་ཆེན་མེ་",
+              phonetics: "rinchhen me",
+              translation: "jewel fire",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -243,10 +378,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "rinchhen / da ö / la / chhag tshal lo",
           translation: "I prostrate to jewel moonlight (Ratnacandraprabha).",
           words: [
-            { tibetan: "རིན་ཆེན་", phonetics: "rinchhen", translation: "jewel" },
+            {
+              tibetan: "རིན་ཆེན་",
+              phonetics: "rinchhen",
+              translation: "jewel",
+            },
             { tibetan: "ཟླ་འོད་", phonetics: "da ö", translation: "moonlight" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཆལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཆལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -263,12 +406,25 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "མཐོང་བ་དོན་ཡོད་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "thongwa / dönyö / la / chhag tshal lo",
-          translation: "I prostrate to the one meaningful to behold (Amoghadarśi).",
+          translation:
+            "I prostrate to the one meaningful to behold (Amoghadarśi).",
           words: [
-            { tibetan: "མཐོང་བ་", phonetics: "thongwa", translation: "to behold" },
-            { tibetan: "དོན་ཡོད་", phonetics: "dönyö", translation: "meaningful" },
+            {
+              tibetan: "མཐོང་བ་",
+              phonetics: "thongwa",
+              translation: "to behold",
+            },
+            {
+              tibetan: "དོན་ཡོད་",
+              phonetics: "dönyö",
+              translation: "meaningful",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -287,10 +443,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "rinchhen / dawa / la / chhag tshal lo",
           translation: "I prostrate to jewel moon (Ratnacandra).",
           words: [
-            { tibetan: "རིན་ཆེན་", phonetics: "rinchhen", translation: "jewel" },
+            {
+              tibetan: "རིན་ཆེན་",
+              phonetics: "rinchhen",
+              translation: "jewel",
+            },
             { tibetan: "ཟླ་བ་", phonetics: "dawa", translation: "moon" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -309,9 +473,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "drima mepa / la / chhag tshal lo",
           translation: "I prostrate to the taintless one (Vimala).",
           words: [
-            { tibetan: "དྲི་མ་མེད་པ་", phonetics: "drima mepa", translation: "taintless" },
+            {
+              tibetan: "དྲི་མ་མེད་པ་",
+              phonetics: "drima mepa",
+              translation: "taintless",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -330,9 +502,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "paljin / la / chhag tshal lo",
           translation: "I prostrate to the bestower of glory (Suradatta).",
           words: [
-            { tibetan: "དཔལ་བྱིན་", phonetics: "paljin", translation: "bestower of glory" },
+            {
+              tibetan: "དཔལ་བྱིན་",
+              phonetics: "paljin",
+              translation: "bestower of glory",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -351,9 +531,17 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "tshang pa / la / chhag tshal lo",
           translation: "I prostrate to the pure one (Brahma).",
           words: [
-            { tibetan: "ཚངས་པ་", phonetics: "tshang pa", translation: "pure one" },
+            {
+              tibetan: "ཚངས་པ་",
+              phonetics: "tshang pa",
+              translation: "pure one",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -372,10 +560,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "tshangpe / jin / la / chhag tshal lo",
           translation: "I prostrate to the bestower of purity (Brahmadatta).",
           words: [
-            { tibetan: "ཚངས་པས་", phonetics: "tshangpe", translation: "purity" },
+            {
+              tibetan: "ཚངས་པས་",
+              phonetics: "tshangpe",
+              translation: "purity",
+            },
             { tibetan: "བྱིན་", phonetics: "jin", translation: "bestower of" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -397,7 +593,11 @@ export const troisAmoncellementsEn: PracticeText = {
             { tibetan: "ཆུ་", phonetics: "chhu", translation: "water" },
             { tibetan: "ལྷ་", phonetics: "lha", translation: "deity" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -414,13 +614,18 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "ཆུ་ལྷའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "chhu / lhe / lha / la / chhag tshal lo",
-          translation: "I prostrate to the deity of water deities (Varunadeva).",
+          translation:
+            "I prostrate to the deity of water deities (Varunadeva).",
           words: [
             { tibetan: "ཆུ་", phonetics: "chhu", translation: "water" },
             { tibetan: "ལྷའི་", phonetics: "lhe", translation: "deities" },
             { tibetan: "ལྷ་", phonetics: "lha", translation: "deity of" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -442,7 +647,11 @@ export const troisAmoncellementsEn: PracticeText = {
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "བཟང་", phonetics: "zang", translation: "excellent" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -461,10 +670,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "tsenden / pal / la / chhag tshal lo",
           translation: "I prostrate to glorious sandalwood (Candanaśrī).",
           words: [
-            { tibetan: "ཙན་དན་", phonetics: "tsenden", translation: "sandalwood" },
+            {
+              tibetan: "ཙན་དན་",
+              phonetics: "tsenden",
+              translation: "sandalwood",
+            },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -483,10 +700,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "ziji / thaye / la / chhag tshal lo",
           translation: "I prostrate to infinite splendor (Anantaujas).",
           words: [
-            { tibetan: "གཟི་བརྗིད་", phonetics: "ziji", translation: "splendor" },
+            {
+              tibetan: "གཟི་བརྗིད་",
+              phonetics: "ziji",
+              translation: "splendor",
+            },
             { tibetan: "མཐའ་ཡས་", phonetics: "thaye", translation: "infinite" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -508,7 +733,11 @@ export const troisAmoncellementsEn: PracticeText = {
             { tibetan: "འོད་", phonetics: "ö", translation: "light" },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -525,12 +754,21 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "མྱ་ངན་མེད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "nya ngen mepe / pal / la / chhag tshal lo",
-          translation: "I prostrate to the glorious one free from sorrow (Aśokaśrī).",
+          translation:
+            "I prostrate to the glorious one free from sorrow (Aśokaśrī).",
           words: [
-            { tibetan: "མྱ་ངན་མེད་པའི་", phonetics: "nya ngen mepe", translation: "free from sorrow" },
+            {
+              tibetan: "མྱ་ངན་མེད་པའི་",
+              phonetics: "nya ngen mepe",
+              translation: "free from sorrow",
+            },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -549,10 +787,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "seme / kyi bu / la / chhag tshal lo",
           translation: "I prostrate to the son of non-craving (Nārāyana).",
           words: [
-            { tibetan: "སྲེད་མེད་", phonetics: "seme", translation: "non-craving" },
+            {
+              tibetan: "སྲེད་མེད་",
+              phonetics: "seme",
+              translation: "non-craving",
+            },
             { tibetan: "ཀྱི་བུ་", phonetics: "kyi bu", translation: "son of" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -574,7 +820,11 @@ export const troisAmoncellementsEn: PracticeText = {
             { tibetan: "མེ་ཏོག་", phonetics: "metog", translation: "flower" },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -589,18 +839,41 @@ export const troisAmoncellementsEn: PracticeText = {
         {
           id: "ta-en-2-24",
           type: "normal",
-          tibetan: "དེ་བཞིན་གཤེགས་པ་ཚངས་པའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
-          phonetics: "dezhin shegpa / tshangpe / özer / nampar rolpa / ngönpar / khyenpa / la / chhag tshal lo",
-          translation: "I prostrate to Tathagatha pure light evidently knowing the play of appearances (Tathāgata Brahmajyotivikrīditābhijña).",
+          tibetan:
+            "དེ་བཞིན་གཤེགས་པ་ཚངས་པའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics:
+            "dezhin shegpa / tshangpe / özer / nampar rolpa / ngönpar / khyenpa / la / chhag tshal lo",
+          translation:
+            "I prostrate to Tathagatha pure light evidently knowing the play of appearances (Tathāgata Brahmajyotivikrīditābhijña).",
           words: [
-            { tibetan: "དེ་བཞིན་གཤེགས་པ་", phonetics: "dezhin shegpa", translation: "Tathagata" },
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "dezhin shegpa",
+              translation: "Tathagata",
+            },
             { tibetan: "ཚངས་པའི་", phonetics: "tshangpe", translation: "pure" },
             { tibetan: "འོད་ཟེར་", phonetics: "özer", translation: "light" },
-            { tibetan: "རྣམ་པར་རོལ་པ་", phonetics: "nampar rolpa", translation: "play of appearances" },
-            { tibetan: "མངོན་པར་", phonetics: "ngönpar", translation: "evidently" },
-            { tibetan: "མཁྱེན་པ་", phonetics: "khyenpa", translation: "knowing" },
+            {
+              tibetan: "རྣམ་པར་རོལ་པ་",
+              phonetics: "nampar rolpa",
+              translation: "play of appearances",
+            },
+            {
+              tibetan: "མངོན་པར་",
+              phonetics: "ngönpar",
+              translation: "evidently",
+            },
+            {
+              tibetan: "མཁྱེན་པ་",
+              phonetics: "khyenpa",
+              translation: "knowing",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -615,18 +888,41 @@ export const troisAmoncellementsEn: PracticeText = {
         {
           id: "ta-en-2-25",
           type: "normal",
-          tibetan: "དེ་བཞིན་གཤེགས་པ་པདྨའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
-          phonetics: "dezhin shegpa / peme / özer / nampar rolpa / ngönpar / khyenpa / la / chhag tshal lo",
-          translation: "I prostrate to Tathagatha lotus light evidently knowing the play of appearances (Tathāgata Padmajyotivikrīditābhijña).",
+          tibetan:
+            "དེ་བཞིན་གཤེགས་པ་པདྨའི་འོད་ཟེར་རྣམ་པར་རོལ་པ་མངོན་པར་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics:
+            "dezhin shegpa / peme / özer / nampar rolpa / ngönpar / khyenpa / la / chhag tshal lo",
+          translation:
+            "I prostrate to Tathagatha lotus light evidently knowing the play of appearances (Tathāgata Padmajyotivikrīditābhijña).",
           words: [
-            { tibetan: "དེ་བཞིན་གཤེགས་པ་", phonetics: "dezhin shegpa", translation: "Tathagata" },
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "dezhin shegpa",
+              translation: "Tathagata",
+            },
             { tibetan: "པདྨའི་", phonetics: "peme", translation: "lotus" },
             { tibetan: "འོད་ཟེར་", phonetics: "özer", translation: "light" },
-            { tibetan: "རྣམ་པར་རོལ་པ་", phonetics: "nampar rolpa", translation: "play of appearances" },
-            { tibetan: "མངོན་པར་", phonetics: "ngönpar", translation: "evidently" },
-            { tibetan: "མཁྱེན་པ་", phonetics: "khyenpa", translation: "knowing" },
+            {
+              tibetan: "རྣམ་པར་རོལ་པ་",
+              phonetics: "nampar rolpa",
+              translation: "play of appearances",
+            },
+            {
+              tibetan: "མངོན་པར་",
+              phonetics: "ngönpar",
+              translation: "evidently",
+            },
+            {
+              tibetan: "མཁྱེན་པ་",
+              phonetics: "khyenpa",
+              translation: "knowing",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -648,7 +944,11 @@ export const troisAmoncellementsEn: PracticeText = {
             { tibetan: "ནོར་", phonetics: "nor", translation: "wealth" },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -667,10 +967,18 @@ export const troisAmoncellementsEn: PracticeText = {
           phonetics: "drenpe / pal / la / chhag tshal lo",
           translation: "I prostrate to glorious mindfulness (Smritiśrī).",
           words: [
-            { tibetan: "དྲན་པའི་", phonetics: "drenpe", translation: "mindfulness" },
+            {
+              tibetan: "དྲན་པའི་",
+              phonetics: "drenpe",
+              translation: "mindfulness",
+            },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -687,14 +995,27 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "མཚན་དཔལ་ཤིན་ཏུ་ཡོངས་གྲགས་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "tshenpal / shintu / yong / drag / la / chhag tshal lo",
-          translation: "I prostrate to the one well-renowned with a glorious name (Suparikīrtitanāmagheyaśrī).",
+          translation:
+            "I prostrate to the one well-renowned with a glorious name (Suparikīrtitanāmagheyaśrī).",
           words: [
-            { tibetan: "མཚན་དཔལ་", phonetics: "tshenpal", translation: "glorious name" },
-            { tibetan: "ཤིན་ཏུ་", phonetics: "shintu", translation: "completely" },
+            {
+              tibetan: "མཚན་དཔལ་",
+              phonetics: "tshenpal",
+              translation: "glorious name",
+            },
+            {
+              tibetan: "ཤིན་ཏུ་",
+              phonetics: "shintu",
+              translation: "completely",
+            },
             { tibetan: "ཡོངས་", phonetics: "yong", translation: "well" },
             { tibetan: "གྲགས་", phonetics: "drag", translation: "renowned" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -710,15 +1031,33 @@ export const troisAmoncellementsEn: PracticeText = {
           id: "ta-en-2-29",
           type: "normal",
           tibetan: "དབང་པོའི་ཏོག་གི་རྒྱལ་མཚན་གྱི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།།",
-          phonetics: "wangpo'i / tog gi / gyaltshen / gyi gyalpo / la / chhag tshal lo",
-          translation: "I prostrate to the king of the victorious banner with a powerful top (Indraketudhvajarāja).",
+          phonetics:
+            "wangpo'i / tog gi / gyaltshen / gyi gyalpo / la / chhag tshal lo",
+          translation:
+            "I prostrate to the king of the victorious banner with a powerful top (Indraketudhvajarāja).",
           words: [
-            { tibetan: "དབང་པོའི་", phonetics: "wangpo'i", translation: "powerful" },
+            {
+              tibetan: "དབང་པོའི་",
+              phonetics: "wangpo'i",
+              translation: "powerful",
+            },
             { tibetan: "ཏོག་གི་", phonetics: "tog gi", translation: "top" },
-            { tibetan: "རྒྱལ་མཚན་", phonetics: "gyaltshen", translation: "victorious banner" },
-            { tibetan: "གྱི་རྒྱལ་པོ་", phonetics: "gyi gyalpo", translation: "king of" },
+            {
+              tibetan: "རྒྱལ་མཚན་",
+              phonetics: "gyaltshen",
+              translation: "victorious banner",
+            },
+            {
+              tibetan: "གྱི་རྒྱལ་པོ་",
+              phonetics: "gyi gyalpo",
+              translation: "king of",
+            },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -735,14 +1074,27 @@ export const troisAmoncellementsEn: PracticeText = {
           type: "normal",
           tibetan: "ཤིན་ཏུ་རྣམ་པར་གནོན་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།།",
           phonetics: "shintu / nampar / nönpe / pal / la / chhag tshal lo",
-          translation: "I prostrate to the glorious one who completely subdues all (Suvikrāntaśrī).",
+          translation:
+            "I prostrate to the glorious one who completely subdues all (Suvikrāntaśrī).",
           words: [
-            { tibetan: "ཤིན་ཏུ་", phonetics: "shintu", translation: "completely" },
+            {
+              tibetan: "ཤིན་ཏུ་",
+              phonetics: "shintu",
+              translation: "completely",
+            },
             { tibetan: "རྣམ་པར་", phonetics: "nampar", translation: "all" },
-            { tibetan: "གནོན་པའི་", phonetics: "nönpe", translation: "subdues" },
+            {
+              tibetan: "གནོན་པའི་",
+              phonetics: "nönpe",
+              translation: "subdues",
+            },
             { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
             { tibetan: "ལ་", phonetics: "la", translation: "to you" },
-            { tibetan: "ཕྱག་འཚལ་ལོ་", phonetics: "chhag tshal lo", translation: "I prostrate" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
           ],
         },
         {
@@ -753,6 +1105,752 @@ export const troisAmoncellementsEn: PracticeText = {
           translation: "",
           words: [],
           src: "/35buddhas/Bouddha30.jpg",
+        },
+        {
+          id: "ta-en-2-31",
+          type: "normal",
+          tibetan: "གཡུལ་ལས་ཤིན་ཏུ་རྣམ་པར་རྒྱལ་བ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics: "yulle / shintu nampar / gyalwa / la / chhag tshal lo",
+          translation:
+            "I prostrate to the absolute victor in battles (Yuddhajaya).",
+          words: [
+            {
+              tibetan: "གཡུལ་ལས་",
+              phonetics: "yulle",
+              translation: "in battles",
+            },
+            {
+              tibetan: "ཤིན་ཏུ་རྣམ་པར་",
+              phonetics: "shintu nampar",
+              translation: "absolute",
+            },
+            { tibetan: "རྒྱལ་བ་", phonetics: "gyalwa", translation: "victor" },
+            { tibetan: "ལ་", phonetics: "la", translation: "to you" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-img31",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/35buddhas/Bouddha31.jpg",
+        },
+        {
+          id: "ta-en-2-32",
+          type: "normal",
+          tibetan: "རྣམ་པར་གནོན་པས་གཤེགས་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics: "nampar nönpe / shegpe / pal / la / chhag tshal lo",
+          translation:
+            "I prostrate to gloriously advancing subduer of all (Vikrāntagāmī).",
+          words: [
+            {
+              tibetan: "རྣམ་པར་གནོན་པས་",
+              phonetics: "nampar nönpe",
+              translation: "subduer of all",
+            },
+            {
+              tibetan: "གཤེགས་པའི་",
+              phonetics: "shegpe",
+              translation: "advancing",
+            },
+            { tibetan: "དཔལ་", phonetics: "pal", translation: "gloriously" },
+            { tibetan: "ལ་", phonetics: "la", translation: "to you" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-img32",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/35buddhas/Bouddha32.jpg",
+        },
+        {
+          id: "ta-en-2-33",
+          type: "normal",
+          tibetan: "ཀུན་ནས་སྣང་བ་བཀོད་པའི་དཔལ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics: "künne / nangwa / köpe / pal / la / chhag tshal lo",
+          translation:
+            "I prostrate to the glorious array of all lights (Samantāvabhāsavyuhaśrī).",
+          words: [
+            { tibetan: "ཀུན་ནས་", phonetics: "künne", translation: "of all" },
+            { tibetan: "སྣང་བ་", phonetics: "nangwa", translation: "lights" },
+            { tibetan: "བཀོད་པའི་", phonetics: "köpe", translation: "array" },
+            { tibetan: "དཔལ་", phonetics: "pal", translation: "glorious" },
+            { tibetan: "ལ་", phonetics: "la", translation: "to you" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-img33",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/35buddhas/Bouddha33.jpg",
+        },
+        {
+          id: "ta-en-2-34",
+          type: "normal",
+          tibetan: "རིན་ཆེན་པདྨ་རྣམ་པར་གནོན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics: "rinchhen / pema / nampar nönpa / la / chhag tshal lo",
+          translation:
+            "I prostrate to the lotus jewel who fully subdues (Ratnapadmavikramī).",
+          words: [
+            {
+              tibetan: "རིན་ཆེན་",
+              phonetics: "rinchhen",
+              translation: "jewel",
+            },
+            { tibetan: "པདྨ་", phonetics: "pema", translation: "lotus" },
+            {
+              tibetan: "རྣམ་པར་གནོན་པ་",
+              phonetics: "nampar nönpa",
+              translation: "who fully subdues",
+            },
+            { tibetan: "ལ་", phonetics: "la", translation: "to you" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-img34",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/35buddhas/Bouddha34.jpg",
+        },
+        {
+          id: "ta-en-2-35",
+          type: "normal",
+          tibetan:
+            "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་རིན་པོ་ཆེའི་པདྨ་ལ་རབ་ཏུ་བཞུགས་པ་རི་དབང་གི་རྒྱལ་པོ་ལ་ཕྱག་འཚལ་ལོ།།",
+          phonetics:
+            "dezhin shegpa / drachompa / yangdagpar dzogpe / sanggye / rinpochhe / pema la / rabtu / zhugpa / riwang / gi gyalpo / la / chhag tshal lo",
+          translation:
+            "I prostrate to the Tathagata, Arhat, Samyaksam Buddha, king of the mountain who abides perfectly on a precious lotus (Ratnapadmasupraţişṭhitaśailendrarāja).",
+          words: [
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "dezhin shegpa",
+              translation: "Tathagata",
+            },
+            {
+              tibetan: "དགྲ་བཅོམ་པ་",
+              phonetics: "drachompa",
+              translation: "Arhat",
+            },
+            {
+              tibetan: "ཡང་དག་པར་རྫོགས་པའི་",
+              phonetics: "yangdagpar dzogpe",
+              translation: "Samyaksam",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sanggye",
+              translation: "Buddha",
+            },
+            {
+              tibetan: "རིན་པོ་ཆེའི་",
+              phonetics: "rinpochhe",
+              translation: "precious",
+            },
+            {
+              tibetan: "པདྨ་ལ་",
+              phonetics: "pema la",
+              translation: "on a lotus",
+            },
+            { tibetan: "རབ་ཏུ་", phonetics: "rabtu", translation: "perfectly" },
+            {
+              tibetan: "བཞུགས་པ་",
+              phonetics: "zhugpa",
+              translation: "who abides",
+            },
+            {
+              tibetan: "རི་དབང་",
+              phonetics: "riwang",
+              translation: "mountain",
+            },
+            {
+              tibetan: "གི་རྒྱལ་པོ་",
+              phonetics: "gi gyalpo",
+              translation: "king of",
+            },
+            { tibetan: "ལ་", phonetics: "la", translation: "to you" },
+            {
+              tibetan: "ཕྱག་འཚལ་ལོ་",
+              phonetics: "chhag tshal lo",
+              translation: "I prostrate",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-img35",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/35buddhas/Bouddha35.jpg",
+        },
+        {
+          id: "ta-en-2-36",
+          type: "normal",
+          tibetan: "དེ་དག་ལ་སོགས་པ་ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ཐམས་ཅད་ན་",
+          phonetics:
+            "dedag la sogpa / chhog chu'i / jigten gyi kham / thamche na",
+          translation:
+            "O Tathagathas, Arhats, Utterly Perfect Buddhas, and Bhagavans;",
+          words: [
+            {
+              tibetan: "དེ་དག་ལ་སོགས་པ་",
+              phonetics: "dedag la sogpa",
+              translation: "All of you and more",
+            },
+            {
+              tibetan: "ཕྱོགས་བཅུའི་",
+              phonetics: "chhog chu'i",
+              translation: "of the ten directions",
+            },
+            {
+              tibetan: "འཇིག་རྟེན་གྱི་ཁམས་",
+              phonetics: "jigten gyi kham",
+              translation: "the worlds",
+            },
+            {
+              tibetan: "ཐམས་ཅད་ན་",
+              phonetics: "thamche na",
+              translation: "in all",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-37",
+          type: "normal",
+          tibetan:
+            "དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་བཅོམ་ལྡན་འདས་",
+          phonetics:
+            "dezhin shegpa / drachompa / yangdagpar dzogpe / sanggye chomdende",
+          translation:
+            "all of you and more, in all of the worlds of all ten directions;",
+          words: [
+            {
+              tibetan: "དེ་བཞིན་གཤེགས་པ་",
+              phonetics: "dezhin shegpa",
+              translation: "Tathagatas",
+            },
+            {
+              tibetan: "དགྲ་བཅོམ་པ་",
+              phonetics: "drachompa",
+              translation: "Arhats",
+            },
+            {
+              tibetan: "ཡང་དག་པར་རྫོགས་པའི་",
+              phonetics: "yangdagpar dzogpe",
+              translation: "Utterly Perfect",
+            },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sanggye",
+              translation: "Buddhas",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "chomdende",
+              translation: "Bhagavans",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-38",
+          type: "normal",
+          tibetan: "གང་ཇི་སྙེད་ཅིག་བཞུགས་ཏེ་འཚོ་ཞིང་གཞེས་པའི་",
+          phonetics: "gang jinye chig / zhug te / tsho zhing / zhepe",
+          translation:
+            "you Victorious Buddhas who abide here to nurture, sustain, and",
+          words: [
+            {
+              tibetan: "གང་ཇི་སྙེད་ཅིག་",
+              phonetics: "gang jinye chig",
+              translation: "however many",
+            },
+            {
+              tibetan: "བཞུགས་ཏེ་",
+              phonetics: "zhug te",
+              translation: "who abide",
+            },
+            {
+              tibetan: "འཚོ་ཞིང་",
+              phonetics: "tsho zhing",
+              translation: "nurture",
+            },
+            {
+              tibetan: "གཞེས་པའི་",
+              phonetics: "zhepe",
+              translation: "and sustain",
+            },
+          ],
+        },
+        {
+          id: "ta-en-2-39",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+          phonetics:
+            "sanggye / chomdende / dedag / thamche / dag la / gong su sol",
+          translation: "watch over us: all of you, please heed me!",
+          words: [
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sanggye",
+              translation: "Buddhas",
+            },
+            {
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "chomdende",
+              translation: "Bhagavans",
+            },
+            { tibetan: "དེ་དག་", phonetics: "dedag", translation: "you" },
+            { tibetan: "ཐམས་ཅད་", phonetics: "thamche", translation: "all" },
+            { tibetan: "བདག་ལ་", phonetics: "dag la", translation: "me" },
+            {
+              tibetan: "དགོངས་སུ་གསོལ་",
+              phonetics: "gong su sol",
+              translation: "please heed",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "ta-en-confession",
+      title: "Confession",
+      phrases: [
+        {
+          id: "ta-en-3-1",
+          type: "normal",
+          tibetan: "བདག་གི་སྐྱེ་བ་འདི་དང་།",
+          phonetics: "dag gi / kyewa / di dang",
+          translation: "In this life",
+          words: [
+            { tibetan: "བདག་གི་", phonetics: "dag gi", translation: "[Myself,]" },
+            { tibetan: "སྐྱེ་བ་", phonetics: "kyewa", translation: "life" },
+            { tibetan: "འདི་དང་", phonetics: "di dang", translation: "in this" },
+          ],
+        },
+        {
+          id: "ta-en-3-2",
+          type: "normal",
+          tibetan: "སྐྱེ་བ་ཐོག་མ་དང་མཐའ་མ་མ་མཆིས་པ་ནས།",
+          phonetics: "kyewa / thogma / dang / thama machhipa / ne",
+          translation: "and in beginningless and limitless lifetimes,",
+          words: [
+            { tibetan: "སྐྱེ་བ་", phonetics: "kyewa", translation: "lifetimes" },
+            { tibetan: "ཐོག་མ་", phonetics: "thogma", translation: "beginningless" },
+            { tibetan: "དང་", phonetics: "dang", translation: "and" },
+            { tibetan: "མཐའ་མ་མ་མཆིས་པ་", phonetics: "thama machhipa", translation: "limitless" },
+            { tibetan: "ནས་", phonetics: "ne", translation: "in" },
+          ],
+        },
+        {
+          id: "ta-en-3-3",
+          type: "normal",
+          tibetan: "འཁོར་བ་ན་འཁོར་བའི་སྐྱེ་གནས་ཐམས་ཅད་དུ་",
+          phonetics: "khorwa na / khorwe / kye ne / thamche du",
+          translation: "in all life situations within samsara, the cycle of existence,",
+          words: [
+            { tibetan: "འཁོར་བ་ན་", phonetics: "khorwa na", translation: "within samsara" },
+            { tibetan: "འཁོར་བའི་", phonetics: "khorwe", translation: "the cycle of existence" },
+            { tibetan: "སྐྱེ་གནས་", phonetics: "kye ne", translation: "life situations" },
+            { tibetan: "ཐམས་ཅད་དུ་", phonetics: "thamche du", translation: "in all" },
+          ],
+        },
+        {
+          id: "ta-en-3-4",
+          type: "normal",
+          tibetan: "སྡིག་པའི་ལས་བགྱིས་པ་དང་།",
+          phonetics: "digpe le / gyipa dang",
+          translation: "I have done evil deeds,",
+          words: [
+            { tibetan: "སྡིག་པའི་ལས་", phonetics: "digpe le", translation: "evil deeds" },
+            { tibetan: "བགྱིས་པ་དང་", phonetics: "gyipa dang", translation: "I have done" },
+          ],
+        },
+        {
+          id: "ta-en-3-5",
+          type: "normal",
+          tibetan: "བགྱིད་དུ་སྩལ་བ་དང་།",
+          phonetics: "gyidu / tsalwa dang",
+          translation: "have made others do them,",
+          words: [
+            { tibetan: "བགྱིད་དུ་", phonetics: "gyidu", translation: "do them" },
+            { tibetan: "སྩལ་བ་དང་", phonetics: "tsalwa dang", translation: "have made others" },
+          ],
+        },
+        {
+          id: "ta-en-3-6",
+          type: "normal",
+          tibetan: "བགྱིས་པ་ལ་རྗེས་སུ་ཡི་རང་བའམ།",
+          phonetics: "gyipa la / jesu / yi rang wa'am",
+          translation: "and have rejoiced when they were done.",
+          words: [
+            { tibetan: "བགྱིས་པ་ལ་", phonetics: "gyipa la", translation: "done" },
+            { tibetan: "རྗེས་སུ་", phonetics: "jesu", translation: "when" },
+            { tibetan: "ཡི་རང་བའམ་", phonetics: "yi rang wa'am", translation: "have rejoiced" },
+          ],
+        },
+        {
+          id: "ta-en-3-7",
+          type: "normal",
+          tibetan: "མཆོད་རྟེན་གྱི་དཀོར་རམ།",
+          phonetics: "chhöten gyi / korram",
+          translation: "I have stolen that which is used for worship,",
+          words: [
+            { tibetan: "མཆོད་རྟེན་གྱི་", phonetics: "chhöten gyi", translation: "used for worship" },
+            { tibetan: "དཀོར་རམ་", phonetics: "korram", translation: "that which" },
+          ],
+        },
+        {
+          id: "ta-en-3-8",
+          type: "normal",
+          tibetan: "དགེ་འདུན་གྱི་དཀོར་རམ།",
+          phonetics: "gendün / gyi korram",
+          translation: "the belongings of Dharma communities,",
+          words: [
+            { tibetan: "དགེ་འདུན་", phonetics: "gendün", translation: "Dharma communities" },
+            { tibetan: "གྱི་དཀོར་རམ་", phonetics: "gyi korram", translation: "the belongings of" },
+          ],
+        },
+        {
+          id: "ta-en-3-9",
+          type: "normal",
+          tibetan: "ཕྱོགས་བཅུའི་དགེ་འདུན་གྱི་དཀོར་ཕྲོགས་པ་དང་།",
+          phonetics: "chhog chu'i / gendün gyi / kor / throgpa dang",
+          translation: "the belongings of Dharma communities of the ten directions;",
+          words: [
+            { tibetan: "ཕྱོགས་བཅུའི་", phonetics: "chhog chu'i", translation: "of the ten directions" },
+            { tibetan: "དགེ་འདུན་གྱི་", phonetics: "gendün gyi", translation: "of Dharma communities" },
+            { tibetan: "དཀོར་", phonetics: "kor", translation: "the belongings" },
+            { tibetan: "ཕྲོགས་པ་དང་", phonetics: "throgpa dang", translation: "I have stolen" },
+          ],
+        },
+        {
+          id: "ta-en-3-10",
+          type: "normal",
+          tibetan: "འཕྲོག་ཏུ་སྩལ་བ་དང་།",
+          phonetics: "throg tu / tsalwa dang",
+          translation: "I have made others steal them,",
+          words: [
+            { tibetan: "འཕྲོག་ཏུ་", phonetics: "throg tu", translation: "steal them" },
+            { tibetan: "སྩལ་བ་དང་", phonetics: "tsalwa dang", translation: "have made others" },
+          ],
+        },
+        {
+          id: "ta-en-3-11",
+          type: "normal",
+          tibetan: "འཕྲོག་པ་ལ་རྗེས་སུ་ཡི་རང་བའམ།",
+          phonetics: "throgpa la / jesu / yi rang wa'am",
+          translation: "and have rejoiced when they were stolen.",
+          words: [
+            { tibetan: "འཕྲོག་པ་ལ་", phonetics: "throgpa la", translation: "stolen" },
+            { tibetan: "རྗེས་སུ་", phonetics: "jesu", translation: "when" },
+            { tibetan: "ཡི་རང་བའམ་", phonetics: "yi rang wa'am", translation: "have rejoiced" },
+          ],
+        },
+        {
+          id: "ta-en-3-12",
+          type: "normal",
+          tibetan: "མཚམས་མ་མཆིས་པ་ལྔའི་ལས་བགྱིས་པ་དང་།",
+          phonetics: "tsham machhipa / nge / le / gyipa dang",
+          translation: "I have committed the five limitless actions,",
+          words: [
+            { tibetan: "མཚམས་མ་མཆིས་པ་", phonetics: "tsham machhipa", translation: "limitless" },
+            { tibetan: "ལྔའི་", phonetics: "nge", translation: "five" },
+            { tibetan: "ལས་", phonetics: "le", translation: "actions" },
+            { tibetan: "བགྱིས་པ་དང་", phonetics: "gyipa dang", translation: "I have committed" },
+          ],
+        },
+        {
+          id: "ta-en-3-13",
+          type: "normal",
+          tibetan: "བགྱིད་དུ་སྩལ་བ་དང་།",
+          phonetics: "gyidu / tsalwa dang",
+          translation: "have made others commit them,",
+          words: [
+            { tibetan: "བགྱིད་དུ་", phonetics: "gyidu", translation: "commit them" },
+            { tibetan: "སྩལ་བ་དང་", phonetics: "tsalwa dang", translation: "have made others" },
+          ],
+        },
+        {
+          id: "ta-en-3-14",
+          type: "normal",
+          tibetan: "བགྱིས་པ་ལ་རྗེས་སུ་ཡི་རང་བའམ།",
+          phonetics: "gyipa la / jesu / yi rang wa'am",
+          translation: "have rejoiced when they were committed.",
+          words: [
+            { tibetan: "བགྱིས་པ་ལ་", phonetics: "gyipa la", translation: "committed" },
+            { tibetan: "རྗེས་སུ་", phonetics: "jesu", translation: "when" },
+            { tibetan: "ཡི་རང་བའམ་", phonetics: "yi rang wa'am", translation: "have rejoiced" },
+          ],
+        },
+        {
+          id: "ta-en-3-15",
+          type: "normal",
+          tibetan: "མི་དགེ་བ་བཅུའི་ལས་ཀྱི་ལམ་ཡང་དག་པར་བླངས་པ་ལ་ཞུགས་པ་དང་།",
+          phonetics: "mi gewa chu'i / le / kyi lam / yangdagpar / langpa la zhugpa dang",
+          translation: "I have wholeheartedly taken the path of the ten non-virtuous actions,",
+          words: [
+            { tibetan: "མི་དགེ་བ་བཅུའི་", phonetics: "mi gewa chu'i", translation: "ten non-virtuous" },
+            { tibetan: "ལས་", phonetics: "le", translation: "actions" },
+            { tibetan: "ཀྱི་ལམ་", phonetics: "kyi lam", translation: "the path of" },
+            { tibetan: "ཡང་དག་པར་", phonetics: "yangdagpar", translation: "wholeheartedly" },
+            { tibetan: "བླངས་པ་ལ་ཞུགས་པ་དང་", phonetics: "langpa la zhugpa dang", translation: "I have taken" },
+          ],
+        },
+        {
+          id: "ta-en-3-16",
+          type: "normal",
+          tibetan: "འཇུག་ཏུ་སྩལ་བ་དང་།",
+          phonetics: "jugtu / tsalwa dang",
+          translation: "have made others take it,",
+          words: [
+            { tibetan: "འཇུག་ཏུ་", phonetics: "jugtu", translation: "take it" },
+            { tibetan: "སྩལ་བ་དང་", phonetics: "tsalwa dang", translation: "have made others" },
+          ],
+        },
+        {
+          id: "ta-en-3-17",
+          type: "normal",
+          tibetan: "འཇུག་པ་ལ་རྗེས་སུ་ཡི་རང་བའམ།",
+          phonetics: "jugpa la / jesu / yi rang wa'am",
+          translation: "have rejoiced when it was taken.",
+          words: [
+            { tibetan: "འཇུག་པ་ལ་", phonetics: "jugpa la", translation: "taken" },
+            { tibetan: "རྗེས་སུ་", phonetics: "jesu", translation: "when" },
+            { tibetan: "ཡི་རང་བའམ་", phonetics: "yi rang wa'am", translation: "have rejoiced" },
+          ],
+        },
+        {
+          id: "ta-en-3-18",
+          type: "normal",
+          tibetan: "ལས་ཀྱི་སྒྲིབ་པ་གང་གིས་བསྒྲིབས་ནས།",
+          phonetics: "lekyi / dribpa / ganggi / drib ne",
+          translation: "Once obscured by these karmic veils, whatever they may be,",
+          words: [
+            { tibetan: "ལས་ཀྱི་", phonetics: "lekyi", translation: "karmic" },
+            { tibetan: "སྒྲིབ་པ་", phonetics: "dribpa", translation: "veils" },
+            { tibetan: "གང་གིས་", phonetics: "ganggi", translation: "whatever they may be" },
+            { tibetan: "བསྒྲིབས་ནས་", phonetics: "drib ne", translation: "once obscured by" },
+          ],
+        },
+        {
+          id: "ta-en-3-19",
+          type: "normal",
+          tibetan: "བདག་སེམས་ཅན་དམྱལ་བར་མཆི་བའམ།",
+          phonetics: "dag / semchen / nyalwar / chhi wa'am",
+          translation: "sentient beings and I myself will move on to the hell realms,",
+          words: [
+            { tibetan: "བདག་", phonetics: "dag", translation: "I myself" },
+            { tibetan: "སེམས་ཅན་", phonetics: "semchen", translation: "sentient beings" },
+            { tibetan: "དམྱལ་བར་", phonetics: "nyalwar", translation: "to the hell realms" },
+            { tibetan: "མཆི་བའམ་", phonetics: "chhi wa'am", translation: "will move on" },
+          ],
+        },
+        {
+          id: "ta-en-3-20",
+          type: "normal",
+          tibetan: "དུད་འགྲོའི་སྐྱེ་གནས་སུ་མཆི་བའམ།",
+          phonetics: "düdro'i / kye ne su / chhi wa'am",
+          translation: "to the animal realms,",
+          words: [
+            { tibetan: "དུད་འགྲོའི་", phonetics: "düdro'i", translation: "animal" },
+            { tibetan: "སྐྱེ་གནས་སུ་", phonetics: "kye ne su", translation: "to the realms" },
+            { tibetan: "མཆི་བའམ་", phonetics: "chhi wa'am", translation: "will move on" },
+          ],
+        },
+        {
+          id: "ta-en-3-21",
+          type: "normal",
+          tibetan: "ཡི་དྭགས་ཀྱི་ཡུལ་དུ་མཆི་བའམ།",
+          phonetics: "yidag / kyi yul du / chhi wa'am",
+          translation: "to the land of the hungry ghosts.",
+          words: [
+            { tibetan: "ཡི་དྭགས་", phonetics: "yidag", translation: "hungry ghosts" },
+            { tibetan: "ཀྱི་ཡུལ་དུ་", phonetics: "kyi yul du", translation: "to the land of" },
+            { tibetan: "མཆི་བའམ་", phonetics: "chhi wa'am", translation: "will move on" },
+          ],
+        },
+        {
+          id: "ta-en-3-22",
+          type: "normal",
+          tibetan: "ཡུལ་མཐའ་ཁོབ་ཏུ་སྐྱེ་བའམ།",
+          phonetics: "yul tha khob tu / kye wa'am",
+          translation: "I will be born in forsaken hinterlands,",
+          words: [
+            { tibetan: "ཡུལ་མཐའ་ཁོབ་ཏུ་", phonetics: "yul tha khob tu", translation: "in forsaken hinterlands" },
+            { tibetan: "སྐྱེ་བའམ་", phonetics: "kye wa'am", translation: "I will be born" },
+          ],
+        },
+        {
+          id: "ta-en-3-23",
+          type: "normal",
+          tibetan: "ཀླ་ཀློར་སྐྱེ་བའམ།",
+          phonetics: "lalor / kye wa'am",
+          translation: "among barbarians,",
+          words: [
+            { tibetan: "ཀླ་ཀློར་", phonetics: "lalor", translation: "among barbarians" },
+            { tibetan: "སྐྱེ་བའམ་", phonetics: "kye wa'am", translation: "I will be born" },
+          ],
+        },
+        {
+          id: "ta-en-3-24",
+          type: "normal",
+          tibetan: "ལྷ་ཚེ་རིང་པོ་རྣམས་སུ་སྐྱེ་བའམ།",
+          phonetics: "lha tseringpo / nam su / kye wa'am",
+          translation: "among long-lived gods.",
+          words: [
+            { tibetan: "ལྷ་ཚེ་རིང་པོ་", phonetics: "lha tseringpo", translation: "long-lived gods" },
+            { tibetan: "རྣམས་སུ་", phonetics: "nam su", translation: "among" },
+            { tibetan: "སྐྱེ་བའམ་", phonetics: "kye wa'am", translation: "I will be born" },
+          ],
+        },
+        {
+          id: "ta-en-3-25",
+          type: "normal",
+          tibetan: "དབང་པོ་མ་ཚང་བར་འགྱུར་བའམ།",
+          phonetics: "wangpo / ma tshangwar / gyur wa'am",
+          translation: "I will have incomplete faculties,",
+          words: [
+            { tibetan: "དབང་པོ་", phonetics: "wangpo", translation: "faculties" },
+            { tibetan: "མ་ཚང་བར་", phonetics: "ma tshangwar", translation: "incomplete" },
+            { tibetan: "འགྱུར་བའམ་", phonetics: "gyur wa'am", translation: "I will have" },
+          ],
+        },
+        {
+          id: "ta-en-3-26",
+          type: "normal",
+          tibetan: "ལྟ་བ་ལོག་པར་འཛིན་པར་འགྱུར་བའམ།",
+          phonetics: "logpar tawa / dzinpar / gyur wa'am",
+          translation: "adhere to wrong views,",
+          words: [
+            { tibetan: "ལོག་པར་ལྟ་བ་", phonetics: "logpar tawa", translation: "wrong views" },
+            { tibetan: "འཛིན་པར་", phonetics: "dzinpar", translation: "adhere to" },
+            { tibetan: "འགྱུར་བའམ་", phonetics: "gyur wa'am", translation: "I will" },
+          ],
+        },
+        {
+          id: "ta-en-3-27",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་འབྱུང་བ་ལ་མཉེས་པར་མི་བགྱིད་པར་འགྱུར་བའི་",
+          phonetics: "sanggye / jungwa la / nyepar / mi gyipar gyurwe",
+          translation: "disdain the advent of a Buddha.",
+          words: [
+            { tibetan: "སངས་རྒྱས་", phonetics: "sanggye", translation: "a Buddha" },
+            { tibetan: "འབྱུང་བ་ལ་", phonetics: "jungwa la", translation: "the advent of" },
+            { tibetan: "མཉེས་པར་", phonetics: "nyepar", translation: "disdain" },
+            { tibetan: "མི་བགྱིད་པར་འགྱུར་བའི་", phonetics: "mi gyipar gyurwe", translation: "[which cause me to]" },
+          ],
+        },
+        {
+          id: "ta-en-3-28",
+          type: "normal",
+          tibetan: "ལས་ཀྱི་སྒྲིབ་པ་གང་ལགས་པ་དེ་དག་ཐམས་ཅད་",
+          phonetics: "le kyi / dribpa / gang lagpa / dedag thamche",
+          translation: "These karmic veils, whatever they may be,",
+          words: [
+            { tibetan: "ལས་ཀྱི་", phonetics: "le kyi", translation: "karmic" },
+            { tibetan: "སྒྲིབ་པ་", phonetics: "dribpa", translation: "veils" },
+            { tibetan: "གང་ལགས་པ་", phonetics: "gang lagpa", translation: "whatever they may be" },
+            { tibetan: "དེ་དག་ཐམས་ཅད་", phonetics: "dedag thamche", translation: "these all" },
+          ],
+        },
+        {
+          id: "ta-en-3-29",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་ཡེ་ཤེས་སུ་གྱུར་པ།",
+          phonetics: "sanggye / chomdende / yeshe su gyurpa",
+          translation: "all in the presence of the Buddhas, the Victorious Ones, the Wise,",
+          words: [
+            { tibetan: "སངས་རྒྱས་", phonetics: "sanggye", translation: "Buddhas" },
+            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "chomdende", translation: "Victorious Ones" },
+            { tibetan: "ཡེ་ཤེས་སུ་གྱུར་པ་", phonetics: "yeshe su gyurpa", translation: "the Wise" },
+          ],
+        },
+        {
+          id: "ta-en-3-30",
+          type: "normal",
+          tibetan: "སྤྱན་དུ་གྱུར་པ། དཔང་དུ་གྱུར་པ། ཚད་མར་གྱུར་པ། མཁྱེན་པ། གཟིགས་པ།",
+          phonetics: "chen du gyurpa / pang du gyurpa / tshemar gyurpa / khyen pa / zig pa",
+          translation: "the Eyes, the Witnesses, the Truthful, the Knowing, the Seeing,",
+          words: [
+            { tibetan: "སྤྱན་དུ་གྱུར་པ་", phonetics: "chen du gyurpa", translation: "the Eyes" },
+            { tibetan: "དཔང་དུ་གྱུར་པ་", phonetics: "pang du gyurpa", translation: "the Witnesses" },
+            { tibetan: "ཚད་མར་གྱུར་པ་", phonetics: "tshemar gyurpa", translation: "the Truthful" },
+            { tibetan: "མཁྱེན་པ་", phonetics: "khyen pa", translation: "the Knowing" },
+            { tibetan: "གཟིགས་པ་", phonetics: "zig pa", translation: "the Seeing" },
+          ],
+        },
+        {
+          id: "ta-en-3-31",
+          type: "normal",
+          tibetan: "དེ་དག་གི་སྤྱན་སྔར་མཐོལ་ལོ་འཆགས་སོ། །མི་འཆབ་བོ། །མི་སྦེད་དོ།",
+          phonetics: "dedag gi chen ngar / thol lo chhag so / mi chhab bo / mi be do",
+          translation: "I disclose them without concealing, without hiding.",
+          words: [
+            { tibetan: "དེ་དག་གི་སྤྱན་སྔར་", phonetics: "dedag gi chen ngar", translation: "in their presence" },
+            { tibetan: "མཐོལ་ལོ་འཆགས་སོ་", phonetics: "thol lo chhag so", translation: "I disclose them" },
+            { tibetan: "མི་འཆབ་བོ་", phonetics: "mi chhab bo", translation: "without concealing" },
+            { tibetan: "མི་སྦེད་དོ་", phonetics: "mi be do", translation: "without hiding" },
+          ],
+        },
+        {
+          id: "ta-en-3-32",
+          type: "normal",
+          tibetan: "སླན་ཆད་ཀྱང་གཅོད་ཅིང་སྡོམ་པར་བགྱིད་ལགས་སོ།",
+          phonetics: "lenchhe kyang / chö ching / dompar / gyi lag so",
+          translation: "so I vow to refrain from committing them from this moment on.",
+          words: [
+            { tibetan: "སླན་ཆད་ཀྱང་", phonetics: "lenchhe kyang", translation: "from this moment on" },
+            { tibetan: "གཅོད་ཅིང་", phonetics: "chö ching", translation: "to refrain" },
+            { tibetan: "སྡོམ་པར་", phonetics: "dompar", translation: "I vow" },
+            { tibetan: "བགྱིད་ལགས་སོ་", phonetics: "gyi lag so", translation: "from committing them" },
+          ],
+        },
+        {
+          id: "ta-en-3-33",
+          type: "normal",
+          tibetan: "སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་དག་ཐམས་ཅད་བདག་ལ་དགོངས་སུ་གསོལ།",
+          phonetics: "sanggye / chomdende / dedag thamche / dag la / gong su sol",
+          translation: "O Buddhas, Triumphant Ones, all of you: please heed me!",
+          words: [
+            { tibetan: "སངས་རྒྱས་", phonetics: "sanggye", translation: "Buddhas" },
+            { tibetan: "བཅོམ་ལྡན་འདས་", phonetics: "chomdende", translation: "Triumphant Ones" },
+            { tibetan: "དེ་དག་ཐམས་ཅད་", phonetics: "dedag thamche", translation: "all of you" },
+            { tibetan: "བདག་ལ་", phonetics: "dag la", translation: "me" },
+            { tibetan: "དགོངས་སུ་གསོལ་", phonetics: "gong su sol", translation: "please heed" },
+          ],
         },
       ],
     },
