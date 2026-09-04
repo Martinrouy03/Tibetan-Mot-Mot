@@ -1028,8 +1028,8 @@
   margin-left: auto;
 }
 
-.section-sj-louange .phrase-no-interact:not(:first-child),
-.section-sj-7-branches .phrase-no-interact:not(:first-child) {
+.section-sj-louange .phrase-container:has(.phrase-special):not(:first-child),
+.section-sj-7-branches .phrase-container:has(.phrase-special):not(:first-child) {
   margin-top: 1.5em;
 }
 

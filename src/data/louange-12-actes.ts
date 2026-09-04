@@ -408,8 +408,8 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-3-3",
           type: "normal",
-          tibetan: "ཚངས་དང་བརྒྱ་བྱིན་གྱིས་བསྟོད་",
-          phonetics: "tsang dang / gya djin / gui teu /",
+          tibetan: "ཚངས་དང་བརྒྱ་བྱིན་གྱིས་བསྟོད་མཚན་མཆོག་ནི།",
+          phonetics: "tsang dang / gya djin / gui teu / tsen tchok ni",
           translation: "Brahma et Indra chantèrent vos louanges.",
           words: [
             {
@@ -427,22 +427,21 @@ export const louange12Actes: PracticeText = {
               phonetics: "gui teu",
               translation: "chantèrent vos louanges",
             },
-          ],
-        },
-        {
-          id: "la-3-4",
-          type: "normal",
-          tibetan: "མཚན་མཆོག་ནི། །བྱང་ཆུབ་རིགས་སུ་ངེས་མཛད་ཕྱག་འཚལ་ལོ།",
-          phonetics:
-            "tsen tchok ni / djang tchoup / rik sou / ngé dzé / tchak tsel lo",
-          translation:
-            "Vos sublimes marques majeures traduisaient indubitablement la filiation de l'éveil. À vous qui avez accompli cet acte, je rends hommage.",
-          words: [
             {
               tibetan: "མཚན་མཆོག་ནི་",
               phonetics: "tsen tchok ni",
               translation: "sublimes marques",
             },
+          ],
+        },
+        {
+          id: "la-3-4",
+          type: "normal",
+          tibetan: "།བྱང་ཆུབ་རིགས་སུ་ངེས་མཛད་ཕྱག་འཚལ་ལོ།",
+          phonetics: "djang tchoup / rik sou / ngé dzé / tchak tsel lo",
+          translation:
+            "Vos sublimes marques majeures traduisaient indubitablement la filiation de l'éveil. À vous qui avez accompli cet acte, je rends hommage.",
+          words: [
             {
               tibetan: "བྱང་ཆུབ་",
               phonetics: "djang tchoup",
@@ -610,8 +609,8 @@ export const louange12Actes: PracticeText = {
         {
           id: "la-5-2",
           type: "normal",
-          tibetan: "ཁ་ན་མ་ཐོ་སྤང་ཕྱིར་",
-          phonetics: "k'a na / ma t'o / pang tchir ",
+          tibetan: "ཁ་ན་མ་ཐོ་སྤང་ཕྱིར་བཙུན་མོ་ཡི་",
+          phonetics: "k'a na / ma t'o / pang tchir / tsun mo yi",
           translation: "et ne provoquer aucune perception néfaste,",
           words: [
             {
@@ -624,21 +623,21 @@ export const louange12Actes: PracticeText = {
               phonetics: "pang tchir",
               translation: "afin d'éviter",
             },
-          ],
-        },
-        {
-          id: "la-5-3",
-          type: "normal",
-          tibetan: "བཙུན་མོ་ཡི་འཁོར་དང་ལྡན་མཛད་",
-          phonetics: "tsun mo yi / k'or dang / den dzé /",
-          translation:
-            "vous vous êtes entouré d'une épouse et de ses suivantes.",
-          words: [
             {
               tibetan: "བཙུན་མོ་ཡི་",
               phonetics: "tsun mo yi",
               translation: "épouse",
             },
+          ],
+        },
+        {
+          id: "la-5-3",
+          type: "normal",
+          tibetan: "འཁོར་དང་ལྡན་མཛད་ཐབས་ལ་མཁས་པ་ཡིས་",
+          phonetics: "k'or dang / den dzé / t'ap la / k'é pa yi",
+          translation:
+            "vous vous êtes entouré d'une épouse et de ses suivantes.",
+          words: [
             {
               tibetan: "འཁོར་དང་",
               phonetics: "k'or dang",
@@ -649,22 +648,21 @@ export const louange12Actes: PracticeText = {
               phonetics: "den dzé",
               translation: "s'est entouré",
             },
-          ],
-        },
-        {
-          id: "la-5-4",
-          type: "normal",
-          tibetan: "ཐབས་ལ་མཁས་པ་ཡིས་རྒྱལ་སྲིད་སྐྱོང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
-          phonetics:
-            "t'ap la / k'é pa yi / gyal si / kyong war / dzé la / tchak tsel lo",
-          translation:
-            "Vous avez veillé sur le royaume avec habileté. À vous qui avez accompli cet acte, je rends hommage.",
-          words: [
             {
               tibetan: "ཐབས་ལ་མཁས་པ་ཡིས་",
               phonetics: "t'ap la k'é pa yi",
               translation: "avec habileté dans les moyens",
             },
+          ],
+        },
+        {
+          id: "la-5-4",
+          type: "normal",
+          tibetan: "རྒྱལ་སྲིད་སྐྱོང་བར་མཛད་ལ་ཕྱག་འཚལ་ལོ།",
+          phonetics: "gyal si / kyong war / dzé la / tchak tsel lo",
+          translation:
+            "Vous avez veillé sur le royaume avec habileté. À vous qui avez accompli cet acte, je rends hommage.",
+          words: [
             {
               tibetan: "རྒྱལ་སྲིད་",
               phonetics: "gyal si",

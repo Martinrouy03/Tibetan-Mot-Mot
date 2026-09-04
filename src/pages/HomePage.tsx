@@ -5,7 +5,7 @@ import { useAppSelector } from '../store/hooks';
 import './HomePage.css';
 
 function filterByLang(texts: PracticeText[], lang: AppLang): PracticeText[] {
-  return texts.filter((t) => t.sections.length > 0 && (t.lang === lang || (!t.lang && lang === "fr")));
+  return texts.filter((t) => (t.sections.length > 0 || t.comingSoon) && (t.lang === lang || (!t.lang && lang === "fr")));
 }
 
 function TextGrid({ texts }: { texts: PracticeText[] }) {

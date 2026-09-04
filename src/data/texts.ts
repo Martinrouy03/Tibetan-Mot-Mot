@@ -24,6 +24,7 @@ import { vajravidhâranaEn } from "./vajravidharana-en";
 import { coeurPrajnaparamitaEn } from "./coeur-prajnaparamita-en";
 import { dakaYesheEn } from "./daka-yeshe-en";
 import { troisAmoncellementsEn } from "./trois-amoncellements-en";
+import { pratiqueChenrezikEn } from "./pratique-chenrezik-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -35,6 +36,7 @@ const lojong7Points: PracticeText = {
 
 export const textesPratique: PracticeText[] = [
   { ...pratiqueChenrezik, lang: "fr", baseId: "pratique-chenrezik" },
+  pratiqueChenrezikEn,
   {
     ...pratiqueChenrezikThoungma,
     lang: "fr",

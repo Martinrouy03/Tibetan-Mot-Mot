@@ -1472,13 +1472,13 @@ export const sojong: PracticeText = {
           words: [
             { tibetan: "བདག་", phonetics: "dak", translation: "Moi" },
             {
-              tibetan: "[མིང་]",
+              tibetan: "[མིང་འདི་]",
               phonetics: "[mon nom]",
               translation: "Lodreu Gyamtso",
             },
             {
-              tibetan: "འདི་ཞེས་བགྱི་བས་ཀྱང་",
-              phonetics: "di shé gui wé kyang",
+              tibetan: "ཞེས་བགྱི་བས་ཀྱང་",
+              phonetics: "shé gui wé kyang",
               translation: "me nommant ainsi",
             },
           ],
@@ -2168,7 +2168,7 @@ export const sojong: PracticeText = {
           id: "sj-dd-4",
           type: "normal",
           tibetan: "འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་ཕྱག་འཚལ་ལོ།",
-          phonetics: "p'ak pa / tchen ré zi wang la / tchak tsel lo",
+          phonetics: "p'ak pa / tchen ré zi wang tchouk la / tchak tsel lo",
           translation: "le noble Avalokiteshvara.",
           words: [
             { tibetan: "འཕགས་པ་", phonetics: "p'ak pa", translation: "noble" },
@@ -2732,7 +2732,8 @@ export const sojong: PracticeText = {
         {
           id: "stj-1-1",
           type: "normal",
-          tibetan: "ཐམས་ཅད་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ། །འདི་ལྟར་སངས་རྒྱས་བཅོམ་ལྡན་",
+          tibetan:
+            "ཐམས་ཅད་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ། །འདི་ལྟར་སངས་རྒྱས་བཅོམ་ལྡན་འདས་",
           phonetics:
             "t'am tché / k'yen pa / la tchak tsel lo / di tar / sang gyé / tchom dén",
           translation: "Hommage à l'omniscient. Ainsi est le bouddha-bhagavan:",
@@ -2755,8 +2756,8 @@ export const sojong: PracticeText = {
               translation: "bouddha",
             },
             {
-              tibetan: "བཅོམ་ལྡན་",
-              phonetics: "tchom dén",
+              tibetan: "བཅོམ་ལྡན་འདས་",
+              phonetics: "tchom den dé",
               translation: "bhagavan",
             },
           ],
@@ -2765,12 +2766,11 @@ export const sojong: PracticeText = {
           id: "stj-1-2",
           type: "normal",
           tibetan:
-            "འདས་དེ་ནི་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།",
+            "དེ་ནི་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།",
           phonetics:
-            "dé / dé ni / dé shin chék pa / dra tchom pa / yang dak par / dzok pai / sangyé",
+            "dé ni / dé shin chék pa / dra tchom pa / yang dak par / dzok pai / sangyé",
           translation: "un tathagata-arhat-authentique-bouddha-parfait,",
           words: [
-            { tibetan: "འདས་", phonetics: "dé", translation: "un" },
             { tibetan: "དེ་ནི་", phonetics: "dé ni", translation: "[qui est]" },
             {
               tibetan: "དེ་བཞིན་གཤེགས་པ་",

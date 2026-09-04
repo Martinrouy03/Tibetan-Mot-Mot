@@ -1260,7 +1260,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
               translation: "posture jambes croisées",
             },
             {
-              tibetan: "་བཞུགས།",
+              tibetan: "བཞུགས།",
               phonetics: "chouk",
               translation: "assis",
             },
