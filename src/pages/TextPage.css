@@ -966,22 +966,26 @@
   justify-content: center;
 }
 
-.section-ch-corps .phrase-special {
+.section-ch-corps .phrase-special,
+.section-ch-en-corps .phrase-special {
   text-align: center;
   align-items: center;
 }
 
-.section-ch-corps .phrase-special .phrase-text {
+.section-ch-corps .phrase-special .phrase-text,
+.section-ch-en-corps .phrase-special .phrase-text {
   font-size: 2rem;
   color: #fff;
 }
 
-.section-ch-corps .phrase-special-translation {
+.section-ch-corps .phrase-special-translation,
+.section-ch-en-corps .phrase-special-translation {
   font-style: normal;
   color: #aaa;
 }
 
-.section-ch-corps .phrase-special-translation b {
+.section-ch-corps .phrase-special-translation b,
+.section-ch-en-corps .phrase-special-translation b {
   font-size: 1rem;
   color: #aaa;
 }

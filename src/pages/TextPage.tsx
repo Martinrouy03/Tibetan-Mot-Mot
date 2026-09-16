@@ -898,7 +898,7 @@ export default function TextPage() {
             };
             const pairs: PhrasePair[] = [];
             const isHommageSection =
-              section.id === "ta-hommage" || section.id === "ta-en-hommage" || section.id === "ch-priere-lignee";
+              section.id === "ta-hommage" || section.id === "ta-en-hommage" || section.id === "ch-priere-lignee" || section.id === "ch-en-priere-lignee";
             if (isHommageSection) {
               let i = 0;
               while (i < section.phrases.length) {
