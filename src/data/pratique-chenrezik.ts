@@ -2613,7 +2613,7 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "",
           translation: "",
           words: [],
-          src: "/Chenrezik.jpg",
+          src: "/chenrezikluminous.jpg",
         },
         {
           id: "ch-sup-instr-2",
@@ -3498,7 +3498,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "སྐྱབས་གཞན་",
               phonetics: "kyap chen",
-              translation: "refuge",
+              translation: "refuge autre",
             },
             {
               tibetan: "མ་མཆིས་སོ།",
@@ -4690,7 +4690,7 @@ export const pratiqueChenrezik: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation: "",
-          src: "/Chenrezik.jpg",
+          src: "/seamlessChenrezik.mp4",
           words: [],
         },
         {

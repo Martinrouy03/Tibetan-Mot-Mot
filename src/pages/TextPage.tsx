@@ -215,6 +215,7 @@ export default function TextPage() {
 
   const hasSidebar =
     textId === "pratique-chenrezik" ||
+    textId === "pratique-chenrezik-en" ||
     textId === "pratique-chenrezik-thoungma" ||
     textId === "souhaits-samantabhadra" ||
     textId === "sojong" ||
@@ -1102,7 +1103,7 @@ export default function TextPage() {
                             </div>
                           );
                         })
-                      : section.id === "ch-supplique"
+                      : section.id === "ch-supplique" || section.id === "ch-en-supplique"
                         ? (() => {
                             const renderInstr = (
                               p: (typeof section.phrases)[0],
@@ -1174,22 +1175,20 @@ export default function TextPage() {
                                 </div>
                               );
                             };
+                            const isEn = section.id === "ch-en-supplique";
                             const instr1 = section.phrases.find(
-                              (p) => p.id === "ch-sup-instr-1",
+                              (p) => p.id === (isEn ? "ch-en-supplique-instr" : "ch-sup-instr-1"),
                             );
                             const verses = section.phrases.filter((p) =>
-                              [
-                                "ch-sup-1",
-                                "ch-sup-2",
-                                "ch-sup-3",
-                                "ch-sup-4",
-                              ].includes(p.id),
+                              isEn
+                                ? ["ch-en-sup-1", "ch-en-sup-2", "ch-en-sup-3", "ch-en-sup-4"].includes(p.id)
+                                : ["ch-sup-1", "ch-sup-2", "ch-sup-3", "ch-sup-4"].includes(p.id),
                             );
                             const img = section.phrases.find(
-                              (p) => p.id === "ch-sup-img",
+                              (p) => p.id === (isEn ? "ch-en-sup-img" : "ch-sup-img"),
                             );
                             const instr2 = section.phrases.find(
-                              (p) => p.id === "ch-sup-instr-2",
+                              (p) => p.id === (isEn ? "ch-en-sup-instr-2" : "ch-sup-instr-2"),
                             );
                             return (
                               <>
@@ -1387,11 +1386,22 @@ export default function TextPage() {
                                     )}
                                     {isImage ? (
                                       <div className="phrase-image-wrapper phrase-image-mantra">
-                                        <img
-                                          src={phrase.src}
-                                          alt=""
-                                          className="phrase-image"
-                                        />
+                                        {phrase.src?.endsWith(".mp4") ? (
+                                          <video
+                                            src={phrase.src}
+                                            className="phrase-image"
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                          />
+                                        ) : (
+                                          <img
+                                            src={phrase.src}
+                                            alt=""
+                                            className="phrase-image"
+                                          />
+                                        )}
                                       </div>
                                     ) : isNormal &&
                                       (interactionMode === "fixed" ||
