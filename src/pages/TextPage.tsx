@@ -24,6 +24,24 @@ import type { DisplayMode, InteractionMode } from "../types";
 import PhraseBreakdown from "../components/PhraseBreakdown";
 import "./TextPage.css";
 
+function LoopingVideo({ src, className, style }: { src: string; className?: string; style?: React.CSSProperties }) {
+  const ref = useRef<HTMLVideoElement>(null);
+  const [ended, setEnded] = useState(false);
+  return (
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <video ref={ref} src={src} className={className} style={style} autoPlay muted playsInline onEnded={() => setEnded(true)} />
+      {ended && (
+        <button
+          onClick={() => { ref.current?.play(); setEnded(false); }}
+          style={{ marginTop: "0.5rem", padding: "0.3rem 1.2rem", background: "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "1rem", cursor: "pointer", color: "#c9a84c" }}
+        >
+          ▶
+        </button>
+      )}
+    </div>
+  );
+}
+
 const WHEEL_TICKS_PER_PHRASE = 3;
 
 const stripParens = (s: string) => s.replace(/ \([^)]*\)/g, "");
@@ -1107,7 +1125,72 @@ export default function TextPage() {
                             </div>
                           );
                         })
-                      : section.id === "ch-supplique" || section.id === "ch-en-supplique"
+                      : section.id === "ch-refuge" || section.id === "ch-en-refuge"
+                        ? (() => {
+                            const isEn = section.id === "ch-en-refuge";
+                            const img = section.phrases.find(
+                              (p) => p.id === (isEn ? "ch-en-ref-img" : "ch-ref-img"),
+                            );
+                            const rest = section.phrases.filter(
+                              (p) => p.id !== (isEn ? "ch-en-ref-img" : "ch-ref-img"),
+                            );
+                            return (
+                              <div className="ch-supplique-layout">
+                                <div className="ch-supplique-verses">
+                                  {rest.map((phrase, idx, arr) => {
+                                    const isSelected =
+                                      interactionMode === "fixed" ||
+                                      selectedPhraseId === phrase.id;
+                                    if (phrase.type === "instructions" || phrase.type === "colophon") {
+                                      return (
+                                        <div key={phrase.id} className="phrase-container phrase-no-interact">
+                                          <div className="phrase phrase-special">
+                                            <span className="phrase-text tibetan">{phrase.tibetan}</span>
+                                            {phrase.translation && (
+                                              <span className="phrase-special-translation" dangerouslySetInnerHTML={{ __html: phrase.translation }} />
+                                            )}
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <div
+                                        key={phrase.id}
+                                        ref={(el) => setPhraseRef(phrase.id, el)}
+                                        data-phrase-id={phrase.id}
+                                        className={`phrase-container ${interactionMode === "fixed" ? "phrase-no-interact" : ""}`}
+                                        onClick={() => interactionMode !== "fixed" && handlePhraseClick(phrase.id)}
+                                      >
+                                        {isSelected ? (
+                                          <PhraseBreakdown
+                                            phrase={phrase}
+                                            displayMode={displayMode}
+                                            showTranslation={showTranslation}
+                                            translationAbove={breakdownTranslationAbove}
+                                          />
+                                        ) : (
+                                          <div className="phrase">
+                                            <span className={`phrase-text ${displayMode === "tibetan" ? "tibetan" : "phrase-text-phonetics"}`}>
+                                              {displayMode === "tibetan" ? phrase.tibetan : phrase.phonetics}
+                                            </span>
+                                            {showTranslation && phrase.translation && (
+                                              <span className="phrase-inline-translation" dangerouslySetInnerHTML={renderTranslation(phrase.translation)} />
+                                            )}
+                                          </div>
+                                        )}
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                                {img && (
+                                  <div className="ch-supplique-image">
+                                    <img src={img.src} alt="" className="phrase-image" style={{ width: "100%" }} />
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })()
+                        : section.id === "ch-supplique" || section.id === "ch-en-supplique"
                         ? (() => {
                             const renderInstr = (
                               p: (typeof section.phrases)[0],
@@ -1392,14 +1475,7 @@ export default function TextPage() {
                                     {isImage ? (
                                       <div className="phrase-image-wrapper phrase-image-mantra">
                                         {phrase.src?.endsWith(".mp4") ? (
-                                          <video
-                                            src={phrase.src}
-                                            className="phrase-image"
-                                            autoPlay
-                                            loop
-                                            muted
-                                            playsInline
-                                          />
+                                          <LoopingVideo src={phrase.src} className="phrase-image" />
                                         ) : (
                                           <img
                                             src={phrase.src}

@@ -2066,6 +2066,15 @@ export const pratiqueChenrezik: PracticeText = {
       title: "Refuge et Esprit d'éveil (x3)",
       phrases: [
         {
+          id: "ch-ref-img",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/chenrezikluminous.jpg",
+        },
+        {
           id: "ch-ref-1",
           type: "normal",
           tibetan: "སངས་རྒྱས་ཆོས་དང་ཚོགས་ཀྱི་མཆོག་རྣམས་ལ།",
@@ -2174,6 +2183,15 @@ export const pratiqueChenrezik: PracticeText = {
       id: "ch-visualisation",
       title: "Visualisation",
       phrases: [
+        {
+          id: "ch-vis-anim",
+          type: "image",
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/animation/visuChenrezik.mp4",
+        },
         {
           id: "ch-vis-instr",
           type: "instructions",
@@ -6571,29 +6589,120 @@ export const pratiqueChenrezik: PracticeText = {
       ],
     },
     {
-      id: "ch-colophon",
-      title: "Colophon",
+      id: "ch-plv-cloture",
+      title: "",
       phrases: [
         {
-          id: "ch-col-1",
-          type: "colophon",
-          tibetan:
-            "།ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་ཅེས་གྲུབ་ཆེན་ཐང་སྟོང་རྒྱལ་པོའི་གསུང་བྱིན་བརླབ་ཅན་ནོ།།",
-          phonetics: "",
-          translation:
-            'Cette méditation-récitation du Grand Compatissant, intitulée "Embrasser tout l\'espace pour le bien des êtres", étant la parole du grand accompli Thangtong Gyalpo, est porteuse de bénédiction.',
-          words: [],
+          id: "ch-plv-cloture-1",
+          type: "normal",
+          tibetan: "དཔལ་ལྡན་བླ་མ་ཞབས་པད་བརྟན་པ་དང་།",
+          phonetics: "palden / lama / chap pé / ten pa tang",
+          translation: "Puisse le sublime lama être immuable.",
+          words: [
+            {
+              tibetan: "དཔལ་ལྡན་",
+              phonetics: "palden",
+              translation: "sublime",
+            },
+            { tibetan: "བླ་མ་", phonetics: "lama", translation: "lama" },
+            {
+              tibetan: "ཞབས་པད་",
+              phonetics: "chap pé",
+              translation: "le lotus de ses pieds",
+            },
+            {
+              tibetan: "བརྟན་པ་དང་",
+              phonetics: "ten pa tang",
+              translation: "puisse [il] être immuable",
+            },
+          ],
         },
         {
-          id: "ch-col-2",
-          type: "colophon",
-          tibetan: "སརྦ་མངྒ་ལཾ།། །།",
-          phonetics: "",
-          translation: "Que vertu et excellence s'accroissent!",
-          words: [],
+          id: "ch-plv-cloture-2",
+          type: "normal",
+          tibetan: "མཁའ་མཉམ་ཡོངས་ལ་བདེ་སྐྱིད་འབྱུང་བ་དང་།",
+          phonetics: "k'a nyam / yong la / dé kyi / djoung oua tang",
+          translation: "Puisse le bonheur advenir pour l'immensité des êtres",
+          words: [
+            {
+              tibetan: "མཁའ་མཉམ་",
+              phonetics: "k'a nyam",
+              translation: "vaste comme le ciel",
+            },
+            {
+              tibetan: "ཡོངས་ལ་",
+              phonetics: "yong la",
+              translation: "pour tous",
+            },
+            {
+              tibetan: "བདེ་སྐྱིད་",
+              phonetics: "dé kyi",
+              translation: "le bonheur",
+            },
+            {
+              tibetan: "འབྱུང་བ་དང་",
+              phonetics: "djoung oua tang",
+              translation: "puisse advenir",
+            },
+          ],
+        },
+        {
+          id: "ch-plv-cloture-3",
+          type: "normal",
+          tibetan: "བདག་གཞན་མ་ལུས་ཚོགས་བསགས་སྒྲིབ་སྦྱངས་ནས།",
+          phonetics: "dak chen / ma lu / tsok sak / drip djang né",
+          translation:
+            "et puissions-nous tous, après avoir fait des accumulations et purifié les voiles,",
+          words: [
+            {
+              tibetan: "བདག་གཞན་",
+              phonetics: "dak chen",
+              translation: "nous tous",
+            },
+            {
+              tibetan: "མ་ལུས་",
+              phonetics: "ma lu",
+              translation: "sans exception",
+            },
+            {
+              tibetan: "ཚོགས་བསགས་",
+              phonetics: "tsok sak",
+              translation: "après avoir fait des accumulations",
+            },
+            {
+              tibetan: "སྒྲིབ་སྦྱངས་ནས་",
+              phonetics: "drip djang né",
+              translation: "et purifié les voiles",
+            },
+          ],
+        },
+        {
+          id: "ch-plv-cloture-4",
+          type: "normal",
+          tibetan: "མྱུར་དུ་སངས་རྒྱས་ས་ལ་འགོད་པར་ཤོག",
+          phonetics: "nyour tou / sangyé sa la / gueu par chok",
+          translation: "être promptement établis en l'état de bouddha.",
+          words: [
+            {
+              tibetan: "མྱུར་དུ་",
+              phonetics: "nyour tou",
+              translation: "promptement",
+            },
+            {
+              tibetan: "སངས་རྒྱས་ས་ལ་",
+              phonetics: "sangyé sa la",
+              translation: "en l'état de bouddha",
+            },
+            {
+              tibetan: "འགོད་པར་ཤོག",
+              phonetics: "gueu par chok",
+              translation: "puissions-nous être établis",
+            },
+          ],
         },
       ],
     },
+
     {
       id: "ch-dedicace",
       title: "Dédicace",
@@ -7028,6 +7137,30 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "s'accomplir",
             },
           ],
+        },
+      ],
+    },
+    {
+      id: "ch-colophon",
+      title: "Colophon",
+      phrases: [
+        {
+          id: "ch-col-1",
+          type: "colophon",
+          tibetan:
+            "།ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་ཅེས་གྲུབ་ཆེན་ཐང་སྟོང་རྒྱལ་པོའི་གསུང་བྱིན་བརླབ་ཅན་ནོ།།",
+          phonetics: "",
+          translation:
+            'Cette méditation-récitation du Grand Compatissant, intitulée "Embrasser tout l\'espace pour le bien des êtres", étant la parole du grand accompli Thangtong Gyalpo, est porteuse de bénédiction.',
+          words: [],
+        },
+        {
+          id: "ch-col-2",
+          type: "colophon",
+          tibetan: "སརྦ་མངྒ་ལཾ།། །།",
+          phonetics: "",
+          translation: "Que vertu et excellence s'accroissent!",
+          words: [],
         },
       ],
     },
