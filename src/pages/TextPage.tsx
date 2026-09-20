@@ -32,6 +32,8 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "ch-gr-8" ||
   phraseId === "ch-gr-13" ||
   phraseId === "ch-gr-14" ||
+  phraseId === "ch-en-gr-13" ||
+  phraseId === "ch-en-gr-14" ||
   phraseId === "gy-5-1" ||
   phraseId === "cp-2-34" ||
   phraseId === "sj-dd-5" ||
@@ -39,6 +41,7 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sj-dd-7" ||
   phraseId === "sl-0-30" ||
   phraseId === "sl-0-36" ||
+  phraseId === "ch-en-sl-dharani" ||
   phraseId === "sl-0-38b" ||
   phraseId === "sl-0-41" ||
   phraseId === "sl-0-44" ||
@@ -220,6 +223,7 @@ export default function TextPage() {
     textId === "souhaits-samantabhadra" ||
     textId === "sojong" ||
     textId === "prieres-longue-vie" ||
+    textId === "long-life-prayers-en" ||
     textId === "sauver-des-vies";
   const isTibetanOnly = text?.tibetanOnly ?? false;
   const navSections = useMemo(() => {
@@ -1257,6 +1261,7 @@ export default function TextPage() {
                               }
 
                               if (phrase.type === "nav-btn") {
+                                if (phrase.navBack) return null;
                                 const prevPhrase = filteredPhrases[idx - 1];
                                 if (prevPhrase?.type === "nav-btn") return null;
                                 const nextPhrase = filteredPhrases[idx + 1];
@@ -1636,6 +1641,40 @@ export default function TextPage() {
             );
           })}
         <div className="bottom-nav">
+          {(() => {
+            const allNavBack = text.sections
+              .flatMap((s) => s.phrases)
+              .filter((p) => p.type === "nav-btn" && p.navBack);
+            if (allNavBack.length === 0) return null;
+            return allNavBack.map((p) => {
+              const makeClick = () => {
+                dispatch(setSelectedPhrase(null));
+                const from = (location.state as { from?: string } | null)?.from;
+                const target =
+                  p.altTargetFrom && from === p.altTargetFrom && p.altTargetId
+                    ? p.altTargetId
+                    : (p.targetId ?? "/");
+                const [path, hash] = target.split("#");
+                const navState: { from: string; seekTo?: number } = { from: text.id };
+                if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
+                if (hash) {
+                  navigate(path, { state: navState });
+                  setTimeout(
+                    () => document.getElementById(hash)?.scrollIntoView({ behavior: "auto" }),
+                    100,
+                  );
+                } else {
+                  window.scrollTo(0, 0);
+                  navigate(target, { state: navState });
+                }
+              };
+              return (
+                <button key={p.id} className="nav-btn" onClick={makeClick}>
+                  {`← ${p.translation}`}
+                </button>
+              );
+            });
+          })()}
           {textId !== "mahakala" && (
             <button className="nav-btn" onClick={() => navigate("/")}>
               ← Retour aux textes

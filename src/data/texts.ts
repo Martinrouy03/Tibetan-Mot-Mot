@@ -25,6 +25,7 @@ import { coeurPrajnaparamitaEn } from "./coeur-prajnaparamita-en";
 import { dakaYesheEn } from "./daka-yeshe-en";
 import { troisAmoncellementsEn } from "./trois-amoncellements-en";
 import { pratiqueChenrezikEn } from "./pratique-chenrezik-en";
+import { longLifePrayersEn } from "./long-life-prayers-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -75,6 +76,7 @@ export const textesPrieres: PracticeText[] = [
   { ...prieresLongueVie, lang: "fr", baseId: "prieres-longue-vie" },
   sukhavatiEn,
   louangeManjushriEn,
+  longLifePrayersEn,
 ];
 
 export const practiceTexts: PracticeText[] = [
