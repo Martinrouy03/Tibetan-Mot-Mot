@@ -1137,7 +1137,7 @@ export default function TextPage() {
                             return (
                               <div className="ch-supplique-layout">
                                 <div className="ch-supplique-verses">
-                                  {rest.map((phrase, idx, arr) => {
+                                  {rest.map((phrase) => {
                                     const isSelected =
                                       interactionMode === "fixed" ||
                                       selectedPhraseId === phrase.id;
