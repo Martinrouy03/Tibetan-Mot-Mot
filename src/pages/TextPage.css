@@ -997,6 +997,15 @@
   gap: 1rem;
 }
 
+@media (max-width: 500px) {
+  .ch-supplique-layout {
+    flex-direction: column;
+  }
+  .ch-supplique-image {
+    width: 100%;
+  }
+}
+
 .ch-supplique-verses {
   flex: 1;
   display: flex;
