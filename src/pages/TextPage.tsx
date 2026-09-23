@@ -238,6 +238,7 @@ export default function TextPage() {
     textId === "pratique-chenrezik" ||
     textId === "pratique-chenrezik-en" ||
     textId === "pratique-chenrezik-thoungma" ||
+    textId === "pratique-chenrezik-kibi-en" ||
     textId === "souhaits-samantabhadra" ||
     textId === "sojong" ||
     textId === "prieres-longue-vie" ||
@@ -921,7 +922,7 @@ export default function TextPage() {
             };
             const pairs: PhrasePair[] = [];
             const isHommageSection =
-              section.id === "ta-hommage" || section.id === "ta-en-hommage" || section.id === "ch-priere-lignee" || section.id === "ch-en-priere-lignee";
+              section.id === "ta-hommage" || section.id === "ta-en-hommage" || section.id === "ch-priere-lignee" || section.id === "ch-en-priere-lignee" || section.id === "ch-kibi-en-priere-lignee";
             if (isHommageSection) {
               let i = 0;
               while (i < section.phrases.length) {
@@ -1125,15 +1126,11 @@ export default function TextPage() {
                             </div>
                           );
                         })
-                      : section.id === "ch-refuge" || section.id === "ch-en-refuge"
+                      : section.id === "ch-refuge" || section.id === "ch-en-refuge" || section.id === "ch-kibi-en-refuge"
                         ? (() => {
-                            const isEn = section.id === "ch-en-refuge";
-                            const img = section.phrases.find(
-                              (p) => p.id === (isEn ? "ch-en-ref-img" : "ch-ref-img"),
-                            );
-                            const rest = section.phrases.filter(
-                              (p) => p.id !== (isEn ? "ch-en-ref-img" : "ch-ref-img"),
-                            );
+                            const imgId = section.id === "ch-en-refuge" ? "ch-en-ref-img" : section.id === "ch-kibi-en-refuge" ? "ch-kibi-en-ref-img" : "ch-ref-img";
+                            const img = section.phrases.find((p) => p.id === imgId);
+                            const rest = section.phrases.filter((p) => p.id !== imgId);
                             return (
                               <div className="ch-supplique-layout">
                                 <div className="ch-supplique-verses">
@@ -1190,7 +1187,7 @@ export default function TextPage() {
                               </div>
                             );
                           })()
-                        : section.id === "ch-supplique" || section.id === "ch-en-supplique"
+                        : section.id === "ch-supplique" || section.id === "ch-en-supplique" || section.id === "ch-kibi-en-supplique"
                         ? (() => {
                             const renderInstr = (
                               p: (typeof section.phrases)[0],
@@ -1263,19 +1260,22 @@ export default function TextPage() {
                               );
                             };
                             const isEn = section.id === "ch-en-supplique";
+                            const isKibi = section.id === "ch-kibi-en-supplique";
                             const instr1 = section.phrases.find(
-                              (p) => p.id === (isEn ? "ch-en-supplique-instr" : "ch-sup-instr-1"),
+                              (p) => p.id === (isKibi ? "ch-kibi-en-sup-instr-1" : isEn ? "ch-en-supplique-instr" : "ch-sup-instr-1"),
                             );
                             const verses = section.phrases.filter((p) =>
-                              isEn
+                              isKibi
+                                ? ["ch-kibi-en-sup-1", "ch-kibi-en-sup-2", "ch-kibi-en-sup-3", "ch-kibi-en-sup-4"].includes(p.id)
+                                : isEn
                                 ? ["ch-en-sup-1", "ch-en-sup-2", "ch-en-sup-3", "ch-en-sup-4"].includes(p.id)
                                 : ["ch-sup-1", "ch-sup-2", "ch-sup-3", "ch-sup-4"].includes(p.id),
                             );
                             const img = section.phrases.find(
-                              (p) => p.id === (isEn ? "ch-en-sup-img" : "ch-sup-img"),
+                              (p) => p.id === (isKibi ? "ch-kibi-en-sup-img" : isEn ? "ch-en-sup-img" : "ch-sup-img"),
                             );
                             const instr2 = section.phrases.find(
-                              (p) => p.id === (isEn ? "ch-en-sup-instr-2" : "ch-sup-instr-2"),
+                              (p) => p.id === (isKibi ? "ch-kibi-en-sup-instr-2" : isEn ? "ch-en-sup-instr-2" : "ch-sup-instr-2"),
                             );
                             return (
                               <>

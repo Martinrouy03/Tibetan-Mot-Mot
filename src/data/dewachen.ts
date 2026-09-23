@@ -194,12 +194,12 @@ export const dewachen: PracticeText = {
       phrases: [
         {
           id: "dw-image",
-          type: "image",
+          type: "image" as const,
           tibetan: "",
           phonetics: "",
           translation: "",
           words: [],
-          src: "/Amitabha.jpg",
+          src: "/amitabhaluminous.jpg",
         },
         {
           id: "dw-emaho",

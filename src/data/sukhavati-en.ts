@@ -14,6 +14,15 @@ export const sukhavatiEn: PracticeText = {
       title: "",
       phrases: [
         {
+          id: "suk-s1-img",
+          type: "image" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/amitabhaluminous.jpg",
+        },
+        {
           id: "suk-s1-1",
           type: "normal",
           tibetan: "ཨེ་མ་ཧོ༔",

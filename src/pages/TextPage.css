@@ -557,11 +557,20 @@
   max-width: 100%;
 }
 
-.section-sv-s17 .phrase-image-mantra .phrase-image,
-.section-ta-dewachen .phrase-image-mantra .phrase-image {
+.section-sv-s17 .phrase-image-mantra .phrase-image {
   height: auto;
   max-width: 200px;
 }
+
+.section-ta-dewachen .phrase-image-mantra .phrase-image,
+.section-dw-main .phrase-image-mantra .phrase-image,
+.section-suk-s1 .phrase-image-mantra .phrase-image,
+.section-ch-kibi-en-sukhavati .phrase-image-mantra .phrase-image {
+  height: 40vh;
+  width: auto;
+  max-width: 100%;
+}
+
 
 @media (max-width: 900px) and (orientation: portrait) {
   .phrase-image-mantra .phrase-image {

@@ -982,6 +982,15 @@ export const pratiqueChenrezikThoungma: PracticeText = {
       title: "Visualisation",
       phrases: [
         {
+          id: "ch-vis-anim",
+          type: "image" as const,
+          tibetan: "",
+          phonetics: "",
+          translation: "",
+          words: [],
+          src: "/animation/visuChenrezik.mp4",
+        },
+        {
           id: "ch-vis-instr",
           type: "instructions",
           tibetan: "༄༅། །ལྷ་བསྐྱེད་ནི།",
@@ -1421,12 +1430,12 @@ export const pratiqueChenrezikThoungma: PracticeText = {
         },
         {
           id: "ch-sup-img",
-          type: "image",
+          type: "image" as const,
           tibetan: "",
           phonetics: "",
           translation: "",
           words: [],
-          src: "/Chenrezik.jpg",
+          src: "/chenrezikluminous.jpg",
         },
         {
           id: "ch-sup-instr-2",
@@ -2238,11 +2247,11 @@ export const pratiqueChenrezikThoungma: PracticeText = {
         },
         {
           id: "ch-pk-img",
-          type: "image",
+          type: "image" as const,
           tibetan: "",
           phonetics: "",
           translation: "",
-          src: "/Chenrezik.jpg",
+          src: "/seamlessChenrezik.mp4",
           words: [],
         },
         {
@@ -2680,12 +2689,12 @@ export const pratiqueChenrezikThoungma: PracticeText = {
       phrases: [
         {
           id: "dw-image",
-          type: "image",
+          type: "image" as const,
           tibetan: "",
           phonetics: "",
           translation: "",
           words: [],
-          src: "/Amitabha.jpg",
+          src: "/amitabhaluminous.jpg",
         },
         {
           id: "dw-emaho",

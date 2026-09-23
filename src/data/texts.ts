@@ -25,6 +25,7 @@ import { coeurPrajnaparamitaEn } from "./coeur-prajnaparamita-en";
 import { dakaYesheEn } from "./daka-yeshe-en";
 import { troisAmoncellementsEn } from "./trois-amoncellements-en";
 import { pratiqueChenrezikEn } from "./pratique-chenrezik-en";
+import { pratiqueChenrezikKibiEn } from "./pratique-chenrezik-kibi-en";
 import { longLifePrayersEn } from "./long-life-prayers-en";
 
 const lojong7Points: PracticeText = {
@@ -43,6 +44,7 @@ export const textesPratique: PracticeText[] = [
     lang: "fr",
     baseId: "pratique-chenrezik-thoungma",
   },
+  { ...pratiqueChenrezikKibiEn, lang: "en", baseId: "pratique-chenrezik-thoungma" },
   { ...guruYoga, lang: "fr", baseId: "guru-yoga" },
   { ...guruYogaShamarpa, lang: "fr", baseId: "guru-yoga-shamarpa" },
   { ...vajrasattva, lang: "fr", baseId: "vajrasattva" },
