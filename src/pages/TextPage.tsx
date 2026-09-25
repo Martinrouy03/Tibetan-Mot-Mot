@@ -123,7 +123,8 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "sv-204" ||
   phraseId === "gys-s3-mantra" ||
   phraseId === "gys-s6-mantra" ||
-  phraseId === "suk-s1-mantra"
+  phraseId === "suk-s1-mantra" ||
+  phraseId === "ch-kibi-en-suk-mantra"
     ? s
     : s.replace(/་/g, " ").replace(/།/g, "");
 
