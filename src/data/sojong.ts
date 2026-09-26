@@ -1,32 +1,17 @@
 import type { PracticeText, Phrase } from "../types";
 import { louange12Actes } from "./louange-12-actes";
-import { souhaitsSamantabhadra } from "./souhaits-samantabhadra";
+import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente";
 
-const sevenBranchIds = [
-  "ss-hommage-b",
-  "ss-offrande",
-  "ss-confession",
-  "ss-rejouissance",
-  "ss-exhortation",
-  "ss-requete",
-  "ss-dedicace",
-];
+const sevenBranchIds = ["ace-1", "ace-2", "ace-3", "ace-4", "ace-5", "ace-6", "ace-7", "ace-8"];
 
 const septBranchesSections = [
-  {
-    id: "sj-7-branches",
-    title: "Prière à sept branches",
-    phrases: [] as Phrase[],
-  },
-  ...souhaitsSamantabhadra.sections
+  ...aspirationsConduiteExcellente.sections
     .filter((s) => sevenBranchIds.includes(s.id))
     .map((section) => ({
       id: `sj-branch-${section.id}`,
       title: section.title,
-      subtitle: true,
-      phrases: section.phrases
-        .filter((p) => p.translation !== "fin prière à 7 branches")
-        .map((p) => ({ ...p, id: `sj-${p.id}` })),
+      subtitle: section.id !== "ace-1",
+      phrases: section.phrases.map((p) => ({ ...p, id: `sj-${p.id}` })),
     })),
 ];
 
@@ -391,6 +376,11 @@ export const sojong: PracticeText = {
               phonetics: "tar nyam",
               translation: "lisse comme",
             },
+            {
+              tibetan: "བཻ་ཌཱུརྱའི་",
+              phonetics: "bé dou ryai",
+              translation: "de l'aigue-marine",
+            },
           ],
         },
         {
@@ -400,12 +390,6 @@ export const sojong: PracticeText = {
           phonetics: "rang chin / djam por / né gyour tchik",
           translation: "de la nature de l'aigue-marine, et doux.",
           words: [
-            {
-              tibetan: "བཻ་ཌཱུརྱའི་",
-              phonetics: "bé dou ryai",
-              translation: "de l'aigue-marine",
-            },
-
             {
               tibetan: "རང་བཞིན་",
               phonetics: "rang chin",
@@ -1466,14 +1450,14 @@ export const sojong: PracticeText = {
         {
           id: "sj-v-26",
           type: "normal",
-          tibetan: "བདག་[མིང་]འདི་ཞེས་བགྱི་བས་ཀྱང༌།",
-          phonetics: "dak [mon nom] di shé gui wé kyang",
-          translation: "Moi aussi, qui me nomme [mon nom],",
+          tibetan: "བདག་བློ་གྲོས་རྒྱ་མཚོ་ཞེས་བགྱི་བས་ཀྱང༌།",
+          phonetics: "dak Lodreu Gyamtso di shé gui wé kyang",
+          translation: "Moi aussi, qui me nomme Lodreu Gyamtso,",
           words: [
             { tibetan: "བདག་", phonetics: "dak", translation: "Moi" },
             {
-              tibetan: "[མིང་འདི་]",
-              phonetics: "[mon nom]",
+              tibetan: "བློ་གྲོས་རྒྱ་མཚོ་",
+              phonetics: "Lodreu Gyamtso",
               translation: "Lodreu Gyamtso",
             },
             {
