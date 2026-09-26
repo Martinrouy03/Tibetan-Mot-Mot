@@ -706,12 +706,12 @@ export const louange12Actes: PracticeText = {
             },
             { tibetan: "བྱ་བ་", phonetics: "dja wa", translation: "activités" },
             {
-              tibetan: "སྙིང་པོ་མེད",
+              tibetan: "སྙིང་པོ་མེད་",
               phonetics: "nying po mé",
               translation: "sans essence",
             },
             {
-              tibetan: "་གཟིགས་ནས་",
+              tibetan: "གཟིགས་ནས་",
               phonetics: "zik né",
               translation: "perçu",
             },

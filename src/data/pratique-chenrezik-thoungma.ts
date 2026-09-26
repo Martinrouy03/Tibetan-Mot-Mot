@@ -3433,7 +3433,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           tibetan: "བྱང་ཆུབ་ཐོབ་ནས་ཇི་སྲིད་དུ༔",
           phonetics: "Djang tchoub / thob né / dji si tou",
           translation:
-            "Ayant atteint l'éveil, jusqu'à [ce que le samsara soit vidé],",
+            "Ayant atteint l'éveil, jusqu'à ce que le samsara soit vidé,",
           words: [
             {
               tibetan: "བྱང་ཆུབ་",
@@ -3446,9 +3446,14 @@ export const pratiqueChenrezikThoungma: PracticeText = {
               translation: "ayant atteint",
             },
             {
-              tibetan: "ཇི་སྲིད་དུ་",
-              phonetics: "dji si tou",
-              translation: "jusqu'à",
+              tibetan: "ཇི་",
+              phonetics: "dji",
+              translation: "tant que",
+            },
+            {
+              tibetan: "སྲིད་དུ་",
+              phonetics: "si tou",
+              translation: "[dure] le samsara",
             },
           ],
         },

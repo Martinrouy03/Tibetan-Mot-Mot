@@ -415,7 +415,7 @@ export const souhaitsSamantabhadra: PracticeText = {
             {
               tibetan: "མོས་",
               phonetics: "meu",
-              translation: "j'invoque'",
+              translation: "j'invoque",
             },
           ],
         },
@@ -1377,22 +1377,22 @@ export const souhaitsSamantabhadra: PracticeText = {
             {
               tibetan: "རྗེས་སུ་",
               phonetics: "djé sou",
-              translation: "à la suite/pour",
+              translation: "à la suite",
             },
             {
               tibetan: "ཡི་རང་",
               phonetics: "yi rang",
-              translation: "se réjouir",
+              translation: "réjouissance",
             },
             {
               tibetan: "བསྐུལ་ཞིང་",
               phonetics: "kul shing",
-              translation: "exhorter et",
+              translation: "requête",
             },
             {
               tibetan: "གསོལ་བ་ཡི་",
               phonetics: "seul wa yi",
-              translation: "de la supplique",
+              translation: "et supplique",
             },
           ],
         },
@@ -1436,17 +1436,17 @@ export const souhaitsSamantabhadra: PracticeText = {
             {
               tibetan: "བདག་གིས་",
               phonetics: "dak gui",
-              translation: "par moi/je",
+              translation: "par moi",
             },
             {
-              tibetan: "བྱང་ཆུབ་",
+              tibetan: "བྱང་ཆུབ་ཕྱིར་",
               phonetics: "djang tchoup",
-              translation: "éveil",
+              translation: "pour l'éveil",
             },
             {
-              tibetan: "ཕྱིར་བསྔོའོ་",
+              tibetan: "བསྔོའོ་",
               phonetics: "tchir ngo'o",
-              translation: "je dédie pour",
+              translation: "je dédie",
             },
           ],
         },
