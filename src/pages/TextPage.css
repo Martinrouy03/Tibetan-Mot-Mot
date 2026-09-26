@@ -967,11 +967,13 @@
   }
 }
 
-.text-mahakala .tibetan-pairs {
+.text-mahakala .tibetan-pairs,
+.text-mahakala-en .tibetan-pairs {
   text-align: center;
 }
 
-.text-mahakala .tibetan-pair-row {
+.text-mahakala .tibetan-pair-row,
+.text-mahakala-en .tibetan-pair-row {
   justify-content: center;
 }
 

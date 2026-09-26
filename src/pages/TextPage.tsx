@@ -24,20 +24,47 @@ import type { DisplayMode, InteractionMode } from "../types";
 import PhraseBreakdown from "../components/PhraseBreakdown";
 import "./TextPage.css";
 
-function LoopingVideo({ src, className, style }: { src: string; className?: string; style?: React.CSSProperties }) {
+const LOOP_BTN_IDS = new Set(["ch-pk-img", "ch-en-pk-img", "ch-kibi-en-mantra-img"]);
+
+function LoopingVideo({ src, className, style, phraseId }: { src: string; className?: string; style?: React.CSSProperties; phraseId?: string }) {
   const ref = useRef<HTMLVideoElement>(null);
   const [ended, setEnded] = useState(false);
+  const [looping, setLooping] = useState(false);
+  const showLoopBtn = phraseId !== undefined && LOOP_BTN_IDS.has(phraseId);
+
+  const handleEnded = () => {
+    if (looping) { ref.current?.play(); }
+    else { setEnded(true); }
+  };
+
+  const toggleLoop = () => {
+    const next = !looping;
+    setLooping(next);
+    if (next && ended) { ref.current?.play(); setEnded(false); }
+  };
+
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <video ref={ref} src={src} className={className} style={style} autoPlay muted playsInline onEnded={() => setEnded(true)} />
-      {ended && (
-        <button
-          onClick={() => { ref.current?.play(); setEnded(false); }}
-          style={{ marginTop: "0.5rem", padding: "0.3rem 1.2rem", background: "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "1rem", cursor: "pointer", color: "#c9a84c" }}
-        >
-          ▶
-        </button>
-      )}
+      <video ref={ref} src={src} className={className} style={style} autoPlay muted playsInline onEnded={handleEnded} />
+      <div style={{ display: "flex", gap: "0.5rem", marginTop: "0.5rem" }}>
+        {ended && (
+          <button
+            onClick={() => { ref.current?.play(); setEnded(false); }}
+            style={{ padding: "0.3rem 1.2rem", background: "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "1rem", cursor: "pointer", color: "#c9a84c" }}
+          >
+            ▶
+          </button>
+        )}
+        {showLoopBtn && (
+          <button
+            onClick={toggleLoop}
+            title={looping ? "Arrêter la boucle" : "Lecture en boucle"}
+            style={{ padding: "0.3rem 1.2rem", background: looping ? "#c9a84c" : "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "0.85rem", cursor: "pointer", color: looping ? "#000" : "#c9a84c" }}
+          >
+            ↺
+          </button>
+        )}
+      </div>
     </div>
   );
 }
@@ -124,7 +151,8 @@ const renderMantraTib = (s: string, phraseId?: string) =>
   phraseId === "gys-s3-mantra" ||
   phraseId === "gys-s6-mantra" ||
   phraseId === "suk-s1-mantra" ||
-  phraseId === "ch-kibi-en-suk-mantra"
+  phraseId === "ch-kibi-en-suk-mantra" ||
+  phraseId === "dw-mantra"
     ? s
     : s.replace(/་/g, " ").replace(/།/g, "");
 
@@ -546,6 +574,22 @@ export default function TextPage() {
             </svg>
           </button>
         )}
+        <button
+          className={`mobile-strip-btn${displayMode === "tibetan" ? " active" : ""}`}
+          onClick={() =>
+            dispatch(
+              setDisplayMode(
+                displayMode === "tibetan"
+                  ? ("phonetics" as DisplayMode)
+                  : ("tibetan" as DisplayMode),
+              ),
+            )
+          }
+          aria-label="Tibétain"
+          title="Tibétain"
+        >
+          <span className="tibetan" style={{ fontSize: "1rem" }}>ཀ</span>
+        </button>
         {!isTibetanOnly && (
           <button
             className={`mobile-strip-btn${showTranslation ? " active" : ""}`}
@@ -631,19 +675,19 @@ export default function TextPage() {
                 />
               </div>
               <div className="settings-row settings-row-inline">
-                <span className="settings-label">Phonétique</span>
+                <span className="settings-label">Tibétain</span>
                 <button
-                  className={`toggle-switch${displayMode === "phonetics" ? " on" : ""}`}
+                  className={`toggle-switch${displayMode === "tibetan" ? " on" : ""}`}
                   onClick={() =>
                     dispatch(
                       setDisplayMode(
-                        displayMode === "phonetics"
-                          ? ("tibetan" as DisplayMode)
-                          : ("phonetics" as DisplayMode),
+                        displayMode === "tibetan"
+                          ? ("phonetics" as DisplayMode)
+                          : ("tibetan" as DisplayMode),
                       ),
                     )
                   }
-                  aria-label="Phonétique"
+                  aria-label="Tibétain"
                 />
               </div>
               {!isTibetanOnly && (
@@ -1476,7 +1520,7 @@ export default function TextPage() {
                                     {isImage ? (
                                       <div className="phrase-image-wrapper phrase-image-mantra">
                                         {phrase.src?.endsWith(".mp4") ? (
-                                          <LoopingVideo src={phrase.src} className="phrase-image" />
+                                          <LoopingVideo src={phrase.src} className="phrase-image" phraseId={phrase.id} />
                                         ) : (
                                           <img
                                             src={phrase.src}
@@ -1719,7 +1763,7 @@ export default function TextPage() {
           })}
         <div className="bottom-nav">
           {(() => {
-            const allNavBack = text.sections
+            const allNavBack = isTibetanOnly ? [] : text.sections
               .flatMap((s) => s.phrases)
               .filter((p) => p.type === "nav-btn" && p.navBack);
             if (allNavBack.length === 0) return null;
@@ -1752,7 +1796,7 @@ export default function TextPage() {
               );
             });
           })()}
-          {textId !== "mahakala" && (
+          {!isTibetanOnly && (
             <button className="nav-btn" onClick={() => navigate("/")}>
               ← Retour aux textes
             </button>

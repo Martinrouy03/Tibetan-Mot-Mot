@@ -27,6 +27,7 @@ import { troisAmoncellementsEn } from "./trois-amoncellements-en";
 import { pratiqueChenrezikEn } from "./pratique-chenrezik-en";
 import { pratiqueChenrezikKibiEn } from "./pratique-chenrezik-kibi-en";
 import { longLifePrayersEn } from "./long-life-prayers-en";
+import { mahakalaEn } from "./mahakala-en";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -51,6 +52,7 @@ export const textesPratique: PracticeText[] = [
   { ...sauverDesVies, lang: "fr", baseId: "sauver-des-vies" },
   { ...sojong, lang: "fr", baseId: "sojong" },
   { ...mahakala, lang: "fr", baseId: "mahakala" },
+  mahakalaEn,
 ];
 
 export const textesSoutras: PracticeText[] = [
