@@ -2122,7 +2122,7 @@ export const pratiqueChenrezikKibiEn: PracticeText = {
           phonetics: "",
           translation: "",
           words: [],
-          src: "/seamlessChenrezik.mp4",
+          src: "/animation/seamlessLoop.mp4",
         },
         {
           id: "ch-kibi-en-mantra-instr",

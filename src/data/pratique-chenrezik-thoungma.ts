@@ -2251,7 +2251,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           tibetan: "",
           phonetics: "",
           translation: "",
-          src: "/seamlessChenrezik.mp4",
+          src: "/animation/seamlessLoop.mp4",
           words: [],
         },
         {
