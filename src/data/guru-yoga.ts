@@ -376,9 +376,8 @@ export const guruYoga: PracticeText = {
         {
           id: "gy-3-0",
           type: "mantra",
-          tibetan: "ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྱསརྦ་དྷརྨཿསྭ་བྷཱ་ཝ་ཤུདྡྷེ྅་ཧཾ།",
-          phonetics:
-            "om sobhaoua shouddha saroua dharma sobhaoua shouddho hang",
+          tibetan: "ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྡྷཱཿ་སརྦ་དྷརྨཱཿ་སྭ་བྷཱ་ཝ་ཤུདྡྷོ྅ཧཾ།",
+          phonetics: "oṃ svabhāva-śuddhāḥ sarva-dharmāḥ svabhāva-śuddho 'haṃ",
           translation: "",
           words: [],
         },
