@@ -338,6 +338,10 @@
   font-size: 3.6rem;
 }
 
+.phrase-mantra-main {
+  margin-top: 1.5rem;
+}
+
 .phrase-mantra-main .phrase-text {
   font-size: 6rem;
   display: flex;
@@ -579,6 +583,39 @@
     max-width: 90vw;
     max-height: none;
   }
+
+  .section-refuge .phrase-container:has(.phrase-image-mantra),
+  .section-ch-refuge .phrase-container:has(.phrase-image-mantra),
+  .section-ch-en-refuge .phrase-container:has(.phrase-image-mantra),
+  .section-ch-kibi-en-refuge .phrase-container:has(.phrase-image-mantra),
+  .section-ch-supplique .phrase-container:has(.phrase-image-mantra),
+  .section-ch-en-supplique .phrase-container:has(.phrase-image-mantra),
+  .section-ch-kibi-en-supplique .phrase-container:has(.phrase-image-mantra) {
+    width: 100%;
+  }
+
+  .section-refuge .phrase-image-mantra,
+  .section-ch-refuge .phrase-image-mantra,
+  .section-ch-en-refuge .phrase-image-mantra,
+  .section-ch-kibi-en-refuge .phrase-image-mantra,
+  .section-ch-supplique .phrase-image-mantra,
+  .section-ch-en-supplique .phrase-image-mantra,
+  .section-ch-kibi-en-supplique .phrase-image-mantra {
+    width: 100%;
+  }
+
+  .section-refuge .phrase-image-mantra .phrase-image,
+  .section-ch-refuge .phrase-image-mantra .phrase-image,
+  .section-ch-en-refuge .phrase-image-mantra .phrase-image,
+  .section-ch-kibi-en-refuge .phrase-image-mantra .phrase-image,
+  .section-ch-supplique .phrase-image-mantra .phrase-image,
+  .section-ch-en-supplique .phrase-image-mantra .phrase-image,
+  .section-ch-kibi-en-supplique .phrase-image-mantra .phrase-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
@@ -587,6 +624,13 @@
     width: auto;
     max-height: 80vh;
     max-width: 100vw;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .phrase-mantra-main .phrase-text {
+    font-size: 9vw !important;
+    margin-top: 10px;
   }
 }
 
@@ -1008,15 +1052,6 @@
   gap: 1rem;
 }
 
-@media (max-width: 500px) {
-  .ch-supplique-layout {
-    flex-direction: column;
-  }
-  .ch-supplique-image {
-    width: 100%;
-  }
-}
-
 .ch-supplique-verses {
   flex: 1;
   display: flex;
@@ -1050,6 +1085,20 @@
   flex-shrink: 0;
   align-self: center;
   margin-left: auto;
+}
+
+@media (max-width: 900px) and (orientation: portrait) {
+  .ch-supplique-layout {
+    flex-direction: column-reverse;
+  }
+  .ch-supplique-image {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ch-supplique-image .phrase-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .section-sj-louange .phrase-container:has(.phrase-special):not(:first-child),

@@ -24,47 +24,101 @@ import type { DisplayMode, InteractionMode } from "../types";
 import PhraseBreakdown from "../components/PhraseBreakdown";
 import "./TextPage.css";
 
-const LOOP_BTN_IDS = new Set(["ch-pk-img", "ch-en-pk-img", "ch-kibi-en-mantra-img"]);
+const VIDEO_PLAYER_IDS = new Set([
+  "ch-vis-anim", "ch-en-visu-anim", "ch-kibi-en-visu-anim",
+  "ch-pk-img", "ch-en-pk-img", "ch-kibi-en-mantra-img",
+]);
+const VISU_ANIM_IDS = new Set(["ch-vis-anim", "ch-en-visu-anim", "ch-kibi-en-visu-anim"]);
+const SIZE_CTRL_IDS = new Set([
+  "ch-vis-anim", "ch-en-visu-anim", "ch-kibi-en-visu-anim",
+  "ch-pk-img", "ch-en-pk-img", "ch-kibi-en-mantra-img",
+]);
+
+function useIsPortrait() {
+  const mq = "(orientation: portrait)";
+  const [portrait, setPortrait] = useState(() => window.matchMedia(mq).matches);
+  useEffect(() => {
+    const m = window.matchMedia(mq);
+    const handler = (e: MediaQueryListEvent) => setPortrait(e.matches);
+    m.addEventListener("change", handler);
+    return () => m.removeEventListener("change", handler);
+  }, []);
+  return portrait;
+}
 
 function LoopingVideo({ src, className, style, phraseId }: { src: string; className?: string; style?: React.CSSProperties; phraseId?: string }) {
   const ref = useRef<HTMLVideoElement>(null);
-  const [ended, setEnded] = useState(false);
+  const [playing, setPlaying] = useState(true);
   const [looping, setLooping] = useState(false);
-  const showLoopBtn = phraseId !== undefined && LOOP_BTN_IDS.has(phraseId);
+  const [sizePercent, setSizePercent] = useState(100);
+  const showControls = phraseId !== undefined && VIDEO_PLAYER_IDS.has(phraseId);
+  const isPortrait = useIsPortrait();
+  const isVisuAnim = phraseId !== undefined && VISU_ANIM_IDS.has(phraseId);
+  const isSizeCtrl = phraseId !== undefined && SIZE_CTRL_IDS.has(phraseId);
+  const activeSrc = isVisuAnim && !isPortrait
+    ? src.replace("visuChenrezik.mp4", "visuChenrezikWide.mp4")
+    : src;
+
+  useEffect(() => {
+    if (!ref.current) return;
+    const wasPlaying = playing;
+    ref.current.load();
+    if (wasPlaying) ref.current.play().catch(() => {});
+  }, [activeSrc]);
 
   const handleEnded = () => {
     if (looping) { ref.current?.play(); }
-    else { setEnded(true); }
+    else { setPlaying(false); }
+  };
+
+  const togglePlay = () => {
+    if (!ref.current) return;
+    if (playing) { ref.current.pause(); setPlaying(false); }
+    else { ref.current.play(); setPlaying(true); }
+  };
+
+  const stop = () => {
+    if (!ref.current) return;
+    ref.current.pause();
+    ref.current.currentTime = 0;
+    setPlaying(false);
   };
 
   const toggleLoop = () => {
     const next = !looping;
     setLooping(next);
-    if (next && ended) { ref.current?.play(); setEnded(false); }
+    if (next && !playing) { ref.current?.play(); setPlaying(true); }
   };
+
+  const btnStyle = (active?: boolean): React.CSSProperties => ({
+    padding: "0.3rem 0.9rem",
+    background: active ? "#c9a84c" : "transparent",
+    border: "1px solid #c9a84c",
+    borderRadius: "1rem",
+    fontSize: "0.95rem",
+    cursor: "pointer",
+    color: active ? "#000" : "#c9a84c",
+  });
+
+  const showSizeControls = showControls && isSizeCtrl && !isPortrait;
+  const videoSizeStyle: React.CSSProperties = showSizeControls
+    ? { height: `${0.8 * sizePercent}vh`, width: "auto", maxWidth: "none", maxHeight: "none" }
+    : {};
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <video ref={ref} src={src} className={className} style={style} autoPlay muted playsInline onEnded={handleEnded} />
-      <div style={{ display: "flex", gap: "0.5rem", marginTop: "0.5rem" }}>
-        {ended && (
-          <button
-            onClick={() => { ref.current?.play(); setEnded(false); }}
-            style={{ padding: "0.3rem 1.2rem", background: "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "1rem", cursor: "pointer", color: "#c9a84c" }}
-          >
-            ▶
-          </button>
-        )}
-        {showLoopBtn && (
-          <button
-            onClick={toggleLoop}
-            title={looping ? "Arrêter la boucle" : "Lecture en boucle"}
-            style={{ padding: "0.3rem 1.2rem", background: looping ? "#c9a84c" : "transparent", border: "1px solid #c9a84c", borderRadius: "1rem", fontSize: "0.85rem", cursor: "pointer", color: looping ? "#000" : "#c9a84c" }}
-          >
-            ↺
-          </button>
-        )}
-      </div>
+      <video ref={ref} src={activeSrc} className={className} style={{ ...style, ...videoSizeStyle }} autoPlay muted playsInline onEnded={handleEnded} />
+      {showControls && (
+        <div style={{ display: "flex", gap: "0.5rem", marginTop: "0.5rem" }}>
+          <button onClick={togglePlay} style={btnStyle()}>{playing ? "⏸" : "▶"}</button>
+          <button onClick={stop} style={btnStyle()}>⏹</button>
+          <button onClick={toggleLoop} title={looping ? "Arrêter la boucle" : "Lecture en boucle"} style={btnStyle(looping)}>↺</button>
+          {showSizeControls && <>
+            <button onClick={() => setSizePercent(p => Math.max(30, p - 10))} style={btnStyle()}>−</button>
+            <button onClick={() => setSizePercent(p => Math.min(200, p + 10))} style={btnStyle()}>+</button>
+          </>}
+        </div>
+      )}
     </div>
   );
 }
