@@ -50,7 +50,7 @@ function LoopingVideo({ src, className, style, phraseId }: { src: string; classN
   const ref = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(true);
   const [looping, setLooping] = useState(false);
-  const [sizePercent, setSizePercent] = useState(100);
+  const [sizePercent, setSizePercent] = useState(90);
   const showControls = phraseId !== undefined && VIDEO_PLAYER_IDS.has(phraseId);
   const isPortrait = useIsPortrait();
   const isVisuAnim = phraseId !== undefined && VISU_ANIM_IDS.has(phraseId);
@@ -102,7 +102,7 @@ function LoopingVideo({ src, className, style, phraseId }: { src: string; classN
 
   const showSizeControls = showControls && isSizeCtrl && !isPortrait;
   const videoSizeStyle: React.CSSProperties = showSizeControls
-    ? { height: `${0.8 * sizePercent}vh`, width: "auto", maxWidth: "none", maxHeight: "none" }
+    ? { width: `${sizePercent}%`, height: "auto", maxWidth: "none", maxHeight: "none" }
     : {};
 
   return (
@@ -114,8 +114,8 @@ function LoopingVideo({ src, className, style, phraseId }: { src: string; classN
           <button onClick={stop} style={btnStyle()}>⏹</button>
           <button onClick={toggleLoop} title={looping ? "Arrêter la boucle" : "Lecture en boucle"} style={btnStyle(looping)}>↺</button>
           {showSizeControls && <>
-            <button onClick={() => setSizePercent(p => Math.max(30, p - 10))} style={btnStyle()}>−</button>
-            <button onClick={() => setSizePercent(p => Math.min(200, p + 10))} style={btnStyle()}>+</button>
+            <button onClick={() => setSizePercent(p => Math.max(20, p - 20))} style={btnStyle()}>−</button>
+            <button onClick={() => setSizePercent(p => Math.min(200, p + 20))} style={btnStyle()}>+</button>
           </>}
         </div>
       )}
@@ -259,6 +259,22 @@ export default function TextPage() {
       dispatch(setSeekToTimestamp(seekTo));
     }
   }, [location.state, dispatch]);
+
+  useEffect(() => {
+    const scrollToId = (location.state as { scrollToId?: string } | null)?.scrollToId;
+    if (!scrollToId) return;
+    let attempts = 0;
+    const tryScroll = () => {
+      const el = document.getElementById(scrollToId);
+      if (el) {
+        el.scrollIntoView({ behavior: "auto", block: "start" });
+      } else if (attempts < 20) {
+        attempts++;
+        setTimeout(tryScroll, 100);
+      }
+    };
+    setTimeout(tryScroll, 50);
+  }, [location.state]);
 
   useEffect(() => {
     let anchor: Element | null = null;
@@ -901,20 +917,14 @@ export default function TextPage() {
                   ? p.altTargetId
                   : (p.targetId ?? "/");
               const [path, hash] = target.split("#");
-              const navState: { from: string; seekTo?: number } = {
+              const navState: { from: string; seekTo?: number; scrollToId?: string } = {
                 from: text.id,
               };
               if (p.audioTimestamp !== undefined)
                 navState.seekTo = p.audioTimestamp;
               if (hash) {
+                navState.scrollToId = hash;
                 navigate(path, { state: navState });
-                setTimeout(
-                  () =>
-                    document
-                      .getElementById(hash)
-                      ?.scrollIntoView({ behavior: "auto" }),
-                  100,
-                );
               } else {
                 window.scrollTo(0, 0);
                 navigate(target, { state: navState });
@@ -1464,20 +1474,13 @@ export default function TextPage() {
                                     const navState: {
                                       from: string;
                                       seekTo?: number;
+                                      scrollToId?: string;
                                     } = { from: text.id };
                                     if (p.audioTimestamp !== undefined)
                                       navState.seekTo = p.audioTimestamp;
                                     if (hash) {
+                                      navState.scrollToId = hash;
                                       navigate(path, { state: navState });
-                                      setTimeout(
-                                        () =>
-                                          document
-                                            .getElementById(hash)
-                                            ?.scrollIntoView({
-                                              behavior: "auto",
-                                            }),
-                                        100,
-                                      );
                                     } else {
                                       window.scrollTo(0, 0);
                                       navigate(target, { state: navState });
@@ -1776,6 +1779,14 @@ export default function TextPage() {
                                       </div>
                                     )}
                                   </div>
+                                  {phrase.id === "ch-gr-8" && (
+                                    <button
+                                      className="scroll-top-btn"
+                                      onClick={() => scrollToPhrase("ch-gr-1")}
+                                    >
+                                      ↑
+                                    </button>
+                                  )}
                                   {(phrase.id === "dw-mantra" || phrase.id === "sv-dw-mantra") && (
                                     <button
                                       className="scroll-top-btn"
@@ -1831,14 +1842,11 @@ export default function TextPage() {
                     ? p.altTargetId
                     : (p.targetId ?? "/");
                 const [path, hash] = target.split("#");
-                const navState: { from: string; seekTo?: number } = { from: text.id };
+                const navState: { from: string; seekTo?: number; scrollToId?: string } = { from: text.id };
                 if (p.audioTimestamp !== undefined) navState.seekTo = p.audioTimestamp;
                 if (hash) {
+                  navState.scrollToId = hash;
                   navigate(path, { state: navState });
-                  setTimeout(
-                    () => document.getElementById(hash)?.scrollIntoView({ behavior: "auto" }),
-                    100,
-                  );
                 } else {
                   window.scrollTo(0, 0);
                   navigate(target, { state: navState });

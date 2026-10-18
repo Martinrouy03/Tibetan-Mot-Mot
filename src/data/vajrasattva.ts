@@ -596,14 +596,24 @@ export const vajrasattva: PracticeText = {
             "Accordez-moi vos bénédictions pour que soient totalement purifiés mon karma négatif, mes voiles, mes fautes et mes manquements.",
           words: [
             {
-              tibetan: "སྡིག་སྒྲིབ",
-              phonetics: "dik drip",
-              translation: "négativités, voiles,",
+              tibetan: "སྡིག་",
+              phonetics: "dik",
+              translation: "négativités",
             },
             {
-              tibetan: "ཉེས་ལྟུང་གི",
-              phonetics: "nyé toung ki",
-              translation: "fautes et manquements",
+              tibetan: "སྒྲིབ",
+              phonetics: "drip",
+              translation: "voiles,",
+            },
+            {
+              tibetan: "ཉེས་",
+              phonetics: "nyé",
+              translation: "fautes",
+            },
+            {
+              tibetan: "ལྟུང་གི",
+              phonetics: "toung ki",
+              translation: "et manquements",
             },
             {
               tibetan: "ཚོགས་ཐམས་ཅད",

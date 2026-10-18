@@ -2763,11 +2763,11 @@ export const soutraLongevite: PracticeText = {
           translation:
             "990 millions de bouddhas annonceront la prophétie [de son éveil] au moment de sa mort,",
           words: [
-            { tibetan: "དེ་", phonetics: "té", translation: "sa" },
+            { tibetan: "དེ་འཆི་བའི་", phonetics: "té", translation: "sa mort" },
             {
-              tibetan: "འཆི་བའི་དུས་ཀྱི་ཚེ་",
+              tibetan: "དུས་ཀྱི་ཚེ་",
               phonetics: "tchi wé tu kyi tsé",
-              translation: "au moment de la mort",
+              translation: "à ce moment",
             },
             {
               tibetan: "སངས་རྒྱས་",
@@ -2830,7 +2830,7 @@ export const soutraLongevite: PracticeText = {
           id: "sl-0-88",
           type: "normal",
           tibetan:
-            "།སངས་རྒྱས་ཀྱི་ཞིང་ནས་སངས་རྒྱས་ཀྱི་ཞིང་དུ་འགྲོ་བར་མཛད་པར་འགྱུར་",
+            "།སངས་རྒྱས་ཀྱི་ཞིང་ནས་སངས་རྒྱས་ཀྱི་ཞིང་དུ་འགྲོ་བར་མཛད་པར་འགྱུར་ཏེ་",
           phonetics:
             "sang gyé kyi shing né / sang gyé kyi shing tou / dro war dzé par gyour té",
           translation: "Il se rendra de champ de bouddha en champ de bouddha.",
@@ -3745,7 +3745,7 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "ཆེན་པོ་",
               phonetics: "tchen po",
-              translation: "océans",
+              translation: "grands",
             },
             {
               tibetan: "བཞི་ཆུས་",

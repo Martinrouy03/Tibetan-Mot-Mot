@@ -4432,16 +4432,11 @@ export const pratiqueChenrezik: PracticeText = {
           phonetics: "dak ki / dul djar / gyour pé / dro oua / nam",
           translation: "Puissent les êtres que j'ai à éduquer",
           words: [
-            { tibetan: "བདག་གི་", phonetics: "dak ki", translation: "de moi" },
+            { tibetan: "བདག་གི་", phonetics: "dak ki", translation: "par moi" },
             {
-              tibetan: "གདུལ་བྱར་",
-              phonetics: "dul djar",
+              tibetan: "གདུལ་བྱར་གྱུར་པའི་",
+              phonetics: "dul djar gyour pé",
               translation: "à éduquer",
-            },
-            {
-              tibetan: "གྱུར་པའི་",
-              phonetics: "gyour pé",
-              translation: "devenus",
             },
             {
               tibetan: "འགྲོ་བ་",
@@ -5322,8 +5317,8 @@ export const pratiqueChenrezik: PracticeText = {
       ],
     },
     {
-      id: "dw-defunts",
-      title: "",
+      id: "ch-dewachen-nav",
+      title: "Souhaits de Dewachen",
       phrases: [
         {
           id: "dw-instr-1",
@@ -5500,12 +5495,6 @@ export const pratiqueChenrezik: PracticeText = {
             },
           ],
         },
-      ],
-    },
-    {
-      id: "ch-dewachen-nav",
-      title: "Souhaits de Dewachen",
-      phrases: [
         {
           id: "ch-nav-dewachen",
           type: "nav-btn" as const,

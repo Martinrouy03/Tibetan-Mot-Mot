@@ -1534,10 +1534,22 @@ export const troisAmoncellements: PracticeText = {
             "dans les autres vies depuis [un temps] sans commencement ni fin,",
           words: [
             { tibetan: "སྐྱེ་བ་", phonetics: "kyéwa", translation: "vies" },
-            { tibetan: "ཐོག་མ་", phonetics: "tokma", translation: "sans commencement" },
+            {
+              tibetan: "ཐོག་མ་",
+              phonetics: "tokma",
+              translation: "sans commencement",
+            },
             { tibetan: "དང་", phonetics: "dang", translation: "et" },
-            { tibetan: "མཐའ་མ་མ་མཆིས་པ་", phonetics: "t'a ma ma chi pa", translation: "sans fin" },
-            { tibetan: "ནས་", phonetics: "né", translation: "depuis [un temps]" },
+            {
+              tibetan: "མཐའ་མ་མ་མཆིས་པ་",
+              phonetics: "t'a ma ma chi pa",
+              translation: "sans fin",
+            },
+            {
+              tibetan: "ནས་",
+              phonetics: "né",
+              translation: "depuis [un temps]",
+            },
           ],
         },
         {
@@ -1595,8 +1607,16 @@ export const troisAmoncellements: PracticeText = {
           phonetics: "gui dou / tsel wa dang",
           translation: "je les ai fait accomplir",
           words: [
-            { tibetan: "བགྱིད་དུ་", phonetics: "gui dou", translation: "accomplir" },
-            { tibetan: "སྩལ་བ་དང་", phonetics: "tsel wa dang", translation: "les ai fait" },
+            {
+              tibetan: "བགྱིད་དུ་",
+              phonetics: "gui dou",
+              translation: "accomplir",
+            },
+            {
+              tibetan: "སྩལ་བ་དང་",
+              phonetics: "tsel wa dang",
+              translation: "les ai fait",
+            },
           ],
         },
         {
@@ -2917,10 +2937,14 @@ export const troisAmoncellements: PracticeText = {
               phonetics: "seu nam",
               translation: "mérites",
             },
-            { tibetan: "ཐམས་ཅད་", phonetics: "t'am tché", translation: "tous" },
             {
-              tibetan: "ལ་རྗེས་སུ་",
-              phonetics: "la djé sou",
+              tibetan: "ཐམས་ཅད་ལ་",
+              phonetics: "t'am tché la",
+              translation: "tous",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "djé sou",
               translation: "à la suite de",
             },
             {
