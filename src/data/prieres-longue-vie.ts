@@ -459,7 +459,7 @@ export const prieresLongueVie: PracticeText = {
     },
     {
       id: "plv-1",
-      title: "Longue vie de S.E. le 14ème Shamarpa",
+      title: "Longue vie de S.E. le 15ème Shamarpa",
       phrases: [
         {
           id: "plv-1-1",
@@ -623,13 +623,23 @@ export const prieresLongueVie: PracticeText = {
           translation: "qui incarne l'activité de tous les victorieux,",
           words: [
             {
-              tibetan: "སྐུ་གསུང་ཐུགས་",
-              phonetics: "kou soung t'ouk",
-              translation: "du corps, de la parole et de l'esprit",
+              tibetan: "སྐུ་",
+              phonetics: "kou",
+              translation: "du corps,",
             },
             {
-              tibetan: "ཀྱི་གསང་བའི་",
-              phonetics: "kyi sang wé",
+              tibetan: "གསུང་",
+              phonetics: "soung",
+              translation: "de la parole,",
+            },
+            {
+              tibetan: "ཐུགས་ཀྱི་",
+              phonetics: "t'ouk",
+              translation: "de l'esprit",
+            },
+            {
+              tibetan: "གསང་བའི་",
+              phonetics: "sang wé",
               translation: "des secrets",
             },
             { tibetan: "མཛོད་", phonetics: "dzeu", translation: "trésor" },
@@ -868,13 +878,13 @@ export const prieresLongueVie: PracticeText = {
             "accomplir toutes mes intentions en accord avec le Dharma et,",
           words: [
             {
-              tibetan: "བསམ་པའི་",
-              phonetics: "sam pé",
+              tibetan: "བསམ་པའི་དོན་",
+              phonetics: "sam pé teun",
               translation: "mes intentions",
             },
             {
-              tibetan: "དོན་ཀུན་",
-              phonetics: "teun kun",
+              tibetan: "ཀུན་",
+              phonetics: "kun",
               translation: "toutes",
             },
             {
@@ -915,12 +925,12 @@ export const prieresLongueVie: PracticeText = {
             {
               tibetan: "གཅིག་ཏུ་",
               phonetics: "tchik tou",
-              translation: "ne faire qu’un",
+              translation: "en un seul",
             },
             {
               tibetan: "འདྲེས་པར་ཤོག",
               phonetics: "dré par chok",
-              translation: "unifier",
+              translation: "puissent-ils être unifier!",
             },
           ],
         },

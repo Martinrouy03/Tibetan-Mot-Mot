@@ -11,6 +11,61 @@ export const coeurPrajnaparamitaEn: PracticeText = {
   baseId: "coeur-prajnaparamita",
   sections: [
     {
+      id: "cp-en-quatrain",
+      title: "",
+      phrases: [
+        {
+          id: "cp-en-q-1",
+          type: "normal",
+          tibetan: "སྨྲ་བསམ་བརྗོད་མེད་ཤེས་རབ་ཕ་རོལ་ཕྱིན།",
+          phonetics: "ma sam jömé / sherab parol chin",
+          translation: "Inconceivable and inexpressible Prajñāpāramitā",
+          words: [
+            { tibetan: "སྨྲ་བསམ་བརྗོད་མེད་", phonetics: "ma sam jömé", translation: "inconceivable and inexpressible" },
+            { tibetan: "ཤེས་རབ་ཕ་རོལ་ཕྱིན་", phonetics: "sherab parol chin", translation: "Prajñāpāramitā" },
+          ],
+        },
+        {
+          id: "cp-en-q-2",
+          type: "normal",
+          tibetan: "མ་སྐྱེས་མི་འགག་ནམ་མཁའི་ངོ་བོ་ཉིད།",
+          phonetics: "makyé / migak / namkhé / ngowo nyi",
+          translation: "unborn, unceasing, with space-like essence,",
+          words: [
+            { tibetan: "མ་སྐྱེས་", phonetics: "makyé", translation: "unborn" },
+            { tibetan: "མི་འགག་", phonetics: "migak", translation: "unceasing" },
+            { tibetan: "ནམ་མཁའི་", phonetics: "namkhé", translation: "space-like" },
+            { tibetan: "ངོ་བོ་ཉིད་", phonetics: "ngowo nyi", translation: "essence" },
+          ],
+        },
+        {
+          id: "cp-en-q-3",
+          type: "normal",
+          tibetan: "སོ་སོ་རང་རིག་ཡེ་ཤེས་སྤྱོད་ཡུལ་བ།",
+          phonetics: "soso rangrig / yeshe / chö yulwa",
+          translation: "sphere of experience of discriminating self-awareness wisdom,",
+          words: [
+            { tibetan: "སོ་སོ་རང་རིག་", phonetics: "soso rangrig", translation: "discriminating self-awareness" },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yeshe", translation: "wisdom" },
+            { tibetan: "སྤྱོད་ཡུལ་བ་", phonetics: "chö yulwa", translation: "sphere of experience" },
+          ],
+        },
+        {
+          id: "cp-en-q-4",
+          type: "normal",
+          tibetan: "དུས་གསུམ་རྒྱལ་བའི་ཡུམ་ལ་ཕྱག་འཚལ་བསྟོད།",
+          phonetics: "dü sum / gyalwé / yum la / chaktsal tö",
+          translation: "mother of conquerors of the three times, I pay homage!",
+          words: [
+            { tibetan: "དུས་གསུམ་", phonetics: "dü sum", translation: "of the three times" },
+            { tibetan: "རྒྱལ་བའི་", phonetics: "gyalwé", translation: "of conquerors" },
+            { tibetan: "ཡུམ་ལ་", phonetics: "yum la", translation: "mother" },
+            { tibetan: "ཕྱག་འཚལ་བསྟོད་", phonetics: "chaktsal tö", translation: "I pay homage" },
+          ],
+        },
+      ],
+    },
+    {
       id: "cp-en-0",
       title: "",
       phrases: [

@@ -3824,7 +3824,7 @@ export const soutraLongevite: PracticeText = {
           phonetics:
             "kang shik tsé tang / yé shé pak tou mé pé / do dé di / yi ker dri am / yi ker drir djouk kam",
           translation:
-            "Quiconque écrit, fait écrire ou respecte le soutra [intitulé] Noble Longévité et sagesse incommensurables,",
+            "Quiconque écrit ou fait écrire le soutra [intitulé] Noble Longévité et sagesse incommensurables,",
           words: [
             {
               tibetan: "གང་ཞིག་",
@@ -3849,7 +3849,7 @@ export const soutraLongevite: PracticeText = {
             {
               tibetan: "ཡི་གེར་འདྲིར་འཇུག་གམ།",
               phonetics: "yi ker drir djouk kam",
-              translation: "fait écrire ou respecte",
+              translation: "fait écrire",
             },
           ],
         },

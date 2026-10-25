@@ -575,6 +575,26 @@
   max-width: 100%;
 }
 
+@media (orientation: landscape) {
+  .section-ta-dewachen .phrase-image-mantra .phrase-image,
+  .section-dw-main .phrase-image-mantra .phrase-image {
+    height: 100vh;
+    width: auto;
+    max-width: none;
+    max-height: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .section-ta-dewachen .phrase-image-mantra .phrase-image,
+  .section-dw-main .phrase-image-mantra .phrase-image {
+    width: 100vw;
+    height: auto;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+}
+
 
 @media (max-width: 900px) and (orientation: portrait) {
   .phrase-image-mantra .phrase-image {

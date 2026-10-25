@@ -197,16 +197,25 @@ export const vajrasattva: PracticeText = {
               phonetics: "sem tchen tam tché kyi",
               translation: "de tous les êtres",
             },
-
             {
-              tibetan: "སྡིག་སྒྲིབ",
-              phonetics: "dik drip",
-              translation: "négativités, voiles",
+              tibetan: "སྡིག་",
+              phonetics: "dik",
+              translation: "négativités,",
             },
             {
-              tibetan: "ཉེས་ལྟུང་",
-              phonetics: "nyé toung ki",
-              translation: "fautes et manquements",
+              tibetan: "སྒྲིབ",
+              phonetics: "drip",
+              translation: "voiles,",
+            },
+            {
+              tibetan: "ཉེས་",
+              phonetics: "nyé",
+              translation: "fautes,",
+            },
+            {
+              tibetan: "ལྟུང་",
+              phonetics: "toung ki",
+              translation: "et manquements",
             },
             {
               tibetan: "གི་ཚོགས་ཐམས་ཅད",
@@ -321,18 +330,28 @@ export const vajrasattva: PracticeText = {
               translation: "remplit le corps",
             },
             {
-              tibetan: "སྡིག་སྒྲིབ",
-              phonetics: "dik drip",
-              translation: "négativités, voiles",
+              tibetan: "སྡིག་",
+              phonetics: "dik",
+              translation: "négativités,",
             },
             {
-              tibetan: "ཉེས་ལྟུང་",
-              phonetics: "nyé toung tam tché",
-              translation: "fautes et manquements",
+              tibetan: "སྒྲིབ",
+              phonetics: "drip",
+              translation: "voiles",
+            },
+            {
+              tibetan: "ཉེས་",
+              phonetics: "nyé",
+              translation: "fautes",
+            },
+            {
+              tibetan: "ལྟུང་",
+              phonetics: "toung",
+              translation: "manquements",
             },
             {
               tibetan: "ཐམས་ཅད་",
-              phonetics: "nyé toung tam tché",
+              phonetics: "tam tché",
               translation: "tous",
             },
             {

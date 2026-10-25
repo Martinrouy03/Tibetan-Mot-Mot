@@ -8,6 +8,113 @@ export const coeurPrajnaparamita: PracticeText = {
   audioSrc: "/audio/Heart-Sutra-GK.mp3",
   sections: [
     {
+      id: "cp-quatrain",
+      title: "",
+      phrases: [
+        {
+          id: "cp-q-1",
+          type: "normal",
+          tibetan: "སྨྲ་བསམ་བརྗོད་མེད་ཤེས་རབ་ཕ་རོལ་ཕྱིན།",
+          phonetics: "ma sam / jömé / sherab parol chin",
+          translation: "Prajñāpāramitā inconcevable, inexprimable,",
+          words: [
+            {
+              tibetan: "སྨྲ་བསམ་བརྗོད་མེད་",
+              phonetics: "ma sam",
+              translation: "inconcevable et inexprimable",
+            },
+            {
+              tibetan: "ཤེས་རབ་ཕ་རོལ་ཕྱིན་",
+              phonetics: "sherab parol chin",
+              translation: "Prajñāpāramitā",
+            },
+          ],
+        },
+        {
+          id: "cp-q-2",
+          type: "normal",
+          tibetan: "མ་སྐྱེས་མི་འགག་ནམ་མཁའི་ངོ་བོ་ཉིད།",
+          phonetics: "makyé / migak / namkhé / ngowo nyi",
+          translation:
+            "sans origine, sans cessation, d'essence semblable à l'espace,",
+          words: [
+            {
+              tibetan: "མ་སྐྱེས་",
+              phonetics: "makyé",
+              translation: "sans origine",
+            },
+            {
+              tibetan: "མི་འགག་",
+              phonetics: "migak",
+              translation: "sans cessation",
+            },
+            {
+              tibetan: "ནམ་མཁའི་",
+              phonetics: "namkhé",
+              translation: "à l'espace",
+            },
+            {
+              tibetan: "ངོ་བོ་ཉིད་",
+              phonetics: "ngowo nyi",
+              translation: "essence [semblable]",
+            },
+          ],
+        },
+        {
+          id: "cp-q-3",
+          type: "normal",
+          tibetan: "སོ་སོ་རང་རིག་ཡེ་ཤེས་སྤྱོད་ཡུལ་བ།",
+          phonetics: "soso rangrig / yeshe / chö yulwa",
+          translation:
+            "sphère d'expérience de la sagesse auto-connaissante et discriminante,",
+          words: [
+            {
+              tibetan: "སོ་སོ་",
+              phonetics: "soso",
+              translation: "discriminante",
+            },
+            {
+              tibetan: "རང་རིག་",
+              phonetics: "rangrig",
+              translation: "auto-connaissante",
+            },
+            { tibetan: "ཡེ་ཤེས་", phonetics: "yeshe", translation: "sagesse" },
+            {
+              tibetan: "སྤྱོད་ཡུལ་བ་",
+              phonetics: "chö yulwa",
+              translation: "sphère d'expérience",
+            },
+          ],
+        },
+        {
+          id: "cp-q-4",
+          type: "normal",
+          tibetan: "དུས་གསུམ་རྒྱལ་བའི་ཡུམ་ལ་ཕྱག་འཚལ་བསྟོད།",
+          phonetics: "dü sum / gyalwé / yum la / chaktsal tö",
+          translation:
+            "mère des vainqueurs des trois temps, je vous rends hommage!",
+          words: [
+            {
+              tibetan: "དུས་གསུམ་",
+              phonetics: "dü sum",
+              translation: "des trois temps",
+            },
+            {
+              tibetan: "རྒྱལ་བའི་",
+              phonetics: "gyalwé",
+              translation: "des vainqueurs",
+            },
+            { tibetan: "ཡུམ་ལ་", phonetics: "yum la", translation: "mère" },
+            {
+              tibetan: "ཕྱག་འཚལ་བསྟོད་",
+              phonetics: "chaktsal tö",
+              translation: "je vous rends hommage",
+            },
+          ],
+        },
+      ],
+    },
+    {
       id: "cp-0",
       title: "",
       phrases: [

@@ -18,7 +18,7 @@ export const dewachen: PracticeText = {
           phonetics: "",
           translation: "",
           words: [],
-          src: "/amitabhaluminous.jpg",
+          src: "/amitabha_surrounded.jpg",
         },
         {
           id: "dw-emaho",
@@ -106,12 +106,12 @@ export const dewachen: PracticeText = {
             {
               tibetan: "མཐུ་ཆེན་",
               phonetics: "t'ou tchen",
-              translation: "aux grands pouvoirs",
+              translation: "de grands pouvoirs",
             },
             {
               tibetan: "ཐོབ་རྣམས་ལ་",
               phonetics: "t'op nam la",
-              translation: "qui êtes",
+              translation: "doté",
             },
           ],
         },

@@ -231,6 +231,7 @@ export default function TextPage() {
   const tibetanFontSize = useAppSelector((state) => state.ui.tibetanFontSize);
 
   const [pemaKarpoCollapsed, setPemaKarpoCollapsed] = useState(false);
+  const [visuCollapsed, setVisuCollapsed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [mobileSettingsOpen, setMobileSettingsOpen] = useState(false);
   const [scrollingMantraId, setScrollingMantraId] = useState<string | null>(
@@ -1092,11 +1093,20 @@ export default function TextPage() {
                           {pemaKarpoCollapsed ? "▶" : "▼"}
                         </button>
                       )}
+                      {(section.id === "ch-visualisation" || section.id === "ch-en-visu" || section.id === "ch-kibi-en-visu") && (
+                        <button
+                          className="collapse-btn"
+                          onClick={() => setVisuCollapsed((c) => !c)}
+                        >
+                          {visuCollapsed ? "▶" : "▼"}
+                        </button>
+                      )}
                     </div>
                   </>
                 )}
                 <div className="phrases">
-                  {section.id === "ch-pema-karpo" && pemaKarpoCollapsed
+                  {(section.id === "ch-pema-karpo" && pemaKarpoCollapsed) ||
+                   ((section.id === "ch-visualisation" || section.id === "ch-en-visu" || section.id === "ch-kibi-en-visu") && visuCollapsed)
                     ? null
                     : isHommageSection
                       ? pairs.map(({ label, normal, image }) => {

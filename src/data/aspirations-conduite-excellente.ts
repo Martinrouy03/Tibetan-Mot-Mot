@@ -4565,12 +4565,12 @@ export const aspirationsConduiteExcellente: PracticeText = {
             {
               tibetan: "བྱང་ཆུབ་",
               phonetics: "djang tchoup",
-              translation: "l'état de bouddha",
+              translation: "l'éveil",
             },
             {
               tibetan: "སངས་རྒྱས་ནས་",
               phonetics: "sangyé né",
-              translation: "atteint",
+              translation: "devenu bouddha",
             },
           ],
         },

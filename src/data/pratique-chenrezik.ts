@@ -2181,7 +2181,7 @@ export const pratiqueChenrezik: PracticeText = {
     },
     {
       id: "ch-visualisation",
-      title: "Visualisation",
+      title: "Création de la divinité - །ལྷ་བསྐྱེད་ནི།",
       phrases: [
         {
           id: "ch-vis-anim",
@@ -2191,14 +2191,6 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "",
           words: [],
           src: "/animation/visuChenrezik.mp4",
-        },
-        {
-          id: "ch-vis-instr",
-          type: "instructions",
-          tibetan: "༄༅། །ལྷ་བསྐྱེད་ནི།",
-          phonetics: "",
-          translation: "Création de la divinité:",
-          words: [],
         },
         {
           id: "ch-vis-1",
@@ -2547,12 +2539,12 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "སྐྱོན་གྱིས་",
               phonetics: "kyeun gyi",
-              translation: "par aucun défaut",
+              translation: "par les défauts",
             },
             {
               tibetan: "མ་གོས་",
               phonetics: "ma keu",
-              translation: "n'est souillé",
+              translation: "n'est pas souillé",
             },
             {
               tibetan: "སྐུ་མདོག་དཀར།",
@@ -2569,14 +2561,19 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "Le Parfait Bouddha est votre diadème.",
           words: [
             {
-              tibetan: "རྫོགས་སངས་རྒྱས་ཀྱིས་",
-              phonetics: "dzok sangyé kyi",
-              translation: "Le Parfait Bouddha",
+              tibetan: "རྫོགས་",
+              phonetics: "dzok",
+              translation: "Parfait",
+            },
+            {
+              tibetan: "སངས་རྒྱས་ཀྱིས་",
+              phonetics: "sangyé kyi",
+              translation: "Bouddha",
             },
             {
               tibetan: "དབུ་ལ་བརྒྱན།",
               phonetics: "ou la gyen",
-              translation: "est votre diadème",
+              translation: "orne votre tête",
             },
           ],
         },
@@ -5822,13 +5819,23 @@ export const pratiqueChenrezik: PracticeText = {
           translation: "qui incarne l'activité de tous les victorieux,",
           words: [
             {
-              tibetan: "སྐུ་གསུང་ཐུགས་",
-              phonetics: "kou soung t'ouk",
-              translation: "du corps, de la parole et de l'esprit",
+              tibetan: "སྐུ་",
+              phonetics: "kou",
+              translation: "du corps,",
             },
             {
-              tibetan: "ཀྱི་གསང་བའི་",
-              phonetics: "kyi sang wé",
+              tibetan: "གསུང་",
+              phonetics: "soung",
+              translation: "de la parole,",
+            },
+            {
+              tibetan: "ཐུགས་ཀྱི་",
+              phonetics: "t'ouk",
+              translation: "de l'esprit",
+            },
+            {
+              tibetan: "གསང་བའི་",
+              phonetics: "sang wé",
               translation: "des secrets",
             },
             { tibetan: "མཛོད་", phonetics: "dzeu", translation: "trésor" },
@@ -5954,9 +5961,14 @@ export const pratiqueChenrezik: PracticeText = {
             "Puissiez-vous mûrir et libérer les êtres qui vous voient, vous entendent et se souviennent de vous",
           words: [
             {
-              tibetan: "མཐོང་ཐོས་",
-              phonetics: "t'ong t'eu",
-              translation: "qui vous voient et vous entendent",
+              tibetan: "མཐོང་",
+              phonetics: "t'ong",
+              translation: "[ceux qui] vous voient,",
+            },
+            {
+              tibetan: "ཐོས་",
+              phonetics: "t'eu",
+              translation: "vous entendent,",
             },
             {
               tibetan: "དྲན་པས་",
@@ -5964,14 +5976,14 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "se souviennent de vous",
             },
             {
-              tibetan: "འགྲོ་རྣམས་",
-              phonetics: "dro nam",
-              translation: "les êtres",
+              tibetan: "འགྲོ་རྣམས་སྨིན་",
+              phonetics: "dro nam min",
+              translation: "faites mûrir les êtres",
             },
             {
-              tibetan: "སྨིན་གྲོལ་མཛད་",
-              phonetics: "min dreul dzé",
-              translation: "mûrir et libérer",
+              tibetan: "གྲོལ་མཛད་",
+              phonetics: " dreul dzé",
+              translation: "et libérez les",
             },
           ],
         },
@@ -6067,13 +6079,13 @@ export const pratiqueChenrezik: PracticeText = {
             "accomplir toutes mes intentions en accord avec le Dharma et,",
           words: [
             {
-              tibetan: "བསམ་པའི་",
-              phonetics: "sam pé",
+              tibetan: "བསམ་པའི་དོན་",
+              phonetics: "sam pé teun",
               translation: "mes intentions",
             },
             {
-              tibetan: "དོན་ཀུན་",
-              phonetics: "teun kun",
+              tibetan: "ཀུན་",
+              phonetics: "kun",
               translation: "toutes",
             },
             {
@@ -6114,12 +6126,12 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "གཅིག་ཏུ་",
               phonetics: "tchik tou",
-              translation: "ne faire qu'un",
+              translation: "en un seul",
             },
             {
               tibetan: "འདྲེས་པར་ཤོག",
               phonetics: "dré par chok",
-              translation: "unifier",
+              translation: "puissent-ils être unifier!",
             },
           ],
         },

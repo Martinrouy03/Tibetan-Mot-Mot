@@ -1978,7 +1978,7 @@ export const pratiqueChenrezikEn: PracticeText = {
     },
     {
       id: "ch-en-visu",
-      title: "Visualisation",
+      title: "Creating the deity - ལྷ་བསྐྱེད་ནི།",
       phrases: [
         {
           id: "ch-en-visu-anim",
@@ -1988,14 +1988,6 @@ export const pratiqueChenrezikEn: PracticeText = {
           translation: "",
           words: [],
           src: "/animation/visuChenrezik.mp4",
-        },
-        {
-          id: "ch-en-visu-instr",
-          type: "instructions",
-          tibetan: "ལྷ་བསྐྱེད་ནི།",
-          phonetics: "",
-          translation: "Creating the deity:",
-          words: [],
         },
         {
           id: "ch-en-visu-1",
@@ -4996,9 +4988,17 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "nay chok / di roo / jin p'ob la",
           translation: "Shower your blessings on this excellent place",
           words: [
-            { tibetan: "གནས་མཆོག་", phonetics: "nay chok", translation: "excellent place" },
+            {
+              tibetan: "གནས་མཆོག་",
+              phonetics: "nay chok",
+              translation: "excellent place",
+            },
             { tibetan: "འདི་རུ་", phonetics: "di roo", translation: "on this" },
-            { tibetan: "བྱིན་ཕོབ་ལ་", phonetics: "jin p'ob la", translation: "shower your blessings" },
+            {
+              tibetan: "བྱིན་ཕོབ་ལ་",
+              phonetics: "jin p'ob la",
+              translation: "shower your blessings",
+            },
           ],
         },
         {
@@ -5006,11 +5006,20 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "སྒྲུབ་མཆོག་བདག་ལ་དབང་བཞི་སྐུར༔",
           phonetics: "droob chok / dak la / wang zhi koor",
-          translation: "and grant me the four initiations into the supreme fulfilment.",
+          translation:
+            "and grant me the four initiations into the supreme fulfilment.",
           words: [
-            { tibetan: "སྒྲུབ་མཆོག་", phonetics: "droob chok", translation: "supreme fulfilment" },
+            {
+              tibetan: "སྒྲུབ་མཆོག་",
+              phonetics: "droob chok",
+              translation: "supreme fulfilment",
+            },
             { tibetan: "བདག་ལ་", phonetics: "dak la", translation: "me" },
-            { tibetan: "དབང་བཞི་སྐུར་", phonetics: "wang zhi koor", translation: "grant the four initiations" },
+            {
+              tibetan: "དབང་བཞི་སྐུར་",
+              phonetics: "wang zhi koor",
+              translation: "grant the four initiations",
+            },
           ],
         },
         {
@@ -5018,11 +5027,24 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "བགེགས་དང་ལོག་འདྲེན་བར་ཆད་སོལ༔",
           phonetics: "gek dang / lok dren / bar chay soel",
-          translation: "Clear away hindrances, misguiding demons, and obstacles.",
+          translation:
+            "Clear away hindrances, misguiding demons, and obstacles.",
           words: [
-            { tibetan: "བགེགས་དང་", phonetics: "gek dang", translation: "hindrances and" },
-            { tibetan: "ལོག་འདྲེན་", phonetics: "lok dren", translation: "misguiding demons" },
-            { tibetan: "བར་ཆད་སོལ་", phonetics: "bar chay soel", translation: "clear away obstacles" },
+            {
+              tibetan: "བགེགས་དང་",
+              phonetics: "gek dang",
+              translation: "hindrances and",
+            },
+            {
+              tibetan: "ལོག་འདྲེན་",
+              phonetics: "lok dren",
+              translation: "misguiding demons",
+            },
+            {
+              tibetan: "བར་ཆད་སོལ་",
+              phonetics: "bar chay soel",
+              translation: "clear away obstacles",
+            },
           ],
         },
         {
@@ -5032,9 +5054,21 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "chok dang / t'un mong / ngoe droop tsoel",
           translation: "Grant me the supreme and ordinary accomplishments.",
           words: [
-            { tibetan: "མཆོག་དང་", phonetics: "chok dang", translation: "supreme and" },
-            { tibetan: "ཐུན་མོང་", phonetics: "t'un mong", translation: "ordinary" },
-            { tibetan: "དངོས་གྲུབ་སྩོལ་", phonetics: "ngoe droop tsoel", translation: "grant accomplishments" },
+            {
+              tibetan: "མཆོག་དང་",
+              phonetics: "chok dang",
+              translation: "supreme and",
+            },
+            {
+              tibetan: "ཐུན་མོང་",
+              phonetics: "t'un mong",
+              translation: "ordinary",
+            },
+            {
+              tibetan: "དངོས་གྲུབ་སྩོལ་",
+              phonetics: "ngoe droop tsoel",
+              translation: "grant accomplishments",
+            },
           ],
         },
         {
@@ -5048,8 +5082,10 @@ export const pratiqueChenrezikEn: PracticeText = {
         {
           id: "ch-en-gr-14",
           type: "mantra",
-          tibetan: "ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་ཐོད་ཕྲེང་རྩལ་བཛྲ་ས་མ་ཡ་ཛཿསིདྡྷི་ཕ་ལ་ཧཱུྃ་ཨཱཿ",
-          phonetics: "om ah hoong / ben dza goo roo / pay ma t'oe tr'eng tsal / ben dza sa ma ya / dza / si ddhi p'a la hoong ah",
+          tibetan:
+            "ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་ཐོད་ཕྲེང་རྩལ་བཛྲ་ས་མ་ཡ་ཛཿསིདྡྷི་ཕ་ལ་ཧཱུྃ་ཨཱཿ",
+          phonetics:
+            "om ah hoong / ben dza goo roo / pay ma t'oe tr'eng tsal / ben dza sa ma ya / dza / si ddhi p'a la hoong ah",
           translation: "",
           words: [],
         },
@@ -6854,8 +6890,16 @@ export const pratiqueChenrezikEn: PracticeText = {
           translation: "Through this merit, may I reach Omniscience itself,",
           words: [
             { tibetan: "སོད་ནམས་", phonetics: "soe nam", translation: "merit" },
-            { tibetan: "འདི་ཡིས་", phonetics: "di yi", translation: "through this" },
-            { tibetan: "ཐམས་ཅད་གཟིགས་པ་ཉིད་", phonetics: "t'am chay zik pa nyi", translation: "Omniscience" },
+            {
+              tibetan: "འདི་ཡིས་",
+              phonetics: "di yi",
+              translation: "through this",
+            },
+            {
+              tibetan: "ཐམས་ཅད་གཟིགས་པ་ཉིད་",
+              phonetics: "t'am chay zik pa nyi",
+              translation: "Omniscience",
+            },
           ],
         },
         {
@@ -6865,10 +6909,26 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "t'ob nay / nyay pay / dra nam / p'am jay nay",
           translation: "and, having overcome faults, my enemies,",
           words: [
-            { tibetan: "ཐོབ་ནས་", phonetics: "t'ob nay", translation: "having reached" },
-            { tibetan: "ཉེས་པའི་", phonetics: "nyay pay", translation: "faults" },
-            { tibetan: "དགྲ་རྣམས་", phonetics: "dra nam", translation: "my enemies" },
-            { tibetan: "ཕམ་བྱས་ནས་", phonetics: "p'am jay nay", translation: "having overcome" },
+            {
+              tibetan: "ཐོབ་ནས་",
+              phonetics: "t'ob nay",
+              translation: "having reached",
+            },
+            {
+              tibetan: "ཉེས་པའི་",
+              phonetics: "nyay pay",
+              translation: "faults",
+            },
+            {
+              tibetan: "དགྲ་རྣམས་",
+              phonetics: "dra nam",
+              translation: "my enemies",
+            },
+            {
+              tibetan: "ཕམ་བྱས་ནས་",
+              phonetics: "p'am jay nay",
+              translation: "having overcome",
+            },
           ],
         },
         {
@@ -6883,7 +6943,11 @@ export const pratiqueChenrezikEn: PracticeText = {
             { tibetan: "ན་", phonetics: "na", translation: "sickness" },
             { tibetan: "འཆི་", phonetics: "chi", translation: "death" },
             { tibetan: "རྦ་རླབས་", phonetics: "ba lab", translation: "waves" },
-            { tibetan: "འཁྲུག་པ་ཡི་", phonetics: "tr'ook pa yi", translation: "churning" },
+            {
+              tibetan: "འཁྲུག་པ་ཡི་",
+              phonetics: "tr'ook pa yi",
+              translation: "churning",
+            },
           ],
         },
         {
@@ -6891,13 +6955,22 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "སྲིད་པའི་མཚོ་ལས་འགྲོ་བ་སྒྲོལ་བར་ཤོག",
           phonetics: "si pay / ts'o / lay / dro wa / droel war shok",
-          translation: "with its churning waves of birth, old age, sickness and death.",
+          translation:
+            "with its churning waves of birth, old age, sickness and death.",
           words: [
-            { tibetan: "སྲིད་པའི་", phonetics: "si pay", translation: "existence" },
+            {
+              tibetan: "སྲིད་པའི་",
+              phonetics: "si pay",
+              translation: "existence",
+            },
             { tibetan: "མཚོ་", phonetics: "ts'o", translation: "ocean" },
             { tibetan: "ལས་", phonetics: "lay", translation: "from" },
             { tibetan: "འགྲོ་བ་", phonetics: "dro wa", translation: "beings" },
-            { tibetan: "སྒྲོལ་བར་ཤོག་", phonetics: "droel war shok", translation: "may I liberate" },
+            {
+              tibetan: "སྒྲོལ་བར་ཤོག་",
+              phonetics: "droel war shok",
+              translation: "may I liberate",
+            },
           ],
         },
         {
@@ -6907,10 +6980,22 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "jam pal / pa woe / ji tar / khyen pa dang",
           translation: "Just as the hero Manjushri understood,",
           words: [
-            { tibetan: "འཇམ་དཔལ་", phonetics: "jam pal", translation: "Manjushri" },
-            { tibetan: "དཔའ་བོས་", phonetics: "pa woe", translation: "the hero" },
+            {
+              tibetan: "འཇམ་དཔལ་",
+              phonetics: "jam pal",
+              translation: "Manjushri",
+            },
+            {
+              tibetan: "དཔའ་བོས་",
+              phonetics: "pa woe",
+              translation: "the hero",
+            },
             { tibetan: "ཇི་ལྟར་", phonetics: "ji tar", translation: "just as" },
-            { tibetan: "མཁྱེན་པ་དང་", phonetics: "khyen pa dang", translation: "he understood" },
+            {
+              tibetan: "མཁྱེན་པ་དང་",
+              phonetics: "khyen pa dang",
+              translation: "he understood",
+            },
           ],
         },
         {
@@ -6920,9 +7005,17 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "kun too zang po / day yang / day zhin tay",
           translation: "and Samantabhadra too in a similar way,",
           words: [
-            { tibetan: "ཀུན་ཏུ་བཟང་པོ་", phonetics: "kun too zang po", translation: "Samantabhadra" },
+            {
+              tibetan: "ཀུན་ཏུ་བཟང་པོ་",
+              phonetics: "kun too zang po",
+              translation: "Samantabhadra",
+            },
             { tibetan: "དེ་ཡང་", phonetics: "day yang", translation: "too" },
-            { tibetan: "དེ་བཞིན་ཏེ་", phonetics: "day zhin tay", translation: "in a similar way" },
+            {
+              tibetan: "དེ་བཞིན་ཏེ་",
+              phonetics: "day zhin tay",
+              translation: "in a similar way",
+            },
           ],
         },
         {
@@ -6932,9 +7025,21 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "day dak kun gyi / jay soo / dak lob ching",
           translation: "I train myself following the example of all of them",
           words: [
-            { tibetan: "དེ་དག་ཀུན་གྱི་", phonetics: "day dak kun gyi", translation: "of all them" },
-            { tibetan: "རྗེས་སུ་", phonetics: "jay soo", translation: "following their example" },
-            { tibetan: "བདག་སློབ་ཅིང་", phonetics: "dak lob ching", translation: "I train myself" },
+            {
+              tibetan: "དེ་དག་ཀུན་གྱི་",
+              phonetics: "day dak kun gyi",
+              translation: "of all them",
+            },
+            {
+              tibetan: "རྗེས་སུ་",
+              phonetics: "jay soo",
+              translation: "following their example",
+            },
+            {
+              tibetan: "བདག་སློབ་ཅིང་",
+              phonetics: "dak lob ching",
+              translation: "I train myself",
+            },
           ],
         },
         {
@@ -6945,9 +7050,17 @@ export const pratiqueChenrezikEn: PracticeText = {
           translation: "and make a full dedication of all this virtue.",
           words: [
             { tibetan: "དགེ་བ་", phonetics: "gay wa", translation: "virtue" },
-            { tibetan: "འདི་དག་", phonetics: "di dak", translation: "all this" },
+            {
+              tibetan: "འདི་དག་",
+              phonetics: "di dak",
+              translation: "all this",
+            },
             { tibetan: "ཐམས་ཅད་", phonetics: "t'am chay", translation: "full" },
-            { tibetan: "རབ་ཏུ་བསྔོ་", phonetics: "rab too ngo", translation: "I make a dedication" },
+            {
+              tibetan: "རབ་ཏུ་བསྔོ་",
+              phonetics: "rab too ngo",
+              translation: "I make a dedication",
+            },
           ],
         },
         {
@@ -6958,8 +7071,16 @@ export const pratiqueChenrezikEn: PracticeText = {
           translation: "Through this virtue",
           words: [
             { tibetan: "དགེ་བ་", phonetics: "gay wa", translation: "virtue" },
-            { tibetan: "འདི་ཡིས་", phonetics: "di yi", translation: "through this" },
-            { tibetan: "སྐྱེ་བོ་ཀུན་", phonetics: "kyay wo kun", translation: "everyone" },
+            {
+              tibetan: "འདི་ཡིས་",
+              phonetics: "di yi",
+              translation: "through this",
+            },
+            {
+              tibetan: "སྐྱེ་བོ་ཀུན་",
+              phonetics: "kyay wo kun",
+              translation: "everyone",
+            },
           ],
         },
         {
@@ -6967,12 +7088,29 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "བསོད་ནམས་ཡེ་ཤེས་ཚོགས་རྫོགས་ནས།",
           phonetics: "soe nam / yay shay / ts'ok / dzok nay",
-          translation: "may everyone complete the accumulations of merit and wisdom,",
+          translation:
+            "may everyone complete the accumulations of merit and wisdom,",
           words: [
-            { tibetan: "བསོད་ནམས་", phonetics: "soe nam", translation: "merit" },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "yay shay", translation: "and wisdom" },
-            { tibetan: "ཚོགས་", phonetics: "ts'ok", translation: "the accumulations" },
-            { tibetan: "རྫོགས་ནས་", phonetics: "dzok nay", translation: "may [they] complete" },
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "soe nam",
+              translation: "merit",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yay shay",
+              translation: "and wisdom",
+            },
+            {
+              tibetan: "ཚོགས་",
+              phonetics: "ts'ok",
+              translation: "the accumulations",
+            },
+            {
+              tibetan: "རྫོགས་ནས་",
+              phonetics: "dzok nay",
+              translation: "may [they] complete",
+            },
           ],
         },
         {
@@ -6982,9 +7120,21 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "soe nam / yay shay / lay joong wa",
           translation: "and thereby obtain the two authentic kayas",
           words: [
-            { tibetan: "བསོད་ནམས་", phonetics: "soe nam", translation: "merit" },
-            { tibetan: "ཡེ་ཤེས་", phonetics: "yay shay", translation: "and wisdom" },
-            { tibetan: "ལས་བྱུང་བ་", phonetics: "lay joong wa", translation: "that spring from" },
+            {
+              tibetan: "བསོད་ནམས་",
+              phonetics: "soe nam",
+              translation: "merit",
+            },
+            {
+              tibetan: "ཡེ་ཤེས་",
+              phonetics: "yay shay",
+              translation: "and wisdom",
+            },
+            {
+              tibetan: "ལས་བྱུང་བ་",
+              phonetics: "lay joong wa",
+              translation: "that spring from",
+            },
           ],
         },
         {
@@ -6995,8 +7145,16 @@ export const pratiqueChenrezikEn: PracticeText = {
           translation: "that spring from merit and wisdom.",
           words: [
             { tibetan: "དམ་པ་", phonetics: "dam pa", translation: "authentic" },
-            { tibetan: "སྐུ་གཉིས་", phonetics: "koo nyi", translation: "the two kayas" },
-            { tibetan: "ཐོབ་པར་ཤོག", phonetics: "t'ob par shok", translation: "may [they] obtain" },
+            {
+              tibetan: "སྐུ་གཉིས་",
+              phonetics: "koo nyi",
+              translation: "the two kayas",
+            },
+            {
+              tibetan: "ཐོབ་པར་ཤོག",
+              phonetics: "t'ob par shok",
+              translation: "may [they] obtain",
+            },
           ],
         },
         {
@@ -7004,12 +7162,29 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "སངས་རྒྱས་སྐུ་གསུམ་བརྙེས་པའི་བྱིན་རླབས་དང་།",
           phonetics: "sang gyay / koo soom / nyay pay / jin lab dang",
-          translation: "Through the blessings of the Buddha, master of the three kayas,",
+          translation:
+            "Through the blessings of the Buddha, master of the three kayas,",
           words: [
-            { tibetan: "སངས་རྒྱས་", phonetics: "sang gyay", translation: "the Buddha" },
-            { tibetan: "སྐུ་གསུམ་", phonetics: "koo soom", translation: "three kayas" },
-            { tibetan: "བརྙེས་པའི་", phonetics: "nyay pay", translation: "[having achieved]" },
-            { tibetan: "བྱིན་རླབས་དང་", phonetics: "jin lab dang", translation: "through their blessings" },
+            {
+              tibetan: "སངས་རྒྱས་",
+              phonetics: "sang gyay",
+              translation: "the Buddha",
+            },
+            {
+              tibetan: "སྐུ་གསུམ་",
+              phonetics: "koo soom",
+              translation: "three kayas",
+            },
+            {
+              tibetan: "བརྙེས་པའི་",
+              phonetics: "nyay pay",
+              translation: "[having achieved]",
+            },
+            {
+              tibetan: "བྱིན་རླབས་དང་",
+              phonetics: "jin lab dang",
+              translation: "through their blessings",
+            },
           ],
         },
         {
@@ -7017,12 +7192,29 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "ཆོས་ཉིད་མི་འགྱུར་བདེན་པའི་བྱིན་རླབས་དང་།",
           phonetics: "choe nyi / min gyoor / den pay / jin lab dang",
-          translation: "through the blessings of the Dharmata, unchanging truth,",
+          translation:
+            "through the blessings of the Dharmata, unchanging truth,",
           words: [
-            { tibetan: "ཆོས་ཉིད་", phonetics: "choe nyi", translation: "Dharmata" },
-            { tibetan: "མི་འགྱུར་", phonetics: "min gyoor", translation: "unchanging" },
-            { tibetan: "བདེན་པའི་", phonetics: "den pay", translation: "truth" },
-            { tibetan: "བྱིན་རླབས་དང་", phonetics: "jin lab dang", translation: "through their blessings" },
+            {
+              tibetan: "ཆོས་ཉིད་",
+              phonetics: "choe nyi",
+              translation: "Dharmata",
+            },
+            {
+              tibetan: "མི་འགྱུར་",
+              phonetics: "min gyoor",
+              translation: "unchanging",
+            },
+            {
+              tibetan: "བདེན་པའི་",
+              phonetics: "den pay",
+              translation: "truth",
+            },
+            {
+              tibetan: "བྱིན་རླབས་དང་",
+              phonetics: "jin lab dang",
+              translation: "through their blessings",
+            },
           ],
         },
         {
@@ -7030,12 +7222,29 @@ export const pratiqueChenrezikEn: PracticeText = {
           type: "normal",
           tibetan: "དགེ་འདུན་མི་ཕྱེད་འདུན་པའི་བྱིན་རླབས་ཀྱིས།",
           phonetics: "ge ndun / mi chay / dun pay / jin lab kyi",
-          translation: "through the blessings of the Sangha whose aspiration is undivided,",
+          translation:
+            "through the blessings of the Sangha whose aspiration is undivided,",
           words: [
-            { tibetan: "དགེ་འདུན་", phonetics: "ge ndun", translation: "the Sangha" },
-            { tibetan: "མི་ཕྱེད་", phonetics: "mi chay", translation: "undivided" },
-            { tibetan: "འདུན་པའི་", phonetics: "dun pay", translation: "aspiration" },
-            { tibetan: "བྱིན་རླབས་ཀྱིས་", phonetics: "jin lab kyi", translation: "through their blessings" },
+            {
+              tibetan: "དགེ་འདུན་",
+              phonetics: "ge ndun",
+              translation: "the Sangha",
+            },
+            {
+              tibetan: "མི་ཕྱེད་",
+              phonetics: "mi chay",
+              translation: "undivided",
+            },
+            {
+              tibetan: "འདུན་པའི་",
+              phonetics: "dun pay",
+              translation: "aspiration",
+            },
+            {
+              tibetan: "བྱིན་རླབས་ཀྱིས་",
+              phonetics: "jin lab kyi",
+              translation: "through their blessings",
+            },
           ],
         },
         {
@@ -7045,10 +7254,26 @@ export const pratiqueChenrezikEn: PracticeText = {
           phonetics: "ji tar / ngo wa / moen lam / droob par shok",
           translation: "may my dedication and wishes be fulfilled accordingly.",
           words: [
-            { tibetan: "ཇི་ལྟར་", phonetics: "ji tar", translation: "accordingly" },
-            { tibetan: "བསྔོ་བ་", phonetics: "ngo wa", translation: "my dedication" },
-            { tibetan: "སྨོན་ལམ་", phonetics: "moen lam", translation: "and wishes" },
-            { tibetan: "འགྲུབ་པར་ཤོག", phonetics: "droob par shok", translation: "may [they] be fulfilled" },
+            {
+              tibetan: "ཇི་ལྟར་",
+              phonetics: "ji tar",
+              translation: "accordingly",
+            },
+            {
+              tibetan: "བསྔོ་བ་",
+              phonetics: "ngo wa",
+              translation: "my dedication",
+            },
+            {
+              tibetan: "སྨོན་ལམ་",
+              phonetics: "moen lam",
+              translation: "and wishes",
+            },
+            {
+              tibetan: "འགྲུབ་པར་ཤོག",
+              phonetics: "droob par shok",
+              translation: "may [they] be fulfilled",
+            },
           ],
         },
       ],

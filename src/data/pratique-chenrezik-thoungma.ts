@@ -979,7 +979,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
     },
     {
       id: "ch-visualisation",
-      title: "Visualisation",
+      title: "Création de la divinité - ལྷ་བསྐྱེད་ནི།",
       phrases: [
         {
           id: "ch-vis-anim",
@@ -989,14 +989,6 @@ export const pratiqueChenrezikThoungma: PracticeText = {
           translation: "",
           words: [],
           src: "/animation/visuChenrezik.mp4",
-        },
-        {
-          id: "ch-vis-instr",
-          type: "instructions",
-          tibetan: "༄༅། །ལྷ་བསྐྱེད་ནི།",
-          phonetics: "",
-          translation: "Création de la divinité:",
-          words: [],
         },
         {
           id: "ch-vis-1",
@@ -2782,12 +2774,12 @@ export const pratiqueChenrezikThoungma: PracticeText = {
             {
               tibetan: "མཐུ་ཆེན་",
               phonetics: "t'ou tchen",
-              translation: "aux grands pouvoirs",
+              translation: "de grands pouvoirs",
             },
             {
               tibetan: "ཐོབ་རྣམས་ལ་",
               phonetics: "t'op nam la",
-              translation: "qui êtes",
+              translation: "doté",
             },
           ],
         },
@@ -3166,7 +3158,7 @@ export const pratiqueChenrezikThoungma: PracticeText = {
             {
               tibetan: "འཕེལ་གྱུར་ཅིག་",
               phonetics: "pel gyour tchik",
-              translation: "que [ils] fleurissent",
+              translation: "qu'ils fleurissent",
             },
           ],
         },
