@@ -2,7 +2,16 @@ import type { PracticeText, Phrase } from "../types";
 import { louange12Actes } from "./louange-12-actes";
 import { aspirationsConduiteExcellente } from "./aspirations-conduite-excellente";
 
-const sevenBranchIds = ["ace-1", "ace-2", "ace-3", "ace-4", "ace-5", "ace-6", "ace-7", "ace-8"];
+const sevenBranchIds = [
+  "ace-1",
+  "ace-2",
+  "ace-3",
+  "ace-4",
+  "ace-5",
+  "ace-6",
+  "ace-7",
+  "ace-8",
+];
 
 const septBranchesSections = [
   ...aspirationsConduiteExcellente.sections
@@ -2158,7 +2167,7 @@ export const sojong: PracticeText = {
             { tibetan: "འཕགས་པ་", phonetics: "p'ak pa", translation: "noble" },
             {
               tibetan: "སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
-              phonetics: "tchen ré zi wang la",
+              phonetics: "tchen ré zi wang tchouk la",
               translation: "Avalokiteshvara",
             },
             {

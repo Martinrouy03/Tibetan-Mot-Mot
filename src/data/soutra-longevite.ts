@@ -332,13 +332,13 @@ export const soutraLongevite: PracticeText = {
               translation: "qualités",
             },
             {
-              tibetan: "དཔག་ཏུ་མེད་པ་",
-              phonetics: "pak tou mé pa",
+              tibetan: "དཔག་ཏུ་མེད་པ་ལ་",
+              phonetics: "pak tou mé pa la",
               translation: "incommensurables",
             },
             {
-              tibetan: "ལ་སོགས་པ་",
-              phonetics: "la sok pa",
+              tibetan: "སོགས་པ་",
+              phonetics: "sok pa",
               translation: "accumulation",
             },
             {
@@ -1238,14 +1238,19 @@ export const soutraLongevite: PracticeText = {
               translation: "le monde",
             },
             {
-              tibetan: "ཡོན་ཏན་དཔག་ཏུ་མེད་པ་",
-              phonetics: "yeun ten pak tou mé pa",
-              translation: "Accumulation de qualités incommensurables",
+              tibetan: "ཡོན་ཏན་་",
+              phonetics: "yeun ten",
+              translation: "qualités",
             },
             {
-              tibetan: "ལ་སོགས་པར་",
-              phonetics: "la sok par",
-              translation: "et autres",
+              tibetan: "དཔག་ཏུ་མེད་པ་ལ་",
+              phonetics: "pak tou mé pa la",
+              translation: "incommensurables",
+            },
+            {
+              tibetan: "སོགས་པར་",
+              phonetics: "sok par",
+              translation: "accumulation",
             },
             {
               tibetan: "སྐྱེ་བར་འགྱུར་རོ་",

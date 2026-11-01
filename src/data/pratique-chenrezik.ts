@@ -2181,7 +2181,7 @@ export const pratiqueChenrezik: PracticeText = {
     },
     {
       id: "ch-visualisation",
-      title: "Création de la divinité - །ལྷ་བསྐྱེད་ནི།",
+      title: "Création de la divinité - ལྷ་བསྐྱེད་ནི།",
       phrases: [
         {
           id: "ch-vis-anim",
@@ -3081,7 +3081,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "ཇི་སྲིད་",
               phonetics: "dji si",
-              translation: "Tant que",
+              translation: "tant que",
             },
             {
               tibetan: "མ་སྟོངས་བར།།",
@@ -3111,7 +3111,7 @@ export const pratiqueChenrezik: PracticeText = {
             {
               tibetan: "ཐུགས་རྗེ་ཡིས།།",
               phonetics: "touk jé yi",
-              translation: "Par compassion",
+              translation: "par compassion",
             },
           ],
         },
@@ -4386,9 +4386,14 @@ export const pratiqueChenrezik: PracticeText = {
               translation: "dans les dix directions",
             },
             {
-              tibetan: "རྒྱས་པར་ཤོག",
-              phonetics: "gyé par chok",
+              tibetan: "རྒྱས་པར་",
+              phonetics: "gyé par",
               translation: "diffuser",
+            },
+            {
+              tibetan: "ཤོག",
+              phonetics: "chok",
+              translation: "puissé-je",
             },
           ],
         },

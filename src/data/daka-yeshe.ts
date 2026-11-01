@@ -889,13 +889,13 @@ export const dakaYeshe: PracticeText = {
               translation: "le bodhisattva",
             },
             {
-              tibetan: "ནམ་མཁའི་སྙིང་པོ་",
-              phonetics: "nam k'aï nying po",
+              tibetan: "ནམ་མཁའི་སྙིང་པོ་ལ་",
+              phonetics: "nam k'aï nying po la",
               translation: "Akashagarba",
             },
             {
-              tibetan: "ལ་སོགས་པའི་",
-              phonetics: "la sok pai",
+              tibetan: "སོགས་པའི་",
+              phonetics: "sok pai",
               translation: "ainsi que",
             },
             {
