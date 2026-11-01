@@ -1886,6 +1886,54 @@ export default function TextPage() {
               Vajrasattva →
             </button>
           )}
+          {textId === "aspirations-conduite-excellente" && (
+            <button
+              className="nav-btn"
+              onClick={() => {
+                dispatch(setSelectedPhrase(null));
+                window.scrollTo(0, 0);
+                navigate("/text/vajravidharana");
+              }}
+            >
+              Vajravidharana →
+            </button>
+          )}
+          {textId === "vajravidharana" && (
+            <button
+              className="nav-btn"
+              onClick={() => {
+                dispatch(setSelectedPhrase(null));
+                window.scrollTo(0, 0);
+                navigate("/text/coeur-prajnaparamita");
+              }}
+            >
+              Coeur de la Prajnaparamita →
+            </button>
+          )}
+          {textId === "coeur-prajnaparamita" && (
+            <button
+              className="nav-btn"
+              onClick={() => {
+                dispatch(setSelectedPhrase(null));
+                window.scrollTo(0, 0);
+                navigate("/text/daka-yeshe");
+              }}
+            >
+              Soutra de la sagesse du moment de la mort →
+            </button>
+          )}
+          {textId === "daka-yeshe" && (
+            <button
+              className="nav-btn"
+              onClick={() => {
+                dispatch(setSelectedPhrase(null));
+                window.scrollTo(0, 0);
+                navigate("/text/trois-amoncellements");
+              }}
+            >
+              Soutra des trois amoncellements →
+            </button>
+          )}
           {textId === "vajrasattva" && (
             <button
               className="nav-btn"
