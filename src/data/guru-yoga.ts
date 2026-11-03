@@ -1044,7 +1044,7 @@ export const guruYoga: PracticeText = {
           phonetics: "",
           translation: "",
           words: [],
-          src: "/guruyoga_gk16.jpg",
+          src: "/gk16_luminous.jpg",
         },
         {
           id: "gy-5-2",

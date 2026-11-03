@@ -387,7 +387,7 @@ export const vajrasattva: PracticeText = {
           phonetics: "",
           translation: "",
           words: [],
-          src: "/vajrasattva.jpg",
+          src: "/vajrasattva_luminous.jpg",
         },
         {
           id: "vs-3-6",
