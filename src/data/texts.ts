@@ -28,6 +28,7 @@ import { pratiqueChenrezikEn } from "./pratique-chenrezik-en";
 import { pratiqueChenrezikKibiEn } from "./pratique-chenrezik-kibi-en";
 import { longLifePrayersEn } from "./long-life-prayers-en";
 import { mahakalaEn } from "./mahakala-en";
+import { refuge } from "./refuge";
 
 const lojong7Points: PracticeText = {
   id: "lojong-7-points",
@@ -38,6 +39,7 @@ const lojong7Points: PracticeText = {
 };
 
 export const textesPratique: PracticeText[] = [
+  { ...refuge, lang: "fr", baseId: "refuge" },
   { ...pratiqueChenrezik, lang: "fr", baseId: "pratique-chenrezik" },
   pratiqueChenrezikEn,
   {
